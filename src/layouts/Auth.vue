@@ -24,20 +24,6 @@
     // import Login from '../views/auth/Login.vue';
     export default {
         name: 'LayoutAuth',
-
-        // created () {
-        //     const languageCode = this.$route.query?.lang;
-
-        //     if (languageCode) {
-        //         this.$store.dispatch('localization/changeLanguage', languageCode);
-
-        //         const query = _.cloneDeep(this.$route.query);
-
-        //         _.unset(query, 'lang');
-
-        //         this.$router.replace({ query });
-        //     }
-        // },
     };
 </script>
 
