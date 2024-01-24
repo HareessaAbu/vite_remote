@@ -1,19 +1,19 @@
 <template>
     <v-app>
         <core-view>
-            <v-container class="background-gradient" fill-height fluid>
-                <v-layout align-center justify-center>
+            <v-container class="background-gradient" style="height: 100vh; padding-top: 100px;" fluid>
+                <v-row justify="center">
                     <router-view />
                         <!-- <v-slide-y-reverse-transition leave-absolute>
                             <component :is="Component" />
                         </v-slide-y-reverse-transition> -->
                     <!-- </router-view> -->
-                </v-layout>
+                </v-row>
             </v-container>
         </core-view>
 
         <core-footer>
-            Paythr © {{ new Date().getFullYear() }} Alle rechten voorbehouden
+            Example © {{ new Date().getFullYear() }} Alle rechten voorbehouden
         </core-footer>
 
         <core-snackbar />

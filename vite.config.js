@@ -58,9 +58,9 @@ export default defineConfig({
             name: 'LoginForm',
             import: './src/components/forms/auth/LoginForm.vue',
           },
-          './LoginForm2': {
-            name: 'LoginForm2',
-            import: './src/components/forms/auth/LoginForm2.vue',
+          './Hello': {
+            name: 'Hello',
+            import: './src/Hello.vue',
           },
         },
         shared: {

@@ -10,7 +10,6 @@
 
             <v-col class="shrink">
                 <v-card-title class="primary--text text-no-wrap">
-                    <!-- {{ $t('auth.pages.login') }} -->
                     Login
                 </v-card-title>
             </v-col>
@@ -29,13 +28,10 @@
 </template>
 
 <script>
-    // import AppLanguageSelect from '@/components/AppLanguageMenu';
-    import LoginForm from '@/components/forms/auth/LoginForm2';
+    import LoginForm from '@/components/forms/auth/LoginForm';
 
     export default {
         name: 'Login',
-
-        // components: { LoginForm, AppLanguageSelect },
 
         components: { LoginForm },
 
