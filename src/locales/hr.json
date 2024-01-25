@@ -1,0 +1,2466 @@
+{
+    "auth": {
+        "actions": {
+            "backToLogin": "Natrag na prijavu",
+            "forgotPassword": "Zaboravljena lozinka",
+            "login": "Prijava",
+            "resetPassword": "Ponovno postavi lozinku",
+            "updatePassword": "Ažuriraj lozinku",
+            "logout": "Odjava",
+            "leaveImpersonation": "Napusti oponašanje",
+            "deactivate": "Deaktiviraj",
+            "changePassword": "Promijeni lozinku",
+            "reactivate": "Ponovno aktiviraj"
+        },
+        "static": {
+            "forgotPasswordSuccess": "Poslana poveznica za ponovno postavljanje lozinke",
+            "accountActivationSuccess": "Račun aktiviran",
+            "email": "E-pošta",
+            "forgotPasswordSuccessDescription": "Poslali smo vam e-poruku s poveznicom za ponovno postavljanje vaše lozinke.",
+            "passwordResetSuccess": "Lozinka ponovno postavljena",
+            "logoutConfirmationText": "Jeste li sigurni da se želite odjaviti?",
+            "registrationSuccessful": "Registracija uspješna",
+            "leaveImpersonationConfirmationText": "Jeste li sigurni da želite napustiti oponašanje?",
+            "passwordUpdated": "Lozinka je ažurirana.",
+            "userDeactivated": "Korisnik je deaktiviran.",
+            "mobileDashboardOrderUpdated": "Redoslijed mobilne nadzorne ploče je ažuriran.",
+            "tokenExpired": "Token istekao",
+            "tokenExpiredInfo": "Odjavljeni ste jer je vaš token za provjeru autentičnosti istekao. Za nastavak se prijavite pomoću svojih vjerodajnica.",
+            "authenticated": "Prijavljeni ste!",
+            "userReactivated": "Korisnik je ponovno aktiviran."
+        },
+        "pages": {
+            "forgotPassword": "Zaboravljena lozinka",
+            "login": "Prijava",
+            "setPassword": "Postavi lozinku",
+            "activateAccount": "Aktiviraj račun"
+        }
+    },
+    "timeRegistration": {
+        "static": {
+            "compensations": "Kompenzacije",
+            "deductionDescriptiveText": "Opisni tekst odbitka...",
+            "compensationDescriptiveText": "Opisni tekst kompenzacije...",
+            "uploadDeductionAttachment": "Učitaj prilog odbitka",
+            "week": "Tjedan",
+            "amount": "Iznos",
+            "hours": "Sati",
+            "project": "Projekt",
+            "location": "Lokacija",
+            "notes": "Bilješke",
+            "payOut": "Isplata",
+            "hourType": "Vrsta sati",
+            "date": "Datum",
+            "from": "Od",
+            "to": "Do",
+            "kilometers": "Kilometri",
+            "reservationDescriptiveText": "Opisni tekst rezervacije...",
+            "reservation": "Rezervacija",
+            "currentState": "Trenutno stanje",
+            "newState": "Novo stanje",
+            "reservations": "Rezervacije",
+            "chargeTo": "Naplati",
+            "deleteKilometersConfirmationText": "Jeste li sigurni da želite to izbrisati?",
+            "maxDistance": "Maksimalna udaljenost",
+            "deduction": "Odbitak",
+            "deductionAmount": "Iznos odbitka",
+            "deductionAttachment": "Prilog odbitka",
+            "selectADeduction": "Odaberi odbitak",
+            "attachmentNotRequired": "Prilog nije potreban",
+            "deductions": "Odbici",
+            "travelType": "Vrsta putovanja",
+            "invoiceCreated": "Račun napravljen",
+            "invoiceAlreadySaved": "Taj račun već je spremljen.",
+            "compensation": "Kompenzacija",
+            "deployed": "Raspoređeno",
+            "staff": "Osoblje",
+            "companies": "Tvrtke",
+            "function": "Funkcija",
+            "freelancers": "Samostalni djelatnici",
+            "invoicingFailed": "Nismo uspjeli izraditi račune.",
+            "status": "Status",
+            "employmentIsInactiveText": "Ovo zaposlenje nije aktivno u odabranom razdoblju.",
+            "jobIsInactiveText": "Ovaj posao nije aktivan u odabranom razdoblju.",
+            "unlocked": "Razdoblje je otključano.",
+            "unlockFailed": "Nismo uspjeli otključati razdoblje.",
+            "hourInfoText": "Kompenzacije i odbici automatski se preračunavaju prilikom ažuriranja sati.",
+            "deleteTimeRegistrationConfirmationText": "Registracija vremena bit će izbrisana.",
+            "downloadFormatFailed": "Izrada formata nije uspjela.",
+            "import": "Uvoz",
+            "validationFailed": "Provjera valjanosti nije uspjela",
+            "importSuccessful": "Uvoz je bio uspješan",
+            "shouldNotSendWithInvoice": "Nemojte slati s računom",
+            "copyFailed": "Nismo uspjeli kopirati red.",
+            "returnTravelSaved": "Povratno je putovanje spremljeno.",
+            "travelDeleted": "Putovanje je izbrisano.",
+            "importStarted": "Uvoz je započeo. Ovisno o veličini, može potrajati nekoliko minuta.",
+            "timeRegistrationsDeleted": "Registracije vremena obrisane su.",
+            "hourDeleted": "Sati su izbrisani.",
+            "travelSaved": "Putovanje je spremljeno.",
+            "travelDuplicated": "Putovanje je udvostručeno.",
+            "creatingInvoicesStatusText": "Računi su u izradi. Nakon što se taj proces obavi, računi se mogu vidjeti ovdje.",
+            "deleteTimeRegistrationsConfirmationText": "Jeste li sigurni da želite obrisati odabrane registracije vremena?",
+            "compensationDeleted": "Naknada je izbrisana.",
+            "creatingInvoicesInfo": "Računi su predviđeni za izradu.",
+            "noOutstandingTimeRegistrationsFound": "Nije pronađena nijedna registracija preostalog vremena.",
+            "autoCalculateDeductionsInfo": "Ako je ova opcija omogućena, nepodmireni odbici automatski će se ponovno izračunati prilikom registracije sati ili generiranja računa.",
+            "noRegistrationsFound": "Nisu pronađene registracije.",
+            "someHoursNotCopied": "Neke registracije sati nisu se mogle kopirati jer nedostaje vrsta sati.",
+            "hoursCopied": "Sati su kopirani.",
+            "someTravelsNotCopied": "Neke registracije putovanja nisu se mogle kopirati jer nedostaje vrsta putovanja.",
+            "travelsCopied": "Putovanja su kopirana."
+        },
+        "actions": {
+            "cao": "CAO",
+            "duplicateReturnTravel": "Povratno putovanje",
+            "duplicateKilometerRow": "Udvostruči red",
+            "editHours": "Uredi sate",
+            "addRow": "Dodaj red",
+            "uploadKilometerAccountability": "Učitaj kilometre koji ulaze u obzir",
+            "invoice": "Račun",
+            "correction": "Ispravak",
+            "saveInvoice": "Spremi račun",
+            "copyPreviousPeriod": "Kopiraj prethodno razdoblje",
+            "receipts": "Priznanice",
+            "uploadAttachments": "Učitaj priloge",
+            "deployed": "Raspoređen",
+            "staff": "Osoblje",
+            "add": "Dodaj",
+            "closePeriod": "Zatvori razdoblje",
+            "unlock": "Otključaj",
+            "autoCalculate": "Automatski izračunaj",
+            "viewHours": "Prikaži sate",
+            "previewInvoice": "Pregled računa",
+            "viewInvoice": "Prikaži račun",
+            "generateInvoice": "Generiraj račun",
+            "deleteInvoice": "Izbriši račun",
+            "excel": "Excel",
+            "downloadFormat": "Preuzmi format",
+            "upload": "Učitaj",
+            "import": "Uvoz",
+            "createTimeRegistration": "Napravite registraciju vremena",
+            "saveInvoices": "Spremi račune",
+            "selectLockable": "Odaberi sve",
+            "deselectAll": "Poništi izbor svega",
+            "copyFromEmployee": "Kopiraj od drugog zaposlenika",
+            "copyFromFreelancer": "Kopiraj od drugog freelancera"
+        },
+        "tabs": {
+            "compensations": "Kompenzacije",
+            "hours": "Sati",
+            "kilometers": "Kilometri",
+            "reservations": "Rezervacije",
+            "deductions": "Odbici"
+        }
+    },
+    "hourType": {
+        "static": {
+            "timeForTime": "Vrijeme za vrijeme",
+            "unit": "Jedinica",
+            "employeesWithoutAccess": "Zaposlenici bez pristupa",
+            "name": "Ime",
+            "value": "Vrijednost",
+            "employeesWithAccess": "Zaposlenici s pristupom",
+            "employeeHasHourTypeOverrides": "Zaposlenik ima izmjene vrsta sati",
+            "hourType": "Vrsta sati",
+            "saved": "Spremljeno",
+            "default": "Zadani sati",
+            "deleted": "Izbrisano",
+            "caoSurcharges": "Doplate za CAO-a",
+            "timeForTimeDisabled": "Vrijeme za vrijeme onemogućeno",
+            "timeForTimeEnabled": "Vrijeme za vrijeme omogućeno",
+            "hint": "Savjet",
+            "frequency": "Učestalost",
+            "none": "Nema",
+            "type": "Vrsta",
+            "defaultForNewEmployee": "Zadano za novog zaposlenika",
+            "defaultForNewEmployeeUpdated": "Ažurirane zadane vrste sati za novog zaposlenika",
+            "desiredNetSalary": "Željena neto plaća",
+            "difference": "Razlika",
+            "hourTypes": "Vrste sati",
+            "useDesiredNetSalary": "Upotrijebi željenu neto plaću",
+            "actualNetSalary": "Stvarna neto plaća",
+            "chargeTo": "Naplati"
+        },
+        "actions": {
+            "grantAccessToAll": "Odobri pristup svima",
+            "disableTimeForTimeForAll": "Onemogući vrijeme za vrijeme za sve",
+            "takeAccessFromAll": "Prihvati pristup od svih",
+            "enableTimeForTimeForAll": "Omogući vrijeme za vrijeme za sve"
+        }
+    },
+    "general": {
+        "static": {
+            "dashboard": "Nadzorna ploča",
+            "accountHolder": "Vlasnik računa",
+            "address": "Adresa",
+            "company": "Tvrtka",
+            "companyInformation": "Podaci o tvrtki",
+            "contact": "Kontakt",
+            "contactInformation": "Podaci o kontaktu",
+            "email": "E-pošta",
+            "authorizedSignatory": "Ovlašteni potpisnik",
+            "birthdate": "Datum rođenja",
+            "birthplace": "Mjesto rođenja",
+            "cao": "CAO",
+            "category": "Kategorija",
+            "citizenServiceNumber": "Jedinstveni broj građana",
+            "country": "Država",
+            "countryOfBirth": "Država rođenja",
+            "createContact": "Napravi kontakt",
+            "creditLimit": "Kreditno ograničenje",
+            "currentEmployments": "Trenutna zaposlenja",
+            "documentNumber": "Broj dokumenta",
+            "documents": "Dokumenti",
+            "documentTemplates": "Predlošci dokumenta",
+            "employeeApprovalFail": "Odobrenje zaposlenika nije uspjelo.",
+            "employeeApprovalSuccess": "Uspješno odobren zaposlenik.",
+            "employeeCreationSuccess": "Uspješno napravljen zaposlenik.",
+            "employees": "Zaposlenici",
+            "employment": "Zaposlenje",
+            "employmentAgencies": "Agencije za zapošljavanje",
+            "employmentAgencyApprovalFail": "Odobrenje agencije za zapošljavanje nije uspjelo.",
+            "employmentAgencyApprovalSuccess": "Uspješno odobrena agencija za zapošljavanje.",
+            "etRegulation": "Uredba ET",
+            "factor": "Čimbenik",
+            "files": "Datoteke",
+            "financialInformation": "Financijski podaci",
+            "firstName": "Ime",
+            "gender": "Spol",
+            "hi": "Pozdrav, {user}",
+            "hirer": "Poslodavac",
+            "hirerApprovalSuccess": "Poslodavac uspješno odobren.",
+            "hirerCreationSuccess": "Poslodavac uspješno napravljen.",
+            "hirers": "Poslodavci",
+            "iban": "IBAN",
+            "identityType": "Vrsta identiteta",
+            "identityValidUntil": "Identitet vrijedi do",
+            "initials": "Inicijali",
+            "invite": "Pozovi",
+            "lastName": "Prezime",
+            "id": "ID",
+            "invoices": "Računi",
+            "language": "Jezik",
+            "name": "Ime",
+            "phone": "Telefon",
+            "postalAddress": "Poštanska adresa",
+            "search": "Traži",
+            "visitAddress": "Posjeti adresu",
+            "yes": "Da",
+            "no": "Ne",
+            "legalForm": "Pravni oblik",
+            "log": "Evidencija",
+            "middleName": "Srednje ime",
+            "none": "Nema",
+            "notApplicable": "Nije primjenjivo",
+            "notes": "Bilješke",
+            "personalData": "Osobni podaci",
+            "residenceAddress": "Adresa prebivališta",
+            "sbiCodes": "Kodovi SBI",
+            "settings": "Postavke",
+            "takeOverFromHirer": "Preuzmi od poslodavca",
+            "timeForTime": "Vrijeme za vrijeme",
+            "vatNumber": "PDV broj",
+            "timeRegistration": "Registracija vremena",
+            "percentage": "Postotak",
+            "euro": "Euro",
+            "employeeType": "Vrsta zaposlenika",
+            "employmentDate": "Datum zaposlenja",
+            "terminationDate": "Datum završetka",
+            "payrollTaxReduction": "Smanjenje poreza na platnu listu",
+            "contractPhase": "Faza ugovora",
+            "payOutFrequency": "Učestalost isplate",
+            "contractHours": "Ugovorni sati",
+            "participantEtRegulation": "Sudionik uredbe ET?",
+            "startDate": "Datum početka",
+            "homewardTravelCost": "Troškovi putovanja kući",
+            "homewardTravelFrequency": "Učestalost putovanja kući",
+            "factorEtRegulation": "Čimbenik uredbe ET",
+            "factorOvertime": "Čimbenik prekovremenog rada",
+            "vatTariff": "PDV tarifa",
+            "invoiceEmail": "E-pošta za račun",
+            "city": "Grad",
+            "employer": "Poslodavac",
+            "factoringCompanies": "Tvrtke za faktoring",
+            "enterprises": "Poduzeća",
+            "employee": "Zaposlenik",
+            "enabled": "Omogućeno",
+            "webhooks": "Web-kuke",
+            "period": "Razdoblje",
+            "nr": "Br.",
+            "exports": "Izvozi",
+            "chamberOfCommerceNumber": "Broj gospodarske komore",
+            "deleteFailed": "Nešto je pošlo po zlu, molimo kontaktirajte nas ako se problem nastavi.",
+            "employmentAgency": "Agencija za zapošljavanje",
+            "employmentAgencyCreationSuccess": "Uspješno napravljena agencija za zapošljavanje.",
+            "hirerApprovalFail": "Nije uspjelo odobrenje poslodavca.",
+            "maritalStatus": "Bračni status",
+            "splitMargin": "Podijeli maržu",
+            "homewardTravelDistance": "Udaljenost putovanja do kuće",
+            "factoringCompany": "Tvrtka za faktoring",
+            "addressInformation": "Podaci o adresi",
+            "confirmationQuestion": "Jeste li sigurni?",
+            "invoiceEmailCc": "Račun CC",
+            "freelancer": "Samostalni djelatnik",
+            "freelancerCreationSuccess": "Uspješno napravljen samostalni djelatnik",
+            "travelHours": "Sati putovanja",
+            "link": "Poveznica",
+            "originalValue": "Izvorna vrijednost",
+            "total": "Ukupno",
+            "cancel": "Otkaži",
+            "enterprise": "Poduzeće",
+            "date": "Datum",
+            "freelancers": "Samostalni djelatnici",
+            "hours": "Sati",
+            "payslip": "Platna lista",
+            "timesheet": "Vremenska tablica",
+            "reservations": "Rezervacije",
+            "imports": "Uvozi",
+            "billedAt": "Naplaćeno u",
+            "attachments": "Prilozi",
+            "freelancerApprovalSuccess": "Uspješno odobren samostalni djelatnik",
+            "freelancerApprovalFail": "Nije uspjelo odobrenje samostalnog zaposlenika",
+            "account": "Račun",
+            "overtime": "Prekovremeno",
+            "surcharge": "Doplata",
+            "shiftWorkSurcharge": "Doplata za rad u smjenama",
+            "sepaId": "ID SEPA-e",
+            "users": "Korisnici",
+            "permissions": "Dopuštenja",
+            "user": "Korisnik",
+            "newContact": "Novi kontakt",
+            "employmentCreationSuccess": "Uspješno napravljeno zaposlenje",
+            "km": "KM",
+            "resultsCount": "{count} rezultata",
+            "sendPayslips": "Pošalji platne liste",
+            "factorSenior": "Čimbenik seniora",
+            "workTimeReductionDays": "Dani sa skraćenim radnim vremenom",
+            "housingCost": "Cijena stanovanja",
+            "costOfLivingAllowance": "Naknada za troškove života",
+            "phase": "Faza",
+            "stipp": "Stipp",
+            "weeksWorked": "Tjedni rada",
+            "translations": "Prijevodi",
+            "subjects": "Teme",
+            "outOfServiceDate": "Datum isteka rada",
+            "outOfServiceReason": "Razlog isteka rada",
+            "accountNumber": "Broj računa",
+            "createdAt": "Napravljeno u",
+            "filters": "Filtri",
+            "startsAt": "Počinje u",
+            "endsAt": "Završava u",
+            "year": "Godina",
+            "sendFailed": "Slanje nije uspjelo",
+            "note": "Napomena",
+            "createdBy": "Korisnik",
+            "createNote": "Napravi napomenu",
+            "seniorDays": "Dani seniora",
+            "timeRegistrationIsNotEnabledText": "Registracija vremena nije omogućena.",
+            "workHours": "Radni sati",
+            "workStartTime": "Vrijeme početka rada",
+            "workEndTime": "Vrijeme završetka rada",
+            "holidaySurcharge": "Doplata za odmor",
+            "sickReports": "Izvještaji o bolovanju",
+            "start": "Početak",
+            "end": "Kraj",
+            "maxImageSize": "Slika mora biti manja od {width} x {height} px.",
+            "hint": "Savjet",
+            "outOfServiceEmployeeSuccess": "Zaposlenik je uspješno prijavljen kao izvan službe.",
+            "outOfServiceSuccess": "Uspješan prestanak rada",
+            "createFailed": "Nismo uspjeli spremiti taj zapis.",
+            "updateFailed": "Nismo uspjeli spremiti taj zapis.",
+            "saveFailed": "Nismo uspjeli spremiti taj zapis.",
+            "archiveSuccess": "Ova je stavka arhivirana.",
+            "archiveFailed": "Nismo uspjeli arhivirati tu stavku.",
+            "location": "Lokacija",
+            "uploadFiles": "Učitaj datoteke",
+            "invoiceCompany": "Tvrtka za račun",
+            "employments": "Zaposlenja",
+            "freelancerJobs": "Poslovi samostalnog djelatnika",
+            "deleteFileConfirmationText": "Jeste li sigurni da želite izbrisati ovu datoteku?",
+            "fromPeriod": "Od razdoblja",
+            "filesUploaded": "Datoteke učitane",
+            "fileUploadFailed": "Neuspjelo učitavanje datoteke",
+            "fileDeleted": "Datoteka izbrisana",
+            "fileDeleteFailed": "Neuspjelo brisanje datoteke",
+            "unarchiveSuccess": "Ova stavka uklonjena je iz arhive.",
+            "unarchiveFailed": "Nismo uspjeli ukloniti tu stavku iz arhive.",
+            "reason": "Razlog",
+            "outOfService": "Prestanak rada",
+            "recentVisitedPages": "Nedavno posjećene stranice pojavit će se ovdje.",
+            "payOutEnterprise": "Isplata poduzeću",
+            "frequency": "Učestalost",
+            "from": "Od",
+            "until": "Do",
+            "download": "Preuzmi",
+            "description": "Opis",
+            "contractStartDate": "Datum početka ugovora",
+            "contractEndDate": "Datum završetka ugovora",
+            "subject": "Tema",
+            "causer": "Uzročnik",
+            "reservationsBuildup": "Gomilanje rezervacija",
+            "seasonalWork": "Sezonski rad",
+            "payslips": "Platne liste",
+            "annualStatements": "Godišnja izvješća",
+            "projects": "Projekti",
+            "correction": "Ispravak",
+            "selectedAmount": "Odabrano ({amount})",
+            "validationFailed": "Provjera valjanosti nije uspjela",
+            "upcomingEmployments": "Predstojeća zapošljavanja",
+            "sharedDocumentTemplates": "Predlošci dijeljenih dokumenata",
+            "companyType": "Vrsta tvrtke",
+            "certificateOfConduct": "Potvrda o ponašanju",
+            "useHirerValue": "Upotrijebi vrijednost poslodavca",
+            "useEmploymentAgencyValue": "Upotrijebi vrijednost agencije za zapošljavanje",
+            "type": "Vrsta",
+            "canNotDeleteEmployeeTitle": "Nije moguće izbrisati",
+            "usingHirerValue": "Upotreba vrijednosti poslodavca",
+            "usingEmploymentAgencyValue": "Upotreba vrijednosti agencije za zapošljavanje",
+            "canNotDeleteEmploymentTitle": "Nije moguće izbrisati",
+            "useParentValue": "Upotrijebi nadređenu vrijednost",
+            "import": "Uvezi",
+            "importHirers": "Uvezi poslodavce",
+            "importSuccessful": "Uvoz uspješan",
+            "loadFailed": "Nismo uspjeli učitati tražene podatke.",
+            "importEmployees": "Uvezi zaposlenike",
+            "importEmployments": "Uvezi zaposlenja",
+            "importFreelancers": "Uvezi freelancere",
+            "importFreelancerJobs": "Uvezi poslove freelancera",
+            "importEntityFailed": "Uvoz nije uspio. Pokušajte osvježiti stranicu i ponovno pokrenite uvoz.",
+            "registration": "Registracija",
+            "owner": "Vlasnik",
+            "marginInvoicePerWeek": "Faktura marže po tjednu",
+            "generateFreelancerDocuments": "Generiraj dokumente freelancera",
+            "generateFreelancerDocumentsInfo": "Kad je ova opcija onemogućena, dokumenti se ne generiraju na kraju čarobnjaka za freelancere.",
+            "healthInsuranceStartDateInfo": "Odbitak za zdravstveno osiguranje bit će dodan na početku svakog tjedna / četiri tjedna / mjeseca (ovisno o učestalosti isplate), sve dok na taj datum postoji aktivno zdravstveno osiguranje.",
+            "currentJobs": "Trenutni poslovi",
+            "upcomingJobs": "Predstojeći poslovi",
+            "isPayOutEnabled": "Isplata omogućena?",
+            "pages": "Stranice",
+            "dashboardOrderMobile": "Red nadzorne ploče za mobitel",
+            "splitPayOutInfo": "Kad je ova opcija omogućena, redovni će sati biti odvojeni od ostalih registracija u izvozu isplata.",
+            "submitForApprovalFailed": "Nismo uspjeli poslati entitet na odobrenje.",
+            "missingRequiredAttributesConfirmText": "Stavka se još ne može poslati na odobrenje jer neka potrebna svojstva nisu popunjena.",
+            "resellerApprovalSuccess": "Uspješno odobren prodavač.",
+            "disablePayOutConfirmationText": "Jeste li sigurni da želite onemogućiti isplatu za ovu registraciju?",
+            "missingRequiredAttributesConfirmTitle": "Nedostaju obavezna polja",
+            "dontSendDocumentsInfo": "Zahtjevi za potpisivanje neće se slati za dokumente koji su ovdje odabrani.",
+            "otherInfo": "Druge informacije",
+            "dontSendDocuments": "Ne šaljite dokumente",
+            "showTotal": "Prikaži ukupno",
+            "saved": "Spremljeno",
+            "fillAll": "Popuni sve",
+            "submitForApprovalConfirmTitle": "Pošalji na odobrenje",
+            "submittedForApproval": "Poslano na odobrenje.",
+            "homeAddress": "Kućna adresa",
+            "notifications": "Obavijesti",
+            "splitPayOut": "Podijeljena isplata",
+            "recurringDeductionInfo": "Ponavljajući odbitak dodat će se na početku svakog tjedna / četiri tjedna / mjeseca (ovisno o učestalosti isplate).",
+            "notYetSubmittedForApproval": "Još nije poslano na odobrenje.",
+            "submitForApprovalConfirmText": "Stavka će biti poslana na odobrenje.",
+            "jobCreationSuccess": "Posao je stvoren.",
+            "variable": "Varijabla",
+            "minimum": "Minimum",
+            "new": "Novo",
+            "resellers": "Prodavači",
+            "resellerCreationSuccess": "Uspješno stvoren prodavač.",
+            "resellerApprovalFail": "Odobrenje prodavača nije uspjelo.",
+            "reseller": "Prodavač",
+            "confirmationImpersonateText": "Jeste li sigurni da želite oponašati ovog korisnika?",
+            "googleLogo": "Googleov logotip",
+            "resultsCountMobile": "Stranica {current} - {total}",
+            "token": "Pristupni token",
+            "personalAccessTokens": "Osobni pristupni tokeni",
+            "teams": "Timovi",
+            "teamPresets": "Početne postavke tima",
+            "defaultValue": "Zadana vrijednost",
+            "unableToDeleteItem": "Nije moguće izbrisati stavku",
+            "messageBox": "Okvir za poruke",
+            "hide": "Sakrij",
+            "contractType": "Vrsta ugovora",
+            "expiresAt": "Istječe",
+            "signRequestSentAt": "Zahtjev za potpisivanje poslan",
+            "signTokenExpiresAt": "Token za potpisivanje istječe u",
+            "receiveNewSignToken": "Primi novi token za potpisivanje",
+            "missingDocumentsAmount": "Broj dokumenata koji nedostaju",
+            "noPermissionForField": "Nema dozvole za gledanje...",
+            "NoPermissionForSegment": "Nemate odgovarajuće dozvole da vidite ovaj segment...",
+            "role": "Uloga",
+            "contactHasNoAccountTooltip": "Ovaj kontakt nema račun",
+            "attachExistingContact": "Priloži postojeći kontakt",
+            "portals": "Portali",
+            "roles": "Uloge",
+            "subsidyCompany": "Subvencijska tvrtka",
+            "workweekHours": "Sati radnog tjedna",
+            "proFormaPayslip": "Platna lista pro forma",
+            "fiscalYearlySalary": "Fiskalna godišnja plaća",
+            "result": "Rezultat",
+            "confirmed": "Potvrđeno",
+            "amount": "Iznos",
+            "automatic": "Automatski",
+            "subsidyCompanies": "Subvencijske tvrtke",
+            "ageHint": "Dob: {age}",
+            "deductionOverviewPerWeek": "Pregled odbitaka po tjednu",
+            "mainContact": "Glavni kontakt",
+            "subsidy": "Subvencija",
+            "details": "Detalji"
+        },
+        "actions": {
+            "cancel": "Otkaži",
+            "confirm": "Potvrdi",
+            "edit": "Uredi",
+            "new": "Novo",
+            "save": "Spremi",
+            "addRow": "Dodaj red",
+            "approve": "Odobri",
+            "delete": "Izbriši",
+            "next": "Sljedeće",
+            "previous": "Prethodno",
+            "saveTranslations": "Spremi prijevode",
+            "skip": "Preskoči",
+            "sendInvitation": "Pošalji poziv",
+            "archive": "Arhiviraj",
+            "viewParentCompany": "Prikaži matičnu tvrtku",
+            "selectAll": "Odaberi sve",
+            "remove": "Ukloni",
+            "add": "Dodaj",
+            "refresh": "Osvježi",
+            "deselectAll": "Poništi sve",
+            "invite": "Pozovi",
+            "create": "Napravi",
+            "linkEnterprise": "Poveži poduzeće",
+            "upload": "Učitaj",
+            "unarchive": "Ukloni iz arhive",
+            "addType": "Dodaj vrstu",
+            "downloadFormat": "Format preuzimanja",
+            "import": "Uvoz",
+            "clearFilters": "Obriši filtre",
+            "deleteSelected": "Izbriši odabrano ({amount})",
+            "close": "Zatvori",
+            "submit": "Pošalji",
+            "continue": "Nastavi",
+            "impersonate": "Oponašaj",
+            "fill": "Ispuni",
+            "ok": "U redu",
+            "editPermissions": "Uredi dozvole",
+            "copyToken": "Kopiraj token",
+            "selectAllFromRole": "Odaberi sve iz uloge",
+            "actions": "Radnje",
+            "attach": "Priloži",
+            "detach": "Odvoji",
+            "calculate": "Izračunaj",
+            "reset": "Ponovno postavi",
+            "editUser": "Uredi korisnika"
+        },
+        "plurals": {
+            "week": "Nema tjedana| {count} tjedan| {count} tjed(a)na",
+            "hour": "Nema sati | {count} sat | {count} sata/i",
+            "month": "Nema mjeseci | {count} mjesec | {count} mjeseca/i",
+            "file": "Nema datoteka | {count} datoteka| {count} datoteka/e"
+        },
+        "tabs": {
+            "splitMargin": "Podijeli maržu",
+            "companyDetails": "Detalji o tvrtki",
+            "contactDetails": "Detalji za kontakt",
+            "contacts": "Kontakti",
+            "details": "Detalji",
+            "documents": "Dokumenti",
+            "hirers": "Poslodavci",
+            "invoices": "Računi",
+            "log": "Evidencija",
+            "notes": "Bilješke",
+            "settings": "Postavke",
+            "hourTypes": "Vrste sati",
+            "compensations": "Kompenzacije",
+            "travelTypes": "Vrste putovanja",
+            "employees": "Zaposlenici",
+            "employments": "Zaposlenja",
+            "hours": "Sati",
+            "reservations": "Rezervacije",
+            "jobs": "Poslovi",
+            "wageAttachments": "Odbici od plaće",
+            "deductions": "Odbici",
+            "projects": "Projekti",
+            "freelancers": "Freelanceri",
+            "tariffs": "Tarife",
+            "margins": "Marže",
+            "customers": "Klijenti",
+            "subsidies": "Subvencije",
+            "user": "Korisnik"
+        },
+        "errors": {
+            "forbidden": "Nemate dovoljno dopuštenja za izvođenje te radnje."
+        },
+        "messages": {
+            "dataUniqueToEnterprise": "Ovi su podaci jedinstveni za poduzeće {enterpriseName}. Kliknite {action} kako biste prepisali te podatke. Podaci koji nisu prepisani preuzet će se od matične tvrtke.",
+            "overriddenValue": "Ova je vrijednost poništena."
+        },
+        "tooltip": {
+            "copyToClipboard": "Kopiraj u međuspremnik"
+        }
+    },
+    "compensation": {
+        "static": {
+            "employeesWithoutAccess": "Zaposlenici bez pristupa",
+            "caoCompensations": "Kompenzacije za CAO-a",
+            "none": "Nema",
+            "employeesWithAccess": "Zaposlenici s pristupom",
+            "employeeHasCompensationOverrides": "Zaposlenik ima promjenu kompenzacije",
+            "name": "Ime",
+            "value": "Vrijednost",
+            "unit": "Jedinica",
+            "compensation": "Kompenzacija",
+            "saved": "Spremljeno",
+            "deleted": "Izbrisano",
+            "hint": "Savjet",
+            "factor": "Čimbenik",
+            "chargeTo": "Naplati",
+            "frequency": "Učestalost",
+            "payOutEnabled": "Isplata omogućena",
+            "isGross": "Je bruto",
+            "defaultForNewEmployee": "Zadano za novog zaposlenika",
+            "defaultForNewEmployeeUpdated": "Ažurirane zadane kompenzacije za novog zaposlenika",
+            "desiredSalaryCompensation": "Željena kompenzacija plaće",
+            "payslipPaymentsDesiredSalaryExplanation": "Prilikom uvoza isplata s platnih lista, ova funkcija stvara kompenzaciju za svakog zaposlenika koji ima željenu plaću (navedenu u uvozu registracije vremena) veću od isplate s platne liste.",
+            "compensations": "Kompenzacije",
+            "checkDesiredSalaryOnPayslipPayments": "Provjeri željenu plaću",
+            "noCompensations": "Nema nadoknada",
+            "deviantFactor": "Čimbenik odstupanja",
+            "salesRate": "Stopa prodaje",
+            "compensationSaved": "Nadoknade su sačuvane.",
+            "enabledCompensationsRecalculatedInfo": "Prilikom omogućavanja nadoknada, one se automatski obračunavaju u svim nepodmirenim registracijama vremena (ako ima registriranih sati)."
+        },
+        "actions": {
+            "takeAccessFromAll": "Prihvati pristup od svih",
+            "grantAccessToAll": "Omogući pristup svima",
+            "addSalesRate": "Dodaj stopu prodaje",
+            "useDeviatingFactor": "Upotrijebi čimbenik odstupanja"
+        }
+    },
+    "travelType": {
+        "static": {
+            "employeeHasTravelTypeOverrides": "Zaposlenik ima promjenu vrste putovanja",
+            "none": "Nema",
+            "name": "Ime",
+            "hint": "Savjet",
+            "value": "Vrijednost",
+            "unit": "Jedinica",
+            "gross": "Bruto",
+            "net": "Neto",
+            "employeesWithoutAccess": "Zaposlenici bez pristupa",
+            "employeesWithAccess": "Zaposlenici s pristupom",
+            "travelType": "Vrsta putovanja",
+            "saved": "Spremljeno",
+            "deleted": "Izbrisano",
+            "caoTravelExpenses": "Putni troškovi CAO-a",
+            "default": "Zadane postavke",
+            "defaultForNewEmployee": "Zadano za novog zaposlenika",
+            "defaultForNewEmployeeUpdated": "Ažurirane zadane vrste putovanja za novog zaposlenika",
+            "noTravels": "Nema putovanja",
+            "chargeTo": "Naplati"
+        },
+        "actions": {
+            "grantAccessToAll": "Omogući pristup svima",
+            "takeAccessFromAll": "Prihvati pristup od svih"
+        }
+    },
+    "hourTypes": {
+        "actions": {
+            "edit": "Uredi"
+        }
+    },
+    "invoice": {
+        "static": {
+            "salesInvoices": "Prodajni računi",
+            "gAccount": "G-račun",
+            "total": "Ukupno",
+            "number": "Broj",
+            "period": "Razdoblje",
+            "salesInvoice": "Prodajni račun",
+            "costsOverview": "Pregled troškova",
+            "marginInvoice": "Račun s maržom",
+            "deductionsOverview": "Pregled odbitaka",
+            "marginInvoices": "Računi s maržama",
+            "searchInvoices": "Traži račune",
+            "payments": "Plaćanja",
+            "noPaymentsFound": "Nisu pronađena plaćanja",
+            "addPayment": "Dodaj plaćanje",
+            "log": "Evidencija",
+            "ipAddress": "IP adresa",
+            "invoice": "Račun",
+            "gAccountPaid": "G-račun plaćen",
+            "invoiceWillBeBilled": "Računi za ovo razdoblje bit će uskoro naplaćeni.",
+            "billedAt": "Naplaćeno u",
+            "download": "Preuzmi",
+            "files": "Datoteke",
+            "info": "Informacije",
+            "createdBy": "Napravio/la",
+            "totalPaid": "Ukupno plaćeno",
+            "pending": "U tijeku",
+            "queued": "U redu čekanja",
+            "billed": "Naplaćeno",
+            "paid": "Plaćeno",
+            "createdAt": "Napravljeno u",
+            "paidAt": "Plaćeno u",
+            "sendAt": "Pošalji u",
+            "invoiceWillBeSent": "Račun će biti poslan.",
+            "sales": "Prodaje",
+            "costs": "Troškovi",
+            "margin": "Marža",
+            "deductions": "Odbici",
+            "freelancerInvoice": "Račun samostalnog djelatnika",
+            "freelancer": "Freelancer",
+            "agreedWorkInvoice": "Račun za dogovoreni rad",
+            "agreedWork": "Dogovoreni rad",
+            "extraInvoice": "Dodatni račun",
+            "creditInvoice": "Kreditni odbitak",
+            "hideEmail": "Sakrij e-poštu",
+            "rows": "Redovi",
+            "description": "Opis",
+            "attachments": "Prilozi",
+            "customInvoice": "Prilagođeni račun",
+            "invoiceDate": "Datum računa",
+            "preview": "Pregled",
+            "customCostsOverview": "Pregled prilagođenih troškova",
+            "deleteInvoiceText": "Jeste li sigurni da želite izbrisati ovaj račun?",
+            "exportDescriptiveText": "Odjednom se može izvesti najviše {count} računa. Svi filtri navedeni u okviru za pretraživanje upotrijebit će se za ograničavanje broja računa u izvozu.",
+            "customCosts": "Prilagođeni troškovi",
+            "remuneration": "Naknada",
+            "custom": "Prilagođeno",
+            "newItem": "Nova stavka",
+            "amount": "Iznos",
+            "unitPrice": "Cijena jedinice",
+            "items": "Stavke",
+            "confirmTypeChangeText": "Sve postojeće stavke računa bit će uklonjene. Jeste li sigurni da želite promijeniti vrstu?",
+            "makeMargin": "Napravi maržu",
+            "item": "Stavka",
+            "vat": "PDV",
+            "employee": "Zaposlenik",
+            "deduction": "Odbitak",
+            "exports": "Izvozi",
+            "exportInvalidText": "Odabrano je previše računa, ograničite broj računa pomoću gornjih filtara.",
+            "billing": "Naplata",
+            "relatedInvoices": "Povezani računi",
+            "resellerMarginInvoice": "Račun marže prodavača",
+            "resellerMargin": "Marža prodavača",
+            "customInvoiceItemVatNotDefaultConfirmationText": "Jeste li sigurni da želite upotrijebiti drugu stopu PDV-a?"
+        },
+        "actions": {
+            "addPayment": "Dodaj plaćanje",
+            "download": "Preuzmi",
+            "billNow": "Naplati sad",
+            "sendNow": "Pošalji sad",
+            "create": "Napravi",
+            "addToQueue": "Dodaj u red",
+            "preview": "Pregled",
+            "createExport": "Izvezi {count} računa",
+            "downloadAll": "Preuzmi sve",
+            "billSelected": "Naplatite odabrane račune",
+            "selectBillable": "Odaberi naplativo",
+            "deselectAll": "Poništi izbor svega"
+        },
+        "filter": {
+            "from": "Od",
+            "to": "Do",
+            "type": "Vrsta",
+            "queuedOnly": "Samo u redu čekanja",
+            "outstandingOnly": "Samo nepodmireni"
+        }
+    },
+    "dashboard": {
+        "tabs": {
+            "newEmploymentAgencies": "Nove agencije za zapošljavanje",
+            "creditApplications": "Kreditne prijave",
+            "newEmployees": "Novi zaposlenici",
+            "newHirers": "Novi poslodavci",
+            "newFreelancers": "Novi samostalni djelatnici"
+        },
+        "charts": {
+            "workedHours": "Odrađeni sati",
+            "revenue": "Prihod",
+            "employees": "Zaposlenici",
+            "employmentAgencies": "Agencije za zapošljavanje",
+            "hirers": "Poslodavci",
+            "freelancers": "Freelanceri",
+            "payroll": "Platna lista",
+            "temporary": "Privremeni",
+            "overtime": "Prekovremeni",
+            "surchargeHours": "Nadoplaćeni sati",
+            "margin": "Marža",
+            "freelancerCosts": "Troškovi freelancera"
+        },
+        "functions": {
+            "documents": "Dokumenti",
+            "timeRegistration": "Registracija vremena",
+            "imports": "Uvozi",
+            "exports": "Izvozi",
+            "invoices": "Računi",
+            "payslipsAndAnnualStatements": "Platne liste / godišnja izvješća"
+        },
+        "titles": {
+            "costExcludingVat": "Cijena {year} (bez PDV-a)",
+            "employmentAgencies": "Aktivne agencije za zapošljavanje",
+            "hirers": "Aktivni poslodavci",
+            "freelancers": "Aktivni samostalni djelatnici",
+            "employees": "Aktivni zaposlenici",
+            "marginExcludingVat": "Marža (bez PDV-a)",
+            "resellers": "Prodavači"
+        },
+        "static": {
+            "functions": "Funkcije",
+            "messageBox": "Okvir za poruke",
+            "yourReservations": "Vaše rezervacije",
+            "recentPayslips": "Nedavne platne liste",
+            "recentInvoices": "Nedavni računi",
+            "unsignedContracts": "Nepotpisani ugovori",
+            "hirersWithoutCao": "Poslodavci bez CAO-a",
+            "annualStatements": "Godišnji izvještaji",
+            "notifications": "Obavijesti",
+            "statistics": "Statistika",
+            "newRegistrations": "Nove registracije",
+            "charts": "Grafikoni"
+        },
+        "messageBox": {
+            "payOut": "Isplata ({frequency})",
+            "lockablePeriods": "Razdoblja koja se mogu zaključati",
+            "birthdays": "Rođendani",
+            "shouldSignDocuments": "Treba potpisati dokumente",
+            "missingDocuments": "Dokumenti koji nedostaju",
+            "expiredContracts": "Istekli ugovori",
+            "expiringContracts": "Ugovori koji istječu",
+            "renewableContracts": "Ugovori koje treba obnoviti"
+        }
+    },
+    "documents": {
+        "static": {
+            "info": "Informacije",
+            "templateSaved": "Predložak spremljen",
+            "subjectType": "Vrsta subjekta",
+            "shouldSign": "Trebao bi potpisati",
+            "signRequestSentAt": "Zahtjev za potpis poslan na",
+            "category": "Kategorija",
+            "description": "Opis",
+            "fieldOptions": "Opcije polja",
+            "fieldType": "Vrsta polja",
+            "layout": "Izgled",
+            "name": "Ime",
+            "newDocumentTemplate": "Novi predložak dokumenta",
+            "previewValue": "Pregled vrijednosti",
+            "slug": "Žeton",
+            "template": "Predložak",
+            "templateDeleted": "Predložak izbrisan",
+            "variable": "Varijabla",
+            "variableDeleted": "Varijabla izbrisana",
+            "variables": "Varijable",
+            "variableSaved": "Varijabla spremljena",
+            "documentPreview": "Pregled dokumenta",
+            "documentName": "Ime dokumenta",
+            "signedAt": "Potpisano na",
+            "declinedAt": "Odbijeno na",
+            "subjects": "Subjekti",
+            "isOwner": "Vlasnik je",
+            "canView": "Može vidjeti",
+            "status": "Status",
+            "generateDocument": "Generiraj dokument",
+            "testData": "Testni podaci",
+            "editDocument": "Uredi dokument",
+            "archiveDocumentConfirmationText": "To će arhivirati dokument.",
+            "created": "Napravljeno",
+            "auditReport": "Izvještaj o reviziji",
+            "signRequests": "Zahtjevi za potpis",
+            "originalFile": "Izvorna datoteka",
+            "signedFile": "Potpisana datoteka",
+            "fillableBySubject": "Može popuniti subjekt",
+            "position": "Položaj",
+            "signDocument": "Potpiši dokument",
+            "uploadFile": "Učitaj datoteku",
+            "sendAfterCompletion": "Pošalji nakon dovršenja",
+            "logoSubject": "Tema logotipa",
+            "associateLogoSubject": "Poveži temu logotipa",
+            "subject": "Tema",
+            "uploadDocument": "Učitaj dokument",
+            "document": "Dokument",
+            "linkDeductions": "Poveži odbitke",
+            "linkDeductionsInfo": "Ovo će osigurati da se ne stvaraju obrasci za odbitak prilikom njihova umetanja u registraciju vremena.",
+            "hideDocumentConfirmationText": "Jeste li sigurni da želite sakriti ovaj zadatak? Neće se ponovno pojaviti.",
+            "signRequestsSent": "Zahtjevi za potpis su poslani",
+            "isVisibleOn": "Vidljivo je na",
+            "creatableByRoles": "Moguće kreirati prema ulogama",
+            "fallbackValue": "Rezervna vrijednost"
+        },
+        "editor": {
+            "date": "Datum",
+            "employee": "Zaposlenik",
+            "employmentAgency": "Agencija za zapošljavanje",
+            "hirer": "Poslodavac",
+            "variables": "Varijable",
+            "factoringCompany": "Tvrtka za faktoring",
+            "freelancer": "Samostalni djelatnik",
+            "employment": "Zaposlenje",
+            "freelancerJob": "Samostalna djelatnost",
+            "enterprise": "Poduzeće",
+            "employeeContract": "Ugovor"
+        },
+        "tabs": {
+            "info": "Informacije",
+            "template": "Predložak",
+            "variables": "Varijable",
+            "subjects": "Subjekti"
+        },
+        "steps": {
+            "selectTemplate": "Odaberi predložak",
+            "selectData": "Odaberi podatke",
+            "review": "Pregled",
+            "subjects": "Subjekti",
+            "variables": "Varijable"
+        },
+        "actions": {
+            "showPreview": "Prikaži pregled",
+            "generateDocument": "Generiraj dokument",
+            "editor": "Uređivač",
+            "pdf": "PDF",
+            "download": "Preuzmi",
+            "upload": "Učitaj",
+            "createFromTemplate": "Napravi prema predlošku",
+            "addSubject": "Dodaj temu",
+            "create": "Napravi",
+            "options": "Opcije"
+        }
+    },
+    "documentTemplates": {
+        "static": {
+            "default": "Zadane postavke",
+            "noTranslations": "Bez prijevoda",
+            "deleteConfirmationText": "Jeste li sigurni da želite izbrisati obrazac ovog dokumenta?",
+            "deleteVariableConfirmationText": "Jeste li sigurni da želite izbrisati ovu varijablu dokumenta?",
+            "deleteSharedDocumentTemplate": "Jeste li sigurni da želite prestati upotrebljavati ovaj predložak dokumenta?",
+            "kiwaDeclarationOfEmployment": "Kiwina izjava o zaposlenju"
+        },
+        "actions": {
+            "copyToCurrentEnterprise": "Kopiraj u trenutno poduzeće",
+            "addSharedDocumentTemplate": "Dodaj obrazac za dijeljeni dokument"
+        }
+    },
+    "enum": {
+        "identityType": {
+            "alienIdentityCard": "Strana osobna iskaznica",
+            "passportEeaCountry": "Putovnica zemlje EGP-a",
+            "alienPassport": "Strana putovnica",
+            "diplomaticPassport": "Diplomatska putovnica",
+            "dutchIdentityCard": "Nizozemska osobna iskaznica",
+            "dutchMunicipalitiesIdentityCard": "Osobna iskaznica nizozemskih općina",
+            "dutchPassport": "Nizozemska putovnica",
+            "passportNonEeaCountry": "Putovnica zemlje izvan EGP-a",
+            "refugeePassport": "Izbjeglička putovnica",
+            "residenceDocuments": "Dokumenti o prebivalištu",
+            "servicePassport": "Službena putovnica",
+            "none": "Nema"
+        },
+        "contractPhase": {
+            "phase1And2": "Faza 1/2 (A)",
+            "phase3": "Faza 3 (B)",
+            "phase4": "Faza 4 (C)"
+        },
+        "employeeType": {
+            "normal": "Normalno",
+            "payroll": "Platna lista",
+            "temporary": "Privremeno",
+            "other": "Ostalo"
+        },
+        "gender": {
+            "female": "Žensko",
+            "male": "Muško",
+            "other": "Ostalo"
+        },
+        "maritalStatus": {
+            "divorced": "Razveden/a",
+            "livingTogetherWithContract": "Zajednički život uz ugovor",
+            "livingTogetherWithoutContract": "Zajednički život bez ugovora",
+            "married": "U braku",
+            "registeredPartnership": "Registrirano partnerstvo",
+            "unmarried": "Nevjenčan/a",
+            "widowhood": "Udovac/udovica"
+        },
+        "vatTariff": {
+            "shifted": "Pomaknuto",
+            "exempt": "Izuzmi"
+        },
+        "fieldType": {
+            "text": "Tekst",
+            "textArea": "Područje za tekst",
+            "hirerHourType": "Vrsta sati poslodavca",
+            "checkbox": "Polje za potvrdu",
+            "money": "Novac",
+            "datePicker": "Birač datuma"
+        },
+        "subsidyType": {
+            "reassigningDisabledEmployee": "Preraspoređivanje zaposlenika onesposobljenog za rad",
+            "none": "Ništa",
+            "targetJobAgreement": "Ugovor o poslu ciljne skupine i osobe s poteškoćama u obrazovanju",
+            "hiringDisabledEmployee": "Zapošljavanje radnika s invaliditetom"
+        }
+    },
+    "fieldTypes": {
+        "static": {
+            "textField": "Polje za tekst",
+            "checkbox": "Polje za potvrdu",
+            "multiSelect": "Višestruki izbor",
+            "noOptions": "Nema opcija",
+            "radioButton": "Gumb za radio",
+            "select": "Odaberi"
+        }
+    },
+    "form": {
+        "static": {
+            "chamberOfCommerceNumber": "Broj gospodarske komore",
+            "creditLimit": "Kreditno ograničenje",
+            "employmentDate": "Datum zaposlenja",
+            "hasPayrollTaxReduction": "Smanjenje poreza na platnu listu?",
+            "identityValidUntil": "Identitet vrijedi do",
+            "passwordConfirmation": "Potvrda lozinke",
+            "rentalOrPurchaseContractHomeCountry": "Ugovor o najmu ili kupoprodaji iz matične zemlje",
+            "shouldDeductHealthInsurance": "Odbiti zdravstveno osiguranje?",
+            "shouldPayOutNonStatutoryHolidays": "Isplatiti odmore koji nisu državni praznici?",
+            "workTimeReductionDays": "Dani sa smanjenim radnim vremenom",
+            "email": "E-pošta",
+            "accountHolder": "Vlasnik računa",
+            "authorizedSignatory": "Ovlašteni potpisnik",
+            "birthdate": "Datum rođenja",
+            "birthplace": "Mjesto rođenja",
+            "cao": "CAO",
+            "cc": "CC",
+            "certificate": "Certifikat",
+            "citizenServiceNumber": "Jedinstveni broj građana",
+            "contractHours": "Ugovorni sati",
+            "costOfLivingAllowance": "Naknada za troškove života",
+            "country": "Država",
+            "countryCode": "Kod države",
+            "countryOfBirth": "Država rođenja",
+            "curriculumVitae": "Životopis",
+            "diplomas": "Diplome",
+            "documentNumber": "Broj dokumenta",
+            "employeeFunction": "Funkcija zaposlenika",
+            "employeeType": "Vrsta zaposlenika",
+            "employmentAgency": "Agencija za zapošljavanje",
+            "gAccount": "G-račun?",
+            "gAccountPercentage": "Postotak G-računa",
+            "etRegulation": "Uredba ET",
+            "expirationDate": "Datum isteka",
+            "factor": "Čimbenik",
+            "lastName": "Prezime",
+            "middleName": "Srednje ime",
+            "name": "Ime",
+            "phone": "Telefon",
+            "factorEtRegulation": "Čimbenik uredbe ET",
+            "factoringCompany": "Tvrtka za faktoring",
+            "factorOvertime": "Čimbenik prekovremenog",
+            "gender": "Spol",
+            "grossSalary": "Bruto plaća",
+            "hirer": "Poslodavac",
+            "homewardTravelCost": "Troškovi putovanja kući",
+            "homewardTravelDistance": "Udaljenost putovanja do kuće",
+            "homewardTravelFrequency": "Učestalost putovanja kući",
+            "iban": "IBAN",
+            "id": "ID",
+            "identityType": "Vrsta identiteta",
+            "initials": "Inicijali",
+            "invoiceEmail": "E-pošta za račun",
+            "language": "Jezik",
+            "legalForm": "Pravni oblik",
+            "logo": "Logotip",
+            "mainLanguage": "Glavni jezik",
+            "maritalStatus": "Bračni status",
+            "motivationLetter": "Motivacijsko pismo",
+            "nationality": "Narodnost",
+            "hasNoRiskPolicy": "Politika bez rizika?",
+            "noRiskPolicy": "Politika bez rizika",
+            "password": "Lozinka",
+            "paymentTerm": "Uvjet plaćanja",
+            "payOutFrequency": "Učestalost isplate",
+            "phase": "Faza",
+            "probation": "Probni rok",
+            "proofOfRecruitmentAbroad": "Dokaz o zaposlenju u inozemstvu",
+            "riskGroup": "Grupa rizika",
+            "sbiCodes": "Kodovi SBI",
+            "seniorDays": "Dani starijih",
+            "shouldPayOutHolidays": "Isplatiti odmore?",
+            "shouldPayOutReducedHours": "Isplatiti skraćeno radno vrijeme?",
+            "shouldPayOutShortAbsence": "Isplatiti kratku odsutnost?",
+            "shouldPayOutVacationMoney": "Isplatiti novac za godišnji odmor?",
+            "street": "Ulica",
+            "signature": "Potpis",
+            "startDate": "Datum početka",
+            "stippPlan": "Plan StiPP",
+            "streetNumber": "Broj",
+            "streetNumberAddition": "Dodatak",
+            "subject": "Subjekt",
+            "terminationDate": "Datum završetka",
+            "vatNumber": "PDV broj",
+            "vatTariff": "PDV tarifa",
+            "zipCode": "Poštanski broj",
+            "caoWorkweek": "Radni tjedan CAO-a",
+            "functionScale": "Ljestvica funkcija",
+            "employment": "Zaposlenje",
+            "cessionText": "Tekst prestanka",
+            "employee": "Zaposlenik",
+            "useFrameworkAgreement": "Upotrijebi okvirni sporazum",
+            "city": "Grad",
+            "firstName": "Ime",
+            "invoiceEmailCc": "Račun CC",
+            "enterprise": "Poduzeće",
+            "freelancerJob": "Posao samostalnog djelatnika",
+            "chamberOfCommerceExtract": "Izvadak iz Gospodarske komore",
+            "liabilityInsurance": "Osiguranje od odgovornosti",
+            "marginInvoicePerWeek": "Račun s maržom po tjednu",
+            "freelancer": "Samostalni djelatnik",
+            "gAccountIban": "IBAN G računa",
+            "gAccountHolder": "Vlasnik G računa",
+            "factorStatePension": "Čimbenik državne mirovine",
+            "payslips": "Platne liste",
+            "payslipsCc": "Platne liste CC",
+            "salesRate": "Stopa prodaje",
+            "factorSenior": "Čimbenik seniora",
+            "note": "Napomena",
+            "workEndTime": "Vrijeme završetka rada",
+            "housingCost": "Cijena stanovanja",
+            "weeksWorked": "Tjedni rada",
+            "documentTemplate": "Predložak dokumenta",
+            "deliveryDeed": "Ugovor o isporuci",
+            "files": "Datoteke",
+            "isAgreedWork": "Dogovoren je rad",
+            "endDate": "Datum završetka",
+            "timeRegistration": "Registracija vremena",
+            "timeRegistrationQuestion": "Registracija vremena?",
+            "timeForTime": "Vrijeme za vrijeme",
+            "workHours": "Radni sati",
+            "workStartTime": "Vrijeme početka rada",
+            "start": "Početak",
+            "reason": "Razlog",
+            "end": "Kraj",
+            "background": "Pozadina (portret)",
+            "outOfServiceReasonSlug": "Razlog",
+            "salaryWithExtraDays": "Plaća s dodatnim danima",
+            "factorWithExtraDays": "Čimbenik s dodatnim danima",
+            "invoiceCompany": "Tvrtka za račun",
+            "date": "Datum",
+            "pensionPlan": "Mirovinski plan",
+            "outOfServiceDate": "Datum prestanka rada",
+            "file": "Datoteka",
+            "location": "Lokacija",
+            "workDaysAndHours": "Radni dani i sati",
+            "website": "Web-stranica",
+            "exchangeOvertime": "Razmjena prekovremenog rada",
+            "payOutEnterprise": "Isplata poduzeću",
+            "employerNumber": "Broj poslodavca",
+            "currentPassword": "Trenutna lozinka",
+            "upload": "Učitaj",
+            "shouldPayOutVacationDays": "Isplati dane odmora?",
+            "splitInvoiceItemsByDate": "Podijeli račune po satu i putovanjima prema datumu",
+            "blockSalesRate": "Stopa blok prodaje",
+            "ownerCompany": "Vlasnička tvrtka",
+            "generateFreelancerDocuments": "Generiraj dokumente freelancera",
+            "snfCertification": "Certifikat SNF",
+            "payOutExport": "Izvoz isplata",
+            "isPayOutEnabledQuestion": "Isplata omogućena?",
+            "healthInsurance": "Zdravstveno osiguranje",
+            "seasonalWork": "Sezonski rad",
+            "splitInvoicePerProject": "Podijeli račune po projektu",
+            "splitInvoicePerEmployee": "Podijeli račune po zaposleniku",
+            "splitInvoicePerFreelancer": "Podijeli račune po freelanceru",
+            "companyType": "Vrsta tvrtke",
+            "healthcareDescription": "Opis zdravstvene skrbi",
+            "qualifications": "Kvalifikacije",
+            "workServices": "Radne usluge",
+            "activities": "Aktivnosti",
+            "certificateOfConduct": "Potvrda o ponašanju",
+            "deductMarginVat": "Odbij PDV marže",
+            "requireFreelancerVatNumber": "Zahtijevaj PDV broj freelancera",
+            "employeeTypeSlugs": "Vrsta zaposlenika",
+            "search": "Pretraga",
+            "searchAddress": "Traži adresu",
+            "dontSendDocuments": "Ne šaljite dokumente",
+            "selectedAmount": "{amount} odabrano",
+            "splitPayOut": "Podijeljena isplata",
+            "canHaveJobs": "Može imati poslove",
+            "noRecordsFound": "Nema pronađenih zapisa...",
+            "reseller": "Preprodavač",
+            "description": "Opis",
+            "teamTypes": "Vrste timova",
+            "teamModel": "Subjekt",
+            "team": "Tim",
+            "teamPresets": "Početne postavke tima",
+            "role": "Uloga",
+            "user": "Korisnik",
+            "contact": "Kontakt",
+            "backgroundLandscape": "Pozadina (krajolik)",
+            "shouldPayOutSeniorDays": "Isplatiti dane za seniore?",
+            "shouldPayOutWorkTimeReductionDays": "Isplatiti dane sa smanjenjem radnog vremena?",
+            "type": "Vrsta",
+            "workDays": "Radni dani",
+            "subsidyCompany": "Subvencijska tvrtka",
+            "subsidy": "Subvencija",
+            "grossSalaryPerHour": "Bruto plaća po satu",
+            "deductionOverviewPerWeek": "Pregled odbitaka po tjednu",
+            "kiwaNumber": "Kiwin broj",
+            "niwoNumber": "Niwov broj",
+            "showFunctionOnInvoice": "Prikaži funkciju na računu",
+            "languageCode": "Kȏd jezika"
+        },
+        "steps": {
+            "employment": "Zaposlenje",
+            "general": "Opće",
+            "files": "Datoteke",
+            "contactAndFinancial": "Kontakt i financijski podaci",
+            "documents": "Dokumenti",
+            "foreignNationality": "Strano državljanstvo",
+            "etRegulation": "ET regulacija",
+            "documentsAndEmployment": "Dokumenti i zaposlenje",
+            "job": "Posao",
+            "account": "Račun",
+            "employer": "Poslodavac",
+            "contract": "Ugovor",
+            "hirerRemuneration": "Naknada poslodavca"
+        },
+        "hint": {
+            "startTypingToSearch": "Počni tipkati za pretraživanje",
+            "lockPensionPlan": "Zaključaj mirovinski plan kako se ne bi automatski prilagođavao."
+        },
+        "actions": {
+            "upload": "Učitaj"
+        }
+    },
+    "frequency": {
+        "static": {
+            "hourly": "Po satu",
+            "fourWeekly": "U četiri tjedna",
+            "daily": "Dnevno",
+            "weekly": "Tjedno",
+            "monthly": "Mjesečno",
+            "hour": "Sat",
+            "day": "Dan",
+            "week": "Tjedan",
+            "month": "Mjesec",
+            "fourWeek": "Četiri tjedna",
+            "fourWeekShort": "4 tj.",
+            "hourShort": "h",
+            "dayShort": "d",
+            "weekShort": "t",
+            "monthShort": "m"
+        }
+    },
+    "deduction": {
+        "static": {
+            "workingClothesWorkingShoes": "Radna odjeća radna obuća",
+            "housing": "Stanovanje",
+            "personalContributionForTransport": "Osobni doprinos za prijevoz",
+            "advance": "Avans",
+            "penalty": "Kazna",
+            "certificateOfGoodBehavior": "Potvrda o dobrom ponašanju",
+            "eduction": "Obrazovanje",
+            "housingExtra": "Stanovanje dodatno",
+            "advanceExtra": "Avans dodatno",
+            "healthInsurance": "Zdravstveno osiguranje",
+            "healthInsuranceExtra": "Zdravstveno osiguranje dodatno",
+            "mealAllowance": "Naknada za obrok",
+            "personnelAssociation": "Kadrovska udruga"
+        }
+    },
+    "emails": {
+        "editor": {
+            "invitationLink": "Poveznica za poziv"
+        }
+    },
+    "language": {
+        "actions": {
+            "select": "Odaberi"
+        },
+        "static": {
+            "default": "Zadane postavke"
+        }
+    },
+    "menu": {
+        "actions": {
+            "dashboard": "Nadzorna ploča",
+            "functions": "Funkcije",
+            "hirers": "Poslodavci",
+            "settings": "Postavke",
+            "timeRegistration": "Registracija vremena",
+            "invoices": "Računi",
+            "exports": "Izvozi",
+            "employees": "Zaposlenici",
+            "employmentAgencies": "Agencije za zapošljavanje",
+            "imports": "Uvozi",
+            "freelancers": "Samostalni djelatnici",
+            "logout": "Odjava",
+            "documents": "Dokumenti",
+            "language": "Jezik",
+            "leaveImpersonation": "Napusti oponašanje",
+            "sickReports": "Izvještaji o bolovanju",
+            "outOfService": "Prestanak rada",
+            "account": "Račun",
+            "payslips": "Platne liste",
+            "resellers": "Prodavači",
+            "proFormaPayslip": "Platna lista pro forma"
+        }
+    },
+    "settings": {
+        "pages": {
+            "documents": "Dokumenti",
+            "factoringCompanies": "Tvrtke za faktoring",
+            "enterprises": "Poduzeća",
+            "webhooks": "Web-kuke",
+            "users": "Korisnici",
+            "personalAccessTokens": "Osobni pristupni tokeni",
+            "teams": "Timovi",
+            "roles": "Uloge",
+            "subsidyCompanies": "Subvencijske tvrtke"
+        }
+    },
+    "validation": {
+        "errors": {
+            "checkForm": "Provjerite ima li pogrešaka u obrascu",
+            "addressInvalid": "Nismo uspjeli pronaći ovu adresu.",
+            "alternativeAddress": "Nismo mogli pronaći ovu adresu, jeste li mislili {address}?"
+        },
+        "static": {
+            "required": "To polje je obvezno",
+            "unableToDeleteItem": "Nije moguće izbrisati stavku"
+        }
+    },
+    "api": {
+        "kvk": {
+            "static": {
+                "apiOffline": "KVK Api je izvan mreže",
+                "companyInfoSuccessfullyFilled": "Podaci o tvrtki uspješno su ispunjeni"
+            },
+            "validation": {
+                "errors": {
+                    "cocNotFound": "Broj Gospodarske komore nije pronađen."
+                }
+            }
+        },
+        "creditsafe": {
+            "static": {
+                "apiOffline": "API za siguran kredit izvan je mreže."
+            },
+            "validation": {
+                "errors": {
+                    "companyNotFound": "Tvrtka nije pronađena"
+                }
+            }
+        }
+    },
+    "reservation": {
+        "static": {
+            "holidayHoursLegal": "Sati praznika zakonski",
+            "holidayHoursExtraLegal": "Sati praznika izvanzakonski",
+            "holidayPay": "Plaća za praznike",
+            "workTimeReductionHours": "Sati smanjenog radnog vremena",
+            "seniorDays": "Dani seniora",
+            "timeForTime": "Vrijeme za vrijeme",
+            "holidayHours": "Sati praznika",
+            "holidays": "Praznici",
+            "shortAbsence": "Kratka odsutnost",
+            "time": "Vrijeme",
+            "money": "Novac",
+            "reservation": "Rezervacija",
+            "updatedAt": "Ažurirano u",
+            "amount": "Iznos"
+        }
+    },
+    "stippPlanType": {
+        "static": {
+            "basic": "Osnovno",
+            "plus": "Plus"
+        }
+    },
+    "role": {
+        "static": {
+            "administrator": "Administrator",
+            "employee": "Zaposlenik",
+            "employmentAgency": "Agencija za zapošljavanje",
+            "hirer": "Poslodavac",
+            "freelancer": "Samostalni djelatnik",
+            "superAdministrator": "Super administrator",
+            "deleteRoleText": "Jeste li sigurni da želite izbrisati ovu ulogu?",
+            "roleDeleted": "Uloga je izbrisana."
+        }
+    },
+    "exports": {
+        "static": {
+            "generatedAt": "Generirano u",
+            "notStarted": "Nije započeto",
+            "queued": "Na čekanju",
+            "running": "U tijeku",
+            "completed": "Dovršeno",
+            "cancelled": "Otkazano",
+            "failed": "Neuspjelo",
+            "options": "Opcije",
+            "exports": "Izvozi",
+            "deleteExportConfirmationText": "To će izbrisati izvoz.",
+            "factoringCompanyExport": "Izvoz tvrtke za faktoring",
+            "deleteInvoiceConfirmationText": "Ovo će izbrisati sve povezane račune i otključati registraciju vremena za ovo razdoblje.",
+            "payOutInfo": "Naziv izvoza bit će isti kao najviše odabrano razdoblje. Sve odabrane registracije u nižim razdobljima bit će izvezene u zasebne datoteke. Svi nepodmireni računi bit će naplaćeni.",
+            "marginAndDeductionsExport": "Izvoz marže i odbitaka",
+            "export": "Izvoz",
+            "periods": "Razdoblja",
+            "total": "Ukupno",
+            "exportSuccessful": "Izvoz uspješan",
+            "deleteSepaOverviewExportConfirmationText": "Izvoz će se izbrisati, a status plaćanja za svaki račun u ovom izvozu bit će ponovno postavljen.",
+            "selectedInvoices": "Odabrali ste {count} računa.",
+            "payOutExport": "Izvoz isplata",
+            "noRegistrationsFound": "Nisu pronađene registracije.",
+            "deletePayOutExportConfirmationText": "Izvoz će se izbrisati i sve registracije u ovom izvozu moći će se ponovno izvesti.",
+            "registrations": "Registracije",
+            "noInvoicesFound": "Nisu pronađeni računi.",
+            "deductionsDocumentNotSigned": "Dokument o odbicima nije potpisan.",
+            "employeesExport": "Izvoz zaposlenika",
+            "deleteWageAttachmentConfirmationText": "Odbitak od plaće bit će izbrisan.",
+            "archiveEmploymentAgencyConfirmationText": "Jeste li sigurni da želite arhivirati ovu agenciju za zapošljavanje?",
+            "unarchiveEmploymentAgencyConfirmationText": "Jeste li sigurni da želite ukloniti iz arhive ovu agenciju za zapošljavanje?",
+            "unarchiveHirerConfirmationText": "Jeste li sigurni da želite ukloniti iz arhive ovog poslodavca?",
+            "archiveHirerConfirmationText": "Jeste li sigurni da želite arhivirati ovog poslodavca?",
+            "deleteCompensationConfirmationText": "Jeste li sigurni da želite izbrisati ovu kompenzaciju?",
+            "deleteHourTypeConfirmationText": "Jeste li sigurni da želite izbrisati ovu vrstu sati?",
+            "deleteTravelTypeConfirmationText": "Jeste li sigurni da želite izbrisati ovu vrstu putovanja?",
+            "missingDocumentsForPayOutExport": "Nedostaju potpisani dokumenti",
+            "marginOverview": "Pregled marže",
+            "saveInvoiceConfirmationText": "Računi će biti spremljeni, a razdoblje će biti zaključano.",
+            "accountingSoftwareExport": "Računovodstveni softver",
+            "marginOverviewExport": "Izvoz pregleda marže",
+            "invoice": "Račun",
+            "freelancersPayoutExport": "Izvoz isplata freelancera",
+            "newEmployees": "Novi zaposlenici",
+            "markAllAsChanged": "Označi sve kao promijenjeno",
+            "changedEmployees": "Promijenjeni zaposlenici",
+            "addEmployee": "Dodaj zaposlenika",
+            "markAllAsNew": "Označi sve kao nove",
+            "editExport": "Uredi izvoz",
+            "hollandZorg": "HollandZorg",
+            "exportHealhInsuranceRemainder": "Izvezi neizvezena zdravstvena osiguranja",
+            "unexportedHealhInsuranceCount": "{count} neizvezena/ih zdravstvena/ih osiguranja.",
+            "healthInsuranceExport": "Izvoz zdravstvenog osiguranja",
+            "doNotExport": "Ne izvozi",
+            "doExport": "Izvezi",
+            "markAllAsDoNotExport": "Označi sve s \"ne izvozi\"",
+            "markAllAsDoExport": "Označi sve za izvoz",
+            "exported": "Izvezeno",
+            "mijnSubsidieExport": "Izvoz moje potpore",
+            "archiveResellerConfirmationText": "Jeste li sigurni da želite arhivirati ovog prodavača?",
+            "unarchiveResellerConfirmationText": "Jeste li sigurni da želite poništiti arhiviranje ovog prodavača?",
+            "mijnSubsidie": "Moja potpora",
+            "resellerMarginsExport": "Izvoz marže prodavača",
+            "historicalPayOutExport": "Povijesni izvoz isplata",
+            "historicalPayOutInfo": "Izvozi će biti kreirani za svaku odabranu registraciju vremena. Primjenjuju se uobičajena pravila isplate, osim što se ne računaju nakupljene rezervacije."
+        },
+        "pages": {
+            "factoringCompany": "Tvrtka za faktoring",
+            "marginAndDeductions": "Marža i odbici",
+            "payOutExport": "Izvoz isplata",
+            "employeesExport": "Izvoz zaposlenika",
+            "accountingSoftwareExport": "Računovodstveni softver",
+            "marginOverviewExport": "Izvoz pregleda marže",
+            "freelancersPayout": "Isplata freelancera",
+            "hollandZorgExport": "Izvoz HollandZorg",
+            "mijnSubsidieExport": "Izvoz moje potpore",
+            "resellerMargins": "Marže prodavača"
+        },
+        "actions": {
+            "refresh": "Osvježi",
+            "selectAll": "Odaberi sve",
+            "clearSelection": "Poništi odabir",
+            "generate": "Generiraj",
+            "selectPeriod": "Odaberi razdoblje",
+            "exactDate": "Točan datum",
+            "timePeriod": "Razdoblje",
+            "showOldExports": "Prikaži stare izvoze"
+        },
+        "payOut": {
+            "static": {
+                "skipNonExportableValidation": "Preskočite provjeru valjanosti dokumenata koji nedostaju",
+                "notExportedEmployeesInfo": "Neki negativni sati ovih zaposlenika nisu se mogli izvesti:"
+            },
+            "actions": {
+                "historical": "Povijesni"
+            }
+        },
+        "employees": {
+            "static": {
+                "createFreshExportInfo": "Kad je omogućena opcija \"svjež izvoz\", svi trenutno aktivni zaposlenici bit će uključeni u izvoz.",
+                "createFreshExport": "Svjež izvoz"
+            }
+        }
+    },
+    "factoring": {
+        "static": {
+            "factoringCompany": "Tvrtka za faktoring",
+            "details": "Detalji",
+            "cessionText": "Tekst prestanka",
+            "impact": "Utjecaj",
+            "factris": "Factris",
+            "type": "Vrsta",
+            "deleteFactoringCompanyConfirmationText": "Jeste li sigurni da želite izbrisati tu tvrtku za faktoring?",
+            "typeInfo": "Vrsta definira koji će format imati izvozi.",
+            "sendInvoice": "Poslati račune?",
+            "nlCredit": "NL-kredit"
+        }
+    },
+    "enterprises": {
+        "static": {
+            "enterprise": "Poduzeće",
+            "details": "Detalji",
+            "deleteStandardDocumentConfirmationText": "Jeste li sigurni da želite izbrisati ovaj standardni dokument?",
+            "standardDocuments": "Standardni dokumenti",
+            "standardDocumentUpdateSuccess": "Standardni dokument uspješno ažuriran.",
+            "shouldNotifyCustomers": "Treba obavijestiti klijente",
+            "noFileUploaded": "Još nije učitana datoteka.",
+            "uploadNewFile": "Učitaj novu datoteku",
+            "payOutEnterpriseInfo": "Poduzeće za isplatu može se zamijeniti izborom poduzeća za isplatu na zaposleniku ili poslodavcu.",
+            "canHaveJobsInfo": "Ako je ova opcija onemogućena, ne mogu se kreirati nikakva zapošljavanja ili poslovi za freelancere koji su povezani s ovim poduzećem.",
+            "canBeInvoicedInfo": "Ako je ova opcija omogućena, ovo poduzeće bit će dostupno prilikom kreiranja novog poslodavca kao agencije za zapošljavanje."
+        }
+    },
+    "documentSubjectType": {
+        "static": {
+            "employment": "Zaposlenje",
+            "employmentAgency": "Agencija za zapošljavanje",
+            "hirer": "Poslodavac",
+            "factoringCompany": "Tvrtka za faktoring",
+            "freelancerJob": "Posao samostalnog djelatnika",
+            "employee": "Zaposlenik",
+            "enterprise": "Poduzeće",
+            "freelancer": "Samostalni djelatnik",
+            "employeeContract": "Ugovor zaposlenika"
+        }
+    },
+    "documentStatus": {
+        "static": {
+            "created": "Napravljeno",
+            "pending": "U tijeku",
+            "declined": "Odbijeno",
+            "expired": "Isteklo",
+            "completed": "Dovršeno"
+        }
+    },
+    "documentType": {
+        "static": {
+            "pdf": "PDF",
+            "view": "Pregled",
+            "template": "Predložak",
+            "upload": "Učitaj"
+        }
+    },
+    "employment": {
+        "static": {
+            "payOutPreferences": "Preferencije za isplatu",
+            "salesRate": "Stopa prodaje",
+            "startDate": "Datum početka",
+            "endDate": "Datum završetka",
+            "function": "Funkcija",
+            "scale": "Ljestvica",
+            "factor": "Čimbenik",
+            "grossSalary": "Bruto plaća",
+            "includeExtraDays": "Uključi dodatne dane u plaću",
+            "deleteFailed": "Neuspjelo brisanje zaposlenja.",
+            "deleteConfirmationText": "Jeste li sigurni da želite izbrisati ovo zaposlenje?",
+            "deleteSuccess": "Zaposlenje je izbrisano.",
+            "workdaysAndTimes": "Radni dani i sati",
+            "emptyFunctionSalesRateConfirmationText": "Sve funkcije imaju praznu stopu prodaje.",
+            "missingRequiredAttributesConfirmText": "Zaposlenje se još ne može poslati na odobrenje jer neka potrebna svojstva nisu popunjena.",
+            "submitForApprovalConfirmText": "Zaposlenje će biti poslano na odobrenje."
+        },
+        "messages": {
+            "wizardPreviousEmploymentExplanation": "Prethodno zaposlenje upotrebljava se kao osnova za ovo novo zaposlenje."
+        },
+        "actions": {
+            "addFunction": "Dodaj funkciju",
+            "createNext": "Napravi sljedeće",
+            "goToEmployment": "Idi na zaposlenje"
+        }
+    },
+    "imports": {
+        "actions": {
+            "refresh": "Osvježi",
+            "upload": "Učitaj"
+        },
+        "static": {
+            "notStarted": "Nije započeto",
+            "queued": "U redu čekanja",
+            "running": "U tijeku",
+            "completed": "Dovršeno",
+            "cancelled": "Otkazano",
+            "failed": "Neuspjelo",
+            "payslips": "Platne liste",
+            "upload": "Učitaj",
+            "imports": "Uvozi",
+            "payslipsImported": "Platne liste uvezene",
+            "log": "Evidencija",
+            "importedAt": "Uvezeno u",
+            "payslipsImport": "Uvoz platnih lista",
+            "bankImport": "Uvoz banke",
+            "imported": "Uvezeno",
+            "payslipsPayments": "Plaćanja platnih lista",
+            "employee": "Zaposlenik",
+            "total": "Ukupno",
+            "iban": "IBAN",
+            "payments": "Plaćanja",
+            "reservationsImported": "Rezervacije uvezene",
+            "reservationsImport": "Uvoz rezervacija",
+            "reservations": "Rezervacije",
+            "annualStatements": "Godišnji izvještaji",
+            "annualStatementsImported": "Uvezeni godišnji izvještaji",
+            "annualStatementsImport": "Uvoz godišnjih izvještaja",
+            "dispatched": "Poslano",
+            "sendAfterCompletion": "Pošalji nakon završetka",
+            "timeRegistration": "Registracija vremena",
+            "desiredSalaryCheck": "Željeni platni ček",
+            "payslipPaymentsCreateCompensations": "Napravi kompenzacije",
+            "outstandingDesiredSalaryCheck": "Neke isplate ne odgovaraju željenoj plaći:",
+            "outstandingDesiredSalaryCompensationsCreated": "Kompenzacije su napravljene.",
+            "payslipsPaymentsPeriodText": "Ako je odabrano razdoblje i/ili ispravak, sva će plaćanja u PDF-u biti uvezena u tom razdoblju. Ako nije odabrano razdoblje, upotrijebit će se broj razdoblja u PDF-u.",
+            "entity": "Entitet"
+        },
+        "pages": {
+            "payslips": "Platne liste",
+            "bankImport": "Uvoz banke",
+            "payments": "Plaćanja",
+            "reservations": "Rezervacije",
+            "annualStatements": "Godišnji izvještaji"
+        }
+    },
+    "freelancerJob": {
+        "static": {
+            "deleteHourTypeConfirmationText": "Jeste li sigurni da želite izbrisati ovu vrstu sati?",
+            "activities": "Aktivnosti",
+            "startDate": "Datum početka",
+            "endDate": "Datum završetka",
+            "hourlyRate": "Satnica",
+            "salesRate": "Stopa prodaje",
+            "margin": "Marža",
+            "hourType": "Vrsta sati",
+            "compensation": "Kompenzacija",
+            "name": "Ime",
+            "travelType": "Vrsta putovanja",
+            "rate": "Tarifa",
+            "deleteConfirmationText": "Jeste li sigurni da želite izbrisati ovaj posao?",
+            "deleteSuccess": "Posao je obrisan.",
+            "deleteFailed": "Neuspjelo brisanje posla.",
+            "hourTypeMarginInfo": "Ispunjavanjem ove vrijednosti tarifna tablica bit će zanemarena.",
+            "deviatingMargin": "Odstupajuća marža",
+            "notMinimumHourTypeMarginConfirmationText": "Neke su marže manje od izračunate marže.",
+            "missingRequiredAttributesConfirmText": "Posao se još ne može poslati na odobrenje jer neka potrebna svojstva nisu popunjena.",
+            "submitForApprovalConfirmText": "Posao će biti poslan na odobrenje."
+        },
+        "actions": {
+            "addCompensation": "Dodaj kompenzaciju",
+            "addHourType": "Dodaj vrstu sati",
+            "addTravelType": "Dodaj vrstu putovanja"
+        }
+    },
+    "employee": {
+        "static": {
+            "employment": "Zaposlenje",
+            "employments": "Zaposlenja",
+            "wageAttachmentDeleteSuccess": "Odbitak od plaće je izbrisan.",
+            "contractDeleteSuccess": "Ugovor je obrisan.",
+            "deleteContractConfirmationText": "Jeste li sigurni da želite izbrisati ovaj ugovor?",
+            "contracts": "Ugovori",
+            "wageAttachment": "Odbitak od plaće",
+            "wageAttachmentCreationSuccess": "Odbitak od plaće je napravljen.",
+            "wageAttachmentUpdateSuccess": "Odbitak od plaće je ažuriran.",
+            "wageAttachments": "Odbici od plaće",
+            "contractDeleteFailed": "Brisanje ugovora nije uspjelo.",
+            "contractCreateSuccess": "Ugovor je napravljen.",
+            "contractUpdateSuccess": "Ugovor je ažuriran.",
+            "createContract": "Napravi ugovor",
+            "contract": "Ugovor",
+            "functions": "Funkcije",
+            "noRecentPayslips": "Nisu pronađene nedavne platne liste.",
+            "archiveConfirmationText": "Jeste li sigurni da želite arhivirati ovog zaposlenika?",
+            "deleteConfirmationText": "Jeste li sigurni da želite izbrisati ovog zaposlenika?",
+            "deleteSuccess": "Zaposlenik je izbrisan.",
+            "deleteFailed": "Neuspjelo brisanje zaposlenika.",
+            "archivedText": "Ovaj je zaposlenik arhiviran.",
+            "unarchiveConfirmationText": "Jeste li sigurni da želite poništiti arhiviranje ovog zaposlenika?",
+            "annualStatements": "Godišnji izvještaji",
+            "annualStatement": "Godišnji izvještaj",
+            "payslips": "Platne liste",
+            "noAnnualStatements": "Nema godišnjih izvještaja.",
+            "pensionPlan": "Mirovinski plan",
+            "markedAsNew": "Označeno kao novo",
+            "markedAsChanged": "Označeno kao promijenjeno",
+            "deleteValidationFailed": "Nije moguće provjeriti može li se zaposlenik izbrisati.",
+            "canNotDeleteEmployeeText": "Zaposlenika nije moguće izbrisati zbog postojećih registracija vremena.",
+            "canNotDeleteEmploymentText": "Zaposlenje se ne može brisati zbog postojećih registracija vremena.",
+            "inviteExistingInfoText": "Pozivnica će biti poslana zaposleniku {name}.",
+            "inviteNewInfoText": "Poslat će se pozivnica za novog zaposlenika.",
+            "contractRequiredForEmploymentInfoText": "Oprez. Stvaranje ugovora nije obavezno ako još nemate poslodavca/zaposlenje. Ne možete napraviti zaposlenje bez ugovora.",
+            "activeContract": "Aktivni ugovor",
+            "wizardSkipContractConfirmationText": "Jeste li sigurni da ne želite napraviti ugovor? Ne možete napraviti zaposlenje bez ugovora.",
+            "wizardSkipEmploymentConfirmationText": "Jeste li sigurni da ne želite napraviti zaposlenje?",
+            "healthInsurances": "Zdravstvena osiguranja",
+            "submitForApprovalConfirmText": "Zaposlenik će biti poslan na odobrenje.",
+            "missingRequiredAttributesConfirmText": "Zaposlenik se još ne može poslati na odobrenje jer neka potrebna svojstva nisu popunjena.",
+            "submittedForApproval": "Zaposlenik je poslan na odobrenje.",
+            "markToBeRenewedConfirmationText": "Ugovor će biti označen za obnavljanje na kraju ugovora.",
+            "markNotToBeRenewedConfirmationText": "Ugovor neće biti označen za obnavljanje i uklonit će se iz poruka. Zaposlenik će dobiti e-poštu s potvrdom da se ugovor neće produljiti nakon što istekne.",
+            "contractMarkedToBeRenewed": "Ugovor je označen za obnavljanje",
+            "contractMarkedNotToBeRenewed": "Ugovor je označen da se ne obnavlja",
+            "contractCreateWithDocumentInfo": "Novi ugovor izradit će se zajedno s pripadajućim dokumentom. Zahtjev za potpisivanje bit će poslan 1 sat nakon izrade dokumenta. Datum završetka trenutnog ugovora bit će postavljen na dan prije datuma početka novog ugovora.",
+            "subsidyCreateSuccess": "Kreirana je subvencija.",
+            "accountNotActivatedInfo": "Račun (još) nije aktiviran. Kliknite na gumb za poziv kako biste poslali pozivnicu za aktivaciju zaposleniku.",
+            "subsidyDeleteSuccess": "Subvencija je izbrisana."
+        },
+        "actions": {
+            "newContract": "Novi ugovor",
+            "markAsNew": "Označi kao novo",
+            "markAsChanged": "Označi kao promijenjeno",
+            "createContract": "Napravi ugovor",
+            "deleteContract": "Izbriši odgovor",
+            "createEmployment": "Napravi zaposlenje",
+            "deleteSubsidyConfirmationText": "Jeste li sigurni da želite izbrisati subvenciju?"
+        },
+        "outOfService": "Prestanak rada",
+        "messages": {
+            "identityBothSides": "Molimo vas da učitate i prednju i zadnju stranu svog osobnog dokumenta."
+        }
+    },
+    "contact": {
+        "static": {
+            "userNotLinkedMessage": "Korisnik nije aktiviran ili nije povezan s kontaktom.",
+            "uploadSuccess": "Datoteka je učitana.",
+            "detached": "Kontakt je odvojen.",
+            "detachFailed": "Kontakt se nije mogao odvojiti.",
+            "detachConfirmationText": "Jeste li sigurni da želite odvojiti kontakt?"
+        }
+    },
+    "document": {
+        "static": {
+            "log": "Evidencija",
+            "selectSubjects": "Odaberi subjekte",
+            "selectSubjectsForSignRequestsText": "Odaberite sve subjekte kojima želite poslati zahtjev za potpis.",
+            "selectSubjectsForSignedFileText": "Odaberite sve subjekte kojima želite poslati potpisanu datoteku.",
+            "sendSignRequestsConfirmationText": "Sljedeći subjekti dobit će zahtjev za potpisivanjem.",
+            "generatorSubjectSendAfterCompletionExplanation": "Sljedeći subjekti dobit će dokument kad bude dovršen.",
+            "selectSubjectsForCompletedFileText": "Odaberite sve subjekte kojima želite poslati dovršenu datoteku.",
+            "generatorSubjectShouldSignExplanation": "Sljedeći subjekti dobit će zahtjev za potpis.",
+            "subjectSaved": "Predmet je spremljen.",
+            "subjectDeleted": "Predmet je izbrisan."
+        }
+    },
+    "log": {
+        "static": {
+            "description": "Opis",
+            "date": "Datum",
+            "old": "Staro",
+            "new": "Novo",
+            "properties": "Svojstva",
+            "system": "Sustav",
+            "causer": "Uzročnik",
+            "id": "ID",
+            "subject": "Predmet"
+        }
+    },
+    "freelancer": {
+        "static": {
+            "job": "Posao",
+            "jobs": "Poslovi",
+            "jobCreationSuccess": "Posao je stvoren",
+            "deleteConfirmationText": "Jeste li sigurni da želite izbrisati ovog samostalnog djelatnika?",
+            "deleteSuccess": "Samostalni je radnik izbrisan.",
+            "deleteFailed": "Neuspjelo brisanje samostalnog djelatnika.",
+            "linkedThroughJob": "Povezano preko posla",
+            "inviteNewInfoText": "Bit će poslana pozivnica za novog freelancera.",
+            "inviteExistingInfoText": "Bit će poslana pozivnica freelanceru {name}.",
+            "missingRequiredAttributesConfirmText": "Freelancer se još ne može poslati na odobrenje jer neka potrebna svojstva nisu popunjena.",
+            "submitForApprovalConfirmText": "Freelancer će biti poslan na odobrenje.",
+            "submittedForApproval": "Freelancer je poslan na odobrenje",
+            "archiveConfirmationText": "Jeste li sigurni da želite arhivirati ovog freelancera?",
+            "activeOnly": "Samo aktivni",
+            "unarchiveConfirmationText": "Jeste li sigurni da želite poništite arhiviranje ovog freelancera?",
+            "archivedText": "Ovaj freelancer je arhiviran."
+        }
+    },
+    "company": {
+        "static": {
+            "documentEmail": "E-pošta dokumenta",
+            "documentEmailCc": "Dokument cc",
+            "notificationEmail": "E-pošta s obavijesti",
+            "notificationEmailCc": "Obavijest cc",
+            "reminderEmail": "E-pošta s podsjetnikom",
+            "reminderEmailCc": "Podsjetnik cc",
+            "freelancerMargins": "Marže freelancera",
+            "copyInfo": "Stvorit će se nova kopija i povezati s odabranim poduzećem. Za svako poduzeće može se napraviti samo jedna kopija. Promjene napravljene na izvorniku mogu se uskladiti s kopijom.",
+            "copies": "Kopije",
+            "synchronizeInfo": "Odabrane vrijednosti uskladit će se s odabranom tvrtkom.",
+            "copiesAreIdentical": "Kopije su identične.",
+            "synchronizationSuccessful": "Kopije su uspješno usklađene.",
+            "original": "Izvornik",
+            "typeSlug": "Vrsta tvrtke",
+            "pensionPlanFactors": "Čimbenici mirovinskog plana",
+            "email": "E-pošta tvrtke",
+            "phone": "Telefon tvrtke",
+            "website": "Web-stranica tvrtke",
+            "legalFormSlug": "Pravni oblik"
+        },
+        "actions": {
+            "synchronize": "Uskladi",
+            "makeCopy": "Napravi kopiju",
+            "newCopy": "Nova kopija"
+        }
+    },
+    "permission": {
+        "action": {
+            "create": "Napravi",
+            "delete": "Izbriši",
+            "update": "Ažuriraj",
+            "view": "Prikaži"
+        }
+    },
+    "export": {
+        "actions": {
+            "toSepaAndMarkAsPaid": "U SEPA-u i označi kao plaćeno",
+            "generate": "Generiraj"
+        },
+        "static": {
+            "skipValidation": "Preskoči provjeru valjanosti"
+        }
+    },
+    "period": {
+        "actions": {
+            "select": "Odaberi"
+        }
+    },
+    "user": {
+        "actions": {
+            "sendResetPasswordLink": "Pošalji poveznicu za ponovno postavljanje lozinke"
+        },
+        "static": {
+            "deactivated": "Deaktivirano",
+            "notActivated": "Korisnik nije aktiviran."
+        }
+    },
+    "legalForm": {
+        "static": {
+            "foreignEcBusinessCompanyNetherlands": "Inozemno poduzeće EZ-a s tvrtkom u Nizozemskoj",
+            "foreignSimilarEcBusinessMainOfficeNetherlands": "Inozemna tvrtka slična poduzeću EZ-a s glavnim uredom u Nizozemskoj",
+            "soleProprietor": "Jedini vlasnik",
+            "soleProprietorMultipleOwners": "Samostalna djelatnost s više od jednog vlasnika",
+            "limitedCompanyStartUpAForm": "Novoosnovano N. V. (javno društvo s ograničenom odgovornošću) / B. V. (privatno društvo s ograničenom odgovornošću) na obrascu A",
+            "limitedCompanyStartUpDForm": "Novoosnovano N. V. (javno društvo s ograničenom odgovornošću) / B. V. (privatno društvo s ograničenom odgovornošću) na obrascu D",
+            "privateLimitedCompany": "Privatno društvo s ograničenom odgovornošću",
+            "privateLimitedCompanyTwoTier": "Privatno društvo s ograničenom odgovornošću prema statutu dvodomnog društva",
+            "publicLimitedCompanyInvestmentVariableCapitalTwoTier": "Javno investicijsko društvo s ograničenom odgovornošću s s promjenjivim kapitalom prema statutu dvodomnog društva",
+            "cooperativeLegalLiabilityStructuralCooperative": "Zadruga s pravnom odgovornošću prema statutu strukturne zadruge",
+            "mutualInsuranceCompanyStructuralMutual": "Društvo za uzajamno osiguranje prema statutu",
+            "mutualInsuranceCompanyLegalLiabilityStructuralMutual": "Društvo za uzajamno osiguranje s pravnom odgovornošću prema statutu strukturnog uzajamnog",
+            "commercialPartnership": "Javno trgovačko društvo",
+            "publicPartnership": "Javno partnerstvo",
+            "limitedPartnership": "Ograničeno partnerstvo",
+            "shippingCompany": "Dostavljačka tvrtka",
+            "limitedCompanyStartUpBForm": "Novoosnovano N. V. (javno društvo s ograničenom odgovornošću) / B. V. (privatno društvo s ograničenom odgovornošću) na obrascu B",
+            "legalPersonStartUp": "Pokretanje poslovanja pravne osobe",
+            "privateLimitedCompanyRegular": "Privatno društvo s ograničenom odgovornošću s redovnom strukturom",
+            "publicLimitedCompany": "Javno društvo s ograničenom odgovornošću",
+            "publicLimitedCompanyRegular": "Javno društvo s ograničenom odgovornošću s uobičajenom strukturom",
+            "publicLimitedCompanyTwoTier": "Javno društvo s ograničenom odgovornošću prema statutu dvodomnog društva",
+            "publicLimitedCompanyInvestmentVariableCapital": "Javno investicijsko društvo s ograničenom odgovornošću s promjenjivim kapitalom",
+            "europeanPublicLimitedCompanyRegular": "Europska tvrtka s ograničenom odgovornošću (SE) s uobičajenom strukturom",
+            "europeanPublicLimitedCompanyRegularTwoTierCooperative": "Europska tvrtka s ograničenom odgovornošću (SE) prema statutu Zadruge",
+            "cooperative": "Zadruga",
+            "cooperativeStructuralCooperative": "Zadruga prema statutu strukturne zadruge",
+            "cooperativeLegalLiabilityRegular": "Zadruga s pravnom odgovornošću s uobičajenom strukturom",
+            "cooperativeLimitedLiabilityRegular": "Zadruga s ograničenom odgovornošću s uobičajenom strukturom",
+            "cooperativeLimitedLiabilityStructuralCooperative": "Zadruga s ograničenom odgovornošću prema statutu strukturne zadruge",
+            "homeownersAssociation": "Udruženje vlasnika kuća",
+            "associationFullLegalCapacity": "Udruženje s punom pravnom sposobnošću",
+            "associationLimitedLegalCapacity": "Udruženje s ograničenom pravnom sposobnošću",
+            "religiousDenomination": "Vjeroispovijest",
+            "foundation": "Zaklada",
+            "mutualInsuranceCompany": "Društvo za uzajamno osiguranje",
+            "mutualInsuranceCompanyLegalLiabilityRegular": "Društvo za uzajamno osiguranje s pravnom odgovornošću i uobičajenom strukturom",
+            "mutualInsuranceCompanyLimitedLiabilityRegular": "Društvo za uzajamno osiguranje s ograničenom odgovornošću i uobičajenom strukturom",
+            "mutualInsuranceCompanyLimitedLiabilityStructuralMutual": "Društvo za uzajamno osiguranje s ograničenom odgovornošću prema statutu strukturnog uzajamnog",
+            "legalPersonPublicLaw": "Pravna osoba prema javnom zakonu",
+            "legalPersonPrivateLaw": "Pravna osoba kojom upravlja privatno pravo",
+            "foreignLegalFormHeadOfficeNetherlands": "Strani pravni oblik sa sjedištem u Nizozemskoj",
+            "branchOfficeHeadOfficeAbroad": "Podružnica sa sjedištem u inozemstvu",
+            "europeanEconomicInterestGrouping": "Europska gospodarska interesna grupa",
+            "foreignEcBusinessMainOfficeNetherlands": "Inozemno poduzeće EZ-a s glavnim uredom u Nizozemskoj",
+            "foreignSimilarEcBusinessCompanyNetherlands": "Inozemna tvrtka slična poduzeću EZ-a s tvrtkom u Nizozemskoj"
+        }
+    },
+    "etRegulation": {
+        "validation": {
+            "totalNotAllowed": "Ukupna vrijednost propisa ET nije između dopuštenih vrijednosti.",
+            "distanceCalculationFailedText": "Nismo uspjeli izračunati udaljenost do adrese stanovanja. Provjerite jesu li podaci o adresi valjani."
+        },
+        "static": {
+            "calculatedAmount": "Izračunati iznos: {amount}",
+            "amountShouldBeBetween": "Ukupni iznos trebao bi biti između {min} i {max}.",
+            "totalAmount": "Trenutni ukupni iznos je {amount}.",
+            "singleTrip": "Udaljenost jednog putovanja: {distance} km"
+        }
+    },
+    "users": {
+        "static": {
+            "sendPasswordResetConfirmationText": "E-poruka s poveznicom za ponovno postavljanje lozinke bit će poslana na {email}.",
+            "deactivateConfirmationText": "Korisnik će biti deaktiviran i više se ne može prijaviti.",
+            "permissionsSaved": "Dozvole su spremljene.",
+            "reactivateConfirmationText": "Korisnik će biti ponovno aktiviran i može se ponovno prijaviti."
+        }
+    },
+    "outOfServiceReason": {
+        "static": {
+            "deploymentEndByOtherReason": "Prestanak rada zbog drugog razloga",
+            "cancelledByEmployerWithinProbation": "Otkazao poslodavac unutar probnog razdoblja",
+            "cancelledByEmployerUwv": "Otkazao poslodavac, odobrio UWV",
+            "cancelledByJudge": "Otkazao sudac",
+            "cancelledByAgreement": "Sporazumni raskid ugovora",
+            "cancelledByEmployee": "Otkazao zaposlenik",
+            "cancelledByEmployer": "Otkazao poslodavac",
+            "endOfEmployment": "Prestanak radnog odnosa po zakonu zbog datuma isteka ugovora",
+            "endByLawOtherReason": "Prestanak radnog odnosa po zakonu zbog drugog razloga",
+            "deploymentEndByIllness": "Prestanak rada zbog bolesti",
+            "continuedWithoutIncome": "Nastavljeno bez prihoda",
+            "otherReason": "Drugi razlog"
+        }
+    },
+    "cv": {
+        "profile": {
+            "profileSummary": "Unesite sažetak svog profila ovdje (potrebno je najmanje 150 riječi).",
+            "profile": "Profil"
+        },
+        "work": {
+            "addWorkExperience": "Dodaj radno iskustvo",
+            "workExperience": "Radno iskustvo",
+            "function": "Funkcija",
+            "jobDescription": "Opis posla"
+        },
+        "certificate": {
+            "certificates": "Certifikati",
+            "description": "Opis",
+            "addCertificate": "Dodaj certifikat",
+            "addEducation": "Dodaj obrazovanje/kvalifikaciju"
+        },
+        "education": {
+            "educationsAndQualifications": "Obrazovanje i kvalifikacije",
+            "educationsDescription": "Opis obrazovanja"
+        },
+        "title": "Titula",
+        "from": "Od",
+        "till": "Do",
+        "interest": {
+            "interests": "Interesi",
+            "pickInterests": "Odaberite svoje interese"
+        },
+        "language": {
+            "languages": "Jezici",
+            "pickLanguage": "Odaberite svoje jezike",
+            "rating": "Procjena jezika koje govorite"
+        },
+        "select": "Odaberi",
+        "reference": {
+            "references": "Reference",
+            "fullName": "Puno ime poslodavca",
+            "company": "Tvrtka",
+            "telephone": "Telefon",
+            "email": "E-pošta",
+            "addReference": "Dodaj referencu"
+        },
+        "skill": {
+            "skills": "Vještine",
+            "pickSkills": "Odaberite svoje vještine",
+            "rating": "Procjena vaših vještina"
+        },
+        "dialog": {
+            "close": "Zatvori",
+            "generateCv": "Generiraj CV"
+        }
+    },
+    "wageAttachment": {
+        "static": {
+            "overallSum": "Ukupni iznos",
+            "garnishee": "Subjekt zapljene",
+            "garnisheeContact": "Kontakt subjekta zapljene",
+            "garnisheeCity": "Grad subjekta zapljene",
+            "reference": "Referenca",
+            "taxFreeSum": "Neoporezivi iznos",
+            "outstandingAmount": "Nepodmireni iznos",
+            "paidAmount": "Plaćeni iznos",
+            "informationRequestSent": "Zahtjev za informacijama je poslan",
+            "outstanding": "Nepodmireno",
+            "paid": "Plaćeno"
+        },
+        "actions": {
+            "sendInformationRequest": "Pošalji zahtjev za informacijama",
+            "informationRequest": "Zahtjev za informacijama"
+        }
+    },
+    "invitation": {
+        "actions": {
+            "sendInvitation": "Pošalji pozivnicu"
+        },
+        "static": {
+            "inviteSuccess": "Pozivnica uspješno poslana",
+            "tokenInvalid": "Token nevažeći",
+            "tokenInvalidDescription": "Token je nevažeći."
+        }
+    },
+    "job": {
+        "static": {
+            "employment": "Zaposlenje",
+            "freelancerJob": "Posao samostalnog djelatnika",
+            "employments": "Zaposlenja",
+            "freelancerJobs": "Poslovi samostalnog djelatnika"
+        }
+    },
+    "documentTemplate": {
+        "actions": {
+            "saveTranslation": "Spremi prijevod"
+        },
+        "static": {
+            "jobConfirmation": "Potvrda posla",
+            "hireAgreementFreelancers": "Ugovor o zaposlenju freelancera",
+            "healthcareAuthorisationForm": "Obrazac odobrenja za zdravstvenu zaštitu",
+            "idStatementForm": "Obrazac izjave o osobnoj iskaznici",
+            "deliveryDeed": "Akt o isporuci",
+            "wageAttachmentRequest": "Zahtjev za ovrhu plaće",
+            "jobConfirmationFreelancer": "Potvrda posla za freelancera",
+            "collaborationAgreementFreelancer": "Ugovor o suradnji za freelancera",
+            "healthcareAgreement": "Ugovor o zdravstvenoj zaštiti",
+            "leadGenerationAgreement": "Ugovor o stvaranju potencijalnih klijenata",
+            "contractPhase12": "Ugovorna faza 1/2",
+            "contractPhase3": "Ugovorna faza 3",
+            "contractPhase4": "Ugovorna faza 4",
+            "termsAndConditions": "Uvjeti i odredbe",
+            "frameworkAgreement": "Okvirni sporazum",
+            "hireAgreement": "Ugovor o zaposlenju",
+            "employmentConfirmation": "Potvrda o zaposlenju",
+            "declarationAgreement": "Sporazum o deklaraciji",
+            "employmentTerminationAgreement": "Sporazum o prekidu radnog odnosa",
+            "deductionsAndAdvances": "Odbici i predujmi",
+            "etAddendum": "Dodatak ET-u",
+            "antiDiscriminationPolicy": "Protudiskriminacijska politika",
+            "staffGuide": "Vodič za osoblje",
+            "guaranteeAgreement": "Ugovor o jamstvu",
+            "employersDeclaration": "Izjava o poslodavcima",
+            "contractPayrollFixedTerm": "Plaća po ugovoru na određeno vrijeme",
+            "mediationAgreement": "Ugovor o posredovanju",
+            "intermediateAgreement": "Posrednički ugovor",
+            "contractPayrollPermanent": "Plaća po ugovoru na neodređeno vrijeme",
+            "payrollConfirmation": "Potvrda platne liste"
+        }
+    },
+    "employees": {
+        "static": {
+            "activeOnly": "Samo aktivni",
+            "linkedThroughEmployment": "Povezano putem zaposlenja"
+        }
+    },
+    "contractType": {
+        "static": {
+            "phase1And2": "Faza 1/2",
+            "phase3": "Faza 3",
+            "phase4": "Faza 4",
+            "payrollFixedTerm": "Plaća (ugovor na određeno)",
+            "payrollPermanent": "Plaća (ugovor na neodređeno)"
+        }
+    },
+    "note": {
+        "actions": {
+            "deleteConfirmationText": "Jeste li sigurni da želite izbrisati ovu bilješku?",
+            "delete": "Izbriši",
+            "cancel": "Poništi"
+        },
+        "success": {
+            "deleted": "Bilješka je uspješno izbrisana."
+        }
+    },
+    "riskGroup": {
+        "static": {
+            "administrative": "Administrativni",
+            "executive": "Izvršni"
+        }
+    },
+    "hirer": {
+        "form": {
+            "companyOwnedScheme": "Shema u vlasništvu tvrtke",
+            "remunerationSpecifics": "Posebnosti",
+            "shiftWork": "Rad u smjenama",
+            "travelHours": "Putni sati",
+            "travelCost": "Putni trošak",
+            "otherCompensations": "Druge kompenzacije",
+            "overtime": "Prekovremeni sati",
+            "holidays": "Praznici"
+        },
+        "static": {
+            "archivedText": "Ovaj poslodavac je arhiviran.",
+            "hirerRemuneration": "Naknada poslodavca",
+            "deleteSuccess": "Poslodavac je izbrisan.",
+            "deleteFailed": "Neuspjelo brisanje poslodavca.",
+            "saved": "Poslodavac je spremljen",
+            "deleteConfirmationText": "Jeste li sigurni da želite izbrisati ovog poslodavca?",
+            "assignment": "Zadatak",
+            "projectDeleted": "Projekt je izbrisan.",
+            "inviteExistingInfoText": "Pozivnica će biti poslana poslodavcu {companyName}.",
+            "inviteNewInfoText": "Pozivnica će biti poslana za novog poslodavca.",
+            "notMinimumCompanyFreelancerHourTypeMarginAdditionsConfirmationText": "Neki dodaci na marže manji su od vrijednosti zaposlenja.",
+            "notMinimumCompanyFreelancerHourTypeMarginConfirmationText": "Osnovna marža za vrstu sati freelancera manja je od vrijednosti zaposlenja.",
+            "missingRequiredAttributesConfirmText": "Poslodavac se ne može još poslati na odobrenje jer neka potrebna svojstva nisu popunjena.",
+            "submitForApprovalConfirmText": "Poslodavac će se poslati na odobrenje.",
+            "submittedForApproval": "Poslodavac je poslan na odobrenje."
+        }
+    },
+    "pensionPlan": {
+        "static": {
+            "basic": "Osnovno",
+            "plus": "Plus",
+            "adequate": "Odgovarajuće",
+            "bpf": "BPF"
+        }
+    },
+    "wizard": {
+        "static": {
+            "noDocumentsToGenerate": "Nema dokumenata za generiranje.",
+            "employmentAgencyNotApproved": "Ova agencija za zapošljavanje još nije odobrena.",
+            "hirerNotApproved": "Ovaj poslodavac još nije odobren.",
+            "freelancerNotApproved": "Ovaj samostalni djelatnik još nije odobren.",
+            "employeeNotApproved": "Ovaj zaposlenik još nije odobren.",
+            "resellerNotApproved": "Ovaj prodavač još nije odobren."
+        },
+        "actions": {
+            "viewWizard": "Prikaži čarobnjaka"
+        }
+    },
+    "sickReport": {
+        "reportSick": "Prijavi bolovanje",
+        "alreadySick": "Zaposlenik je već prijavio bolovanje.",
+        "actions": {
+            "delete": "Izbriši",
+            "cancel": "Otkaži",
+            "deleteConfirmationText": "Jeste li sigurni da želite izbrisati ovo izvješće o bolovanju?"
+        },
+        "success": {
+            "deleted": "Izvješće o bolovanju uspješno je izbrisano."
+        },
+        "filter": {
+            "currentSickOnly": "Samo trenutno bolesni",
+            "start": "Početak",
+            "end": "Kraj"
+        },
+        "betterReport": {
+            "report": "Prijavi poboljšanje",
+            "confirmationQuestion": "Jeste li sigurni?",
+            "actions": {
+                "confirmationTextEmployee": "Jeste li sigurni da želite prijaviti poboljšanje kod ovog zaposlenika?",
+                "confirm": "Potvrdi",
+                "cancel": "Otkaži",
+                "confirmationText": "Jeste li sigurni da želite prijaviti poboljšanje?"
+            },
+            "success": "Uspješno je prijavljeno poboljšanje kod ovog zaposlenika."
+        }
+    },
+    "outOfService": {
+        "reason": "Razlog",
+        "actions": {
+            "delete": "Izbriši",
+            "cancel": "Otkaži",
+            "processConfirmationText": "Jeste li sigurni da želite obraditi obavijest o prestanku rada?",
+            "process": "Obradi",
+            "deleteConfirmationText": "Jeste li sigurni da želite ukloniti obavijest o prestanku rada?"
+        },
+        "processSuccess": "Obavijest o prestanku rada uspješno je obrađena.",
+        "onlyOutstanding": "Samo nepodmireno",
+        "search": "Traži",
+        "process": "Obradi",
+        "date": "Datum"
+    },
+    "deductions": {
+        "static": {
+            "amountIsLimited": "Iznos odbitka ograničen je na temelju sati ovog razdoblja.",
+            "outstandingDeductions": "Nepodmireni odbici",
+            "recurringDeductions": "Ponavljajući odbici",
+            "saved": "Odbici su spremljeni.",
+            "amount": "Iznos",
+            "for": "Za",
+            "files": "Datoteke",
+            "uploadFile": "Učitaj datoteku",
+            "remainingAmount": "Preostali iznos",
+            "deductFrom": "Odbij od",
+            "noDeductions": "Nema odbitaka",
+            "remaining": "Preostalo",
+            "unexportedOnly": "Samo neizvezeno"
+        }
+    },
+    "filters": {
+        "static": {
+            "archivedOnly": "Samo arhivirano",
+            "withActiveEmploymentsOnly": "Samo s aktivnim zaposlenjima",
+            "createdByAdmin": "Kreirao administrator",
+            "readyForApproval": "Spremno za odobrenje",
+            "selectedEnterpriseOnly": "Samo odabrano poduzeće"
+        }
+    },
+    "import": {
+        "static": {
+            "reservationsImported": "Rezervacije uvezene"
+        }
+    },
+    "creditLimit": {
+        "static": {
+            "finalAssessmentWillFollowLater": "Konačna procjena kreditnog limita uslijedit će naknadno."
+        }
+    },
+    "employmentAgency": {
+        "static": {
+            "archivedText": "Ova je agencija za zapošljavanje arhivirana.",
+            "deleteConfirmationText": "Jeste li sigurni da želite izbrisati ovu agenciju za zapošljavanje?",
+            "deleteSuccess": "Agencija za zapošljavanje je izbrisana.",
+            "deleteFailed": "Neuspjelo brisanje agencije za zapošljavanje.",
+            "inviteExistingInfoText": "Pozivnica će biti poslana agenciji za zapošljavanje {companyName}.",
+            "inviteNewInfoText": "Pozivnica će biti poslana za novu agenciju za zapošljavanje.",
+            "makeResellerConfirmationText": "Jeste li sigurni da želite napraviti prodavača za agenciju za zapošljavanje?",
+            "missingRequiredAttributesConfirmText": "Agencija za zapošljavanje ne može se još poslati na odobrenje jer neka potrebna svojstva nisu popunjena.",
+            "submitForApprovalConfirmText": "Agencija za zapošljavanje poslat će se na odobrenje."
+        }
+    },
+    "employeePayslip": {
+        "actions": {
+            "sendNow": "Pošalji sad"
+        },
+        "static": {
+            "sendEmailConfirmationText": "Jeste li sigurni da želite sad poslati platnu listu?",
+            "sendEmailSuccess": "Platna lista je poslana.",
+            "sendEmailFailed": "Platna lista nije mogla biti poslana."
+        }
+    },
+    "invoiceGroup": {
+        "static": {
+            "timeRegistration": "Registracija vremena",
+            "custom": "Prilagođeno"
+        }
+    },
+    "timeRegistrationPeriodStatus": {
+        "static": {
+            "completed": "Dovršeno",
+            "requiresAction": "Potrebna je radnja",
+            "open": "Otvori",
+            "locking": "Zaključava se",
+            "locked": "Zaključano"
+        }
+    },
+    "error": {
+        "actions": {
+            "back": "Natrag na prethodnu stranicu"
+        },
+        "static": {
+            "serverError": "Pogreška poslužitelja",
+            "description": "Došlo je do pogreške. Pokušajte osvježiti ili se vratite na prethodnu stranicu.",
+            "pageNotFound": "Stranica nije pronađena",
+            "pageNotFoundDescription": "Nismo mogli pronaći stranicu koju ste tražili."
+        }
+    },
+    "holiday": {
+        "static": {
+            "liberationDay": "Dan oslobođenja",
+            "newYear": "Nova godina",
+            "easterMonday": "Uskršnji ponedjeljak",
+            "ascensionDay": "Uzašašće",
+            "whitMonday": "Duhovski ponedjeljak",
+            "firstChristmasDay": "Prvi dan Božića",
+            "secondChristmasDay": "Drugi dan Božića",
+            "kingsDay": "Kraljevo"
+        }
+    },
+    "factoringCompany": {
+        "static": {
+            "deleted": "Tvrtka za faktoring je izbrisana."
+        }
+    },
+    "companyType": {
+        "static": {
+            "healthcare": "Zdravstvena skrb",
+            "default": "Zadane postavke"
+        }
+    },
+    "workServiceType": {
+        "static": {
+            "night": "Noćna smjena",
+            "weekend": "Smjena za vikend",
+            "consignment": "Usluga slanja",
+            "reachability": "Usluga dostupnosti"
+        }
+    },
+    "media": {
+        "static": {
+            "type": "Vrsta",
+            "other": "Ostalo",
+            "curriculumVitae": "Životopis",
+            "motivationLetter": "Motivacijsko pismo",
+            "certificateOfConduct": "Potvrda o ponašanju",
+            "diploma": "Diploma",
+            "pdfPagesCount": "PDF ima {amount} stranica/e"
+        }
+    },
+    "reservations": {
+        "static": {
+            "editBuildupInfo": "Prilikom promjene tih vrijednosti ažurirat će se odgovarajuća registracija vremena.\nPrilikom izrade novog zahtjeva ili ako je zahtjev već isplaćen;\n- Stanje rezervacije ažurirat će se.\n- Zahtjev se neće pojaviti u izvozu isplate.\nPrilikom ažuriranja zahtjeva koji još nije isplaćen;\n- Stanje rezervacije neće se ažurirati.\n- Zahtjev će se ažurirati u izvozu isplate.",
+            "buildup": "Gomilanje",
+            "paidOut": "Isplaćeno",
+            "noBuildupFound": "Nisu pronađena gomilanja",
+            "showEmptyPeriods": "Prikaži prazna razdoblja",
+            "request": "Zahtjev",
+            "saved": "Rezervacija je spremljena.",
+            "deleted": "Rezervacija je izbrisana",
+            "deleteReservationText": "Rezervacija će biti izbrisana iz registracije vremena.",
+            "reservationRequest": "Zahtjevi za rezervaciju",
+            "newRequest": "Novi zahtjev",
+            "canOnlyEditHistoricalBuildupInfo": "Mogu se uređivati samo prethodne vrijednosti.",
+            "noReservations": "Nema rezervacija",
+            "requestReservations": "Zatraži rezervacije",
+            "calculationTool": "Alat za izračun"
+        },
+        "tooltip": {
+            "warningRequestNotYetExported": "Ovaj zahtjev još nije isplaćen."
+        },
+        "actions": {
+            "request": "Zahtjev"
+        }
+    },
+    "project": {
+        "static": {
+            "projectManagers": "Voditelji projekata",
+            "createProject": "Napravi projekt",
+            "projectCreationSuccess": "Projekt uspješno napravljen.",
+            "updateProject": "Ažuriraj projekt",
+            "deleteProjectConfirmationText": "Jeste li sigurni da želite izbrisati projekt?"
+        }
+    },
+    "search": {
+        "static": {
+            "noMoreResults": "Nema više rezultata.",
+            "ctrlShiftF": "Ctrl + Shift + F"
+        }
+    },
+    "entity": {
+        "static": {
+            "enterprise": "Poduzeće",
+            "employmentAgency": "Agencija za zapošljavanje",
+            "hirer": "Poslodavac",
+            "employee": "Zaposlenik",
+            "freelancer": "Freelancer"
+        }
+    },
+    "healthInsurance": {
+        "static": {
+            "saved": "Zdravstvena su osiguranja spremljena."
+        }
+    },
+    "marginType": {
+        "static": {
+            "default": "Zadano",
+            "overtime": "Prekovremeno",
+            "etRegulation": "Uredba ET",
+            "senior": "Stariji",
+            "hourType": "Vrsta sati"
+        }
+    },
+    "freelancerHourTypeMarginAddition": {
+        "static": {
+            "hirerPaymentTermTableHeader": "Rok plaćanja poslodavca",
+            "hourlyRateFreelancerTableHeader": "Satnica (od)"
+        }
+    },
+    "reseller": {
+        "static": {
+            "missingRequiredAttributesConfirmText": "Prodavač se još ne može poslati na odobrenje jer neka potrebna svojstva nisu popunjena.",
+            "submitForApprovalConfirmText": "Prodavač će se poslati na odobrenje.",
+            "archivedText": "Ovaj prodavač je arhiviran.",
+            "deleteConfirmationText": "Jeste li sigurni da želite izbrisati ovog prodavača?",
+            "deleteSuccess": "Prodavač je izbrisan.",
+            "deleteFailed": "Brisanje prodavača nije uspjelo.",
+            "employeeMargins": "Marže zaposlenika",
+            "freelancerMargins": "Marže freelancera",
+            "deleteCustomerConfirmationText": "Jeste li sigurni da želite ukloniti ovog klijenta? Sve marže povezane s ovim klijentom bit će izbrisane.",
+            "defaultMargin": "Zadana marža",
+            "zeroMarginConfirmationText": "Jedna ili više marži imaju vrijednost '0'.",
+            "customerCanOnlyHaveOneResellerInfoMessage": "Ako agencija za zapošljavanje nije navedena, provjerite je li već povezana s drugim preprodavačem."
+        }
+    },
+    "teamType": {
+        "static": {
+            "freelancer": "Freelancer",
+            "employee": "Zaposlenik",
+            "hirer": "Poslodavac",
+            "employmentAgency": "Agencija za zapošljavanje",
+            "reseller": "Preprodavač"
+        }
+    },
+    "personalAccessToken": {
+        "static": {
+            "tokenCreatedInfo": "Token je kreiran. Token će se prikazati samo jednom, stoga ga spremite na sigurno mjesto.",
+            "tokenCopied": "Token je kopiran u međuspremnik",
+            "personalAccessTokens": "Osobni pristupni tokeni",
+            "details": "Detalji",
+            "tokenPlaceholder": "Token će se prikazati ovdje.",
+            "deletePersonalAccessTokenText": "Token će se izbrisati i više se neće moći upotrijebiti."
+        }
+    },
+    "messageBox": {
+        "static": {
+            "shouldSignDocument": {
+                "subject": "Subjekt",
+                "sendSignRequestConfirmationText": "Sljedeći subjekt dobit će zahtjev za potpis",
+                "newSignTokenConfirmationText": "Primit će se novi token za potpis.",
+                "newSignTokenSuccess": "Token za potpis uspješno je primljen.",
+                "newSignTokenFailed": "Došlo je do pogreške prilikom primanja novog tokena za potpis.",
+                "hideDocumentConfirmationText": "Jeste li sigurni da želite sakriti ovaj zadatak? Neće se ponovno pojaviti."
+            },
+            "hideContractConfirmationText": "Jeste li sigurni da želite sakriti ovaj ugovor? Neće se ponovno pojaviti."
+        }
+    },
+    "teams": {
+        "static": {
+            "details": "Detalji",
+            "team": "Tim",
+            "addTeam": "Dodaj tim",
+            "deleteTeamText": "Jeste li sigurni da želite izbrisati ovaj tim?",
+            "deleteTeamPresetText": "Jeste li sigurni da želite izbrisati početne postavke ovog tima?",
+            "teamOwner": "Vlasnik tima",
+            "roles": "Uloge"
+        }
+    },
+    "roles": {
+        "static": {
+            "roleCreated": "Uloga je napravljena.",
+            "permissionsSaved": "Dozvole su spremljene."
+        }
+    },
+    "subsidyCompany": {
+        "static": {
+            "deleteSubsidyCompanyConfirmationText": "Jeste li sigurni da želite izbrisati subvencijsku tvrtku?",
+            "deleted": "Subvencijska tvrtka je izbrisana."
+        }
+    },
+    "subsidy": {
+        "static": {
+            "startDateInfo": "Ako datum početka nije početak tjedna, subvencija će biti uključena od početka sljedećeg tjedna.",
+            "details": "Detalji",
+            "createSubsidy": "Kreiraj subvenciju",
+            "updateSubsidy": "Ažuriraj subvenciju",
+            "clearToExcludeFromSubsidy": "Obrišite ovo polje kako biste isključili ovu stavku iz subvencije.",
+            "endDateInfo": "Ako datum završetka nije kraj tjedna, subvencija će biti uključena do kraja prethodnog tjedna.",
+            "confirmation": "Potvrda subvencije"
+        }
+    },
+    "proFormaPayslip": {
+        "static": {
+            "splitPayOutInfo": "Kad je ova opcija omogućena, redovni sati bit će odvojeni od ostalih sati/doplata/naknada na platnoj listi."
+        },
+        "actions": {
+            "previewCostPriceOverview": "Pregled troška",
+            "previewPayslip": "Pregled platne liste"
+        }
+    }
+}

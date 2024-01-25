@@ -19,10 +19,11 @@
             @keydown.enter="login"
         />
 
+        <!-- no longer using text to specify the variant -->
         <v-btn
             v-if="withForgotPassword"
             color="primary"
-            text
+            variant="text"
             to="forgot-password"
         >
             <!-- {{ $t('auth.actions.forgotPassword') }} -->
@@ -52,11 +53,17 @@
             We are currently down for maintenance. Please check back again later.
         </v-alert>
     </div>
+    <Hello />
 </template>
 
 <script>
+    import Hello from '@/Hello.vue';
+
     export default {
         name: 'LoginForm',
+
+        components: { Hello },
+
         props: {
             withForgotPassword: {
                 type: Boolean,

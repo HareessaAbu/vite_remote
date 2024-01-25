@@ -1,0 +1,2443 @@
+{
+    "outOfServiceReason": {
+        "static": {
+            "otherReason": "其他原因",
+            "cancelledByEmployerWithinProbation": "试用期内被雇主取消",
+            "cancelledByJudge": "被法官取消",
+            "cancelledByAgreement": "约定终止合同",
+            "cancelledByEmployee": "被员工取消",
+            "cancelledByEmployer": "被雇主取消",
+            "endOfEmployment": "因合同终止日期而依法终止雇佣",
+            "endByLawOtherReason": "因其他原因依法终止雇佣",
+            "deploymentEndByOtherReason": "因其他原因部署结束",
+            "deploymentEndByIllness": "因疾病原因部署结束",
+            "cancelledByEmployerUwv": "被雇主取消，被 UWV 批准",
+            "continuedWithoutIncome": "已在无收入情况下继续"
+        }
+    },
+    "cv": {
+        "interest": {
+            "pickInterests": "选择您的兴趣",
+            "interests": "兴趣"
+        },
+        "language": {
+            "rating": "您的语言等级",
+            "languages": "语言",
+            "pickLanguage": "选择您的语言"
+        },
+        "reference": {
+            "email": "电子邮箱",
+            "references": "参考",
+            "fullName": "雇主全名",
+            "company": "公司",
+            "telephone": "电话",
+            "addReference": "添加参考"
+        },
+        "certificate": {
+            "certificates": "证书",
+            "description": "说明",
+            "addCertificate": "添加证书",
+            "addEducation": "添加学历/资质"
+        },
+        "education": {
+            "educationsAndQualifications": "学历/资质",
+            "educationsDescription": "学历说明"
+        },
+        "title": "标题",
+        "from": "从",
+        "till": "到",
+        "select": "选择",
+        "profile": {
+            "profileSummary": "在此处输入您的个人资料摘要（不少于150字）。",
+            "profile": "个人资料"
+        },
+        "skill": {
+            "skills": "技能",
+            "pickSkills": "选择您的技能",
+            "rating": "您的技能等级"
+        },
+        "work": {
+            "workExperience": "工作经验",
+            "function": "函数",
+            "jobDescription": "工作说明",
+            "addWorkExperience": "添加工作经历"
+        },
+        "dialog": {
+            "close": "关闭",
+            "generateCv": "生成简历"
+        }
+    },
+    "wageAttachment": {
+        "static": {
+            "taxFreeSum": "免税总额",
+            "garnishee": "债务人",
+            "garnisheeContact": "债务人联系方式",
+            "garnisheeCity": "债务人城市",
+            "reference": "参考",
+            "overallSum": "总额",
+            "outstandingAmount": "未偿还金额",
+            "paidAmount": "已付金额",
+            "informationRequestSent": "已发送信息请求",
+            "paid": "已付",
+            "outstanding": "未付"
+        },
+        "actions": {
+            "informationRequest": "信息请求",
+            "sendInformationRequest": "发送信息请求"
+        }
+    },
+    "employees": {
+        "static": {
+            "linkedThroughEmployment": "通过雇佣连接",
+            "activeOnly": "仅限有效"
+        }
+    },
+    "note": {
+        "actions": {
+            "cancel": "取消",
+            "delete": "删除",
+            "deleteConfirmationText": "是否确定要删除此注释？"
+        },
+        "success": {
+            "deleted": "注释已成功删除。"
+        }
+    },
+    "creditLimit": {
+        "static": {
+            "finalAssessmentWillFollowLater": "信用额度的最终评估将在稍后进行。"
+        }
+    },
+    "sickReport": {
+        "alreadySick": "该员工已被报告为生病。",
+        "success": {
+            "deleted": "生病报告已成功删除。"
+        },
+        "reportSick": "报告为生病",
+        "actions": {
+            "delete": "删除",
+            "deleteConfirmationText": "是否确定要删除此生病报告？",
+            "cancel": "取消"
+        },
+        "filter": {
+            "currentSickOnly": "仅限当前生病",
+            "start": "开始",
+            "end": "结束"
+        },
+        "betterReport": {
+            "report": "报告为恢复",
+            "confirmationQuestion": "是否确定？",
+            "actions": {
+                "confirmationTextEmployee": "是否确定要报告此员工为恢复？",
+                "confirm": "确认",
+                "cancel": "取消",
+                "confirmationText": "确定要报告为恢复吗？"
+            },
+            "success": "已成功报告此员工为恢复。"
+        }
+    },
+    "deductions": {
+        "static": {
+            "remaining": "剩余",
+            "outstandingDeductions": "未付扣减",
+            "recurringDeductions": "经常性扣减",
+            "saved": "扣减已保存。",
+            "amount": "金额",
+            "for": "对于",
+            "remainingAmount": "剩余金额",
+            "files": "文件",
+            "uploadFile": "上传文件",
+            "deductFrom": "扣减于",
+            "noDeductions": "无扣减",
+            "amountIsLimited": "扣减金额根据该时间段内的工时数进行限制。",
+            "unexportedOnly": "仅限未导出"
+        }
+    },
+    "employmentAgency": {
+        "static": {
+            "deleteConfirmationText": "是否确定要删除此职业介绍所？",
+            "inviteNewInfoText": "邀请函将发送到新职业介绍所。",
+            "archivedText": "该职业介绍所已归档。",
+            "deleteSuccess": "职业介绍所已被删除。",
+            "deleteFailed": "无法删除职业介绍所。",
+            "inviteExistingInfoText": "邀请将被发送到职业介绍所 {companyName}。",
+            "missingRequiredAttributesConfirmText": "职业介绍所尚未提交审批，因为未填写某些必填属性。",
+            "submitForApprovalConfirmText": "职业介绍所将被提交审批。",
+            "makeResellerConfirmationText": "是否确定要为职业介绍所设置转销商？"
+        }
+    },
+    "hirer": {
+        "static": {
+            "inviteExistingInfoText": "邀请将发送到雇主 {companyName}。",
+            "archivedText": "此雇主已归档。",
+            "hirerRemuneration": "雇主报酬",
+            "saved": "此雇主已保存",
+            "deleteSuccess": "此雇主已被删除。",
+            "deleteFailed": "无法删除雇主。",
+            "projectDeleted": "此项目已被删除。",
+            "assignment": "工作",
+            "inviteNewInfoText": "将为新雇主发送邀请。",
+            "notMinimumCompanyFreelancerHourTypeMarginConfirmationText": "自由职业者工时类型的基本利润低于雇佣价值。",
+            "notMinimumCompanyFreelancerHourTypeMarginAdditionsConfirmationText": "部分利润增加值小于雇佣值。",
+            "submitForApprovalConfirmText": "雇主将被提交审批。",
+            "submittedForApproval": "雇主已被提交审批。",
+            "deleteConfirmationText": "是否确定要删除此雇主？",
+            "missingRequiredAttributesConfirmText": "由于未填写某些必填属性，雇主尚未提交审批。"
+        },
+        "form": {
+            "overtime": "加班工时",
+            "shiftWork": "轮班",
+            "travelHours": "差旅时数",
+            "otherCompensations": "其他补偿",
+            "companyOwnedScheme": "公司自有计划",
+            "remunerationSpecifics": "详情",
+            "holidays": "假期",
+            "travelCost": "差旅成本"
+        }
+    },
+    "auth": {
+        "actions": {
+            "forgotPassword": "忘记密码",
+            "login": "登录",
+            "resetPassword": "重置密码",
+            "updatePassword": "更新密码",
+            "logout": "登出",
+            "leaveImpersonation": "退出模拟",
+            "changePassword": "更改密码",
+            "reactivate": "重新激活",
+            "deactivate": "停用",
+            "backToLogin": "返回登录"
+        },
+        "pages": {
+            "forgotPassword": "忘记密码",
+            "login": "登录",
+            "setPassword": "设置密码",
+            "activateAccount": "激活账号"
+        },
+        "static": {
+            "accountActivationSuccess": "账号已激活",
+            "email": "电子邮箱",
+            "forgotPasswordSuccess": "已发送密码重置链接",
+            "passwordResetSuccess": "密码已重置",
+            "logoutConfirmationText": "您确定要退出吗？",
+            "registrationSuccessful": "注册成功",
+            "leaveImpersonationConfirmationText": "确定要退出模拟吗？",
+            "passwordUpdated": "密码已更新。",
+            "tokenExpired": "令牌过期",
+            "tokenExpiredInfo": "您已登出，因为您的身份验证令牌已过期。如需继续，请使用您的登录信息登录。",
+            "authenticated": "您已登录！",
+            "userReactivated": "此用户已重新启用。",
+            "forgotPasswordSuccessDescription": "我们已向您发送包含重置密码链接的电子邮件。",
+            "userDeactivated": "用户已被停用。",
+            "mobileDashboardOrderUpdated": "移动仪表板的顺序已更新。"
+        }
+    },
+    "dashboard": {
+        "tabs": {
+            "creditApplications": "信用申请",
+            "newEmployees": "新雇员",
+            "newEmploymentAgencies": "新职业介绍所",
+            "newHirers": "新雇主",
+            "newFreelancers": "新自由职业者"
+        },
+        "charts": {
+            "revenue": "收入",
+            "employees": "员工",
+            "workedHours": "已完成工时",
+            "hirers": "雇主",
+            "employmentAgencies": "职业介绍所",
+            "freelancers": "自由职业者",
+            "payroll": "工资单",
+            "temporary": "临时",
+            "overtime": "加班",
+            "surchargeHours": "附加时数",
+            "margin": "利润",
+            "freelancerCosts": "自由职业者成本"
+        },
+        "static": {
+            "messageBox": "消息箱",
+            "yourReservations": "您的预订",
+            "recentPayslips": "最近工资单",
+            "functions": "功能",
+            "hirersWithoutCao": "无 CAO 的雇主",
+            "notifications": "通知",
+            "statistics": "统计数据",
+            "newRegistrations": "新注册",
+            "charts": "图表",
+            "unsignedContracts": "未签署合同",
+            "annualStatements": "年度报表",
+            "recentInvoices": "最近发票"
+        },
+        "functions": {
+            "timeRegistration": "时间注册",
+            "imports": "进口量",
+            "exports": "出口量",
+            "invoices": "发票",
+            "payslipsAndAnnualStatements": "工资单/年度报表",
+            "documents": "文档"
+        },
+        "titles": {
+            "hirers": "雇主",
+            "freelancers": "自由职业者",
+            "employees": "雇员",
+            "marginExcludingVat": "利润（不含增值税）",
+            "resellers": "转销商",
+            "employmentAgencies": "职业介绍所",
+            "costExcludingVat": "成本 {year}（不含增值税）"
+        },
+        "messageBox": {
+            "payOut": "支出 ({frequency})",
+            "birthdays": "生日",
+            "lockablePeriods": "可锁定时间段",
+            "expiredContracts": "过期合同",
+            "shouldSignDocuments": "应签署文档",
+            "missingDocuments": "缺少文档",
+            "renewableContracts": "待续签合同",
+            "expiringContracts": "即将过期合同"
+        }
+    },
+    "documents": {
+        "editor": {
+            "date": "日期",
+            "employee": "员工",
+            "employmentAgency": "职业介绍所",
+            "hirer": "雇主",
+            "variables": "变量",
+            "factoringCompany": "代理公司",
+            "freelancer": "自由职业者",
+            "employment": "雇佣",
+            "enterprise": "企业",
+            "employeeContract": "合同",
+            "freelancerJob": "自由职业工作"
+        },
+        "static": {
+            "category": "类别",
+            "description": "说明",
+            "fieldOptions": "字段选项",
+            "fieldType": "字段类型",
+            "info": "信息",
+            "layout": "布局",
+            "name": "名称",
+            "newDocumentTemplate": "新文件模板",
+            "slug": "字段",
+            "templateSaved": "模板已保存",
+            "variable": "变量",
+            "variableDeleted": "变量已删除",
+            "variables": "变量",
+            "variableSaved": "变量已保存",
+            "documentPreview": "文件预览",
+            "documentName": "文件名",
+            "declinedAt": "拒绝时间",
+            "subjects": "主题",
+            "subjectType": "主题类型",
+            "isOwner": "是否为业主",
+            "shouldSign": "应登录",
+            "canView": "可以查看",
+            "status": "状态",
+            "testData": "测试数据",
+            "editDocument": "编辑文件",
+            "created": "已创建",
+            "originalFile": "原始文件",
+            "signedAt": "签署时间",
+            "signedFile": "已签署文件",
+            "auditReport": "审核报告",
+            "signRequestSentAt": "签署请求发送时间",
+            "signRequests": "签署请求",
+            "position": "职位",
+            "signDocument": "签署文件",
+            "uploadFile": "上传文件",
+            "sendAfterCompletion": "完成后发送",
+            "logoSubject": "徽标主题",
+            "associateLogoSubject": "关联徽标主题",
+            "subject": "主题",
+            "uploadDocument": "上传文件",
+            "document": "文件",
+            "linkDeductions": "连接扣减",
+            "archiveDocumentConfirmationText": "将归档本文件。",
+            "signRequestsSent": "签署请求已发送",
+            "hideDocumentConfirmationText": "是否确定隐藏此任务？ 它不会再次出现。",
+            "template": "模板",
+            "templateDeleted": "模板已删除",
+            "generateDocument": "生成文件",
+            "fillableBySubject": "可按主题填写",
+            "linkDeductionsInfo": "将确保在时间注册记录中插入这些表格时不会创建扣减表格。",
+            "isVisibleOn": "可见于",
+            "creatableByRoles": "可由职位创建",
+            "fallbackValue": "备选值"
+        },
+        "tabs": {
+            "info": "信息",
+            "variables": "变量",
+            "subjects": "主题",
+            "template": "模板"
+        },
+        "steps": {
+            "review": "预览",
+            "subjects": "主题",
+            "variables": "变量",
+            "selectTemplate": "选择模板"
+        },
+        "actions": {
+            "showPreview": "显示预览",
+            "generateDocument": "生成文件",
+            "editor": "编辑",
+            "pdf": "PDF",
+            "download": "下载",
+            "upload": "上传",
+            "addSubject": "添加主题",
+            "create": "创建",
+            "createFromTemplate": "从模板创建",
+            "options": "选项"
+        }
+    },
+    "documentTemplates": {
+        "static": {
+            "default": "默认",
+            "deleteConfirmationText": "是否确定要删除此文档模板？",
+            "deleteSharedDocumentTemplate": "是否确定要停止使用此文档模板？",
+            "noTranslations": "无翻译",
+            "deleteVariableConfirmationText": "是否确定要删除此文档模板？",
+            "kiwaDeclarationOfEmployment": "Kiwa 雇佣声明"
+        },
+        "actions": {
+            "copyToCurrentEnterprise": "复制到当前企业",
+            "addSharedDocumentTemplate": "添加共享文档模板"
+        }
+    },
+    "emails": {
+        "editor": {
+            "invitationLink": "邀请链接"
+        }
+    },
+    "enum": {
+        "contractPhase": {
+            "phase1And2": "阶段 1/2 (A)",
+            "phase3": "阶段 3 (B)",
+            "phase4": "阶段 4 (C)"
+        },
+        "employeeType": {
+            "normal": "正常",
+            "payroll": "工资名单",
+            "temporary": "临时",
+            "other": "其他"
+        },
+        "gender": {
+            "female": "女",
+            "other": "其他",
+            "male": "男"
+        },
+        "identityType": {
+            "alienIdentityCard": "外籍人员身份证",
+            "alienPassport": "外籍人员护照",
+            "diplomaticPassport": "外交护照",
+            "dutchIdentityCard": "荷兰身份证",
+            "dutchPassport": "荷兰护照",
+            "none": "无",
+            "passportEeaCountry": "欧洲经济区国家护照",
+            "refugeePassport": "难民护照",
+            "residenceDocuments": "居留证件",
+            "servicePassport": "公务护照",
+            "dutchMunicipalitiesIdentityCard": "荷兰市政当局身份证",
+            "passportNonEeaCountry": "非欧洲经济区国家护照"
+        },
+        "maritalStatus": {
+            "divorced": "离异",
+            "livingTogetherWithoutContract": "无契约同居",
+            "livingTogetherWithContract": "有契约同居",
+            "married": "已婚",
+            "registeredPartnership": "已注册合作伙伴",
+            "unmarried": "未婚",
+            "widowhood": "丧偶"
+        },
+        "vatTariff": {
+            "shifted": "已转移",
+            "exempt": "减免"
+        },
+        "fieldType": {
+            "text": "文本",
+            "textArea": "文本区",
+            "checkbox": "复选框",
+            "datePicker": "日期选取器",
+            "money": "资金",
+            "hirerHourType": "雇主工时类型"
+        },
+        "subsidyType": {
+            "none": "无",
+            "hiringDisabledEmployee": "雇用残疾员工",
+            "reassigningDisabledEmployee": "重新分配职业残疾员工",
+            "targetJobAgreement": "目标群体工作协议和有教育困难的人"
+        }
+    },
+    "fieldTypes": {
+        "static": {
+            "noOptions": "无选项"
+        }
+    },
+    "form": {
+        "static": {
+            "accountHolder": "账户持有人",
+            "authorizedSignatory": "授权签字人",
+            "birthdate": "出生日期",
+            "birthplace": "出生地点",
+            "cc": "CC",
+            "certificate": "证书",
+            "citizenServiceNumber": "公民服务号码",
+            "city": "城市",
+            "contractHours": "合约时间",
+            "country": "国家",
+            "countryCode": "国家代码",
+            "countryOfBirth": "出生国",
+            "creditLimit": "信用额度",
+            "diplomas": "毕业文凭",
+            "documentNumber": "文档号码",
+            "email": "电子邮箱",
+            "employeeType": "员工类型",
+            "employmentAgency": "职业介绍所",
+            "employmentDate": "雇佣日期",
+            "gAccount": "G-账户？",
+            "gAccountPercentage": "G-账户百分比",
+            "etRegulation": "ET法规",
+            "expirationDate": "过期日期",
+            "factor": "系数",
+            "factorOvertime": "加班系数",
+            "firstName": "名",
+            "gender": "性别",
+            "grossSalary": "总工资",
+            "hasNoRiskPolicy": "没有风险政策？",
+            "hirer": "雇主",
+            "homewardTravelDistance": "返乡距离",
+            "homewardTravelFrequency": "返乡频率",
+            "iban": "IBAN",
+            "id": "ID",
+            "identityType": "身份类型",
+            "identityValidUntil": "身份有效期",
+            "initials": "首字母",
+            "invoiceEmailCc": "发票 CC",
+            "invoiceEmail": "发票电子邮件",
+            "language": "语言",
+            "lastName": "姓",
+            "legalForm": "法律形式",
+            "logo": "徽标",
+            "maritalStatus": "婚姻状况",
+            "middleName": "中间名",
+            "motivationLetter": "动机信",
+            "nationality": "国籍",
+            "noRiskPolicy": "无风险政策",
+            "password": "密码",
+            "passwordConfirmation": "密码确认",
+            "paymentTerm": "付款期限",
+            "payOutFrequency": "支付频次",
+            "phase": "阶段",
+            "phone": "电话",
+            "probation": "试用期",
+            "proofOfRecruitmentAbroad": "国外招聘证明",
+            "riskGroup": "风险组",
+            "sbiCodes": "SBI代码",
+            "seniorDays": "高级休假",
+            "shouldPayOutHolidays": "支付假期？",
+            "shouldPayOutNonStatutoryHolidays": "支付非法定假期？",
+            "shouldPayOutReducedHours": "支付减少的时间？",
+            "shouldPayOutShortAbsence": "支付短期缺勤？",
+            "shouldPayOutVacationMoney": "支付假期资金？",
+            "signature": "签名",
+            "startDate": "开始日期",
+            "pensionPlan": "养老金计划",
+            "street": "街道",
+            "streetNumber": "编号",
+            "streetNumberAddition": "加",
+            "terminationDate": "终止日期",
+            "vatNumber": "增值税税号",
+            "workTimeReductionDays": "工作时间减少天数",
+            "zipCode": "邮政编码",
+            "caoWorkweek": "CAO 工作周",
+            "employment": "雇佣",
+            "cessionText": "转让文本",
+            "functionScale": "函数范围",
+            "enterprise": "企业",
+            "chamberOfCommerceExtract": "商会摘录",
+            "liabilityInsurance": "责任保险",
+            "marginInvoicePerWeek": "每周利润发票",
+            "freelancer": "自由职业者",
+            "freelancerJob": "自由职业工作",
+            "gAccountIban": "G 账户 IBAN",
+            "gAccountHolder": "G 账户持有人",
+            "payslips": "工资单",
+            "payslipsCc": "工资单 CC",
+            "salesRate": "销售率",
+            "weeksWorked": "已工作周数",
+            "documentTemplate": "文档模板",
+            "files": "文件",
+            "isAgreedWork": "是否为协商一致的工作",
+            "endDate": "结束日期",
+            "housingCost": "住宿成本",
+            "note": "注释",
+            "timeRegistration": "时间注册",
+            "timeRegistrationQuestion": "时间注册？",
+            "timeForTime": "时间对时间",
+            "workHours": "工时",
+            "workStartTime": "工作开始时间",
+            "workEndTime": "工作结束时间",
+            "start": "开始",
+            "end": "结束",
+            "outOfServiceReasonSlug": "原因",
+            "outOfServiceDate": "停止服务日期",
+            "factorWithExtraDays": "加班天数系数",
+            "location": "地点",
+            "workDaysAndHours": "工作天数和时数",
+            "website": "网站",
+            "invoiceCompany": "发票公司",
+            "date": "日期",
+            "file": "文件",
+            "exchangeOvertime": "交换加班",
+            "payOutEnterprise": "支付企业",
+            "upload": "上传",
+            "shouldPayOutVacationDays": "支付假期？",
+            "seasonalWork": "季节性工作",
+            "splitInvoicePerProject": "按项目拆分发票",
+            "splitInvoicePerEmployee": "按员工拆分发票",
+            "search": "搜索",
+            "splitInvoicePerFreelancer": "按自由职业者拆分发票",
+            "companyType": "公司类型",
+            "healthcareDescription": "保健说明",
+            "qualifications": "资质",
+            "workServices": "工作服务",
+            "activities": "活动",
+            "certificateOfConduct": "无犯罪记录证明",
+            "deductMarginVat": "扣除利润增值税",
+            "blockSalesRate": "大宗销售率",
+            "ownerCompany": "业主公司",
+            "generateFreelancerDocuments": "生成自由职业者文档",
+            "snfCertification": "SNF认证",
+            "payOutExport": "支付导出",
+            "isPayOutEnabledQuestion": "支付已启用？",
+            "healthInsurance": "健康保险",
+            "selectedAmount": "已选中 {amount}",
+            "reseller": "转销商",
+            "searchAddress": "搜索地址",
+            "teamTypes": "团队类型",
+            "teamModel": "实体",
+            "team": "团队",
+            "canHaveJobs": "可以有工作",
+            "noRecordsFound": "未找到任何记录...",
+            "workDays": "工作天数",
+            "dontSendDocuments": "请勿发送文档",
+            "role": "职责",
+            "subsidyCompany": "公司补贴",
+            "type": "类型",
+            "subsidy": "补贴",
+            "shouldPayOutWorkTimeReductionDays": "支付工作时间扣减天数？",
+            "grossSalaryPerHour": "每小时总工资",
+            "contact": "联系人",
+            "cao": "CAO",
+            "chamberOfCommerceNumber": "商会编号",
+            "costOfLivingAllowance": "生活津贴",
+            "curriculumVitae": "简历",
+            "factorEtRegulation": "系数ET法规",
+            "factoringCompany": "代理公司",
+            "hasPayrollTaxReduction": "工资税减免？",
+            "homewardTravelCost": "返乡路费",
+            "mainLanguage": "主要语言",
+            "name": "名称",
+            "description": "说明",
+            "rentalOrPurchaseContractHomeCountry": "来自本国的租赁或购买合同",
+            "shouldDeductHealthInsurance": "扣除医保？",
+            "subject": "主题",
+            "vatTariff": "增值税税表",
+            "employee": "员工",
+            "useFrameworkAgreement": "使用框架协议",
+            "factorSenior": "高级系数",
+            "deliveryDeed": "交货单",
+            "reason": "原因",
+            "background": "背景（纵向）",
+            "salaryWithExtraDays": "加班天数工资",
+            "currentPassword": "当前密码",
+            "employerNumber": "雇主编号",
+            "splitInvoiceItemsByDate": "按日期拆分发票时数和差旅",
+            "requireFreelancerVatNumber": "需要自由职业者增值税税号",
+            "splitPayOut": "拆分支付",
+            "teamPresets": "团队预设",
+            "user": "用户",
+            "shouldPayOutSeniorDays": "支付高级假期？",
+            "employeeFunction": "员工函数",
+            "employeeTypeSlugs": "员工类型",
+            "backgroundLandscape": "背景（横向）",
+            "deductionOverviewPerWeek": "每周扣减概览",
+            "kiwaNumber": "Kiwa 编号",
+            "niwoNumber": "Niwo 编号",
+            "showFunctionOnInvoice": "在发票上显示职权",
+            "languageCode": "语言代码"
+        },
+        "steps": {
+            "documents": "文档",
+            "documentsAndEmployment": "文档与雇佣",
+            "employment": "雇佣",
+            "files": "文件",
+            "foreignNationality": "外籍",
+            "general": "通用",
+            "job": "工作",
+            "account": "账户",
+            "contactAndFinancial": "联系人和财务信息",
+            "employer": "雇主",
+            "hirerRemuneration": "雇主报酬",
+            "contract": "联系人"
+        },
+        "hint": {
+            "startTypingToSearch": "开始输入查找",
+            "lockPensionPlan": "锁定养老金计划，使其不会自动调整。"
+        },
+        "actions": {
+            "upload": "上传"
+        }
+    },
+    "general": {
+        "actions": {
+            "addRow": "添加行",
+            "archive": "归档",
+            "cancel": "取消",
+            "delete": "删除",
+            "edit": "编辑",
+            "new": "新",
+            "next": "下一个",
+            "previous": "上一个",
+            "save": "保存",
+            "saveTranslations": "保存翻译",
+            "sendInvitation": "发送邀请",
+            "skip": "跳过",
+            "viewParentCompany": "查看母公司",
+            "remove": "移除",
+            "add": "添加",
+            "refresh": "刷新",
+            "selectAll": "全选",
+            "deselectAll": "取消全选",
+            "invite": "邀请",
+            "linkEnterprise": "链接企业",
+            "upload": "上传",
+            "addType": "添加类型",
+            "unarchive": "取消归档",
+            "clearFilters": "清除筛选",
+            "close": "关闭",
+            "downloadFormat": "下载格式",
+            "import": "导入",
+            "ok": "好",
+            "copyToken": "复制令牌",
+            "submit": "提交",
+            "continue": "继续",
+            "impersonate": "模拟",
+            "calculate": "计算",
+            "reset": "重置",
+            "actions": "操作",
+            "attach": "附加",
+            "detach": "取消附加",
+            "selectAllFromRole": "按职责全选",
+            "editUser": "编辑用户",
+            "approve": "批准",
+            "confirm": "确认",
+            "create": "创建",
+            "deleteSelected": "删除选中的 ({amount})",
+            "fill": "填充",
+            "editPermissions": "编辑权限"
+        },
+        "errors": {
+            "forbidden": "权限不足，无法执行此操作。"
+        },
+        "plurals": {
+            "week": "无周数 | {count} 周| {count} 周",
+            "hour": "无时数 | {count} 时| {count} 时",
+            "month": "无月数 | {count} 月| {count} 月",
+            "file": "无文件 | {count} 文件| {count} 文件"
+        },
+        "static": {
+            "accountHolder": "账户持有人",
+            "address": "地址",
+            "addressInformation": "地址信息",
+            "authorizedSignatory": "授权签名",
+            "birthplace": "出生地点",
+            "cao": "Cao",
+            "category": "类别",
+            "citizenServiceNumber": "公民服务号码",
+            "company": "公司",
+            "companyInformation": "公司信息",
+            "contactInformation": "联系信息",
+            "country": "国家",
+            "countryOfBirth": "出生国",
+            "creditLimit": "信用额度",
+            "currentEmployments": "当前雇佣",
+            "documentNumber": "文档编号",
+            "documents": "文档",
+            "contact": "联系人",
+            "createContact": "创建联系人",
+            "email": "电子邮件",
+            "employeeApprovalSuccess": "已成功核准雇员。",
+            "employeeCreationSuccess": "已成功创建雇员。",
+            "employees": "雇员",
+            "employment": "雇佣",
+            "employmentAgencies": "职业介绍所",
+            "employmentAgency": "职业介绍所",
+            "employmentAgencyApprovalFail": "无法核准职业介绍所。",
+            "employmentAgencyCreationSuccess": "已成功创建职业介绍所。",
+            "etRegulation": "ET 规定",
+            "factor": "系数",
+            "files": "文件",
+            "firstName": "名",
+            "gender": "性别",
+            "hirer": "雇主",
+            "hirerApprovalSuccess": "已成功核准雇主。",
+            "hirerCreationSuccess": "已成功创建雇主。",
+            "hirers": "雇主",
+            "iban": "IBAN",
+            "id": "ID",
+            "identityType": "身份类型",
+            "identityValidUntil": "身份有效期限",
+            "initials": "首字母",
+            "invite": "邀请",
+            "invoices": "发票",
+            "language": "语言",
+            "lastName": "姓",
+            "legalForm": "法律形式",
+            "log": "日志",
+            "maritalStatus": "婚姻状态",
+            "middleName": "中间名",
+            "name": "名称",
+            "none": "无",
+            "notApplicable": "不适用",
+            "notes": "注释",
+            "personalData": "个人数据",
+            "phone": "电话",
+            "residenceAddress": "住宅地址",
+            "homeAddress": "家庭地址",
+            "sbiCodes": "SBI 代码",
+            "search": "搜索",
+            "settings": "设置",
+            "splitMargin": "拆分利润",
+            "timeForTime": "时间对时间",
+            "vatNumber": "增值税税号",
+            "visitAddress": "查看地址",
+            "timeRegistration": "时间注册",
+            "confirmationQuestion": "是否确定？",
+            "percentage": "百分比",
+            "no": "否",
+            "euro": "欧元",
+            "employmentDate": "雇佣日期",
+            "terminationDate": "终止日期",
+            "payrollTaxReduction": "工资单扣税",
+            "payOutFrequency": "支付频率",
+            "contractHours": "合同时数",
+            "startDate": "开始日期",
+            "homewardTravelDistance": "返乡差旅距离",
+            "homewardTravelFrequency": "返乡差旅频次",
+            "factorEtRegulation": "系数 ET 规定",
+            "factorOvertime": "加班系数",
+            "vatTariff": "增值税税表",
+            "invoiceEmail": "发票电子邮件",
+            "invoiceEmailCc": "发票 CC",
+            "city": "城市",
+            "employer": "雇主",
+            "factoringCompanies": "代理公司",
+            "factoringCompany": "代理公司",
+            "homewardTravelCost": "返乡差旅成本",
+            "enabled": "已启用",
+            "webhooks": "Webhook",
+            "period": "时间段",
+            "exports": "出口量",
+            "total": "总计",
+            "nr": "编号",
+            "cancel": "取消",
+            "date": "日期",
+            "freelancers": "自由职业者",
+            "freelancer": "自由职业者",
+            "hours": "时",
+            "payslip": "工资单",
+            "timesheet": "时间表",
+            "reservations": "预订",
+            "imports": "进口量",
+            "billedAt": "开具账单时间",
+            "attachments": "附件",
+            "freelancerApprovalSuccess": "已成功核准自由职业者",
+            "freelancerApprovalFail": "无法核准自由职业者",
+            "account": "账户",
+            "overtime": "加班",
+            "shiftWorkSurcharge": "轮班附加费",
+            "surcharge": "附加费",
+            "sepaId": "SEPA ID",
+            "users": "用户",
+            "permissions": "权限",
+            "user": "用户",
+            "link": "链接",
+            "km": "公里",
+            "newContact": "新联系人",
+            "costOfLivingAllowance": "生活津贴",
+            "employmentCreationSuccess": "已成功创建雇佣",
+            "resultsCount": "{count} 条结果",
+            "resultsCountMobile": "第{current}/{total}页",
+            "phase": "阶段",
+            "sendPayslips": "发送工资单",
+            "stipp": "Stipp",
+            "translations": "翻译",
+            "subjects": "主题",
+            "outOfServiceDate": "停止服务日期",
+            "outOfServiceReason": "停止服务原因",
+            "accountNumber": "账号",
+            "createdAt": "创建时间",
+            "filters": "筛选",
+            "startsAt": "开始时间",
+            "endsAt": "结束时间",
+            "year": "年",
+            "sendFailed": "发送失败",
+            "note": "注释",
+            "createdBy": "用户",
+            "createNote": "创建注释",
+            "workTimeReductionDays": "工作时间减少天数",
+            "timeRegistrationIsNotEnabledText": "未启用时间注册。",
+            "workHours": "工作时数",
+            "workweekHours": "工作周时数",
+            "workStartTime": "工作开始时间",
+            "workEndTime": "工作结束时间",
+            "sickReports": "病假报告",
+            "start": "开始",
+            "end": "结束",
+            "maxImageSize": "图片必须小于 {width} x {height} 像素。",
+            "hint": "线索",
+            "outOfService": "停止服务",
+            "outOfServiceSuccess": "成功停止服务",
+            "createFailed": "我们无法保存此记录。",
+            "updateFailed": "我们无法保存此记录。",
+            "saveFailed": "我们无法保存此记录。",
+            "location": "地点",
+            "holidaySurcharge": "假期附加费",
+            "uploadFiles": "上传文件",
+            "invoiceCompany": "发票公司",
+            "employments": "雇佣",
+            "freelancerJobs": "自由职业者工作",
+            "fromPeriod": "起始时间段",
+            "deleteFileConfirmationText": "是否确定要删除该文件？",
+            "fileUploadFailed": "文件上传失败",
+            "fileDeleted": "文件已删除",
+            "fileDeleteFailed": "文件删除失败",
+            "unarchiveSuccess": "该项目已取消归档。",
+            "recentVisitedPages": "最近访问过的页面会出现在这里。",
+            "description": "说明",
+            "subject": "主题",
+            "causer": "原因",
+            "payOutEnterprise": "支付企业",
+            "frequency": "频次",
+            "from": "从",
+            "until": "至",
+            "download": "下载",
+            "reservationsBuildup": "预订累计",
+            "seasonalWork": "季节性工作",
+            "payslips": "工资单",
+            "annualStatements": "年度报表",
+            "takeOverFromHirer": "接管自雇主",
+            "projects": "项目",
+            "correction": "更正",
+            "validationFailed": "验证失败",
+            "upcomingEmployments": "即将到来的雇佣",
+            "sharedDocumentTemplates": "已分享文档模板",
+            "companyType": "公司类型",
+            "certificateOfConduct": "无犯罪证明",
+            "useHirerValue": "使用雇主值",
+            "type": "类型",
+            "canNotDeleteEmployeeTitle": "无法删除",
+            "usingHirerValue": "使用雇主值",
+            "usingEmploymentAgencyValue": "使用职业介绍所值",
+            "canNotDeleteEmploymentTitle": "无法删除",
+            "useParentValue": "使用父级值",
+            "import": "导入",
+            "importHirers": "导入雇主",
+            "importSuccessful": "导入成功",
+            "importEmployees": "导入雇员",
+            "importEmployments": "导入雇佣",
+            "importFreelancers": "导入自由职业者",
+            "importFreelancerJobs": "导入自由职业者工作",
+            "importEntityFailed": "导入失败。请尝试刷新页面并再次运行导入。",
+            "registration": "注册",
+            "owner": "业主",
+            "generateFreelancerDocuments": "生成自由职业者文档",
+            "currentJobs": "当前工作",
+            "upcomingJobs": "即将到来的工作",
+            "pages": "页",
+            "token": "访问令牌",
+            "isPayOutEnabled": "是否启用支付？",
+            "dashboardOrderMobile": "移动控制面板顺序",
+            "notifications": "通知",
+            "splitPayOut": "拆分支付",
+            "recurringDeductionInfo": "每周/四周/月初（取决于支付频率）将添加经常性扣除额。",
+            "disablePayOutConfirmationText": "是否确定要禁用此注册的付款？",
+            "dontSendDocumentsInfo": "不会为此处选择的文档发送签名请求。",
+            "otherInfo": "其他信息",
+            "showTotal": "显示全部",
+            "saved": "已保存",
+            "fillAll": "填充全部",
+            "submittedForApproval": "已提交请求批准。",
+            "submitForApprovalFailed": "我们无法提交该实体请求批准。",
+            "notYetSubmittedForApproval": "尚未提交请求批准。",
+            "jobCreationSuccess": "此工作已创建。",
+            "variable": "变量",
+            "minimum": "最小值",
+            "new": "新",
+            "resellers": "转销商",
+            "resellerCreationSuccess": "已成功创建转销商。",
+            "resellerApprovalSuccess": "已成功核准转销商。",
+            "resellerApprovalFail": "无法核准转销商。",
+            "reseller": "转销商",
+            "googleLogo": "Google 徽标",
+            "teams": "团队",
+            "teamPresets": "团队预设",
+            "defaultValue": "默认值",
+            "unableToDeleteItem": "无法删除项目",
+            "messageBox": "消息箱",
+            "hide": "隐藏",
+            "confirmationImpersonateText": "是否确定要模拟此用户？",
+            "expiresAt": "过期时间",
+            "signRequestSentAt": "签名请求发送时间",
+            "receiveNewSignToken": "接收新签名令牌",
+            "missingDocumentsAmount": "缺少文档数量",
+            "proFormaPayslip": "形式工资单",
+            "fiscalYearlySalary": "财年工资",
+            "result": "结果",
+            "noPermissionForField": "没有查看权限…",
+            "role": "职责",
+            "attachExistingContact": "附加现有联系人",
+            "portals": "门户",
+            "roles": "职责",
+            "subsidy": "补贴",
+            "details": "详情",
+            "subsidyCompanies": "公司补贴",
+            "confirmed": "已确认",
+            "amount": "金额",
+            "automatic": "自动",
+            "birthdate": "出生日期",
+            "chamberOfCommerceNumber": "商会编号",
+            "deleteFailed": "出错了，如果错误仍然存在，请联系我们。",
+            "documentTemplates": "文档模板",
+            "employeeApprovalFail": "无法核准雇员。",
+            "employmentAgencyApprovalSuccess": "已成功核准职业介绍所。",
+            "financialInformation": "财务信息",
+            "hi": "{user}您好",
+            "hirerApprovalFail": "无法核准雇主。",
+            "postalAddress": "邮政地址",
+            "employeeType": "雇员类型",
+            "contractStartDate": "合同开始日期",
+            "participantEtRegulation": "参加者 ET 规定？",
+            "enterprises": "企业",
+            "dashboard": "控制面板",
+            "employee": "雇员",
+            "originalValue": "原始值",
+            "enterprise": "Enterprise",
+            "freelancerCreationSuccess": "已成功创建自由职业者",
+            "travelHours": "差旅时间",
+            "housingCost": "住宿成本",
+            "weeksWorked": "已工作周数",
+            "factorSenior": "高级假期系数",
+            "seniorDays": "高级假期天数",
+            "contractEndDate": "合同结束日期",
+            "reason": "原因",
+            "outOfServiceEmployeeSuccess": "该员工已成功报告为停止服务。",
+            "archiveSuccess": "该项目已归档。",
+            "archiveFailed": "我们无法存档此项目。",
+            "filesUploaded": "已上传文件",
+            "unarchiveFailed": "我们无法取消归档此项目。",
+            "selectedAmount": "已选中 ({amount})",
+            "yes": "是",
+            "useEmploymentAgencyValue": "使用职业介绍所值",
+            "loadFailed": "我们无法加载请求的数据。",
+            "marginInvoicePerWeek": "每周利润发票",
+            "generateFreelancerDocumentsInfo": "如果禁用此选项，则不会在自由职业者向导结束时生成任何文档。",
+            "healthInsuranceStartDateInfo": "健康保险扣除额将在每周/四周/月初（取决于支付频率）添加，只要此时有有效的健康保险。",
+            "personalAccessTokens": "个人访问令牌",
+            "splitPayOutInfo": "启用此选项后，常规工时将从付款导出中的其他注册记录中拆分出来。",
+            "missingRequiredAttributesConfirmTitle": "缺少必填字段",
+            "submitForApprovalConfirmTitle": "提交请求批准",
+            "submitForApprovalConfirmText": "该项目将提交请求批准。",
+            "missingRequiredAttributesConfirmText": "该项目尚未提交请求批准，因为未填写某些必填属性。",
+            "contractType": "合同类型",
+            "signTokenExpiresAt": "签名令牌到期时间",
+            "NoPermissionForSegment": "您没有查看此段的正确权限…",
+            "contactHasNoAccountTooltip": "此联系人没有账户",
+            "subsidyCompany": "补贴公司",
+            "dontSendDocuments": "请勿发送文档",
+            "ageHint": "年龄：{age}",
+            "deductionOverviewPerWeek": "每周扣减概览",
+            "mainContact": "主要联系人"
+        },
+        "messages": {
+            "overriddenValue": "此值已被覆盖。",
+            "dataUniqueToEnterprise": "此数据对于企业 {enterpriseName} 是唯一的。单击 {action} 覆盖此数据。未被覆盖的数据将从母公司获取。"
+        },
+        "tabs": {
+            "companyDetails": "公司详情",
+            "contactDetails": "联系人详情",
+            "contacts": "联系人",
+            "details": "详情",
+            "documents": "文档",
+            "employees": "雇员",
+            "hirers": "雇主",
+            "log": "日志",
+            "notes": "注释",
+            "travelTypes": "差旅类型",
+            "employments": "雇佣",
+            "hours": "时",
+            "reservations": "预订",
+            "jobs": "工作",
+            "wageAttachments": "工资附件",
+            "deductions": "扣减",
+            "projects": "项目",
+            "freelancers": "自由职业者",
+            "tariffs": "关税",
+            "margins": "利润",
+            "hourTypes": "工时类型",
+            "subsidies": "补贴",
+            "user": "用户",
+            "invoices": "发票",
+            "settings": "设置",
+            "splitMargin": "拆分利润",
+            "compensations": "补偿",
+            "customers": "客户"
+        },
+        "tooltip": {
+            "copyToClipboard": "复制到剪贴板"
+        }
+    },
+    "language": {
+        "static": {
+            "default": "默认"
+        }
+    },
+    "menu": {
+        "actions": {
+            "dashboard": "控制面板",
+            "employmentAgencies": "职业介绍所",
+            "employees": "雇员",
+            "hirers": "雇主",
+            "settings": "设置",
+            "timeRegistration": "时间注册",
+            "invoices": "发票",
+            "exports": "出口量",
+            "imports": "进口量",
+            "functions": "功能",
+            "logout": "登出",
+            "documents": "文档",
+            "language": "语言",
+            "leaveImpersonation": "退出模拟",
+            "outOfService": "停止服务",
+            "account": "账户",
+            "resellers": "转销商",
+            "proFormaPayslip": "形式工资单",
+            "sickReports": "病假报告",
+            "freelancers": "自由职业者",
+            "payslips": "工资单"
+        }
+    },
+    "settings": {
+        "pages": {
+            "documents": "文档",
+            "factoringCompanies": "代理公司",
+            "enterprises": "企业",
+            "webhooks": "Webhook",
+            "users": "用户",
+            "personalAccessTokens": "个人访问令牌",
+            "teams": "团队",
+            "roles": "职责",
+            "subsidyCompanies": "公司补贴"
+        }
+    },
+    "validation": {
+        "errors": {
+            "checkForm": "请检查表格中的错误",
+            "addressInvalid": "我们找不到这个地址。",
+            "alternativeAddress": "我们找不到这个地址，请确认是 {address} 吗？"
+        },
+        "static": {
+            "required": "此字段必填",
+            "unableToDeleteItem": "无法删除项目"
+        }
+    },
+    "timeRegistration": {
+        "static": {
+            "week": "周",
+            "compensationDescriptiveText": "补偿说明文本…",
+            "amount": "金额",
+            "hours": "时",
+            "project": "项目",
+            "location": "地点",
+            "notes": "注释",
+            "payOut": "支付",
+            "date": "日期",
+            "from": "从",
+            "to": "到",
+            "kilometers": "公里",
+            "reservationDescriptiveText": "预订说明文本…",
+            "reservation": "预订",
+            "hourType": "工时类型",
+            "currentState": "当前状态",
+            "newState": "新状态",
+            "compensations": "补偿",
+            "reservations": "预订",
+            "chargeTo": "变更为",
+            "maxDistance": "最大距离",
+            "deductionDescriptiveText": "扣减说明文本…",
+            "deduction": "扣减",
+            "deductionAmount": "扣减金额",
+            "deductionAttachment": "扣减附件",
+            "selectADeduction": "选择一项扣减",
+            "uploadDeductionAttachment": "上传扣减附件",
+            "attachmentNotRequired": "不需要附件",
+            "deductions": "扣减",
+            "travelType": "差旅类型",
+            "invoiceCreated": "已创建发票",
+            "invoiceAlreadySaved": "此发票已保存。",
+            "compensation": "补偿",
+            "deployed": "已部署",
+            "staff": "员工",
+            "companies": "公司",
+            "function": "职责",
+            "freelancers": "自由职业者",
+            "invoicingFailed": "我们无法创建发票。",
+            "status": "状态",
+            "jobIsInactiveText": "此工作在所选时间段内无效。",
+            "unlocked": "此时间段已解锁。",
+            "unlockFailed": "我们无法解锁该时间段。",
+            "deleteTimeRegistrationConfirmationText": "时间注册记录将被删除。",
+            "downloadFormatFailed": "无法创建此格式。",
+            "import": "导入",
+            "validationFailed": "验证失败",
+            "importSuccessful": "导入成功",
+            "shouldNotSendWithInvoice": "请勿随发票发送",
+            "timeRegistrationsDeleted": "已删除时间注册记录。",
+            "deleteTimeRegistrationsConfirmationText": "是否确定要删除选中的时间注册记录？",
+            "compensationDeleted": "补偿已删除。",
+            "hourDeleted": "时数已删除。",
+            "copyFailed": "我们无法复制该行。",
+            "travelSaved": "差旅已保存。",
+            "travelDeleted": "差旅已删除。",
+            "travelDuplicated": "差旅已复制。",
+            "creatingInvoicesInfo": "计划创建发票。",
+            "creatingInvoicesStatusText": "正在创建发票。创建完成后，可以在此处查看发票。",
+            "noOutstandingTimeRegistrationsFound": "未找到未完成的时间注册记录。",
+            "hoursCopied": "时数已复制。",
+            "someTravelsNotCopied": "由于缺少差旅类型，无法复制某些差旅注册记录。",
+            "travelsCopied": "差旅已被复制。",
+            "deleteKilometersConfirmationText": "确定要删除吗？",
+            "employmentIsInactiveText": "此雇用在所选时间段内无效。",
+            "hourInfoText": "更新工时时，将自动重新计算补偿和扣减金额。",
+            "importStarted": "导入已开始。根据大小，可能需要几分钟才能完成。",
+            "returnTravelSaved": "返程已保存。",
+            "autoCalculateDeductionsInfo": "如果启用此选项，则在注册工时或生成发票时，将自动重新计算未付扣减额。",
+            "noRegistrationsFound": "未找到注册记录。",
+            "someHoursNotCopied": "由于缺少工时类型，无法复制某些工时注册记录。"
+        },
+        "actions": {
+            "cao": "CAO",
+            "duplicateReturnTravel": "返程",
+            "editHours": "编辑时数",
+            "addRow": "添加行",
+            "uploadKilometerAccountability": "上传公里责任",
+            "invoice": "发票",
+            "correction": "更正",
+            "saveInvoice": "保存发票",
+            "copyPreviousPeriod": "复制上个时间段",
+            "receipts": "收据",
+            "deployed": "已部署",
+            "staff": "员工",
+            "add": "添加",
+            "unlock": "解锁",
+            "autoCalculate": "自动计算",
+            "viewHours": "查看时数",
+            "previewInvoice": "预览发票",
+            "viewInvoice": "查看发票",
+            "generateInvoice": "生成发票",
+            "deleteInvoice": "删除发票",
+            "excel": "Excel",
+            "downloadFormat": "下载格式",
+            "upload": "上传",
+            "import": "导入",
+            "saveInvoices": "发送发票",
+            "selectLockable": "全选",
+            "deselectAll": "取消全选",
+            "copyFromEmployee": "从其他员工处复制",
+            "copyFromFreelancer": "从其他自由职业者处复制",
+            "duplicateKilometerRow": "复制行",
+            "uploadAttachments": "上传附件",
+            "closePeriod": "关闭时间段",
+            "createTimeRegistration": "创建时间注册记录"
+        },
+        "tabs": {
+            "hours": "时",
+            "kilometers": "公里",
+            "compensations": "补偿",
+            "reservations": "预订",
+            "deductions": "扣减"
+        }
+    },
+    "api": {
+        "kvk": {
+            "static": {
+                "companyInfoSuccessfullyFilled": "已成功填写公司信息",
+                "apiOffline": "KVK Api 已脱机"
+            },
+            "validation": {
+                "errors": {
+                    "cocNotFound": "未找到商会编号。"
+                }
+            }
+        },
+        "creditsafe": {
+            "validation": {
+                "errors": {
+                    "companyNotFound": "未找到公司"
+                }
+            },
+            "static": {
+                "apiOffline": "信用安全 API 已脱机。"
+            }
+        }
+    },
+    "hourType": {
+        "static": {
+            "name": "名称",
+            "timeForTime": "时间对时间",
+            "value": "值",
+            "none": "无",
+            "employeeHasHourTypeOverrides": "雇员具有工时类型覆盖",
+            "saved": "已保存",
+            "default": "默认时数",
+            "deleted": "已删除",
+            "caoSurcharges": "CAO 附加费",
+            "timeForTimeEnabled": "时间对时间已启用",
+            "hint": "线索",
+            "frequency": "频次",
+            "type": "类型",
+            "defaultForNewEmployee": "新员工默认值",
+            "defaultForNewEmployeeUpdated": "新员工默认值已更新",
+            "desiredNetSalary": "期望净工资",
+            "difference": "差额",
+            "actualNetSalary": "实际净工资",
+            "chargeTo": "变更为",
+            "employeesWithAccess": "具备访问权限雇员",
+            "unit": "单价",
+            "hourType": "工时类型",
+            "hourTypes": "工时类型",
+            "employeesWithoutAccess": "无访问权限雇员",
+            "timeForTimeDisabled": "时间对时间已禁用",
+            "useDesiredNetSalary": "使用期望净工资"
+        },
+        "actions": {
+            "grantAccessToAll": "授予所有访问权限",
+            "takeAccessFromAll": "获得所有访问权限",
+            "enableTimeForTimeForAll": "为所有人启用时间",
+            "disableTimeForTimeForAll": "为所有人禁用时间"
+        }
+    },
+    "deduction": {
+        "static": {
+            "personalContributionForTransport": "个人交通贡献",
+            "advance": "预付",
+            "penalty": "罚款",
+            "certificateOfGoodBehavior": "良好行为证书",
+            "eduction": "教育",
+            "advanceExtra": "额外预付费用",
+            "housingExtra": "额外住宿费用",
+            "mealAllowance": "餐食补贴",
+            "healthInsuranceExtra": "额外健康保险费用",
+            "personnelAssociation": "人员协会",
+            "housing": "住宿",
+            "workingClothesWorkingShoes": "工作服工作鞋",
+            "healthInsurance": "健康保险"
+        }
+    },
+    "frequency": {
+        "static": {
+            "weekly": "每周",
+            "fourWeekly": "每四周",
+            "monthly": "每月",
+            "week": "周",
+            "month": "月",
+            "fourWeek": "四周",
+            "hour": "时",
+            "day": "天",
+            "hourShort": "时",
+            "dayShort": "天",
+            "weekShort": "周",
+            "fourWeekShort": "四周",
+            "monthShort": "分",
+            "hourly": "每时",
+            "daily": "每天"
+        }
+    },
+    "reservation": {
+        "static": {
+            "holidayHoursLegal": "法定假期时数",
+            "holidayPay": "假期薪水",
+            "workTimeReductionHours": "工时扣除时间",
+            "seniorDays": "高级休假",
+            "holidays": "假期",
+            "shortAbsence": "短期旷工",
+            "timeForTime": "补偿时间",
+            "money": "资金",
+            "reservation": "预订",
+            "updatedAt": "更新时间",
+            "amount": "金额",
+            "holidayHours": "假期时数",
+            "holidayHoursExtraLegal": "法定假期额外时数",
+            "time": "时间"
+        }
+    },
+    "compensation": {
+        "static": {
+            "none": "无",
+            "employeesWithAccess": "无访问权限雇员",
+            "employeeHasCompensationOverrides": "雇员具有薪酬覆盖",
+            "name": "名称",
+            "value": "值",
+            "caoCompensations": "CAO 补偿",
+            "compensation": "补偿",
+            "unit": "单价",
+            "saved": "已保存",
+            "deleted": "已删除",
+            "hint": "线索",
+            "factor": "系数",
+            "chargeTo": "变更为",
+            "frequency": "频率",
+            "payOutEnabled": "支付已启用",
+            "isGross": "是否为总数",
+            "defaultForNewEmployee": "新雇员默认值",
+            "defaultForNewEmployeeUpdated": "新雇员默认补偿已更新",
+            "desiredSalaryCompensation": "期望薪酬",
+            "compensations": "报酬",
+            "checkDesiredSalaryOnPayslipPayments": "检查期望工资",
+            "noCompensations": "无补偿",
+            "deviantFactor": "偏差系数",
+            "employeesWithoutAccess": "具备访问权限雇员",
+            "payslipPaymentsDesiredSalaryExplanation": "导入工资条付款时，此函数为每个期望工资（在时间注册记录导入中）高于工资条付款的员工创建一个报酬。",
+            "salesRate": "销售率",
+            "compensationSaved": "薪资已保存。",
+            "enabledCompensationsRecalculatedInfo": "启用“薪资”选项时，薪资会以任何未完成时间登记自动计算（如果有已登记时数）。"
+        },
+        "actions": {
+            "useDeviatingFactor": "使用偏差系数",
+            "addSalesRate": "添加销售率",
+            "grantAccessToAll": "授予所有访问权限",
+            "takeAccessFromAll": "获得所有访问权限"
+        }
+    },
+    "pensionPlan": {
+        "static": {
+            "plus": "Stipp 加强版",
+            "basic": "Stipp 基础版",
+            "adequate": "足够",
+            "bpf": "BPF"
+        }
+    },
+    "travelType": {
+        "static": {
+            "name": "名称",
+            "hint": "线索",
+            "value": "值",
+            "gross": "总数",
+            "unit": "单价",
+            "employeesWithoutAccess": "无访问权限的员工",
+            "none": "无",
+            "employeeHasTravelTypeOverrides": "员工具有差旅类型覆盖",
+            "travelType": "差旅类型",
+            "saved": "已保存",
+            "deleted": "已删除",
+            "caoTravelExpenses": "CAO差旅费",
+            "default": "默认",
+            "defaultForNewEmployeeUpdated": "新雇员默认值已更新",
+            "noTravels": "无差旅",
+            "chargeTo": "变更为",
+            "net": "净",
+            "employeesWithAccess": "有访问权限的员工",
+            "defaultForNewEmployee": "新雇员默认值"
+        },
+        "actions": {
+            "grantAccessToAll": "授予所有访问权限",
+            "takeAccessFromAll": "获得所有访问权限"
+        }
+    },
+    "invoice": {
+        "static": {
+            "deductionsOverview": "扣减概览",
+            "invoice": "发票",
+            "number": "编号",
+            "marginInvoice": "利润发票",
+            "period": "时间段",
+            "salesInvoice": "销售发票",
+            "billedAt": "开具账单时间",
+            "salesInvoices": "销售发票",
+            "marginInvoices": "利润发票",
+            "searchInvoices": "搜索发票",
+            "payments": "付款",
+            "noPaymentsFound": "未找到付款",
+            "addPayment": "添加付款",
+            "gAccount": "G-账户",
+            "log": "日志",
+            "ipAddress": "IP 地址",
+            "download": "下载",
+            "files": "文件",
+            "info": "信息",
+            "createdBy": "创建人",
+            "totalPaid": "已付总计",
+            "invoiceDate": "发票日期",
+            "sales": "销售额",
+            "description": "描述",
+            "creditInvoice": "信用发票",
+            "freelancer": "自由职业者",
+            "margin": "利润",
+            "deductions": "扣减",
+            "gAccountPaid": "G-账户已付款",
+            "pending": "待处理",
+            "billed": "已开具账单",
+            "paid": "已付",
+            "createdAt": "创建时间",
+            "paidAt": "付款时间",
+            "sendAt": "发送时间",
+            "invoiceWillBeSent": "将发送发票。",
+            "freelancerInvoice": "自由职业者发票",
+            "customInvoice": "自定义发票",
+            "hideEmail": "隐藏电子邮箱",
+            "rows": "行",
+            "attachments": "附件",
+            "preview": "预览",
+            "customCostsOverview": "自定义成本概述",
+            "customCosts": "自定义成本",
+            "queued": "队列中",
+            "agreedWorkInvoice": "约定工作发票",
+            "agreedWork": "约定工作",
+            "costs": "成本",
+            "amount": "金额",
+            "remuneration": "酬金",
+            "custom": "自定义",
+            "newItem": "新项目",
+            "unitPrice": "单位",
+            "items": "项目",
+            "confirmTypeChangeText": "将删除所有现有的发票项目。是否确定要更改类型？",
+            "makeMargin": "制造利润",
+            "item": "项目",
+            "resellerMarginInvoice": "转销商利润发票",
+            "resellerMargin": "转销商利润",
+            "deduction": "扣减",
+            "exports": "出口量",
+            "exportInvalidText": "选中的发票太多，请使用上方的筛选功能限制发票金额。",
+            "billing": "开具账单",
+            "relatedInvoices": "相关发票",
+            "customInvoiceItemVatNotDefaultConfirmationText": "是否确定要使用不同的增值税税率？",
+            "employee": "员工",
+            "vat": "增值税",
+            "total": "总计",
+            "costsOverview": "成本概览",
+            "invoiceWillBeBilled": "即将开具此时间段的发票。",
+            "deleteInvoiceText": "是否确定要删除此发票？",
+            "exportDescriptiveText": "一次最多可以导出 {count} 张发票。搜索框中指定的所有筛选将用于限制导出中的发票金额。"
+        },
+        "actions": {
+            "addPayment": "添加付款",
+            "billNow": "立即开具账单",
+            "sendNow": "立即发送",
+            "create": "创建",
+            "addToQueue": "添加到队列",
+            "preview": "预览",
+            "createExport": "导出 {count} 份发票",
+            "downloadAll": "下载全部",
+            "billSelected": "账单所选发票",
+            "selectBillable": "选择可开具账单的项目",
+            "download": "下载",
+            "deselectAll": "取消全选"
+        },
+        "filter": {
+            "from": "从",
+            "to": "到",
+            "outstandingOnly": "仅限未支付",
+            "type": "类型",
+            "queuedOnly": "仅限队列中"
+        }
+    },
+    "role": {
+        "static": {
+            "administrator": "管理员",
+            "employee": "雇员",
+            "employmentAgency": "职业介绍所",
+            "hirer": "雇主",
+            "freelancer": "自由职业者",
+            "superAdministrator": "超级管理员",
+            "roleDeleted": "职责已被删除。",
+            "deleteRoleText": "是否确定要删除此职责？"
+        }
+    },
+    "hourTypes": {
+        "actions": {
+            "edit": "编辑"
+        }
+    },
+    "factoring": {
+        "static": {
+            "factoringCompany": "代理公司",
+            "details": "详情",
+            "cessionText": "转让文本",
+            "sendInvoice": "发送发票？",
+            "impact": "影响",
+            "factris": "Factris",
+            "type": "类型",
+            "nlCredit": "NL-信用",
+            "deleteFactoringCompanyConfirmationText": "是否确定要删除此代理公司？",
+            "typeInfo": "此类型会定义导出的格式。"
+        }
+    },
+    "enterprises": {
+        "static": {
+            "enterprise": "企业",
+            "standardDocuments": "标准文档",
+            "standardDocumentUpdateSuccess": "标准文档已成功更新。",
+            "shouldNotifyCustomers": "应通知客户",
+            "noFileUploaded": "尚未上传文件。",
+            "uploadNewFile": "上传新文件",
+            "payOutEnterpriseInfo": "通过选择员工或雇主的支付企业可以覆盖支付企业。",
+            "details": "详情",
+            "deleteStandardDocumentConfirmationText": "是否确定要删除此标准文档？",
+            "canHaveJobsInfo": "如果禁用此选项，则无法为链接到此企业的雇主创建任何雇佣或自由职业者工作。",
+            "canBeInvoicedInfo": "如果启用此选项，则此企业将可以在创建新雇主时充当职业介绍所。"
+        }
+    },
+    "documentSubjectType": {
+        "static": {
+            "employee": "雇员",
+            "employment": "雇佣",
+            "employmentAgency": "职业介绍所",
+            "enterprise": "企业",
+            "hirer": "雇主",
+            "factoringCompany": "代理公司",
+            "freelancer": "自由职业者",
+            "freelancerJob": "自由职业者工作",
+            "employeeContract": "员工合同"
+        }
+    },
+    "exports": {
+        "static": {
+            "notStarted": "未开始",
+            "queued": "队列中",
+            "running": "正在运行",
+            "completed": "已完成",
+            "cancelled": "已取消",
+            "failed": "失败",
+            "factoringCompanyExport": "代理公司出口",
+            "options": "选项",
+            "exports": "出口量",
+            "generatedAt": "生成时间",
+            "deleteExportConfirmationText": "这将删除导出。",
+            "marginAndDeductionsExport": "利润与扣减导出",
+            "export": "导出",
+            "periods": "时间段",
+            "total": "总计",
+            "exportSuccessful": "成功导出",
+            "deleteSepaOverviewExportConfirmationText": "将删除导出，并重置此导出中每个发票的付款状态。",
+            "payOutExport": "支付导出",
+            "noRegistrationsFound": "未找到注册。",
+            "deletePayOutExportConfirmationText": "导出将被删除，此导出中的所有注册都可以再次导出。",
+            "registrations": "注册",
+            "noInvoicesFound": "未找到发票。",
+            "deductionsDocumentNotSigned": "未签署扣减文档。",
+            "employeesExport": "雇员导出",
+            "deleteWageAttachmentConfirmationText": "工资附件将被删除。",
+            "archiveHirerConfirmationText": "是否确定要归档此雇主？",
+            "deleteCompensationConfirmationText": "是否确定要删除此补偿？",
+            "deleteTravelTypeConfirmationText": "是否确定要删除此差旅类型？",
+            "missingDocumentsForPayOutExport": "缺少已签名文档",
+            "deleteHourTypeConfirmationText": "是否确定要删除此工时类型？",
+            "unarchiveHirerConfirmationText": "是否确定要取消归档该雇主？",
+            "accountingSoftwareExport": "会计软件",
+            "marginOverview": "利润概览",
+            "invoice": "发票",
+            "saveInvoiceConfirmationText": "发票将被保存，该时间段将被锁定。",
+            "hollandZorg": "HollandZorg",
+            "freelancersPayoutExport": "自由职业者支付导出",
+            "newEmployees": "新雇员",
+            "markAllAsChanged": "全部标记为已更改",
+            "changedEmployees": "已变更雇员",
+            "markAllAsNew": "全部标记为新",
+            "editExport": "编辑导出",
+            "addEmployee": "添加雇员",
+            "unexportedHealhInsuranceCount": "{count} 未导出的健康保险。",
+            "healthInsuranceExport": "健康保险导出",
+            "doNotExport": "请勿导出",
+            "doExport": "请导出",
+            "markAllAsDoNotExport": "全部标记为请勿导出",
+            "markAllAsDoExport": "全部标记为请导出",
+            "exported": "已导出",
+            "mijnSubsidie": "MijnSubsidie",
+            "mijnSubsidieExport": "MijnSubsidie 导出",
+            "resellerMarginsExport": "转销商利润导出",
+            "historicalPayOutExport": "历史支付导出",
+            "historicalPayOutInfo": "将为每个选定的时间注册记录创建导出。正常付款规则适用，但不计算预订累积。",
+            "deleteInvoiceConfirmationText": "这将删除所有相关发票并解锁此时间段的时间注册记录。",
+            "selectedInvoices": "您已选择 {count} 份发票。",
+            "payOutInfo": "导出的名称将与所选的最高时间段相同。在较低时间段内选择的任何注册记录都将导出到单独的文件中。将为任何未付发票开具账单。",
+            "archiveEmploymentAgencyConfirmationText": "是否确定要存档此职业介绍所吗？",
+            "unarchiveEmploymentAgencyConfirmationText": "是否确定要取消归档该职业介绍所？",
+            "marginOverviewExport": "利润概览导出",
+            "exportHealhInsuranceRemainder": "导出未导出的健康保险",
+            "archiveResellerConfirmationText": "是否确定要归档此转销商？",
+            "unarchiveResellerConfirmationText": "是否确定要取消归档此转销商？"
+        },
+        "pages": {
+            "factoringCompany": "代理公司",
+            "marginAndDeductions": "利润与扣减",
+            "payOutExport": "支付导出",
+            "employeesExport": "员工导出",
+            "accountingSoftwareExport": "会计软件",
+            "marginOverviewExport": "利润概览导出",
+            "hollandZorgExport": "HollandZorg 导出",
+            "freelancersPayout": "自由职业者支付",
+            "mijnSubsidieExport": "MijnSubsidie 导出",
+            "resellerMargins": "转销商利润"
+        },
+        "actions": {
+            "refresh": "刷新",
+            "selectAll": "全选",
+            "clearSelection": "清除选择",
+            "generate": "生成",
+            "exactDate": "精确日期",
+            "timePeriod": "时间段",
+            "showOldExports": "显示旧导出",
+            "selectPeriod": "选择时间段"
+        },
+        "payOut": {
+            "static": {
+                "notExportedEmployeesInfo": "这些雇员的一些负数工时无法导出：",
+                "skipNonExportableValidation": "跳过缺失文档验证"
+            },
+            "actions": {
+                "historical": "历史"
+            }
+        },
+        "employees": {
+            "static": {
+                "createFreshExport": "新鲜导出",
+                "createFreshExportInfo": "启用“新鲜导出”选项后，所有当前活动的员工都将包含在此导出中。"
+            }
+        }
+    },
+    "documentStatus": {
+        "static": {
+            "created": "已创建",
+            "pending": "待处理",
+            "expired": "已过期",
+            "completed": "已完成",
+            "declined": "已拒绝"
+        }
+    },
+    "documentType": {
+        "static": {
+            "pdf": "PDF",
+            "template": "模板",
+            "view": "查看",
+            "upload": "上传"
+        }
+    },
+    "document": {
+        "static": {
+            "log": "日志",
+            "selectSubjects": "选择主题",
+            "selectSubjectsForSignedFileText": "选择要向其发送已签名文件的所有主题。",
+            "selectSubjectsForCompletedFileText": "选择要向其发送已完成文件的所有主题。",
+            "sendSignRequestsConfirmationText": "以下主题将收到签名请求。",
+            "generatorSubjectShouldSignExplanation": "以下主题将收到签名请求。",
+            "subjectSaved": "此主题已保存。",
+            "subjectDeleted": "此主题已删除。",
+            "selectSubjectsForSignRequestsText": "选择要向其发送签名请求的所有主题。",
+            "generatorSubjectSendAfterCompletionExplanation": "以下主题将在文档完成时收到文档。"
+        }
+    },
+    "log": {
+        "static": {
+            "description": "说明",
+            "old": "旧",
+            "new": "新",
+            "properties": "属性",
+            "system": "系统",
+            "causer": "原因",
+            "id": "ID",
+            "subject": "主题",
+            "date": "日期"
+        }
+    },
+    "employment": {
+        "static": {
+            "payOutPreferences": "支付偏好",
+            "startDate": "开始日期",
+            "endDate": "结束日期",
+            "function": "职责",
+            "scale": "范围",
+            "factor": "系数",
+            "grossSalary": "总工资",
+            "includeExtraDays": "包含加班天数工资",
+            "deleteConfirmationText": "是否确定要删除此雇佣？",
+            "deleteSuccess": "雇佣已删除。",
+            "deleteFailed": "无法删除雇佣。",
+            "workdaysAndTimes": "工作日与时间",
+            "submitForApprovalConfirmText": "雇佣将提交请求批准。",
+            "salesRate": "销售率",
+            "emptyFunctionSalesRateConfirmationText": "所有函数的销售率都为空。",
+            "missingRequiredAttributesConfirmText": "由于某些必填属性未填写，该雇用尚未提交请求批准。"
+        },
+        "actions": {
+            "addFunction": "添加函数",
+            "createNext": "创建文本",
+            "goToEmployment": "前往雇佣"
+        },
+        "messages": {
+            "wizardPreviousEmploymentExplanation": "上次雇佣被用作新雇佣的基础。"
+        }
+    },
+    "imports": {
+        "static": {
+            "notStarted": "未开始",
+            "queued": "队列中",
+            "running": "正在运营",
+            "completed": "已完成",
+            "cancelled": "已取消",
+            "failed": "失败",
+            "payslips": "工资单",
+            "upload": "上传",
+            "imports": "进口量",
+            "payslipsImported": "工资单已导入",
+            "log": "日志",
+            "importedAt": "导入时间",
+            "payslipsImport": "工资单导入",
+            "imported": "已导入",
+            "payslipsPayments": "工资单付款",
+            "employee": "雇员",
+            "total": "总计",
+            "iban": "IBAN",
+            "payments": "付款",
+            "reservations": "预订",
+            "reservationsImported": "预订已导入",
+            "reservationsImport": "预订导入",
+            "annualStatements": "年度报表",
+            "annualStatementsImported": "年度报表已导入",
+            "annualStatementsImport": "年度报表导入",
+            "dispatched": "已派遣",
+            "timeRegistration": "时间注册记录",
+            "desiredSalaryCheck": "期望工资检查",
+            "payslipPaymentsCreateCompensations": "创建补偿",
+            "outstandingDesiredSalaryCheck": "部分支出与期望工资不匹配：",
+            "outstandingDesiredSalaryCompensationsCreated": "补偿已创建。",
+            "entity": "实体",
+            "bankImport": "银行导入",
+            "sendAfterCompletion": "完成后发送",
+            "payslipsPaymentsPeriodText": "如果选中时间段和/或更正，PDF 中的所有付款都将在该时间段内导入。如果未选择时间段，将使用 PDF 中的时间段编号。"
+        },
+        "pages": {
+            "payslips": "工资单",
+            "bankImport": "银行导入",
+            "payments": "付款",
+            "reservations": "预订",
+            "annualStatements": "年度报表"
+        },
+        "actions": {
+            "upload": "上传",
+            "refresh": "刷新"
+        }
+    },
+    "freelancerJob": {
+        "static": {
+            "activities": "活动",
+            "startDate": "开始日期",
+            "endDate": "结束日期",
+            "salesRate": "销售率",
+            "margin": "利润",
+            "compensation": "补偿",
+            "name": "名称",
+            "rate": "费率",
+            "hourType": "工时类型",
+            "deleteSuccess": "此工作已被删除。",
+            "deleteFailed": "无法删除工作。",
+            "hourTypeMarginInfo": "填写此值后，关税表将被忽略。",
+            "deviatingMargin": "偏离利润",
+            "submitForApprovalConfirmText": "工作将提交审批。",
+            "hourlyRate": "时薪",
+            "travelType": "差旅类型",
+            "deleteConfirmationText": "是否确定要删除此工作？",
+            "notMinimumHourTypeMarginConfirmationText": "部分利润低于计算利润。",
+            "missingRequiredAttributesConfirmText": "该工作尚未提交审批，因为未填写某些必需属性。"
+        },
+        "actions": {
+            "addCompensation": "添加补偿",
+            "addHourType": "添加工时类型",
+            "addTravelType": "添加差旅类型"
+        }
+    },
+    "freelancer": {
+        "static": {
+            "job": "工作",
+            "jobs": "工作",
+            "jobCreationSuccess": "此工作已被创建",
+            "deleteConfirmationText": "是否确定要删除此自由职业者？",
+            "deleteSuccess": "自由职业者已被删除。",
+            "linkedThroughJob": "通过工作连接",
+            "inviteNewInfoText": "邀请将发送到新自由职业者。",
+            "submitForApprovalConfirmText": "自由职业者将提交审批。",
+            "submittedForApproval": "自由职业者已提交审批",
+            "deleteFailed": "无法删除自由职业者。",
+            "inviteExistingInfoText": "邀请将发送到自由职业者 {name}。",
+            "missingRequiredAttributesConfirmText": "自由职业者还无法提交审批，因为未填写某些必填属性。",
+            "activeOnly": "仅活跃",
+            "archiveConfirmationText": "您确定要归档此自由职业者吗？",
+            "archivedText": "此自由职业者已归档。",
+            "unarchiveConfirmationText": "您确定要取消归档此自由职业者吗？"
+        }
+    },
+    "company": {
+        "static": {
+            "documentEmail": "文档电子邮件",
+            "documentEmailCc": "文档 CC",
+            "notificationEmail": "通知电子邮件",
+            "notificationEmailCc": "通知 CC",
+            "reminderEmail": "提醒电子邮件",
+            "reminderEmailCc": "提醒 CC",
+            "freelancerMargins": "自由职业者利润",
+            "copies": "副本",
+            "synchronizeInfo": "选中值被同步到选中公司。",
+            "copiesAreIdentical": "副本完全相同。",
+            "synchronizationSuccessful": "副本已成功同步。",
+            "original": "原件",
+            "copyInfo": "将创建一个新副本并连接到选中企业。每个企业只能创建一个副本。对原件所做的更改可以同步到副本。",
+            "pensionPlanFactors": "养老金计划系数",
+            "email": "公司电子邮箱",
+            "phone": "公司电话",
+            "website": "公司网站",
+            "typeSlug": "公司类型",
+            "legalFormSlug": "法律形式"
+        },
+        "actions": {
+            "synchronize": "同步",
+            "makeCopy": "制作副本",
+            "newCopy": "新副本"
+        }
+    },
+    "employee": {
+        "static": {
+            "employment": "雇佣",
+            "wageAttachment": "工资附件",
+            "wageAttachmentCreationSuccess": "工资附件已创建。",
+            "wageAttachmentDeleteSuccess": "工资附件已被删除。",
+            "wageAttachments": "工资附件",
+            "contracts": "合同",
+            "contractDeleteSuccess": "合同已被删除。",
+            "contractDeleteFailed": "无法删除合同。",
+            "contractCreateSuccess": "合同已创建。",
+            "contractUpdateSuccess": "合同已更新。",
+            "createContract": "创建合同",
+            "contract": "合同",
+            "functions": "函数",
+            "noRecentPayslips": "未找到最近的工资单。",
+            "deleteSuccess": "该员工已被删除。",
+            "deleteFailed": "无法删除员工。",
+            "archivedText": "员工已归档。",
+            "unarchiveConfirmationText": "是否确定要取消归档此员工？",
+            "annualStatements": "年度报表",
+            "annualStatement": "年度报表",
+            "payslips": "工资单",
+            "deleteContractConfirmationText": "是否确定要删除此合同？",
+            "archiveConfirmationText": "是否确定要归档此员工？",
+            "pensionPlan": "退休金计划",
+            "markedAsNew": "已标记为新",
+            "markedAsChanged": "已标记为已变更",
+            "canNotDeleteEmployeeText": "由于有时间登记记录，无法删除员工。",
+            "canNotDeleteEmploymentText": "由于有时间登记记录，无法删除雇用。",
+            "inviteExistingInfoText": "邀请将被发送到员工 {name}。",
+            "inviteNewInfoText": "邀请将被发送到新员工。",
+            "activeContract": "有效合同",
+            "wizardSkipEmploymentConfirmationText": "您确定不想创建雇佣吗？",
+            "healthInsurances": "健康保险",
+            "submitForApprovalConfirmText": "员工将被提交审批。",
+            "submittedForApproval": "员工已被提交审批。",
+            "markToBeRenewedConfirmationText": "合同将被标记为在合同结束时续签。",
+            "contractMarkedToBeRenewed": "合同已标记为待续签",
+            "contractMarkedNotToBeRenewed": "合同已标记为不续签",
+            "contractCreateWithDocumentInfo": "新合同将与相应的文档一起创建。文档的签名请求将在创建后 1 小时发送。当前合同的结束日期将设置为新合同开始日期的前一天。",
+            "subsidyCreateSuccess": "补贴已创建。",
+            "accountNotActivatedInfo": "账户尚未激活。点击邀请按钮向员工发送激活链接。",
+            "deleteConfirmationText": "是否确定要删除此员工？",
+            "employments": "雇佣",
+            "wageAttachmentUpdateSuccess": "工资附件已更新。",
+            "noAnnualStatements": "无年度报表。",
+            "deleteValidationFailed": "无法检查是否可以删除员工。",
+            "contractRequiredForEmploymentInfoText": "注意。如果您还没有雇主/雇员，您可以选择创建合同。没有合同，您无法创建雇佣。",
+            "wizardSkipContractConfirmationText": "您确定不想创建合同吗？没有合同，您无法创建雇佣。",
+            "missingRequiredAttributesConfirmText": "由于未填写某些必填属性，员工未能被提交审批。",
+            "markNotToBeRenewedConfirmationText": "合同将不会被标记为续订，并将从邮件中删除。员工将收到一封电子邮件，确认合同到期后不会续签。",
+            "subsidyDeleteSuccess": "补贴已删除。"
+        },
+        "actions": {
+            "newContract": "新合同",
+            "markAsNew": "标记为新",
+            "markAsChanged": "标记为已更改",
+            "createContract": "创建合同",
+            "deleteContract": "删除合同",
+            "createEmployment": "创建雇佣",
+            "deleteSubsidyConfirmationText": "是否确定要删除补贴？"
+        },
+        "outOfService": "停止服务",
+        "messages": {
+            "identityBothSides": "请上传身份证正面和背面。"
+        }
+    },
+    "export": {
+        "actions": {
+            "toSepaAndMarkAsPaid": "到 SEPA 并标记为已付款",
+            "generate": "生成"
+        },
+        "static": {
+            "skipValidation": "跳过验证"
+        }
+    },
+    "period": {
+        "actions": {
+            "select": "选择"
+        }
+    },
+    "permission": {
+        "action": {
+            "create": "创建",
+            "delete": "删除",
+            "update": "更新",
+            "view": "查看"
+        }
+    },
+    "user": {
+        "actions": {
+            "sendResetPasswordLink": "发送重置密码链接"
+        },
+        "static": {
+            "notActivated": "此用户未激活。",
+            "deactivated": "被停用"
+        }
+    },
+    "contact": {
+        "static": {
+            "userNotLinkedMessage": "用户未激活或未连接到联系人。",
+            "uploadSuccess": "文件已上传。",
+            "detached": "联系人已断开。",
+            "detachFailed": "联系人无法断开。",
+            "detachConfirmationText": "是否确定要断开联系人？"
+        }
+    },
+    "etRegulation": {
+        "static": {
+            "calculatedAmount": "计算金额：{amount}",
+            "totalAmount": "当前总金额为 {amount}。",
+            "singleTrip": "单程距离：{distance} 公里",
+            "amountShouldBeBetween": "总金额应介于 {min} - {max} 之间。"
+        },
+        "validation": {
+            "totalNotAllowed": "ET 调节的总值不在允许值范围内。",
+            "distanceCalculationFailedText": "我们无法计算到居住地址的距离。请检查地址信息是否有效。"
+        }
+    },
+    "documentTemplate": {
+        "static": {
+            "contractPhase12": "合同阶段 1/2",
+            "contractPhase3": "合同阶段 3",
+            "contractPhase4": "合同阶段 4",
+            "termsAndConditions": "条款和条件",
+            "frameworkAgreement": "框架协议",
+            "hireAgreement": "雇佣协议",
+            "employmentConfirmation": "雇佣确认",
+            "jobConfirmation": "工作确认",
+            "employmentTerminationAgreement": "雇佣终止协议",
+            "deductionsAndAdvances": "扣减和预付款",
+            "etAddendum": "ET附录",
+            "antiDiscriminationPolicy": "反歧视政策",
+            "staffGuide": "工作人员指南",
+            "guaranteeAgreement": "担保协议",
+            "employersDeclaration": "雇主声明",
+            "contractPayrollFixedTerm": "合同工资固定期限",
+            "contractPayrollPermanent": "合同工资永久",
+            "intermediateAgreement": "中间协议",
+            "healthcareAuthorisationForm": "医疗保健授权表",
+            "deliveryDeed": "交付单",
+            "wageAttachmentRequest": "工资附件请求",
+            "jobConfirmationFreelancer": "工作确认自由职业者",
+            "collaborationAgreementFreelancer": "合作协议自由职业者",
+            "healthcareAgreement": "医疗保健协议",
+            "idStatementForm": "身份证明表单",
+            "leadGenerationAgreement": "潜在客户生成协议",
+            "declarationAgreement": "申报协议",
+            "mediationAgreement": "调解协议",
+            "hireAgreementFreelancers": "雇用协议自由职业者",
+            "payrollConfirmation": "工资单确认"
+        },
+        "actions": {
+            "saveTranslation": "保存翻译"
+        }
+    },
+    "invitation": {
+        "actions": {
+            "sendInvitation": "发送邀请"
+        },
+        "static": {
+            "inviteSuccess": "邀请成功",
+            "tokenInvalid": "令牌无效",
+            "tokenInvalidDescription": "令牌无效。"
+        }
+    },
+    "job": {
+        "static": {
+            "employment": "雇佣",
+            "freelancerJob": "自由职业者工作",
+            "employments": "雇佣",
+            "freelancerJobs": "自由职业者工作"
+        }
+    },
+    "users": {
+        "static": {
+            "deactivateConfirmationText": "用户将被停用且无法再次登录。",
+            "permissionsSaved": "权限已保存。",
+            "sendPasswordResetConfirmationText": "包含密码重置连接的电子邮件将被发送到 {email}。",
+            "reactivateConfirmationText": "用户将被重新激活且可以再次登录。"
+        }
+    },
+    "legalForm": {
+        "static": {
+            "commercialPartnership": "普通合伙",
+            "publicPartnership": "公共合伙",
+            "limitedPartnership": "有限合伙",
+            "shippingCompany": "航运公司",
+            "limitedCompanyStartUpBForm": "使用 B 表创立的 N.V.（公共有限公司）/ B.V. （私人有限公司）",
+            "legalPersonStartUp": "法人开办",
+            "privateLimitedCompany": "私人有限公司",
+            "publicLimitedCompany": "公共有限公司",
+            "publicLimitedCompanyRegular": "普通结构的公共有限公司",
+            "privateLimitedCompanyRegular": "常规结构的私人有限公司",
+            "publicLimitedCompanyInvestmentVariableCapital": "可变资本的公共有限公司投资公司",
+            "publicLimitedCompanyInvestmentVariableCapitalTwoTier": "符合二级公司章程的拥有可变资本的公共有限公司投资公司",
+            "publicLimitedCompanyTwoTier": "符合二级公司章程的公共有限公司",
+            "cooperativeStructuralCooperative": "符合公司章程合作社结构的合作社",
+            "cooperative": "合作社",
+            "cooperativeLegalLiabilityRegular": "普通结构的法律责任合作社",
+            "cooperativeLimitedLiabilityRegular": "普通结构的有限责任公司合作社",
+            "cooperativeLimitedLiabilityStructuralCooperative": "符合公司章程结构合作社的有限责任合作社",
+            "homeownersAssociation": "业主协会",
+            "cooperativeLegalLiabilityStructuralCooperative": "符合公司章程的法律责任合作社",
+            "associationFullLegalCapacity": "具有完全法律行为能力的协会",
+            "associationLimitedLegalCapacity": "具有有限法律行为能力的协会",
+            "religiousDenomination": "教派",
+            "foundation": "基础",
+            "mutualInsuranceCompany": "互助保险公司",
+            "mutualInsuranceCompanyStructuralMutual": "符合公司章程的互助保险公司",
+            "mutualInsuranceCompanyLegalLiabilityStructuralMutual": "符合公司章程互助结构承担法律责任的互助保险公司",
+            "mutualInsuranceCompanyLimitedLiabilityRegular": "普通结构的有限责任互助保险公司",
+            "legalPersonPublicLaw": "受公法管辖的法人",
+            "legalPersonPrivateLaw": "受私法管辖的法人",
+            "branchOfficeHeadOfficeAbroad": "总部设在国外的分公司",
+            "foreignEcBusinessCompanyNetherlands": "公司设在荷兰的外国电商企业",
+            "foreignEcBusinessMainOfficeNetherlands": "总部设在荷兰的外国电商企业",
+            "foreignSimilarEcBusinessCompanyNetherlands": "类似公司设在荷兰的电商企业的外国公司",
+            "soleProprietorMultipleOwners": "由多人所有的个体经营者",
+            "soleProprietor": "个体经营者",
+            "limitedCompanyStartUpAForm": "使用 A 表创立的 N.V.（公共有限公司）/ B.V. （私人有限公司）",
+            "limitedCompanyStartUpDForm": "使用 D 表创立的 N.V.（公共有限公司）/ B.V. （私人有限公司）",
+            "privateLimitedCompanyTwoTier": "符合二级公司章程的私人有限公司",
+            "europeanPublicLimitedCompanyRegular": "普通结构的欧洲公共有限公司（SE）",
+            "europeanPublicLimitedCompanyRegularTwoTierCooperative": "符合合作协会章程的承担公共有限责任 （SE）的欧洲公司",
+            "mutualInsuranceCompanyLegalLiabilityRegular": "承担法律责任的普通结构互助保险公司",
+            "mutualInsuranceCompanyLimitedLiabilityStructuralMutual": "符合公司章程互助结构的有限责任互助保险公司",
+            "foreignLegalFormHeadOfficeNetherlands": "总部位于荷兰的外国法律形式",
+            "europeanEconomicInterestGrouping": "欧洲经济利益集团",
+            "foreignSimilarEcBusinessMainOfficeNetherlands": "类似总部设在荷兰的电商企业的外国公司"
+        }
+    },
+    "contractType": {
+        "static": {
+            "phase1And2": "阶段 1/2",
+            "phase3": "阶段 3",
+            "phase4": "阶段 4",
+            "payrollFixedTerm": "工资（固定期限）",
+            "payrollPermanent": "工资（永久）"
+        }
+    },
+    "riskGroup": {
+        "static": {
+            "administrative": "行政",
+            "executive": "执行"
+        }
+    },
+    "wizard": {
+        "static": {
+            "noDocumentsToGenerate": "无可生成文档。",
+            "employeeNotApproved": "此员工尚未获得批准。",
+            "employmentAgencyNotApproved": "此职业介绍所尚未获得批准。",
+            "hirerNotApproved": "该雇主尚未获得批准。",
+            "freelancerNotApproved": "该自由职业者尚未获得批准。",
+            "resellerNotApproved": "该转销商尚未获得批准。"
+        },
+        "actions": {
+            "viewWizard": "查看向导"
+        }
+    },
+    "outOfService": {
+        "search": "搜索",
+        "date": "日期",
+        "reason": "原因",
+        "actions": {
+            "delete": "删除",
+            "cancel": "取消",
+            "process": "处理",
+            "deleteConfirmationText": "是否确定要删除停止服务通知？",
+            "processConfirmationText": "是否确定要处理停止服务通知？"
+        },
+        "process": "处理",
+        "processSuccess": "已成功处理停止服务通知。",
+        "onlyOutstanding": "仅限未付"
+    },
+    "filters": {
+        "static": {
+            "archivedOnly": "仅限已归档",
+            "withActiveEmploymentsOnly": "仅限有效雇佣",
+            "readyForApproval": "准备审批",
+            "createdByAdmin": "管理员创建",
+            "selectedEnterpriseOnly": "仅限选中企业"
+        }
+    },
+    "import": {
+        "static": {
+            "reservationsImported": "预订已导入"
+        }
+    },
+    "employeePayslip": {
+        "actions": {
+            "sendNow": "立即发送"
+        },
+        "static": {
+            "sendEmailSuccess": "工资单已发送。",
+            "sendEmailFailed": "工资单无法发送。",
+            "sendEmailConfirmationText": "是否确定立即发送工资单？"
+        }
+    },
+    "timeRegistrationPeriodStatus": {
+        "static": {
+            "open": "打开",
+            "locking": "正在锁定",
+            "locked": "已锁定",
+            "requiresAction": "需要操作"
+        }
+    },
+    "error": {
+        "actions": {
+            "back": "返回上一页"
+        },
+        "static": {
+            "serverError": "服务器错误",
+            "pageNotFound": "未找到页面",
+            "pageNotFoundDescription": "我们找不到您要查找的页面。",
+            "description": "发生错误。尝试刷新或返回上一页。"
+        }
+    },
+    "invoiceGroup": {
+        "static": {
+            "custom": "自定义",
+            "timeRegistration": "时间注册"
+        }
+    },
+    "reservations": {
+        "static": {
+            "buildup": "累计",
+            "paidOut": "已付",
+            "noBuildupFound": "未找到累计",
+            "showEmptyPeriods": "显示空时间段",
+            "request": "请求",
+            "saved": "预订已保存。",
+            "deleted": "已删除预订",
+            "reservationRequest": "预订请求",
+            "newRequest": "新请求",
+            "canOnlyEditHistoricalBuildupInfo": "仅限编辑历史值。",
+            "noReservations": "无预订",
+            "requestReservations": "请求预订",
+            "calculationTool": "计算工具",
+            "deleteReservationText": "预订将从时间注册记录中删除。",
+            "editBuildupInfo": "更改这些值时，将更新相应的时间注册记录。\n创建新请求时，或请求已完成支付时；\n-将更新预订状态。\n-该请求不会出现在付款导出中。\n更新尚未付款的请求时；\n-将不会更新预订状态。\n-请求将在付款导出中更新。"
+        },
+        "tooltip": {
+            "warningRequestNotYetExported": "此请求尚未支付。"
+        },
+        "actions": {
+            "request": "请求"
+        }
+    },
+    "holiday": {
+        "static": {
+            "easterMonday": "复活节星期一",
+            "ascensionDay": "耶稣升天节",
+            "whitMonday": "复活节星期一",
+            "secondChristmasDay": "圣诞节第二天",
+            "kingsDay": "国王节",
+            "liberationDay": "解放日",
+            "newYear": "新年",
+            "firstChristmasDay": "圣诞节第一天"
+        }
+    },
+    "project": {
+        "static": {
+            "projectManagers": "项目经理",
+            "createProject": "创建项目",
+            "projectCreationSuccess": "项目已成功创建。",
+            "updateProject": "更新项目",
+            "deleteProjectConfirmationText": "是否确定要删除项目？"
+        }
+    },
+    "search": {
+        "static": {
+            "noMoreResults": "没有更多结果。",
+            "ctrlShiftF": "Ctrl + Shift + F"
+        }
+    },
+    "companyType": {
+        "static": {
+            "healthcare": "健康保险",
+            "default": "默认"
+        }
+    },
+    "teamType": {
+        "static": {
+            "freelancer": "自由职业者",
+            "employee": "员工",
+            "hirer": "雇主",
+            "employmentAgency": "职业介绍所",
+            "reseller": "转销商"
+        }
+    },
+    "workServiceType": {
+        "static": {
+            "night": "夜班",
+            "weekend": "周末轮班",
+            "reachability": "可及性服务",
+            "consignment": "寄售服务"
+        }
+    },
+    "media": {
+        "static": {
+            "type": "类型",
+            "other": "其他",
+            "curriculumVitae": "简历",
+            "motivationLetter": "动机信",
+            "diploma": "文凭",
+            "pdfPagesCount": "此 PDF 有 {amount} 页",
+            "certificateOfConduct": "无犯罪证明"
+        }
+    },
+    "entity": {
+        "static": {
+            "enterprise": "企业",
+            "employmentAgency": "职业介绍所",
+            "hirer": "雇主",
+            "employee": "员工",
+            "freelancer": "自由职业者"
+        }
+    },
+    "personalAccessToken": {
+        "static": {
+            "tokenCopied": "令牌已复制到剪贴板",
+            "personalAccessTokens": "个人访问令牌",
+            "tokenPlaceholder": "令牌将显示在此处。",
+            "deletePersonalAccessTokenText": "令牌将被删除且无法再使用。",
+            "tokenCreatedInfo": "令牌已创建。令牌只显示一次，因此请将其存储在安全的地方。",
+            "details": "详情"
+        }
+    },
+    "healthInsurance": {
+        "static": {
+            "saved": "健康保险已保存。"
+        }
+    },
+    "freelancerHourTypeMarginAddition": {
+        "static": {
+            "hourlyRateFreelancerTableHeader": "时薪（低）",
+            "hirerPaymentTermTableHeader": "雇主付款期限"
+        }
+    },
+    "reseller": {
+        "static": {
+            "missingRequiredAttributesConfirmText": "由于未填写某些必需的属性，转销商尚未提交审批。",
+            "submitForApprovalConfirmText": "转销商将被提交审批。",
+            "archivedText": "转销商已归档。",
+            "deleteSuccess": "转销商已被删除。",
+            "deleteFailed": "无法删除转销商。",
+            "employeeMargins": "员工利润",
+            "freelancerMargins": "自由职业者利润",
+            "defaultMargin": "默认利润",
+            "zeroMarginConfirmationText": "一个或多个利润的值为“0”。",
+            "customerCanOnlyHaveOneResellerInfoMessage": "如果未列出职业介绍所，请检查它是否已链接到另一个转销商。",
+            "deleteCustomerConfirmationText": "是否确定要删除此客户？将删除与此客户相关的所有利润。",
+            "deleteConfirmationText": "是否确定要删除此转销商？"
+        }
+    },
+    "marginType": {
+        "static": {
+            "overtime": "加班",
+            "etRegulation": "ET 规定",
+            "senior": "高级",
+            "hourType": "工时类型",
+            "default": "默认"
+        }
+    },
+    "messageBox": {
+        "static": {
+            "shouldSignDocument": {
+                "subject": "主题",
+                "sendSignRequestConfirmationText": "以下主题将收到签名请求",
+                "newSignTokenConfirmationText": "将收到新的签名令牌。",
+                "newSignTokenFailed": "接收新签名令牌时出错。",
+                "newSignTokenSuccess": "已成功接收签名令牌。",
+                "hideDocumentConfirmationText": "是否确定要隐藏此任务？它不会再次出现。"
+            },
+            "hideContractConfirmationText": "是否确定要隐藏此合同？它不会再次出现。"
+        }
+    },
+    "teams": {
+        "static": {
+            "details": "详情",
+            "addTeam": "添加团队",
+            "teamOwner": "团队负责人",
+            "roles": "职责",
+            "deleteTeamPresetText": "是否确定要删除此团队预设？",
+            "team": "团队",
+            "deleteTeamText": "是否确定要删除此团队？"
+        }
+    },
+    "roles": {
+        "static": {
+            "roleCreated": "职责已创建。",
+            "permissionsSaved": "权限已保存。"
+        }
+    },
+    "subsidyCompany": {
+        "static": {
+            "deleted": "公司补贴已被删除。",
+            "deleteSubsidyCompanyConfirmationText": "是否确定要删除公司补贴？"
+        }
+    },
+    "subsidy": {
+        "static": {
+            "createSubsidy": "创建补贴",
+            "updateSubsidy": "更新补贴",
+            "startDateInfo": "如果开始日期不是一周的开始，补贴将从次周开始计算在内。",
+            "confirmation": "补贴确认",
+            "details": "详情",
+            "clearToExcludeFromSubsidy": "清除此字段可从补贴中排除此项目。",
+            "endDateInfo": "如果开始日期不是一周的开始，补贴将包含在前一周结束之前。"
+        }
+    },
+    "proFormaPayslip": {
+        "actions": {
+            "previewCostPriceOverview": "预览成本价格概览",
+            "previewPayslip": "预览工资单"
+        },
+        "static": {
+            "splitPayOutInfo": "启用此选项后，常规工作时数将与工资单中的其他工作时数/附加/补偿分开。"
+        }
+    },
+    "factoringCompany": {
+        "static": {
+            "deleted": "代理公司已被删除。"
+        }
+    }
+}

@@ -1,0 +1,2466 @@
+{
+    "auth": {
+        "actions": {
+            "backToLogin": "Grįžti į prisijungimą",
+            "forgotPassword": "Pamiršau slaptažodį",
+            "login": "Prisijungti",
+            "resetPassword": "Atstatyti slaptažodį",
+            "updatePassword": "Atnaujinti slaptažodį",
+            "logout": "Atsijungti",
+            "leaveImpersonation": "Apsimesti kitu vartotoju",
+            "deactivate": "Išjungti",
+            "changePassword": "Pakeisti slaptažodį",
+            "reactivate": "Iš naujo aktyvuoti"
+        },
+        "pages": {
+            "login": "Prisijungti",
+            "setPassword": "Nustatyti slaptažodį",
+            "forgotPassword": "Pamiršau slaptažodį",
+            "activateAccount": "Aktyvuoti sąskaitą"
+        },
+        "static": {
+            "accountActivationSuccess": "Paskyra aktyvuota",
+            "email": "El. paštas",
+            "forgotPasswordSuccess": "Slaptažodžio atkūrimo nuoroda išsiųsta",
+            "passwordResetSuccess": "Slaptažodžio atkūrimas",
+            "forgotPasswordSuccessDescription": "Mes Jums išsiuntėme el. laišką su slaptažodžio atkūrimo nuoroda.",
+            "logoutConfirmationText": "Ar Jūs tikrai norite atsijungti?",
+            "registrationSuccessful": "Registracija sėkminga",
+            "leaveImpersonationConfirmationText": "Ar tikrai norite atsijungti nuo įkūnijimo?",
+            "userDeactivated": "Vartotojas buvo išjungtas.",
+            "passwordUpdated": "Slaptažodis buvo atnaujintas.",
+            "mobileDashboardOrderUpdated": "Atnaujinta mobiliojo prietaisų skydelio tvarka.",
+            "tokenExpired": "Baigėsi prieigos rakto galiojimas",
+            "tokenExpiredInfo": "Jūs buvote atjungtas, nes baigėsi jūsų autentifikavimo prieigos rakto galiojimo laikas. Norėdami tęsti, prisijunkite naudodamiesi savo įgaliojimais.",
+            "authenticated": "Jūs esate prisijungę!",
+            "userReactivated": "Vartotojas vėl aktyvuotas."
+        }
+    },
+    "frequency": {
+        "static": {
+            "weekly": "Kas savaitę",
+            "hourly": "Kas valandą",
+            "fourWeek": "Keturių savaitė",
+            "daily": "Kasdien",
+            "fourWeekly": "Keturis kartus per savaitę",
+            "monthly": "Kas mėnesį",
+            "hour": "Valanda",
+            "day": "Diena",
+            "week": "Savaitė",
+            "month": "Mėnuo",
+            "hourShort": "h",
+            "dayShort": "d",
+            "weekShort": "w",
+            "fourWeekShort": "4w",
+            "monthShort": "m"
+        }
+    },
+    "documents": {
+        "static": {
+            "editDocument": "Redaguoti dokumentą",
+            "archiveDocumentConfirmationText": "Taip dokumentas bus archyvuojamas.",
+            "created": "Sukurta",
+            "originalFile": "Originalus failas",
+            "signedFile": "Pasirašytas failas",
+            "auditReport": "Audito ataskaita",
+            "signRequestSentAt": "Prašymas pasirašyti išsiųstas adresu",
+            "signRequests": "Prašymai pasirašyti",
+            "category": "Kategorija",
+            "description": "Aprašymas",
+            "fieldType": "Lauko tipas",
+            "info": "Informacija",
+            "layout": "Išdėstymas",
+            "name": "Vardas",
+            "newDocumentTemplate": "Naujo dokumento šablonas",
+            "previewValue": "Peržiūros vertė",
+            "slug": "Žetonas",
+            "template": "Šablonas",
+            "templateSaved": "Šablonas išsaugotas",
+            "variable": "Kintamasis",
+            "variableDeleted": "Kintamasis ištrintas",
+            "variables": "Kintamieji",
+            "variableSaved": "Kintamasis išsaugotas",
+            "documentPreview": "Dokumento peržiūra",
+            "documentName": "Dokumento pavadinimas",
+            "signedAt": "Pasirašyta",
+            "subjects": "Subjektai",
+            "subjectType": "Subjekto tipas",
+            "isOwner": "Yra savininkas",
+            "shouldSign": "Reikėtų pasirašyti",
+            "canView": "Galima pamatyti",
+            "status": "Statusas",
+            "generateDocument": "Sukurti dokumentą",
+            "testData": "Bandymo duomenys",
+            "templateDeleted": "Šablonas ištrintas",
+            "fieldOptions": "Lauko parinktys",
+            "declinedAt": "Atmesta",
+            "fillableBySubject": "Pildoma pagal temą",
+            "uploadFile": "Įkelti failą",
+            "position": "Pozicija",
+            "signDocument": "Pasirašyti dokumentą",
+            "sendAfterCompletion": "Siųsti užbaigus",
+            "logoSubject": "Logotipo tema",
+            "associateLogoSubject": "Asocijuoto logotipo tema",
+            "subject": "Tema",
+            "uploadDocument": "Įkelti dokumentą",
+            "document": "Dokumentas",
+            "linkDeductions": "Apjungti mokėjimus",
+            "linkDeductionsInfo": "Tai užtikrins, kad mokėjimų formos nebus automatiškai sukuriamos įvedant jas į laiko registraciją.",
+            "hideDocumentConfirmationText": "Ar tikrai norite paslėpti šią užduotį? Ji daugiau nebepasirodys.",
+            "signRequestsSent": "Prašymai pasirašyti buvo išsiųsti",
+            "isVisibleOn": "Yra matomas",
+            "creatableByRoles": "Kuriama pagal pozicijas",
+            "fallbackValue": "Atsarginė vertė"
+        },
+        "actions": {
+            "showPreview": "Rodyti peržiūrą",
+            "generateDocument": "Sukurti dokumentą",
+            "editor": "Redaktorius",
+            "pdf": "PDF",
+            "download": "Parsisiųsti",
+            "upload": "Įkelti",
+            "addSubject": "Pridėti temą",
+            "create": "Sukurti",
+            "createFromTemplate": "Sukurti pagal šabloną",
+            "options": "Galimybės"
+        },
+        "editor": {
+            "date": "Data",
+            "employee": "Darbuotojas",
+            "employmentAgency": "Įdarbinimo agentūra",
+            "variables": "Kintamieji",
+            "hirer": "Darbdavys",
+            "factoringCompany": "Faktoringo įmonė",
+            "freelancer": "Laisvai samdomas darbuotojas",
+            "employment": "Darbovietė",
+            "enterprise": "Įmonė",
+            "freelancerJob": "Laisvai samdomo darbuotojo darbas",
+            "employeeContract": "Sutartis"
+        },
+        "tabs": {
+            "info": "Informacija",
+            "template": "Šablonas",
+            "variables": "Kintamieji",
+            "subjects": "Subjektai"
+        },
+        "steps": {
+            "selectTemplate": "Pasirinkti šabloną",
+            "selectData": "Pasirinkti datą",
+            "review": "Apžvalga",
+            "subjects": "Tematika",
+            "variables": "Kintamieji"
+        }
+    },
+    "deduction": {
+        "static": {
+            "housing": "Apgyvendinimas",
+            "personalContributionForTransport": "Asmeninis įnašas už transportą",
+            "advance": "Avansas",
+            "penalty": "Bauda",
+            "certificateOfGoodBehavior": "Gero elgesio pažymėjimas",
+            "workingClothesWorkingShoes": "Darbo drabužiai darbiniai batai",
+            "eduction": "Išsilavinimas",
+            "housingExtra": "Papildomas apgyvendinimas",
+            "advanceExtra": "Papildomas avansas",
+            "healthInsurance": "Sveikatos draudimas",
+            "healthInsuranceExtra": "Papildomas sveikatos draudimas",
+            "mealAllowance": "Maistpinigiai",
+            "personnelAssociation": "Personalo asociacija"
+        }
+    },
+    "enum": {
+        "identityType": {
+            "dutchIdentityCard": "Olandijos asmens tapatybės kortelė",
+            "servicePassport": "Tarnybinis pasas",
+            "passportNonEeaCountry": "Ne EEE šalies pasas",
+            "alienIdentityCard": "Užsieniečio asmens tapatybės kortelė",
+            "alienPassport": "Užsieniečio pasas",
+            "diplomaticPassport": "Diplomatinis pasas",
+            "dutchMunicipalitiesIdentityCard": "Olandijos savivaldybių asmens tapatybės kortelė",
+            "dutchPassport": "Olandijos pasas",
+            "none": "Nė vienas",
+            "passportEeaCountry": "EEE šalies pasas",
+            "refugeePassport": "Pabėgėlio pasas",
+            "residenceDocuments": "Gyvenamosios vietos dokumentai"
+        },
+        "maritalStatus": {
+            "unmarried": "Nesusituokęs",
+            "divorced": "Išsiskyręs",
+            "livingTogetherWithContract": "Gyvenimas kartu su sutartimi",
+            "livingTogetherWithoutContract": "Gyvenimas kartu be sutarties",
+            "married": "Vedęs",
+            "registeredPartnership": "Registruota partnerystė",
+            "widowhood": "Našlys/ė"
+        },
+        "contractPhase": {
+            "phase1And2": "Fazė 1/2 (A)",
+            "phase3": "Fazė 3 (B)",
+            "phase4": "Fazė 4 (C)"
+        },
+        "employeeType": {
+            "normal": "Normalus",
+            "payroll": "Darbo užmokestis",
+            "temporary": "Laikinas",
+            "other": "Kita"
+        },
+        "gender": {
+            "female": "Moteris",
+            "male": "Vyras",
+            "other": "Kita"
+        },
+        "vatTariff": {
+            "shifted": "Perkeltas",
+            "exempt": "Išimti"
+        },
+        "fieldType": {
+            "hirerHourType": "Įdarbintojo valandos tipas",
+            "text": "Tekstas",
+            "textArea": "Teksto sritis",
+            "checkbox": "Žymimas langelis",
+            "money": "Pinigai",
+            "datePicker": "Datos rinkiklis"
+        },
+        "subsidyType": {
+            "none": "Nėra",
+            "targetJobAgreement": "Tikslinės grupė susitarimas dėl darbo ir asmenys, turintys mokymosi sunkumų",
+            "hiringDisabledEmployee": "Neįgalaus darbuotojo samdymas",
+            "reassigningDisabledEmployee": "Darbuotojo, turinčio profesinę negalią, perskirstymas"
+        }
+    },
+    "form": {
+        "static": {
+            "proofOfRecruitmentAbroad": "Įdarbinimo užsienyje įrodymas",
+            "employeeType": "Darbuotojo tipas",
+            "expirationDate": "Galiojimo laikas",
+            "shouldPayOutNonStatutoryHolidays": "Apmokėti neįstatymines atostogas?",
+            "hasPayrollTaxReduction": "Sumažinti darbo užmokesčio mokesčius?",
+            "identityValidUntil": "Asmens tapatybė galioja iki",
+            "motivationLetter": "Motyvacinis laiškas",
+            "workTimeReductionDays": "Darbo laiko mažinimo dienos",
+            "useFrameworkAgreement": "Naudoti preliminarią sutartį",
+            "countryOfBirth": "Gimtoji šalis",
+            "accountHolder": "Sąskaitos savininkas",
+            "firstName": "Vardas",
+            "authorizedSignatory": "Įgaliotas pasirašyti",
+            "birthdate": "Gimimo data",
+            "birthplace": "Gimimo vieta",
+            "cao": "CAO",
+            "cc": "CC",
+            "certificate": "Sertifikatas",
+            "chamberOfCommerceNumber": "Prekybos Rūmų numeris",
+            "citizenServiceNumber": "Piliečių aptarnavimo numeris",
+            "contractHours": "Sutarties valandos",
+            "country": "Šalis",
+            "countryCode": "Šalies kodas",
+            "creditLimit": "Kredito limitas",
+            "curriculumVitae": "Gyvenimo Aprašymas",
+            "diplomas": "Diplomai",
+            "documentNumber": "Dokumento numeris",
+            "employeeFunction": "Darbuotojo funkcija",
+            "employmentAgency": "Įdarbinimo agentūra",
+            "employmentDate": "Įdarbinimo data",
+            "gAccount": "G-paskyra?",
+            "gAccountPercentage": "G-paskyros procentas",
+            "etRegulation": "ET Reglamentas",
+            "factor": "Faktorius",
+            "factorEtRegulation": "Faktoriaus ET reguliavimas",
+            "factoringCompany": "Faktoringo įmonė",
+            "gender": "Lytis",
+            "grossSalary": "Bruto darbo užmokestis",
+            "hasNoRiskPolicy": "Nėra rizikos politikos?",
+            "hirer": "Darbdavys",
+            "homewardTravelCost": "Kelionės namo kaina",
+            "homewardTravelDistance": "Kelionės namo atstumas",
+            "homewardTravelFrequency": "Kelionių namo dažnis",
+            "iban": "IBAN",
+            "id": "ID",
+            "identityType": "Tapatybės tipas",
+            "probation": "Bandomasis laikotarpis",
+            "rentalOrPurchaseContractHomeCountry": "Nuomos arba pirkimo sutartis iš gimtosios šalies",
+            "riskGroup": "Rizikos grupė",
+            "sbiCodes": "SBI kodai",
+            "initials": "Inicialai",
+            "seniorDays": "Senjorų dienos",
+            "shouldDeductHealthInsurance": "Išskaičiuoti sveikatos draudimą?",
+            "shouldPayOutHolidays": "Apmokėti atostogas?",
+            "shouldPayOutReducedHours": "Mokėti sutrumpintas valandas?",
+            "shouldPayOutShortAbsence": "Apmokėti trumpą nebuvimą?",
+            "invoiceEmail": "Sąskaitos - faktūros el. paštas",
+            "shouldPayOutVacationMoney": "Išmokėti atostogų pinigus?",
+            "signature": "Parašas",
+            "language": "Kalba",
+            "startDate": "Pradžios data",
+            "stippPlan": "StiPP planas",
+            "streetNumber": "Numeris",
+            "streetNumberAddition": "Papildymas",
+            "subject": "Subjektas",
+            "legalForm": "Teisinė forma",
+            "logo": "Logotipas",
+            "middleName": "Antrasis vardas",
+            "name": "Vardas",
+            "phone": "Telefonas",
+            "street": "Gatvė",
+            "mainLanguage": "Pagrindinė kalba",
+            "maritalStatus": "Šeimyninė padėtis",
+            "nationality": "Tautybė",
+            "noRiskPolicy": "Jokios rizikos politikos",
+            "password": "Slaptažodis",
+            "passwordConfirmation": "Slaptažodžio patvirtinimas",
+            "paymentTerm": "Mokėjimo terminas",
+            "payOutFrequency": "Mokėjimo dažnumas",
+            "phase": "Fazė",
+            "terminationDate": "Nutraukimo data",
+            "vatNumber": "PVM numeris",
+            "vatTariff": "PVM tarifas",
+            "zipCode": "Pašto kodas",
+            "caoWorkweek": "CAO Darbo savaitė",
+            "functionScale": "Funkcijų skalė",
+            "employment": "Įdarbinimas",
+            "cessionText": "Cesijos tekstas",
+            "employee": "Darbuotojas",
+            "factorOvertime": "Viršvalandžių faktorius",
+            "costOfLivingAllowance": "Pragyvenimo išlaidų išmoka",
+            "city": "Miestas",
+            "email": "El. paštas",
+            "lastName": "Pavardė",
+            "invoiceEmailCc": "Sąskaita faktūra CC",
+            "enterprise": "Įmonė",
+            "chamberOfCommerceExtract": "Prekybos rūmų ištrauka",
+            "factorStatePension": "Valstybinės pensijos koeficientas",
+            "liabilityInsurance": "Patikimumo draudimas",
+            "marginInvoicePerWeek": "Maržos sąskaita faktūra per savaitę",
+            "freelancer": "Laisvai samdomas darbuotojas",
+            "freelancerJob": "Laisvai samdomo darbuotojo darbas",
+            "gAccountIban": "G sąskaitos IBAN",
+            "gAccountHolder": "G sąskaitos savininkas",
+            "payslips": "Darbo užmokesčio lapeliai",
+            "payslipsCc": "Darbo užmokesčio lapeliai CC",
+            "salesRate": "Pardavimo norma",
+            "factorSenior": "Aukštesnysis faktorius",
+            "deliveryDeed": "Pristatymo aktas",
+            "workHours": "Darbo valandos",
+            "workStartTime": "Darbo pradžios laikas",
+            "housingCost": "Apgyvendinimo kaina",
+            "weeksWorked": "Išdirbtos savaitės",
+            "documentTemplate": "Dokumento šablonas",
+            "files": "Failai",
+            "isAgreedWork": "Sutartas darbas",
+            "endDate": "Pabaigos data",
+            "note": "Žinutė",
+            "timeRegistration": "Laiko registracija",
+            "timeRegistrationQuestion": "Laiko registravimas?",
+            "timeForTime": "Laikas nuo laiko",
+            "workEndTime": "Darbo pabaigos laikas",
+            "pensionPlan": "Pensijos planas",
+            "start": "Pradžia",
+            "reason": "Priežastis",
+            "end": "Pabaiga",
+            "background": "Fonas (portretas)",
+            "outOfServiceReasonSlug": "Priežastis",
+            "outOfServiceDate": "Eksploatacijos pasibaigimo data",
+            "salaryWithExtraDays": "Atlyginimas su papildomomis dienomis",
+            "factorWithExtraDays": "Faktorius su papildomomis dienomis",
+            "invoiceCompany": "Sąskaitos - faktūros įmonė",
+            "date": "Data",
+            "file": "Failas",
+            "location": "Vietovė",
+            "workDaysAndHours": "Darbo dienos ir valandos",
+            "website": "Interneto svetainė",
+            "shouldPayOutVacationDays": "Išmokėti atostogų dienas?",
+            "currentPassword": "Dabartinis slaptažodis",
+            "exchangeOvertime": "Keitimasis viršvalandžiais",
+            "employerNumber": "Darbdavio numeris",
+            "upload": "Įkelti",
+            "payOutEnterprise": "Išmokų įmonė",
+            "requireFreelancerVatNumber": "Reikalauti laisvai samdomo darbuotojo PVM mokėtojo kodo",
+            "employeeTypeSlugs": "Darbuotojo tipas",
+            "seasonalWork": "Sezoninis darbas",
+            "splitInvoicePerProject": "Išdalinta sąskaita vienam projektui",
+            "splitInvoicePerEmployee": "Išdalinta sąskaita vienam darbuotojui",
+            "splitInvoicePerFreelancer": "Išdalinta sąskaita vienam laisvai samdomam darbuotojui",
+            "splitInvoiceItemsByDate": "Išdalinti sąskaitos valandas ir keliones pagal datą",
+            "companyType": "Kompanijos tipas",
+            "healthcareDescription": "Sveikatos priežiūros aprašymas",
+            "qualifications": "Kvalifikacijos",
+            "workServices": "Darbo paslaugos",
+            "activities": "Veiklos",
+            "certificateOfConduct": "Elgesio pažymėjimas",
+            "deductMarginVat": "Atimti maržos PVM",
+            "blockSalesRate": "Blokuoti pardavimo rodiklį",
+            "ownerCompany": "Savininko įmonė",
+            "generateFreelancerDocuments": "Generuoti laisvai samdomų darbuotojų dokumentus",
+            "snfCertification": "SNF sertifikatas",
+            "payOutExport": "Mokėjimo eksportavimas",
+            "isPayOutEnabledQuestion": "Mokėjimas išjungtas?",
+            "healthInsurance": "Sveikatos draudimas",
+            "dontSendDocuments": "Nesiųsti dokumentų",
+            "selectedAmount": "Pasirinkta {amount}",
+            "search": "Paieška",
+            "splitPayOut": "Padalintas išmokėjimas",
+            "searchAddress": "Paieškos adresas",
+            "reseller": "Perpardavėjas",
+            "canHaveJobs": "Gali turėti darbo vietų",
+            "noRecordsFound": "Jokių įrašų nerasta...",
+            "description": "Aprašymas",
+            "teamModel": "Subjektas",
+            "teamPresets": "Išankstiniai komandos nustatymai",
+            "teamTypes": "Komandos tipai",
+            "team": "Komanda",
+            "role": "Pareigos",
+            "user": "Naudotojas",
+            "contact": "Kontaktas",
+            "backgroundLandscape": "Fonas (kraštovaizdis)",
+            "workDays": "Darbo dienos",
+            "shouldPayOutSeniorDays": "Išmokėti senjorų dienų išmokas?",
+            "showFunctionOnInvoice": "Funkcijos rodymas sąskaitoje faktūroje",
+            "subsidyCompany": "Subsidijų bendrovė",
+            "type": "Tipas",
+            "subsidy": "Subsidija",
+            "shouldPayOutWorkTimeReductionDays": "Mokėti darbo laiko sutrumpinimo dienas?",
+            "grossSalaryPerHour": "Bendrasis valandinis atlyginimas",
+            "deductionOverviewPerWeek": "Atskaitymų apžvalga per savaitę",
+            "kiwaNumber": "Kiwa Numeris",
+            "niwoNumber": "Niwo numeris",
+            "languageCode": "Kalbos kodas"
+        },
+        "steps": {
+            "contactAndFinancial": "Kontaktai ir finansinė informacija",
+            "documents": "Dokumentai",
+            "employment": "Įdarbinimas",
+            "files": "Failai",
+            "foreignNationality": "Užsienio pilietybė",
+            "general": "Pagrindinis",
+            "documentsAndEmployment": "Dokumentai ir įdarbinimas",
+            "job": "Darbas",
+            "account": "Sąskaita",
+            "employer": "Darbdavys",
+            "etRegulation": "ET reglamentas",
+            "contract": "Sutartis",
+            "hirerRemuneration": "Darbdavio darbo užmokestis"
+        },
+        "hint": {
+            "startTypingToSearch": "Norėdami ieškoti, pradėkite rašyti",
+            "lockPensionPlan": "Užblokuokite pensijų programą, kad ji nebūtų automatiškai keičiama."
+        },
+        "actions": {
+            "upload": "Įkelti"
+        }
+    },
+    "general": {
+        "errors": {
+            "forbidden": "Nepakanka leidimų šio veiksmo atlikimui."
+        },
+        "static": {
+            "chamberOfCommerceNumber": "Prekybos Rūmų Numeris",
+            "createContact": "Sukurti kontaktą",
+            "deleteFailed": "Kažkas nepavyko. Jei problema išlieka, susisiekite su mumis.",
+            "employmentAgencies": "Įdarbinimo agentūros",
+            "employmentAgencyCreationSuccess": "Sėkmingai sukurta įdarbinimo agentūra.",
+            "hirerApprovalSuccess": "Sėkmingai patvirtintas samdytojas.",
+            "maritalStatus": "Šeimyninė padėtis",
+            "payOutFrequency": "Mokėjimo dažnumas",
+            "homewardTravelFrequency": "Kelionės namo dažnumas",
+            "factoringCompanies": "Faktoringo įmonės",
+            "period": "Periodas",
+            "contactInformation": "Kontaktinė informacija",
+            "addressInformation": "Adreso informacija",
+            "company": "Bendrovė",
+            "contact": "Kontaktai",
+            "accountHolder": "Paskyros turėtojas",
+            "address": "Adresas",
+            "authorizedSignatory": "Įgaliotas pasirašyti",
+            "birthdate": "Gimimo data",
+            "birthplace": "Gimimo vieta",
+            "cao": "Cao",
+            "category": "Kategorija",
+            "citizenServiceNumber": "Piliečių Aptarnavimo Numeris",
+            "country": "Šalis",
+            "countryOfBirth": "Gimimo šalis",
+            "name": "Vardas",
+            "creditLimit": "Kredito limitas",
+            "currentEmployments": "Dabartinės darbo vietos",
+            "documentNumber": "Dokumento numeris",
+            "id": "ID",
+            "invoices": "Sąskaitos faktūros",
+            "language": "Kalba",
+            "documents": "Dokumentai",
+            "documentTemplates": "Dokumentų šablonai",
+            "employeeApprovalFail": "Nepavyko patvirtinti darbuotojo.",
+            "employeeApprovalSuccess": "Sėkimingai patvirtintas darbuotojas.",
+            "employeeCreationSuccess": "Sėkmingai sukurtas darbuotojas.",
+            "employees": "Darbuotojai",
+            "employment": "Įdarbinimas",
+            "employmentAgency": "Įdarbinimo agentūra",
+            "employmentAgencyApprovalFail": "Nepavyko patvirtinti įdarbinimo agentūros.",
+            "employmentAgencyApprovalSuccess": "Sėkmingai patvirtinta įdarbinimo agentūra.",
+            "etRegulation": "ET reglamentas",
+            "factor": "Faktorius",
+            "files": "Failai",
+            "financialInformation": "Finansinė informacija",
+            "firstName": "Vardas",
+            "gender": "Lytis",
+            "hi": "Sveiki {user}",
+            "hirer": "Samdytojas",
+            "hirerApprovalFail": "Nepavyko patvirtinti samdytojo.",
+            "hirerCreationSuccess": "Sėkimingai sukurtas samdytojas.",
+            "hirers": "Samdytojai",
+            "iban": "IBAN",
+            "identityType": "Tapatybės tipas",
+            "identityValidUntil": "Tapatybė galioja iki",
+            "initials": "Inicialai",
+            "invite": "Pakvietimas",
+            "lastName": "Pavardė",
+            "legalForm": "Teisinė forma",
+            "log": "Žurnalas",
+            "middleName": "Antras vardas",
+            "none": "Nėra",
+            "notApplicable": "Netaikoma",
+            "notes": "Pastabos",
+            "personalData": "Asmeninė informacija",
+            "residenceAddress": "Gyvenamosios vietos adresas",
+            "sbiCodes": "SBI kodai",
+            "settings": "Nustatymai",
+            "takeOverFromHirer": "Perimti iš samdytojo",
+            "phone": "Telefonas",
+            "timeForTime": "Laikas Laikui",
+            "vatNumber": "PVM numeris",
+            "postalAddress": "Pašto adresas",
+            "dashboard": "Prietaisų skydelis",
+            "search": "Paieška",
+            "visitAddress": "Apsilankymo adresas",
+            "yes": "Taip",
+            "no": "Ne",
+            "timeRegistration": "Laiko registracija",
+            "percentage": "Procentas",
+            "euro": "Euras",
+            "employeeType": "Darbuotojo tipas",
+            "employmentDate": "Įdarbinimo data",
+            "terminationDate": "Nutraukimo data",
+            "payrollTaxReduction": "Darbo užmokesčio mokesčio sumažinimas",
+            "contractPhase": "Sutarties etapas",
+            "contractHours": "Sutarties valandos",
+            "participantEtRegulation": "Dalyvio ET reglamentas?",
+            "startDate": "Pradžios data",
+            "homewardTravelCost": "Kelionės namo kaina",
+            "homewardTravelDistance": "Kelionės namo atstumas",
+            "factorEtRegulation": "Faktoriaus ET reguliavimas",
+            "factorOvertime": "Faktorius viršvalandžiai",
+            "vatTariff": "PVM tarifas",
+            "invoiceEmail": "Sąskaitos - faktūros el. paštas",
+            "city": "Miestas",
+            "employer": "Darbdavys",
+            "factoringCompany": "Faktoringo kompanija",
+            "enterprises": "Įmonės",
+            "employee": "Darbuotojas",
+            "enabled": "Įjungtas",
+            "webhooks": "Interneto kabliukai",
+            "nr": "Nr",
+            "exports": "Eksportas",
+            "splitMargin": "Padalinta paraštė",
+            "companyInformation": "Įmonės informacija",
+            "confirmationQuestion": "Ar Jūs įsitikinę?",
+            "email": "El. paštas",
+            "invoiceEmailCc": "Sąskaita faktūra CC",
+            "originalValue": "Pradinė vertė",
+            "timesheet": "Darbo laiko apskaitos žiniaraštis",
+            "freelancerApprovalSuccess": "Sėkmingai patvirtintas laisvai samdomas darbuotojas",
+            "newContact": "Naujas kontaktas",
+            "total": "Iš viso",
+            "cancel": "Atšaukti",
+            "enterprise": "Įmonė",
+            "date": "Data",
+            "freelancers": "Laisvai samdomi darbuotojai",
+            "freelancer": "Laisvai samdomas darbuotojas",
+            "hours": "Valandos",
+            "payslip": "Atsiskaitymo lapelis",
+            "reservations": "Rezervacijos",
+            "imports": "Importas",
+            "billedAt": "Sąskaita išrašyta",
+            "attachments": "Priedai",
+            "freelancerCreationSuccess": "Sėkmingai sukurtas laisvai samdomas darbuotojas",
+            "freelancerApprovalFail": "Nepavyko patvirtinti laisvai samdomo darbuotojo",
+            "account": "Sąskaita",
+            "overtime": "Viršvalandžiai",
+            "surcharge": "Priemoka",
+            "shiftWorkSurcharge": "Priemoka pamaininiam darbui",
+            "sepaId": "SEPA ID",
+            "travelHours": "Kelionės valandos",
+            "users": "Vartotojai",
+            "permissions": "Leidimai",
+            "user": "Vartotojas",
+            "link": "Nuoroda",
+            "employmentCreationSuccess": "Sėkmingai sukurta darbo vieta",
+            "km": "KM",
+            "housingCost": "Apgyvendinimo kaina",
+            "outOfServiceDate": "Eksploatacijos pasibaigimo data",
+            "createdBy": "Naudotojas",
+            "timeRegistrationIsNotEnabledText": "Laiko registravimas nėra įjungtas.",
+            "costOfLivingAllowance": "Pragyvenimo išlaidų pašalpa",
+            "resultsCount": "{count} rezultatai",
+            "phase": "Fazė",
+            "sendPayslips": "Siųsti atlyginimo lapelius",
+            "stipp": "Stippas",
+            "weeksWorked": "Dirbtos savaitės",
+            "translations": "Vertimai",
+            "subjects": "Temos",
+            "outOfServiceReason": "Neveikimo priežastis",
+            "accountNumber": "Sąskaitos numeris",
+            "createdAt": "Sukurta",
+            "filters": "Filtrai",
+            "startsAt": "Prasideda",
+            "endsAt": "Baigiasi",
+            "factorSenior": "Auštesnysis faktorius",
+            "year": "Metai",
+            "sendFailed": "Siuntimas nepavyko",
+            "note": "Žinutė",
+            "createNote": "Sukurti žinutę",
+            "seniorDays": "Senjorų dienos",
+            "workTimeReductionDays": "Darbo laiko mažinimo dienos",
+            "workHours": "Darbo valandos",
+            "workStartTime": "Darbo pradžios laikas",
+            "workEndTime": "Darbo pabaigos laikas",
+            "outOfServiceEmployeeSuccess": "Buvo sėkmingai pranešta, kad darbuotojas nedirba.",
+            "freelancerJobs": "Laisvai samdomų darbuotojų darbai",
+            "hint": "Užuomina",
+            "outOfService": "Neveikia",
+            "outOfServiceSuccess": "Sėkmingai nebeveikia",
+            "createFailed": "Mums nepavyko išsaugoti šio įrašo.",
+            "updateFailed": "Mums nepavyko išsaugoti šio įrašo.",
+            "saveFailed": "Mums nepavyko išsaugoti šio įrašo.",
+            "archiveSuccess": "Elementas suarchyvuotas.",
+            "archiveFailed": "Mums nepavyko suarchyvuoti šio elemento.",
+            "location": "Vietovė",
+            "holidaySurcharge": "Atostogų priemoka",
+            "uploadFiles": "Įkelti failus",
+            "invoiceCompany": "Sąskaitos - faktūros bendrovė",
+            "employments": "Užimtumas",
+            "fileUploadFailed": "Failo įkėlimas nepavyko",
+            "fileDeleted": "Failas ištrintas",
+            "fileDeleteFailed": "Nepavyko ištrinti failo",
+            "unarchiveSuccess": "Elementas išarchyvuotas.",
+            "unarchiveFailed": "Nepavyko išarchyvuoti šio elemento.",
+            "deleteFileConfirmationText": "Ar tikrai norite ištrinti failą?",
+            "fromPeriod": "Nuo laikotarpio",
+            "filesUploaded": "Failai įkelti",
+            "sickReports": "Pranešimai apie ligą",
+            "start": "Pradžia",
+            "end": "Pabaiga",
+            "reason": "Priežastis",
+            "maxImageSize": "Vaizdas turi būti mažesnis nei {width} x {height} px.",
+            "recentVisitedPages": "Čia bus rodomi neseniai aplankyti puslapiai.",
+            "frequency": "Dažnis",
+            "payOutEnterprise": "Išmokų įmonė",
+            "from": "Nuo",
+            "download": "Atsisiųsti",
+            "until": "Iki",
+            "description": "Aprašymas",
+            "subject": "Tema",
+            "causer": "Kaltininkas",
+            "seasonalWork": "Sezoninis darbas",
+            "payslips": "Algalapiai",
+            "annualStatements": "Metinės ataskaitos",
+            "projects": "Projektai",
+            "type": "Rūšis",
+            "companyType": "Kompanijos tipas",
+            "certificateOfConduct": "Elgesio pažymėjimas",
+            "useHirerValue": "Naudoti darbdavio reikšmę",
+            "useEmploymentAgencyValue": "Naudoti įdarbinimo agentūros reikšmę",
+            "canNotDeleteEmployeeTitle": "Negalima ištrinti",
+            "usingHirerValue": "Naudojama darbdavio reikšmė",
+            "usingEmploymentAgencyValue": "Naudojant įdarbinimo agentūros vertę",
+            "canNotDeleteEmploymentTitle": "Negalima ištrinti",
+            "useParentValue": "Naudoti pirminę reikšmę",
+            "contractStartDate": "Sutarties pradžios data",
+            "contractEndDate": "Sutarties pabaigos data",
+            "reservationsBuildup": "Rezervacijų kaupimas",
+            "correction": "Pataisymas",
+            "selectedAmount": "Pasirinkta ({amount})",
+            "validationFailed": "Patvirtinti nepavyko",
+            "upcomingEmployments": "Būsimi įdarbinimai",
+            "sharedDocumentTemplates": "Bendrinami dokumentų šablonai",
+            "import": "Importuoti",
+            "importHirers": "Importuoti darbdavius",
+            "importSuccessful": "Importavimas sėkmingas",
+            "loadFailed": "Nepavyko įkelti prašomų duomenų.",
+            "importEmployees": "Importuoti darbuotojus",
+            "importEmployments": "Importuoti užimtumą",
+            "importFreelancers": "Importuoti laisvai samdomus darbuotojus",
+            "importFreelancerJobs": "Importuoti laisvai samdomų darbuotojų darbus",
+            "importEntityFailed": "Importuoti nepavyko. Pabandykite atnaujinti puslapį ir vėl pakartokite importavimą.",
+            "registration": "Registracija",
+            "owner": "Savininkas",
+            "marginInvoicePerWeek": "Maržos sąskaita faktūra per savaitę",
+            "generateFreelancerDocuments": "Generuoti laisvai samdomo darbuotojo dokumentus",
+            "generateFreelancerDocumentsInfo": "Kai ši parinktis yra išjungta, laisvai samdomo darbuotojo vedlio pabaigoje dokumentai nėra generuojami.",
+            "healthInsuranceStartDateInfo": "Sveikatos draudimo išskaita bus pridedama kiekvienos savaitės/keturių savaičių/mėnesio pradžioje (priklausomai nuo išmokėjimo dažnumo), jei tą dieną sveikatos draudimas yra aktyvus.",
+            "currentJobs": "Dabartiniai darbai",
+            "upcomingJobs": "Būsimi darbai",
+            "isPayOutEnabled": "Mokėjimas išjungtas?",
+            "pages": "Puslapiai",
+            "dontSendDocumentsInfo": "Čia pasirinktiems dokumentams, nebus siunčiami prašymai juos pasirašyti.",
+            "recurringDeductionInfo": "Pasikartojantis išskaitymas bus pridėtas kiekvienos savaitės / keturių savaičių / mėnesio pradžioje (atsižvelgiant į išmokėjimo dažnį).",
+            "disablePayOutConfirmationText": "Ar jūs tikrai norite išjungti mokėjimą už šią registraciją?",
+            "otherInfo": "Kita informacija",
+            "homeAddress": "Namų adresas",
+            "splitPayOutInfo": "Kai ši parinktis yra įjungta, įprastos darbo valandos eksportuojant išmokas bus atskirtos nuo kitų registracijų.",
+            "submitForApprovalConfirmTitle": "Pateikti patvirtinimui",
+            "missingRequiredAttributesConfirmText": "Elemento dar negalima pateikti patvirtinimui, nes kai kurie privalomi atributai neužpildyti.",
+            "missingRequiredAttributesConfirmTitle": "Ne visi laukeliai užpildyti",
+            "showTotal": "Rodyti bendrą",
+            "dashboardOrderMobile": "Prietaisų skydelio užsakymas mobiliesiems",
+            "notifications": "Pranešimai",
+            "splitPayOut": "Padalintas išmokėjimas",
+            "dontSendDocuments": "Nesiųsti dokumentų",
+            "saved": "Išsaugota",
+            "fillAll": "Viską užpildyti",
+            "submitForApprovalFailed": "Elemento nepavyko pateikti patvirtinimui.",
+            "confirmationImpersonateText": "Ar jūs tikrai norite įasmeninti šį naudotoją?",
+            "submittedForApproval": "Pateikta patvirtinimui.",
+            "notYetSubmittedForApproval": "Dar nepateikta patvirtinimui.",
+            "submitForApprovalConfirmText": "Elementas bus pateiktas patvirtinimui.",
+            "jobCreationSuccess": "Darbas buvo sukurtas.",
+            "variable": "Kintamasis",
+            "minimum": "Minimumas",
+            "new": "Naujas",
+            "resellers": "Perpardavėjai",
+            "resellerCreationSuccess": "Perpardavėjas sėkmingai sukurtas.",
+            "resellerApprovalSuccess": "Sėkmingai patvirtintas perpardavėjas.",
+            "resellerApprovalFail": "Nepavyko patvirtinti perpardavėjo.",
+            "reseller": "Perpardavėjas",
+            "googleLogo": "Google logotipas",
+            "teams": "Komandos",
+            "teamPresets": "Išankstiniai komandos nustatymai",
+            "role": "Pareigos",
+            "contactHasNoAccountTooltip": "Šis kontaktas neturi paskyros",
+            "attachExistingContact": "Pridėti esamą kontaktą",
+            "defaultValue": "Numatytoji vertė",
+            "unableToDeleteItem": "Neįmanoma ištrinti elemento",
+            "noPermissionForField": "Leidimo peržiūrėti nėra...",
+            "NoPermissionForSegment": "Neturite tinkamų teisių peržiūrėti šį segmentą...",
+            "resultsCountMobile": "Puslapis {current} - {total}",
+            "messageBox": "Pranešimo langelis",
+            "signRequestSentAt": "Prašymas pasirašyti išsiųstas adresu",
+            "token": "Prieigos raktas",
+            "personalAccessTokens": "Asmeniniai prieigos raktai",
+            "hide": "Slėpti",
+            "contractType": "Sutarties rūšis",
+            "expiresAt": "Galioja iki",
+            "signTokenExpiresAt": "Pasirašymo prieigos rakto galiojimo laikas baigiasi",
+            "receiveNewSignToken": "Gaukite naują pasirašymo prieigos raktą",
+            "missingDocumentsAmount": "Trūkstamų dokumentų skaičius",
+            "portals": "Portalai",
+            "roles": "Pareigos",
+            "workweekHours": "Darbo savaitės valandos",
+            "subsidyCompanies": "Subsidijų bendrovės",
+            "proFormaPayslip": "Išankstinis atlyginimų mokėjimo žiniaraštis",
+            "fiscalYearlySalary": "Fiskalinis metinis atlyginimas",
+            "result": "Rezultatas",
+            "subsidyCompany": "Subsidijų bendrovė",
+            "subsidy": "Subsidija",
+            "details": "Detalės",
+            "confirmed": "Patvirtinta",
+            "amount": "Suma",
+            "automatic": "Automatinis",
+            "ageHint": "Amžius: {age}",
+            "deductionOverviewPerWeek": "Atskaitymų per savaitę apžvalga",
+            "mainContact": "Pagrindinis kontaktinis asmuo"
+        },
+        "tabs": {
+            "employees": "Darbuotojai",
+            "travelTypes": "Kelionės tipai",
+            "companyDetails": "Įmonės informacija",
+            "contactDetails": "Kontaktiniai duomenys",
+            "contacts": "Kontaktai",
+            "details": "Detalės",
+            "documents": "Dokumentai",
+            "hirers": "Darbdaviai",
+            "invoices": "Sąskaitos faktūros",
+            "log": "Žurnalas",
+            "notes": "Pastabos",
+            "settings": "Nustatymai",
+            "splitMargin": "Padalinta marža",
+            "hourTypes": "Valandų tipai",
+            "compensations": "Kompensacijos",
+            "employments": "Užimtumas",
+            "hours": "Valandos",
+            "reservations": "Rezervacijos",
+            "jobs": "Darbai",
+            "wageAttachments": "Darbo užmokesčio priedai",
+            "deductions": "Išskaitymai",
+            "projects": "Projektai",
+            "freelancers": "Laisvai samdomi darbuotojai",
+            "tariffs": "Tarifai",
+            "margins": "Paraštės",
+            "customers": "Klientai",
+            "user": "Vartotojas",
+            "subsidies": "Subsidijos"
+        },
+        "actions": {
+            "cancel": "Atšaukti",
+            "confirm": "Patvirtinti",
+            "edit": "Redaguoti",
+            "new": "Naujas",
+            "save": "Išsaugoti",
+            "addRow": "Pridėti eilutę",
+            "approve": "Patvirtinti",
+            "delete": "Ištrinti",
+            "next": "Kitas",
+            "previous": "Ankstesnis",
+            "saveTranslations": "Išsaugoti vertimus",
+            "sendInvitation": "Išsiųsti pakvietimą",
+            "skip": "Praleisti",
+            "archive": "Archyvuoti",
+            "viewParentCompany": "Žiūrėti patronuojančią įmonę",
+            "remove": "Pašalinti",
+            "add": "Papildyti",
+            "refresh": "Atnaujinti",
+            "selectAll": "Pasirinkti viską",
+            "deselectAll": "Atžymėti visus pasirinkimus",
+            "invite": "Pakviesti",
+            "linkEnterprise": "Susieti įmonę",
+            "create": "Sukurti",
+            "upload": "Įkelti",
+            "unarchive": "Išarchyvuoti",
+            "addType": "Pridėti tipą",
+            "clearFilters": "Išvalyti filtrus",
+            "deleteSelected": "Ištrinti pasirinkimą ({amount})",
+            "close": "Uždaryti",
+            "downloadFormat": "Parsisiųsti formatą",
+            "import": "Importuoti",
+            "submit": "Pateikti",
+            "continue": "Tęsti",
+            "impersonate": "Įasmeninti",
+            "fill": "Užpildyti",
+            "selectAllFromRole": "Pasirinkti visus iš pareigų",
+            "ok": "Gerai",
+            "copyToken": "Kopijuoti prieigos raktą",
+            "actions": "Veiksmai",
+            "editPermissions": "Redaguoti leidimus",
+            "attach": "Pridėti",
+            "detach": "Atsieti",
+            "reset": "Nustatyti iš naujo",
+            "editUser": "Redaguoti naudotoją",
+            "calculate": "Skaičiuoti"
+        },
+        "plurals": {
+            "month": "Mėnesių skaičius | {count} mėnuo | {count} mėnesiai",
+            "week": "Savaičių skaičius | {count} savaitė | {count} savaitės",
+            "hour": "Valandų skaičius | {count} valanda | {count} valandos",
+            "file": "Nėra failų | {count} failas | {count} files"
+        },
+        "messages": {
+            "dataUniqueToEnterprise": "Šie duomenys yra unikalūs įmonei {enterpriseName}. Spauskite {action}, kad perrašytumėte šiuos duomenis. Duomenys, kurie nebuvo perrašyti, bus paimti iš motininės įmonės.",
+            "overriddenValue": "Ši reikšmė nepaisoma."
+        },
+        "tooltip": {
+            "copyToClipboard": "Nukopijuoti į iškarpinę"
+        }
+    },
+    "menu": {
+        "actions": {
+            "timeRegistration": "Laiko registracija",
+            "dashboard": "Prietaisų skydelis",
+            "employees": "Darbuotojai",
+            "employmentAgencies": "Įdarbinimo agentūros",
+            "functions": "Funkcijos",
+            "hirers": "Samdytojai",
+            "settings": "Nustatymai",
+            "invoices": "Sąskaitos faktūros",
+            "exports": "Eksportas",
+            "imports": "Importas",
+            "documents": "Dokumentai",
+            "freelancers": "Laisvai samdomi darbuotojai",
+            "logout": "Atsijungti",
+            "language": "Kalba",
+            "leaveImpersonation": "Palikti įkūnijimą",
+            "sickReports": "Pranešimai apie ligą",
+            "outOfService": "Neveikia",
+            "account": "Sąskaita",
+            "payslips": "Algalapiai",
+            "resellers": "Perpardavėjai",
+            "proFormaPayslip": "Išankstinis atlyginimų mokėjimo žiniaraštis"
+        }
+    },
+    "settings": {
+        "pages": {
+            "documents": "Dokumentai",
+            "factoringCompanies": "Faktoringo įmonės",
+            "enterprises": "Įmonės",
+            "webhooks": "Interneto kabliukai",
+            "users": "Naudotojai",
+            "personalAccessTokens": "Asmeniniai prieigos raktai",
+            "teams": "Komandos",
+            "roles": "Pareigos",
+            "subsidyCompanies": "Subsidijas teikiančios bendrovės"
+        }
+    },
+    "timeRegistration": {
+        "static": {
+            "compensationDescriptiveText": "Kompensacijos aprašomasis tekstas...",
+            "kilometers": "Kilometrai",
+            "reservations": "Rezervacijos",
+            "deductionAmount": "Išskaitymo suma",
+            "invoiceCreated": "Sukurta sąskaita faktūra",
+            "week": "Savaitė",
+            "amount": "Suma",
+            "uploadDeductionAttachment": "Įkelti išskaitymo priedą",
+            "selectADeduction": "Pasirinkti išskaitymą",
+            "deductionAttachment": "Išskaitymo priedas",
+            "deduction": "Išskaitymas",
+            "deductionDescriptiveText": "Išskaitymo aprašomasis tekstas...",
+            "hours": "Valandos",
+            "project": "Projektas",
+            "location": "Vietovė",
+            "notes": "Pastabos",
+            "payOut": "Išmoka",
+            "hourType": "Valandos tipas",
+            "date": "Data",
+            "from": "Iš",
+            "to": "Į",
+            "reservationDescriptiveText": "Rezervacijos aprašomasis tekstas...",
+            "reservation": "Rezervacija",
+            "currentState": "Dabartinė būsena",
+            "newState": "Nauja būsena",
+            "compensations": "Kompensacijos",
+            "chargeTo": "Įkrauti į",
+            "deleteKilometersConfirmationText": "Ar tikrai norite tai ištrinti?",
+            "maxDistance": "Didžiausias atstumas",
+            "attachmentNotRequired": "Priedas nereikalingas",
+            "deductions": "Išskaitymai",
+            "travelType": "Kelionės tipas",
+            "invoiceAlreadySaved": "Ši sąskaita faktūra jau yra išsaugota.",
+            "compensation": "Kompensacija",
+            "deployed": "Dislokuota",
+            "staff": "Personalas",
+            "companies": "Bendrovės",
+            "function": "Funkcija",
+            "freelancers": "Laisvai samdomi",
+            "invoicingFailed": "Nepavyko sukurti sąskaitų faktūrų.",
+            "status": "Būsena",
+            "employmentIsInactiveText": "Ši darbo vieta pasirinktu laikotarpiu nėra aktyvi.",
+            "jobIsInactiveText": "Šis darbas pasirinktu laikotarpiu nėra aktyvus.",
+            "unlocked": "Laikotarpis buvo atrakintas.",
+            "unlockFailed": "Mums nepavyko atrakinti laikotarpio.",
+            "hourInfoText": "Atnaujinant valandas automatiškai perskaičiuojamos kompensacijos ir atskaitymai.",
+            "deleteTimeRegistrationConfirmationText": "Laiko registracija bus ištrinta.",
+            "downloadFormatFailed": "Nepavyko sukurti formato.",
+            "import": "Importuoti",
+            "validationFailed": "Patvirtinti nepavyko",
+            "importSuccessful": "Importuoti pavyko sėkmingai",
+            "importStarted": "Importavimas prasidėjo. Priklausomai nuo dydžio, tai gali trukti kelias minutes.",
+            "shouldNotSendWithInvoice": "Nesiųsti su sąskaita faktūra",
+            "timeRegistrationsDeleted": "Laiko registracijos buvo ištrintos.",
+            "deleteTimeRegistrationsConfirmationText": "Ar tikrai norite ištrinti pasirinktas laiko registracijas?",
+            "compensationDeleted": "Kompensacija buvo ištrinta.",
+            "hourDeleted": "Valandos buvo ištrintos.",
+            "copyFailed": "Mums nepavyko nukopijuoti eilutės.",
+            "travelSaved": "Kelionė buvo išsaugota.",
+            "travelDeleted": "Kelionė buvo ištrinta.",
+            "returnTravelSaved": "Kelionė atgal buvo išsaugota.",
+            "travelDuplicated": "Kelionė buvo pakartota.",
+            "creatingInvoicesInfo": "Sąskaitos faktūros buvo suplanuotos sukūrimui.",
+            "creatingInvoicesStatusText": "Sąskaitos faktūros kuriamos. Kai šis procesas bus baigtas, sąskaitas faktūras galėsite peržiūrėti čia.",
+            "noOutstandingTimeRegistrationsFound": "Nerasta neapmokėtų laiko registracijų.",
+            "travelsCopied": "Kelionės buvo nukopijuotos.",
+            "autoCalculateDeductionsInfo": "Jei ši parinktis įjungta, neapmokėti išskaitymai bus automatiškai perskaičiuojami registruojant valandas arba generuojant sąskaitas faktūras.",
+            "noRegistrationsFound": "Nerasta registracijų.",
+            "someHoursNotCopied": "Kai kurių valandų registracijų nepavyko nukopijuoti, nes trūksta valandų tipo.",
+            "hoursCopied": "Valandos buvo nukopijuotos.",
+            "someTravelsNotCopied": "Kai kurių kelionių registracijų nepavyko nukopijuoti, nes trūksta kelionės rūšies."
+        },
+        "actions": {
+            "duplicateReturnTravel": "Kelionė atgal",
+            "copyPreviousPeriod": "Kopijuoti ankstesnį laikotarpį",
+            "cao": "CAO",
+            "duplicateKilometerRow": "Dubliuoti eilutę",
+            "editHours": "Redaguoti valandas",
+            "addRow": "Pridėti eilutę",
+            "uploadKilometerAccountability": "Įkelti kilometrų atskaitomybę",
+            "invoice": "Sąskaita faktūra",
+            "correction": "Pataisymas",
+            "saveInvoice": "Išsaugoti sąskaitą faktūra",
+            "receipts": "Kvitai",
+            "uploadAttachments": "Įkelti priedus",
+            "deployed": "Dislokuota",
+            "staff": "Personalas",
+            "add": "Papildyti",
+            "closePeriod": "Uždaryti laikotarpį",
+            "deleteInvoice": "Ištrinti sąskaitą faktūrą",
+            "unlock": "Atrakinti",
+            "autoCalculate": "Automatiškai apskaičiuoti",
+            "viewHours": "Peržiūrėti valandas",
+            "previewInvoice": "Peržiūrėti sąskaitą faktūrą",
+            "viewInvoice": "Rodyti sąskaitą faktūrą",
+            "generateInvoice": "Sukurti sąskaitą faktūrą",
+            "excel": "Excel",
+            "downloadFormat": "Atsisiųsti formatą",
+            "upload": "Įkelti",
+            "import": "Importuoti",
+            "createTimeRegistration": "Sukurti laiko registraciją",
+            "saveInvoices": "Išsaugoti sąskaitas faktūras",
+            "selectLockable": "Viską pasirinkti",
+            "deselectAll": "Nuimti visus žymėjimus",
+            "copyFromEmployee": "Kopija iš kito darbuotojo",
+            "copyFromFreelancer": "Kopija iš kito laisvai samdomo darbuotojo"
+        },
+        "tabs": {
+            "hours": "Valandos",
+            "kilometers": "Kilometrai",
+            "compensations": "Kompensacijos",
+            "reservations": "Rezervacijos",
+            "deductions": "Išskaitymai"
+        }
+    },
+    "api": {
+        "kvk": {
+            "static": {
+                "companyInfoSuccessfullyFilled": "Įmonės informacija sėkmingai užpildyta",
+                "apiOffline": "KVK Api neprisijungęs"
+            },
+            "validation": {
+                "errors": {
+                    "cocNotFound": "Prekybos Rūmų numeris nerastas."
+                }
+            }
+        },
+        "creditsafe": {
+            "validation": {
+                "errors": {
+                    "companyNotFound": "Bendrovė nerasta"
+                }
+            },
+            "static": {
+                "apiOffline": "Kreditas saugus, API neprijungtas."
+            }
+        }
+    },
+    "hourType": {
+        "static": {
+            "deleted": "Ištrinta",
+            "name": "Vardas",
+            "timeForTime": "Laikas laikui",
+            "value": "Vertė",
+            "unit": "Vienetas",
+            "employeesWithoutAccess": "Darbuotojai be prieigos",
+            "none": "Nėra",
+            "employeesWithAccess": "Darbuotojai su prieiga",
+            "employeeHasHourTypeOverrides": "Darbuotojas turi valandos tipo nepaisymą",
+            "hourType": "Valandos tipas",
+            "saved": "Išsaugota",
+            "default": "Numatytosios valandos",
+            "caoSurcharges": "CAO priemokos",
+            "timeForTimeDisabled": "Laikas Laikui išjungtas",
+            "timeForTimeEnabled": "Laikas Laikui įjungta",
+            "hint": "Užuomina",
+            "frequency": "Dažnumas",
+            "type": "Rūšis",
+            "defaultForNewEmployee": "Numatytoji naujam darbuotojui",
+            "defaultForNewEmployeeUpdated": "Naujo darbuotojo numatytieji valandų tipai atnaujinti",
+            "useDesiredNetSalary": "Naudoti pageidaujamą grynąjį darbo užmokestį",
+            "desiredNetSalary": "Pageidaujamas grynasis darbo užmokestis",
+            "difference": "Skirtumas",
+            "actualNetSalary": "Faktinis grynasis darbo užmokestis",
+            "hourTypes": "Valandų rūšys",
+            "chargeTo": "Apmokestinti"
+        },
+        "actions": {
+            "grantAccessToAll": "Suteikiama prieiga visiems",
+            "takeAccessFromAll": "Gaukite prieigą iš visų",
+            "enableTimeForTimeForAll": "Įgalinkite laiką laikui visiems",
+            "disableTimeForTimeForAll": "Išjunkite laiką laikui visiems"
+        }
+    },
+    "reservation": {
+        "static": {
+            "holidayHoursLegal": "Švenčių laikas legalus",
+            "holidayPay": "Atostogų išmoka",
+            "workTimeReductionHours": "Sutrumpintas darbo laikas",
+            "seniorDays": "Senjorų dienos",
+            "timeForTime": "Laikas laikui",
+            "holidayHoursExtraLegal": "Atostogų valandos papildomai legalios",
+            "holidayHours": "Atostogų valandos",
+            "updatedAt": "Atnaujinta",
+            "holidays": "Šventės",
+            "shortAbsence": "Trumpas nebuvimas",
+            "time": "Laikas",
+            "money": "Pinigai",
+            "reservation": "Rezervacija",
+            "amount": "Suma"
+        }
+    },
+    "compensation": {
+        "static": {
+            "employeesWithoutAccess": "Darbuotojai be prieigos",
+            "frequency": "Dažnis",
+            "employeesWithAccess": "Darbuotojai su prieiga",
+            "none": "Nėra",
+            "employeeHasCompensationOverrides": "Darbuotojas turi viršytą kompensaciją",
+            "name": "Vardas",
+            "value": "Vertė",
+            "unit": "Skyrius",
+            "caoCompensations": "CAO kompensacijos",
+            "compensation": "Kompensacija",
+            "saved": "Išsaugota",
+            "deleted": "Ištrinta",
+            "hint": "Užuomina",
+            "factor": "Faktorius",
+            "chargeTo": "Įkrauti į",
+            "payOutEnabled": "Išmokėjimas įjungtas",
+            "isGross": "Yra bruto",
+            "defaultForNewEmployee": "Numatytoji naujam darbuotojui",
+            "defaultForNewEmployeeUpdated": "Atnaujintos numatytosios kompensacijos naujam darbuotojui",
+            "compensations": "Kompensacijos",
+            "desiredSalaryCompensation": "Pageidaujamas darbo užmokesčio kompensavimas",
+            "payslipPaymentsDesiredSalaryExplanation": "Importuojant darbo užmokesčio žiniaraštį, ši funkcija kiekvienam darbuotojui nustato kompensaciją , kurio pageidaujamas darbo užmokestis (nurodytas importavus darbo laiko registraciją) yra didesnis už darbo užmokesčio žiniaraščio mokėjimą.",
+            "checkDesiredSalaryOnPayslipPayments": "Patikrinti pageidaujamą atlyginimą",
+            "noCompensations": "Jokių kompensacijų",
+            "deviantFactor": "Nukrypimo veiksnys",
+            "salesRate": "Pardavimo rodiklis",
+            "compensationSaved": "Kompensacijos buvo išsaugotos.",
+            "enabledCompensationsRecalculatedInfo": "Įjungus kompensacijas, jos automatiškai apskaičiuojamos visuose neįvykdytuose darbo laiko įrašuose (jei yra įregistruotų valandų)."
+        },
+        "actions": {
+            "takeAccessFromAll": "Gaukite prieigą iš visų",
+            "grantAccessToAll": "Suteikite prieigą visiems",
+            "useDeviatingFactor": "Naudokite nukrypimo koeficientą",
+            "addSalesRate": "Pridėti pardavimo rodiklį"
+        }
+    },
+    "travelType": {
+        "static": {
+            "value": "Vertė",
+            "employeeHasTravelTypeOverrides": "Darbuotojai turi kelionės tipo viršijimą",
+            "name": "Vardas",
+            "hint": "Užuomina",
+            "unit": "Skyrius",
+            "gross": "Bruto",
+            "net": "Grynasis",
+            "employeesWithoutAccess": "Darbuotojai be prieigos",
+            "none": "Nėra",
+            "employeesWithAccess": "Darbuotojai su prieiga",
+            "travelType": "Kelionės tipas",
+            "saved": "Išsaugota",
+            "deleted": "Ištrinta",
+            "caoTravelExpenses": "CAO kelionės išlaidos",
+            "default": "Numatytas",
+            "defaultForNewEmployeeUpdated": "Naujo darbuotojo numatytieji kelionių tipai atnaujinti",
+            "defaultForNewEmployee": "Numatytoji naujam darbuotojui",
+            "noTravels": "Jokių kelionių",
+            "chargeTo": "Apmokestinti"
+        },
+        "actions": {
+            "grantAccessToAll": "Suteikite prieigą visiems",
+            "takeAccessFromAll": "Gaukite prieigą iš visų"
+        }
+    },
+    "hourTypes": {
+        "actions": {
+            "edit": "Redaguoti"
+        }
+    },
+    "invoice": {
+        "static": {
+            "deductionsOverview": "Išskaitymų apžvalga",
+            "noPaymentsFound": "Nėrasta mokėjimų",
+            "number": "Numeris",
+            "period": "Laikotarpis",
+            "salesInvoice": "Pardavimo sąskaita faktūra",
+            "costsOverview": "Išlaidų apžvalga",
+            "marginInvoice": "Maržos sąskaita faktūra",
+            "salesInvoices": "Pardavimų sąskaita faktūra",
+            "marginInvoices": "Maržos sąskaitos faktūros",
+            "searchInvoices": "Ieškoti sąskaitų faktūrų",
+            "payments": "Mokėjimai",
+            "addPayment": "Pridėti mokėjimą",
+            "gAccount": "G-paskyra",
+            "log": "Žurnalas",
+            "ipAddress": "IP adresas",
+            "total": "Viso",
+            "invoice": "Sąskaita faktūra",
+            "createdBy": "Sukūrė",
+            "sendAt": "Išsiųsta",
+            "deductions": "Išskaitymai",
+            "billedAt": "Sąskaita išrašyta",
+            "download": "Parsisiųsti",
+            "files": "Failai",
+            "info": "Informacija",
+            "totalPaid": "Viso išmokėta",
+            "gAccountPaid": "G-sąskaita apmokėta",
+            "pending": "Neišspręsta",
+            "queued": "Eilėje",
+            "billed": "Išrašyta sąskaita",
+            "paid": "Apmokėta",
+            "createdAt": "Sukurta",
+            "paidAt": "Apmokėta",
+            "invoiceWillBeBilled": "Netrukus bus išrašytos šio laikotarpio sąskaitos faktūros.",
+            "invoiceWillBeSent": "Sąskaita bus išsiųsta.",
+            "sales": "Pardavimai",
+            "costs": "Išlaidos",
+            "margin": "Marža",
+            "freelancerInvoice": "Laisvai samdomo darbuotojo sąskaita faktūra",
+            "freelancer": "Laisvai samdomas darbuotojas",
+            "attachments": "Priedai",
+            "agreedWorkInvoice": "Sutarto darbo sąskaita faktūra",
+            "agreedWork": "Sutartas darbas",
+            "extraInvoice": "Papildoma sąskaita faktūra",
+            "creditInvoice": "Kreditinė sąskaita faktūra",
+            "hideEmail": "Paslėpti el. paštą",
+            "rows": "Eilutės",
+            "description": "Aprašymas",
+            "invoiceDate": "Sąskaitos faktūros data",
+            "preview": "Peržiūra",
+            "customInvoice": "Individualizuota sąskaita faktūra",
+            "customCosts": "Pasirinktos išlaidos",
+            "remuneration": "Darbo užmokestis",
+            "items": "Punktai",
+            "makeMargin": "Sukurti maržą",
+            "vat": "PVM",
+            "employee": "Darbuotojas",
+            "deduction": "Išskaitymas",
+            "exports": "Eksportas",
+            "customCostsOverview": "Pasirinktinių išlaidų apžvalga",
+            "custom": "Pasirinktinis",
+            "deleteInvoiceText": "Ar tikrai norite ištrinti šią sąskaitą faktūrą?",
+            "confirmTypeChangeText": "Visi esami sąskaitos faktūros elementai bus pašalinti. Ar tikrai norite pakeisti tipą?",
+            "item": "Punktas",
+            "exportDescriptiveText": "Vienu metu galima eksportuoti ne daugiau kaip {count} sąskaitas faktūras. Visi paieškos laukelyje nurodyti filtrai bus naudojami eksportuojamų sąskaitų faktūrų kiekiui apriboti.",
+            "exportInvalidText": "Pasirinkta per daug sąskaitų faktūrų, prašome apriboti sąskaitų faktūrų kiekį naudodami pirmiau nurodytus filtrus.",
+            "newItem": "Naujas punktas",
+            "amount": "Kiekis",
+            "unitPrice": "Vieneto kaina",
+            "billing": "Atsiskaitymas",
+            "resellerMarginInvoice": "Perpardavėjo maržos sąskaita faktūra",
+            "relatedInvoices": "Susijusios sąskaitos faktūros",
+            "resellerMargin": "Perpardavėjo marža",
+            "customInvoiceItemVatNotDefaultConfirmationText": "Ar tikrai norite taikyti kitą PVM tarifą?"
+        },
+        "actions": {
+            "addPayment": "Pridėti mokėjimą",
+            "download": "Parsisiųsti",
+            "billNow": "Išrašyti sąskaitą dabar",
+            "sendNow": "Išsiųsti dabar",
+            "create": "Sukurti",
+            "addToQueue": "Pridėti į eilę",
+            "preview": "Peržiūra",
+            "createExport": "Eksportuoti {count} sąskaitas faktūras",
+            "downloadAll": "Parsisiųsti viską",
+            "billSelected": "Išrašyti pasirinktas sąskaitas faktūras",
+            "deselectAll": "Atžymėti visus pasirinkimus",
+            "selectBillable": "Pasirinkite apmokestinamus"
+        },
+        "filter": {
+            "from": "Iš",
+            "to": "Kam",
+            "type": "Rūšis",
+            "queuedOnly": "Tik eilėje",
+            "outstandingOnly": "Tik išskirtinis"
+        }
+    },
+    "factoring": {
+        "static": {
+            "factoringCompany": "Faktoringo įmonė",
+            "details": "Informacija",
+            "cessionText": "Cesijos tekstas",
+            "deleteFactoringCompanyConfirmationText": "Ar tikrai norite ištrinti šią faktoringo įmonę?",
+            "impact": "Poveikis",
+            "factris": "Factris įmonė",
+            "type": "Tipas",
+            "sendInvoice": "Išsiųsti sąskaitas?",
+            "nlCredit": "NL-Kreditas",
+            "typeInfo": "Tipas apibrėžia, koks bus eksporto formatas."
+        }
+    },
+    "dashboard": {
+        "tabs": {
+            "creditApplications": "Kredito paraiškos",
+            "newEmployees": "Nauji darbuotojai",
+            "newEmploymentAgencies": "Naujos įdarbinimo agentūros",
+            "newHirers": "Nauji samdiniai",
+            "newFreelancers": "Nauji laisvai samdomi darbuotojai"
+        },
+        "functions": {
+            "invoices": "Sąskaitos - faktūros",
+            "timeRegistration": "Laiko registracija",
+            "imports": "Importas",
+            "exports": "Eksportas",
+            "documents": "Dokumentai",
+            "payslipsAndAnnualStatements": "Algalapiai / metinės ataskaitos"
+        },
+        "titles": {
+            "costExcludingVat": "Kaina {year} (be PVM)",
+            "employmentAgencies": "Veikiančios įdarbinimo agentūros",
+            "hirers": "Aktyviai ieškantys darbdaviai",
+            "freelancers": "Aktyviai ieškantys laisvai samdomi darbuotojai",
+            "employees": "Aktyvūs darbuotojai",
+            "marginExcludingVat": "Paraštė (be PVM)",
+            "resellers": "Perpardavėjai"
+        },
+        "charts": {
+            "revenue": "Pajamos",
+            "employees": "Darbuotojai",
+            "workedHours": "Darbo valandos",
+            "hirers": "Samdytojai",
+            "surchargeHours": "Papildomo mokesčio valandos",
+            "employmentAgencies": "Įdarbinimo agentūros",
+            "freelancers": "Laisvai samdomi darbuotojai",
+            "payroll": "Darbo užmokesčio žiniaraštis",
+            "temporary": "Laikinai",
+            "overtime": "Viršvalandžiai",
+            "margin": "Paraštė",
+            "freelancerCosts": "Laisvai samdomo darbuotojo sąnaudos"
+        },
+        "static": {
+            "functions": "Funkcijos",
+            "messageBox": "Žinučių dėžutė",
+            "yourReservations": "Jūsų rezervacijos",
+            "recentPayslips": "Naujausi atlyginimo lapeliai",
+            "recentInvoices": "Naujausios sąskaitos - faktūros",
+            "unsignedContracts": "Nepasirašytos sutartys",
+            "hirersWithoutCao": "Samdytojai be CAO",
+            "annualStatements": "Metinės ataskaitos",
+            "notifications": "Pranešimai",
+            "statistics": "Statistika",
+            "newRegistrations": "Naujos registracijos",
+            "charts": "Diagramos"
+        },
+        "messageBox": {
+            "payOut": "Išmokos ({frequency})",
+            "birthdays": "Gimtadieniai",
+            "shouldSignDocuments": "Turėtų pasirašyti dokumentus",
+            "lockablePeriods": "Užrakinami laikotarpiai",
+            "missingDocuments": "Trūkstami dokumentai",
+            "expiredContracts": "Pasibaigusios sutartys",
+            "expiringContracts": "Sutartys, kurių galiojimas baigiasi",
+            "renewableContracts": "Sutartys, kurios turi būti atnaujintos"
+        }
+    },
+    "documentTemplates": {
+        "static": {
+            "default": "Numatytas",
+            "noTranslations": "Nėra vertimų",
+            "deleteConfirmationText": "Ar Jūs tikrai norite ištrinti šio dokumento šabloną?",
+            "deleteVariableConfirmationText": "Ar tikrai norite ištrinti šį dokumento kintamąjį?",
+            "deleteSharedDocumentTemplate": "Ar tikrai nebenorite naudoti šio dokumento šablono?",
+            "kiwaDeclarationOfEmployment": "Kiwa įdarbinimo deklaracija"
+        },
+        "actions": {
+            "copyToCurrentEnterprise": "Nukopijuoti į dabartinę įmonę",
+            "addSharedDocumentTemplate": "Pridėti bendrinamą dokumento šabloną"
+        }
+    },
+    "emails": {
+        "editor": {
+            "invitationLink": "Kvietimo nuoroda"
+        }
+    },
+    "fieldTypes": {
+        "static": {
+            "checkbox": "Žymimas langelis",
+            "multiSelect": "Keli pasirinkimai",
+            "noOptions": "Nėra pasirinkimų",
+            "radioButton": "Radijo mygtukas",
+            "select": "Pasirinkti",
+            "textField": "Teksto laukas"
+        }
+    },
+    "language": {
+        "actions": {
+            "select": "Pasirinkti"
+        },
+        "static": {
+            "default": "Numatytas"
+        }
+    },
+    "validation": {
+        "errors": {
+            "checkForm": "Prašau patikrinti, ar formoje nėra klaidų",
+            "addressInvalid": "Mums nepavyko rasti šio adreso.",
+            "alternativeAddress": "Mes neradome šio adreso, ar Jūs turėjote omenyje {address}?"
+        },
+        "static": {
+            "required": "Šis laukas yra privalomas",
+            "unableToDeleteItem": "Nepavyksta ištrinti elemento"
+        }
+    },
+    "stippPlanType": {
+        "static": {
+            "basic": "Pagrindinis",
+            "plus": "Pliusas"
+        }
+    },
+    "enterprises": {
+        "static": {
+            "details": "Informacija",
+            "enterprise": "Įmonė",
+            "shouldNotifyCustomers": "Reikėtų informuoti klientus",
+            "deleteStandardDocumentConfirmationText": "Ar tikrai norite ištrinti šį standartinį dokumentą?",
+            "standardDocuments": "Standartiniai dokumentai",
+            "standardDocumentUpdateSuccess": "Standartinis dokumentas sėkmingai atnaujintas.",
+            "noFileUploaded": "Failas dar neįkeltas.",
+            "uploadNewFile": "Įkelti naują failą",
+            "payOutEnterpriseInfo": "Išmokėjimo įmonę galima pakeisti pasirenkant darbuotojo arba įdabintojo išmokėjimo įmonę.",
+            "canHaveJobsInfo": "Jei ši parinktis išjungta, su šia įmone susietiems įdarbintojams nebus galima kurti įdarbinimo ar laisvai samdomų darbuotojų darbo vietų.",
+            "canBeInvoicedInfo": "Jei ši parinktis įjungta, ši įmonė bus prieinama, kuriant naują samdytoją, kaip įdarbinimo agentūra."
+        }
+    },
+    "role": {
+        "static": {
+            "administrator": "Administratorius",
+            "employee": "Darbuotojas",
+            "employmentAgency": "Įdarbinimo agentūra",
+            "hirer": "Samdytojas",
+            "freelancer": "Laisvai samdomas darbuotojas",
+            "superAdministrator": "Super administratorius",
+            "deleteRoleText": "Ar tikrai norite ištrinti šias pareigas?",
+            "roleDeleted": "Pareigos ištrintos."
+        }
+    },
+    "documentStatus": {
+        "static": {
+            "pending": "Laukiama",
+            "created": "Sukurta",
+            "declined": "Atmesta",
+            "expired": "Baigėsi",
+            "completed": "Užbaigta"
+        }
+    },
+    "exports": {
+        "static": {
+            "notStarted": "Nepradėta",
+            "queued": "Eilėje",
+            "completed": "Baigta",
+            "cancelled": "Atšaukta",
+            "failed": "Nepavyko",
+            "factoringCompanyExport": "Faktoringo įmonės eksportas",
+            "options": "Galimybės",
+            "exports": "Eksportas",
+            "deleteExportConfirmationText": "Tai ištrins eksportą.",
+            "running": "Veikia",
+            "generatedAt": "Sukurta adresu",
+            "deleteInvoiceConfirmationText": "Taip bus ištrintos visos susijusios sąskaitos faktūros ir atrakinta laiko registracija šiam laikotarpiui.",
+            "deleteSepaOverviewExportConfirmationText": "Eksportavimas bus ištrintas ir kiekvienos šio eksporto sąskaitos faktūros mokėjimo būsena bus nustatyta iš naujo.",
+            "payOutInfo": "Eksporto pavadinimas bus toks pats kaip ir aukščiausias pasirinktas laikotarpis. Visos pasirinktos registracijos žemesniais laikotarpiais bus eksportuojamos į atskirus failus. Visos neapmokėtos sąskaitos bus išrašytos.",
+            "marginAndDeductionsExport": "Maržos ir atskaitymų eksportas",
+            "export": "Eksportuoti",
+            "periods": "Periodai",
+            "total": "Iš viso",
+            "exportSuccessful": "Eksportavimas pavyko",
+            "selectedInvoices": "Jūs pasirinktote {count} sąskaitas faktūras.",
+            "payOutExport": "Išmokėkite eksportą",
+            "noRegistrationsFound": "Registracijų nerasta.",
+            "deletePayOutExportConfirmationText": "Eksportas bus ištrintas ir visos eksportavimo registracijos vėl bus eksportuojamos.",
+            "registrations": "Registracijos",
+            "noInvoicesFound": "Sąskaitų nerasta.",
+            "deductionsDocumentNotSigned": "Nepasirašytas išskaitų dokumentas.",
+            "deleteWageAttachmentConfirmationText": "Darbo užmokesčio priedas bus ištrintas.",
+            "employeesExport": "Darbuotojų eksportas",
+            "deleteCompensationConfirmationText": "Ar tikrai norite ištrinti šią kompensaciją?",
+            "unarchiveEmploymentAgencyConfirmationText": "Ar tikrai norite išarchyvuoti šią įdarbinimo agentūrą?",
+            "archiveEmploymentAgencyConfirmationText": "Ar tikrai norite archyvuoti šią įdarbinimo agentūrą?",
+            "archiveHirerConfirmationText": "Ar tikrai norite archyvuoti šį samdytoją?",
+            "deleteHourTypeConfirmationText": "Ar tikrai norite ištrinti šį valandų tipą?",
+            "deleteTravelTypeConfirmationText": "Ar tikrai norite ištrinti šį kelionės tipą?",
+            "missingDocumentsForPayOutExport": "Trūksta pasirašytų dokumentų",
+            "unarchiveHirerConfirmationText": "Ar tikrai norite išarchyvuoti šį samdytoją?",
+            "marginOverviewExport": "Maržos apžvalgos eksportavimas",
+            "marginOverview": "Maržos apžvalga",
+            "invoice": "Sąskaita faktūra",
+            "accountingSoftwareExport": "Apskaitos programinė įranga",
+            "saveInvoiceConfirmationText": "Sąskaitos faktūros bus išsaugotos ir laikotarpis bus užrakintas.",
+            "markAllAsDoNotExport": "Pažymėti viską kaip neeksportuoti",
+            "hollandZorg": "HollandZorg",
+            "freelancersPayoutExport": "Laisvai samdomų darbuotojų išmokų eksportavimas",
+            "newEmployees": "Nauji darbuotojai",
+            "markAllAsChanged": "Pažymėti viską kaip pakeista",
+            "changedEmployees": "Pakeisti darbuotojai",
+            "markAllAsNew": "Pažymėti viską kaip nauja",
+            "editExport": "Redaguoti eksportavimą",
+            "addEmployee": "Pridėti darbuotoją",
+            "exportHealhInsuranceRemainder": "Eksportuoti neeksportuotus sveikatos draudimus",
+            "unexportedHealhInsuranceCount": "{count} neeksportuotų sveikatos draudimų.",
+            "healthInsuranceExport": "Sveikatos draudimo eksportavimas",
+            "doNotExport": "Neeksportuoti",
+            "doExport": "Eksportuoti",
+            "markAllAsDoExport": "Pažymėti viską kaip eksportuoti",
+            "exported": "Eksportuota",
+            "archiveResellerConfirmationText": "Ar tikrai norite archyvuoti šį perpardavėją?",
+            "unarchiveResellerConfirmationText": "Ar tikrai norite išarchyvuoti šį perpardavėją?",
+            "mijnSubsidie": "Mano Subsidija",
+            "mijnSubsidieExport": "Mano Subsidija eksportas",
+            "resellerMarginsExport": "Perpardavėjo maržos eksportas",
+            "historicalPayOutExport": "Istorinis išmokų eksportas",
+            "historicalPayOutInfo": "Eksportai bus sukurti kiekvienai pasirinktai laiko registracijai. Taikomos įprastos išmokėjimo taisyklės, išskyrus tai, kad neskaičiuojamas rezervavimo kaupimas."
+        },
+        "pages": {
+            "factoringCompany": "Faktoringo įmonė",
+            "marginAndDeductions": "Marža ir atskaitymai",
+            "payOutExport": "Išmokėkite eksportą",
+            "employeesExport": "Darbuotojų eksportas",
+            "marginOverviewExport": "Maržos apžvalgos eksportavimas",
+            "accountingSoftwareExport": "Apskaitos programinė įranga",
+            "hollandZorgExport": "HollandZorg eksportavimas",
+            "freelancersPayout": "Laisvai samdomų darbuotojų mokėjimai",
+            "mijnSubsidieExport": "Mano Subsidija eksportas",
+            "resellerMargins": "Perpardavėjo maržos"
+        },
+        "actions": {
+            "selectAll": "Pasirinkti visus",
+            "refresh": "Atnaujinti",
+            "clearSelection": "Išvalyti pasirinkimą",
+            "generate": "Sukurti",
+            "selectPeriod": "Pasirinkti laikotarpį",
+            "exactDate": "Tiksli data",
+            "timePeriod": "Laiko tarpas",
+            "showOldExports": "Rodyti senus eksportus"
+        },
+        "payOut": {
+            "static": {
+                "notExportedEmployeesInfo": "Kai kurių šių darbuotojų neigiamų valandų nepavyko eksportuoti:",
+                "skipNonExportableValidation": "Praleisti trūkstamų dokumentų patvirtinimą"
+            },
+            "actions": {
+                "historical": "Istorinis"
+            }
+        },
+        "employees": {
+            "static": {
+                "createFreshExportInfo": "Įjungus parinktį \"Naujas eksportas\", į eksportą bus įtraukti visi šiuo metu dirbantys darbuotojai.",
+                "createFreshExport": "Naujas eksportas"
+            }
+        }
+    },
+    "documentSubjectType": {
+        "static": {
+            "hirer": "Samdytojas",
+            "employment": "Užimtumas",
+            "employmentAgency": "Įdarbinimo agentūra",
+            "factoringCompany": "Faktoringo bendrovė",
+            "freelancerJob": "Laisvai samdomo darbuotojo darbas",
+            "employee": "Darbuotojas",
+            "enterprise": "Įmonė",
+            "freelancer": "Laisvai samdomas darbuotojas",
+            "employeeContract": "Darbuotojo sutartis"
+        }
+    },
+    "documentType": {
+        "static": {
+            "pdf": "PDF",
+            "template": "Šablonas",
+            "view": "Žiūrėti",
+            "upload": "Įkelti"
+        }
+    },
+    "permission": {
+        "action": {
+            "create": "Sukurti",
+            "delete": "Ištrinti",
+            "update": "Atnaujinti",
+            "view": "Vaizdas"
+        }
+    },
+    "document": {
+        "static": {
+            "selectSubjectsForSignedFileText": "Pasirinkite visus dalykus, kuriems norite siųsti pasirašytą failą.",
+            "log": "Prisijungimas",
+            "selectSubjects": "Pasirinkti objektus",
+            "selectSubjectsForSignRequestsText": "Pasirinkite visus dalykus, kuriems Jūs norite siųsti pasirašymo užklausą.",
+            "sendSignRequestsConfirmationText": "Toliau nurodyti subjektai gaus prašymą pasirašyti.",
+            "generatorSubjectShouldSignExplanation": "Prašymą pasirašyti gaus šie asmenys.",
+            "generatorSubjectSendAfterCompletionExplanation": "Šie asmenys gaus dokumentą, kai jis bus parengtas.",
+            "selectSubjectsForCompletedFileText": "Pažymėkite visus asmenis, kuriems norite siųsti užpildytą failą.",
+            "subjectSaved": "Tema išsaugota.",
+            "subjectDeleted": "Tema ištrinta."
+        }
+    },
+    "imports": {
+        "static": {
+            "payslips": "Darbo užmokesčio lapeliai",
+            "bankImport": "Banko importas",
+            "notStarted": "Nepradėta",
+            "queued": "Eilėje",
+            "running": "Iš eilės",
+            "completed": "Baigta",
+            "cancelled": "Atšaukta",
+            "failed": "Nepavyko",
+            "upload": "Įkelti",
+            "imports": "Importas",
+            "payslipsImported": "Importuoti atlyginimų lapeliai",
+            "log": "Prisijungimas",
+            "importedAt": "Importuota",
+            "payslipsImport": "Darbo užmokesčio lapelių importas",
+            "imported": "Importuota",
+            "payslipsPayments": "Mokėjimai pagal atlyginimų lapelius",
+            "employee": "Darbuotojas",
+            "total": "Viso",
+            "iban": "IBAN",
+            "payments": "Mokėjimai",
+            "reservations": "Rezervacijos",
+            "reservationsImported": "Rezervacijos importuotos",
+            "reservationsImport": "Rezervacijų importas",
+            "annualStatementsImported": "Importuotos metinės ataskaitos",
+            "annualStatementsImport": "Importuoti metines ataskaitas",
+            "dispatched": "Išsiųsta",
+            "sendAfterCompletion": "Siųsti užbaigus",
+            "timeRegistration": "Registracijos laikas",
+            "desiredSalaryCheck": "Pageidaujamas atlyginimo čekis",
+            "payslipPaymentsCreateCompensations": "Sukurti kompensacijas",
+            "outstandingDesiredSalaryCheck": "Kai kurios išmokos neatitinka pageidaujamo atlyginimo:",
+            "annualStatements": "Metinės ataskaitos",
+            "outstandingDesiredSalaryCompensationsCreated": "Kompensacijos sukurtos.",
+            "payslipsPaymentsPeriodText": "Jei pasirenkamas laikotarpis ir/arba taisymas, visi mokėjimai PDF formatu bus importuoti per tą patį laikotarpį. Jei nepasirenkamas joks laikotarpis, bus naudojamas laikotarpio numeris esantis PDF.",
+            "entity": "Subjektas"
+        },
+        "pages": {
+            "payslips": "Algalapiai",
+            "bankImport": "Banko importas",
+            "payments": "Mokėjimai",
+            "reservations": "Rezervacijos",
+            "annualStatements": "Metinės ataskaitos"
+        },
+        "actions": {
+            "upload": "Įkelti",
+            "refresh": "Atnaujinti"
+        }
+    },
+    "freelancerJob": {
+        "static": {
+            "activities": "Veikla",
+            "deleteHourTypeConfirmationText": "Ar tikrai norite ištrinti šį valandos tipą?",
+            "startDate": "Pradžios data",
+            "endDate": "Pabaigos data",
+            "hourlyRate": "Valandinis tarifas",
+            "salesRate": "Pardavimo tarifas",
+            "margin": "Marža",
+            "hourType": "Valandos tipas",
+            "compensation": "Kompensacija",
+            "travelType": "Kelionės tipas",
+            "name": "Vardas",
+            "rate": "Įvertinimas",
+            "deleteSuccess": "Darbas buvo ištrintas.",
+            "deleteFailed": "Nepavyko ištrinti darbo.",
+            "deleteConfirmationText": "Ar tikrai norite ištrinti šį darbą?",
+            "hourTypeMarginInfo": "Užpildžius šią vertę, tarifų lentelė bus ignoruojama.",
+            "notMinimumHourTypeMarginConfirmationText": "Kai kurios maržos yra mažesnės už apskaičiuotą maržą.",
+            "deviatingMargin": "Nukrypimas nuo maržos",
+            "missingRequiredAttributesConfirmText": "Darbo dar negalima pateikti patvirtinimui, nes kai kurie privalomi atributai neužpildyti.",
+            "submitForApprovalConfirmText": "Darbas bus pateiktas patvirtinimui."
+        },
+        "actions": {
+            "addCompensation": "Pridėti kompensaciją",
+            "addHourType": "Pridėti valandos tipą",
+            "addTravelType": "Pridėti kelionės tipą"
+        }
+    },
+    "user": {
+        "actions": {
+            "sendResetPasswordLink": "Siųsti slaptažodžio nustatymo iš naujo nuorodą"
+        },
+        "static": {
+            "notActivated": "Naudotojas nėra aktyvuotas.",
+            "deactivated": "Deaktyvuota"
+        }
+    },
+    "log": {
+        "static": {
+            "description": "Aprašymas",
+            "date": "Data",
+            "new": "Naujas",
+            "properties": "Savybės",
+            "system": "Sistema",
+            "causer": "Kaltininkas",
+            "id": "ID",
+            "subject": "Tema",
+            "old": "Senas"
+        }
+    },
+    "employment": {
+        "static": {
+            "payOutPreferences": "Išmokos lengvatos",
+            "startDate": "Pradžios data",
+            "endDate": "Pabaigos data",
+            "function": "Funkcija",
+            "scale": "Skalė",
+            "factor": "Faktorius",
+            "grossSalary": "Darbo užmokesčio bruto",
+            "salesRate": "Pardavimo norma",
+            "includeExtraDays": "Į atlyginimą įtraukite papildomas dienas",
+            "workdaysAndTimes": "Darbo dienos ir valandos",
+            "deleteConfirmationText": "Ar tikrai norite ištrinti šį įdarbinimą?",
+            "deleteSuccess": "Įdarbinimas buvo ištrintas.",
+            "deleteFailed": "Nepavyko ištrinti įdarbinimo.",
+            "emptyFunctionSalesRateConfirmationText": "Visos funkcijos turi tuščią pardavimo tarifą.",
+            "missingRequiredAttributesConfirmText": "Darbo dar negalima pateikti patvirtinimui, nes kai kurie privalomi atributai neužpildyti.",
+            "submitForApprovalConfirmText": "Įdarbinimas bus pateiktas patvirtinimui."
+        },
+        "actions": {
+            "addFunction": "Pridėti funkciją",
+            "createNext": "Sukurti kitą",
+            "goToEmployment": "Eiti į įdarbinimą"
+        },
+        "messages": {
+            "wizardPreviousEmploymentExplanation": "Ankstesnis darbas naudojamas kaip šio naujo pagrindas."
+        }
+    },
+    "freelancer": {
+        "static": {
+            "job": "Darbas",
+            "jobs": "Darbai",
+            "jobCreationSuccess": "Darbas sukurtas",
+            "deleteSuccess": "Laisvai samdomas darbuotojas buvo ištrintas.",
+            "deleteFailed": "Nepavyko ištrinti laisvai samdomo darbuotojo.",
+            "deleteConfirmationText": "Ar tikrai norite ištrinti šį laisvai samdomą darbuotoją?",
+            "linkedThroughJob": "Susieta per darbą",
+            "inviteNewInfoText": "Naujam laisvai samdomam darbuotojui bus išsiųstas kvietimas.",
+            "inviteExistingInfoText": "Laisvai samdomam darbuotojui bus išsiųstas kvietimas {name}.",
+            "missingRequiredAttributesConfirmText": "Laisvai samdomo darbuotojo dar negalima pateikti patvirtinimui, nes kai kurie privalomi atributai neužpildyti.",
+            "submitForApprovalConfirmText": "Laisvai samdomas darbuotojas bus pateiktas patvirtinimui.",
+            "submittedForApproval": "Laisvai samdomas darbuotojas buvo pateiktas patvirtinimui",
+            "activeOnly": "Tik aktyvus",
+            "archiveConfirmationText": "Ar tikrai norite archyvuoti šį laisvai samdomą darbuotoją?",
+            "unarchiveConfirmationText": "Ar tikrai norite panaikinti šio laisvai samdomo darbuotojo archyvavimą?",
+            "archivedText": "Šis laisvai samdomas darbuotojas yra archyvuotas."
+        }
+    },
+    "company": {
+        "static": {
+            "documentEmail": "Dokumento el. laiškas",
+            "documentEmailCc": "Dokumentas cc",
+            "notificationEmail": "Pranešimo el. laiškas",
+            "notificationEmailCc": "Pranešimo cc",
+            "reminderEmail": "Priminimo el. laiškas",
+            "reminderEmailCc": "Priminimo cc",
+            "freelancerMargins": "Laisvai samdomo darbuotojo marža",
+            "copyInfo": "Bus sukurta nauja kopija ir susieta su pasirinkta įmone. Kiekvienai įmonei gali būti sukurta tik viena kopija. Originalo pakeitimus galima sinchronizuoti su kopija.",
+            "copies": "Kopijos",
+            "synchronizeInfo": "Pasirinktos reikšmės bus sinchronizuojamos su pasirinkta įmone.",
+            "copiesAreIdentical": "Kopijos yra identiškos.",
+            "synchronizationSuccessful": "Kopijos buvo sėkmingai sinchronizuotos.",
+            "original": "Originalas",
+            "pensionPlanFactors": "Pensijų plano veiksniai",
+            "email": "Įmonės el. paštas",
+            "phone": "Įmonės telefonas",
+            "website": "Įmonės interneto svetainė",
+            "legalFormSlug": "Teisinės formos",
+            "typeSlug": "Įmonės tipo"
+        },
+        "actions": {
+            "synchronize": "Sinchronizuoti",
+            "makeCopy": "Padaryti kopiją",
+            "newCopy": "Nauja kopija"
+        }
+    },
+    "employee": {
+        "static": {
+            "employments": "Užimtumas",
+            "employment": "Darbas",
+            "wageAttachmentCreationSuccess": "Darbo užmokesčio priedas buvo sukurtas.",
+            "contractDeleteFailed": "Nepavyko ištrinti sutarties.",
+            "wageAttachment": "Darbo užmokesčio priedas",
+            "wageAttachmentUpdateSuccess": "darbo užmokesčio priedas buvo atnaujintas.",
+            "wageAttachmentDeleteSuccess": "Darbo užmokesčio priedas buvo ištrintas.",
+            "wageAttachments": "Darbo užmokesčio priedai",
+            "contracts": "Sutartys",
+            "contractDeleteSuccess": "Sutartis buvo ištrinta.",
+            "contractCreateSuccess": "Sutartis buvo sukurta.",
+            "contractUpdateSuccess": "Sutartis buvo atnaujinta.",
+            "deleteContractConfirmationText": "Ar tikrai norite ištrinti šią sutartį?",
+            "createContract": "Sukurti sutartį",
+            "contract": "Sutartis",
+            "functions": "Funkcijos",
+            "noRecentPayslips": "Nerasta jokių naujausių atlyginimų lapelių.",
+            "deleteConfirmationText": "Ar tikrai norite ištrinti šį darbuotoją?",
+            "deleteSuccess": "Darbuotojas buvo ištrintas.",
+            "noAnnualStatements": "Metinių ataskaitų nėra.",
+            "deleteFailed": "Nepavyko ištrinti darbuotojo.",
+            "archivedText": "Šis darbuotojas buvo archyvuotas.",
+            "archiveConfirmationText": "Ar tikrai norite archyvuoti šį darbuotoją?",
+            "unarchiveConfirmationText": "Ar tikrai norite išarchyvuoti šį darbuotoją?",
+            "annualStatements": "Metinės ataskaitos",
+            "annualStatement": "Metinė ataskaita",
+            "payslips": "Darbo užmokesčio lapeliai",
+            "pensionPlan": "Pensijų programa",
+            "contractRequiredForEmploymentInfoText": "Atsargiai. Jei dar neturite darbdavio/nesate įdarbintas, neprivaloma sudaryti sutarties. Be sutarties negalite sukurti įdarbinimo.",
+            "markedAsNew": "Pažymėta kaip naujas",
+            "markedAsChanged": "Pažymėta kaip pakeista",
+            "deleteValidationFailed": "Nėra galimybių patikrinti ar darbuotojas gali būti ištrintas.",
+            "canNotDeleteEmploymentText": "Įdarbinimas negali būti ištrintas dėl egzistuojančių laiko registracijų.",
+            "canNotDeleteEmployeeText": "Darbuotojas negali būti ištrintas dėl egzistuojančių laiko registracijų.",
+            "inviteExistingInfoText": "Pakvietimas bus išsiųstas darbuotojui {name}.",
+            "inviteNewInfoText": "Pakvietimas bus išsiųstas naujam darbuotojui.",
+            "activeContract": "Aktyvi sutartis",
+            "wizardSkipContractConfirmationText": "Ar Jūs tikrai nenorite sukurti sutarties? Be sutarties negalite sukurti įdarbinimo.",
+            "wizardSkipEmploymentConfirmationText": "Ar Jūs tikrai nenorite sudaryti įdarbinimo?",
+            "healthInsurances": "Sveikatos draudimai",
+            "submitForApprovalConfirmText": "Darbuotojas bus pateiktas patvirtinimui.",
+            "missingRequiredAttributesConfirmText": "Darbuotojas dar negali būti pateiktas patvirtinimui, nes kai kurie privalomi atributai neužpildyti.",
+            "submittedForApproval": "Darbuotojas buvo pateiktas patvirtinimui.",
+            "markToBeRenewedConfirmationText": "Sutartis bus pažymėta, kad būtų atnaujinta baigiantis galiojimo laikui.",
+            "markNotToBeRenewedConfirmationText": "Sutartis nebus pažymėta kaip atnaujinama ir bus pašalinta iš pranešimų. Darbuotojas gaus el. laišką su patvirtinimu, kad pasibaigus sutarties galiojimo laikui ji nebus atnaujinta.",
+            "contractCreateWithDocumentInfo": "Bus sukurta nauja sutartis ir atitinkamas dokumentas. Prašymas pasirašyti dokumentą bus išsiųstas praėjus 1 valandai po sukūrimo. Dabartinės sutarties pabaigos data bus nustatyta viena diena anksčiau nei naujos sutarties pradžios data.",
+            "contractMarkedToBeRenewed": "Sutartyje pažymėta, kad ji turi būti atnaujinta",
+            "contractMarkedNotToBeRenewed": "Sutartis buvo pažymėta, kad ji nebus pratęsta",
+            "subsidyCreateSuccess": "Subsidija buvo sukurta.",
+            "accountNotActivatedInfo": "Paskyra (dar) nebuvo aktyvuota. Spustelėkite mygtuką pakviesti ir nusiųskite darbuotojui aktyvavimo nuorodą.",
+            "subsidyDeleteSuccess": "Subsidija buvo panaikinta."
+        },
+        "actions": {
+            "newContract": "Nauja sutartis",
+            "markAsNew": "Pažymėti kaip naujas",
+            "markAsChanged": "Pažymėti kaip pakeista",
+            "createContract": "Sukurti sutartį",
+            "deleteContract": "Ištrinti sutartį",
+            "createEmployment": "Sukurti įdarbinimą",
+            "deleteSubsidyConfirmationText": "Ar tikrai norite ištrinti subsidiją?"
+        },
+        "messages": {
+            "identityBothSides": "Įkelkite savo tapatybės kortelės priekinę ir galinę puses."
+        },
+        "outOfService": "Neveikia"
+    },
+    "export": {
+        "actions": {
+            "toSepaAndMarkAsPaid": "į SEPA ir pažymėti apmokėta",
+            "generate": "Sukurti"
+        },
+        "static": {
+            "skipValidation": "Praleisti patvirtinimą"
+        }
+    },
+    "period": {
+        "actions": {
+            "select": "Pasirinkti"
+        }
+    },
+    "contact": {
+        "static": {
+            "userNotLinkedMessage": "Vartotojas nėra aktyvuotas arba nėra susietas su kontaktu.",
+            "uploadSuccess": "Failas įkeltas.",
+            "detached": "Kontaktas buvo atjungtas.",
+            "detachFailed": "Kontakto nepavyko atjungti.",
+            "detachConfirmationText": "Ar tikrai norite atjungti kontaktą?"
+        }
+    },
+    "legalForm": {
+        "static": {
+            "soleProprietor": "Vienintelis valdytojas",
+            "publicPartnership": "Viešoji partnerystė",
+            "limitedCompanyStartUpAForm": "N.V. (Akcinė Bendrovė) /B.V. (Uždaroji akcinė bendrovė) veiklos pradžia pagal A formą",
+            "privateLimitedCompanyTwoTier": "Uždaroji akcinė bendrovė pagal dvipakopės bendrovės įstatus",
+            "publicLimitedCompanyInvestmentVariableCapitalTwoTier": "Akcinė bendrovė investicinė kintamojo kapitalo bendrovė pagal dvipakopės bendrovės įstatus",
+            "cooperativeLegalLiabilityStructuralCooperative": "Kooperatyvas su teisine atsakomybe pagal struktūrinio kooperatyvo įstatus",
+            "mutualInsuranceCompanyLimitedLiabilityStructuralMutual": "Ribotos atsakomybės savitarpio draudimo bendrovė pagal struktūrinės savitarpio atsakomybės įstatus",
+            "mutualInsuranceCompany": "Tarpusavio draudimo bendrovė",
+            "mutualInsuranceCompanyLegalLiabilityRegular": "Įprastos struktūros savitarpio draudimo bendrovė turinti teisinę atsakomybę",
+            "foreignSimilarEcBusinessCompanyNetherlands": "Užsienio įmonė, panaši į EB verslą su įmone Nyderlanduose",
+            "soleProprietorMultipleOwners": "Vienintelis prekiautojas, turintis daugiau nei vieną savininką",
+            "commercialPartnership": "Pagrindinė patnerystė",
+            "limitedPartnership": "Ribota partnerystė",
+            "shippingCompany": "Siuntimo Bendrovė",
+            "limitedCompanyStartUpBForm": "N.V. (Akcinė Bendrovė) /B.V. (Uždaroji akcinė bendrovė) veiklos pradžia pagal B formą",
+            "limitedCompanyStartUpDForm": "N.V. (Akcinė Bendrovė) /B.V. (Uždaroji akcinė bendrovė) veiklos pradžia pagal D formą",
+            "legalPersonStartUp": "Juridinio asmens veiklos pradžia",
+            "privateLimitedCompany": "Uždaroji akcinė bendrovė",
+            "privateLimitedCompanyRegular": "Įprastos struktūros uždaroji akcinė bendrovė",
+            "publicLimitedCompany": "Akcinė bendrovė",
+            "publicLimitedCompanyRegular": "Įprastos struktūros akcinė bendrovė",
+            "publicLimitedCompanyTwoTier": "Akcinė bendrovė pagal dvipakopės bendrovės įstatus",
+            "publicLimitedCompanyInvestmentVariableCapital": "Akcinė bendrovė investicinė kintamojo kapitalo bendrovė",
+            "europeanPublicLimitedCompanyRegular": "Įprastos struktūros Europos akcinė bendrovė (SE)",
+            "europeanPublicLimitedCompanyRegularTwoTierCooperative": "Europos akcinė bendrovė (SE) pagal Kooperatyvo įstatus",
+            "cooperative": "Kooperatyvas",
+            "cooperativeStructuralCooperative": "Kooperatyvas pagal struktūrinius kooperatyvo įstatus",
+            "cooperativeLegalLiabilityRegular": "Įprastos struktūros teisinės atsakomybės kooperatyvas",
+            "cooperativeLimitedLiabilityRegular": "Įprastos struktūros ribotos atskaitomybės kooperatyvas",
+            "cooperativeLimitedLiabilityStructuralCooperative": "Ribotos atskaitomybės kooperatyvas pagal struktūrinio kooperatyvos įstatus",
+            "homeownersAssociation": "Namų savininkų asociacija",
+            "associationFullLegalCapacity": "Visišką veiksnumą turinti asociacija",
+            "associationLimitedLegalCapacity": "Riboto veiksnumo asociacija",
+            "religiousDenomination": "Religinė konfesija",
+            "foundation": "Fondas",
+            "mutualInsuranceCompanyStructuralMutual": "Abipusio draudimo bendrovė pagal įstatus",
+            "mutualInsuranceCompanyLegalLiabilityStructuralMutual": "Tarpusavio draudimo bendrovė, turinti teisinę atsakomybę pagal struktūrinės savitarpio pagalbos įstatus",
+            "mutualInsuranceCompanyLimitedLiabilityRegular": "Įprastos struktūros ribotos atsakomybės savitarpio draudimo bendrovė",
+            "legalPersonPublicLaw": "Viešosios teisės juridinis asmuo",
+            "legalPersonPrivateLaw": "Privačios teisės reglamentuojamas juridinis asmuo",
+            "foreignLegalFormHeadOfficeNetherlands": "Užsienio teisinė forma, kurios pagrindinė buveinė yra Nyderlanduose",
+            "branchOfficeHeadOfficeAbroad": "Filialas su pagrindine buveine užsienyje",
+            "europeanEconomicInterestGrouping": "Europos ekonominių interesų grupė",
+            "foreignEcBusinessCompanyNetherlands": "Užsienio EB verslas su įmone Nyderlanduose",
+            "foreignEcBusinessMainOfficeNetherlands": "Užsienio EB įmonė, kurios pagrindinė buveinė yra Nyderlanduose",
+            "foreignSimilarEcBusinessMainOfficeNetherlands": "Užsienio įmonė, panaši į EB verslą, kurios pagrindinė buveinė yra Nyderlanduose"
+        }
+    },
+    "etRegulation": {
+        "static": {
+            "amountShouldBeBetween": "Bendra suma turėtų būti tarp {min} ir {max}.",
+            "calculatedAmount": "Apskaičiuota suma: {amount}",
+            "totalAmount": "Dabartinė bendra suma yra {amount}.",
+            "singleTrip": "Vienos kelionės atstumas: {distance} km"
+        },
+        "validation": {
+            "totalNotAllowed": "Bendra et reglamento reikšmė nėra tarp leistinų verčių.",
+            "distanceCalculationFailedText": "Negalėjome apskaičiuoti atstumo iki gyvenamosios vietos adreso. Prašau patikrinkite, ar adreso duomenys galioja."
+        }
+    },
+    "invitation": {
+        "static": {
+            "tokenInvalid": "Žyma negalioja",
+            "tokenInvalidDescription": "Žyma yra negalima.",
+            "inviteSuccess": "Kvietimas pavyko"
+        },
+        "actions": {
+            "sendInvitation": "Siųsti kvietimą"
+        }
+    },
+    "users": {
+        "static": {
+            "sendPasswordResetConfirmationText": "El. laiškas su slaptažodžio nustatymo iš naujo nuoroda bus išsiųstas adresu {email}.",
+            "deactivateConfirmationText": "Vartotojas bus išjungtas ir nebegalės prisijungti.",
+            "permissionsSaved": "Leidimai buvo išsaugoti.",
+            "reactivateConfirmationText": "Naudotojas bus vėl aktyvuotas ir galės prisijungti iš naujo."
+        }
+    },
+    "outOfServiceReason": {
+        "static": {
+            "endOfEmployment": "Darbo pabaiga pagal įstatymą dėl sutarties pabaigos datos",
+            "cancelledByEmployerWithinProbation": "Atšauktas darbdavio bandomojo laikotarpio metu",
+            "cancelledByEmployerUwv": "Atšaukė darbdavys, patvirtino UWV",
+            "cancelledByJudge": "Atšaukė teisėjas",
+            "cancelledByAgreement": "Sutartas sutarties nutraukimas",
+            "cancelledByEmployee": "Atšaukta darbuotojo",
+            "cancelledByEmployer": "Atšaukė darbdavys",
+            "endByLawOtherReason": "Darbo pabaiga pagal įstatymą dėl kitos priežasties",
+            "deploymentEndByIllness": "Dislokavimas baigtas dėl ligos",
+            "deploymentEndByOtherReason": "Dislokavimas baigtas dėl kitos priežasties",
+            "continuedWithoutIncome": "Tęsė be pajamų",
+            "otherReason": "Kita priežastis"
+        }
+    },
+    "cv": {
+        "certificate": {
+            "addEducation": "Pridėti Išsimokslinimą / Kvalifikaciją",
+            "certificates": "Sertifikatai",
+            "description": "Aprašymas",
+            "addCertificate": "Pridėti sertifikatą"
+        },
+        "language": {
+            "rating": "Jūsų kalbų įvertinimas",
+            "languages": "Kalbos",
+            "pickLanguage": "Pasirinkite savo kalbas"
+        },
+        "reference": {
+            "email": "El. paštas",
+            "references": "Nuorodos",
+            "fullName": "Darbdavio pilnas pavadinimas",
+            "company": "Bendrovė",
+            "telephone": "Telefonas",
+            "addReference": "Pridėti nuorodą"
+        },
+        "work": {
+            "function": "Funkcija",
+            "workExperience": "Darbo patirtis",
+            "jobDescription": "Darbo aprašymas",
+            "addWorkExperience": "Pridėti darbo patirtį"
+        },
+        "dialog": {
+            "close": "Uždaryti",
+            "generateCv": "Sukurti CV"
+        },
+        "education": {
+            "educationsAndQualifications": "Išsimokslinimas ir kvalifikacijos",
+            "educationsDescription": "Išsimokslinimo aprašymas"
+        },
+        "title": "Pavadinimas",
+        "till": "Iki",
+        "from": "Nuo",
+        "interest": {
+            "interests": "Pomėgiai",
+            "pickInterests": "Pasirinkite savo pomėgius"
+        },
+        "select": "Pasirinkti",
+        "profile": {
+            "profile": "Profilis",
+            "profileSummary": "Įveskite savo profilio santrauką čią (reikia mažiausiai 150 žodžių).."
+        },
+        "skill": {
+            "pickSkills": "Pasirinkite savo įgūdžius",
+            "skills": "Įgūdžiai",
+            "rating": "Jūsų įgūdžių įvertinimas"
+        }
+    },
+    "wageAttachment": {
+        "actions": {
+            "sendInformationRequest": "Išsiųsti informacijos užklausą",
+            "informationRequest": "Informacijos užklausa"
+        },
+        "static": {
+            "garnishee": "Asmuo",
+            "garnisheeContact": "Asmens kontaktai",
+            "garnisheeCity": "Asmens miestas",
+            "reference": "Nuoroda",
+            "taxFreeSum": "Neapmokestinama suma",
+            "overallSum": "Bendra suma",
+            "outstandingAmount": "Išskirtinė suma",
+            "paidAmount": "Išmokėta suma",
+            "informationRequestSent": "Informacijos užklausa išsiųsta",
+            "outstanding": "Išskirtinis",
+            "paid": "Išmokėta"
+        }
+    },
+    "job": {
+        "static": {
+            "employment": "Įdarbinimas",
+            "freelancerJob": "Laisvai samdomo darbuotojo darbas",
+            "employments": "Įdarbinimai",
+            "freelancerJobs": "Laisvai samdomo darbuotojo darbai"
+        }
+    },
+    "documentTemplate": {
+        "actions": {
+            "saveTranslation": "Išsaugoti vertimą"
+        },
+        "static": {
+            "contractPhase12": "Sutarties etapas 1/2",
+            "leadGenerationAgreement": "Potencialių klientų generavimo sutartis",
+            "antiDiscriminationPolicy": "Antidiskriminacinė politika",
+            "mediationAgreement": "Tarpininkavimo sutartis",
+            "healthcareAuthorisationForm": "Sveikatos priežiūros patvirtinimo forma",
+            "wageAttachmentRequest": "Išskaitos iš darbo užmokesčio prašymas",
+            "employmentTerminationAgreement": "Įdarbinimo nutraukimo sutartis",
+            "contractPhase3": "3 Sutarties etapas",
+            "contractPhase4": "4 Sutarties etapas",
+            "termsAndConditions": "Taisyklės ir sąlygos",
+            "frameworkAgreement": "Preliminarioji sutartis",
+            "hireAgreement": "Įdarbinimo sutartis",
+            "employmentConfirmation": "Įdarbinimo patvirtinimas",
+            "jobConfirmation": "Darbo patvirtinimas",
+            "declarationAgreement": "Deklaravimo sutartis",
+            "deductionsAndAdvances": "Išskaitymai ir avansai",
+            "etAddendum": "ET priedas",
+            "staffGuide": "Personalo vadovas",
+            "guaranteeAgreement": "Garantijos sutartis",
+            "employersDeclaration": "Darbdavio deklaracija",
+            "contractPayrollFixedTerm": "Terminuotos sutarties darbo užmokesčio apskaičiavimas",
+            "contractPayrollPermanent": "Nuolatinės darbo sutarties darbo užmokesčio apskaičiavimas",
+            "intermediateAgreement": "Tarpinė sutartis",
+            "hireAgreementFreelancers": "Laisvai samdomų darbuotojų samdos sutartis",
+            "idStatementForm": "ID patvirtinimo forma",
+            "deliveryDeed": "Pristatymo aktas",
+            "jobConfirmationFreelancer": "Laisvai samdomo darbuotojo darbo patvirtinimas",
+            "collaborationAgreementFreelancer": "Laisvai samdomo darbuotojo bendradarbiavimo sutartis",
+            "healthcareAgreement": "Sveikatos priežiūros sutartis",
+            "payrollConfirmation": "Darbo užmokesčio patvirtinimas"
+        }
+    },
+    "employees": {
+        "static": {
+            "activeOnly": "Tik aktyvus",
+            "linkedThroughEmployment": "Susieta per užimtumą"
+        }
+    },
+    "contractType": {
+        "static": {
+            "phase1And2": "Fazė 1/2",
+            "phase3": "Fazė 3",
+            "phase4": "Fazė 4",
+            "payrollFixedTerm": "Darbo užmokestis (fiksuotas terminas)",
+            "payrollPermanent": "Darbo užmokestis (nuolatinis)"
+        }
+    },
+    "note": {
+        "actions": {
+            "deleteConfirmationText": "Ar tikrai norite ištrinti šią žinutę?",
+            "delete": "Ištrinti",
+            "cancel": "Atšaukti"
+        },
+        "success": {
+            "deleted": "Ši žinutė buvo sėkmingai ištrinta."
+        }
+    },
+    "riskGroup": {
+        "static": {
+            "administrative": "Administracinis",
+            "executive": "Vykdomasis"
+        }
+    },
+    "creditLimit": {
+        "static": {
+            "finalAssessmentWillFollowLater": "Galutinis kredito limito įvertinimas bus vėliau."
+        }
+    },
+    "wizard": {
+        "static": {
+            "freelancerNotApproved": "Šis laisvai samdomas darbuotojas dar nepatvirtintas.",
+            "noDocumentsToGenerate": "Nėra reikalingų dokumentų.",
+            "employmentAgencyNotApproved": "Ši įdarbinimo agentūra dar nepatvirtinta.",
+            "employeeNotApproved": "Šis darbuotojas dar nepatvirtintas.",
+            "hirerNotApproved": "Šis nuomotojas dar nepatvirtintas.",
+            "resellerNotApproved": "Šis perpardavėjas dar nepatvirtintas."
+        },
+        "actions": {
+            "viewWizard": "Žiūrėjimo vedlys"
+        }
+    },
+    "sickReport": {
+        "betterReport": {
+            "confirmationQuestion": "Ar Jūs įsitikinę?",
+            "report": "Pranešk geriau",
+            "actions": {
+                "confirmationTextEmployee": "Ar tikrai norite geriau pranešti apie šį darbuotoją?",
+                "cancel": "Atšaukti",
+                "confirmationText": "Ar tikrai norite geriau pranešti?",
+                "confirm": "Patvirtinti"
+            },
+            "success": "Apie darbuotoją yra pranešta geriau."
+        },
+        "reportSick": "Pranešti apie sergantį",
+        "alreadySick": "Jau pranešta, kad darbuotojas serga.",
+        "actions": {
+            "deleteConfirmationText": "Ar tikrai norite ištrinti šią ligos ataskaitą?",
+            "delete": "Ištrinti",
+            "cancel": "Atšaukti"
+        },
+        "success": {
+            "deleted": "Pranešimas apie ligą buvo sėkmingai ištrintas."
+        },
+        "filter": {
+            "currentSickOnly": "Serga tik šiuo metu",
+            "start": "Pradėti",
+            "end": "Baigti"
+        }
+    },
+    "outOfService": {
+        "search": "Ieškoti",
+        "processSuccess": "Pranešimai apie veiklos nutraukimą buvo sėkmingai apdoroti.",
+        "process": "Procesas",
+        "date": "Data",
+        "reason": "Priežastis",
+        "actions": {
+            "process": "Procesas",
+            "deleteConfirmationText": "Ar tikrai norite pašalinti pranešimą apie tarnybos nutraukimą?",
+            "delete": "Ištrinti",
+            "cancel": "Atšaukti",
+            "processConfirmationText": "Ar tikrai norite apdoroti pranešimą apie tarnybos nutraukimą?"
+        },
+        "onlyOutstanding": "Tik neapmokėtas"
+    },
+    "employmentAgency": {
+        "static": {
+            "archivedText": "Ši įdarbinimo agentūra yra archyvuota.",
+            "deleteFailed": "Nepavyko ištrinti įdarbinimo agentūros.",
+            "deleteConfirmationText": "Ar tikrai norite ištrinti šią įdarbinimo agentūrą?",
+            "deleteSuccess": "Įdarbinimo agentūra ištrinta.",
+            "inviteExistingInfoText": "Kvietimas bus išsiųstas įdarbinimo agentūrai {companyName}.",
+            "inviteNewInfoText": "Bus išsiųstas pakvietimas naujai įdarbinimo agentūrai.",
+            "missingRequiredAttributesConfirmText": "Įdarbinimo agentūra dar negali būti pateikta patvirtinimui, nes kai kurie privalomi atributai neužpildyti.",
+            "submitForApprovalConfirmText": "Įdarbinimo agentūra bus pateikta patvirtinimui.",
+            "makeResellerConfirmationText": "Ar tikrai norite tapti įdarbinimo agentūros perpardavėju?"
+        }
+    },
+    "import": {
+        "static": {
+            "reservationsImported": "Rezervacijos importuotos"
+        }
+    },
+    "pensionPlan": {
+        "static": {
+            "basic": "Stipp bazinis",
+            "plus": "Plius",
+            "adequate": "Atitinkamas",
+            "bpf": "BPF"
+        }
+    },
+    "deductions": {
+        "static": {
+            "amountIsLimited": "Išskaitymo suma ribojama atsižvelgiant į šio laikotarpio valandas.",
+            "outstandingDeductions": "Neapmokėti atskaitymai",
+            "recurringDeductions": "Pasikartojantys atskaitymai",
+            "saved": "Išskaitymai išsaugoti.",
+            "amount": "Suma",
+            "for": "Dėl",
+            "remainingAmount": "Likusi suma",
+            "files": "Failai",
+            "uploadFile": "Įkelti failą",
+            "deductFrom": "Atskaityta iš",
+            "noDeductions": "Jokių atskaitymų",
+            "remaining": "Likę",
+            "unexportedOnly": "Tik neeksportuota"
+        }
+    },
+    "filters": {
+        "static": {
+            "archivedOnly": "Tik archyvuota",
+            "withActiveEmploymentsOnly": "Tik su aktyviais įdarbinimais",
+            "readyForApproval": "Paruošta patvirtinimui",
+            "createdByAdmin": "Sukurta administratoriaus",
+            "selectedEnterpriseOnly": "Tik pasirinkta įmonė"
+        }
+    },
+    "hirer": {
+        "static": {
+            "archivedText": "Šis samdytojas yra archyvuotas.",
+            "hirerRemuneration": "Samdytojo atlyginimas",
+            "saved": "Įdarbintojas buvo išsaugotas",
+            "deleteConfirmationText": "Ar tikrai norite ištrinti šį įdarbintoją?",
+            "deleteSuccess": "Įdarbintojas buvo ištrintas.",
+            "deleteFailed": "Nepavyko ištrinti įdarbintojo.",
+            "inviteExistingInfoText": "Bus išsiųstas kvietimas darbdaviui {companyName}.",
+            "inviteNewInfoText": "Pakvietimas bus išsiųstas naujam darbdaviui.",
+            "projectDeleted": "Projektas buvo ištrintas.",
+            "assignment": "Užduotis",
+            "notMinimumCompanyFreelancerHourTypeMarginConfirmationText": "Laisvai samdomo darbuotojo valandų tipo bazinė marža yra mažesnė už užimtumo vertę.",
+            "notMinimumCompanyFreelancerHourTypeMarginAdditionsConfirmationText": "Kai kurie maržos papildymai yra mažesni nei užimtumo vertės.",
+            "missingRequiredAttributesConfirmText": "Darbdavys dar negali būti pateiktas patvirtinimui, nes kai kurie privalomi atributai neužpildyti.",
+            "submitForApprovalConfirmText": "Darbdavys bus pateiktas patvirtinimui.",
+            "submittedForApproval": "Darbdavys buvo pateiktas patvirtinimui."
+        },
+        "form": {
+            "overtime": "Viršvalandžių valandos",
+            "shiftWork": "Pamaininis darbas",
+            "travelHours": "Kelionės valandos",
+            "travelCost": "Kelionės kaina",
+            "otherCompensations": "Kitos kompensacijos",
+            "companyOwnedScheme": "Įmonės valdoma schema",
+            "remunerationSpecifics": "Specifika",
+            "holidays": "Atostogos"
+        }
+    },
+    "employeePayslip": {
+        "static": {
+            "sendEmailConfirmationText": "Ar tikrai norite išsiųsti darbo užmokesčio lapelį dabar?",
+            "sendEmailSuccess": "Darbo užmokesčio lapelis išsiųstas.",
+            "sendEmailFailed": "Darbo užmokesčio lapelio išsiųsti nepavyko."
+        },
+        "actions": {
+            "sendNow": "Siųsti dabar"
+        }
+    },
+    "timeRegistrationPeriodStatus": {
+        "static": {
+            "completed": "Užbaigta",
+            "requiresAction": "Būtina imtis veiksmų",
+            "open": "Atidaryta",
+            "locking": "Užrakinama",
+            "locked": "Užrakinta"
+        }
+    },
+    "invoiceGroup": {
+        "static": {
+            "custom": "Pasirinktinis",
+            "timeRegistration": "Laiko registravimas"
+        }
+    },
+    "project": {
+        "static": {
+            "projectManagers": "Projekto vadybininkai",
+            "createProject": "Sukurti projektą",
+            "updateProject": "Atnaujinti projektą",
+            "deleteProjectConfirmationText": "Ar tikrai norite ištrinti projektą?",
+            "projectCreationSuccess": "Projektas sėkmingai sukurtas."
+        }
+    },
+    "search": {
+        "static": {
+            "noMoreResults": "Daugiau rezultatų nėra.",
+            "ctrlShiftF": "Ctrl + Shift + F"
+        }
+    },
+    "holiday": {
+        "static": {
+            "newYear": "Nauji metai",
+            "ascensionDay": "Kristaus žengimo į dangų diena",
+            "whitMonday": "Baltasis pirmadienis",
+            "liberationDay": "Išlaisvinimo diena",
+            "kingsDay": "Karalių diena",
+            "easterMonday": "Velykų pirmadienis",
+            "firstChristmasDay": "Pirmoji Kalėdų diena",
+            "secondChristmasDay": "Antroji Kalėdų diena"
+        }
+    },
+    "factoringCompany": {
+        "static": {
+            "deleted": "Faktoringo įmonė ištrinta."
+        }
+    },
+    "companyType": {
+        "static": {
+            "default": "Numatytas",
+            "healthcare": "Sveikatos apsauga"
+        }
+    },
+    "workServiceType": {
+        "static": {
+            "night": "Naktinė pamaina",
+            "weekend": "Savaitgalio pamaina",
+            "reachability": "Pasiekiamumo paslauga",
+            "consignment": "Siuntimo paslauga"
+        }
+    },
+    "media": {
+        "static": {
+            "type": "Rūšis",
+            "other": "Kita",
+            "curriculumVitae": "Gyvenimo aprašymas",
+            "motivationLetter": "Motyvacinis laiškas",
+            "certificateOfConduct": "Elgesio pažymėjimas",
+            "diploma": "Diplomas",
+            "pdfPagesCount": "PDF turi {amount} puslapių"
+        }
+    },
+    "reservations": {
+        "static": {
+            "showEmptyPeriods": "Rodyti tuščius periodus",
+            "saved": "Rezervacija išsaugota.",
+            "request": "Prašymas",
+            "deleted": "Rezervacija buvo ištrinta",
+            "deleteReservationText": "Rezervacija bus ištrinta iš laiko registracijos.",
+            "reservationRequest": "Rezervacijos prašymai",
+            "newRequest": "Naujas prašymas",
+            "editBuildupInfo": "Keičiant šias reikšmes, bus atnaujinta atitinkama laiko registracija.\nKuriant naują užklausą arba jei užklausa jau buvo apmokėta;\n- Rezervacijos būsena bus atnaujinta.\n- Eksportuotame mokėjime užklausa nebus rodoma.\nAtnaujinant užklausą, kuri dar nebuvo apmokėta;\n- Rezervacijos būsena nebus atnaujinta.\n- Eksportuotame mokėjime būsena bus atnaujinta.",
+            "canOnlyEditHistoricalBuildupInfo": "Galima redaguoti tik istorines reikšmes.",
+            "noReservations": "Jokių rezervacijų",
+            "buildup": "Sukurti",
+            "paidOut": "Išmokėta",
+            "noBuildupFound": "Nerasta jokių sukūrimų",
+            "requestReservations": "Prašyti rezervacijų",
+            "calculationTool": "Skaičiavimo įrankis"
+        },
+        "tooltip": {
+            "warningRequestNotYetExported": "Šis prašymas dar nebuvo išmokėtas."
+        },
+        "actions": {
+            "request": "Užklausa"
+        }
+    },
+    "healthInsurance": {
+        "static": {
+            "saved": "Sveikatos draudimai išsaugoti."
+        }
+    },
+    "entity": {
+        "static": {
+            "enterprise": "Įmonė",
+            "employmentAgency": "Įdarbinimo agentūra",
+            "hirer": "Darbdavys",
+            "employee": "Darbuotojas",
+            "freelancer": "Laisvai samdomas darbuotojas"
+        }
+    },
+    "error": {
+        "static": {
+            "description": "Įvyko klaida. Pabandykite atnaujinti arba grįžkite į ankstesnį puslapį.",
+            "pageNotFound": "Puslapis nerastas",
+            "pageNotFoundDescription": "Neradome puslapio kurio ieškojote.",
+            "serverError": "Serverio klaida"
+        },
+        "actions": {
+            "back": "Atgal į ankstesnį puslapį"
+        }
+    },
+    "freelancerHourTypeMarginAddition": {
+        "static": {
+            "hourlyRateFreelancerTableHeader": "Valandinis tarifas (nuo)",
+            "hirerPaymentTermTableHeader": "Darbdavio mokėjimo terminas"
+        }
+    },
+    "reseller": {
+        "static": {
+            "missingRequiredAttributesConfirmText": "Perpardavėjas dar negali būti pateiktas patvirtinimui, nes kai kurie privalomi atributai neužpildyti.",
+            "deleteCustomerConfirmationText": "Ar tikrai norite pašalinti šį klientą? Visos su šiuo klientu susietos maržos bus ištrintos.",
+            "submitForApprovalConfirmText": "Perpardavėjas bus pateiktas patvirtinimui.",
+            "deleteConfirmationText": "Ar jūs tikrai norite ištrinti šį perpardavėją?",
+            "employeeMargins": "Darbuotojo marža",
+            "freelancerMargins": "Laisvai samdomo darbuotojo marža",
+            "defaultMargin": "Numatytoji marža",
+            "zeroMarginConfirmationText": "Vienos ar kelių maržų reikšmė yra „0“.",
+            "archivedText": "Perpardavėjas yra suarchyvuotas.",
+            "deleteSuccess": "Perpardavėjas buvo ištrintas.",
+            "deleteFailed": "Nepavyko ištrinti perpardavėjo.",
+            "customerCanOnlyHaveOneResellerInfoMessage": "Jei įdarbinimo agentūros nėra sąraše, patikrinkite, ar ji jau susieta su kitu perpardavėju."
+        }
+    },
+    "marginType": {
+        "static": {
+            "default": "Numatytasis",
+            "overtime": "Viršvalandžiai",
+            "etRegulation": "ET reglamentas",
+            "senior": "Vyresnysis",
+            "hourType": "Valandos tipas"
+        }
+    },
+    "personalAccessToken": {
+        "static": {
+            "tokenCreatedInfo": "Prisijungimo raktas sukurtas. Prisijungimo raktas bus rodomas tik vieną kartą, todėl saugokite jį saugioje vietoje.",
+            "deletePersonalAccessTokenText": "Prieigos raktass bus ištrintas ir nebegalės būti naudojamas.",
+            "tokenCopied": "Prisijungimo raktas nukopijuotas į iškarpinę",
+            "personalAccessTokens": "Asmeniniai prieigos raktai",
+            "details": "Detalės",
+            "tokenPlaceholder": "Prieigos raktas bus rodomas čia."
+        }
+    },
+    "messageBox": {
+        "static": {
+            "shouldSignDocument": {
+                "hideDocumentConfirmationText": "Ar tikrai norite paslėpti šią užduotį? Ji daugiau nebepasirodys.",
+                "sendSignRequestConfirmationText": "Prašymą pasirašyti gaus šis subjektas",
+                "subject": "Subjektas",
+                "newSignTokenConfirmationText": "Bus gautas naujas parašo prisijungimo raktas.",
+                "newSignTokenSuccess": "Pasirašymo prieigos taktas buvo sėkmingai gautas.",
+                "newSignTokenFailed": "Gaunant naują pasirašymo prisijungimo raktą įvyko klaida."
+            },
+            "hideContractConfirmationText": "Ar tikrai norite paslėpti šią sutartį? Ji daugiau nebepasirodys."
+        }
+    },
+    "teams": {
+        "static": {
+            "details": "Detalės",
+            "deleteTeamPresetText": "Ar tikrai norite ištrinti šį komandos išankstinį nustatymą?",
+            "teamOwner": "Komandos savininkas",
+            "roles": "Pareigos",
+            "team": "Komanda",
+            "addTeam": "Pridėti komandą",
+            "deleteTeamText": "Ar tikrai norite ištrinti šią komandą?"
+        }
+    },
+    "roles": {
+        "static": {
+            "permissionsSaved": "Leidimai buvo išsaugoti.",
+            "roleCreated": "Pareigos sukurtos."
+        }
+    },
+    "teamType": {
+        "static": {
+            "freelancer": "Laisvai samdomas darbuotojas",
+            "employee": "Darbuotojas",
+            "hirer": "Samdytojas",
+            "employmentAgency": "Įdarbinimo agentūra",
+            "reseller": "Perpardavėjas"
+        }
+    },
+    "subsidyCompany": {
+        "static": {
+            "deleteSubsidyCompanyConfirmationText": "Ar tikrai norite ištrinti subsidijų bendrovę?",
+            "deleted": "Subsidijas teikianti bendrovė buvo išbraukta."
+        }
+    },
+    "proFormaPayslip": {
+        "static": {
+            "splitPayOutInfo": "Kai ši parinktis įjungta, darbo užmokesčio lape reguliarios valandos bus atskirtos nuo kitų valandų/priemokų/kompensacijų."
+        },
+        "actions": {
+            "previewCostPriceOverview": "Peržiūrėti sąnaudų kainos apžvalgą",
+            "previewPayslip": "Mokėjimo lapelio peržiūra"
+        }
+    },
+    "subsidy": {
+        "static": {
+            "confirmation": "Subsidijos patvirtinimas",
+            "createSubsidy": "Sukurti subsidiją",
+            "updateSubsidy": "Atnaujinti subsidiją",
+            "clearToExcludeFromSubsidy": "Išvalykite šį laukelį, kad šiam elementui nebūtų taikoma subsidija.",
+            "startDateInfo": "Jei pradžios data yra ne savaitės pradžia, subsidija bus įtraukta nuo kitos savaitės pradžios.",
+            "endDateInfo": "Jei galutinė data yra ne savaitės pabaiga, subsidija bus įtraukta iki praėjusios savaitės pabaigos.",
+            "details": "Detalės"
+        }
+    }
+}

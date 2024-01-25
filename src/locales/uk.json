@@ -1,0 +1,2466 @@
+{
+    "auth": {
+        "actions": {
+            "backToLogin": "Назад до входу",
+            "forgotPassword": "Забули пароль",
+            "login": "Увійти",
+            "updatePassword": "Оновити пароль",
+            "resetPassword": "Скинути пароль",
+            "logout": "Вийти",
+            "leaveImpersonation": "Залишити зображення",
+            "deactivate": "Деактивувати",
+            "changePassword": "Змінити пароль",
+            "reactivate": "Повторно активувати"
+        },
+        "pages": {
+            "forgotPassword": "Забули пароль",
+            "login": "Увійти",
+            "setPassword": "Встановити пароль",
+            "activateAccount": "Активувати обліковий запис"
+        },
+        "static": {
+            "email": "Електронна пошта",
+            "forgotPasswordSuccess": "Посилання для скидання пароля надіслано",
+            "passwordResetSuccess": "Скидання пароля",
+            "accountActivationSuccess": "Обліковий запис активовано",
+            "forgotPasswordSuccessDescription": "Ми надіслали вам електронного листа з посиланням для відновлення вашого пароля.",
+            "logoutConfirmationText": "Ви дійсно хочете вийти?",
+            "registrationSuccessful": "Реєстрація успішна",
+            "leaveImpersonationConfirmationText": "Дійсно залишити зображення?",
+            "userDeactivated": "Користувача деактивовано.",
+            "passwordUpdated": "Пароль оновлено.",
+            "mobileDashboardOrderUpdated": "Порядок мобільної панелі оновлено.",
+            "tokenExpired": "Термін дії токена закінчився",
+            "tokenExpiredInfo": "Ви вийшли з системи, тому що термін дії вашого токена автентифікації минув. Щоб продовжити, увійдіть, використовуючи свої облікові дані.",
+            "authenticated": "Ви увійшли в систему!",
+            "userReactivated": "Користувача було повторно активовано."
+        }
+    },
+    "general": {
+        "static": {
+            "dashboard": "Панель приладів",
+            "employeeApprovalFail": "Не вдалося затвердити працівника.",
+            "postalAddress": "Поштова адреса",
+            "employmentAgencyApprovalFail": "Не вдалося затвердити агентство з працевлаштування.",
+            "cao": "Сао",
+            "webhooks": "Веб-хуки",
+            "log": "Вахтовий журнал",
+            "personalData": "Особисті дані",
+            "employees": "Працівники",
+            "addressInformation": "Інформація про адресу",
+            "accountHolder": "Власник рахунку",
+            "address": "Адреса",
+            "birthdate": "Дата народження",
+            "birthplace": "Місце народження",
+            "employmentAgency": "Агентство з працевлаштування",
+            "hirer": "Наймач",
+            "hirerApprovalFail": "Не вдалося затвердити наймача.",
+            "hirerApprovalSuccess": "Успішно затверджений наймач.",
+            "hirers": "Наймачі",
+            "contact": "Контакт",
+            "contactInformation": "Контактна інформація",
+            "email": "Електронна пошта",
+            "id": "ID",
+            "invoices": "Рахунки",
+            "category": "Категорія",
+            "citizenServiceNumber": "Службовий номер громадянина",
+            "country": "Країна",
+            "countryOfBirth": "Країна народження",
+            "creditLimit": "Кредитний ліміт",
+            "currentEmployments": "Поточні місця роботи",
+            "documentNumber": "Номер документа",
+            "documents": "Документи",
+            "documentTemplates": "Шаблони документів",
+            "employeeApprovalSuccess": "Працівник успішно затверджений.",
+            "employeeCreationSuccess": "Успішно створений працівник.",
+            "employment": "Працевлаштування",
+            "employmentAgencies": "Агентства з працевлаштування",
+            "employmentAgencyApprovalSuccess": "Агентство з працевлаштування успішно затверджено.",
+            "employmentAgencyCreationSuccess": "Агентство з працевлаштування успішно створене.",
+            "etRegulation": "Регулювання ЕТ",
+            "factor": "Фактор",
+            "files": "Файли",
+            "financialInformation": "Фінансова інформація",
+            "firstName": "Ім'я",
+            "gender": "Стать",
+            "hi": "Привіт, {user}",
+            "iban": "IBAN",
+            "identityType": "Тип посвідчення особи",
+            "identityValidUntil": "Посвідчення особи дійсне до",
+            "initials": "Ініціали",
+            "invite": "Запросити",
+            "language": "Мова",
+            "name": "Назва",
+            "phone": "Телефон",
+            "search": "Пошук",
+            "visitAddress": "Адреса відвідування",
+            "yes": "Так",
+            "no": "Ні",
+            "lastName": "Прізвище",
+            "legalForm": "Правова форма",
+            "maritalStatus": "Сімейний стан",
+            "middleName": "По батькові",
+            "none": "Жодного",
+            "notApplicable": "Не застосовується",
+            "notes": "Примітки",
+            "residenceAddress": "Адреса проживання",
+            "sbiCodes": "Коди SBI",
+            "settings": "Налаштування",
+            "splitMargin": "Розділена маржа",
+            "timeForTime": "Час від часу",
+            "timeRegistration": "Реєстрація часу",
+            "employeeType": "Тип працівника",
+            "terminationDate": "Дата припинення",
+            "percentage": "Відсоток",
+            "euro": "Євро",
+            "contractPhase": "Контрактна фаза",
+            "payOutFrequency": "Періодичність виплати",
+            "contractHours": "Контрактні години",
+            "participantEtRegulation": "Учасник регламенту ET?",
+            "startDate": "Дата початку",
+            "homewardTravelDistance": "Відстань проїзду додому",
+            "homewardTravelFrequency": "Частота поїздок додому",
+            "factorOvertime": "Фактор надурочної роботи",
+            "vatTariff": "Тариф ПДВ",
+            "invoiceEmail": "Електронна адреса для рахунків-фактур",
+            "city": "Місто",
+            "factoringCompanies": "Факторингові компанії",
+            "factoringCompany": "Факторингова компанія",
+            "enterprises": "Підприємства",
+            "enabled": "Увімкнено",
+            "period": "Період",
+            "nr": "№",
+            "exports": "Експорт",
+            "employee": "Працівник",
+            "hirerCreationSuccess": "Успішно створений наймач.",
+            "vatNumber": "Номер платника ПДВ",
+            "takeOverFromHirer": "Переймати у роботодавця",
+            "employmentDate": "Дата працевлаштування",
+            "payrollTaxReduction": "Зменшення податку на заробітну плату",
+            "homewardTravelCost": "Вартість проїзду додому",
+            "factorEtRegulation": "Фактор Регламенту ЕТ",
+            "employer": "Роботодавець",
+            "authorizedSignatory": "Уповноважений підписант",
+            "company": "Компанія",
+            "companyInformation": "Інформація про компанію",
+            "confirmationQuestion": "Ви впевнені?",
+            "chamberOfCommerceNumber": "Номер торгово-промислової палати",
+            "createContact": "Створити контакт",
+            "deleteFailed": "Щось пішло не так, зв’яжіться з нами, якщо проблема не зникне.",
+            "invoiceEmailCc": "Копія рахунку",
+            "originalValue": "Первісна вартість",
+            "total": "Всього",
+            "cancel": "Відмінити",
+            "enterprise": "Підприємство",
+            "date": "Дата",
+            "freelancer": "Фрілансер",
+            "payslip": "Квитанція",
+            "reservations": "Бронювання",
+            "imports": "Імпорти",
+            "billedAt": "Рахунок виставлено на",
+            "attachments": "Вкладення",
+            "freelancerApprovalSuccess": "Успішно затверджений фрілансер",
+            "freelancerApprovalFail": "Не вдалося затвердити фрілансера",
+            "account": "Акаунт",
+            "overtime": "Надурочний",
+            "surcharge": "Доплата",
+            "sepaId": "SEPA ID",
+            "travelHours": "Години проїзду",
+            "users": "Користувачі",
+            "permissions": "Дозволи",
+            "user": "Користувач",
+            "link": "Посилання",
+            "newContact": "Новий контакт",
+            "freelancers": "Фрілансери",
+            "hours": "Години",
+            "timesheet": "Табель",
+            "freelancerCreationSuccess": "Успішно створений фрілансер",
+            "shiftWorkSurcharge": "Доплата за змінну роботу",
+            "employmentCreationSuccess": "Успішно створене робоче місце",
+            "km": "км",
+            "costOfLivingAllowance": "Допомога на вартість проживання",
+            "outOfServiceDate": "Дата виходу з ладу",
+            "factorSenior": "Фактор старшого",
+            "note": "Примітка",
+            "createdBy": "Користувач",
+            "createNote": "Створити примітку",
+            "timeRegistrationIsNotEnabledText": "Реєстрація часу не ввімкнена.",
+            "housingCost": "Вартість житла",
+            "resultsCount": "{count} результатів",
+            "phase": "Фаза",
+            "sendPayslips": "Надійшліть квитанції про заробітну плату",
+            "stipp": "Стіпп",
+            "weeksWorked": "Відпрацьовано тижнів",
+            "translations": "Переклади",
+            "subjects": "Суб'єкти",
+            "outOfServiceReason": "Причина виходу з ладу",
+            "accountNumber": "Номер рахунку",
+            "createdAt": "Створено о",
+            "filters": "Фільтри",
+            "startsAt": "Початок о",
+            "endsAt": "Закінчення о",
+            "year": "Рік",
+            "sendFailed": "Не вдалося надіслати",
+            "seniorDays": "Дні старших",
+            "workTimeReductionDays": "Дні скороченого робочого часу",
+            "workHours": "Робочі години",
+            "workStartTime": "Час початку роботи",
+            "workEndTime": "Час закінчення роботи",
+            "reason": "Причина",
+            "hint": "Підказка",
+            "employments": "Працевлаштування",
+            "fromPeriod": "Із періоду",
+            "filesUploaded": "Файли завантажено",
+            "fileUploadFailed": "Не вдалося завантажити файл",
+            "fileDeleted": "Файл видалений",
+            "end": "Кінець",
+            "maxImageSize": "Зображення має бути меншим за {width} x {height} пікселів.",
+            "outOfService": "Непрацездатний",
+            "outOfServiceEmployeeSuccess": "Про непрацездатність співробітника було успішно повідомлено.",
+            "createFailed": "Нам не вдалося зберегти цей запис.",
+            "updateFailed": "Нам не вдалося зберегти цей запис.",
+            "saveFailed": "Нам не вдалося зберегти цей запис.",
+            "archiveSuccess": "Елемент заархівований.",
+            "archiveFailed": "Нам не вдалося заархівувати цей елемент.",
+            "location": "Розташування",
+            "holidaySurcharge": "Доплата за відпустку",
+            "uploadFiles": "Завантажити файли",
+            "invoiceCompany": "Компанія, що виставила рахунок",
+            "freelancerJobs": "Роботи фрілансера",
+            "deleteFileConfirmationText": "Дійсно видалити цей файл?",
+            "fileDeleteFailed": "Не вдалося видалити файл",
+            "unarchiveSuccess": "Елемент не заархівований.",
+            "unarchiveFailed": "Не вдалося розархівувати цей елемент.",
+            "outOfServiceSuccess": "Успішна непрацездатність",
+            "sickReports": "Звіти про хвороби",
+            "start": "Початок",
+            "recentVisitedPages": "Тут з’являться нещодавно відвідані сторінки.",
+            "payOutEnterprise": "Виплата підприємства",
+            "frequency": "Частота",
+            "from": "Від",
+            "until": "До",
+            "download": "Скачати",
+            "contractStartDate": "Дата початку контракту",
+            "description": "Опис",
+            "seasonalWork": "Сезонна робота",
+            "upcomingEmployments": "Найближчі працевлаштування",
+            "useEmploymentAgencyValue": "Використання значення агенції з працевлаштування",
+            "usingEmploymentAgencyValue": "Використання значення агенції з працевлаштування",
+            "loadFailed": "Нам не вдалося завантажити запитані дані.",
+            "importFreelancers": "Імпортувати фрілансерів",
+            "importEntityFailed": "Помилка імпорту. Спробуйте оновити сторінку та знову запустіть імпорт.",
+            "generateFreelancerDocumentsInfo": "Якщо цей параметр вимкнено, у кінці роботи майстра фрілансера документи не генеруються.",
+            "healthInsuranceStartDateInfo": "Відрахування на медичне страхування додаватимуться на початку кожного тижня/чотирьох тижнів/місяця (залежно від частоти виплат), якщо на цю дату є активне медичне страхування.",
+            "contractEndDate": "Дата закінчення контракту",
+            "subject": "Суб'єкт/Тема",
+            "causer": "Винуватець",
+            "reservationsBuildup": "Накопичення резервів",
+            "payslips": "Квитанції",
+            "annualStatements": "Річні звіти",
+            "projects": "Проекти",
+            "correction": "Виправлення",
+            "selectedAmount": "Вибрано ({amount})",
+            "validationFailed": "Помилка перевірки",
+            "sharedDocumentTemplates": "Шаблони загальних документів",
+            "companyType": "Тип підприємства",
+            "certificateOfConduct": "Сертифікат поведінки",
+            "useHirerValue": "Використання значення наймача",
+            "type": "Тип",
+            "canNotDeleteEmployeeTitle": "Неможливо видалити",
+            "usingHirerValue": "Використання значення наймача",
+            "canNotDeleteEmploymentTitle": "Неможливо видалити",
+            "useParentValue": "Використовувати батьківське значення",
+            "import": "Імпорт",
+            "importHirers": "Імпортувати наймачів",
+            "importSuccessful": "Імпорт успішний",
+            "importEmployees": "Імпортувати працівників",
+            "importEmployments": "Імпортувати працевлаштування",
+            "importFreelancerJobs": "Імпортувати роботи для фрілансерів",
+            "owner": "Власник",
+            "generateFreelancerDocuments": "Створити документи для фрілансерів",
+            "marginInvoicePerWeek": "Маржа рахунку-фактури за тиждень",
+            "currentJobs": "Поточні роботи",
+            "upcomingJobs": "Майбутні роботи",
+            "isPayOutEnabled": "Виплату ввімкнено?",
+            "pages": "Сторінки",
+            "registration": "Реєстрація",
+            "homeAddress": "Домашня адреса",
+            "dashboardOrderMobile": "Порядок приладової панелі для мобільного",
+            "notifications": "Сповіщення",
+            "splitPayOutInfo": "Якщо цю опцію ввімкнено, звичайні години буде відокремлено від інших реєстрацій в експорті виплат.",
+            "splitPayOut": "Розділити виплату",
+            "recurringDeductionInfo": "Періодичні відрахування додаватимуться на початку кожного тижня/чотирьох тижнів/місяця (залежно від частоти виплат).",
+            "disablePayOutConfirmationText": "Чи ви впевнені, що справді хочете вимкнути оплату за цю реєстрацію?",
+            "jobCreationSuccess": "Робота створена.",
+            "missingRequiredAttributesConfirmTitle": "Відсутні обов'язкові поля",
+            "dontSendDocumentsInfo": "Запити на підпис не надсилатимуться для документів, вибраних тут.",
+            "otherInfo": "Інша інформація",
+            "dontSendDocuments": "Не надсилайте документи",
+            "showTotal": "Показати загальну суму",
+            "saved": "Збережено",
+            "fillAll": "Заповнити все",
+            "submitForApprovalConfirmTitle": "Надіслати на затвердження",
+            "submitForApprovalFailed": "Нам не вдалося надіслати об’єкт на затвердження.",
+            "minimum": "Мінімум",
+            "new": "Новий",
+            "googleLogo": "Логотип Google",
+            "resellers": "Торгові посередники",
+            "resellerCreationSuccess": "Торгового посередника успішно створено.",
+            "resellerApprovalSuccess": "Торгового посередника успішно схвалено.",
+            "resellerApprovalFail": "Не вдалося затвердити торгового посередника.",
+            "reseller": "Торговий посередник",
+            "submittedForApproval": "Надіслано на затвердження.",
+            "submitForApprovalConfirmText": "Пункт буде надіслано на затвердження.",
+            "notYetSubmittedForApproval": "Ще не надіслано на затвердження.",
+            "missingRequiredAttributesConfirmText": "Пункт ще не можна надіслати на затвердження, оскільки деякі обов’язкові атрибути не заповнено.",
+            "variable": "Змінна",
+            "confirmationImpersonateText": "Чи ви впевнені, що справді хочете видати себе за цього користувача?",
+            "token": "Токен доступу",
+            "personalAccessTokens": "Особисті токени доступу",
+            "defaultValue": "Значення за замовчуванням",
+            "unableToDeleteItem": "Неможливо видалити елемент",
+            "resultsCountMobile": "Сторінка {current} - {total}",
+            "teams": "Команди",
+            "teamPresets": "Налаштування команди",
+            "messageBox": "Скринька повідомлень",
+            "hide": "Сховати",
+            "signRequestSentAt": "Запит на підпис надіслано на",
+            "signTokenExpiresAt": "Термін дії токена підпису закінчується",
+            "missingDocumentsAmount": "Сума відсутніх документів",
+            "noPermissionForField": "Немає дозволу на перегляд...",
+            "NoPermissionForSegment": "У вас немає відповідних дозволів для перегляду цього сегмента...",
+            "role": "Роль",
+            "contactHasNoAccountTooltip": "Цей контакт не має облікового запису",
+            "attachExistingContact": "Приєднати наявний контакт",
+            "portals": "Портали",
+            "roles": "Ролі",
+            "contractType": "Тип контракту",
+            "expiresAt": "Термін дії закінчується",
+            "receiveNewSignToken": "Отримати новий токен підпису",
+            "workweekHours": "Години робочого тижня",
+            "ageHint": "Вік: {age}",
+            "deductionOverviewPerWeek": "Огляд відрахувань за тиждень",
+            "mainContact": "Основний контакт",
+            "proFormaPayslip": "Проформа платіжної відомості",
+            "fiscalYearlySalary": "Фіскальна річна зарплата",
+            "result": "Результат",
+            "subsidyCompany": "Дочірнє підприємство",
+            "subsidy": "Субсидія",
+            "details": "Деталі",
+            "subsidyCompanies": "Дочірні компанії",
+            "confirmed": "Підтверджено",
+            "amount": "Сума",
+            "automatic": "Автоматичний"
+        },
+        "tabs": {
+            "companyDetails": "Дані про компанію",
+            "settings": "Налаштування",
+            "travelTypes": "Види поїздок",
+            "contactDetails": "Контактні дані",
+            "contacts": "Контакти",
+            "details": "Деталі",
+            "employees": "Працівники",
+            "invoices": "Рахунки",
+            "log": "Вахтовий журнал",
+            "notes": "Примітки",
+            "documents": "Документи",
+            "splitMargin": "Розділена маржа",
+            "hourTypes": "Типи годин",
+            "compensations": "Компенсації",
+            "hirers": "Наймачі",
+            "employments": "Працевлаштування",
+            "hours": "Години",
+            "reservations": "Бронювання",
+            "jobs": "Роботи",
+            "wageAttachments": "Додатки до заробітної плати",
+            "deductions": "Відрахування",
+            "projects": "Проекти",
+            "freelancers": "Фрілансери",
+            "tariffs": "Тарифи",
+            "customers": "Клієнти",
+            "margins": "Маржі",
+            "subsidies": "Субсидії",
+            "user": "Користувач"
+        },
+        "actions": {
+            "confirm": "Підтвердити",
+            "edit": "Редагувати",
+            "new": "Новий",
+            "save": "Зберегти",
+            "approve": "Затвердити",
+            "delete": "Видалити",
+            "next": "Наступний",
+            "previous": "Попередній",
+            "saveTranslations": "Зберегти переклади",
+            "skip": "Пропустити",
+            "addRow": "Додати рядок",
+            "sendInvitation": "Надіслати запрошення",
+            "archive": "Архівувати",
+            "cancel": "Відмінити",
+            "remove": "Видалити",
+            "add": "Додати",
+            "selectAll": "Вибрати все",
+            "deselectAll": "Скасувати вибір усіх",
+            "invite": "Запросити",
+            "viewParentCompany": "Переглянути головну компанію",
+            "refresh": "Оновити",
+            "linkEnterprise": "Посилання на підприємство",
+            "create": "Створити",
+            "upload": "Завантажити",
+            "unarchive": "Розархівувати",
+            "addType": "Додати тип",
+            "close": "Закрити",
+            "downloadFormat": "Скачати формат",
+            "import": "Імпорт",
+            "clearFilters": "Очистити фільтри",
+            "deleteSelected": "Видалити вибране ({amount})",
+            "impersonate": "Уособлювати",
+            "fill": "Заповнити",
+            "submit": "Надіслати",
+            "continue": "Продовжити",
+            "ok": "Добре",
+            "copyToken": "Копіювати токен",
+            "actions": "Дії",
+            "editPermissions": "Права на редагування",
+            "attach": "Прикріпити",
+            "detach": "Від'єднати",
+            "selectAllFromRole": "Виберіть усі з ролі",
+            "calculate": "Обчислити",
+            "reset": "Скинути",
+            "editUser": "Редагувати користувача"
+        },
+        "errors": {
+            "forbidden": "Для виконання цієї дії недостатньо дозволів."
+        },
+        "plurals": {
+            "week": "Без тижнів | {count} тиждень | {count} тижнів",
+            "hour": "Без годин | {count} година | {count} годин",
+            "month": "Без місяців | {count} місяць | {count} місяців",
+            "file": "Немає файлів | {count} файл | {count} файлів"
+        },
+        "messages": {
+            "dataUniqueToEnterprise": "Ці дані є унікальними для підприємства {enterpriseName}. Натисніть {action}, щоб перезаписати ці дані. Дані, які не були перезаписані, будуть взяті з материнської компанії.",
+            "overriddenValue": "Це значення перевизначено."
+        },
+        "tooltip": {
+            "copyToClipboard": "Копіювати в буфер обміну"
+        }
+    },
+    "deduction": {
+        "static": {
+            "healthInsuranceExtra": "Доплата за медичну страховку",
+            "personalContributionForTransport": "Особистий внесок на транспорт",
+            "healthInsurance": "Медична страховка",
+            "housing": "Житло",
+            "advance": "Аванс",
+            "penalty": "Штраф",
+            "certificateOfGoodBehavior": "Свідоцтво про хорошу поведінку",
+            "workingClothesWorkingShoes": "Робочий одяг робоче взуття",
+            "eduction": "Освіта",
+            "housingExtra": "Доплата за житло",
+            "advanceExtra": "Аванс додатково",
+            "mealAllowance": "Допомога на харчування",
+            "personnelAssociation": "Асоціація кадрів"
+        }
+    },
+    "form": {
+        "static": {
+            "birthplace": "Місце народження",
+            "citizenServiceNumber": "Службовий номер громадянина",
+            "employee": "Працівник",
+            "shouldPayOutHolidays": "Оплатити відпустку?",
+            "shouldPayOutShortAbsence": "Оплатити короткочасну відсутність?",
+            "chamberOfCommerceNumber": "Номер торгово-промислової палати",
+            "hirer": "Наймач",
+            "subject": "Суб'єкт/Тема",
+            "factorOvertime": "Фактор надурочної роботи",
+            "employmentAgency": "Агентство з працевлаштування",
+            "email": "Електронна пошта",
+            "accountHolder": "Власник рахунку",
+            "authorizedSignatory": "Уповноважений підписант",
+            "birthdate": "Дата народження",
+            "cao": "CAO",
+            "cc": "Копія",
+            "certificate": "Свідоцтво",
+            "contractHours": "Контрактні години",
+            "costOfLivingAllowance": "Допомога на вартість проживання",
+            "country": "Країна",
+            "countryCode": "Код країни",
+            "countryOfBirth": "Країна народження",
+            "creditLimit": "Кредитний ліміт",
+            "curriculumVitae": "Автобіографія",
+            "diplomas": "Дипломи",
+            "employeeFunction": "Функція працівника",
+            "employeeType": "Тип працівника",
+            "gAccount": "G-акаунт?",
+            "gAccountPercentage": "Відсоток G-акаунта",
+            "etRegulation": "Регламент ET",
+            "expirationDate": "Термін придатності",
+            "factor": "Фактор",
+            "factoringCompany": "Факторингова компанія",
+            "shouldPayOutNonStatutoryHolidays": "Оплатити відпустки, що не відповідають закону?",
+            "lastName": "Прізвище",
+            "middleName": "По батькові",
+            "name": "Ім'я",
+            "phone": "Телефон",
+            "street": "Вулиця",
+            "shouldDeductHealthInsurance": "Вирахувати медичну страховку?",
+            "shouldPayOutReducedHours": "Оплатити скорочені години?",
+            "shouldPayOutVacationMoney": "Оплатити гроші за відпустку?",
+            "gender": "Стать",
+            "grossSalary": "Заробітна плата брутто",
+            "hasNoRiskPolicy": "Немає політики щодо ризику?",
+            "homewardTravelCost": "Вартість проїзду додому",
+            "homewardTravelDistance": "Відстань проїзду додому",
+            "homewardTravelFrequency": "Частота поїздок додому",
+            "iban": "IBAN",
+            "identityValidUntil": "Посвідчення особи дійсне до",
+            "id": "Посвідчення особи",
+            "initials": "Ініціали",
+            "language": "Мова",
+            "legalForm": "Правова форма",
+            "logo": "Логотип",
+            "mainLanguage": "Основна мова",
+            "maritalStatus": "Сімейний стан",
+            "nationality": "Національність",
+            "noRiskPolicy": "Відсутня політика ризику",
+            "password": "Пароль",
+            "passwordConfirmation": "Підтвердження паролю",
+            "paymentTerm": "Термін оплати",
+            "phase": "Фаза",
+            "probation": "Випробувальний термін",
+            "proofOfRecruitmentAbroad": "Довідка про працевлаштування за кордоном",
+            "rentalOrPurchaseContractHomeCountry": "Договір оренди або купівлі-продажу з рідної країни",
+            "riskGroup": "Група ризику",
+            "sbiCodes": "Коди SBI",
+            "seniorDays": "Дні для старших",
+            "signature": "Підпис",
+            "stippPlan": "План StiPP",
+            "streetNumber": "Номер",
+            "vatNumber": "Номер платника ПДВ",
+            "streetNumberAddition": "Додаток",
+            "terminationDate": "Дата припинення",
+            "vatTariff": "Тариф ПДВ",
+            "zipCode": "Поштовий індекс",
+            "caoWorkweek": "Робочий тиждень CAO",
+            "functionScale": "Функціональна шкала",
+            "employment": "Працевлаштування",
+            "cessionText": "Текст цесії",
+            "documentNumber": "Номер документа",
+            "employmentDate": "Дата працевлаштування",
+            "factorEtRegulation": "Фактор Регламенту ЕТ",
+            "hasPayrollTaxReduction": "Зменшення податку на заробітну плату?",
+            "identityType": "Тип посвідчення особи",
+            "invoiceEmail": "Електронна адреса для рахунків-фактур",
+            "motivationLetter": "Мотиваційний лист",
+            "payOutFrequency": "Періодичність виплати",
+            "startDate": "Дата початку",
+            "workTimeReductionDays": "Дні скороченого робочого часу",
+            "useFrameworkAgreement": "Скористайтеся рамковою угодою",
+            "city": "Місто",
+            "firstName": "Ім'я",
+            "enterprise": "Підприємство",
+            "chamberOfCommerceExtract": "Виписка торгово-промислової палати",
+            "gAccountHolder": "Власник G-акаунту",
+            "invoiceEmailCc": "Копія рахунку",
+            "liabilityInsurance": "Страхування відповідальності",
+            "marginInvoicePerWeek": "Маржа рахунку-фактури за тиждень",
+            "freelancer": "Фрілансер",
+            "freelancerJob": "Робота фрілансера",
+            "gAccountIban": "IBAN G-акаунта",
+            "factorStatePension": "Фактор державної пенсії",
+            "payslips": "Квитанції",
+            "payslipsCc": "Копії квитанцій",
+            "salesRate": "Темп продажу",
+            "factorSenior": "Фактор старшого",
+            "documentTemplate": "Шаблон документа",
+            "timeRegistrationQuestion": "Реєстрація часу?",
+            "housingCost": "Вартість житла",
+            "weeksWorked": "Відпрацьовано тижнів",
+            "deliveryDeed": "Акт поставки",
+            "files": "Файли",
+            "isAgreedWork": "Є погодженою роботою",
+            "endDate": "Дата закінчення",
+            "note": "Примітка",
+            "timeRegistration": "Реєстрація часу",
+            "timeForTime": "Час від часу",
+            "workHours": "Робочі години",
+            "workStartTime": "Час початку роботи",
+            "workEndTime": "Час закінчення роботи",
+            "pensionPlan": "Програма субсидій",
+            "start": "Початок",
+            "background": "Підгрунтя (портрет)",
+            "outOfServiceReasonSlug": "Причина",
+            "outOfServiceDate": "Дата виходу з обслуговування",
+            "location": "Розташування",
+            "workDaysAndHours": "Робочі дні та години",
+            "invoiceCompany": "Компанія, що виставила рахунок",
+            "website": "Веб-сайт",
+            "date": "Дата",
+            "reason": "Причина",
+            "end": "Кінець",
+            "salaryWithExtraDays": "Заробітна плата з додатковими днями",
+            "factorWithExtraDays": "Фактор із додатковими днями",
+            "file": "Файл",
+            "employerNumber": "Номер роботодавця",
+            "currentPassword": "Поточний пароль",
+            "exchangeOvertime": "Обмін понаднормовий",
+            "payOutEnterprise": "Виплата підприємства",
+            "upload": "Завантажити",
+            "shouldPayOutVacationDays": "Оплатити дні відпустки?",
+            "seasonalWork": "Сезонна робота",
+            "splitInvoicePerProject": "Розділити рахунок-фактуру для кожного проекту",
+            "splitInvoicePerFreelancer": "Розділити рахунки-фактури на фрілансерів",
+            "certificateOfConduct": "Сертифікат поведінки",
+            "blockSalesRate": "Блокувати коефіцієнт продажів",
+            "isPayOutEnabledQuestion": "Виплату ввімкнено?",
+            "splitInvoiceItemsByDate": "Розділити рахунки за години та поїздки за датою",
+            "splitInvoicePerEmployee": "Розділити рахунки-фактури на кожного працівника",
+            "companyType": "Тип підприємства",
+            "healthcareDescription": "Опис медичної допомоги",
+            "qualifications": "Кваліфікація",
+            "workServices": "Послуги з роботи",
+            "activities": "Діяльність",
+            "deductMarginVat": "Вирахувати ПДВ на маржу",
+            "requireFreelancerVatNumber": "Потрібний номер ПДВ фрілансера",
+            "ownerCompany": "Компанія-власник",
+            "generateFreelancerDocuments": "Створити документи для фрілансерів",
+            "snfCertification": "Сертифікація SNF",
+            "payOutExport": "Оплатити експорт",
+            "healthInsurance": "Медична страховка",
+            "employeeTypeSlugs": "Типи працівників",
+            "splitPayOut": "Розділена оплата",
+            "search": "Пошук",
+            "searchAddress": "Шукати адресу",
+            "dontSendDocuments": "Не надсилайте документи",
+            "selectedAmount": "Вибрано {amount}",
+            "role": "Роль",
+            "teamPresets": "Налаштування команди",
+            "description": "Опис",
+            "teamTypes": "Типи команд",
+            "teamModel": "Особа",
+            "team": "Команда",
+            "user": "Користувач",
+            "contact": "Контакт",
+            "reseller": "Торговий посередник",
+            "canHaveJobs": "Може працювати",
+            "noRecordsFound": "Записів не знайдено...",
+            "backgroundLandscape": "Фон (пейзаж)",
+            "workDays": "Робочі дні",
+            "subsidyCompany": "Дочірнє підприємство",
+            "subsidy": "Субсидія",
+            "shouldPayOutWorkTimeReductionDays": "Виплачувати скорочені дні роботи?",
+            "grossSalaryPerHour": "Заробітна плата брутто за годину",
+            "type": "Тип",
+            "kiwaNumber": "Номер Kiwa",
+            "niwoNumber": "Номер Niwo",
+            "showFunctionOnInvoice": "Показати функцію на рахунку",
+            "languageCode": "Мовний код",
+            "shouldPayOutSeniorDays": "Виплачувати дні вислуги?",
+            "deductionOverviewPerWeek": "Огляд відрахувань за тиждень"
+        },
+        "steps": {
+            "documents": "Документи",
+            "employment": "Працевлаштування",
+            "files": "Файли",
+            "foreignNationality": "Іноземне громадянство",
+            "general": "Загальне",
+            "contactAndFinancial": "Контактна та фінансова інформація",
+            "etRegulation": "Регулювання ЕТ",
+            "job": "Робота",
+            "account": "Обліковий запис",
+            "employer": "Роботодавець",
+            "documentsAndEmployment": "Документи та працевлаштування",
+            "contract": "Контракт",
+            "hirerRemuneration": "Винагорода наймача"
+        },
+        "hint": {
+            "startTypingToSearch": "Почніть вводити для пошуку",
+            "lockPensionPlan": "Заблокуйте пенсійний план, щоб він не коригувався автоматично."
+        },
+        "actions": {
+            "upload": "Завантажити"
+        }
+    },
+    "enum": {
+        "maritalStatus": {
+            "livingTogetherWithContract": "Спільне проживання за контрактом",
+            "divorced": "Розлучений",
+            "livingTogetherWithoutContract": "Спільне проживання без контракту",
+            "married": "Одружений",
+            "registeredPartnership": "Зареєстроване партнерство",
+            "unmarried": "Неодружений",
+            "widowhood": "Удовець"
+        },
+        "gender": {
+            "female": "Жіноча",
+            "male": "Чоловіча",
+            "other": "Інше"
+        },
+        "contractPhase": {
+            "phase3": "Фаза 3 (B)",
+            "phase4": "Фаза 4 (С)",
+            "phase1And2": "Фаза 1/2 (А)"
+        },
+        "employeeType": {
+            "normal": "Нормальний",
+            "payroll": "Заробітна плата",
+            "temporary": "Тимчасовий",
+            "other": "Інше"
+        },
+        "identityType": {
+            "alienIdentityCard": "Посвідчення особи іноземця",
+            "alienPassport": "Паспорт іноземця",
+            "dutchIdentityCard": "Посвідчення особи Нідерландів",
+            "dutchMunicipalitiesIdentityCard": "Посвідчення особи муніципалітету Нідерландів",
+            "dutchPassport": "Паспорт Нідерландів",
+            "none": "Жодного",
+            "passportNonEeaCountry": "Паспорт країни, яка не входить в ЄЕЗ",
+            "refugeePassport": "Паспорт біженця",
+            "residenceDocuments": "Документи на проживання",
+            "diplomaticPassport": "Дипломатичний паспорт",
+            "passportEeaCountry": "Паспорт країни ЄЕЗ",
+            "servicePassport": "Службовий паспорт"
+        },
+        "vatTariff": {
+            "shifted": "Змінений",
+            "exempt": "Звільнений"
+        },
+        "fieldType": {
+            "text": "Текст",
+            "hirerHourType": "Тип години наймача",
+            "textArea": "Область для тексту",
+            "checkbox": "Прапорець",
+            "money": "Гроші",
+            "datePicker": "Засіб вибору дати"
+        },
+        "subsidyType": {
+            "targetJobAgreement": "Угода про працевлаштування для цільової групи та тих, хто має проблеми з навчанням",
+            "hiringDisabledEmployee": "Прийняття на роботу працівника з інвалідністю",
+            "reassigningDisabledEmployee": "Переведення працівника-інваліда на роботу",
+            "none": "Жодного"
+        }
+    },
+    "fieldTypes": {
+        "static": {
+            "radioButton": "Радіо-кнопка",
+            "checkbox": "Прапорець",
+            "multiSelect": "Багаторазовий вибір",
+            "noOptions": "Немає варіантів",
+            "select": "Вибрати",
+            "textField": "Текстове поле"
+        }
+    },
+    "menu": {
+        "actions": {
+            "employmentAgencies": "Агентства з працевлаштування",
+            "hirers": "Наймачі",
+            "dashboard": "Панель приладів",
+            "employees": "Працівники",
+            "functions": "Функції",
+            "settings": "Налаштування",
+            "timeRegistration": "Реєстрація часу",
+            "invoices": "Рахунки",
+            "exports": "Експорт",
+            "imports": "Імпорти",
+            "freelancers": "Фрілансери",
+            "logout": "Вийти",
+            "documents": "Документи",
+            "language": "Мова",
+            "leaveImpersonation": "Залишіть зображення",
+            "sickReports": "Звіти про хвороби",
+            "outOfService": "Непрацездатний",
+            "account": "Обліковий запис",
+            "payslips": "Квитанції",
+            "resellers": "Торговельні посередники",
+            "proFormaPayslip": "Проформа платіжної відомості"
+        }
+    },
+    "documents": {
+        "tabs": {
+            "subjects": "Суб'єкти",
+            "info": "Інформація",
+            "template": "Шаблон",
+            "variables": "Змінні"
+        },
+        "static": {
+            "name": "Ім'я",
+            "templateDeleted": "Шаблон видалено",
+            "variableSaved": "Змінну збережено",
+            "subjects": "Суб'єкти",
+            "subjectType": "Тип суб'єкта",
+            "category": "Категорія",
+            "description": "Опис",
+            "fieldType": "Тип полів",
+            "info": "Інформація",
+            "layout": "Макет",
+            "previewValue": "Попередній перегляд значення",
+            "slug": "Жетон",
+            "template": "Шаблон",
+            "templateSaved": "Шаблон збережено",
+            "variable": "Змінна",
+            "variableDeleted": "Змінну видалено",
+            "documentPreview": "Попередній перегляд документа",
+            "documentName": "Назва документа",
+            "signedAt": "Підписано в",
+            "isOwner": "Є власником",
+            "shouldSign": "Треба підписати",
+            "canView": "Можна переглянути",
+            "status": "Статус",
+            "testData": "Тестові дані",
+            "editDocument": "Редагувати документ",
+            "created": "Створено",
+            "originalFile": "Оригінальний файл",
+            "auditReport": "Аудиторський звіт",
+            "signRequestSentAt": "Запит на підпис надіслано на",
+            "signRequests": "Запити на підпис",
+            "fieldOptions": "Варіанти полів",
+            "newDocumentTemplate": "Новий шаблон документа",
+            "variables": "Змінні",
+            "declinedAt": "Відмовлено на",
+            "generateDocument": "Створити документ",
+            "archiveDocumentConfirmationText": "Це дозволить заархівувати документ.",
+            "signedFile": "Підписаний файл",
+            "signDocument": "Підпишіть документ",
+            "fillableBySubject": "Заповнюється суб'єктом",
+            "position": "Посада",
+            "uploadFile": "Завантажити файл",
+            "sendAfterCompletion": "Відправити після завершення",
+            "logoSubject": "Тема логотипу",
+            "associateLogoSubject": "Тема асоційованого логотипу",
+            "subject": "Суб'єкт/Тема",
+            "uploadDocument": "Завантажити документ",
+            "document": "Документ",
+            "linkDeductionsInfo": "Це гарантує, що під час вставлення їх у реєстрацію часу форми відрахувань не створюватимуться.",
+            "linkDeductions": "Відрахування за посиланнями",
+            "hideDocumentConfirmationText": "Дійсно приховати це завдання? Воно більше не з'явиться.",
+            "signRequestsSent": "Запити на підпис надіслано",
+            "isVisibleOn": "Видно на",
+            "creatableByRoles": "Створюється за ролями",
+            "fallbackValue": "Резервне значення"
+        },
+        "editor": {
+            "employee": "Працівник",
+            "employmentAgency": "Агентство з працевлаштування",
+            "hirer": "Наймач",
+            "date": "Дата",
+            "variables": "Змінні",
+            "factoringCompany": "Факторингова компанія",
+            "freelancer": "Фрілансер",
+            "employment": "Працевлаштування",
+            "enterprise": "Підприємство",
+            "freelancerJob": "Робота фрілансера",
+            "employeeContract": "Контракт"
+        },
+        "steps": {
+            "selectTemplate": "Виберіть шаблон",
+            "selectData": "Виберіть дані",
+            "review": "Перегляд",
+            "subjects": "Суб'єкти",
+            "variables": "Змінні"
+        },
+        "actions": {
+            "generateDocument": "Створити документ",
+            "editor": "Редактор",
+            "pdf": "PDF",
+            "download": "Завантажити",
+            "showPreview": "Показати попередній перегляд",
+            "upload": "Завантажити",
+            "addSubject": "Додати тему",
+            "create": "Створити",
+            "createFromTemplate": "Створити з шаблону",
+            "options": "Опції"
+        }
+    },
+    "settings": {
+        "pages": {
+            "documents": "Документи",
+            "factoringCompanies": "Факторингові компанії",
+            "enterprises": "Підприємства",
+            "webhooks": "Веб-хуки",
+            "users": "Користувачі",
+            "teams": "Команди",
+            "personalAccessTokens": "Токени особистого доступу",
+            "roles": "Ролі",
+            "subsidyCompanies": "Дочірні компанії"
+        }
+    },
+    "timeRegistration": {
+        "static": {
+            "week": "Тиждень",
+            "compensationDescriptiveText": "Описовий текст компенсації...",
+            "amount": "Сума",
+            "hours": "Години",
+            "project": "Проект",
+            "location": "Розташування",
+            "notes": "Примітки",
+            "payOut": "Виплата",
+            "hourType": "Тип години",
+            "date": "Дата",
+            "from": "Від",
+            "to": "До",
+            "kilometers": "Кілометри",
+            "reservation": "Бронювання",
+            "currentState": "Поточний стан",
+            "newState": "Нова країна",
+            "compensations": "Компенсації",
+            "reservations": "Бронювання",
+            "chargeTo": "Стягнення на",
+            "maxDistance": "Максимальна відстань",
+            "deductionDescriptiveText": "Текст опису відрахування...",
+            "deduction": "Відрахування",
+            "deductionAmount": "Сума відрахування",
+            "deductionAttachment": "Додаток до відрахування",
+            "uploadDeductionAttachment": "Завантажити додаток до відрахування",
+            "attachmentNotRequired": "Додаток не обов'язковий",
+            "deductions": "Відрахування",
+            "travelType": "Тип поїздки",
+            "invoiceAlreadySaved": "Цей рахунок-фактуру вже збережено.",
+            "reservationDescriptiveText": "Текст опису бронювання...",
+            "deleteKilometersConfirmationText": "Дійсно видалити це?",
+            "selectADeduction": "Вибрати відрахування",
+            "invoiceCreated": "Рахунок-фактуру створено",
+            "compensation": "Компенсація",
+            "companies": "Компанії",
+            "deployed": "Розгорнуто",
+            "staff": "Персонал",
+            "function": "Функція",
+            "freelancers": "Фрілансери",
+            "invoicingFailed": "Не вдалося створити рахунки-фактури.",
+            "employmentIsInactiveText": "Це працевлаштування не активне у вибраний період.",
+            "hourInfoText": "Компенсації та відрахування автоматично перераховуються при оновленні годин.",
+            "status": "Статус",
+            "jobIsInactiveText": "Ця робота не активна у вибраний період.",
+            "unlocked": "Період розблоковано.",
+            "unlockFailed": "Нам не вдалося розблокувати період.",
+            "deleteTimeRegistrationConfirmationText": "Час реєстрації буде видалено.",
+            "downloadFormatFailed": "Не вдалося створити формат.",
+            "import": "Імпорт",
+            "validationFailed": "Помилка перевірки",
+            "importSuccessful": "Імпорт пройшов успішно",
+            "importStarted": "Імпорт розпочато. Залежно від розміру це може зайняти кілька хвилин.",
+            "deleteTimeRegistrationsConfirmationText": "Чи ви впевнені, що справді хочете видалити вибрані реєстрації часу?",
+            "travelDuplicated": "Поїздка продубльована.",
+            "creatingInvoicesStatusText": "Рахунки-фактури створюються. Після завершення цього процесу рахунки-фактури можна буде переглянути тут.",
+            "shouldNotSendWithInvoice": "Не надсилайте з рахунком",
+            "timeRegistrationsDeleted": "Реєстрацію часу видалено.",
+            "compensationDeleted": "Компенсацію видалено.",
+            "hourDeleted": "Години видалено.",
+            "copyFailed": "Нам не вдалося скопіювати рядок.",
+            "travelSaved": "Поїздка збережена.",
+            "travelDeleted": "Поїздка видалена.",
+            "creatingInvoicesInfo": "Створення рахунків-фактур заплановано.",
+            "returnTravelSaved": "Зворотна поїздка збережена.",
+            "noOutstandingTimeRegistrationsFound": "Не знайдено незавершених реєстрацій часу.",
+            "noRegistrationsFound": "Реєстрацій не знайдено.",
+            "someHoursNotCopied": "Деякі реєстрації годин не вдалося скопіювати через відсутність типу години.",
+            "hoursCopied": "Години скопійовано.",
+            "someTravelsNotCopied": "Деякі реєстрації поїздок не вдалося скопіювати через відсутність типу поїздки.",
+            "travelsCopied": "Поїздки скопійовано.",
+            "autoCalculateDeductionsInfo": "Якщо цей параметр ввімкнено, непогашені відрахування будуть автоматично перераховані під час реєстрації годин або створення рахунків-фактур."
+        },
+        "actions": {
+            "cao": "CAO",
+            "duplicateReturnTravel": "Подорож у зворотному напрямку",
+            "duplicateKilometerRow": "Дублювати рядок",
+            "editHours": "Редагувати години",
+            "addRow": "Додати рядок",
+            "uploadKilometerAccountability": "Завантажити звітність за кілометр",
+            "invoice": "Рахунок-фактура",
+            "correction": "Виправлення",
+            "copyPreviousPeriod": "Копіювати попередній період",
+            "receipts": "Квитанції",
+            "uploadAttachments": "Завантажити вкладення",
+            "deployed": "Розгорнуто",
+            "staff": "Персонал",
+            "saveInvoice": "Зберегти рахунок-фактуру",
+            "add": "Додати",
+            "closePeriod": "Закрити період",
+            "autoCalculate": "Автоматичне обчислення",
+            "viewHours": "Переглянути години роботи",
+            "generateInvoice": "Сформувати рахунок",
+            "unlock": "Розблокувати",
+            "previewInvoice": "Попередній перегляд рахунку",
+            "viewInvoice": "Перегляд рахунку",
+            "deleteInvoice": "Видалити рахунок",
+            "excel": "Excel",
+            "downloadFormat": "Формат завантаження",
+            "upload": "Завантажити",
+            "import": "Імпорт",
+            "saveInvoices": "Зберігайте рахунки-фактури",
+            "createTimeRegistration": "Створення реєстрації часу",
+            "selectLockable": "Вибрати все",
+            "deselectAll": "Скасувати вибір усіх",
+            "copyFromEmployee": "Копіювати з іншого працівника",
+            "copyFromFreelancer": "Копіювати з іншого фрілансера"
+        },
+        "tabs": {
+            "hours": "Години",
+            "kilometers": "Кілометри",
+            "reservations": "Бронювання",
+            "deductions": "Відрахування",
+            "compensations": "Компенсації"
+        }
+    },
+    "invoice": {
+        "static": {
+            "total": "Всього",
+            "number": "Номер",
+            "period": "Період",
+            "salesInvoice": "Рахунок на продажі",
+            "costsOverview": "Огляд витрат",
+            "deductionsOverview": "Огляд відрахувань",
+            "salesInvoices": "Рахунки на продажі",
+            "searchInvoices": "Шукати рахунки",
+            "noPaymentsFound": "Платежі не знайдено",
+            "addPayment": "Додати платіж",
+            "payments": "Платежі",
+            "gAccount": "G-акаунт",
+            "log": "Вахтовий журнал",
+            "ipAddress": "ІР адреса",
+            "marginInvoice": "Маржовий рахунок-фактура",
+            "marginInvoices": "Маржові рахунки-фактури",
+            "billedAt": "Рахунок виставлено на",
+            "invoice": "Рахунок-фактура",
+            "invoiceWillBeBilled": "Рахунки-фактури за цей період будуть виставлені найближчим часом.",
+            "info": "Інформація",
+            "billed": "Виставлений рахунок",
+            "paidAt": "Оплачено на",
+            "sendAt": "Відправлено на",
+            "invoiceWillBeSent": "Рахунок буде надіслано.",
+            "sales": "Продажі",
+            "costs": "Витрати",
+            "margin": "Маржа",
+            "deductions": "Відрахування",
+            "queued": "У черзі",
+            "download": "Завантажити",
+            "files": "Файли",
+            "createdBy": "Створено",
+            "totalPaid": "Всього сплачено",
+            "gAccountPaid": "G-акаунт оплачений",
+            "pending": "На розгляді",
+            "paid": "Сплачено",
+            "createdAt": "Створено на",
+            "freelancerInvoice": "Рахунок-фактура фрілансера",
+            "agreedWorkInvoice": "Рахунок-фактура на погоджену роботу",
+            "description": "Опис",
+            "freelancer": "Фрілансер",
+            "agreedWork": "Погоджена робота",
+            "extraInvoice": "Додатковий рахунок-фактура",
+            "creditInvoice": "Кредитний рахунок-фактура",
+            "hideEmail": "Приховати електронну пошту",
+            "rows": "Рядки",
+            "attachments": "Вкладення",
+            "customInvoice": "Індивідуальний рахунок-фактура",
+            "invoiceDate": "Дата виставлення рахунку",
+            "preview": "Попередній перегляд",
+            "vat": "ПДВ",
+            "customCostsOverview": "Огляд користувацьких витрат",
+            "deleteInvoiceText": "Чи ви впевнені, що справді хочете видалити цей рахунок-фактуру?",
+            "confirmTypeChangeText": "Усі наявні позиції рахунка-фактури буде вилучено. Чи ви впевнені, що справді хочете змінити тип?",
+            "exportDescriptiveText": "Одночасно можна експортувати щонайбільше {count} рахунків-фактур. Усі фільтри, зазначені у вікні пошуку, будуть використані для обмеження кількості рахунків-фактур при експорті.",
+            "amount": "Сума",
+            "employee": "Працівник",
+            "customCosts": "Користувацькі витрати",
+            "remuneration": "Оплата праці",
+            "custom": "На замовлення",
+            "newItem": "Новий пункт",
+            "unitPrice": "Ціна за одиницю",
+            "items": "Пункти",
+            "makeMargin": "Зробити маржу",
+            "item": "Пункт",
+            "deduction": "Відрахування",
+            "exports": "Експорт",
+            "exportInvalidText": "Вибрано забагато рахунків-фактур. Обмежте кількість рахунків-фактур за допомогою фільтрів вище.",
+            "billing": "Виставлення рахунків",
+            "resellerMarginInvoice": "Рахунок-фактура торгівельного посередника",
+            "resellerMargin": "Націнка торгівельного посередника",
+            "relatedInvoices": "Пов'язані рахунки-фактури",
+            "customInvoiceItemVatNotDefaultConfirmationText": "Дійсно використати інший тариф ПДВ?"
+        },
+        "actions": {
+            "addPayment": "Додати платіж",
+            "sendNow": "Відправити зараз",
+            "download": "Завантажити",
+            "billNow": "Виставити рахунок зараз",
+            "create": "Створити",
+            "addToQueue": "Додати до черги",
+            "preview": "Попередній перегляд",
+            "createExport": "Експортувати {count} рахунків-фактур",
+            "downloadAll": "Скачати все",
+            "billSelected": "Виставити вибрані рахунки",
+            "selectBillable": "Виберіть виставлені",
+            "deselectAll": "Скасувати вибір усіх"
+        },
+        "filter": {
+            "outstandingOnly": "Лише видатне",
+            "from": "Від",
+            "to": "Кому",
+            "type": "Тип",
+            "queuedOnly": "Тільки у черзі"
+        }
+    },
+    "frequency": {
+        "static": {
+            "hourly": "Щогодини",
+            "fourWeekly": "Чотири рази на тиждень",
+            "daily": "Щодня",
+            "weekly": "Щотижня",
+            "monthly": "Щомісяця",
+            "hour": "Година",
+            "day": "День",
+            "week": "Тиждень",
+            "month": "Місяць",
+            "fourWeek": "Чотири тижня",
+            "hourShort": "г",
+            "dayShort": "д",
+            "weekShort": "т",
+            "fourWeekShort": "4т",
+            "monthShort": "м"
+        }
+    },
+    "dashboard": {
+        "tabs": {
+            "newHirers": "Нові наймачі",
+            "creditApplications": "Заявки на кредит",
+            "newEmployees": "Нові працівники",
+            "newEmploymentAgencies": "Нові агенції з працевлаштування",
+            "newFreelancers": "Нові фрілансери"
+        },
+        "static": {
+            "yourReservations": "Ваші бронювання",
+            "functions": "Функції",
+            "messageBox": "Скринька повідомлень",
+            "recentPayslips": "Останні платіжні квитанції",
+            "recentInvoices": "Останні рахунки-фактури",
+            "unsignedContracts": "Непідписані контракти",
+            "hirersWithoutCao": "Наймачі без CAO",
+            "annualStatements": "Річні звіти",
+            "notifications": "Сповіщення",
+            "statistics": "Статистика",
+            "newRegistrations": "Нові реєстрації",
+            "charts": "Діаграми"
+        },
+        "titles": {
+            "employmentAgencies": "Активні агентства з працевлаштування",
+            "costExcludingVat": "Вартість {year} (без ПДВ)",
+            "hirers": "Активні наймачі",
+            "freelancers": "Активні фрілансери",
+            "employees": "Активні працівники",
+            "marginExcludingVat": "Маржа (без ПДВ)",
+            "resellers": "Торговельні посередники"
+        },
+        "charts": {
+            "employees": "Працівники",
+            "workedHours": "Відпрацьовані години",
+            "revenue": "Дохід",
+            "hirers": "Наймачі",
+            "employmentAgencies": "Агентства з працевлаштування",
+            "freelancers": "Фрілансери",
+            "payroll": "Заробітна плата",
+            "temporary": "Тимчасовий",
+            "overtime": "Надурочний час",
+            "surchargeHours": "Додаткові години",
+            "margin": "Маржа",
+            "freelancerCosts": "Витрати фрілансера"
+        },
+        "functions": {
+            "timeRegistration": "Реєстрація часу",
+            "imports": "Імпортні товари",
+            "exports": "Експорт",
+            "invoices": "Рахунки",
+            "documents": "Документи",
+            "payslipsAndAnnualStatements": "Платіжні відомості / річні звіти"
+        },
+        "messageBox": {
+            "payOut": "Виплата ({frequency})",
+            "birthdays": "Дні народження",
+            "lockablePeriods": "Періоди, що закриваються",
+            "missingDocuments": "Відсутні документи",
+            "expiringContracts": "Контракти, що закінчуються",
+            "shouldSignDocuments": "Треба підписати документи",
+            "expiredContracts": "Закінчився термін дії контрактів",
+            "renewableContracts": "Контракти, які необхідно поновити"
+        }
+    },
+    "documentTemplates": {
+        "static": {
+            "default": "За замовчуванням",
+            "noTranslations": "Немає перекладів",
+            "deleteSharedDocumentTemplate": "Чи ви впевнені, що справді хочете припинити використання цього шаблону документа?",
+            "deleteConfirmationText": "Чи ви впевнені, що справді хочете видалити цей шаблон документа?",
+            "deleteVariableConfirmationText": "Чи ви впевнені, що справді хочете видалити цю змінну документа?",
+            "kiwaDeclarationOfEmployment": "Декларація про працевлаштування Kiwa"
+        },
+        "actions": {
+            "copyToCurrentEnterprise": "Копіювати до поточного підприємства",
+            "addSharedDocumentTemplate": "Додати шаблон спільного документа"
+        }
+    },
+    "emails": {
+        "editor": {
+            "invitationLink": "Посилання на запрошення"
+        }
+    },
+    "language": {
+        "actions": {
+            "select": "Вибрати"
+        },
+        "static": {
+            "default": "За замовчуванням"
+        }
+    },
+    "validation": {
+        "errors": {
+            "checkForm": "Будь ласка, перевірте форму на наявність помилок",
+            "addressInvalid": "Нам не вдалося знайти цю адресу.",
+            "alternativeAddress": "Нам не вдалося знайти цю адресу. Чи ви мали на увазі {address}?"
+        },
+        "static": {
+            "required": "Це поле є обов'язковим",
+            "unableToDeleteItem": "Неможливо видалити елемент"
+        }
+    },
+    "api": {
+        "kvk": {
+            "static": {
+                "apiOffline": "KVK Api не в мережі",
+                "companyInfoSuccessfullyFilled": "Інформація про компанію успішно заповнена"
+            },
+            "validation": {
+                "errors": {
+                    "cocNotFound": "Номер торгово-промислової палати не знайдено."
+                }
+            }
+        },
+        "creditsafe": {
+            "validation": {
+                "errors": {
+                    "companyNotFound": "Компанія не знайдена"
+                }
+            },
+            "static": {
+                "apiOffline": "Credit safe API не в мережі."
+            }
+        }
+    },
+    "hourType": {
+        "static": {
+            "name": "Назва",
+            "timeForTime": "Час від часу",
+            "value": "Значення",
+            "unit": "Одиниця",
+            "employeesWithoutAccess": "Працівники без доступу",
+            "none": "Жодного",
+            "employeeHasHourTypeOverrides": "Працівник має заміни тип години",
+            "hourType": "Тип години",
+            "saved": "Збережено",
+            "default": "Години за замовчуванням",
+            "deleted": "Видалено",
+            "timeForTimeDisabled": "Час від часу вимкнено",
+            "timeForTimeEnabled": "Час від часу увімкнено",
+            "hint": "Підказка",
+            "frequency": "Частота",
+            "employeesWithAccess": "Працівники з доступом",
+            "caoSurcharges": "Доплати CAO",
+            "type": "Тип",
+            "defaultForNewEmployee": "За замовчуванням для нового співробітника",
+            "defaultForNewEmployeeUpdated": "Типи годин за замовчуванням для нових співробітників оновлено",
+            "actualNetSalary": "Фактична чиста зарплата",
+            "desiredNetSalary": "Бажана чиста зарплата",
+            "difference": "Різниця",
+            "useDesiredNetSalary": "Використати бажану чисту зарплату",
+            "hourTypes": "Типи годин",
+            "chargeTo": "Стягнення на"
+        },
+        "actions": {
+            "grantAccessToAll": "Надати доступ усім",
+            "takeAccessFromAll": "Забрати доступ від усіх",
+            "enableTimeForTimeForAll": "Увімкнути для всіх час від часу",
+            "disableTimeForTimeForAll": "Вимкнути для всіх час від часу"
+        }
+    },
+    "reservation": {
+        "static": {
+            "holidayHoursLegal": "Графік роботи у законні святкові дні",
+            "holidayHoursExtraLegal": "Додатковий час у законні святкові дні",
+            "holidayPay": "Оплата відпустки",
+            "workTimeReductionHours": "Години скорочення робочого часу",
+            "seniorDays": "Дні для старших",
+            "timeForTime": "Час від часу",
+            "shortAbsence": "Коротка відсутність",
+            "holidays": "Свята",
+            "holidayHours": "Години у святкові дні",
+            "time": "Час",
+            "money": "Гроші",
+            "reservation": "Бронювання",
+            "updatedAt": "Оновлено на",
+            "amount": "Сума"
+        }
+    },
+    "compensation": {
+        "static": {
+            "none": "Жодного",
+            "employeesWithAccess": "Працівники з доступом",
+            "employeeHasCompensationOverrides": "Працівник має заміну компенсації",
+            "name": "Назва",
+            "value": "Значення",
+            "unit": "Одиниця",
+            "compensation": "Компенсація",
+            "saved": "Збережено",
+            "deleted": "Видалено",
+            "hint": "Підказка",
+            "factor": "Фактор",
+            "chargeTo": "Стягнення на",
+            "frequency": "Частота",
+            "isGross": "є брутто",
+            "employeesWithoutAccess": "Працівники без доступу",
+            "caoCompensations": "Компенсації САО",
+            "payOutEnabled": "Виплата ввімкнена",
+            "defaultForNewEmployee": "За замовчуванням для нового працівника",
+            "defaultForNewEmployeeUpdated": "Оновлено компенсації за замовчуванням для нових працівників",
+            "desiredSalaryCompensation": "Бажана компенсація заробітної плати",
+            "payslipPaymentsDesiredSalaryExplanation": "Під час імпорту платіжної квитанції ця функція створює компенсацію для кожного працівника, в якого бажана зарплата (вказана в часі імпорту реєстрації) вища за платіжну квитанцію.",
+            "compensations": "Компенсації",
+            "checkDesiredSalaryOnPayslipPayments": "Перевірити бажану заробітну плату",
+            "noCompensations": "Немає компенсацій",
+            "deviantFactor": "Девіантний фактор",
+            "salesRate": "Темп продажу",
+            "compensationSaved": "Компенсації збережено.",
+            "enabledCompensationsRecalculatedInfo": "Коли вмикаються компенсації, вони автоматично обчислюються в будь-якій незавершеній реєстрації часу (якщо є зареєстровані години)."
+        },
+        "actions": {
+            "grantAccessToAll": "Надати доступ всім",
+            "takeAccessFromAll": "Забрати доступ від усіх",
+            "useDeviatingFactor": "Використовуйте коефіцієнт відхилення",
+            "addSalesRate": "Додайте темп продажів"
+        }
+    },
+    "role": {
+        "static": {
+            "hirer": "Наймач",
+            "administrator": "Адміністратор",
+            "employee": "Працівник",
+            "employmentAgency": "Агентство з працевлаштування",
+            "freelancer": "Фрілансер",
+            "superAdministrator": "Супер адміністратор",
+            "deleteRoleText": "Дійсно видалити цю роль?",
+            "roleDeleted": "Роль було видалено."
+        }
+    },
+    "stippPlanType": {
+        "static": {
+            "basic": "Основний",
+            "plus": "Плюс"
+        }
+    },
+    "travelType": {
+        "static": {
+            "name": "Назва",
+            "hint": "Підказка",
+            "value": "Значення",
+            "gross": "Брутто",
+            "net": "Нетто",
+            "employeesWithoutAccess": "Працівники без доступу",
+            "none": "Жодного",
+            "travelType": "Тип поїздки",
+            "saved": "Збережено",
+            "deleted": "Видалено",
+            "default": "За замовчуванням",
+            "employeeHasTravelTypeOverrides": "Співробітник має заміни тип відрядження",
+            "unit": "Одиниця",
+            "employeesWithAccess": "Працівники з доступом",
+            "caoTravelExpenses": "CAO витрати на поїздки",
+            "defaultForNewEmployee": "За замовчуванням для нового працівника",
+            "defaultForNewEmployeeUpdated": "Оновлено типи поїздок для нового працівника",
+            "noTravels": "Немає поїздок",
+            "chargeTo": "Стягнення на"
+        },
+        "actions": {
+            "grantAccessToAll": "Надати доступ усім",
+            "takeAccessFromAll": "Забрати доступ від усіх"
+        }
+    },
+    "hourTypes": {
+        "actions": {
+            "edit": "Редагувати"
+        }
+    },
+    "factoring": {
+        "static": {
+            "details": "Деталі",
+            "deleteFactoringCompanyConfirmationText": "Дійсно видалити цю факторингову компанію?",
+            "cessionText": "Текст цесії",
+            "impact": "Вплив",
+            "factris": "Фактрис",
+            "type": "Тип",
+            "factoringCompany": "Факторингова компанія",
+            "nlCredit": "NL-кредит",
+            "sendInvoice": "Відправити рахунки?",
+            "typeInfo": "Тип визначає формат експорту."
+        }
+    },
+    "documentSubjectType": {
+        "static": {
+            "employmentAgency": "Агентство з працевлаштування",
+            "hirer": "Наймач",
+            "employment": "Працевлаштування",
+            "factoringCompany": "Факторингова компанія",
+            "freelancerJob": "Робота фрілансера",
+            "employeeContract": "Договір з працівником",
+            "employee": "Працівник",
+            "enterprise": "Підприємство",
+            "freelancer": "Фрілансер"
+        }
+    },
+    "documentStatus": {
+        "static": {
+            "created": "Створено",
+            "pending": "На розгляді",
+            "declined": "Відхилено",
+            "expired": "Термін дії закінчився",
+            "completed": "Завершено"
+        }
+    },
+    "exports": {
+        "static": {
+            "cancelled": "Скасовано",
+            "failed": "Не вдалося",
+            "factoringCompanyExport": "Експорт факторингової компанії",
+            "options": "Опції",
+            "exports": "Експорт",
+            "generatedAt": "Згенеровано на",
+            "notStarted": "Не розпочато",
+            "queued": "У черзі",
+            "running": "У процесі",
+            "completed": "Завершено",
+            "deleteExportConfirmationText": "Це призведе до видалення експорту.",
+            "deleteInvoiceConfirmationText": "Це призведе до видалення всіх пов’язаних рахунків-фактур та розблокування реєстрації часу для цього періоду.",
+            "deleteSepaOverviewExportConfirmationText": "Експорт буде видалено, а статус платежу для кожного рахунка-фактури в цьому експорті буде скинуто.",
+            "payOutInfo": "Назва експорту буде така ж, як найбільший вибраний період. Будь-які вибрані реєстрації в менші періоди будуть експортовані в окремі файли. Усі неоплачені рахунки-фактури виставлятимуться.",
+            "marginAndDeductionsExport": "Експорт маржі та відрахувань",
+            "export": "Експорт",
+            "periods": "Періоди",
+            "total": "Всього",
+            "exportSuccessful": "Експорт успішний",
+            "selectedInvoices": "Ви вибрали {count} рахунків-фактур.",
+            "payOutExport": "Оплатити експорт",
+            "noRegistrationsFound": "Реєстрацій не знайдено.",
+            "deletePayOutExportConfirmationText": "Експорт буде видалено, і всі реєстрації в цьому експорті знову можна буде експортувати.",
+            "registrations": "Реєстрації",
+            "noInvoicesFound": "Рахунки-фактури не знайдені.",
+            "deductionsDocumentNotSigned": "Документ про відрахування не підписаний.",
+            "employeesExport": "Експорт працівника",
+            "deleteWageAttachmentConfirmationText": "Вкладення про зарплату буде видалено.",
+            "archiveEmploymentAgencyConfirmationText": "Дійсно заархівувати це агентство з працевлаштування?",
+            "archiveHirerConfirmationText": "Чи ви впевнені, що справді хочете заархівувати цього наймача?",
+            "deleteTravelTypeConfirmationText": "Дійсно видалити цей тип проїзду?",
+            "unarchiveHirerConfirmationText": "Чи ви впевнені, що справді хочете розархівувати цього наймача?",
+            "deleteCompensationConfirmationText": "Дійсно видалити цю компенсацію?",
+            "deleteHourTypeConfirmationText": "Дійсно видалити цей тип годин?",
+            "missingDocumentsForPayOutExport": "Відсутні підписані документи",
+            "unarchiveEmploymentAgencyConfirmationText": "Дійсно розархівувати це агентство з працевлаштування?",
+            "marginOverviewExport": "Експорт огляду маржі",
+            "saveInvoiceConfirmationText": "Рахунки-фактури будуть збережені, а період буде заблоковано.",
+            "accountingSoftwareExport": "Бухгалтерське програмне забезпечення",
+            "marginOverview": "Огляд маржі",
+            "invoice": "Рахунок-фактура",
+            "hollandZorg": "HollandZorg",
+            "freelancersPayoutExport": "Експорт виплат фрілансерам",
+            "addEmployee": "Додати працівника",
+            "unexportedHealhInsuranceCount": "{count} неекспортованих медичних страховок.",
+            "newEmployees": "Нові працівники",
+            "changedEmployees": "Змінені працівники",
+            "markAllAsNew": "Позначити всіх як нових",
+            "markAllAsChanged": "Позначити всіх як змінених",
+            "editExport": "Редагувати експорт",
+            "exportHealhInsuranceRemainder": "Експортувати неекспортовані медичні страховки",
+            "healthInsuranceExport": "Експорт медичних страховок",
+            "doNotExport": "Не експортувати",
+            "doExport": "Експортувати",
+            "exported": "Експортовано",
+            "markAllAsDoNotExport": "Позначити все як «не експортувати»",
+            "markAllAsDoExport": "Позначити все як «експортувати»",
+            "archiveResellerConfirmationText": "Чи ви впевнені, що справді хочете архівувати цього торгівельного посередника?",
+            "unarchiveResellerConfirmationText": "Чи ви впевнені, що справді хочете розархівувати цього торгівельного посередника?",
+            "mijnSubsidie": "MijnSubsidie",
+            "mijnSubsidieExport": "Експорт MijnSubsidie",
+            "resellerMarginsExport": "Експорт маржі торгівельного посередника",
+            "historicalPayOutExport": "Експорт історії виплат",
+            "historicalPayOutInfo": "Експорт буде створено для кожної вибраної реєстрації часу. Застосовуються звичайні правила виплат, за винятком того, що накопичення резервів не обчислюється."
+        },
+        "pages": {
+            "factoringCompany": "Факторингова компанія",
+            "payOutExport": "Оплатити експорт",
+            "marginAndDeductions": "Маржі та відрахування",
+            "employeesExport": "Експорт працівників",
+            "accountingSoftwareExport": "Бухгалтерське програмне забезпечення",
+            "marginOverviewExport": "Експорт огляду маржі",
+            "hollandZorgExport": "HollandZorg Експорт",
+            "freelancersPayout": "Виплати фрілансерам",
+            "mijnSubsidieExport": "Експорт MijnSubsidie",
+            "resellerMargins": "Маржі торгівельного посередника"
+        },
+        "actions": {
+            "refresh": "Оновити",
+            "selectAll": "Вибрати все",
+            "clearSelection": "Очистити вибір",
+            "generate": "Згенерувати",
+            "selectPeriod": "Вибрати період",
+            "exactDate": "Точна дата",
+            "timePeriod": "Період часу",
+            "showOldExports": "Показати старі експортовані файли"
+        },
+        "payOut": {
+            "static": {
+                "skipNonExportableValidation": "Пропустити перевірку відсутніх документів",
+                "notExportedEmployeesInfo": "Не вдалося експортувати деякі від’ємні години цих працівників:"
+            },
+            "actions": {
+                "historical": "Історичний"
+            }
+        },
+        "employees": {
+            "static": {
+                "createFreshExportInfo": "Якщо ввімкнути опцію «новий експорт», до експорту буде включено всіх активних співробітників.",
+                "createFreshExport": "Новий експорт"
+            }
+        }
+    },
+    "documentType": {
+        "static": {
+            "pdf": "PDF",
+            "template": "Шаблон",
+            "view": "Переглянути",
+            "upload": "Завантажити"
+        }
+    },
+    "enterprises": {
+        "static": {
+            "enterprise": "Підприємство",
+            "details": "Деталі",
+            "noFileUploaded": "Файл ще не завантажено.",
+            "standardDocumentUpdateSuccess": "Стандартний документ успішно оновлено.",
+            "shouldNotifyCustomers": "Слід сповістити клієнтів",
+            "uploadNewFile": "Завантажте новий файл",
+            "deleteStandardDocumentConfirmationText": "Дійсно видалити цей стандартний документ?",
+            "standardDocuments": "Стандартні документи",
+            "canHaveJobsInfo": "Якщо цей параметр вимкнено, не можна створювати працевлаштування чи фріланс для наймачів, які пов’язані з цим підприємством.",
+            "payOutEnterpriseInfo": "Підприємство виплати можна змінити, вибравши підприємство виплати для працівника або наймача.",
+            "canBeInvoicedInfo": "Якщо цей параметр увімкнено, це підприємство буде доступним при створенні нового наймача як агентства з працевлаштування."
+        }
+    },
+    "employment": {
+        "static": {
+            "payOutPreferences": "Переваги на виплати",
+            "factor": "Фактор",
+            "startDate": "Дата початку",
+            "endDate": "Дата закінчення",
+            "function": "Функція",
+            "scale": "Масштаб",
+            "salesRate": "Темп продажу",
+            "grossSalary": "Заробітна плата брутто",
+            "includeExtraDays": "Включити додаткові дні в заробітну плату",
+            "deleteFailed": "Не вдалося видалити працевлаштування.",
+            "deleteConfirmationText": "Чи ви впевнені, що справді хочете видалити це працевлаштування?",
+            "deleteSuccess": "Працевлаштування видалено.",
+            "workdaysAndTimes": "Робочі дні та години",
+            "emptyFunctionSalesRateConfirmationText": "Усі функції мають порожню ставку продажу.",
+            "missingRequiredAttributesConfirmText": "Працевлаштування ще не можна подати на затвердження, оскільки не заповнено деякі необхідні атрибути.",
+            "submitForApprovalConfirmText": "Працевлаштування буде подано на затвердження."
+        },
+        "actions": {
+            "addFunction": "Додати функцію",
+            "createNext": "Створити наступний",
+            "goToEmployment": "Перейти до працевлаштування"
+        },
+        "messages": {
+            "wizardPreviousEmploymentExplanation": "Попереднє місце роботи використовується як основа для цього нового місця роботи."
+        }
+    },
+    "contact": {
+        "static": {
+            "userNotLinkedMessage": "Користувач не активований або не пов’язаний із контактом.",
+            "uploadSuccess": "Файл завантажений.",
+            "detached": "Контакт від’єднано.",
+            "detachFailed": "Не вдалося від'єднати контакт.",
+            "detachConfirmationText": "Дійсно від'єднати контакт?"
+        }
+    },
+    "company": {
+        "static": {
+            "documentEmail": "Електронна адреса для документів",
+            "reminderEmail": "Електронна пошта з нагадуванням",
+            "notificationEmail": "Електронна пошта для сповіщень",
+            "reminderEmailCc": "Копія нагадування",
+            "documentEmailCc": "Копія документа",
+            "notificationEmailCc": "Копія сповіщення",
+            "copyInfo": "Буде створено нову копію та пов’язано її з вибраним підприємством. Для кожного підприємства може бути створена лише одна копія. Зміни, внесені в оригінал, можна синхронізувати з копією.",
+            "copies": "Копії",
+            "synchronizeInfo": "Вибрані значення будуть синхронізовані з вибраною компанією.",
+            "freelancerMargins": "Маржі фрілансера",
+            "copiesAreIdentical": "Копії ідентичні.",
+            "synchronizationSuccessful": "Копії успішно синхронізовано.",
+            "original": "Оригінал",
+            "pensionPlanFactors": "Фактори пенсійного плану",
+            "email": "Мейл компанії",
+            "phone": "Телефон компанії",
+            "website": "Сайт компанії",
+            "legalFormSlug": "Правова форма",
+            "typeSlug": "Тип підприємства"
+        },
+        "actions": {
+            "synchronize": "Синхронізувати",
+            "makeCopy": "Зробіть копію",
+            "newCopy": "Нова копія"
+        }
+    },
+    "permission": {
+        "action": {
+            "view": "Переглянути",
+            "create": "Створити",
+            "update": "Оновити",
+            "delete": "Видалити"
+        }
+    },
+    "freelancerJob": {
+        "static": {
+            "hourlyRate": "Погодинна ставка",
+            "activities": "Діяльність",
+            "salesRate": "Темп продажу",
+            "margin": "Маржа",
+            "hourType": "Тип години",
+            "deleteHourTypeConfirmationText": "Дійсно видалити цей тип години?",
+            "startDate": "Дата початку",
+            "endDate": "Дата закінчення",
+            "compensation": "Компенсація",
+            "name": "Назва",
+            "travelType": "Тип поїздки",
+            "rate": "Ставка",
+            "deleteConfirmationText": "Чи ви впевнені, що справді хочете видалити цю роботу?",
+            "deleteSuccess": "Роботу видалено.",
+            "deleteFailed": "Не вдалося видалити роботу.",
+            "hourTypeMarginInfo": "Якщо заповнити це значення, тарифна таблиця буде проігнорована.",
+            "deviatingMargin": "Відхилення маржі",
+            "notMinimumHourTypeMarginConfirmationText": "Деякі маржі менші за розраховану маржу.",
+            "missingRequiredAttributesConfirmText": "Роботу ще не можна надіслати на затвердження, оскільки деякі обов’язкові атрибути не заповнено.",
+            "submitForApprovalConfirmText": "Робота буде подана на затвердження."
+        },
+        "actions": {
+            "addCompensation": "Додати компенсацію",
+            "addHourType": "Додати тип годин",
+            "addTravelType": "Додати тип поїздки"
+        }
+    },
+    "imports": {
+        "static": {
+            "total": "Всього",
+            "payslipsImport": "Імпорт квитанцій",
+            "imports": "Імпортні товари",
+            "bankImport": "Імпорт банку",
+            "imported": "Імпортований",
+            "payslipsPayments": "Виплати за платіжними квитанціями",
+            "employee": "Працівник",
+            "iban": "IBAN",
+            "payments": "Платежі",
+            "notStarted": "Не розпочато",
+            "queued": "У черзі",
+            "running": "У процесі",
+            "completed": "Завершено",
+            "cancelled": "Скасовано",
+            "failed": "Не вдалося",
+            "payslips": "Квитанції",
+            "upload": "Завантажити",
+            "payslipsImported": "Імпортовані квитанції",
+            "log": "Вахтовий журнал",
+            "importedAt": "Імпортовано на",
+            "reservations": "Бронювання",
+            "reservationsImported": "Бронювання імпортовані",
+            "reservationsImport": "Імпорт бронювань",
+            "sendAfterCompletion": "Відправити після завершення",
+            "outstandingDesiredSalaryCheck": "Деякі виплати не відповідають бажаній зарплаті:",
+            "annualStatements": "Річні звіти",
+            "annualStatementsImported": "Імпортовані річні звіти",
+            "annualStatementsImport": "Імпорт річних звітів",
+            "dispatched": "Відправлено",
+            "timeRegistration": "Реєстрація часу",
+            "desiredSalaryCheck": "Перевірка бажаної зарплати",
+            "payslipPaymentsCreateCompensations": "Створити компенсації",
+            "outstandingDesiredSalaryCompensationsCreated": "Компенсації створені.",
+            "payslipsPaymentsPeriodText": "Якщо вибрано період і/або виправлення, усі платежі в PDF буде імпортовано в цей період. Якщо період не вибрано, використовуватиметься номер періоду в PDF-файлі.",
+            "entity": "Особа"
+        },
+        "actions": {
+            "refresh": "Оновити",
+            "upload": "Завантажити"
+        },
+        "pages": {
+            "payslips": "Квитанції",
+            "bankImport": "Імпорт банку",
+            "payments": "Платежі",
+            "reservations": "Бронювання",
+            "annualStatements": "Річні звіти"
+        }
+    },
+    "document": {
+        "static": {
+            "log": "Вахтовий журнал",
+            "selectSubjectsForSignRequestsText": "Виберіть усі суб’єкти, яким хочете надіслати запит.",
+            "selectSubjectsForSignedFileText": "Виберіть усі суб’єкти, яким ви хочете надіслати підписаний файл.",
+            "selectSubjects": "Вибрати суб'єктів",
+            "sendSignRequestsConfirmationText": "Наступні суб'єкти отримають запит на підпис.",
+            "selectSubjectsForCompletedFileText": "Виберіть усіх суб'єктів, яким ви хочете надіслати готовий файл.",
+            "generatorSubjectShouldSignExplanation": "Наступні суб'єкти отримають запит на підпис.",
+            "generatorSubjectSendAfterCompletionExplanation": "Наступні суб’єкти отримають документ після його заповнення.",
+            "subjectSaved": "Суб'єкта збережено.",
+            "subjectDeleted": "Суб'єкта видалено."
+        }
+    },
+    "log": {
+        "static": {
+            "description": "Опис",
+            "date": "Дата",
+            "old": "Старий",
+            "new": "Новий",
+            "properties": "Властивості",
+            "system": "Система",
+            "causer": "Винуватець",
+            "id": "Ідентифікатор",
+            "subject": "Суб'єкт/Тема"
+        }
+    },
+    "employee": {
+        "static": {
+            "employments": "Працевлаштування",
+            "employment": "Працевлаштування",
+            "wageAttachmentCreationSuccess": "Вкладення - Заробітна плата - створено.",
+            "contractDeleteSuccess": "Контракт видалено.",
+            "contractDeleteFailed": "Не вдалося видалити контракт.",
+            "deleteContractConfirmationText": "Дійсно видалити цей контракт?",
+            "wageAttachment": "Вкладення Заробітна плата",
+            "wageAttachmentUpdateSuccess": "Вкладення - Заробітна плата - оновлено.",
+            "wageAttachmentDeleteSuccess": "Вкладення - Заробітна плата - видалено.",
+            "wageAttachments": "Вкладення Заробітна плата",
+            "contracts": "Контракти",
+            "contractCreateSuccess": "Контракт створено.",
+            "contractUpdateSuccess": "Контракт оновлено.",
+            "createContract": "Створити контракт",
+            "contract": "Контракт",
+            "functions": "Функції",
+            "noRecentPayslips": "Недавні квитанції про заробітну плату не знайдені.",
+            "deleteConfirmationText": "Чи ви впевнені, що справді хочете видалити цього працівника?",
+            "archiveConfirmationText": "Чи ви впевнені, що справді хочете заархівувати цього працівника?",
+            "deleteSuccess": "Працівника видалено.",
+            "deleteFailed": "Не вдалося видалити працівника.",
+            "archivedText": "Цього працівника заархівовано.",
+            "unarchiveConfirmationText": "Чи ви впевнені, що справді хочете розархівувати цього працівника?",
+            "annualStatements": "Річні звіти",
+            "annualStatement": "Річний звіт",
+            "payslips": "Квитанції",
+            "noAnnualStatements": "Немає річних звітів.",
+            "pensionPlan": "Пенсійний план",
+            "deleteValidationFailed": "Неможливо перевірити, чи можна видалити працівника.",
+            "canNotDeleteEmploymentText": "Працевлаштування не може бути видалено через існуючі реєстрації часу.",
+            "contractRequiredForEmploymentInfoText": "Обережно. Створення угоди необов’язкове, якщо у вас ще немає наймача/працевлаштування. Ви не можете створити працевлаштування без угоди.",
+            "markedAsNew": "Позначено як новий",
+            "markedAsChanged": "Позначено як змінене",
+            "canNotDeleteEmployeeText": "Працівника не можна видалити через наявні реєстрації часу.",
+            "inviteExistingInfoText": "Запрошення буде надіслано працівнику {name}.",
+            "inviteNewInfoText": "Запрошення буде надіслано новому працівнику.",
+            "activeContract": "Діюча угода",
+            "wizardSkipContractConfirmationText": "Чи ви впевнені, що справді не хочете створювати угоду? Ви не можете створити працевлаштування без угоди.",
+            "wizardSkipEmploymentConfirmationText": "Чи ви впевнені, що справді не хочете створювати роботу?",
+            "healthInsurances": "Медичні страховки",
+            "missingRequiredAttributesConfirmText": "Працівника ще не можна надіслати на затвердження, оскільки деякі обов’язкові атрибути не заповнено.",
+            "submitForApprovalConfirmText": "Працівник буде поданий на затвердження.",
+            "submittedForApproval": "Працівника подано на затвердження.",
+            "markToBeRenewedConfirmationText": "У кінці контракту буде позначено, що він буде продовжений.",
+            "contractMarkedToBeRenewed": "Контракт позначено як продовжений",
+            "contractMarkedNotToBeRenewed": "Договір позначено як непродовжений",
+            "markNotToBeRenewedConfirmationText": "Контракт не буде позначено як продовжений і буде видалено з повідомлень. Співробітник отримає електронний лист із підтвердженням про те, що контракт не буде продовжено після його закінчення.",
+            "contractCreateWithDocumentInfo": "Разом із відповідним документом буде створено новий контракт. Запит на підпис документа буде надіслано через 1 годину після створення. Кінцева дата поточного контракту буде встановлена на день перед датою початку нового контракту.",
+            "subsidyDeleteSuccess": "Субсидію видалено.",
+            "subsidyCreateSuccess": "Субсидія створена.",
+            "accountNotActivatedInfo": "Обліковий запис (ще) не активовано. Натисніть кнопку запрошення, щоб надіслати співробітнику посилання для активації."
+        },
+        "actions": {
+            "newContract": "Новий контракт",
+            "markAsNew": "Позначити як новий",
+            "markAsChanged": "Позначити як змінений",
+            "createContract": "Створити угоду",
+            "deleteContract": "Видалити угоду",
+            "createEmployment": "Створити працевлаштування",
+            "deleteSubsidyConfirmationText": "Дійсно видалити субсидію?"
+        },
+        "messages": {
+            "identityBothSides": "Завантажте лицьову та зворотну сторони свого посвідчення."
+        },
+        "outOfService": "Непрацездатний"
+    },
+    "export": {
+        "actions": {
+            "toSepaAndMarkAsPaid": "У SEPA і позначити як оплачені",
+            "generate": "Згенерувати"
+        },
+        "static": {
+            "skipValidation": "Пропустити перевірку"
+        }
+    },
+    "period": {
+        "actions": {
+            "select": "Вибрати"
+        }
+    },
+    "freelancer": {
+        "static": {
+            "job": "Робота",
+            "jobs": "Роботи",
+            "jobCreationSuccess": "Робота створена",
+            "deleteConfirmationText": "Чи ви впевнені, що справді хочете видалити цього фрілансера?",
+            "deleteFailed": "Не вдалося видалити фрілансера.",
+            "deleteSuccess": "Фрілансера видалено.",
+            "inviteExistingInfoText": "Запрошення буде надіслано фрілансеру {name}.",
+            "linkedThroughJob": "Зв'язаний через роботу",
+            "inviteNewInfoText": "Новому фрілансеру буде надіслано запрошення.",
+            "missingRequiredAttributesConfirmText": "Фрілансер ще не може бути поданий на затвердження, оскільки деякі обов’язкові атрибути не заповнені.",
+            "submitForApprovalConfirmText": "Фрілансер буде поданий на затвердження.",
+            "submittedForApproval": "Фрілансера подано на затвердження",
+            "activeOnly": "Лише активні",
+            "archiveConfirmationText": "Дійсно заархівувати цього фрілансера?",
+            "unarchiveConfirmationText": "Дійсно розархівувати цього фрілансера?",
+            "archivedText": "Цей фрілансер в архіві."
+        }
+    },
+    "user": {
+        "actions": {
+            "sendResetPasswordLink": "Надіслати посилання для скидання пароля"
+        },
+        "static": {
+            "deactivated": "Деактивований",
+            "notActivated": "Користувач не активований."
+        }
+    },
+    "legalForm": {
+        "static": {
+            "soleProprietor": "Одноосібний власник",
+            "publicPartnership": "Відкрите товариство",
+            "limitedCompanyStartUpAForm": "N.V. (Публічне товариство з обмеженою відповідальністю) /B.V. (Приватне товариство з обмеженою відповідальністю) старт-ап форми А",
+            "limitedCompanyStartUpDForm": "N.V. (Публічне товариство з обмеженою відповідальністю) /B.V. (Приватне товариство з обмеженою відповідальністю) старт-ап форми D",
+            "privateLimitedCompany": "Приватне товариство з обмеженою відповідальністю",
+            "privateLimitedCompanyTwoTier": "Товариство з обмеженою відповідальністю згідно зі статутом дворівневого товариства",
+            "publicLimitedCompanyTwoTier": "Публічне товариство з обмеженою відповідальністю згідно зі статутом дворівневого товариства",
+            "publicLimitedCompanyInvestmentVariableCapitalTwoTier": "Публічне товариство з обмеженою відповідальністю - інвестиційна компанія зі змінним капіталом згідно зі статутом дворівневого товариства",
+            "cooperativeStructuralCooperative": "Кооператив відповідно до статуту структурний кооператив",
+            "cooperativeLegalLiabilityStructuralCooperative": "Кооператив з юридичною відповідальністю згідно зі статутом структурний кооператив",
+            "religiousDenomination": "Релігійна конфесія",
+            "mutualInsuranceCompanyStructuralMutual": "Компанія взаємного страхування згідно статуту асоціації",
+            "mutualInsuranceCompanyLegalLiabilityStructuralMutual": "Компанія взаємного страхування з юридичною відповідальністю згідно статуту - структурна взаємна",
+            "foreignLegalFormHeadOfficeNetherlands": "Іноземно-правова форма з головним офісом у Нідерландах",
+            "foreignEcBusinessCompanyNetherlands": "Іноземний EC-бізнес з компанією в Нідерландах",
+            "soleProprietorMultipleOwners": "Індивідуальний підприємець, який має більше одного власника",
+            "commercialPartnership": "Повне товариство",
+            "shippingCompany": "Транспортна компанія",
+            "limitedCompanyStartUpBForm": "N.V. (Публічне товариство з обмеженою відповідальністю) /B.V. (Приватне товариство з обмеженою відповідальністю) старт-ап форми В",
+            "limitedPartnership": "Товариство з обмеженою відповідальністю",
+            "legalPersonStartUp": "Старт-ап юридичної особи",
+            "privateLimitedCompanyRegular": "Приватне товариство з обмеженою відповідальністю зі звичайною структурою",
+            "publicLimitedCompany": "Публічне товариство з обмеженою відповідальністю",
+            "publicLimitedCompanyRegular": "Публічне товариство з обмеженою відповідальністю зі звичайною структурою",
+            "publicLimitedCompanyInvestmentVariableCapital": "Публічне товариство з обмеженою відповідальністю - інвестиційна компанія зі змінним капіталом",
+            "europeanPublicLimitedCompanyRegular": "Європейська компанія з обмеженою публічною відповідальністю (SE) зі звичайною структурою",
+            "europeanPublicLimitedCompanyRegularTwoTierCooperative": "Європейська компанія з обмеженою публічною відповідальністю (SE) відповідно до статуту – Кооператив",
+            "cooperative": "Кооператив",
+            "cooperativeLegalLiabilityRegular": "Кооператив з юридичною відповідальністю зі звичайною структурою",
+            "cooperativeLimitedLiabilityRegular": "Кооператив з обмеженою відповідальністю зі звичайною структурою",
+            "cooperativeLimitedLiabilityStructuralCooperative": "Кооператив з обмеженою відповідальністю згідно зі статутом структурний кооператив",
+            "homeownersAssociation": "Товариство власників житла",
+            "associationFullLegalCapacity": "Асоціація з повною дієздатністю",
+            "associationLimitedLegalCapacity": "Асоціація з обмеженою дієздатністю",
+            "foundation": "Фундація",
+            "mutualInsuranceCompany": "Компанія взаємного страхування",
+            "mutualInsuranceCompanyLegalLiabilityRegular": "Компанія взаємного страхування з юридичною відповідальністю зі звичайною структурою",
+            "mutualInsuranceCompanyLimitedLiabilityRegular": "Компанія взаємного страхування з обмеженою відповідальністю зі звичайною структурою",
+            "mutualInsuranceCompanyLimitedLiabilityStructuralMutual": "Компанія взаємного страхування з обмеженою відповідальністю згідно статуту - структурна взаємна",
+            "legalPersonPublicLaw": "Юридична особа публічного права",
+            "legalPersonPrivateLaw": "Юридична особа приватного права",
+            "branchOfficeHeadOfficeAbroad": "Філія з головним офісом за кордоном",
+            "europeanEconomicInterestGrouping": "Європейське об'єднання економічних інтересів",
+            "foreignEcBusinessMainOfficeNetherlands": "Іноземний бізнес з ЄС з головним офісом у Нідерландах",
+            "foreignSimilarEcBusinessCompanyNetherlands": "Іноземна компанія схожа на EC-бізнес з компанією в Нідерландах",
+            "foreignSimilarEcBusinessMainOfficeNetherlands": "Іноземна компанія схожа на EC-бізнес з головним офісом у Нідерландах"
+        }
+    },
+    "etRegulation": {
+        "static": {
+            "totalAmount": "Поточна загальна сума становить {amount}.",
+            "calculatedAmount": "Розрахункова сума: {amount}",
+            "amountShouldBeBetween": "Загальна сума має бути від {min} до {max}.",
+            "singleTrip": "Відстань однієї поїздки: {distance} км"
+        },
+        "validation": {
+            "totalNotAllowed": "Загальне значення регулювання et не знаходиться між дозволеними значеннями.",
+            "distanceCalculationFailedText": "Ми не змогли розрахувати відстань до адреси проживання. Будь ласка, перевірте, чи правильна інформація про адресу."
+        }
+    },
+    "invitation": {
+        "static": {
+            "tokenInvalid": "Токен недійсний",
+            "inviteSuccess": "Запрошення успішне",
+            "tokenInvalidDescription": "Токен недійсний."
+        },
+        "actions": {
+            "sendInvitation": "Надіслати запрошення"
+        }
+    },
+    "job": {
+        "static": {
+            "freelancerJobs": "Роботи фрілансера",
+            "employment": "Працевлаштування",
+            "freelancerJob": "Робота фрілансера",
+            "employments": "Працевлаштування"
+        }
+    },
+    "users": {
+        "static": {
+            "sendPasswordResetConfirmationText": "Електронний лист із посиланням для скидання пароля буде надіслано на адресу {email}.",
+            "deactivateConfirmationText": "Користувач буде деактивований і більше не зможе увійти.",
+            "permissionsSaved": "Дозволи збережено.",
+            "reactivateConfirmationText": "Користувача буде повторно активовано, і він зможе знову увійти."
+        }
+    },
+    "outOfServiceReason": {
+        "static": {
+            "cancelledByEmployer": "Скасовано роботодавцем",
+            "endByLawOtherReason": "Припинення трудових відносин за законом з іншої причини",
+            "cancelledByEmployerWithinProbation": "Скасовано роботодавцем протягом випробувального терміну",
+            "cancelledByEmployerUwv": "Скасовано роботодавцем, затверджено UWV",
+            "cancelledByJudge": "Скасовано суддею",
+            "cancelledByAgreement": "Погоджене розірвання контракту",
+            "cancelledByEmployee": "Скасовано працівником",
+            "endOfEmployment": "Закінчення працевлаштування за законом у зв'язку із закінченням угоди",
+            "deploymentEndByIllness": "Закінчення роботи через хворобу",
+            "deploymentEndByOtherReason": "Закінчення роботи з іншої причини",
+            "continuedWithoutIncome": "Продовжено без доходу",
+            "otherReason": "Інша причина"
+        }
+    },
+    "cv": {
+        "certificate": {
+            "addEducation": "Додати освіту/кваліфікацію",
+            "certificates": "Сертифікати",
+            "description": "Опис",
+            "addCertificate": "Додати сертифікат"
+        },
+        "profile": {
+            "profileSummary": "Введіть тут резюме свого профілю (не менше 150 слів).",
+            "profile": "Профіль"
+        },
+        "skill": {
+            "rating": "Рівень володіння вміннями",
+            "skills": "Вміння",
+            "pickSkills": "Виберіть свої вміння"
+        },
+        "dialog": {
+            "generateCv": "Згенерувати CV",
+            "close": "Закрити"
+        },
+        "education": {
+            "educationsAndQualifications": "Освіти та кваліфікації",
+            "educationsDescription": "Опис освіти"
+        },
+        "title": "Назва",
+        "from": "Від",
+        "till": "До",
+        "interest": {
+            "interests": "Інтереси",
+            "pickInterests": "Виберіть свої інтереси"
+        },
+        "language": {
+            "languages": "Мови",
+            "pickLanguage": "Виберіть свої мови",
+            "rating": "Рівні володіння мовами"
+        },
+        "select": "Вибрати",
+        "reference": {
+            "references": "Рекомендації",
+            "company": "Компанія",
+            "fullName": "Повне ім'я роботодавця",
+            "telephone": "Телефон",
+            "email": "Електронна пошта",
+            "addReference": "Додати посилання"
+        },
+        "work": {
+            "workExperience": "Досвід роботи",
+            "function": "Функція",
+            "jobDescription": "Опис роботи",
+            "addWorkExperience": "Додайте досвід роботи"
+        }
+    },
+    "wageAttachment": {
+        "static": {
+            "outstandingAmount": "Непогашена сума",
+            "garnishee": "Гарнір",
+            "reference": "Посилання",
+            "taxFreeSum": "Неоподаткована сума",
+            "overallSum": "Загальна сума",
+            "paidAmount": "Виплачена сума",
+            "informationRequestSent": "Інформаційний запит надіслано",
+            "outstanding": "Неоплачений",
+            "paid": "Сплачено",
+            "garnisheeCity": "Місто заборгованості",
+            "garnisheeContact": "Контакт отримувача боргу"
+        },
+        "actions": {
+            "sendInformationRequest": "Відправити інформаційний запит",
+            "informationRequest": "Інформаційний запит"
+        }
+    },
+    "documentTemplate": {
+        "actions": {
+            "saveTranslation": "Зберегти переклад"
+        },
+        "static": {
+            "leadGenerationAgreement": "Угода про залучення потенційних клієнтів",
+            "contractPhase12": "Договірна фаза 1/2",
+            "contractPhase3": "Договірна фаза 3",
+            "contractPhase4": "Договірна фаза 4",
+            "termsAndConditions": "Правила та умови",
+            "frameworkAgreement": "Рамковий договір",
+            "hireAgreement": "Договір найму",
+            "employmentConfirmation": "Підтвердження працевлаштування",
+            "jobConfirmation": "Підтвердження роботи",
+            "declarationAgreement": "Деклараційний договір",
+            "employmentTerminationAgreement": "Договір про припинення працевлаштування",
+            "deductionsAndAdvances": "Відрахування та аванси",
+            "etAddendum": "ET додаток",
+            "antiDiscriminationPolicy": "Антидискримінаційна політика",
+            "staffGuide": "Довідник для персоналу",
+            "guaranteeAgreement": "Договір про гарантію",
+            "employersDeclaration": "Декларація роботодавця",
+            "contractPayrollFixedTerm": "Розрахунок заробітної плати за контрактом на визначений строк",
+            "contractPayrollPermanent": "Розрахунок заробітної плати за контрактом безстроковий",
+            "mediationAgreement": "Договір про медіацію",
+            "intermediateAgreement": "Проміжний договір",
+            "hireAgreementFreelancers": "Договір найму фрілансерів",
+            "healthcareAuthorisationForm": "Бланк заяви на медичне обслуговування",
+            "idStatementForm": "Бланк заяви про ідентифікацію особи",
+            "deliveryDeed": "Акт поставки",
+            "wageAttachmentRequest": "Запит на додаток із заробітною платою",
+            "jobConfirmationFreelancer": "Підтвердження роботи – фрілансер",
+            "healthcareAgreement": "Угода про медичне обслуговування",
+            "collaborationAgreementFreelancer": "Угода про співробітництво – фрілансер",
+            "payrollConfirmation": "Підтвердження заробітної плати"
+        }
+    },
+    "employees": {
+        "static": {
+            "activeOnly": "Лише активні",
+            "linkedThroughEmployment": "Пов'язаний через працевлаштування"
+        }
+    },
+    "contractType": {
+        "static": {
+            "phase1And2": "Фаза 1/2",
+            "phase3": "Фаза 3",
+            "phase4": "Фаза 4",
+            "payrollFixedTerm": "Нарахування заробітної плати (фіксований термін)",
+            "payrollPermanent": "Нарахування заробітної плати (постійна)"
+        }
+    },
+    "note": {
+        "actions": {
+            "deleteConfirmationText": "Дійсно видалити цю примітку?",
+            "delete": "Видалити",
+            "cancel": "Відмінити"
+        },
+        "success": {
+            "deleted": "Примітка успішно видалена."
+        }
+    },
+    "riskGroup": {
+        "static": {
+            "administrative": "Адміністративний",
+            "executive": "Виконавчий"
+        }
+    },
+    "pensionPlan": {
+        "static": {
+            "bpf": "BPF",
+            "basic": "Основний Stipp",
+            "adequate": "Адекватний",
+            "plus": "Stipp Плюс"
+        }
+    },
+    "sickReport": {
+        "actions": {
+            "cancel": "Відмінити",
+            "deleteConfirmationText": "Дійсно видалити це повідомлення про хворобу?",
+            "delete": "Видалити"
+        },
+        "success": {
+            "deleted": "Повідомлення про хворобу успішно видалене."
+        },
+        "filter": {
+            "currentSickOnly": "Тільки ті, хто хворіє зараз",
+            "start": "Початок",
+            "end": "Кінець"
+        },
+        "betterReport": {
+            "confirmationQuestion": "Дійсно?",
+            "actions": {
+                "cancel": "Відмінити",
+                "confirmationText": "Чи ви впевнені, що хочете повідомити про покращення?",
+                "confirmationTextEmployee": "Чи ви впевнені, що хочете повідомити, що цьому співробітнику краще?",
+                "confirm": "Підтвердити"
+            },
+            "report": "Краще повідомляйте",
+            "success": "Успішне повідомлення про те, що працівнику краще."
+        },
+        "reportSick": "Повідомити про хворобу",
+        "alreadySick": "Про хворобу цього працівника вже повідомили."
+    },
+    "outOfService": {
+        "search": "Пошук",
+        "reason": "Причина",
+        "actions": {
+            "cancel": "Відмінити",
+            "deleteConfirmationText": "Чи ви впевнені, що хочете видалити сповіщення про непрацездатність?",
+            "delete": "Видалити",
+            "processConfirmationText": "Чи ви впевнені, що хочете обробити повідомлення про непрацездатність?",
+            "process": "Обробити"
+        },
+        "process": "Обробити",
+        "processSuccess": "Повідомлення про непрацездатність успішно оброблене.",
+        "onlyOutstanding": "Тільки непогашені",
+        "date": "Дата"
+    },
+    "deductions": {
+        "static": {
+            "outstandingDeductions": "Непогашені відрахування",
+            "recurringDeductions": "Повторювані відрахування",
+            "saved": "Відрахування збережено.",
+            "amount": "Сума",
+            "for": "За",
+            "remainingAmount": "Сума, що залишилася",
+            "amountIsLimited": "Сума відрахування обмежена залежно від годин цього періоду.",
+            "files": "Файли",
+            "uploadFile": "Завантажити файл",
+            "deductFrom": "Відрахувати з",
+            "noDeductions": "Немає відрахувань",
+            "remaining": "Залишилося",
+            "unexportedOnly": "Тільки неекспортовані"
+        }
+    },
+    "hirer": {
+        "static": {
+            "archivedText": "Цей наймач заархівований.",
+            "hirerRemuneration": "Винагорода наймача",
+            "deleteFailed": "Не вдалося видалити наймача.",
+            "saved": "Наймач збережений",
+            "deleteConfirmationText": "Чи ви впевнені, що хочете видалити цього наймача?",
+            "deleteSuccess": "Наймача видалено.",
+            "inviteExistingInfoText": "Запрошення буде надіслано наймачу {companyName}.",
+            "projectDeleted": "Проект видалений.",
+            "assignment": "Завдання",
+            "inviteNewInfoText": "Запрошення буде надіслано новому наймачу.",
+            "notMinimumCompanyFreelancerHourTypeMarginConfirmationText": "Базова маржа за годину фрілансера менша, ніж вартість працевлаштування.",
+            "notMinimumCompanyFreelancerHourTypeMarginAdditionsConfirmationText": "Деякі надбавки до маржі менші, ніж вартість працевлаштування.",
+            "missingRequiredAttributesConfirmText": "Наймача ще не можна надіслати на затвердження, оскільки деякі обов’язкові атрибути не заповнено.",
+            "submitForApprovalConfirmText": "Наймач буде поданий на затвердження.",
+            "submittedForApproval": "Наймач поданий на затвердження."
+        },
+        "form": {
+            "travelHours": "Години проїзду",
+            "overtime": "Надурочні години",
+            "remunerationSpecifics": "Особливості",
+            "shiftWork": "Змінна робота",
+            "travelCost": "Вартість проїзду",
+            "otherCompensations": "Інші компенсації",
+            "companyOwnedScheme": "Схема, що належить компанії",
+            "holidays": "Свята"
+        }
+    },
+    "filters": {
+        "static": {
+            "archivedOnly": "Тільки заархівовані",
+            "withActiveEmploymentsOnly": "Тільки з активними працевлаштуваннями",
+            "readyForApproval": "Готовий до затвердження",
+            "createdByAdmin": "Створено адміном",
+            "selectedEnterpriseOnly": "Лише вибране підприємство"
+        }
+    },
+    "import": {
+        "static": {
+            "reservationsImported": "Бронювання імпортовані"
+        }
+    },
+    "creditLimit": {
+        "static": {
+            "finalAssessmentWillFollowLater": "Остаточна оцінка кредитного ліміту відбудеться пізніше."
+        }
+    },
+    "employmentAgency": {
+        "static": {
+            "archivedText": "Це агентство з працевлаштування заархівовано.",
+            "deleteConfirmationText": "Чи ви впевнені, що хочете видалити це агентство з працевлаштування?",
+            "deleteSuccess": "Агентство з працевлаштування видалено.",
+            "deleteFailed": "Не вдалося видалити агентство з працевлаштування.",
+            "inviteExistingInfoText": "Запрошення буде надіслано в агентство з працевлаштування {companyName}.",
+            "inviteNewInfoText": "Запрошення буде надіслано новому агенству з працевлаштування.",
+            "missingRequiredAttributesConfirmText": "Агентство з працевлаштування ще не може бути подано на затвердження, оскільки деякі необхідні атрибути не заповнені.",
+            "submitForApprovalConfirmText": "Агентство з працевлаштування буде подано на затвердження.",
+            "makeResellerConfirmationText": "Чи ви впевнені, що хочете зробити торгівельного посередника для агентства з працевлаштування?"
+        }
+    },
+    "wizard": {
+        "static": {
+            "employeeNotApproved": "Цей працівник ще не затверджений.",
+            "hirerNotApproved": "Цей наймач ще не затверджений.",
+            "freelancerNotApproved": "Цей фрілансер ще не затверджений.",
+            "noDocumentsToGenerate": "Немає документів для створення.",
+            "employmentAgencyNotApproved": "Це агентство з працевлаштування ще не затверджене.",
+            "resellerNotApproved": "Цей торговельний посередник ще не затверджений."
+        },
+        "actions": {
+            "viewWizard": "Майстер перегляду"
+        }
+    },
+    "employeePayslip": {
+        "static": {
+            "sendEmailSuccess": "Платіжну квитанцію надіслано.",
+            "sendEmailConfirmationText": "Чи ви впевнені, що хочете надіслати платіжну квитанцію зараз?",
+            "sendEmailFailed": "Не вдалося надіслати платіжну квитанцію."
+        },
+        "actions": {
+            "sendNow": "Відправити зараз"
+        }
+    },
+    "timeRegistrationPeriodStatus": {
+        "static": {
+            "completed": "Завершено",
+            "requiresAction": "Потребує дії",
+            "open": "Відкрити",
+            "locking": "Блокування",
+            "locked": "Заблоковано"
+        }
+    },
+    "invoiceGroup": {
+        "static": {
+            "custom": "На замовлення",
+            "timeRegistration": "Реєстрація часу"
+        }
+    },
+    "error": {
+        "static": {
+            "description": "Сталася помилка. Спробуйте оновити або повернутися на попередню сторінку.",
+            "serverError": "Помилка сервера",
+            "pageNotFound": "Сторінка не знайдена",
+            "pageNotFoundDescription": "Нам не вдалося знайти сторінку, яку ви шукали."
+        },
+        "actions": {
+            "back": "Повернутися на попередню сторінку"
+        }
+    },
+    "reservations": {
+        "static": {
+            "showEmptyPeriods": "Показати порожні періоди",
+            "editBuildupInfo": "При зміні цих значень буде оновлено відповідну реєстрацію часу.\nПри створенні нового запиту або якщо запит уже виплачено;\n- Стан бронювання буде оновлено.\n- Запит не з'явиться в експорті виплати.\nПри оновленні заявки, яка ще не виплачена;\n- Стан бронювання не оновлюватиметься.\n- Запит буде оновлено в експорті виплат.",
+            "buildup": "Нарощування",
+            "paidOut": "Виплачено",
+            "noBuildupFound": "Нарощування не знайдено",
+            "request": "Запит",
+            "saved": "Бронювання збережено.",
+            "deleted": "Бронювання видалено",
+            "deleteReservationText": "Бронювання буде видалено з реєстрації часу.",
+            "reservationRequest": "Запити на бронювання",
+            "newRequest": "Новий запит",
+            "canOnlyEditHistoricalBuildupInfo": "Редагувати можна лише історичні значення.",
+            "noReservations": "Немає бронювань",
+            "calculationTool": "Інструмент розрахунку",
+            "requestReservations": "Бронювання запиту"
+        },
+        "tooltip": {
+            "warningRequestNotYetExported": "Цей запит ще не виплачений."
+        },
+        "actions": {
+            "request": "Запит"
+        }
+    },
+    "media": {
+        "static": {
+            "pdfPagesCount": "У PDF-файлі {amount} сторінок",
+            "type": "Тип",
+            "other": "Інше",
+            "curriculumVitae": "Автобіографія",
+            "motivationLetter": "Мотиваційний лист",
+            "diploma": "Диплом",
+            "certificateOfConduct": "Сертифікат поведінки"
+        }
+    },
+    "project": {
+        "static": {
+            "projectManagers": "Керівники проектів",
+            "createProject": "Створити проект",
+            "projectCreationSuccess": "Проект успішно створений.",
+            "updateProject": "Оновити проект",
+            "deleteProjectConfirmationText": "Чи ви впевнені, що хочете видалити проект?"
+        }
+    },
+    "search": {
+        "static": {
+            "noMoreResults": "Результатів більше немає.",
+            "ctrlShiftF": "Ctrl + Shift + F"
+        }
+    },
+    "holiday": {
+        "static": {
+            "newYear": "Новий рік",
+            "easterMonday": "Великодній понеділок",
+            "ascensionDay": "Свято Вознесіння",
+            "whitMonday": "Святий понеділок",
+            "firstChristmasDay": "Перший день Різдва",
+            "secondChristmasDay": "Другий день Різдва",
+            "kingsDay": "День королів",
+            "liberationDay": "День визволення"
+        }
+    },
+    "factoringCompany": {
+        "static": {
+            "deleted": "Факторингову компанію видалено."
+        }
+    },
+    "companyType": {
+        "static": {
+            "healthcare": "Охорона здоров'я",
+            "default": "За замовчуванням"
+        }
+    },
+    "workServiceType": {
+        "static": {
+            "night": "Нічна зміна",
+            "weekend": "Зміна вихідного дня",
+            "reachability": "Послуга доступності",
+            "consignment": "Консигнаційна служба"
+        }
+    },
+    "entity": {
+        "static": {
+            "enterprise": "Підприємство",
+            "employmentAgency": "Агентство з працевлаштування",
+            "hirer": "Наймач",
+            "employee": "Працівник",
+            "freelancer": "Фрілансер"
+        }
+    },
+    "healthInsurance": {
+        "static": {
+            "saved": "Медичні страховки збережені."
+        }
+    },
+    "freelancerHourTypeMarginAddition": {
+        "static": {
+            "hirerPaymentTermTableHeader": "Строк оплати наймача",
+            "hourlyRateFreelancerTableHeader": "Погодинна ставка (від)"
+        }
+    },
+    "reseller": {
+        "static": {
+            "missingRequiredAttributesConfirmText": "Торгівельного посередника ще не можна подати на затвердження, оскільки деякі обов’язкові атрибути не заповнено.",
+            "archivedText": "Цей торговельний посередник заархівований.",
+            "submitForApprovalConfirmText": "Торгівельного посередника буде подано на затвердження.",
+            "deleteConfirmationText": "Дійсно видалити цього торгівельного посередника?",
+            "deleteSuccess": "Торгівельного посередника видалено.",
+            "deleteFailed": "Не вдалося видалити торгівельного посередника.",
+            "employeeMargins": "Маржа працівників",
+            "freelancerMargins": "Маржа фрілансерів",
+            "deleteCustomerConfirmationText": "Чи ви впевнені, що хочете видалити цього клієнта? Усі маржі, пов’язані з цим клієнтом, будуть видалені.",
+            "defaultMargin": "Маржа за замовчуванням",
+            "zeroMarginConfirmationText": "Одна маржа або кілька мають значення «0».",
+            "customerCanOnlyHaveOneResellerInfoMessage": "Якщо агентства з працевлаштування немає в переліку, перевірте, чи воно вже пов’язане з іншим посередником."
+        }
+    },
+    "marginType": {
+        "static": {
+            "default": "За замовчуванням",
+            "overtime": "Надурочний час",
+            "etRegulation": "Регулювання ЕТ",
+            "senior": "Старший",
+            "hourType": "Тип години"
+        }
+    },
+    "teams": {
+        "static": {
+            "roles": "Ролі",
+            "teamOwner": "Власник команди",
+            "details": "Деталі",
+            "team": "Команда",
+            "addTeam": "Додати команду",
+            "deleteTeamPresetText": "Дійсно видалити налаштування цієї команди?",
+            "deleteTeamText": "Дійсно видалити цю команду?"
+        }
+    },
+    "roles": {
+        "static": {
+            "roleCreated": "Роль створено.",
+            "permissionsSaved": "Дозволи збережено."
+        }
+    },
+    "teamType": {
+        "static": {
+            "freelancer": "Фрілансер",
+            "employee": "Працівник",
+            "hirer": "Наймач",
+            "employmentAgency": "Агентство з працевлаштування",
+            "reseller": "Торговий посередник"
+        }
+    },
+    "personalAccessToken": {
+        "static": {
+            "tokenCreatedInfo": "Токен створено. Токен буде показано лише один раз, тому зберігайте його в безпечному місці.",
+            "tokenCopied": "Токен скопійовано до буфера обміну",
+            "personalAccessTokens": "Токени особистого доступу",
+            "details": "Деталі",
+            "tokenPlaceholder": "Тут буде показано токен.",
+            "deletePersonalAccessTokenText": "Токен буде видалено, і його більше не можна буде використовувати."
+        }
+    },
+    "messageBox": {
+        "static": {
+            "shouldSignDocument": {
+                "subject": "Суб'єкт/Тема",
+                "sendSignRequestConfirmationText": "Наступний суб’єкт отримає запит на підпис",
+                "newSignTokenConfirmationText": "Буде отримано новий токен підпису.",
+                "newSignTokenSuccess": "Токен підпису успішно отриманий.",
+                "newSignTokenFailed": "Трапилася помилка при отриманні нового токену підпису.",
+                "hideDocumentConfirmationText": "Дійсно приховати це завдання? Воно більше не з'явиться."
+            },
+            "hideContractConfirmationText": "Дійсно приховати цей контракт? Він більше не з'явиться."
+        }
+    },
+    "subsidy": {
+        "static": {
+            "endDateInfo": "Якщо кінцева дата не є кінцем тижня, субсидія буде нарахована до кінця попереднього тижня.",
+            "confirmation": "Підтвердження субсидії",
+            "details": "Деталі",
+            "createSubsidy": "Створити субсидію",
+            "updateSubsidy": "Оновити субсидію",
+            "clearToExcludeFromSubsidy": "Очистіть це поле, щоб виключити цю позицію з субсидії.",
+            "startDateInfo": "Якщо дата початку не є початком тижня, субсидія буде нарахована з початку наступного тижня."
+        }
+    },
+    "proFormaPayslip": {
+        "actions": {
+            "previewCostPriceOverview": "Попередній перегляд огляду собівартості",
+            "previewPayslip": "Попередній перегляд платіжної відомості"
+        },
+        "static": {
+            "splitPayOutInfo": "Якщо цю опцію ввімкнено, звичайні години будуть розділені з іншими годинами/доплатами/компенсаціями в платіжній відомості."
+        }
+    },
+    "subsidyCompany": {
+        "static": {
+            "deleteSubsidyCompanyConfirmationText": "Дійсно видалити дочірню компанію?",
+            "deleted": "Дочірню компанію видалено."
+        }
+    }
+}

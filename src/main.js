@@ -7,12 +7,12 @@ import VuetifyComponents from '@payoffice2.0/vuetify';
 import { createVuetify } from 'vuetify';
 import * as components from 'vuetify/components';
 import * as directives from 'vuetify/directives';
-
+import { setupI18n } from './plugins/i18n';
 import('@/styles/overrides.scss');
-
-loadFonts();
+import lodash from 'lodash';
 
 const app = createApp(App);
+const i18n = setupI18n(app);
 
 const customLightTheme = {
   dark: false,
@@ -35,6 +35,10 @@ const vuetify = createVuetify({
     },
   }
 });
+
+loadFonts();
+window._ = lodash;
+window.$_ = lodash;
 
 app.use(router)
   .use(store)

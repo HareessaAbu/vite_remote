@@ -45,26 +45,18 @@ export default defineConfig({
     federation({
         name: 'remote-app',
         filename: 'remoteFile.js',
+        optimizeDeps: {
+          include: ['vuetify','vue','@payoffice2.0/vuetify'],
+        },
         exposes: {
-          // './Auth': {
-          //   name: 'Auth',
-          //   import: './src/layouts/Auth.vue',
-          // },
-          // './Login': {
-          //   name: 'Login',
-          //   import: './src/views/auth/Login.vue',
-          // },
           './LoginForm': {
             name: 'LoginForm',
             import: './src/components/forms/auth/LoginForm.vue',
           },
-          './Hello': {
-            name: 'Hello',
-            import: './src/Hello.vue',
-          },
         },
         shared: {
           'vuetify':{
+            singleton: true,
             requiredVersion: '^3.4.10'
           },
           'vue':{},
@@ -80,7 +72,7 @@ export default defineConfig({
       },
     },
   },
-  build: {
+ build: {
     target: 'esnext',
     minify: false,
     cssCodeSplit: false,
@@ -89,9 +81,9 @@ export default defineConfig({
         format: 'esm',
         entryFileNames: 'assets/[name].js',
         minifyInternalExports: false,
-        manualChunks: {
-          vuetify: ['vuetify'],
-        },
+        // manualChunks: {
+        //   vuetify: ['vuetify'],
+        // },
       },
     },
   },
@@ -101,5 +93,5 @@ export default defineConfig({
         'vuetify': 'vuetify',
       },
     },
-  },
+  }, 
 })

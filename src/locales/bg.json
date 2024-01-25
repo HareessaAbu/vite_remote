@@ -1,0 +1,2464 @@
+{
+    "general": {
+        "static": {
+            "dashboard": "Работно табло",
+            "email": "Имейл",
+            "accountHolder": "Титуляр на партида",
+            "address": "Адрес",
+            "birthdate": "Дата на раждане",
+            "birthplace": "Място на раждане",
+            "category": "Категория",
+            "chamberOfCommerceNumber": "Номер в търговската камара",
+            "companyInformation": "Фирмени данни",
+            "contact": "Контакт",
+            "country": "Държава",
+            "countryOfBirth": "Държава на раждане",
+            "createContact": "Създайте контакт",
+            "creditLimit": "Кредитен лимит",
+            "deleteFailed": "Нещо се обърка, моля, свържете се с нас, ако проблемът продължава.",
+            "documents": "Документи",
+            "documentTemplates": "Шаблони на документи",
+            "employeeApprovalFail": "Неуспешно одобрение на служителя.",
+            "employeeCreationSuccess": "Успешно създаден служител.",
+            "employees": "Служители",
+            "employment": "Служба",
+            "employmentAgencies": "Агенции по заетостта",
+            "employmentAgency": "Агенция по заетостта",
+            "employmentAgencyApprovalSuccess": "Успешно одобрена агенция по труда.",
+            "employmentAgencyCreationSuccess": "Успешно създадена агенция по заетостта.",
+            "etRegulation": "ET регулация",
+            "factor": "Фактор",
+            "files": "Файлове",
+            "financialInformation": "Финансови данни",
+            "firstName": "Първо име",
+            "gender": "Пол",
+            "hi": "Здравей, {user}",
+            "id": "ID",
+            "hirerApprovalFail": "Неуспешно одобрение на наемателя.",
+            "hirerCreationSuccess": "Успешно създаден наемател.",
+            "hirers": "Наемащи",
+            "iban": "IBAN",
+            "identityType": "Вид самоличност",
+            "initials": "Инициали",
+            "invite": "Покана",
+            "name": "Име",
+            "phone": "Телефон",
+            "search": "Търсене",
+            "lastName": "Фамилно име",
+            "legalForm": "Легален от",
+            "log": "Регистър",
+            "maritalStatus": "Семеен статус",
+            "middleName": "Средно име",
+            "none": "Никой",
+            "notes": "Бележки",
+            "personalData": "Лични данни",
+            "residenceAddress": "Адрес на пребиваване",
+            "sbiCodes": "SBI кодове",
+            "settings": "Настройки",
+            "splitMargin": "Разделяне на маржа",
+            "takeOverFromHirer": "Поемете управлението от наемателя",
+            "timeForTime": "Време за Време",
+            "vatNumber": "VAT номер",
+            "no": "Не",
+            "percentage": "Процент",
+            "euro": "Евро",
+            "employeeType": "Тип служител",
+            "employmentDate": "Дата на наемане",
+            "payrollTaxReduction": "Намаляване на данък върху заплатите",
+            "payOutFrequency": "Честота на изплащане",
+            "participantEtRegulation": "Участник в ET регулацията?",
+            "startDate": "Начална дата",
+            "homewardTravelCost": "Разходи за пътуване до дома",
+            "homewardTravelFrequency": "Честота на пътуване до дома",
+            "factorEtRegulation": "Фактор ET регулация",
+            "factorOvertime": "Фактор извънредни часове",
+            "vatTariff": "VAT тарифа",
+            "invoiceEmail": "Имейл за фактура",
+            "city": "Град",
+            "employer": "Работодател",
+            "factoringCompanies": "Факторингови компании",
+            "enterprises": "Предприятия",
+            "employee": "Служител",
+            "enabled": "Активиран",
+            "webhooks": "Уебхукове",
+            "period": "Период",
+            "nr": "Номер",
+            "exports": "Експорти",
+            "invoices": "Фактури",
+            "language": "Език",
+            "addressInformation": "Информация за адрес",
+            "company": "Фирма",
+            "confirmationQuestion": "Сигурни ли сте?",
+            "contactInformation": "Информация на контакта",
+            "authorizedSignatory": "Упълномощен подписващ",
+            "cao": "Cao",
+            "citizenServiceNumber": "Номер за обслужване на граждани",
+            "currentEmployments": "Текущи работни места",
+            "documentNumber": "Номер на документа",
+            "employeeApprovalSuccess": "Успешно одобрение на служителя.",
+            "employmentAgencyApprovalFail": "Неуспешно одобрение на агенцията по труда.",
+            "hirer": "Наемащ",
+            "hirerApprovalSuccess": "Успешно одобрение на наемателя.",
+            "identityValidUntil": "Самоличността е валидна до",
+            "notApplicable": "Не е приложимо",
+            "timeRegistration": "Регистриране на време",
+            "terminationDate": "Дата на прекратяване",
+            "contractPhase": "Фаза на договора",
+            "contractHours": "Работно време по договор",
+            "homewardTravelDistance": "Разстояние за пътуване до дома",
+            "factoringCompany": "Факторингова компания",
+            "postalAddress": "Пощенски адрес",
+            "visitAddress": "Посетете адрес",
+            "yes": "Да",
+            "originalValue": "Първоначална стойност",
+            "payslip": "Фиш за заплата",
+            "invoiceEmailCc": "Копие на фактура",
+            "total": "Общ",
+            "cancel": "Отменям",
+            "enterprise": "Предприятие",
+            "date": "Дата",
+            "freelancers": "Служители на свободна практика",
+            "freelancer": "Служител на свободна практика",
+            "hours": "Часове",
+            "timesheet": "Времеви график",
+            "reservations": "Резервации",
+            "workTimeReductionDays": "Дни с намалено работно време",
+            "km": "километри",
+            "imports": "Внос",
+            "billedAt": "Фактурирано на",
+            "attachments": "Прикачени файлове",
+            "freelancerCreationSuccess": "Успешно създаден фрийлансър",
+            "freelancerApprovalSuccess": "Успешно одобрен фрийлансър",
+            "freelancerApprovalFail": "Неуспешно одобрение на фрийлансър",
+            "overtime": "Извънредни часове",
+            "surcharge": "Доплащане",
+            "shiftWorkSurcharge": "Доплащане за работа на смени",
+            "sepaId": "SEPA идентификатор",
+            "travelHours": "Часове за пътуване",
+            "users": "Потребители",
+            "permissions": "Разрешения",
+            "user": "Потребител",
+            "link": "Връзка",
+            "newContact": "Нов контакт",
+            "housingCost": "Разход за жилище",
+            "costOfLivingAllowance": "Разходи за издръжка",
+            "employmentCreationSuccess": "Успешно създадено назначение",
+            "resultsCount": "{count} резултати",
+            "phase": "Фаза",
+            "sendPayslips": "Изпращане на фишове за заплати",
+            "weeksWorked": "Отработени седмици",
+            "translations": "Преводи",
+            "subjects": "Предмети",
+            "outOfServiceDate": "Дата на излизане от употреба",
+            "outOfServiceReason": "Причина за излизане от употреба",
+            "accountNumber": "Номер на сметка",
+            "createdAt": "Създаден на",
+            "filters": "Филтри",
+            "startsAt": "Започва на",
+            "endsAt": "Приключва на",
+            "factorSenior": "Главен фактор",
+            "year": "Година",
+            "sendFailed": "Неуспешно изпращане",
+            "note": "Бележка",
+            "stipp": "Пенсионен план Stipp",
+            "createdBy": "Потребител",
+            "createNote": "Създаване на бележка",
+            "seniorDays": "Почивни дни",
+            "timeRegistrationIsNotEnabledText": "Регистрацията на времето не е активирана.",
+            "workHours": "Работно време",
+            "workStartTime": "Време на започване на работа",
+            "workEndTime": "Време на приключване на работа",
+            "sickReports": "Доклади за заболявания",
+            "start": "Начало",
+            "end": "Край",
+            "reason": "Причина",
+            "maxImageSize": "Изображението трябва да е по-малко от {width}х {height} пиксела.",
+            "hint": "Съвет",
+            "outOfServiceEmployeeSuccess": "Служителят е успешно отчетен като неработещ.",
+            "outOfService": "Извън експлоатация",
+            "outOfServiceSuccess": "Успешно изключен от експлоатация",
+            "createFailed": "Не успяхме да запазим този запис.",
+            "updateFailed": "Не успяхме да запазим този запис.",
+            "saveFailed": "Не успяхме да запазим този запис.",
+            "archiveSuccess": "Артикулът е архивиран.",
+            "archiveFailed": "Не успяхме да архивираме този артикул.",
+            "location": "Местоположение",
+            "holidaySurcharge": "Доплащане за почивка",
+            "account": "Сметка",
+            "invoiceCompany": "Фирма за фактури",
+            "unarchiveSuccess": "Файлът не е архивиран.",
+            "uploadFiles": "Качване на файлове",
+            "unarchiveFailed": "Не успяхме да разархивираме този файл.",
+            "employments": "Длъжности",
+            "freelancerJobs": "Работи на свободна практика",
+            "deleteFileConfirmationText": "Сигурни ли сте, че искате да изтриете файла?",
+            "fromPeriod": "От периода",
+            "filesUploaded": "Файловете са качени",
+            "fileUploadFailed": "Качването на фаилове не бе успешно",
+            "fileDeleted": "Файлът е изтрит",
+            "fileDeleteFailed": "Неуспешно изтриване на файл",
+            "frequency": "Честота",
+            "from": "От",
+            "until": "До",
+            "download": "Изтегляне",
+            "recentVisitedPages": "Наскоро посетените страници ще се появят тук.",
+            "payOutEnterprise": "Предприятие за извършване на плащания",
+            "loadFailed": "Не успяхме да заредим заявените данни.",
+            "importFreelancerJobs": "Импортиране на работни места за служители на свободна практика",
+            "marginInvoicePerWeek": "Фактура за маржа на седмица",
+            "generateFreelancerDocumentsInfo": "Когато тази опция е деактивирана, не се генерират документи в края на помощника за настройка на служители на свободна практика.",
+            "healthInsuranceStartDateInfo": "Удръжката за здравна застраховка ще се добавя в началото на всяка седмица/четири седмици/месец (в зависимост от честотата на изплащане), стига да има активна здравна застраховка към тази дата.",
+            "contractStartDate": "Начална дата на договора",
+            "contractEndDate": "Крайна дата на договора",
+            "description": "Описание",
+            "subject": "Относно",
+            "causer": "Причинител",
+            "reservationsBuildup": "Натрупване на резервации",
+            "seasonalWork": "Сезонна работа",
+            "payslips": "Фишове за заплата",
+            "import": "Импортиране",
+            "importHirers": "Импортиране на наематели",
+            "importSuccessful": "Успешно импортиране",
+            "importEmployees": "Импортиране на служители",
+            "importEmployments": "Импортиране на назначения",
+            "importFreelancers": "Импортиране на служители на свободна практика",
+            "importEntityFailed": "Импортирането е неуспешно. Опитайте да презаредите страницата и да стартирате импорта отново.",
+            "registration": "Регистрация",
+            "owner": "Собственик",
+            "generateFreelancerDocuments": "Генериране на документи за служители на свободна практика",
+            "currentJobs": "Текущи работни позиции",
+            "upcomingJobs": "Предстоящи работни позиции",
+            "isPayOutEnabled": "Разрешено ли е изплащането?",
+            "pages": "Страници",
+            "annualStatements": "Годишни отчети",
+            "projects": "Проекти",
+            "correction": "Корекция",
+            "selectedAmount": "Избрано ({amount})",
+            "validationFailed": "Валидирането е неуспешно",
+            "upcomingEmployments": "Предстоящи назначения",
+            "sharedDocumentTemplates": "Споделени шаблони на документи",
+            "companyType": "Вид на дружеството",
+            "certificateOfConduct": "Сертификат за поведение",
+            "useHirerValue": "Използване на стойността за наемателя",
+            "useEmploymentAgencyValue": "Използване на стойността за агенцията за подбор на персонал",
+            "type": "Вид",
+            "canNotDeleteEmployeeTitle": "Невъзможно изтриване",
+            "useParentValue": "Използване на стойността за родители",
+            "usingHirerValue": "Използване на стойността за наемателя",
+            "usingEmploymentAgencyValue": "Използване на стойността за агенцията за подбор на персонал",
+            "canNotDeleteEmploymentTitle": "Невъзможно изтриване",
+            "disablePayOutConfirmationText": "Сигурни ли сте, че искате да деактивирате плащанията за тази регистрация?",
+            "homeAddress": "Домашен адрес",
+            "dashboardOrderMobile": "Подредба на таблото за управление при мобилни устройства",
+            "notifications": "Уведомления",
+            "splitPayOutInfo": "Когато тази опция е активирана, редовните часове ще бъдат разделени от другите регистрации в експорта на плащанията.",
+            "splitPayOut": "Разделяне на изплащането",
+            "recurringDeductionInfo": "Периодичните удръжки ще се добавят в началото на всяка седмица/четири седмици/месец (в зависимост от честотата на изплащанията).",
+            "otherInfo": "Друга информация",
+            "variable": "Променлива",
+            "minimum": "Минимум",
+            "new": "Нов",
+            "resellers": "Дистрибутори",
+            "resellerCreationSuccess": "Успешно създаден дистрибутор.",
+            "resellerApprovalSuccess": "Успешно одобрен дистрибутор.",
+            "resellerApprovalFail": "Неуспешно одобрение на дистрибутор.",
+            "reseller": "Дистрибутор",
+            "confirmationImpersonateText": "Сигурни ли сте, че искате да се представите за този потребител?",
+            "googleLogo": "Лого на Google",
+            "missingRequiredAttributesConfirmTitle": "Липсват задължителни полета",
+            "dontSendDocumentsInfo": "За документите, които са избрани тук, няма да се изпращат заявки за подписване.",
+            "submitForApprovalFailed": "Не успяхме да подадем обекта за одобрение.",
+            "notYetSubmittedForApproval": "Все още не е подадено за одобрение.",
+            "dontSendDocuments": "Не изпращайте документи",
+            "submitForApprovalConfirmTitle": "Подайте за одобрение",
+            "submittedForApproval": "Подадено за одобрение.",
+            "submitForApprovalConfirmText": "Позицията ще бъде представена за одобрение.",
+            "missingRequiredAttributesConfirmText": "Позицията все още не може да бъде подадена за одобрение, тъй като някои от задължителните параметри не са попълнени.",
+            "jobCreationSuccess": "Работната позиция е създадена.",
+            "showTotal": "Покажи общо",
+            "saved": "Запазено",
+            "fillAll": "Попълнете всичко",
+            "unableToDeleteItem": "Невъзможност за изтриване на позиция",
+            "resultsCountMobile": "Страница {current} - {total}",
+            "teams": "Екипи",
+            "teamPresets": "Предварителни настройки на екипа",
+            "defaultValue": "Стойност по подразбиране",
+            "messageBox": "Поле за съобщения",
+            "hide": "Скриване",
+            "expiresAt": "Срокът на валидност изтича на",
+            "signRequestSentAt": "Заявката за подписване е изпратена на",
+            "signTokenExpiresAt": "Валидността на идентификатора за подпис изтича на",
+            "missingDocumentsAmount": "Брой липсващи документи",
+            "noPermissionForField": "Липсва разрешение за преглед...",
+            "role": "Роля",
+            "contactHasNoAccountTooltip": "Този контакт няма акаунт",
+            "portals": "Портали",
+            "roles": "Роли",
+            "contractType": "Вид на договора",
+            "receiveNewSignToken": "Получаване на нов идентификатор за подпис",
+            "NoPermissionForSegment": "Нямате необходимите разрешения, за да прегледате този сегмент...",
+            "attachExistingContact": "Присъединяване на съществуващ контакт",
+            "token": "Идентификатор за достъп",
+            "personalAccessTokens": "Персонални идентификатори за достъп",
+            "details": "Детайли",
+            "workweekHours": "Часове на работната седмица",
+            "amount": "Сума",
+            "proFormaPayslip": "Проформа фиш за работна заплата",
+            "fiscalYearlySalary": "Фискална годишна заплата",
+            "result": "Резултат",
+            "subsidyCompany": "Субсидиращо дружество",
+            "subsidy": "Субсидия",
+            "subsidyCompanies": "Субсидиращи дружества",
+            "confirmed": "Потвърдено",
+            "automatic": "Автоматично",
+            "ageHint": "Възраст: {age}",
+            "deductionOverviewPerWeek": "Преглед на удръжките на седмица",
+            "mainContact": "Основен контакт"
+        },
+        "actions": {
+            "addRow": "Добавяне на ред",
+            "approve": "Одобряване",
+            "delete": "Изтриване",
+            "cancel": "Отмяна",
+            "edit": "Редактирай",
+            "new": "Нов",
+            "skip": "Пропусни",
+            "archive": "Архив",
+            "confirm": "Потвърди",
+            "save": "Запази",
+            "next": "Следващ",
+            "previous": "Предходен",
+            "saveTranslations": "Запаметяване на преводите",
+            "sendInvitation": "Изпращане на покана",
+            "deselectAll": "Демаркиране на всички",
+            "viewParentCompany": "Преглед на копманията родител",
+            "remove": "Премахване",
+            "add": "Добавяне",
+            "refresh": "Освежаване",
+            "selectAll": "Избор на всички",
+            "invite": "Покана",
+            "create": "Създай",
+            "linkEnterprise": "Свържете предприятието",
+            "upload": "Качване",
+            "unarchive": "Разархивирай",
+            "addType": "Добавете вид",
+            "clearFilters": "Изчистване на филтрите",
+            "deleteSelected": "Изтриване на избраното ({amount})",
+            "close": "Затваряне",
+            "downloadFormat": "Формат за изтегляне",
+            "import": "Импортиране",
+            "impersonate": "Представяне като",
+            "fill": "Попълнете",
+            "submit": "Подадете",
+            "continue": "Продължете",
+            "attach": "Приложете",
+            "detach": "Отстранете",
+            "selectAllFromRole": "Изберете всички от дадена роля",
+            "ok": "Ок",
+            "copyToken": "Копиране на идентификатор",
+            "actions": "Действия",
+            "editPermissions": "Редактиране на разрешенията",
+            "calculate": "Изчислете",
+            "editUser": "Редактиране на потребител",
+            "reset": "Нулиране"
+        },
+        "plurals": {
+            "month": "Няма месеци | {count} месец | {count} месеци",
+            "week": "Няма седмици| {count} седмица | {count} седмици",
+            "hour": "Няма часове | {count} час | {count} часове",
+            "file": "Няма файлове | {count} файл| {count} файлове"
+        },
+        "tabs": {
+            "contactDetails": "Данни за контакт",
+            "contacts": "Контакти",
+            "details": "Подробности",
+            "documents": "Документи",
+            "employees": "Служители",
+            "hirers": "Наемащи",
+            "log": "Регистър",
+            "notes": "Бележки",
+            "settings": "Настройки",
+            "splitMargin": "Разделен марж",
+            "hourTypes": "Типове часове",
+            "travelTypes": "Видове пътувания",
+            "companyDetails": "Данни за компанията",
+            "invoices": "Фактури",
+            "compensations": "Компенсации",
+            "employments": "Назначения на работа",
+            "hours": "Часове",
+            "reservations": "Резервации",
+            "jobs": "Работни места",
+            "wageAttachments": "Запор на заплати",
+            "deductions": "Удръжки",
+            "freelancers": "Служители на свободна практика",
+            "projects": "Проекти",
+            "margins": "Маржове",
+            "customers": "Клиенти",
+            "tariffs": "Тарифи",
+            "subsidies": "Субсидии",
+            "user": "Потребител"
+        },
+        "errors": {
+            "forbidden": "Нямате достатъчно позволения, за да извършите това действие."
+        },
+        "messages": {
+            "dataUniqueToEnterprise": "Тези данни са уникални за предприятието {enterpriseName}. Щракнете върху {action} за да презапишете тези данни. Данните, които на са били презаписани ще бъдат взети от компанията - майка.",
+            "overriddenValue": "Тази стойност е отхвърлена."
+        },
+        "tooltip": {
+            "copyToClipboard": "Копиране в клипборда"
+        }
+    },
+    "documents": {
+        "static": {
+            "declinedAt": "Отказано на",
+            "category": "Категория",
+            "description": "Описание",
+            "variableSaved": "Променливата е запаметена",
+            "documentPreview": "Преглед на документите",
+            "documentName": "Име на документа",
+            "signedAt": "Подписан на",
+            "subjects": "Предмети",
+            "subjectType": "Тип предмет",
+            "shouldSign": "Трябва да подпише",
+            "canView": "Може да преглежда",
+            "status": "Статус",
+            "fieldType": "Тип поле",
+            "info": "Инфо",
+            "layout": "Външен вид",
+            "name": "Име",
+            "previewValue": "Стойност за преглед",
+            "slug": "Охлюв",
+            "template": "Шаблон",
+            "templateDeleted": "Шаблона е изтрит",
+            "templateSaved": "Шаблона е запаметен",
+            "variable": "Променлива",
+            "variableDeleted": "Променливата е изтрита",
+            "testData": "Тестови данни",
+            "editDocument": "Редакция на документ",
+            "archiveDocumentConfirmationText": "Това ще архивира документа.",
+            "created": "Създаден",
+            "originalFile": "Оригинален файл",
+            "signedFile": "Подписан файл",
+            "signRequestSentAt": "Заявка за подпис изпратена на",
+            "signRequests": "Заявки за подпис",
+            "isOwner": "е собственик",
+            "generateDocument": "Генериране на документ",
+            "fieldOptions": "Опции за полетата",
+            "newDocumentTemplate": "Нов шаблон за документ",
+            "variables": "Променливи",
+            "auditReport": "Доклад от одит",
+            "fillableBySubject": "Попълва се по тема",
+            "uploadFile": "Качете файл",
+            "position": "Позиция",
+            "signDocument": "Подпишете документ",
+            "logoSubject": "Тема на логото",
+            "sendAfterCompletion": "Изпращане след завършване",
+            "document": "Документ",
+            "associateLogoSubject": "Асоциирайте тема на логото",
+            "uploadDocument": "Качване на документ",
+            "subject": "Тема",
+            "linkDeductions": "Свързване на удръжките",
+            "linkDeductionsInfo": "Това ще гарантира, че няма да бъдат създадени формуляри за удръжки при вмъкването им във времевата регистрация.",
+            "hideDocumentConfirmationText": "Сигурни ли сте, че искате да скриете тази задача? Тя няма да се появи отново.",
+            "signRequestsSent": "Заявките за подпис са изпратени",
+            "isVisibleOn": "Вижда се на",
+            "creatableByRoles": "Възможност за създаване по роли",
+            "fallbackValue": "Резервна стойност"
+        },
+        "editor": {
+            "date": "Дата",
+            "employee": "Служител",
+            "employmentAgency": "Агенция по заетостта",
+            "hirer": "Наемащ",
+            "variables": "Променливи",
+            "freelancer": "Фрийлансър",
+            "factoringCompany": "Факторингова компания",
+            "freelancerJob": "Работа на свободна практика",
+            "employment": "Наемане на работа",
+            "enterprise": "Предприятие",
+            "employeeContract": "Договор"
+        },
+        "tabs": {
+            "info": "Информация",
+            "template": "Шаблон",
+            "variables": "Променливи",
+            "subjects": "Субекти"
+        },
+        "steps": {
+            "selectTemplate": "Избор на шаблон",
+            "review": "Преглед",
+            "selectData": "Избор на данни",
+            "subjects": "Предмети",
+            "variables": "Променливи"
+        },
+        "actions": {
+            "showPreview": "Покажи преглед",
+            "generateDocument": "Генериране на документа",
+            "editor": "Редактор",
+            "pdf": "PDF",
+            "download": "Изтегляне",
+            "upload": "Качване",
+            "createFromTemplate": "Създаване от шаблон",
+            "create": "Създаване",
+            "addSubject": "Добавяне на тема",
+            "options": "Опции"
+        }
+    },
+    "auth": {
+        "actions": {
+            "forgotPassword": "Забравена парола",
+            "login": "Вписване",
+            "resetPassword": "Нулиране на парола",
+            "updatePassword": "Актуализиране на парола",
+            "backToLogin": "Обратно към вписването",
+            "logout": "Излизане",
+            "leaveImpersonation": "Напускане на чужда самоличност",
+            "changePassword": "Промяна на паролата",
+            "deactivate": "Деактивирай",
+            "reactivate": "Активирайте отново"
+        },
+        "pages": {
+            "login": "Вписване",
+            "setPassword": "Задаване на парола",
+            "forgotPassword": "Забравена парола",
+            "activateAccount": "Активиране на акаунт"
+        },
+        "static": {
+            "accountActivationSuccess": "Акаунта е активиран",
+            "email": "Имейл",
+            "forgotPasswordSuccessDescription": "Изпратихме Ви имейл с линк за нулиране на паролата Ви.",
+            "passwordResetSuccess": "Нулиране на парола",
+            "forgotPasswordSuccess": "Линка за нулиране на парола е пратен",
+            "logoutConfirmationText": "Сигурни ли сте, че искате да излезете от профила си?",
+            "registrationSuccessful": "Регистрацията е успешна",
+            "leaveImpersonationConfirmationText": "Сигурни ли сте, че искате да напуснете чуждата самоличност?",
+            "passwordUpdated": "Паролата е актуализирана.",
+            "userDeactivated": "Потребителят е деактивиран.",
+            "mobileDashboardOrderUpdated": "Оформлението на мобилното табло за управление е актуализирано.",
+            "tokenExpired": "Валидността на идентификатора е изтекла",
+            "tokenExpiredInfo": "Излязохте от системата, тъй като пълномощното Ви е изтекло. За да продължите, моля, влезте в системата, като ползвате идентификационните си данни.",
+            "authenticated": "Вие сте влезли в системата!",
+            "userReactivated": "Потребителят е активиран отново."
+        }
+    },
+    "form": {
+        "static": {
+            "email": "Имейл адрес",
+            "accountHolder": "Титуляр на партида",
+            "authorizedSignatory": "Упълномощен подписващ",
+            "birthdate": "Рождена дата",
+            "birthplace": "Място на раждане",
+            "cao": "CAO",
+            "cc": "CC",
+            "chamberOfCommerceNumber": "Номер на търговската камара",
+            "contractHours": "Работно време по договор",
+            "city": "Град",
+            "firstName": "Първо име",
+            "country": "Държава",
+            "countryCode": "Код на държавата",
+            "countryOfBirth": "Държава на раждане",
+            "creditLimit": "Кредитен лимит",
+            "curriculumVitae": "Автобиография",
+            "diplomas": "Дипломи",
+            "employeeFunction": "Функция на служителя",
+            "employeeType": "Тип служител",
+            "employmentAgency": "Агенция по заетостта",
+            "employmentDate": "Дата на наемане",
+            "gAccountPercentage": "G-account процент",
+            "etRegulation": "ET регулация",
+            "factor": "Фактор",
+            "factorEtRegulation": "Фактор ET регулация",
+            "factoringCompany": "Факторингова компания",
+            "factorOvertime": "Фактор извънредно време",
+            "gender": "Пол",
+            "hasNoRiskPolicy": "Няма политика за риск?",
+            "hasPayrollTaxReduction": "Намаляване на данъка върху заплатите?",
+            "hirer": "Наемащ",
+            "homewardTravelDistance": "Разстояние за пътуване до дома",
+            "homewardTravelFrequency": "Честота на пътуване до дома",
+            "iban": "IBAN",
+            "id": "ID",
+            "identityType": "Вид самоличност",
+            "middleName": "Бащино име",
+            "initials": "Инициали",
+            "language": "Език",
+            "legalForm": "Легален от",
+            "logo": "Лого",
+            "name": "Име",
+            "phone": "Телефонен",
+            "mainLanguage": "Основен език",
+            "maritalStatus": "Семеен статус",
+            "motivationLetter": "Мотивационно писмо",
+            "nationality": "Националност",
+            "password": "Парола",
+            "passwordConfirmation": "Потвърждение на паролата",
+            "paymentTerm": "Условия за плащане",
+            "payOutFrequency": "Честота на изплащане",
+            "phase": "Фаза",
+            "proofOfRecruitmentAbroad": "Доказателства за наемане в чужбина",
+            "riskGroup": "Рискова група",
+            "sbiCodes": "SBI кодове",
+            "shouldPayOutHolidays": "Изплащане на празници?",
+            "shouldPayOutNonStatutoryHolidays": "Изплащане на незаконосъобразни празници?",
+            "shouldPayOutShortAbsence": "Изплащане на кратко отсъствие?",
+            "shouldPayOutVacationMoney": "Изплащане на пари за отпуск?",
+            "signature": "Подпис",
+            "startDate": "Начална дата",
+            "stippPlan": "StiPP (пенсионен) план",
+            "streetNumber": "Номер",
+            "streetNumberAddition": "Допълнение",
+            "subject": "Субект",
+            "vatNumber": "VAT номер",
+            "vatTariff": "VAT тарифа",
+            "workTimeReductionDays": "Дни за намаляване на работното време",
+            "zipCode": "Пощенски код",
+            "employment": "Служба",
+            "cessionText": "Текст на цесията",
+            "employee": "Служител",
+            "lastName": "Фамилия",
+            "street": "Улица",
+            "certificate": "Сертификат",
+            "citizenServiceNumber": "Номер за обслужване на граждани",
+            "costOfLivingAllowance": "Надбавка за разходите за живот",
+            "documentNumber": "Номер на документ",
+            "gAccount": "G-account?",
+            "expirationDate": "Дата на изтичане",
+            "grossSalary": "Брутна заплата",
+            "homewardTravelCost": "Разходи за пътуване до дома",
+            "identityValidUntil": "Самоличността е валидна до",
+            "invoiceEmail": "Имейл за фактура",
+            "noRiskPolicy": "Без политика за риска",
+            "probation": "Пробация",
+            "rentalOrPurchaseContractHomeCountry": "Договор за наем или покупка от родната страна",
+            "seniorDays": "Дни за възрастни",
+            "shouldDeductHealthInsurance": "Приспадане на здравни осигуровки?",
+            "shouldPayOutReducedHours": "Изплащане на намалени часове?",
+            "terminationDate": "Дата на прекратяване",
+            "caoWorkweek": "CAO работна седмица",
+            "functionScale": "Функционална скала",
+            "useFrameworkAgreement": "Използвайте рамково споразумение",
+            "invoiceEmailCc": "Фактура CC",
+            "enterprise": "Предприятие",
+            "chamberOfCommerceExtract": "Извадка от тъговската камара",
+            "gAccountHolder": "Собственик на G акаунта",
+            "liabilityInsurance": "Застраховка гражданска отговорност",
+            "marginInvoicePerWeek": "Маржин фактура на седмица",
+            "freelancer": "Фрийлансър",
+            "freelancerJob": "Работа на фрйилансъра",
+            "gAccountIban": "G акаунт IBAN",
+            "factorStatePension": "Фактор държавна пенсия",
+            "payslips": "Платежни разписки",
+            "payslipsCc": "Платежни разписки CC",
+            "salesRate": "Курс на продажбите",
+            "pensionPlan": "Пенсионен план",
+            "factorSenior": "Главен фактор",
+            "housingCost": "Разходи за жилищно настаняване",
+            "outOfServiceReasonSlug": "Основание",
+            "factorWithExtraDays": "Коефициент с допълнителни дни",
+            "weeksWorked": "Отработени седмици",
+            "documentTemplate": "Шаблон на документ",
+            "deliveryDeed": "Документ за доставка",
+            "files": "Файлове",
+            "isAgreedWork": "Договорена работа",
+            "endDate": "Крайна дата",
+            "note": "Бележка",
+            "timeRegistration": "Регистрация на време",
+            "timeRegistrationQuestion": "Време на регистрация?",
+            "timeForTime": "Време за време",
+            "workHours": "Работно време",
+            "workStartTime": "Начален час на работа",
+            "workEndTime": "Краен час на работа",
+            "start": "Започнете",
+            "reason": "Причина",
+            "end": "Край",
+            "background": "Фон (портрет)",
+            "outOfServiceDate": "Дата на изтичане на обслужването",
+            "salaryWithExtraDays": "Работна заплата с допълнителни дни",
+            "location": "Местоположение",
+            "workDaysAndHours": "Работни дни и часове",
+            "website": "Уебсайт",
+            "file": "Файл",
+            "invoiceCompany": "Фирма за фактyри",
+            "date": "Дата",
+            "exchangeOvertime": "Обмяна на извънреден труд",
+            "employerNumber": "Номер на работодателя",
+            "currentPassword": "Текуща парола",
+            "payOutEnterprise": "Предприятие за извършване на плащания",
+            "shouldPayOutVacationDays": "Изплащане на отпуски?",
+            "upload": "Качване",
+            "generateFreelancerDocuments": "Генериране на документи за служители на свободна практика",
+            "seasonalWork": "Сезонна работа",
+            "splitInvoiceItemsByDate": "Разделяне на фактурираните часове & пътувания по дата",
+            "activities": "Дейности",
+            "certificateOfConduct": "Сертификат за поведение",
+            "deductMarginVat": "Приспадане на ДДС на маржа",
+            "requireFreelancerVatNumber": "Изисква се ДДС номер на служителя на свободна практика",
+            "blockSalesRate": "Блокиране на процента на продажбите",
+            "ownerCompany": "Дружество собственик",
+            "snfCertification": "SNF сертифициране",
+            "payOutExport": "Експорт на плащания",
+            "isPayOutEnabledQuestion": "Разрешено ли е изплащането?",
+            "healthInsurance": "Здравна застраховка",
+            "employeeTypeSlugs": "Видове служители",
+            "splitInvoicePerEmployee": "Разделяне на фактурата за всеки служител",
+            "splitInvoicePerProject": "Разделяне на фактурата за всеки проект",
+            "splitInvoicePerFreelancer": "Разделяне на фактурата за всеки служител на свободна практика",
+            "companyType": "Вид на дружеството",
+            "healthcareDescription": "Описание на здравните услуги",
+            "qualifications": "Квалификации",
+            "workServices": "Работни услуги",
+            "search": "Търсене",
+            "searchAddress": "Търсене на адрес",
+            "dontSendDocuments": "Не изпращайте документи",
+            "selectedAmount": "{amount} е избрана",
+            "splitPayOut": "Разделяне на изплащането",
+            "user": "Потребител",
+            "contact": "За контакт",
+            "reseller": "Дистрибутор",
+            "noRecordsFound": "Не са открити записи...",
+            "description": "Описание",
+            "canHaveJobs": "Може да има работни позиции",
+            "teamTypes": "Видове екипи",
+            "teamModel": "Обект",
+            "team": "Екип",
+            "teamPresets": "Предварителни настройки на екипа",
+            "role": "Роля",
+            "backgroundLandscape": "Фон (пейзаж)",
+            "type": "Вид",
+            "deductionOverviewPerWeek": "Преглед на удръжките на седмица",
+            "workDays": "Работни дни",
+            "subsidyCompany": "Субсидиращо дружество",
+            "shouldPayOutWorkTimeReductionDays": "Изплащане на дни с намалено работно време?",
+            "shouldPayOutSeniorDays": "Изплащане на пенсионни дни?",
+            "grossSalaryPerHour": "Брутно възнаграждение на час",
+            "subsidy": "Субсидия",
+            "kiwaNumber": "Kiwa Номер",
+            "niwoNumber": "Niwo Номер",
+            "showFunctionOnInvoice": "Показване на функцията във фактурата",
+            "languageCode": "Езиков код"
+        },
+        "steps": {
+            "contactAndFinancial": "Контакт и финансова информация",
+            "documents": "Документи",
+            "employment": "Служба",
+            "files": "Файлове",
+            "foreignNationality": "Чужда националност",
+            "general": "Общи",
+            "documentsAndEmployment": "Документи и заетост",
+            "job": "Работа",
+            "etRegulation": "ET регулация",
+            "account": "Акаунт",
+            "employer": "Работодател",
+            "contract": "Договор",
+            "hirerRemuneration": "Възнаграждение на наемателя"
+        },
+        "hint": {
+            "startTypingToSearch": "Започнете да пишете, за да търсите",
+            "lockPensionPlan": "Заключете пенсионния план за да не бъде коригиран автоматично."
+        },
+        "actions": {
+            "upload": "Качване"
+        }
+    },
+    "dashboard": {
+        "tabs": {
+            "newEmployees": "Нови служители",
+            "newEmploymentAgencies": "Нови агенции по заетостта",
+            "newHirers": "Нови наематели",
+            "creditApplications": "Апликации за кредити",
+            "newFreelancers": "Нови фрийлансъри"
+        },
+        "charts": {
+            "revenue": "Приходи",
+            "employees": "Служители",
+            "workedHours": "Изработени часове",
+            "hirers": "Работодатели",
+            "employmentAgencies": "Агенции за подбор на персонал",
+            "freelancers": "Служители на свободна практика",
+            "temporary": "Временно",
+            "overtime": "Извънреден труд",
+            "surchargeHours": "Часове за доплащане",
+            "margin": "Марж",
+            "freelancerCosts": "Разходи за служители на свободна практика",
+            "payroll": "Ведомост за заплати"
+        },
+        "static": {
+            "functions": "Функции",
+            "messageBox": "Кутия за съобщения",
+            "yourReservations": "Вашите резервации",
+            "recentPayslips": "Последни фишове за заплати",
+            "recentInvoices": "Последни фактури",
+            "unsignedContracts": "Неподписани договори",
+            "hirersWithoutCao": "Назначения без КТД",
+            "annualStatements": "Годишни отчети",
+            "notifications": "Уведомления",
+            "statistics": "Статистически данни",
+            "newRegistrations": "Нови регистрации",
+            "charts": "Графики"
+        },
+        "functions": {
+            "timeRegistration": "Регистриране на време",
+            "imports": "Импорти",
+            "exports": "Експорти",
+            "invoices": "Фактури",
+            "documents": "Документи",
+            "payslipsAndAnnualStatements": "Фишове за заплати / годишни отчети"
+        },
+        "titles": {
+            "employmentAgencies": "Активни агенции по заетостта",
+            "hirers": "Активни наематели",
+            "freelancers": "Активни фрийлансъри",
+            "employees": "Активни служители",
+            "costExcludingVat": "Разход {year} (изкл. ДДС)",
+            "marginExcludingVat": "Марж (изкл. ДДС)",
+            "resellers": "Дистрибутори"
+        },
+        "messageBox": {
+            "payOut": "Изплащане ({frequency})",
+            "birthdays": "Рожденни дни",
+            "shouldSignDocuments": "Трябва да се подпишат документи",
+            "missingDocuments": "Липсващи документи",
+            "expiredContracts": "Изтекли договори",
+            "expiringContracts": "Изтичащи договори",
+            "renewableContracts": "Договори за подновяване",
+            "lockablePeriods": "Периоди с възможност за заключване"
+        }
+    },
+    "documentTemplates": {
+        "static": {
+            "default": "По подразбиране",
+            "noTranslations": "Няма преводи",
+            "deleteConfirmationText": "Сигурни ли сте, че искате да изтриете този шаблон на документ?",
+            "deleteSharedDocumentTemplate": "Сигурни ли сте, че искате да спрете да използвате този шаблон на документ?",
+            "deleteVariableConfirmationText": "Сигурни ли сте, че искате да изтриете тази променлива в документа?",
+            "kiwaDeclarationOfEmployment": "Kiwa Декларация за трудова заетост"
+        },
+        "actions": {
+            "copyToCurrentEnterprise": "Копиране в текущото предприятие",
+            "addSharedDocumentTemplate": "Добавяне на шаблон за споделен документ"
+        }
+    },
+    "enum": {
+        "contractPhase": {
+            "phase1And2": "Фаза 1/2 (А)",
+            "phase3": "Фаза 3 (Б)",
+            "phase4": "Фаза 4 (С)"
+        },
+        "employeeType": {
+            "normal": "Нормално",
+            "payroll": "Заплати",
+            "temporary": "Временен",
+            "other": "Други"
+        },
+        "gender": {
+            "female": "Жена",
+            "male": "Мъж",
+            "other": "Други"
+        },
+        "identityType": {
+            "alienIdentityCard": "Чужда лична карта",
+            "diplomaticPassport": "Дипломатски паспорт",
+            "dutchIdentityCard": "Холандска лична карта",
+            "dutchPassport": "Холандски паспорт",
+            "none": "Няма",
+            "passportEeaCountry": "Паспорт от държава от ЕИЗ",
+            "passportNonEeaCountry": "Паспорт на страна извън ЕИЗ",
+            "refugeePassport": "Паспорт на бежанец",
+            "residenceDocuments": "Документи за пребиваване",
+            "servicePassport": "Сервизен паспорт",
+            "alienPassport": "Чуждестранен паспорт",
+            "dutchMunicipalitiesIdentityCard": "Лична карта на холандските общини"
+        },
+        "maritalStatus": {
+            "divorced": "Разведен",
+            "livingTogetherWithoutContract": "Съвместен живот без договор",
+            "married": "Женен",
+            "registeredPartnership": "Регистрирано партньорство",
+            "unmarried": "Неженен",
+            "widowhood": "Вдовец",
+            "livingTogetherWithContract": "Съвместен живот с договор"
+        },
+        "vatTariff": {
+            "shifted": "Изместен",
+            "exempt": "Освободен"
+        },
+        "fieldType": {
+            "text": "Текст",
+            "textArea": "Текстова област",
+            "hirerHourType": "Часови тип на наемателя",
+            "checkbox": "Квадрат за отметка",
+            "money": "Пари",
+            "datePicker": "Избор на дата"
+        },
+        "subsidyType": {
+            "none": "Няма",
+            "targetJobAgreement": "Работно споразумение за целевата група и за лицата с образователни затруднения",
+            "hiringDisabledEmployee": "Наемане на служител с увреждания",
+            "reassigningDisabledEmployee": "Преназначаване на служител с професионално увреждане"
+        }
+    },
+    "fieldTypes": {
+        "static": {
+            "checkbox": "Квадрат за отметка",
+            "multiSelect": "Множествен избор",
+            "noOptions": "Няма опции",
+            "select": "Избор",
+            "textField": "Текстово поле",
+            "radioButton": "Радио бутон"
+        }
+    },
+    "language": {
+        "actions": {
+            "select": "Избор"
+        },
+        "static": {
+            "default": "По подразбиране"
+        }
+    },
+    "menu": {
+        "actions": {
+            "employees": "Служители",
+            "employmentAgencies": "Агенции по заетостта",
+            "functions": "Функции",
+            "hirers": "Наемащи",
+            "settings": "Настройки",
+            "invoices": "Фактури",
+            "exports": "Експорти",
+            "dashboard": "Работно табло",
+            "timeRegistration": "Регистриране на време",
+            "imports": "Внесени стоки",
+            "freelancers": "Работещи на свободна практика",
+            "logout": "Изход от системата",
+            "documents": "Документи",
+            "language": "Език",
+            "leaveImpersonation": "Напускане на чужда самоличност",
+            "sickReports": "Доклади за заболявания",
+            "outOfService": "Изключен от експлоатация",
+            "account": "Сметка",
+            "payslips": "Фишове за заплати",
+            "resellers": "Дистрибутори",
+            "proFormaPayslip": "Проформа фиш за работна заплата"
+        }
+    },
+    "settings": {
+        "pages": {
+            "documents": "Документи",
+            "factoringCompanies": "Факторинг компании",
+            "enterprises": "Предприятия",
+            "webhooks": "Уебхукове",
+            "users": "Потребители",
+            "personalAccessTokens": "Персонални идентификатори за достъп",
+            "teams": "Екипи",
+            "roles": "Роли",
+            "subsidyCompanies": "Субсидиращи дружества"
+        }
+    },
+    "validation": {
+        "errors": {
+            "checkForm": "Моля, проверете формуляра за грешки",
+            "addressInvalid": "Не успяхме да открием този адрес.",
+            "alternativeAddress": "Не успяхме да открием този адрес, може би сте имали предвид {address}?"
+        },
+        "static": {
+            "required": "Това поле е задължително",
+            "unableToDeleteItem": "Невъзможност за изтриване на избрания елемент"
+        }
+    },
+    "timeRegistration": {
+        "static": {
+            "week": "Седмица",
+            "compensationDescriptiveText": "Описателен текст на компенсацията...",
+            "amount": "Сума",
+            "hours": "Часове",
+            "project": "Проект",
+            "location": "Локация",
+            "notes": "Бележки",
+            "payOut": "Изплащане",
+            "hourType": "Вид час",
+            "date": "Дата",
+            "from": "От",
+            "to": "До",
+            "kilometers": "Километри",
+            "reservation": "Резервация",
+            "currentState": "Текущо състояние",
+            "newState": "Ново състояние",
+            "compensations": "Компенсации",
+            "reservations": "Резервации",
+            "chargeTo": "Да се таксува",
+            "maxDistance": "Максимално разстояние",
+            "deductionDescriptiveText": "Описателен текст за удръжката...",
+            "deduction": "Удръжка",
+            "deductionAmount": "Сума на удръжката",
+            "selectADeduction": "Изберете удръжка",
+            "uploadDeductionAttachment": "Качете приложение към удръжката",
+            "deductions": "Удръжки",
+            "travelType": "Тип пътуване",
+            "invoiceAlreadySaved": "Тази фактура е вече запаметена.",
+            "reservationDescriptiveText": "Описателен текст на резервацията...",
+            "deleteKilometersConfirmationText": "Сигурни ли сте, че искате да изтриете това?",
+            "deductionAttachment": "Приложение за удръжката",
+            "attachmentNotRequired": "Не се изисква приложение",
+            "invoiceCreated": "Фактурата е създадена",
+            "compensation": "Компенсация",
+            "deployed": "Разгърнат",
+            "staff": "Персонал",
+            "companies": "Компании",
+            "function": "Функция",
+            "freelancers": "Служители на свободна практика",
+            "invoicingFailed": "Не успяхме да създадем фактурите.",
+            "status": "Статус",
+            "deleteTimeRegistrationConfirmationText": "Регистрираното време ще бъде изтрито.",
+            "unlockFailed": "Не успяхме да отключим периода.",
+            "unlocked": "Периодът е отключен.",
+            "hourInfoText": "Компенсациите и удръжките се преизчисляват автоматично при актуализиране на часовете.",
+            "jobIsInactiveText": "Тази дейност не е активна през избрания период.",
+            "importSuccessful": "Импортирането е успешно",
+            "validationFailed": "Неуспешно валидиране",
+            "import": "Импортиране",
+            "downloadFormatFailed": "Неуспешно създаване на формата.",
+            "employmentIsInactiveText": "Това трудово правоотношение не е активно през избрания период.",
+            "travelDuplicated": "Пътуването беше дублирано.",
+            "creatingInvoicesStatusText": "Фактурите се създават. След като този процес приключи, фактурите могат да се видят тук.",
+            "importStarted": "Импортирането е започнало. В зависимост от размера, завършването му може да отнеме до няколко минути.",
+            "deleteTimeRegistrationsConfirmationText": "Сигурни ли сте, че искате да изтриете избраните времеви регистрации?",
+            "hourDeleted": "Часовете бяха изтрити.",
+            "compensationDeleted": "Обезщетението беше изтрито.",
+            "copyFailed": "Не успяхме да копираме реда.",
+            "travelSaved": "Пътуването беше запазено.",
+            "travelDeleted": "Пътуването беше изтрито.",
+            "returnTravelSaved": "Пътуването в обратна посока беше запазено.",
+            "creatingInvoicesInfo": "Фактурите са планирани за създаване.",
+            "shouldNotSendWithInvoice": "Не изпращайте заедно с фактура",
+            "timeRegistrationsDeleted": "Времевите регистрации са изтрити.",
+            "autoCalculateDeductionsInfo": "Ако тази опция е активирана, неизплатените удръжки ще се преизчисляват автоматично при регистриране на часове или генериране на фактури.",
+            "noRegistrationsFound": "Не са открити регистрации.",
+            "someHoursNotCopied": "Някои часови регистрации не могат да бъдат копирани поради липсващ вид на часа.",
+            "hoursCopied": "Часовете бяха копирани.",
+            "someTravelsNotCopied": "Някои пътнически регистрации не могат да бъдат копирани поради липсващ вид на пътуването.",
+            "travelsCopied": "Пътуванията бяха копирани.",
+            "noOutstandingTimeRegistrationsFound": "Не са открити неплатени времеви регистрации."
+        },
+        "actions": {
+            "cao": "CAO",
+            "duplicateKilometerRow": "Дублиране на реда",
+            "editHours": "Редакция на часовете",
+            "uploadKilometerAccountability": "Качете отчетност за километрите",
+            "invoice": "Фактура",
+            "correction": "Корекция",
+            "saveInvoice": "Запаметяване на фактурата",
+            "receipts": "Касови бележки",
+            "deployed": "Разгърнат",
+            "staff": "Персонал",
+            "duplicateReturnTravel": "Обратно пътуване",
+            "addRow": "Добавяне на ред",
+            "copyPreviousPeriod": "Копирайте предишен период",
+            "uploadAttachments": "Качване на прикачени файлове",
+            "add": "Добавяне",
+            "closePeriod": "Период на затваряне",
+            "import": "Импортиране",
+            "upload": "Качване",
+            "downloadFormat": "Формат за изтегляне",
+            "excel": "Ексел",
+            "deleteInvoice": "Изтриване на фактура",
+            "generateInvoice": "Създаване на фактура",
+            "viewInvoice": "Изглед на фактурата",
+            "previewInvoice": "Предварителен преглед на фактурата",
+            "viewHours": "Преглеждане на часовете",
+            "autoCalculate": "Автоматично изчисление",
+            "unlock": "Отключване",
+            "createTimeRegistration": "Създаване на времева регистрация",
+            "selectLockable": "Изберете всички",
+            "copyFromEmployee": "Копирайте от друг служител",
+            "copyFromFreelancer": "Копирайте от друг служител на свободна практика",
+            "saveInvoices": "Запазване на фактурите",
+            "deselectAll": "Премахване на всички"
+        },
+        "tabs": {
+            "hours": "Часове",
+            "kilometers": "Километри",
+            "compensations": "Компенсации",
+            "reservations": "Резервации",
+            "deductions": "Удръжки"
+        }
+    },
+    "api": {
+        "kvk": {
+            "static": {
+                "apiOffline": "KVK Api е офлайн",
+                "companyInfoSuccessfullyFilled": "Информацията за компанията е попълнена успешно"
+            },
+            "validation": {
+                "errors": {
+                    "cocNotFound": "Номерът на търговската камара не е намерен."
+                }
+            }
+        },
+        "creditsafe": {
+            "validation": {
+                "errors": {
+                    "companyNotFound": "Компанията не е намерена"
+                }
+            },
+            "static": {
+                "apiOffline": "Приложният програмен интерфейс за безопасен кредит е офлайн."
+            }
+        }
+    },
+    "hourType": {
+        "static": {
+            "name": "Име",
+            "timeForTime": "Време за време",
+            "value": "Стойност",
+            "unit": "Единица",
+            "none": "Няма",
+            "employeesWithAccess": "Служители със достъп",
+            "employeeHasHourTypeOverrides": "Служителят има право на отмяна тип часове",
+            "hourType": "Тип час",
+            "saved": "Запаметен",
+            "deleted": "Изтрито",
+            "caoSurcharges": "CAO допълнителни такси",
+            "timeForTimeEnabled": "Времето за време е активирано",
+            "hint": "Съвет",
+            "frequency": "Честота",
+            "employeesWithoutAccess": "Служители без достъп",
+            "default": "Стандартно зададени часове",
+            "timeForTimeDisabled": "Времето за време е деактивирано",
+            "defaultForNewEmployeeUpdated": "Актуализиране на типовете часове по подразбиране за нов служител",
+            "type": "Вид",
+            "defaultForNewEmployee": "По подразбиране за нов служител",
+            "actualNetSalary": "Действителна нетна заплата",
+            "hourTypes": "Видове часове",
+            "useDesiredNetSalary": "Използвайте желаната нетна заплата",
+            "desiredNetSalary": "Желана нетна заплата",
+            "difference": "Разлика",
+            "chargeTo": "Фактурирайте на"
+        },
+        "actions": {
+            "enableTimeForTimeForAll": "Активиране на време за време за всички",
+            "takeAccessFromAll": "Отнемане на достъп от всички",
+            "grantAccessToAll": "Даване на достъп на всички",
+            "disableTimeForTimeForAll": "Деактивиране на време за време за всички"
+        }
+    },
+    "deduction": {
+        "static": {
+            "advance": "Аванс",
+            "penalty": "Наказание",
+            "certificateOfGoodBehavior": "Сертификат за добро държание",
+            "workingClothesWorkingShoes": "Работни дрехи работни обувки",
+            "eduction": "Образование",
+            "housingExtra": "Жилищна екстра",
+            "healthInsurance": "Здравно осигуряване",
+            "healthInsuranceExtra": "Екстра здравно осигуряване",
+            "housing": "Жилище",
+            "personalContributionForTransport": "Личен принос за транспорт",
+            "advanceExtra": "Аванс екстра",
+            "mealAllowance": "Надбавка за храна",
+            "personnelAssociation": "Асоциация на персонала"
+        }
+    },
+    "frequency": {
+        "static": {
+            "weekly": "Ежеседмично",
+            "fourWeekly": "На четири седмици",
+            "monthly": "Ежемесечно",
+            "week": "Седмица",
+            "fourWeek": "Четири седмичен",
+            "hourly": "Почасово",
+            "daily": "Ежедневно",
+            "hour": "Час",
+            "day": "Ден",
+            "month": "Месец",
+            "hourShort": "ч",
+            "dayShort": "д",
+            "weekShort": "с",
+            "fourWeekShort": "4с",
+            "monthShort": "м"
+        }
+    },
+    "reservation": {
+        "static": {
+            "holidayHoursLegal": "Законови празнични часове",
+            "holidayPay": "Празнично заплащане",
+            "workTimeReductionHours": "Часове редуцирани от работното време",
+            "seniorDays": "Дни на възрастните хора",
+            "timeForTime": "Време за време",
+            "holidayHoursExtraLegal": "Извън законови празнични часове",
+            "holidayHours": "Празнични часове",
+            "holidays": "Празници",
+            "shortAbsence": "Кратко отсъствие",
+            "time": "Време",
+            "money": "Пари",
+            "reservation": "Резервация",
+            "updatedAt": "Актуализирано на",
+            "amount": "Сума"
+        }
+    },
+    "compensation": {
+        "static": {
+            "employeesWithoutAccess": "Служители без достъп",
+            "none": "Няма",
+            "employeesWithAccess": "Служители с достъп",
+            "name": "Име",
+            "value": "Стойност",
+            "compensation": "Компенсация",
+            "saved": "Запаметено",
+            "deleted": "Изтрито",
+            "hint": "Съвет",
+            "chargeTo": "Таксуване към",
+            "payOutEnabled": "Разплащането е активирано",
+            "isGross": "Е бруто",
+            "employeeHasCompensationOverrides": "Служителят има право на отмяна на компенсации",
+            "unit": "Единица",
+            "caoCompensations": "CAO компенсации",
+            "factor": "Фактор",
+            "frequency": "Честота",
+            "defaultForNewEmployee": "По подразбиране за нов служител",
+            "defaultForNewEmployeeUpdated": "Компенсациите по подразбиране за нов служител са актуализирани",
+            "checkDesiredSalaryOnPayslipPayments": "Проверка на желаното трудово възнаграждение",
+            "payslipPaymentsDesiredSalaryExplanation": "При импортиране на плащания от фишове за заплати тази функция създава компенсация за всеки служител, който има желано трудово възнаграждение (зададено при импортирането на регистрацията на време), което е по-високо от плащането от фиша за заплати.",
+            "compensations": "Компенсации",
+            "desiredSalaryCompensation": "Желана компенсация за трудово възнаграждение",
+            "noCompensations": "Няма компенсации",
+            "deviantFactor": "Фактор на отклонението",
+            "salesRate": "Процент на продажбите",
+            "compensationSaved": "Компенсациите са запазени.",
+            "enabledCompensationsRecalculatedInfo": "Когато активирате компенсациите, те се изчисляват автоматично във всички оставащи регистрации на време (ако има регистрирани часове)."
+        },
+        "actions": {
+            "grantAccessToAll": "Даване на достъп на всички",
+            "takeAccessFromAll": "Отнемане на достъп от всички",
+            "useDeviatingFactor": "Използвайте фактор на отклонението",
+            "addSalesRate": "Добавете процент на продажбите"
+        }
+    },
+    "stippPlanType": {
+        "static": {
+            "basic": "Базов",
+            "plus": "Плюс"
+        }
+    },
+    "travelType": {
+        "static": {
+            "name": "Име",
+            "hint": "Съвет",
+            "value": "Стойност",
+            "net": "Нето",
+            "none": "Няма",
+            "employeesWithAccess": "Служители с достъп",
+            "travelType": "Тип пътуване",
+            "saved": "Запаметен",
+            "deleted": "Изтрито",
+            "default": "По подразбиране",
+            "unit": "Единица",
+            "gross": "Бруто",
+            "employeesWithoutAccess": "Служители без достъп",
+            "employeeHasTravelTypeOverrides": "Служителят има право на отмяна тип пътуване",
+            "caoTravelExpenses": "CAO разходи по пътуване",
+            "defaultForNewEmployeeUpdated": "Актуализиране на типовете пътувания по подразбиране за нов служител",
+            "defaultForNewEmployee": "По подразбиране за нов служител",
+            "noTravels": "Няма пътувания",
+            "chargeTo": "Фактурирайте на"
+        },
+        "actions": {
+            "grantAccessToAll": "Предоставете достъп на всички",
+            "takeAccessFromAll": "Отнемете достъпа от всички"
+        }
+    },
+    "role": {
+        "static": {
+            "administrator": "Администратор",
+            "employee": "Служител",
+            "employmentAgency": "Агенция по заетостта",
+            "hirer": "Наемащ",
+            "freelancer": "Служител на свободна практика",
+            "superAdministrator": "Супер администратор",
+            "roleDeleted": "Ролята е изтрита.",
+            "deleteRoleText": "Сигурни ли сте, че искате да изтриете тази роля?"
+        }
+    },
+    "hourTypes": {
+        "actions": {
+            "edit": "Редакция"
+        }
+    },
+    "invoice": {
+        "static": {
+            "number": "Номер",
+            "total": "Общо",
+            "salesInvoice": "Фактура",
+            "costsOverview": "Оглед на разходите",
+            "salesInvoices": "Фактури за продажби",
+            "marginInvoices": "Маржин фактури",
+            "searchInvoices": "Търсене на фактури",
+            "payments": "Плащания",
+            "addPayment": "Добавете плащане",
+            "gAccount": "G-account",
+            "log": "Регистър",
+            "period": "Период",
+            "marginInvoice": "Марж фактура",
+            "deductionsOverview": "Оглед на удръжките",
+            "noPaymentsFound": "Няма намерени плащания",
+            "ipAddress": "IP адрес",
+            "invoice": "Фактура",
+            "gAccountPaid": "G-сметка платена",
+            "paidAt": "Платени на",
+            "invoiceWillBeBilled": "Фактурите за този период ще бъдат начислени скоро.",
+            "description": "Описание",
+            "attachments": "Прикачени файлове",
+            "sales": "Продажби",
+            "deductions": "Удръжки",
+            "invoiceDate": "Дата на фактурата",
+            "billedAt": "Фактурирано на",
+            "download": "Изтегляне",
+            "files": "Файлове",
+            "info": "Информация",
+            "createdBy": "Създадено от",
+            "totalPaid": "Общо изплатени суми",
+            "pending": "Висящ",
+            "queued": "Чакащи на опашка",
+            "billed": "Фактурирани",
+            "paid": "Платени",
+            "createdAt": "Създадени на",
+            "sendAt": "Изпратени на",
+            "invoiceWillBeSent": "Фактурата ще бъде изпратена.",
+            "costs": "Разходи",
+            "margin": "Марж",
+            "freelancerInvoice": "Фактура за фрийлансър",
+            "freelancer": "Служител на свободна практика",
+            "customInvoice": "Персонализирана фактура",
+            "creditInvoice": "Кредитна фактура",
+            "hideEmail": "Скриване на имейл",
+            "rows": "Редици",
+            "preview": "Преглед",
+            "agreedWorkInvoice": "Договорена фактура за работа",
+            "agreedWork": "Договорена работа",
+            "customCosts": "Персонализирани разходи",
+            "items": "Елементи",
+            "newItem": "Нов елемент",
+            "unitPrice": "Единична цена",
+            "amount": "Сума",
+            "item": "Елемент",
+            "confirmTypeChangeText": "Всички съществуващи елементи на фактурата ще бъдат премахнати. Сигурни ли сте, че искате да промените типа?",
+            "makeMargin": "Създайте марж",
+            "vat": "ДДС",
+            "deduction": "Удръжка",
+            "employee": "Служител",
+            "remuneration": "Възнаграждение",
+            "exportInvalidText": "Избрани са твърде много фактури, моля, ограничете броя на фактурите, като използвате филтрите по-горе.",
+            "exportDescriptiveText": "Максимум {count} фактури могат да бъдат експортирани наведнъж. Всички филтри, посочени в полето за търсене, ще бъдат използвани за ограничаване на количеството фактури при експортирането.",
+            "exports": "Експорти",
+            "deleteInvoiceText": "Сигурни ли сте, че искате да изтриете тази фактура?",
+            "custom": "Персонализиран",
+            "customCostsOverview": "Преглед на персонализираните разходи",
+            "billing": "Фактуриране",
+            "resellerMarginInvoice": "Фактура за марж на дистрибутора",
+            "resellerMargin": "Марж на дистрибутора",
+            "relatedInvoices": "Свързани фактури",
+            "customInvoiceItemVatNotDefaultConfirmationText": "Сигурни ли сте, че искате да използвате друга ставка за ДДС?"
+        },
+        "actions": {
+            "addPayment": "Добавете плащане",
+            "addToQueue": "Добави към опашката",
+            "billNow": "Фактурирай сега",
+            "sendNow": "Изпрати сега",
+            "download": "Изтегляне",
+            "create": "Създай",
+            "createExport": "Експортиране на {count} фактури",
+            "preview": "Предварителен преглед",
+            "downloadAll": "Изтегляне на всички",
+            "billSelected": "Платете избраните фактури",
+            "selectBillable": "Изберете подлежащи на плащане",
+            "deselectAll": "Премахване на всички"
+        },
+        "filter": {
+            "from": "От",
+            "to": "До",
+            "type": "Вид",
+            "queuedOnly": "Само на опашка",
+            "outstandingOnly": "Само изключителни"
+        }
+    },
+    "factoring": {
+        "static": {
+            "factoringCompany": "Факторингова компания",
+            "details": "Подробности",
+            "impact": "Въздействие",
+            "factris": "Фактури",
+            "type": "Тип",
+            "cessionText": "Текст на цесията",
+            "deleteFactoringCompanyConfirmationText": "Наистина ли искате да изтриете тази факторинг компания?",
+            "typeInfo": "Типът определя какъв формат ще има експортът.",
+            "sendInvoice": "Изпращане на фактури?",
+            "nlCredit": "NL- Кредит"
+        }
+    },
+    "enterprises": {
+        "static": {
+            "enterprise": "Предприятие",
+            "details": "Подробности",
+            "standardDocuments": "Стандартни документи",
+            "noFileUploaded": "Все още няма качен файл.",
+            "uploadNewFile": "Качване на нов файл",
+            "deleteStandardDocumentConfirmationText": "Сигурни ли сте, че искате да изтриете този стандартен документ?",
+            "standardDocumentUpdateSuccess": "Успешно акутализиране на стандартния документ.",
+            "shouldNotifyCustomers": "Клиентите трябва да се уведомят",
+            "canHaveJobsInfo": "Ако тази опция е деактивирана, не могат да се създават назначения или работни позиции за служители на свободна практика за работодатели, които са свързани с това предприятие.",
+            "payOutEnterpriseInfo": "Изплащащото предприятие може да бъде променено, като се избере изплащащо предприятие на служителя или наемодателя.",
+            "canBeInvoicedInfo": "Ако тази опция е активирана, това предприятие ще бъде достъпно при създаването на нов работодател като агенция за подбор на персонал."
+        }
+    },
+    "documentSubjectType": {
+        "static": {
+            "employment": "Назначаване",
+            "employmentAgency": "Агенция по заетостта",
+            "hirer": "Наемащ",
+            "employee": "Служител",
+            "enterprise": "Предприятие",
+            "factoringCompany": "Факторингова компания",
+            "freelancer": "Фрийлансър",
+            "freelancerJob": "Работа на свободна практика",
+            "employeeContract": "Договор на служител"
+        }
+    },
+    "exports": {
+        "static": {
+            "queued": "На опашка",
+            "running": "Тича",
+            "completed": "Завършено",
+            "cancelled": "Отменено",
+            "failed": "Провали се",
+            "factoringCompanyExport": "Износ на факторингови компании",
+            "options": "Опции",
+            "exports": "Експорти",
+            "generatedAt": "Генерирано на",
+            "deleteExportConfirmationText": "Това ще изтрие експорта.",
+            "notStarted": "Не е започнало",
+            "payOutInfo": "Името на експорта ще бъде същото като това на най-високия избран период. Всички избрани регистрации в по-ниски периоди ще бъдат експортирани в отделни файлове. Всички неплатени фактури ще бъдат таксувани.",
+            "deleteWageAttachmentConfirmationText": "Прикаченият файл със заплатата ще бъде изтрит.",
+            "deleteTravelTypeConfirmationText": "Сигурни ли сте, че искате да изтриете този тип пътуване?",
+            "deleteInvoiceConfirmationText": "Това ще изтрие всички свързани фактури и ще отключи времевата регистрация за този период.",
+            "marginAndDeductionsExport": "Експорт на марж и удръжки",
+            "export": "Експорт",
+            "periods": "Периоди",
+            "total": "Общо",
+            "exportSuccessful": "Успешен експорт",
+            "deleteSepaOverviewExportConfirmationText": "Този експорт ще бъде изтрит и статуса на плащанията за всяка фактура в този експорт ще бъде нулиран.",
+            "selectedInvoices": "Вие сте избрали {count} фактури.",
+            "payOutExport": "Експорт на плащанията",
+            "noRegistrationsFound": "Не са открити регистрации.",
+            "deletePayOutExportConfirmationText": "Експортът ще бъде изтрит и всички регистрации в този експорт ще могат да се експортират отново.",
+            "registrations": "Регистрации",
+            "noInvoicesFound": "Не са открити фактури.",
+            "deductionsDocumentNotSigned": "Документът за удръжки не е подписан.",
+            "employeesExport": "Експорт на служителите",
+            "archiveEmploymentAgencyConfirmationText": "Сигурни ли сте, че искате да архивирате тази агенция за човешки ресурси?",
+            "archiveHirerConfirmationText": "Сигурни ли сте , че искате да архивирате този наемател?",
+            "deleteCompensationConfirmationText": "Сигурни ли сте, че искате да изтриете тези компенсации?",
+            "deleteHourTypeConfirmationText": "Сигурни ли сте, че искате да изтриете този тип час?",
+            "missingDocumentsForPayOutExport": "Липсват подписани документи",
+            "unarchiveHirerConfirmationText": "Сигурни ли сте, че искате да разархивирате този наемател?",
+            "unarchiveEmploymentAgencyConfirmationText": "Сигурни ли сте, че искате да разархивирате тази агенция по труда?",
+            "saveInvoiceConfirmationText": "Фактурите ще бъдат запазени и периодът ще бъде заключен.",
+            "invoice": "Фактура",
+            "marginOverviewExport": "Експортиране на преглед на маржа",
+            "marginOverview": "Преглед на маржа",
+            "accountingSoftwareExport": "Счетоводен софтуер",
+            "freelancersPayoutExport": "Експорт на плащанията на служителите на свободна практика",
+            "exportHealhInsuranceRemainder": "Експорт на неекспортирани здравни застраховки",
+            "markAllAsDoNotExport": "Маркирайте всички като не експортирайте",
+            "hollandZorg": "Hollandzorg",
+            "editExport": "Редактиране на експорта",
+            "addEmployee": "Добавяне на служител",
+            "unexportedHealhInsuranceCount": "{count} неекспортирани здравни застраховки.",
+            "healthInsuranceExport": "Експорт на здравни застраховки",
+            "doNotExport": "Не експортирайте",
+            "doExport": "Експортирайте",
+            "markAllAsDoExport": "Маркирайте всички като експортирайте",
+            "exported": "Експортирани",
+            "newEmployees": "Нови служители",
+            "markAllAsChanged": "Маркиране на всички като променени",
+            "changedEmployees": "Променени служители",
+            "markAllAsNew": "Маркиране на всички като нови",
+            "archiveResellerConfirmationText": "Сигурни ли сте, че искате да архивирате този дистрибутор?",
+            "unarchiveResellerConfirmationText": "Сигурни ли сте, че искате да деархивирате този дистрибутор?",
+            "mijnSubsidie": "Моята субсидия",
+            "mijnSubsidieExport": "Експорт на моята субсидия",
+            "resellerMarginsExport": "Експорт на маржовете на дистрибутора",
+            "historicalPayOutExport": "Исторически експорт на изплащанията",
+            "historicalPayOutInfo": "Ще бъдат създадени експорти за всяка избрана регистрация на време. Прилагат се обичайните правила за изплащане, с изключение на това, че не се изчислява натрупване на резервации."
+        },
+        "pages": {
+            "factoringCompany": "Факторинг компания",
+            "marginAndDeductions": "Марж и удръжки",
+            "payOutExport": "Експорт на плащанията",
+            "employeesExport": "Експорт на служители",
+            "marginOverviewExport": "Експортиране на преглед на маржа",
+            "accountingSoftwareExport": "Счетоводен софтуер",
+            "hollandZorgExport": "Hollandzorg Експорт",
+            "freelancersPayout": "Изплащания на служители на свободна практика",
+            "mijnSubsidieExport": "Експорт на моята субсидия",
+            "resellerMargins": "Маржове на дистрибутора"
+        },
+        "actions": {
+            "refresh": "Обнови",
+            "selectAll": "Избери всички",
+            "clearSelection": "Изчистване на подбора",
+            "generate": "Генерирайте",
+            "selectPeriod": "Изберете период",
+            "exactDate": "Точна дата",
+            "timePeriod": "Времеви период",
+            "showOldExports": "Показване на стари експорти"
+        },
+        "payOut": {
+            "static": {
+                "skipNonExportableValidation": "Пропускане на валидирането на липсващи документи",
+                "notExportedEmployeesInfo": "Някои отрицателни часове на тези служители не могат да бъдат експортирани:"
+            },
+            "actions": {
+                "historical": "Исторически"
+            }
+        },
+        "employees": {
+            "static": {
+                "createFreshExport": "Нов експорт",
+                "createFreshExportInfo": "Когато опцията \"нов експорт\" е активирана, всички активни в момента служители ще бъдат включени в експорта."
+            }
+        }
+    },
+    "documentStatus": {
+        "static": {
+            "created": "Създаден",
+            "declined": "Отменен",
+            "expired": "Изтекъл",
+            "completed": "Завършен",
+            "pending": "В очакване"
+        }
+    },
+    "documentType": {
+        "static": {
+            "pdf": "PDF",
+            "template": "Шаблон",
+            "view": "Преглед",
+            "upload": "Качване"
+        }
+    },
+    "emails": {
+        "editor": {
+            "invitationLink": "Линк с покана"
+        }
+    },
+    "permission": {
+        "action": {
+            "create": "Създаване",
+            "delete": "Изтриване",
+            "update": "Актуализиране",
+            "view": "Преглед"
+        }
+    },
+    "document": {
+        "static": {
+            "selectSubjectsForSignedFileText": "Изберете всички субекти, до които искате да изпратите подписания файл.",
+            "log": "Регистрирайте",
+            "selectSubjects": "Изберете предмети",
+            "selectSubjectsForSignRequestsText": "Изберете всички предмети, за които искате да изпратите заявка за подпис.",
+            "sendSignRequestsConfirmationText": "Следните субекти ще получат заявка за подпис.",
+            "generatorSubjectShouldSignExplanation": "Следните субекти ще получат заявка за подпис.",
+            "selectSubjectsForCompletedFileText": "Изберете всички субекти, до които искате да изпратите готовия файл.",
+            "generatorSubjectSendAfterCompletionExplanation": "Следните субекти ще получат документа, когато той бъде завършен.",
+            "subjectDeleted": "Субектът беше изтрит.",
+            "subjectSaved": "Субектът беше запазен."
+        }
+    },
+    "employment": {
+        "messages": {
+            "wizardPreviousEmploymentExplanation": "Предишното назначаване се използва като база за това ново назначаване."
+        },
+        "static": {
+            "payOutPreferences": "Предпочитания за плащане",
+            "startDate": "Начална дата",
+            "endDate": "Крайна дата",
+            "function": "Функция",
+            "scale": "Мащаб",
+            "factor": "Фактор",
+            "grossSalary": "Брутна заплата",
+            "salesRate": "Коефициент на продажби",
+            "includeExtraDays": "Включване на допълнителните дни към заплатата",
+            "deleteSuccess": "Трудовото правоотношение е изтрито.",
+            "deleteConfirmationText": "Сигурни ли сте, че искате да изтриете това назначение?",
+            "workdaysAndTimes": "Работни дни и време",
+            "deleteFailed": "Неуспешно изтриване на трудовото правоотношение.",
+            "emptyFunctionSalesRateConfirmationText": "Всички функции имат празен процент на продажбите.",
+            "missingRequiredAttributesConfirmText": "Трудовото правоотношение все още не може да бъде изпратено за одобрение, тъй като някои от изискваните параметри не са попълнени.",
+            "submitForApprovalConfirmText": "Трудовото правоотношение ще бъде подадено за одобрение."
+        },
+        "actions": {
+            "addFunction": "Добавяне на функция",
+            "createNext": "Създаване на следващ",
+            "goToEmployment": "Отидете на назначаване"
+        }
+    },
+    "imports": {
+        "static": {
+            "bankImport": "Импортиране на банка",
+            "payslips": "Фишове за заплати",
+            "notStarted": "Не е започнато",
+            "queued": "Чакащи на опашка",
+            "running": "Текущ",
+            "completed": "Завършен",
+            "cancelled": "Отменен",
+            "failed": "Провален",
+            "upload": "Качване",
+            "imports": "Внесени стоки",
+            "payslipsImported": "Импортирани фишове за заплати",
+            "log": "Регистриране",
+            "importedAt": "Импортирани на",
+            "payslipsImport": "Импортиране на фишове за работни заплати",
+            "imported": "Импортирани",
+            "payslipsPayments": "Плащания по фишове за работни заплати",
+            "employee": "Служител",
+            "total": "Общо",
+            "iban": "IBAN",
+            "payments": "Плащания",
+            "reservations": "Резервации",
+            "reservationsImported": "Импортирани резервации",
+            "reservationsImport": "Импорт на резервации",
+            "annualStatementsImported": "Импортирани годишни отчети",
+            "dispatched": "Изпратен",
+            "outstandingDesiredSalaryCheck": "Някои изплащания не съответстват на желаното трудово възнаграждение:",
+            "sendAfterCompletion": "Изпращане след завършване",
+            "annualStatementsImport": "Импорт на годишни отчети",
+            "outstandingDesiredSalaryCompensationsCreated": "Компенсациите са създадени.",
+            "payslipPaymentsCreateCompensations": "Създаване на компенсации",
+            "desiredSalaryCheck": "Проверка на желаното трудово възнаграждение",
+            "timeRegistration": "Регистриране на време",
+            "annualStatements": "Годишни отчети",
+            "payslipsPaymentsPeriodText": "Ако е избран период и/или корекция, всички плащания в PDF файла ще бъдат импортирани в този период. Ако не е избран период, ще бъде използван номерът на периода в PDF файла.",
+            "entity": "Организация"
+        },
+        "pages": {
+            "reservations": "Резервации",
+            "payments": "Плащания",
+            "payslips": "Фишове за работна заплата",
+            "bankImport": "Импортиране на банка",
+            "annualStatements": "Годишни отчети"
+        },
+        "actions": {
+            "upload": "Качване",
+            "refresh": "Обновяване"
+        }
+    },
+    "freelancerJob": {
+        "actions": {
+            "addHourType": "Добавете тип час",
+            "addCompensation": "Добавете компенсация",
+            "addTravelType": "Добавете вид пътуване"
+        },
+        "static": {
+            "startDate": "Начална дата",
+            "endDate": "Крайна дата",
+            "hourlyRate": "Часова ставка",
+            "salesRate": "Коефициент на продажби",
+            "margin": "Марж",
+            "hourType": "Тип час",
+            "compensation": "Компенсация",
+            "name": "Име",
+            "travelType": "Вид пътуване",
+            "rate": "Ставка",
+            "activities": "Дейности",
+            "deleteFailed": "Неуспешно изтриване на работната задача.",
+            "deleteSuccess": "Работната задача е изтрита.",
+            "deleteConfirmationText": "Сигурни ли сте, че искате да изтриете тази работна задача?",
+            "hourTypeMarginInfo": "При попълване на тази стойност тарифната таблица ще бъде игнорирана.",
+            "deviatingMargin": "Марж на отклонението",
+            "notMinimumHourTypeMarginConfirmationText": "Някои маржове са по-малки от изчисления марж.",
+            "submitForApprovalConfirmText": "Работната задача ще бъде подадена за одобрение.",
+            "missingRequiredAttributesConfirmText": "Работната задача все още не може да бъде изпратена за одобрение, тъй като някои от изискваните параметри не са попълнени."
+        }
+    },
+    "company": {
+        "static": {
+            "notificationEmailCc": "Копиране на уведомление",
+            "documentEmail": "Имейл за документи",
+            "documentEmailCc": "Копиране на документа",
+            "notificationEmail": "Уведомителен имейл",
+            "reminderEmail": "Напомнителен имейл",
+            "reminderEmailCc": "Копиране на напомняне",
+            "freelancerMargins": "Маржове за служители на свободна практика",
+            "copies": "Копия",
+            "synchronizeInfo": "Избраните стойности ще бъдат синхронизирани с избраната компания.",
+            "copyInfo": "Ще бъде създадено ново копие, което ще бъде свързано с избраното предприятие. За всяко предприятие може да се създаде само едно копие. Промените, направени в оригинала, могат да се синхронизират с копието.",
+            "copiesAreIdentical": "Копията са идентични.",
+            "synchronizationSuccessful": "Копията са успешно синхронизирани.",
+            "original": "Оригинал",
+            "email": "Фирмен имейл",
+            "phone": "Фирмен телефон",
+            "website": "Фирмен уебсайт",
+            "legalFormSlug": "Правна форма",
+            "typeSlug": "Вид на дружеството",
+            "pensionPlanFactors": "Фактори, свързани с пенсионния план"
+        },
+        "actions": {
+            "synchronize": "Синхронизиране",
+            "makeCopy": "Създаване на копие",
+            "newCopy": "Ново копие"
+        }
+    },
+    "employee": {
+        "static": {
+            "employment": "Назначение",
+            "wageAttachmentCreationSuccess": "Създаден е прикачен файл с работна заплата.",
+            "contract": "Договор",
+            "noRecentPayslips": "Не са открити актуални фишове за заплати.",
+            "contracts": "Договори",
+            "employments": "Назначения",
+            "wageAttachment": "Прикачен файл с работна заплата",
+            "wageAttachmentUpdateSuccess": "Прикаченият файл с работна заплата е актуализиран.",
+            "wageAttachmentDeleteSuccess": "Прикаченият файл с работна заплата е изтрит.",
+            "wageAttachments": "Прикачени файлове с работна заплата",
+            "contractDeleteSuccess": "Договорът е изтрит.",
+            "contractDeleteFailed": "Неуспешно изтриване на договор.",
+            "contractCreateSuccess": "Договорът е създаден.",
+            "contractUpdateSuccess": "Договорът е актуализиран.",
+            "deleteContractConfirmationText": "Сигурни ли сте, че искате да изтриете този договор?",
+            "createContract": "Създаване на договор",
+            "functions": "Функции",
+            "deleteFailed": "Неуспешно изтриване на служител.",
+            "archivedText": "Този служител е архивиран.",
+            "deleteConfirmationText": "Сигурни ли сте, че искате да изтриете този служител?",
+            "payslips": "Фишове за работни заплати",
+            "noAnnualStatements": "Няма годишни отчети.",
+            "pensionPlan": "Пенсионен план",
+            "unarchiveConfirmationText": "Сигурни ли сте, че искате да разархивирате този служител?",
+            "archiveConfirmationText": "Сигурни ли сте, че искате да архивирате този служител?",
+            "deleteSuccess": "Служителят е изтрит.",
+            "annualStatement": "Годишен отчет",
+            "annualStatements": "Годишни отчети",
+            "markedAsNew": "Маркирано като ново",
+            "markedAsChanged": "Маркирано като променено",
+            "deleteValidationFailed": "Не е възможно да се провери дали служителят може да бъде заличен.",
+            "canNotDeleteEmployeeText": "Служителят не може да бъде изтрит поради съществуващи времеви регистрации.",
+            "canNotDeleteEmploymentText": "Трудовото правоотношение не може да бъде изтрито поради съществуващи времеви регистрации.",
+            "inviteExistingInfoText": "Поканата ще бъде изпратена до служител {name}.",
+            "inviteNewInfoText": "Ще бъде изпратена покана за нов служител.",
+            "contractRequiredForEmploymentInfoText": "Внимание. Създаването на договор не е задължително, ако все още нямате наемател/заетост. Не можете да създадете трудова заетост без договор.",
+            "activeContract": "Активен договор",
+            "wizardSkipContractConfirmationText": "Сигурни ли сте, че не искате да създадете договор? Не можете да създадете трудово правоотношение без договор.",
+            "wizardSkipEmploymentConfirmationText": "Сигурни ли сте, че не искате да създадете трудово правоотношение?",
+            "healthInsurances": "Здравни застраховки",
+            "submitForApprovalConfirmText": "Служителят ще бъде подаден за одобрение.",
+            "missingRequiredAttributesConfirmText": "Служителят все още не може да бъде подаден за одобрение, тъй като някои от задължителните параметри не са попълнени.",
+            "submittedForApproval": "Служителят е подаден за одобрение.",
+            "markToBeRenewedConfirmationText": "Договорът ще бъде маркиран за подновяване след изтичането му.",
+            "contractMarkedToBeRenewed": "Договорът е маркиран за подновяване",
+            "contractMarkedNotToBeRenewed": "Договорът е маркиран да не бъде подновяван",
+            "markNotToBeRenewedConfirmationText": "Договорът няма да бъде маркиран за подновяване и ще бъде премахнат от съобщенията. Служителят ще получи имейл с потвърждение, че договорът няма да бъде подновен след изтичането му.",
+            "contractCreateWithDocumentInfo": "Ще бъде създаден нов договор заедно със съответния документ. Заявка за подписване на документа ще бъде изпратена 1 час след създаването му. Крайната дата на текущия договор ще бъде зададена един ден преди началната дата на новия договор.",
+            "subsidyCreateSuccess": "Субсидията е създадена.",
+            "subsidyDeleteSuccess": "Субсидията е заличена.",
+            "accountNotActivatedInfo": "Акаунтът (все още) не е активиран. Кликнете върху бутона за покана, за да изпратите линк за активиране на служителя."
+        },
+        "messages": {
+            "identityBothSides": "Моля, качете предната и задната част на личната си карта."
+        },
+        "actions": {
+            "newContract": "Нов договор",
+            "markAsNew": "Маркиране като ново",
+            "markAsChanged": "Маркиране като променено",
+            "createContract": "Създаване на договор",
+            "deleteContract": "Изтриване на договор",
+            "createEmployment": "Създаване на трудово правоотношение",
+            "deleteSubsidyConfirmationText": "Сигурни ли сте, че искате да заличите субсидията?"
+        },
+        "outOfService": "Изключен от експлоатация"
+    },
+    "period": {
+        "actions": {
+            "select": "Изберете"
+        }
+    },
+    "export": {
+        "actions": {
+            "toSepaAndMarkAsPaid": "Към SEPA и маркирайте като платено",
+            "generate": "Генериране"
+        },
+        "static": {
+            "skipValidation": "Пропускане на валидирането"
+        }
+    },
+    "contact": {
+        "static": {
+            "userNotLinkedMessage": "Потребителят не е активиран или не е свързан с контакта.",
+            "uploadSuccess": "Файлът е качен.",
+            "detached": "Контактът е отстранен.",
+            "detachFailed": "Контактът не може да бъде отстранен.",
+            "detachConfirmationText": "Сигурни ли сте, че искате да отстраните контакта?"
+        }
+    },
+    "etRegulation": {
+        "validation": {
+            "totalNotAllowed": "Общата стойност на ET регламента не е между допустимите стойности.",
+            "distanceCalculationFailedText": "Не успяхме да изчислим разстоянието до адреса на пребиваване. Моля, проверете дали данните за адреса са валидни."
+        },
+        "static": {
+            "calculatedAmount": "Изчислена сума: {amount}",
+            "amountShouldBeBetween": "Общата сума трябва да бъде между {min} и {max}.",
+            "totalAmount": "Текущата обща сума е {amount}.",
+            "singleTrip": "Разстояние на единично пътуване: {distance} км"
+        }
+    },
+    "documentTemplate": {
+        "actions": {
+            "saveTranslation": "Запазване на превода"
+        },
+        "static": {
+            "healthcareAuthorisationForm": "Формуляр за разрешаване на медицинско обслужване",
+            "leadGenerationAgreement": "Споразумение за генериране на потенциални клиенти",
+            "contractPhase12": "Договорна фаза 1/2",
+            "contractPhase3": "Фаза 3 на договора",
+            "contractPhase4": "Фаза 4 на договора",
+            "hireAgreement": "Споразумение за наемане",
+            "etAddendum": "ET допълнение",
+            "antiDiscriminationPolicy": "Политика за борба с дискриминацията",
+            "idStatementForm": "Формуляр на декларация за самоличност",
+            "collaborationAgreementFreelancer": "Договор за сътрудничество със служител на свободна практика",
+            "healthcareAgreement": "Договор за здравно обслужване",
+            "employmentConfirmation": "Потвърждение за наемане на работа",
+            "jobConfirmation": "Потвърждение за работа",
+            "declarationAgreement": "Споразумение за деклариране",
+            "employmentTerminationAgreement": "Споразумение за прекратяване на трудово правоотношение",
+            "deductionsAndAdvances": "Удръжки и аванси",
+            "staffGuide": "Ръководство за служители",
+            "guaranteeAgreement": "Гаранционно споразумение",
+            "employersDeclaration": "Декларация на работодателите",
+            "contractPayrollFixedTerm": "Разплащателни ведомости по срочни договори",
+            "contractPayrollPermanent": "Разплащателни ведомости по постоянни трудови договори",
+            "mediationAgreement": "Договор за посредничество",
+            "intermediateAgreement": "Междинно споразумение",
+            "hireAgreementFreelancers": "Споразумение за наемане на служители на свободна практика",
+            "deliveryDeed": "Договор за доставка",
+            "termsAndConditions": "Правила и условия",
+            "frameworkAgreement": "Рамково споразумение",
+            "jobConfirmationFreelancer": "Потвърждение за наемане на служител на свободна практика",
+            "wageAttachmentRequest": "Искане за запор върху трудовото възнаграждение",
+            "payrollConfirmation": "Потвърждение на ведомостта за заплати"
+        }
+    },
+    "users": {
+        "static": {
+            "sendPasswordResetConfirmationText": "Имейл с линк за нулиране на паролата ще бъде изпратен на {email}.",
+            "deactivateConfirmationText": "Потребителят ще бъде деактивиран и вече няма да може да влиза.",
+            "permissionsSaved": "Разрешенията са запаметени.",
+            "reactivateConfirmationText": "Потребителят ще бъде активиран и ще може да се логне отново."
+        }
+    },
+    "outOfServiceReason": {
+        "static": {
+            "cancelledByEmployerWithinProbation": "Прекратен от работодателя в рамките на изпитателния срок",
+            "cancelledByJudge": "Прекратен от съдия",
+            "deploymentEndByOtherReason": "Прекратяване на назначението поради друга причина",
+            "continuedWithoutIncome": "Продължен без доход",
+            "cancelledByEmployerUwv": "Прекратен от работодателя, одобрен от UWV",
+            "cancelledByAgreement": "Прекратяване на договора по взаимно съгласие",
+            "cancelledByEmployee": "Прекратен от служителя",
+            "cancelledByEmployer": "Прекратен от работодателя",
+            "endOfEmployment": "Прекратяване на трудовото правоотношение по закон поради изтичане на договора",
+            "endByLawOtherReason": "Прекратяване на трудовото правоотношение по закон поради друга причина",
+            "deploymentEndByIllness": "Прекратяване на назначението поради заболяване",
+            "otherReason": "Друга причина"
+        }
+    },
+    "cv": {
+        "education": {
+            "educationsAndQualifications": "Образования и квалификации",
+            "educationsDescription": "Описание на образованието"
+        },
+        "certificate": {
+            "certificates": "Сертификати",
+            "description": "Описание",
+            "addCertificate": "Добавяне на сертификат",
+            "addEducation": "Добавете Образование / Квалификация"
+        },
+        "title": "Заглавие",
+        "from": "От",
+        "till": "До",
+        "interest": {
+            "interests": "Интереси",
+            "pickInterests": "Изберете вашите интереси"
+        },
+        "language": {
+            "languages": "Езици",
+            "pickLanguage": "Изберете вашите езици",
+            "rating": "Оценка на вашите езици"
+        },
+        "select": "Изберете",
+        "profile": {
+            "profile": "Профил",
+            "profileSummary": "Въведете резюме на профила си тук (необходими са минимум 150 думи).."
+        },
+        "reference": {
+            "references": "Препоръки",
+            "fullName": "Пълно наименование на работодателя",
+            "company": "Компания",
+            "telephone": "Телефон",
+            "email": "Имейл",
+            "addReference": "Добавяне на референция"
+        },
+        "skill": {
+            "skills": "Умения",
+            "pickSkills": "Изберете вашите умения",
+            "rating": "Оценка на вашите умения"
+        },
+        "work": {
+            "workExperience": "Професионален опит",
+            "function": "Функция",
+            "jobDescription": "Описание на длъжността",
+            "addWorkExperience": "Добавяне на професионален опит"
+        },
+        "dialog": {
+            "close": "Затваряне",
+            "generateCv": "Генериране на автобиография"
+        }
+    },
+    "legalForm": {
+        "static": {
+            "soleProprietorMultipleOwners": "Едноличен търговец с повече от един собственик",
+            "privateLimitedCompanyTwoTier": "Частно дружество с ограничена отговорност в съответствие с устава на двустепенно дружество",
+            "publicLimitedCompanyTwoTier": "Публично дружество с ограничена отговорност в съответствие с устава на двустепенно дружество",
+            "publicLimitedCompanyInvestmentVariableCapitalTwoTier": "Публично дружество с ограничена отговорност, инвестиционно дружество с променлив капитал в съответствие с устава на двустепенно дружество",
+            "publicLimitedCompanyInvestmentVariableCapital": "Публично дружество с ограничена отговорност, инвестиционно дружество с променлив капитал",
+            "europeanPublicLimitedCompanyRegularTwoTierCooperative": "Европейско публично дружество с ограничена отговорност (SE) в съответствие с устава на сдружението Кооперация",
+            "cooperativeLegalLiabilityStructuralCooperative": "Кооперация с Юридическа Отговорност в съответствие с устава на структурна кооперация",
+            "homeownersAssociation": "Асоциация на собствениците на жилища",
+            "associationFullLegalCapacity": "Асоциация с пълна правоспособност",
+            "associationLimitedLegalCapacity": "Асоциация с ограничена правоспособност",
+            "mutualInsuranceCompanyStructuralMutual": "Взаимозастрахователна кооперация в съответствие с учредителен документ",
+            "mutualInsuranceCompanyLegalLiabilityStructuralMutual": "Взаимозастрахователна кооперация с Юридическа Отговорност в съответствие с общ за структурата учредителен документ",
+            "mutualInsuranceCompanyLimitedLiabilityStructuralMutual": "Взаимозастрахователна кооперация с Ограничена Отговорност в съответствие с общ за структурата учредителен документ",
+            "foreignEcBusinessCompanyNetherlands": "Чуждестранна Европейска Общност - бизнес с компания в Нидерландия",
+            "foreignSimilarEcBusinessCompanyNetherlands": "Чуждестранна компания, подобна на ЕО-бизнес с компания в Нидерландия",
+            "soleProprietor": "Едноличен търговец",
+            "limitedPartnership": "Командитно дружество",
+            "commercialPartnership": "Събирателно дружество",
+            "publicPartnership": "Публично партньорство",
+            "shippingCompany": "Спедиторска фирма",
+            "limitedCompanyStartUpAForm": "N.V. (Публично дружество с ограничена отговорност) /B.V. (Частно дружество с ограничена отговорност) стартиране на формуляр A",
+            "limitedCompanyStartUpBForm": "N.V. (Публично дружество с ограничена отговорност) /B.V. (Частно дружество с ограничена отговорност) стартиране на формуляр B",
+            "limitedCompanyStartUpDForm": "N.V. (Публично дружество с ограничена отговорност) /B.V. (Частно дружество с ограничена отговорност) стартиране на формуляр D",
+            "legalPersonStartUp": "Създаване на юридическо лице",
+            "privateLimitedCompany": "Частно дружество с ограничена отговорност",
+            "privateLimitedCompanyRegular": "Частно дружество с ограничена отговорност с редовна структура",
+            "publicLimitedCompany": "Публично дружество с ограничена отговорност",
+            "publicLimitedCompanyRegular": "Публично дружество с ограничена отговорност с обикновена структура",
+            "europeanPublicLimitedCompanyRegular": "Европейско публично дружество с ограничена отговорност (SE) с обикновена структура",
+            "cooperative": "Кооперация",
+            "cooperativeStructuralCooperative": "Кооперация в съответствие с устава на структурна кооперация",
+            "cooperativeLegalLiabilityRegular": "Кооперация с Юридическа Отговорност с обикновена структура",
+            "cooperativeLimitedLiabilityRegular": "Кооперация с Ограничена Отговорност с обикновена структура",
+            "cooperativeLimitedLiabilityStructuralCooperative": "Кооперация с Ограничена Отговорност в съответствие с устава на структурна кооперация",
+            "religiousDenomination": "Религиозна секта",
+            "foundation": "Фондация",
+            "mutualInsuranceCompany": "Взаимозастрахователна кооперация",
+            "mutualInsuranceCompanyLegalLiabilityRegular": "Взаимозастрахователна кооперация с Юридическа Отговорност с обикновена структура",
+            "mutualInsuranceCompanyLimitedLiabilityRegular": "Взаимозастрахователна кооперация с Ограничена Отговорност с обикновена структура",
+            "legalPersonPublicLaw": "Публичноправно юридическо лице",
+            "legalPersonPrivateLaw": "Частноправно юридическо лице",
+            "foreignLegalFormHeadOfficeNetherlands": "Чуждестранна правна форма със седалище в Нидерландия",
+            "branchOfficeHeadOfficeAbroad": "Регионален офис със седалище в чужбина",
+            "europeanEconomicInterestGrouping": "Европейска Групировка с Икономически Интереси",
+            "foreignEcBusinessMainOfficeNetherlands": "Чуждестранна Европейска Общност - бизнес с централен офис в Нидерландия",
+            "foreignSimilarEcBusinessMainOfficeNetherlands": "Чуждестранна компания, подобна на ЕО-бизнес с централен офис в Нидерландия"
+        }
+    },
+    "note": {
+        "actions": {
+            "deleteConfirmationText": "Сигурни ли сте, че искате да изтриете тази бележка?",
+            "delete": "Изтриване",
+            "cancel": "Отмяна"
+        },
+        "success": {
+            "deleted": "Бележката е изтрита успешно."
+        }
+    },
+    "creditLimit": {
+        "static": {
+            "finalAssessmentWillFollowLater": "Окончателната оценка на кредитния лимит ще последва по-късно."
+        }
+    },
+    "wizard": {
+        "static": {
+            "employeeNotApproved": "Този служител все още не е одобрен.",
+            "freelancerNotApproved": "Този фрийлансър все още не е одобрен.",
+            "noDocumentsToGenerate": "Няма документи за генериране.",
+            "employmentAgencyNotApproved": "Тази агенция за човешки ресурси все още не е одобрена.",
+            "hirerNotApproved": "Този наемател все още не е одобрен.",
+            "resellerNotApproved": "Този дистрибутор все още не е одобрен."
+        },
+        "actions": {
+            "viewWizard": "Съветник за изглед"
+        }
+    },
+    "sickReport": {
+        "alreadySick": "Служителят вече е регистриран като боледуващ.",
+        "betterReport": {
+            "confirmationQuestion": "Сигурни ли сте?",
+            "actions": {
+                "confirmationTextEmployee": "Сигурни ли сте, че искате да докладвате възстановяване за този служител?",
+                "confirm": "Потвърдете",
+                "cancel": "Отмяна",
+                "confirmationText": "Сигурни ли сте, че искате да докладвате възстановяване?"
+            },
+            "report": "Докладвайте възстановяване",
+            "success": "Служителят е успешно докладван като възстановен."
+        },
+        "reportSick": "Известие за заболяване",
+        "actions": {
+            "deleteConfirmationText": "Сигурни ли сте, че искате да изтриете това известие за заболяване?",
+            "delete": "Изтриване",
+            "cancel": "Отмяна"
+        },
+        "success": {
+            "deleted": "Известието за заболяване е изтрито успешно."
+        },
+        "filter": {
+            "currentSickOnly": "Само текущо болни",
+            "start": "Начало",
+            "end": "Край"
+        }
+    },
+    "outOfService": {
+        "actions": {
+            "deleteConfirmationText": "Сигурни ли сте, че искате да премахнете известието за прекратяване на услугата?",
+            "delete": "Изтрий",
+            "cancel": "Отмени",
+            "processConfirmationText": "Сигурни ли сте, че искате да обработите известието за спиране на услугата?",
+            "process": "Обработка"
+        },
+        "onlyOutstanding": "Само неизплатени",
+        "search": "Търсене",
+        "date": "Дата",
+        "reason": "Причина",
+        "process": "Обработка",
+        "processSuccess": "Уведомленията за прекъсване на услугата са обработени успешно."
+    },
+    "deductions": {
+        "static": {
+            "amountIsLimited": "Размерът на удръжката е ограничен въз основа на часовете на този период.",
+            "outstandingDeductions": "Неизплатени удръжки",
+            "recurringDeductions": "Повтарящи се удръжки",
+            "remainingAmount": "Оставаща сума",
+            "files": "Файлове",
+            "saved": "Удръжките са запазени.",
+            "amount": "Сума",
+            "for": "За",
+            "uploadFile": "Качете файл",
+            "deductFrom": "Удържане от",
+            "noDeductions": "Без удръжки",
+            "remaining": "Оставащи",
+            "unexportedOnly": "Само неекспортирани"
+        }
+    },
+    "import": {
+        "static": {
+            "reservationsImported": "Импортирани резервации"
+        }
+    },
+    "pensionPlan": {
+        "static": {
+            "basic": "Основен план Stipp",
+            "plus": "План Stipp плюс",
+            "adequate": "Достатъчен",
+            "bpf": "BPF"
+        }
+    },
+    "log": {
+        "static": {
+            "description": "Описание",
+            "date": "Дата",
+            "old": "Стар",
+            "new": "Нов",
+            "properties": "Имущество",
+            "system": "Система",
+            "causer": "Причинител",
+            "id": "Идентификатор",
+            "subject": "Субект"
+        }
+    },
+    "freelancer": {
+        "static": {
+            "job": "Работа",
+            "jobs": "Работни задачи",
+            "jobCreationSuccess": "Работата е създадена",
+            "deleteSuccess": "Фрийлансърът е изтрит.",
+            "deleteFailed": "Неуспешно изтриване на фрийлансър.",
+            "deleteConfirmationText": "Сигурни ли сте, че искате да изтриете този фрийлансър?",
+            "linkedThroughJob": "Свързани посредством работна позиция",
+            "inviteNewInfoText": "Ще бъде изпратена покана за нов служител на свободна практика.",
+            "inviteExistingInfoText": "Поканата ще бъде изпратена на служителя на свободна практика {name}.",
+            "missingRequiredAttributesConfirmText": "Служителят на свободна практика все още не може да бъде подаден за одобрение, тъй като някои от изискваните параметри не са попълнени.",
+            "submitForApprovalConfirmText": "Служителят на свободна практика ще бъде подаден за одобрение.",
+            "submittedForApproval": "Служителят на свободна практика е подаден за одобрение",
+            "activeOnly": "Само активни",
+            "archiveConfirmationText": "Сигурни ли сте, че искате да архивирате този служител на свободна практика?",
+            "unarchiveConfirmationText": "Сигурни ли сте, че искате да деархивирате този служител на свободна практика?",
+            "archivedText": "Този служител на свободна практика е архивиран."
+        }
+    },
+    "user": {
+        "actions": {
+            "sendResetPasswordLink": "Изпращане на линк за възстановяване на паролата"
+        },
+        "static": {
+            "notActivated": "Потребителят не е активиран.",
+            "deactivated": "Деактивиран"
+        }
+    },
+    "invitation": {
+        "actions": {
+            "sendInvitation": "Изпращане на покана"
+        },
+        "static": {
+            "inviteSuccess": "Успеваемост на поканата",
+            "tokenInvalid": "Невалиден токен",
+            "tokenInvalidDescription": "Токенът е невалиден."
+        }
+    },
+    "job": {
+        "static": {
+            "employment": "Назначаване",
+            "freelancerJob": "Работа на свободна практика",
+            "employments": "Назначения",
+            "freelancerJobs": "Работни места за фрийлансъри"
+        }
+    },
+    "wageAttachment": {
+        "static": {
+            "garnishee": "Наложен запор",
+            "garnisheeContact": "Лице за контакт с взискателя",
+            "garnisheeCity": "Град на взискателя",
+            "reference": "Референция",
+            "taxFreeSum": "Сума, освободена от данъци",
+            "overallSum": "Обща сума",
+            "outstandingAmount": "Неизплатена сума",
+            "paidAmount": "Платена сума",
+            "informationRequestSent": "Искането за информация е изпратено",
+            "outstanding": "Неизплатен",
+            "paid": "Платен"
+        },
+        "actions": {
+            "informationRequest": "Искане за информация",
+            "sendInformationRequest": "Изпращане на искане за информация"
+        }
+    },
+    "employees": {
+        "static": {
+            "activeOnly": "Само активни",
+            "linkedThroughEmployment": "Свързани посредством трудовото правоотношение"
+        }
+    },
+    "contractType": {
+        "static": {
+            "phase1And2": "Фаза 1/2",
+            "phase3": "Фаза 3",
+            "phase4": "Фаза 4",
+            "payrollFixedTerm": "Ведомост за заплати (фиксиран срок)",
+            "payrollPermanent": "Ведомост за заплати (постоянна)"
+        }
+    },
+    "riskGroup": {
+        "static": {
+            "administrative": "Административен",
+            "executive": "Опитен администратор"
+        }
+    },
+    "employmentAgency": {
+        "static": {
+            "archivedText": "Тази агенция за набиране на персонал е архивирана.",
+            "deleteSuccess": "Агенцията за подбор на персонал е изтрита.",
+            "deleteFailed": "Неуспешно изтриване на агенцията за трудова заетост.",
+            "deleteConfirmationText": "Сигурни ли сте, че искате да изтриете тази агенция за подбор на персонал?",
+            "inviteExistingInfoText": "Поканата ще бъде изпратена на агенция за подбор на персонал {companyName}.",
+            "inviteNewInfoText": "Ще бъде изпратена покана за нова агенция за подбор на персонал.",
+            "makeResellerConfirmationText": "Сигурни ли сте, че искате да създадете дистрибутор за агенцията за подбор на персонал?",
+            "missingRequiredAttributesConfirmText": "Агенцията за подбор на персонал все още не може да бъде подадена за одобрение, тъй като някои от задължителните параметри не са попълнени.",
+            "submitForApprovalConfirmText": "Агенцията за подбор на персонал ще бъде подадена за одобрение."
+        }
+    },
+    "filters": {
+        "static": {
+            "archivedOnly": "Само архивирани",
+            "withActiveEmploymentsOnly": "Само с активни трудови правоотношения",
+            "selectedEnterpriseOnly": "Само избраното предприятие",
+            "readyForApproval": "Готово за одобрение",
+            "createdByAdmin": "Създадено от администратор"
+        }
+    },
+    "hirer": {
+        "static": {
+            "archivedText": "Този наемател е архивиран.",
+            "hirerRemuneration": "Възнаграждение на наемателя",
+            "saved": "Наемателят е запаметен",
+            "deleteFailed": "Неуспешно изтриване на наемателя.",
+            "deleteSuccess": "Наемателят е изтрит.",
+            "deleteConfirmationText": "Сигурни ли сте, че искате да изтриете този наемател?",
+            "assignment": "Задача",
+            "inviteExistingInfoText": "Ще бъде изпратена покана до работодателя {companyName}.",
+            "inviteNewInfoText": "Ще бъде изпратена покана за нов наемател.",
+            "projectDeleted": "Проектът беше изтрит.",
+            "notMinimumCompanyFreelancerHourTypeMarginConfirmationText": "Базовият марж на типа часове на служителите, работещи на свободна практика е по-нисък от стойността на трудовото правоотношение.",
+            "notMinimumCompanyFreelancerHourTypeMarginAdditionsConfirmationText": "Някои добавки към маржа са по-ниски от стойностите на трудовото правоотношение.",
+            "missingRequiredAttributesConfirmText": "Работодателят все още не може да бъде подаден за одобрение, тъй като някои от задължителните параметри не са попълнени.",
+            "submitForApprovalConfirmText": "Работодателят ще бъде подаден за одобрение.",
+            "submittedForApproval": "Работодателят е подаден за одобрение."
+        },
+        "form": {
+            "overtime": "Извънредни часове",
+            "shiftWork": "Работа на смени",
+            "travelHours": "Часове за пътуване",
+            "travelCost": "Пътни разходи",
+            "companyOwnedScheme": "Проект, собственост на компанията",
+            "remunerationSpecifics": "Детайли",
+            "holidays": "Почивни дни",
+            "otherCompensations": "Други обезщетения"
+        }
+    },
+    "invoiceGroup": {
+        "static": {
+            "custom": "Персонализиран",
+            "timeRegistration": "Регистриране на време"
+        }
+    },
+    "employeePayslip": {
+        "static": {
+            "sendEmailConfirmationText": "Сигурни ли сте, че искате да изпратите фиша за заплата сега?",
+            "sendEmailFailed": "Фишът за заплата не може да бъде изпратен.",
+            "sendEmailSuccess": "Фишът за заплата е изпратен."
+        },
+        "actions": {
+            "sendNow": "Изпрати сега"
+        }
+    },
+    "timeRegistrationPeriodStatus": {
+        "static": {
+            "requiresAction": "Изисква се действие",
+            "completed": "Завършено",
+            "open": "Отворен",
+            "locked": "Затворен",
+            "locking": "Затваряне"
+        }
+    },
+    "reservations": {
+        "static": {
+            "editBuildupInfo": "При промяна на тези стойности съответната времева регистрация ще бъде актуализирана.\nПри създаване на нова заявка или ако заявката вече е била изплатена;\n- Състоянието на резервацията ще бъде актуализирано.\n- Заявката няма да се появи в експорта за изплащане.\nПри актуализиране на заявка, която все още не е изплатена;\n- Състоянието на резервацията няма да бъде актуализирано.\n- Заявката ще бъде актуализирана в експорта за изплащане.",
+            "paidOut": "Изплатени",
+            "noBuildupFound": "Не е открито натрупване",
+            "buildup": "Натрупване",
+            "showEmptyPeriods": "Показване на празни периоди",
+            "request": "Искане",
+            "saved": "Резервацията беше запаметена.",
+            "deleted": "Резервацията беше изтрита",
+            "deleteReservationText": "Резервацията ще бъде изтрита от времевата регистрация.",
+            "reservationRequest": "Заявки за резервация",
+            "newRequest": "Нова заявка",
+            "canOnlyEditHistoricalBuildupInfo": "Могат да се редактират само исторически стойности.",
+            "noReservations": "Няма резервации",
+            "calculationTool": "Инструмент за изчисление",
+            "requestReservations": "Заявете резервации"
+        },
+        "tooltip": {
+            "warningRequestNotYetExported": "Тази заявка все още не е платена."
+        },
+        "actions": {
+            "request": "Заявка"
+        }
+    },
+    "companyType": {
+        "static": {
+            "default": "По подразбиране",
+            "healthcare": "Здравеопазване"
+        }
+    },
+    "error": {
+        "actions": {
+            "back": "Назад към предишната страница"
+        },
+        "static": {
+            "serverError": "Сървърна грешка",
+            "description": "Възникна грешка. Опитайте да обновите или се върнете към предишната страница.",
+            "pageNotFound": "Страницата не е открита",
+            "pageNotFoundDescription": "Не успяхме да открием търсената от Вас страница."
+        }
+    },
+    "project": {
+        "static": {
+            "projectManagers": "Мениджъри на проекти",
+            "createProject": "Създаване на проект",
+            "projectCreationSuccess": "Проектът е успешно създаден.",
+            "updateProject": "Актуализиране на проекта",
+            "deleteProjectConfirmationText": "Сигурни ли сте, че искате да изтриете проекта?"
+        }
+    },
+    "media": {
+        "static": {
+            "type": "Вид",
+            "other": "Други",
+            "curriculumVitae": "Автобиография",
+            "motivationLetter": "Мотивационно писмо",
+            "diploma": "Диплома",
+            "certificateOfConduct": "Сертификат за поведение",
+            "pdfPagesCount": "PDF документът има {amount} страници"
+        }
+    },
+    "entity": {
+        "static": {
+            "enterprise": "Предприятие",
+            "employmentAgency": "Агенция за подбор на персонал",
+            "hirer": "Наемател",
+            "employee": "Служител",
+            "freelancer": "Служител на свободна практика"
+        }
+    },
+    "healthInsurance": {
+        "static": {
+            "saved": "Здравните застраховки са запазени."
+        }
+    },
+    "search": {
+        "static": {
+            "noMoreResults": "Няма повече резултати.",
+            "ctrlShiftF": "Ctrl + Shift + F"
+        }
+    },
+    "holiday": {
+        "static": {
+            "newYear": "Нова година",
+            "easterMonday": "Великденски понеделник",
+            "ascensionDay": "Възнесение Господне",
+            "whitMonday": "Понеделник след Петдесетница",
+            "firstChristmasDay": "Първият ден на Коледа",
+            "liberationDay": "Денят на Освобождението",
+            "kingsDay": "Денят на краля",
+            "secondChristmasDay": "Вторият ден на Коледа"
+        }
+    },
+    "workServiceType": {
+        "static": {
+            "night": "Нощна смяна",
+            "weekend": "Смяна през почивните дни",
+            "reachability": "Услуга за достъпност",
+            "consignment": "Консигнационна услуга"
+        }
+    },
+    "factoringCompany": {
+        "static": {
+            "deleted": "Факторинг компанията е заличена."
+        }
+    },
+    "reseller": {
+        "static": {
+            "missingRequiredAttributesConfirmText": "Дистрибуторът все още не може да бъде подаден за одобрение, тъй като някои от задължителните параметри не са попълнени.",
+            "submitForApprovalConfirmText": "Дистрибуторът ще бъде подаден за одобрение.",
+            "archivedText": "Този дистрибутор е архивиран.",
+            "deleteConfirmationText": "Сигурни ли сте, че искате да изтриете този дистрибутор?",
+            "deleteSuccess": "Дистрибуторът е изтрит.",
+            "deleteFailed": "Неуспешно изтриване на дистрибутор.",
+            "employeeMargins": "Маржове на служителите",
+            "freelancerMargins": "Маржове на служителите на свободна практика",
+            "deleteCustomerConfirmationText": "Сигурни ли сте, че искате да премахнете този клиент? Всички маржове, свързани с този клиент, ще бъдат изтрити.",
+            "defaultMargin": "Марж по подразбиране",
+            "zeroMarginConfirmationText": "Един или повече от маржовете имат стойност '0'.",
+            "customerCanOnlyHaveOneResellerInfoMessage": "В случай че агенцията за подбор на персонал не е включена в списъка, проверете дали тя вече не е свързана с друг дистрибутор."
+        }
+    },
+    "marginType": {
+        "static": {
+            "default": "По подразбиране",
+            "overtime": "Извънреден труд",
+            "etRegulation": "ЕТ регламент",
+            "senior": "Главен",
+            "hourType": "Вид час"
+        }
+    },
+    "freelancerHourTypeMarginAddition": {
+        "static": {
+            "hourlyRateFreelancerTableHeader": "Почасова ставка (от)",
+            "hirerPaymentTermTableHeader": "Срок за плащане от страна на работодателя"
+        }
+    },
+    "teamType": {
+        "static": {
+            "employee": "Служител",
+            "hirer": "Работодател",
+            "reseller": "Дистрибутор",
+            "freelancer": "Служител на свободна практика",
+            "employmentAgency": "Агенция за подбор на персонал"
+        }
+    },
+    "personalAccessToken": {
+        "static": {
+            "tokenCopied": "Идентификаторът е копиран в клипборда",
+            "personalAccessTokens": "Лични идентификатори за достъп",
+            "details": "Детайли",
+            "tokenPlaceholder": "Идентификаторът ще бъде показан тук.",
+            "deletePersonalAccessTokenText": "Идентификаторът ще бъде изтрит и няма да може да се използва повече.",
+            "tokenCreatedInfo": "Идентификаторът е създаден. Идентификаторът ще бъде показан само веднъж, затова го съхранявайте на сигурно място."
+        }
+    },
+    "messageBox": {
+        "static": {
+            "shouldSignDocument": {
+                "subject": "Обект",
+                "newSignTokenConfirmationText": "Ще бъде получен нов идентификатор за подписване.",
+                "newSignTokenSuccess": "Идентификаторът за подписване е получен успешно.",
+                "newSignTokenFailed": "Възникна грешка при получаването на новия идентификатор за подписване.",
+                "sendSignRequestConfirmationText": "Следният обект ще получи заявка за подписване",
+                "hideDocumentConfirmationText": "Сигурни ли сте, че искате да скриете тази задача? Тя няма да се появи отново."
+            },
+            "hideContractConfirmationText": "Сигурни ли сте, че искате да скриете този договор? Той няма да се появи отново."
+        }
+    },
+    "teams": {
+        "static": {
+            "details": "Детайли",
+            "team": "Екип",
+            "addTeam": "Добавяне на екип",
+            "deleteTeamText": "Сигурни ли сте, че искате да изтриете този екип?",
+            "deleteTeamPresetText": "Сигурни ли сте, че искате да изтриете тази предварителна настройка на екипа?",
+            "teamOwner": "Собственик на екипа",
+            "roles": "Роли"
+        }
+    },
+    "roles": {
+        "static": {
+            "roleCreated": "Ролята беше създадена.",
+            "permissionsSaved": "Разрешенията бяха запаметени."
+        }
+    },
+    "subsidyCompany": {
+        "static": {
+            "deleteSubsidyCompanyConfirmationText": "Сигурни ли сте, че искате да заличите субсидиращата компания?",
+            "deleted": "Дружеството, предоставящо субсидии е заличено."
+        }
+    },
+    "proFormaPayslip": {
+        "static": {
+            "splitPayOutInfo": "Когато тази опция е активирана, редовните часове ще бъдат разделени от другите часове/доплащания/компенсации във фиша за работна заплата."
+        },
+        "actions": {
+            "previewPayslip": "Предварителен преглед на фиш за работна заплата",
+            "previewCostPriceOverview": "Предварителен преглед на себестойността"
+        }
+    },
+    "subsidy": {
+        "static": {
+            "updateSubsidy": "Актуализиране на субсидията",
+            "endDateInfo": "Ако крайната дата не е краят на седмицата, субсидията ще бъде включена до края на предходната седмица.",
+            "startDateInfo": "Ако началната дата не е началото на седмицата, субсидията ще бъде включена от началото на следващата седмица.",
+            "confirmation": "Потвърждаване на субсидията",
+            "clearToExcludeFromSubsidy": "Изтрийте това поле, за да изключите този елемент от субсидията.",
+            "details": "Детайли",
+            "createSubsidy": "Създаване на субсидия"
+        }
+    }
+}

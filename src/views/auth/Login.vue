@@ -28,6 +28,7 @@
 </template>
 
 <script>
+    // import AppLanguageSelect from '@/components/AppLanguageMenu';
     import LoginForm from '@/components/forms/auth/LoginForm';
 
     export default {

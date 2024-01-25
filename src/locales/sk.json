@@ -1,0 +1,2466 @@
+{
+    "auth": {
+        "actions": {
+            "forgotPassword": "Zabudnuté heslo",
+            "login": "Prihlásenie",
+            "resetPassword": "Obnovenie hesla",
+            "updatePassword": "Aktualizácia hesla",
+            "backToLogin": "Späť na prihlásenie",
+            "logout": "Odhlásenie",
+            "leaveImpersonation": "Opustiť imitáciu",
+            "deactivate": "Deaktivovať",
+            "changePassword": "Zmeniť heslo",
+            "reactivate": "Reaktivácia"
+        },
+        "pages": {
+            "forgotPassword": "Zabudnuté heslo",
+            "login": "Prihlásenie",
+            "setPassword": "Nastavenie hesla",
+            "activateAccount": "Aktivácia účtu"
+        },
+        "static": {
+            "accountActivationSuccess": "Účet aktivovaný",
+            "email": "Email",
+            "forgotPasswordSuccess": "Odkaz na obnovenie hesla odoslaný",
+            "passwordResetSuccess": "Obnovenie hesla",
+            "forgotPasswordSuccessDescription": "Poslali sme vám e-mail s odkazom na obnovenie hesla.",
+            "logoutConfirmationText": "Určite sa chcete odhlásiť?",
+            "registrationSuccessful": "Registrácia úspešná",
+            "leaveImpersonationConfirmationText": "Ste si istí, že chcete opustiť imitáciu?",
+            "passwordUpdated": "Heslo bolo aktualizované.",
+            "userDeactivated": "Používateľ bol deaktivovaný.",
+            "mobileDashboardOrderUpdated": "Usporiadanie mobilného informačného panela bolo aktualizované.",
+            "authenticated": "Ste prihlásený!",
+            "tokenExpired": "Platnosť tokenu vypršala",
+            "tokenExpiredInfo": "Boli ste odhlásení, pretože platnosť vášho autentifikačného tokenu vypršala. Ak chcete pokračovať, prihláste sa pomocou svojich údajov.",
+            "userReactivated": "Užívateľ bol reaktivovaný."
+        }
+    },
+    "dashboard": {
+        "tabs": {
+            "creditApplications": "Žiadosti o úver",
+            "newEmployees": "Noví zamestnanci",
+            "newEmploymentAgencies": "Nové pracovné agentúry",
+            "newHirers": "Noví prenajímatelia",
+            "newFreelancers": "Noví freelanceri"
+        },
+        "titles": {
+            "employees": "Aktívni zamestnanci",
+            "marginExcludingVat": "Marža (bez DPH)",
+            "employmentAgencies": "Aktívne pracovné agentúry",
+            "hirers": "Aktívni prenajímatelia",
+            "freelancers": "Aktívni freelanceri",
+            "costExcludingVat": "Náklady {year} (bez DPH)",
+            "resellers": "Predajcovia"
+        },
+        "charts": {
+            "revenue": "Výnosy",
+            "employees": "Zamestnanci",
+            "workedHours": "Pracovné hodiny",
+            "hirers": "Prenajímatelia",
+            "surchargeHours": "Príplatkové hodiny",
+            "employmentAgencies": "Pracovné agentúry",
+            "freelancers": "Freelanceri",
+            "payroll": "Výplatná páska",
+            "temporary": "Dočasné",
+            "overtime": "Nadčas",
+            "margin": "Marža",
+            "freelancerCosts": "Náklady freelancera"
+        },
+        "static": {
+            "functions": "Funkcie",
+            "messageBox": "Pole pre správu",
+            "yourReservations": "Vaše rezervácie",
+            "recentPayslips": "Aktuálne výplatné pásky",
+            "unsignedContracts": "Nepodpísané zmluvy",
+            "hirersWithoutCao": "Prenajímatelia bez CAO",
+            "recentInvoices": "Aktuálne faktúry",
+            "annualStatements": "Ročné výkazy",
+            "statistics": "Štatistiky",
+            "newRegistrations": "Nové registrácie",
+            "charts": "Grafy",
+            "notifications": "Notifikácie"
+        },
+        "functions": {
+            "timeRegistration": "Registrácia času",
+            "imports": "Importy",
+            "exports": "Exporty",
+            "invoices": "Faktúry",
+            "documents": "Dokumenty",
+            "payslipsAndAnnualStatements": "Výplatné pásky / ročné výkazy"
+        },
+        "messageBox": {
+            "payOut": "Výplata ({frequency})",
+            "birthdays": "Narodeniny",
+            "shouldSignDocuments": "Mal by podpísať dokumenty",
+            "lockablePeriods": "Uzamykateľné obdobia",
+            "missingDocuments": "Chýbajúce dokumenty",
+            "expiredContracts": "Zmluvy, ktorých platnosť vypršala",
+            "expiringContracts": "Zmluvy, ktorých platnosť vypršala",
+            "renewableContracts": "Zmluvy, ktoré budú obnovené"
+        }
+    },
+    "documents": {
+        "editor": {
+            "date": "Dátum",
+            "employee": "Zamestnanec",
+            "employmentAgency": "Pracovná agentúra",
+            "hirer": "Prenajímateľ",
+            "variables": "Premenné",
+            "factoringCompany": "Faktoringová spoločnosť",
+            "freelancer": "Freelancer",
+            "employeeContract": "Zmluva",
+            "employment": "Zamestnanie",
+            "enterprise": "Podnik",
+            "freelancerJob": "Práca freelancera"
+        },
+        "static": {
+            "category": "Kategória",
+            "fieldOptions": "Možnosti políčok",
+            "fieldType": "Typ políčka",
+            "info": "Info",
+            "layout": "Usporiadanie",
+            "name": "Názov",
+            "newDocumentTemplate": "Šablóna nového dokumentu",
+            "previewValue": "Náhľad hodnoty",
+            "slug": "Slug",
+            "templateSaved": "Šablóna uložená",
+            "variableDeleted": "Premenná vymazaná",
+            "variables": "Premenné",
+            "variableSaved": "Premenná uložená",
+            "documentName": "Názov dokumentu",
+            "signedAt": "Podpísané v",
+            "declinedAt": "Odmietnuté v",
+            "subjects": "Subjekty",
+            "subjectType": "Typ subjektu",
+            "isOwner": "Je vlastník",
+            "shouldSign": "Mal by podpísať",
+            "canView": "Môže zobraziť",
+            "status": "Stav",
+            "editDocument": "Upraviť dokument",
+            "archiveDocumentConfirmationText": "Týmto sa dokument archivuje.",
+            "created": "Vytvorený",
+            "originalFile": "Pôvodný súbor",
+            "description": "Popis",
+            "template": "Šablóna",
+            "templateDeleted": "Šablóna odstránená",
+            "variable": "Premenná",
+            "documentPreview": "Náhľad dokumentu",
+            "generateDocument": "Generovanie dokumentu",
+            "testData": "Testovacie údaje",
+            "signedFile": "Podpísaný súbor",
+            "auditReport": "Správa z auditu",
+            "signRequestSentAt": "Žiadosť o podpis zaslaná",
+            "signRequests": "Žiadosti o podpis",
+            "fillableBySubject": "Na vyplnenie subjektom",
+            "position": "Pozícia",
+            "signDocument": "Podpísať dokument",
+            "uploadFile": "Nahrať súbor",
+            "subject": "Subjekt",
+            "uploadDocument": "Nahrať dokument",
+            "document": "Dokument",
+            "sendAfterCompletion": "Odoslať po dokončení",
+            "logoSubject": "Predmet loga",
+            "associateLogoSubject": "Pridružený predmet loga",
+            "linkDeductions": "Odkaz na odpočty",
+            "linkDeductionsInfo": "Tým sa zabezpečí, že sa pri ich vkladaní do časovej evidencie nevytvoria žiadne odpočtové formuláre.",
+            "hideDocumentConfirmationText": "Určite chcete túto úlohu skryť? Už sa znovu neobjaví.",
+            "signRequestsSent": "Žiadosti o podpis boli odoslané",
+            "isVisibleOn": "Je viditeľné na",
+            "creatableByRoles": "Vytvárateľné podľa rolí",
+            "fallbackValue": "Náhradná hodnota"
+        },
+        "tabs": {
+            "template": "Šablóna",
+            "info": "Info",
+            "variables": "Premenné",
+            "subjects": "Subjekty"
+        },
+        "steps": {
+            "selectData": "Vybrať údaje",
+            "selectTemplate": "Vybrať šablónu",
+            "review": "Náhľad",
+            "subjects": "Subjekty",
+            "variables": "Premenné"
+        },
+        "actions": {
+            "download": "Stiahnuť",
+            "showPreview": "Zobraziť náhľad",
+            "generateDocument": "Generovať dokument",
+            "editor": "Editor",
+            "pdf": "PDF",
+            "upload": "Nahrať",
+            "create": "Vytvoriť",
+            "createFromTemplate": "Vytvoriť zo šablóny",
+            "addSubject": "Pridať subjekt",
+            "options": "Možnosti"
+        }
+    },
+    "documentTemplates": {
+        "static": {
+            "default": "Predvolené",
+            "noTranslations": "Žiadne preklady",
+            "deleteConfirmationText": "Určite chcete odstrániť túto šablónu dokumentu?",
+            "deleteVariableConfirmationText": "Určite chcete odstrániť túto premennú dokumentu?",
+            "deleteSharedDocumentTemplate": "Určite chcete prestať používať túto šablónu dokumentu?",
+            "kiwaDeclarationOfEmployment": "Vyhlásenie o zamestnaní Kiwa"
+        },
+        "actions": {
+            "copyToCurrentEnterprise": "Kopírovanie do aktuálneho podniku",
+            "addSharedDocumentTemplate": "Pridanie šablóny zdieľaného dokumentu"
+        }
+    },
+    "enum": {
+        "contractPhase": {
+            "phase3": "Fáza 3 (B)",
+            "phase1And2": "Fáza 1/2 (A)",
+            "phase4": "Fáza 4 (C)"
+        },
+        "employeeType": {
+            "payroll": "Výplatná páska",
+            "normal": "Normálne",
+            "temporary": "Dočasné",
+            "other": "Iné"
+        },
+        "identityType": {
+            "alienPassport": "Cudzinecký pas",
+            "diplomaticPassport": "Diplomatický pas",
+            "servicePassport": "Služobný pas",
+            "alienIdentityCard": "Preukaz totožnosti cudzinca",
+            "dutchIdentityCard": "Holandský preukaz totožnosti",
+            "dutchMunicipalitiesIdentityCard": "Identifikačný preukaz holandských obcí",
+            "dutchPassport": "Holandský pas",
+            "none": "Žiadne",
+            "passportEeaCountry": "Pas krajiny EHP",
+            "passportNonEeaCountry": "Cestovný pas krajiny mimo EHP",
+            "refugeePassport": "Utečenecký pas",
+            "residenceDocuments": "Doklady o pobyte"
+        },
+        "maritalStatus": {
+            "livingTogetherWithContract": "Spoločné bývanie so zmluvou",
+            "unmarried": "Nezosobášený/á",
+            "widowhood": "Ovdovený/á",
+            "divorced": "Rozvedený",
+            "livingTogetherWithoutContract": "Spoločné bývanie bez zmluvy",
+            "registeredPartnership": "Registrované partnerstvo",
+            "married": "Zosobášený/á"
+        },
+        "gender": {
+            "female": "Ženy",
+            "male": "Muži",
+            "other": "Iné"
+        },
+        "vatTariff": {
+            "shifted": "Zmena",
+            "exempt": "Výnimka"
+        },
+        "fieldType": {
+            "checkbox": "Začiarkavacie políčko",
+            "text": "Text",
+            "textArea": "Textová časť",
+            "hirerHourType": "Typ hodiny prenajímateľa",
+            "money": "Peniaze",
+            "datePicker": "Výber dátumu"
+        },
+        "subsidyType": {
+            "reassigningDisabledEmployee": "Preradenie zamestnanca so zdravotným postihnutím z povolania",
+            "none": "Žiadne",
+            "targetJobAgreement": "Cieľová skupinová dohoda o pracovnej činnosti a osoby s ťažkosťami, týkajúcimi sa vzdelávania",
+            "hiringDisabledEmployee": "Prijatie zamestnanca so zdravotným postihnutím"
+        }
+    },
+    "fieldTypes": {
+        "static": {
+            "radioButton": "Rádiové tlačidlo",
+            "textField": "Textové pole",
+            "checkbox": "Začiarkavacie políčko",
+            "multiSelect": "Viacnásobný výber",
+            "noOptions": "Žiadne možnosti",
+            "select": "Vybrať"
+        }
+    },
+    "form": {
+        "static": {
+            "cao": "CAO",
+            "cc": "CC",
+            "chamberOfCommerceNumber": "Číslo obchodnej komory",
+            "creditLimit": "Úverový limit",
+            "email": "Email",
+            "employeeFunction": "Funkcia zamestnanca",
+            "gender": "Pohlavie",
+            "hirer": "Prenajímateľ",
+            "id": "ID",
+            "identityType": "Typ totožnosti",
+            "initials": "Iniciály",
+            "logo": "Logo",
+            "mainLanguage": "Hlavný jazyk",
+            "middleName": "Stredné meno",
+            "motivationLetter": "Motivačný list",
+            "name": "Meno",
+            "noRiskPolicy": "Žiadna politika rizík",
+            "password": "Heslo",
+            "passwordConfirmation": "Potvrdenie hesla",
+            "paymentTerm": "Termín platby",
+            "payOutFrequency": "Frekvencia výplat",
+            "phase": "Fáza",
+            "phone": "Telefón",
+            "probation": "Skúšobná doba",
+            "rentalOrPurchaseContractHomeCountry": "Nájomná alebo kúpna zmluva z domovskej krajiny",
+            "riskGroup": "Riziková skupina",
+            "sbiCodes": "SBI kódy",
+            "seniorDays": "Seniorské dni",
+            "shouldPayOutHolidays": "Vyplatiť dovolenku?",
+            "shouldPayOutReducedHours": "Vyplatiť skrátené hodiny?",
+            "shouldPayOutShortAbsence": "Vyplatiť krátku absenciu?",
+            "shouldPayOutVacationMoney": "Vyplatiť dovolenkové príspevky?",
+            "signature": "Podpis",
+            "startDate": "Dátum začiatku",
+            "stippPlan": "Plán StiPP",
+            "street": "Ulica",
+            "streetNumber": "Číslo",
+            "streetNumberAddition": "Dodatok",
+            "subject": "Subjekt",
+            "terminationDate": "Dátum ukončenia",
+            "vatNumber": "Číslo DPH",
+            "vatTariff": "Sadzba DPH",
+            "workTimeReductionDays": "Dni skráteného pracovného času",
+            "accountHolder": "Majiteľ účtu",
+            "authorizedSignatory": "Oprávnený signatár",
+            "birthdate": "Dátum narodenia",
+            "birthplace": "Miesto narodenia",
+            "certificate": "Osvedčenie",
+            "citizenServiceNumber": "Osobné identifikačné číslo",
+            "city": "Mesto",
+            "contractHours": "Zmluvné hodiny",
+            "costOfLivingAllowance": "Príspevok na životné náklady",
+            "country": "Krajina",
+            "countryCode": "Kód krajiny",
+            "countryOfBirth": "Krajina narodenia",
+            "curriculumVitae": "Životopis",
+            "diplomas": "Diplomy",
+            "documentNumber": "Číslo dokumentu",
+            "employeeType": "Typ zamestnanca",
+            "employmentAgency": "Pracovná agentúra",
+            "employmentDate": "Dátum zamestnania",
+            "gAccount": "G-účet?",
+            "gAccountPercentage": "Percento G-účtu",
+            "etRegulation": "Nariadenie ET",
+            "expirationDate": "Dátum ukončenia platnosti",
+            "factor": "Faktor",
+            "factorEtRegulation": "Faktor regulácie ET",
+            "factoringCompany": "Faktoringová spoločnosť",
+            "factorOvertime": "Faktor nadčasov",
+            "firstName": "Krstné meno",
+            "grossSalary": "Hrubá mzda",
+            "hasNoRiskPolicy": "Žiadna politika rizika?",
+            "hasPayrollTaxReduction": "Zníženie dane zo mzdy?",
+            "homewardTravelCost": "Náklady na cestu domov",
+            "homewardTravelDistance": "Cestovná vzdialenosť domov",
+            "homewardTravelFrequency": "Frekvencia cesty domov",
+            "iban": "IBAN",
+            "identityValidUntil": "Totožnosť platná do",
+            "invoiceEmail": "E-mail faktúry",
+            "language": "Jazyk",
+            "lastName": "Priezvisko",
+            "legalForm": "Právna forma",
+            "maritalStatus": "Rodinný stav",
+            "nationality": "Národnosť",
+            "proofOfRecruitmentAbroad": "Doklad o nábore v zahraničí",
+            "shouldDeductHealthInsurance": "Odpočet zdravotného poistenia?",
+            "shouldPayOutNonStatutoryHolidays": "Vyplatiť sviatky, ktoré nie sú stanovené zákonom?",
+            "zipCode": "Poštové smerovacie číslo",
+            "caoWorkweek": "Pracovný týždeň CAO",
+            "functionScale": "Stupnica funkcií",
+            "employment": "Zamestnanie",
+            "cessionText": "Text odstúpenia",
+            "employee": "Zamestnanec",
+            "useFrameworkAgreement": "Použitie rámcovej dohody",
+            "invoiceEmailCc": "Faktúra CC",
+            "chamberOfCommerceExtract": "Výpis z obchodnej komory",
+            "payslipsCc": "Výplatné pásky CC",
+            "enterprise": "Podnik",
+            "liabilityInsurance": "Poistenie zodpovednosti",
+            "marginInvoicePerWeek": "Faktúra za maržu za týždeň",
+            "freelancer": "Freelancer",
+            "freelancerJob": "Práca freelancera",
+            "gAccountIban": "G účet IBAN",
+            "gAccountHolder": "G majiteľ účtu",
+            "factorStatePension": "Faktor štátneho dôchodku",
+            "payslips": "Výplatné pásky",
+            "salesRate": "Predajná sadzba",
+            "factorSenior": "Faktor senior",
+            "timeRegistration": "Registrácia času",
+            "housingCost": "Náklady na bývanie",
+            "weeksWorked": "Odpracované týždne",
+            "documentTemplate": "Šablóna dokumentu",
+            "deliveryDeed": "Doklad o dodaní",
+            "files": "Súbory",
+            "isAgreedWork": "Je dohodnutá práca",
+            "endDate": "Dátum ukončenia",
+            "note": "Poznámka",
+            "timeRegistrationQuestion": "Registrácia času?",
+            "timeForTime": "Čas za čas",
+            "workHours": "Pracovné hodiny",
+            "workStartTime": "Čas začiatku práce",
+            "workEndTime": "Čas ukončenia práce",
+            "pensionPlan": "Dôchodkový plán",
+            "start": "Štart",
+            "reason": "Dôvod",
+            "end": "Koniec",
+            "background": "Pozadie (portrét)",
+            "outOfServiceReasonSlug": "Dôvod",
+            "outOfServiceDate": "Dátum ukončenia služby",
+            "salaryWithExtraDays": "Mzda s dňami navyše",
+            "factorWithExtraDays": "Faktor s dňami navyše",
+            "invoiceCompany": "Fakturačná spoločnosť",
+            "date": "Dátum",
+            "file": "Súbor",
+            "location": "Miesto",
+            "workDaysAndHours": "Pracovné dni a hodiny",
+            "website": "Webová stránka",
+            "payOutEnterprise": "Vyplatiť podnik",
+            "upload": "Nahrať",
+            "shouldPayOutVacationDays": "Preplatiť dni dovolenky?",
+            "currentPassword": "Aktuálne heslo",
+            "exchangeOvertime": "Výmena nadčasov",
+            "employerNumber": "Číslo zamestnávateľa",
+            "seasonalWork": "Sezónna práca",
+            "splitInvoicePerProject": "Rozdelenie faktúry na projekt",
+            "splitInvoicePerEmployee": "Rozdelenie faktúry na zamestnanca",
+            "splitInvoicePerFreelancer": "Rozdelenie faktúry na freelancera",
+            "splitInvoiceItemsByDate": "Rozdelenie fakturovaných hodín a ciest podľa dátumu",
+            "companyType": "Typ spoločnosti",
+            "healthcareDescription": "Popis zdravotnej starostlivosti",
+            "qualifications": "Kvalifikácie",
+            "workServices": "Pracovné služby",
+            "activities": "Aktivity",
+            "certificateOfConduct": "Osvedčenie o správaní",
+            "deductMarginVat": "Odpočet marže DPH",
+            "requireFreelancerVatNumber": "Vyžaduje číslo DPH freelancera",
+            "blockSalesRate": "Blok predajnej sadzby",
+            "employeeTypeSlugs": "Typ zamestnanca",
+            "ownerCompany": "Spoločnosť vlastníka",
+            "generateFreelancerDocuments": "Generovanie dokumentov freelancera",
+            "snfCertification": "Certifikácia SNF",
+            "payOutExport": "Export výplaty",
+            "isPayOutEnabledQuestion": "Povolená výplata?",
+            "healthInsurance": "Zdravotné poistenie",
+            "search": "Hľadať",
+            "searchAddress": "Hľadanie adresy",
+            "splitPayOut": "Rozdelenie výplaty",
+            "dontSendDocuments": "Neposielať dokumenty",
+            "selectedAmount": "Vybrané {amount}",
+            "description": "Popis",
+            "reseller": "Predajca",
+            "noRecordsFound": "Nenájdené žiadne záznamy...",
+            "contact": "Kontakt",
+            "teamTypes": "Druhy tímu",
+            "teamModel": "Subjekt",
+            "team": "Tým",
+            "teamPresets": "Predvoľby tímu",
+            "canHaveJobs": "Môže mať prácu",
+            "role": "Rola",
+            "user": "Používateľ",
+            "backgroundLandscape": "Pozadie (krajina)",
+            "shouldPayOutSeniorDays": "Vyplácať seniorské dni?",
+            "workDays": "Pracovné dni",
+            "subsidyCompany": "Dotačná spoločnosť",
+            "type": "Typ",
+            "subsidy": "Dotácie",
+            "shouldPayOutWorkTimeReductionDays": "Vyplácať dni skráteného pracovného času?",
+            "grossSalaryPerHour": "Hrubá hodinová mzda",
+            "deductionOverviewPerWeek": "Prehľad zrážok za týždeň",
+            "kiwaNumber": "Číslo Kiwa",
+            "niwoNumber": "Číslo Niwo",
+            "showFunctionOnInvoice": "Zobraziť funkciu na faktúre",
+            "languageCode": "Kód jazyka"
+        },
+        "steps": {
+            "documents": "Dokumenty",
+            "employment": "Zamestnanie",
+            "files": "Súbory",
+            "foreignNationality": "Cudzia štátna príslušnosť",
+            "general": "Všeobecné",
+            "contactAndFinancial": "Kontaktné a finančné informácie",
+            "documentsAndEmployment": "Dokumenty a zamestnanie",
+            "job": "Práca",
+            "account": "Účet",
+            "employer": "Zamestnávateľ",
+            "etRegulation": "Regulácia ET",
+            "contract": "Zmluva",
+            "hirerRemuneration": "Odmena prenajímateľa"
+        },
+        "hint": {
+            "startTypingToSearch": "Začnite písať pre vyhľadávanie",
+            "lockPensionPlan": "Zablokovať dôchodkový plán, aby sa automaticky neupravoval."
+        },
+        "actions": {
+            "upload": "Nahrať"
+        }
+    },
+    "general": {
+        "actions": {
+            "approve": "Schváliť",
+            "archive": "Archív",
+            "cancel": "Zrušiť",
+            "delete": "Vymazať",
+            "edit": "Upraviť",
+            "new": "Nový",
+            "next": "Ďalší",
+            "previous": "Predchádzajúci",
+            "save": "Uložiť",
+            "saveTranslations": "Uložiť preklady",
+            "sendInvitation": "Odoslať pozvánku",
+            "skip": "Preskočiť",
+            "confirm": "Potvrdiť",
+            "addRow": "Pridať riadok",
+            "viewParentCompany": "Zobraziť materskú firmu",
+            "remove": "Odstrániť",
+            "add": "Pridať",
+            "refresh": "Obnoviť",
+            "selectAll": "Vybrať všetko",
+            "deselectAll": "Zrušiť výber všetkých",
+            "invite": "Pozvánka",
+            "create": "Vytvoriť",
+            "linkEnterprise": "Prepojenie podniku",
+            "upload": "Nahrať",
+            "unarchive": "Odarchivovať",
+            "addType": "Pridať typ",
+            "clearFilters": "Zrušiť filtre",
+            "deleteSelected": "Odstrániť vybrané ({amount})",
+            "close": "Zavrieť",
+            "downloadFormat": "Formát na stiahnutie",
+            "import": "Import",
+            "submit": "Odoslať",
+            "continue": "Pokračovať",
+            "impersonate": "Napodobniť",
+            "fill": "Vyplniť",
+            "ok": "Ok",
+            "copyToken": "Kopírovať token",
+            "actions": "Akcie",
+            "editPermissions": "Upraviť oprávnenia",
+            "detach": "Odpojiť",
+            "attach": "Pripojiť",
+            "selectAllFromRole": "Vybrať všetko z role",
+            "calculate": "Výpočet",
+            "reset": "Reset",
+            "editUser": "Editovať užívateľa"
+        },
+        "plurals": {
+            "week": "Žiadne týždne | {count} týždeň | {count} týždne(ov)",
+            "hour": "Žiadne hodiny | {count} hodina | {count} hodiny",
+            "month": "Žiadne mesiace | {count} mesiac | {count} mesiace(ov)",
+            "file": "Žiadne súbory | {count} súbor | {count} súbory(ov)"
+        },
+        "static": {
+            "accountHolder": "Majiteľ účtu",
+            "address": "Adresa",
+            "addressInformation": "Informácie o adrese",
+            "authorizedSignatory": "Oprávnený signatár",
+            "birthdate": "Dátum narodenia",
+            "birthplace": "Miesto narodenia",
+            "cao": "Cao",
+            "category": "Kategória",
+            "chamberOfCommerceNumber": "Číslo obchodnej komory",
+            "citizenServiceNumber": "Osobné identifikačné číslo",
+            "company": "Spoločnosť",
+            "contact": "Kontakt",
+            "contactInformation": "Kontaktné informácie",
+            "country": "Krajina",
+            "countryOfBirth": "Krajina narodenia",
+            "createContact": "Vytvoriť kontakt",
+            "creditLimit": "Úverový limit",
+            "deleteFailed": "Niečo sa pokazilo, ak problém pretrváva, kontaktujte nás.",
+            "documentNumber": "Číslo dokumentu",
+            "documents": "Dokumenty",
+            "documentTemplates": "Šablóny dokumentu",
+            "email": "Email",
+            "employeeApprovalSuccess": "Úspešne schválený zamestnanec.",
+            "employeeCreationSuccess": "Úspešne vytvorený zamestnanec.",
+            "employees": "Zamestnanci",
+            "employment": "Zamestnanie",
+            "employmentAgencies": "Pracovné agentúry",
+            "employmentAgency": "Pracovná agentúra",
+            "employmentAgencyApprovalFail": "Nedošlo k schváleniu pracovnej agentúry.",
+            "employmentAgencyCreationSuccess": "Úspešne vytvorená pracovná agentúra.",
+            "etRegulation": "Regulácia ET",
+            "factor": "Faktor",
+            "files": "Súbory",
+            "financialInformation": "Finančné informácie",
+            "firstName": "Krstné meno",
+            "gender": "Pohlavie",
+            "hi": "Ahoj {user}",
+            "hirer": "Prenajímateľ",
+            "hirerApprovalFail": "Nepodarilo sa schváliť prenajímateľa.",
+            "hirerCreationSuccess": "Prenajímateľ úspešne vytvorený.",
+            "hirers": "Prenajímatelia",
+            "iban": "IBAN",
+            "id": "ID",
+            "identityType": "Typ totožnosti",
+            "identityValidUntil": "Totožnosť platná do",
+            "initials": "Iniciály",
+            "invite": "Pozvánka",
+            "invoices": "Faktúry",
+            "language": "Jazyk",
+            "lastName": "Priezvisko",
+            "log": "Log",
+            "maritalStatus": "Rodinný stav",
+            "middleName": "Druhé meno",
+            "name": "Meno",
+            "none": "Žiadne",
+            "notes": "Poznámky",
+            "personalData": "Osobné údaje",
+            "phone": "Telefón",
+            "postalAddress": "Poštová adresa",
+            "residenceAddress": "Adresa bydliska",
+            "sbiCodes": "SBI kódy",
+            "search": "Hľadať",
+            "settings": "Nastavenia",
+            "takeOverFromHirer": "Prevzatie od prenajímateľa",
+            "timeForTime": "Čas za čas",
+            "vatNumber": "Číslo DPH",
+            "visitAddress": "Adresa pre návštevu",
+            "confirmationQuestion": "Ste si istí?",
+            "percentage": "Percento",
+            "euro": "Euro",
+            "no": "Nie",
+            "employeeType": "Typ zamestnanca",
+            "employmentDate": "Dátum zamestnania",
+            "payrollTaxReduction": "Zníženie dane zo mzdy",
+            "yes": "Áno",
+            "contractPhase": "Fáza zmluvy",
+            "payOutFrequency": "Frekvencia výplaty",
+            "contractHours": "Zmluvné hodiny",
+            "startDate": "Dátum začiatku",
+            "homewardTravelCost": "Náklady na cestu domov",
+            "homewardTravelDistance": "Cestovná vzdialenosť domov",
+            "homewardTravelFrequency": "Frekvencia cesty domov",
+            "factorEtRegulation": "Faktor regulácie ET",
+            "factorOvertime": "Faktor nadčasu",
+            "vatTariff": "Sadzba DPH",
+            "invoiceEmail": "E-mail faktúry",
+            "city": "Mesto",
+            "factoringCompanies": "Faktoringové spoločnosti",
+            "factoringCompany": "Faktoringová spoločnosť",
+            "enterprises": "Podniky",
+            "dashboard": "Informačný panel",
+            "employee": "Zamestnanec",
+            "enabled": "Povolené",
+            "period": "Obdobie",
+            "nr": "Č.",
+            "exports": "Exporty",
+            "webhooks": "Webhooky",
+            "companyInformation": "Informácie o spoločnosti",
+            "currentEmployments": "Aktuálne zamestnania",
+            "employeeApprovalFail": "Nepodarilo sa schváliť zamestnanca.",
+            "employmentAgencyApprovalSuccess": "Úspešne schválená pracovná agentúra.",
+            "hirerApprovalSuccess": "Prenajímateľ úspešne schválený.",
+            "legalForm": "Právna forma",
+            "notApplicable": "Nevzťahuje sa",
+            "splitMargin": "Rozdelenie marže",
+            "timeRegistration": "Registrácia času",
+            "terminationDate": "Dátum ukončenia",
+            "participantEtRegulation": "Regulácia účastníka ET?",
+            "employer": "Zamestnávateľ",
+            "invoiceEmailCc": "Faktúra CC",
+            "payslip": "Výplatná páska",
+            "freelancerCreationSuccess": "Úspešne vytvorený freelancer",
+            "employmentCreationSuccess": "Úspešne vytvorené zamestnanie",
+            "originalValue": "Pôvodná hodnota",
+            "total": "Celkom",
+            "cancel": "Zrušiť",
+            "enterprise": "Podnik",
+            "date": "Dátum",
+            "freelancers": "Freelanceri",
+            "freelancer": "Freelancer",
+            "hours": "Hodiny",
+            "timesheet": "Pracovný výkaz",
+            "reservations": "Rezervácie",
+            "imports": "Importy",
+            "billedAt": "Účtované v",
+            "attachments": "Prílohy",
+            "freelancerApprovalSuccess": "Úspešne schválený freelancer",
+            "freelancerApprovalFail": "Nepodarilo sa schváliť freelancera",
+            "account": "Účet",
+            "overtime": "Nadčas",
+            "surcharge": "Príplatok",
+            "shiftWorkSurcharge": "Príplatok za prácu na zmeny",
+            "sepaId": "SEPA ID",
+            "travelHours": "Čas cestovania",
+            "users": "Používatelia",
+            "permissions": "Povolenia",
+            "user": "Používateľ",
+            "link": "Odkaz",
+            "newContact": "Nový kontakt",
+            "resultsCount": "{count} výsledky(ov)",
+            "costOfLivingAllowance": "Príspevok na životné náklady",
+            "createdAt": "Vytvorené",
+            "note": "Poznámka",
+            "seniorDays": "Dni seniorov",
+            "km": "KM",
+            "housingCost": "Náklady na bývanie",
+            "phase": "Fáza",
+            "sendPayslips": "Odoslať výplatné pásky",
+            "stipp": "Stipp",
+            "weeksWorked": "Odpracované týždne",
+            "translations": "Preklady",
+            "subjects": "Subjekty",
+            "outOfServiceDate": "Dátum ukončenia služby",
+            "outOfServiceReason": "Dôvod vyradenia zo služby",
+            "accountNumber": "Číslo účtu",
+            "filters": "Filtre",
+            "startsAt": "Začína",
+            "endsAt": "Končí",
+            "factorSenior": "Faktor senior",
+            "year": "Rok",
+            "sendFailed": "Odoslanie zlyhalo",
+            "createdBy": "Používateľ",
+            "createNote": "Vytvoriť poznámku",
+            "workTimeReductionDays": "Dni skráteného pracovného času",
+            "timeRegistrationIsNotEnabledText": "Registrácia času nie je povolená.",
+            "workHours": "Pracovné hodiny",
+            "workStartTime": "Čas začiatku práce",
+            "workEndTime": "Čas ukončenia práce",
+            "sickReports": "Správy o nemociach",
+            "outOfServiceEmployeeSuccess": "Zamestnanec bol úspešne nahlásený ako zamestnanec mimo službu.",
+            "outOfServiceSuccess": "Úspešne mimo službu",
+            "createFailed": "Tento záznam sa nepodarilo uložiť.",
+            "employments": "Zamestnania",
+            "fileDeleteFailed": "Odstránenie súboru zlyhalo",
+            "fromPeriod": "Od obdobia",
+            "start": "Štart",
+            "end": "Koniec",
+            "reason": "Dôvod",
+            "maxImageSize": "Obrázok musí byť menší ako {width} x {height} px.",
+            "hint": "Nápoveda",
+            "outOfService": "Mimo službu",
+            "updateFailed": "Tento záznam sa nepodarilo uložiť.",
+            "saveFailed": "Tento záznam sa nepodarilo uložiť.",
+            "archiveSuccess": "Položka je archivovaná.",
+            "archiveFailed": "Túto položku sa nepodarilo archivovať.",
+            "location": "Miesto",
+            "holidaySurcharge": "Príplatok za dovolenku",
+            "uploadFiles": "Nahrať súbory",
+            "invoiceCompany": "Fakturačná spoločnosť",
+            "freelancerJobs": "Práca freelancera",
+            "deleteFileConfirmationText": "Určite chcete súbor odstrániť?",
+            "filesUploaded": "Nahrané súbory",
+            "fileUploadFailed": "Odoslanie súboru zlyhalo",
+            "fileDeleted": "Súbor odstránený",
+            "unarchiveSuccess": "Položka nie je archivovaná.",
+            "unarchiveFailed": "Túto položku sa nám nepodarilo odarchivovať.",
+            "recentVisitedPages": "Tu sa zobrazia nedávno navštívené stránky.",
+            "payOutEnterprise": "Vyplatiť podnik",
+            "frequency": "Frekvencia",
+            "from": "Od",
+            "until": "Do",
+            "download": "Stiahnuť",
+            "contractStartDate": "Dátum začiatku zmluvy",
+            "description": "Popis",
+            "reservationsBuildup": "Akumulácia rezervácií",
+            "upcomingEmployments": "Nadchádzajúce zamestnania",
+            "usingHirerValue": "Používanie hodnoty prenajímateľa",
+            "loadFailed": "Požadované údaje sa nám nepodarilo načítať.",
+            "importEntityFailed": "Import sa nepodaril. Skúste obnoviť stránku a spustiť import znova.",
+            "healthInsuranceStartDateInfo": "Zrážka zo zdravotného poistenia sa pripočíta na začiatku každého týždňa/štyroch týždňov/mesiaca (v závislosti od frekvencie vyplácania), pokiaľ je k danému dátumu aktívne zdravotné poistenie.",
+            "contractEndDate": "Dátum ukončenia zmluvy",
+            "subject": "Subjekt",
+            "causer": "Príčina",
+            "seasonalWork": "Sezónna práca",
+            "payslips": "Výplatné pásky",
+            "annualStatements": "Ročné výkazy",
+            "projects": "Projekty",
+            "correction": "Oprava",
+            "selectedAmount": "Vybrané ({amount})",
+            "validationFailed": "Overenie zlyhalo",
+            "sharedDocumentTemplates": "Šablóny zdieľaného dokumentu",
+            "companyType": "Typ spoločnosti",
+            "certificateOfConduct": "Osvedčenie o správaní",
+            "useHirerValue": "Použitie hodnoty prenajímateľa",
+            "useEmploymentAgencyValue": "Použiť hodnotu agentúry práce",
+            "type": "Typ",
+            "canNotDeleteEmployeeTitle": "Nemožno odstrániť",
+            "usingEmploymentAgencyValue": "Používanie hodnoty agentúry práce",
+            "canNotDeleteEmploymentTitle": "Nemožno odstrániť",
+            "useParentValue": "Použiť nadradenú hodnotu",
+            "import": "Import",
+            "importHirers": "Import prenajímateľov",
+            "importSuccessful": "Import úspešný",
+            "importEmployees": "Import zamestnancov",
+            "importEmployments": "Import zamestnaní",
+            "importFreelancers": "Import freelancerov",
+            "importFreelancerJobs": "Import prác freelancera",
+            "registration": "Registrácia",
+            "owner": "Majiteľ",
+            "marginInvoicePerWeek": "Faktúra za maržu za týždeň",
+            "generateFreelancerDocuments": "Generovanie dokumentov freelancera",
+            "generateFreelancerDocumentsInfo": "Ak je táto možnosť vypnutá, na konci sprievodcu freelancerom sa nevytvoria žiadne dokumenty.",
+            "currentJobs": "Aktuálne pracovné miesta",
+            "upcomingJobs": "Nadchádzajúce pracovné miesta",
+            "isPayOutEnabled": "Povolená výplata?",
+            "pages": "Stránky",
+            "homeAddress": "Adresa bydliska",
+            "dashboardOrderMobile": "Usporiadanie informačného panela pre mobily",
+            "recurringDeductionInfo": "Opakovaná zrážka sa pripočíta na začiatku každého týždňa/štyroch týždňov/mesiaca (v závislosti od frekvencie vyplácania).",
+            "missingRequiredAttributesConfirmText": "Položku zatiaľ nie je možné odoslať na schválenie, pretože nie sú vyplnené niektoré požadované atribúty.",
+            "resellerApprovalFail": "Nepodarilo sa schváliť predajcu.",
+            "confirmationImpersonateText": "Ste si istí, že chcete zastupovať tohto používateľa?",
+            "splitPayOutInfo": "Ak je táto možnosť povolená, bežné hodiny budú pri exporte výplat oddelené od ostatných registrácií.",
+            "minimum": "Minimum",
+            "new": "Nové",
+            "resellers": "Predajcovia",
+            "resellerCreationSuccess": "Predajca úspešne vytvorený.",
+            "resellerApprovalSuccess": "Predajca úspešne schválený.",
+            "splitPayOut": "Rozdelenie výplaty",
+            "missingRequiredAttributesConfirmTitle": "Chýbajúce povinné polia",
+            "otherInfo": "Ďalšie informácie",
+            "dontSendDocuments": "Neposielať dokumenty",
+            "showTotal": "Zobraziť celkom",
+            "saved": "Uložené",
+            "fillAll": "Vyplniť všetko",
+            "submitForApprovalConfirmTitle": "Odoslať na schválenie",
+            "submittedForApproval": "Odoslané na schválenie.",
+            "submitForApprovalFailed": "Nepodarilo sa nám odoslať subjekt na schválenie.",
+            "notYetSubmittedForApproval": "Zatiaľ neodoslané na schválenie.",
+            "submitForApprovalConfirmText": "Položka bude odoslaná na schválenie.",
+            "jobCreationSuccess": "Pracovné miesto bolo vytvorené.",
+            "variable": "Premenná",
+            "notifications": "Notifikácie",
+            "disablePayOutConfirmationText": "Ste si istí, že chcete nepovoliť vyplácanie za túto registráciu?",
+            "dontSendDocumentsInfo": "Žiadosti o podpis sa nebudú posielať pre dokumenty tu vybrané.",
+            "reseller": "Predajca",
+            "googleLogo": "Google logo",
+            "resultsCountMobile": "Strana {current} - {total}",
+            "token": "Prístupový token",
+            "teams": "Týmy",
+            "unableToDeleteItem": "Nemožno odstrániť položku",
+            "receiveNewSignToken": "Prijať nový podpisový token",
+            "attachExistingContact": "Pripojiť existujúci kontakt",
+            "personalAccessTokens": "Osobné prístupové tokeny",
+            "teamPresets": "Predvoľby tímu",
+            "defaultValue": "Predvolená hodnota",
+            "messageBox": "Pole pre správu",
+            "hide": "Skryť",
+            "contractType": "Typ zmluvy",
+            "expiresAt": "Platnosť končí",
+            "signRequestSentAt": "Žiadosť o podpis zaslaná",
+            "signTokenExpiresAt": "Platnosť podpisového tokenu vyprší",
+            "missingDocumentsAmount": "Počet chýbajúcich dokumentov",
+            "noPermissionForField": "Bez oprávnenia na zobrazenie...",
+            "NoPermissionForSegment": "Nemáte správne oprávnenia na zobrazenie tohto segmentu...",
+            "role": "Úloha",
+            "contactHasNoAccountTooltip": "Tento kontakt nemá účet",
+            "portals": "Portály",
+            "roles": "Úlohy",
+            "workweekHours": "Pracovné hodiny v týždni",
+            "proFormaPayslip": "Výplatná páska pro forma",
+            "subsidyCompany": "Dotačná spoločnosť",
+            "subsidy": "Dotácie",
+            "deductionOverviewPerWeek": "Prehľad zrážok za týždeň",
+            "fiscalYearlySalary": "Fiškálny ročný plat",
+            "result": "Výsledok",
+            "details": "Detaily",
+            "subsidyCompanies": "Dotačné spoločnosti",
+            "confirmed": "Potvrdené",
+            "amount": "Čiastka",
+            "automatic": "Automatické",
+            "ageHint": "Vek: {age}",
+            "mainContact": "Hlavný kontakt"
+        },
+        "tabs": {
+            "companyDetails": "Podrobnosti o spoločnosti",
+            "contactDetails": "Kontaktné údaje",
+            "contacts": "Kontakty",
+            "details": "Detaily",
+            "documents": "Dokumenty",
+            "employees": "Zamestnanci",
+            "hirers": "Prenajímatelia",
+            "invoices": "Faktúry",
+            "log": "Log",
+            "notes": "Poznámky",
+            "hourTypes": "Typy hodín",
+            "compensations": "Kompenzácie",
+            "travelTypes": "Typy cestovania",
+            "settings": "Nastavenia",
+            "splitMargin": "Rozdelenie marže",
+            "hours": "Hodiny",
+            "employments": "Zamestnania",
+            "reservations": "Rezervácie",
+            "jobs": "Pracovné miesta",
+            "wageAttachments": "Exekúcia mzdy",
+            "deductions": "Odpočty",
+            "projects": "Projekty",
+            "freelancers": "Freelanceri",
+            "tariffs": "Tarify",
+            "margins": "Marže",
+            "customers": "Zákazníci",
+            "subsidies": "Dotácie",
+            "user": "Používateľ"
+        },
+        "errors": {
+            "forbidden": "Nedostatok oprávnení na vykonanie tejto akcie."
+        },
+        "messages": {
+            "dataUniqueToEnterprise": "Tieto údaje sú jedinečné pre podnik {enterpriseName}. Kliknutím na {action} tieto údaje prepíšete.Neprepísané údaje sa prevezmú z nadradeného podniku.",
+            "overriddenValue": "Táto hodnota je prepísaná."
+        },
+        "tooltip": {
+            "copyToClipboard": "Kopírovať do schránky"
+        }
+    },
+    "language": {
+        "actions": {
+            "select": "Vybrať"
+        },
+        "static": {
+            "default": "Predvolené"
+        }
+    },
+    "menu": {
+        "actions": {
+            "dashboard": "Informačný panel",
+            "employees": "Zamestnanci",
+            "employmentAgencies": "Pracovné agentúry",
+            "functions": "Funkcie",
+            "hirers": "Prenajímatelia",
+            "settings": "Nastavenia",
+            "invoices": "Faktúry",
+            "exports": "Exporty",
+            "timeRegistration": "Registrácia času",
+            "imports": "Importy",
+            "freelancers": "Freelanceri",
+            "logout": "Odhlásenie",
+            "documents": "Dokumenty",
+            "language": "Jazyk",
+            "leaveImpersonation": "Opustiť imitáciu",
+            "sickReports": "Správy o nemociach",
+            "outOfService": "Mimo službu",
+            "account": "Účet",
+            "payslips": "Výplatné pásky",
+            "resellers": "Predajcovia",
+            "proFormaPayslip": "Výplatná páska pro forma"
+        }
+    },
+    "settings": {
+        "pages": {
+            "documents": "Dokumenty",
+            "factoringCompanies": "Faktoringové spoločnosti",
+            "enterprises": "Podniky",
+            "webhooks": "Webhooky",
+            "users": "Používatelia",
+            "personalAccessTokens": "Osobné prístupové tokeny",
+            "teams": "Tímy",
+            "roles": "Úlohy",
+            "subsidyCompanies": "Dotačné spoločnosti"
+        }
+    },
+    "validation": {
+        "errors": {
+            "checkForm": "Prosím, skontrolujte chyby vo formulári",
+            "alternativeAddress": "Túto adresu sa nám nepodarilo nájsť, mysleli ste možno {address}?",
+            "addressInvalid": "Túto adresu sa nám nepodarilo nájsť."
+        },
+        "static": {
+            "required": "Toto pole je povinné",
+            "unableToDeleteItem": "Nemožno odstrániť položku"
+        }
+    },
+    "timeRegistration": {
+        "static": {
+            "week": "Týždeň",
+            "compensationDescriptiveText": "Popisný text kompenzácie...",
+            "amount": "Čiastka",
+            "hours": "Hodiny",
+            "project": "Projekt",
+            "location": "Miesto",
+            "notes": "Poznámky",
+            "payOut": "Vyplatiť",
+            "hourType": "Typ hodín",
+            "date": "Dátum",
+            "to": "Do",
+            "kilometers": "Kilometrov",
+            "reservationDescriptiveText": "Popisný text rezervácie...",
+            "reservation": "Rezervácia",
+            "currentState": "Aktuálny stav",
+            "newState": "Nový stav",
+            "compensations": "Kompenzácie",
+            "chargeTo": "Účtovať na",
+            "deleteKilometersConfirmationText": "Určite to chcete vymazať?",
+            "maxDistance": "Maximálna vzdialenosť",
+            "deduction": "Zrážka",
+            "deductionAmount": "Výška odpočtu",
+            "selectADeduction": "Vyberte odpočet",
+            "uploadDeductionAttachment": "Nahrať prílohu odpočtu",
+            "deductionAttachment": "Príloha odpočtu",
+            "attachmentNotRequired": "Príloha nie je potrebná",
+            "deductions": "Odpočty",
+            "travelType": "Typ cestovného",
+            "invoiceCreated": "Faktúra vytvorená",
+            "invoiceAlreadySaved": "Táto faktúra už bola uložená.",
+            "from": "Od",
+            "reservations": "Rezervácie",
+            "deductionDescriptiveText": "Popisný text odpočtu...",
+            "function": "Funkcia",
+            "compensation": "Kompenzácia",
+            "deployed": "Zavedené",
+            "staff": "Personál",
+            "companies": "Spoločnosti",
+            "freelancers": "Freelanceri",
+            "invoicingFailed": "Nepodarilo sa vytvoriť faktúry.",
+            "employmentIsInactiveText": "Toto zamestnanie nie je vo vybranom období aktívne.",
+            "status": "Stav",
+            "jobIsInactiveText": "Táto práca nie je vo vybranom období aktívna.",
+            "unlocked": "Obdobie bolo odblokované.",
+            "unlockFailed": "Obdobie sa nám nepodarilo odblokovať.",
+            "hourInfoText": "Pri aktualizácii hodín sa automaticky prepočítajú náhrady a zrážky.",
+            "deleteTimeRegistrationConfirmationText": "Registrácia hodín sa vymaže.",
+            "downloadFormatFailed": "Nepodarilo sa vytvoriť formát.",
+            "import": "Import",
+            "validationFailed": "Overenie zlyhalo",
+            "importSuccessful": "Import bol úspešný",
+            "importStarted": "Import sa začal. V závislosti od veľkosti môže trvať až niekoľko minút.",
+            "copyFailed": "Nepodarilo sa nám skopírovať riadok.",
+            "creatingInvoicesStatusText": "Vytvárajú sa faktúry. Po dokončení tohto procesu si môžete faktúry pozrieť tu.",
+            "shouldNotSendWithInvoice": "Neposielať s faktúrou",
+            "timeRegistrationsDeleted": "Časové registrácie boli odstránené.",
+            "deleteTimeRegistrationsConfirmationText": "Určite chcete odstrániť vybrané časové registrácie?",
+            "compensationDeleted": "Kompenzácia bola odstránená.",
+            "hourDeleted": "Hodiny boli odstránené.",
+            "travelSaved": "Cesta bola uložená.",
+            "travelDeleted": "Cesta bola odstránená.",
+            "returnTravelSaved": "Spiatočná cesta bola uložená.",
+            "travelDuplicated": "Cesta bola duplikovaná.",
+            "creatingInvoicesInfo": "Vytvorenie faktúr je naplánované.",
+            "noOutstandingTimeRegistrationsFound": "Nenašli sa žiadne nevybavené časové registrácie.",
+            "autoCalculateDeductionsInfo": "Ak je táto možnosť zapnutá, nevyrovnané zrážky sa automaticky prepočítajú pri registrácii hodín alebo generovaní faktúr.",
+            "noRegistrationsFound": "Nenájdené žiadne registrácie.",
+            "someHoursNotCopied": "Niektoré registrácie hodín nebolo možné skopírovať z dôvodu chýbajúceho typu hodiny.",
+            "hoursCopied": "Hodiny boli skopírované.",
+            "someTravelsNotCopied": "Niektoré cestovné registrácie nebolo možné skopírovať z dôvodu chýbajúceho typu cesty.",
+            "travelsCopied": "Cesty boli skopírované."
+        },
+        "actions": {
+            "cao": "CAO",
+            "duplicateReturnTravel": "Spiatočná cesta",
+            "duplicateKilometerRow": "Duplikovať riadok",
+            "editHours": "Upraviť hodiny",
+            "addRow": "Pridať riadok",
+            "uploadKilometerAccountability": "Nahrať zúčtovanie kilometrov",
+            "invoice": "Faktúra",
+            "correction": "Oprava",
+            "saveInvoice": "Uložiť faktúru",
+            "receipts": "Potvrdenia",
+            "uploadAttachments": "Nahratie príloh",
+            "deployed": "Zavedené",
+            "staff": "Personál",
+            "copyPreviousPeriod": "Kopírovať predchádzajúce obdobie",
+            "add": "Pridať",
+            "closePeriod": "Obdobie uzávierky",
+            "unlock": "Odomknúť",
+            "autoCalculate": "Automatický výpočet",
+            "viewHours": "Zobraziť hodiny",
+            "previewInvoice": "Náhľad faktúry",
+            "viewInvoice": "Zobraziť faktúru",
+            "generateInvoice": "Generovanie faktúry",
+            "deleteInvoice": "Odstrániť faktúru",
+            "excel": "Excel",
+            "downloadFormat": "Formát na stiahnutie",
+            "upload": "Nahrať",
+            "import": "Import",
+            "copyFromEmployee": "Kopírovať od iného zamestnanca",
+            "createTimeRegistration": "Vytvoriť časovú registráciu",
+            "saveInvoices": "Uložiť faktúry",
+            "selectLockable": "Vybrať všetko",
+            "deselectAll": "Zrušiť výber všetkých",
+            "copyFromFreelancer": "Kopírovať od iného freelancera"
+        },
+        "tabs": {
+            "hours": "Hodiny",
+            "kilometers": "Kilometrov",
+            "compensations": "Kompenzácie",
+            "reservations": "Rezervácie",
+            "deductions": "Odpočty"
+        }
+    },
+    "api": {
+        "kvk": {
+            "static": {
+                "apiOffline": "KVK Api je mimo prevádzky",
+                "companyInfoSuccessfullyFilled": "Informácie o spoločnosti úspešne vyplnené"
+            },
+            "validation": {
+                "errors": {
+                    "cocNotFound": "Číslo obchodnej komory nebolo nájdené."
+                }
+            }
+        },
+        "creditsafe": {
+            "validation": {
+                "errors": {
+                    "companyNotFound": "Spoločnosť nenájdená"
+                }
+            },
+            "static": {
+                "apiOffline": "Rozhranie API Credit Safe je offline."
+            }
+        }
+    },
+    "hourType": {
+        "static": {
+            "name": "Názov",
+            "timeForTime": "Čas za čas",
+            "value": "Hodnota",
+            "unit": "Jednotka",
+            "employeesWithoutAccess": "Zamestnanci bez prístupu",
+            "none": "Žiadne",
+            "employeesWithAccess": "Zamestnanci s prístupom",
+            "employeeHasHourTypeOverrides": "Zamestnanec má prepísaný typ hodín",
+            "hourType": "Typ hodín",
+            "saved": "Uložené",
+            "default": "Štandardné hodiny",
+            "deleted": "Vymazané",
+            "caoSurcharges": "Príplatky CAO",
+            "timeForTimeEnabled": "Čas za čas zapnuté",
+            "hint": "Nápoveda",
+            "frequency": "Frekvencia",
+            "timeForTimeDisabled": "Čas za čas vypnuté",
+            "type": "Typ",
+            "defaultForNewEmployeeUpdated": "Aktualizácia predvolených typov hodín pre nového zamestnanca",
+            "defaultForNewEmployee": "Predvolené pre nového zamestnanca",
+            "desiredNetSalary": "Požadovaná čistá mzda",
+            "difference": "Rozdiel",
+            "actualNetSalary": "Aktuálna čistá mzda",
+            "useDesiredNetSalary": "Použite požadovanú čistú mzdu",
+            "hourTypes": "Typy hodín",
+            "chargeTo": "Účtovať na"
+        },
+        "actions": {
+            "grantAccessToAll": "Udeliť prístup všetkým",
+            "takeAccessFromAll": "Odobrať prístup všetkým",
+            "disableTimeForTimeForAll": "Vypnúť čas za čas pre všetkých",
+            "enableTimeForTimeForAll": "Zapnúť čas za čas pre všetkých"
+        }
+    },
+    "frequency": {
+        "static": {
+            "daily": "Denná",
+            "weekly": "Týždenne",
+            "fourWeekly": "Každé štyri týždne",
+            "monthly": "Mesačne",
+            "week": "Týždeň",
+            "month": "Mesiac",
+            "fourWeek": "Štyri týždne",
+            "day": "Deň",
+            "hourly": "Hodinová",
+            "hour": "Hodina",
+            "weekShort": "t",
+            "fourWeekShort": "4t",
+            "monthShort": "m",
+            "hourShort": "h",
+            "dayShort": "d"
+        }
+    },
+    "deduction": {
+        "static": {
+            "personalContributionForTransport": "Osobný príspevok na dopravu",
+            "advance": "Záloha",
+            "penalty": "Pokuta",
+            "certificateOfGoodBehavior": "Osvedčenie o dobrom správaní",
+            "workingClothesWorkingShoes": "Pracovný odev pracovná obuv",
+            "eduction": "Vzdelanie",
+            "housingExtra": "Bývanie extra",
+            "advanceExtra": "Záloha extra",
+            "healthInsuranceExtra": "Zdravotné poistenie extra",
+            "housing": "Bývanie",
+            "healthInsurance": "Zdravotné poistenie",
+            "mealAllowance": "Príspevok na stravovanie",
+            "personnelAssociation": "Personálna asociácia"
+        }
+    },
+    "reservation": {
+        "static": {
+            "holidayHoursExtraLegal": "Zákonné extra dovolenkové hodiny",
+            "holidayPay": "Platba za dovolenku",
+            "workTimeReductionHours": "Skrátenie pracovného času",
+            "seniorDays": "Dni seniorov",
+            "timeForTime": "Čas za čas",
+            "holidayHoursLegal": "Zákonné dovolenkové hodiny",
+            "amount": "Čiastka",
+            "holidayHours": "Hodiny počas sviatkov",
+            "holidays": "Dovolenka",
+            "shortAbsence": "Krátka absencia",
+            "time": "Čas",
+            "money": "Peniaze",
+            "reservation": "Rezervácia",
+            "updatedAt": "Aktualizované v"
+        }
+    },
+    "compensation": {
+        "static": {
+            "none": "Žiadne",
+            "employeesWithAccess": "Zamestnanci s prístupom",
+            "name": "Názov",
+            "value": "Hodnota",
+            "unit": "Jednotka",
+            "caoCompensations": "Kompenzácie CAO",
+            "compensation": "Náhrada",
+            "saved": "Uložené",
+            "deleted": "Vymazané",
+            "hint": "Nápoveda",
+            "factor": "Faktor",
+            "chargeTo": "Účtovať na",
+            "frequency": "Frekvencia",
+            "payOutEnabled": "Výplata povolená",
+            "isGross": "V hrubom",
+            "employeesWithoutAccess": "Zamestnanci bez prístupu",
+            "employeeHasCompensationOverrides": "Zamestnanec má prepísanú kompenzáciu",
+            "defaultForNewEmployee": "Predvolené pre nového zamestnanca",
+            "defaultForNewEmployeeUpdated": "Aktualizácia predvolených náhrad pre nového zamestnanca",
+            "desiredSalaryCompensation": "Požadovaná platová náhrada",
+            "compensations": "Náhrady",
+            "payslipPaymentsDesiredSalaryExplanation": "Pri importe platieb z výplatnej pásky táto funkcia vytvorí náhradu pre každého zamestnanca, ktorý má požadovanú mzdu (zadanú pri importe časovej evidencie), ktorá je vyššia ako platba z výplatnej pásky.",
+            "checkDesiredSalaryOnPayslipPayments": "Kontrola požadovanej mzdy",
+            "noCompensations": "Žiadne náhrady",
+            "deviantFactor": "Faktor odchýlky",
+            "salesRate": "Predajná sadzba",
+            "compensationSaved": "Kompenzácie boli uložené.",
+            "enabledCompensationsRecalculatedInfo": "Pri zapnutí kompenzácií sa tieto automaticky započítajú do všetkých zostávajúcich registrácií času (ak sú zaregistrované hodiny)."
+        },
+        "actions": {
+            "grantAccessToAll": "Udeliť prístup všetkým",
+            "takeAccessFromAll": "Odobrať prístup všetkým",
+            "useDeviatingFactor": "Použiť faktor odchýlky",
+            "addSalesRate": "Pridať predajnú sadzbu"
+        }
+    },
+    "stippPlanType": {
+        "static": {
+            "basic": "Základ",
+            "plus": "Plus"
+        }
+    },
+    "travelType": {
+        "static": {
+            "name": "Názov",
+            "hint": "Nápoveda",
+            "value": "Hodnota",
+            "unit": "Jednotka",
+            "gross": "Hrubá",
+            "net": "Čistá",
+            "employeesWithoutAccess": "Zamestnanci bez prístupu",
+            "none": "Žiadne",
+            "employeesWithAccess": "Zamestnanci s prístupom",
+            "travelType": "Typ cesty",
+            "saved": "Uložené",
+            "deleted": "Vymazané",
+            "caoTravelExpenses": "Cestovné výdavky CAO",
+            "default": "Predvolené",
+            "employeeHasTravelTypeOverrides": "Zamestnanec má prepísaný typ cesty",
+            "defaultForNewEmployee": "Predvolené pre nového zamestnanca",
+            "defaultForNewEmployeeUpdated": "Aktualizácia predvolených typov ciest pre nového zamestnanca",
+            "noTravels": "Žiadne cesty",
+            "chargeTo": "Účtovať na"
+        },
+        "actions": {
+            "grantAccessToAll": "Udeliť prístup všetkým",
+            "takeAccessFromAll": "Odobrať prístup všetkým"
+        }
+    },
+    "role": {
+        "static": {
+            "administrator": "Administrátor",
+            "employee": "Zamestnanec",
+            "employmentAgency": "Pracovná agentúra",
+            "hirer": "Prenajímateľ",
+            "freelancer": "Freelancer",
+            "superAdministrator": "Super správca",
+            "roleDeleted": "Úloha bola odstránená.",
+            "deleteRoleText": "Určite chcete túto úlohu odstrániť?"
+        }
+    },
+    "hourTypes": {
+        "actions": {
+            "edit": "Upraviť"
+        }
+    },
+    "invoice": {
+        "static": {
+            "number": "Číslo",
+            "period": "Obdobie",
+            "salesInvoice": "Predajná faktúra",
+            "costsOverview": "Prehľad nákladov",
+            "marginInvoice": "Faktúra za maržu",
+            "deductionsOverview": "Prehľad zrážok",
+            "salesInvoices": "Predajné faktúry",
+            "marginInvoices": "Faktúry za maržu",
+            "searchInvoices": "Vyhľadávať faktúry",
+            "payments": "Platby",
+            "noPaymentsFound": "Nenájdené žiadne platby",
+            "addPayment": "Pridať platbu",
+            "gAccount": "G-účet",
+            "log": "Log",
+            "ipAddress": "IP adresa",
+            "total": "Celkom",
+            "download": "Stiahnuť",
+            "createdBy": "Vytvorené",
+            "paidAt": "Zaplatené v",
+            "deductions": "Zrážky",
+            "billedAt": "Účtované v",
+            "files": "Súbory",
+            "invoice": "Faktúra",
+            "info": "Info",
+            "totalPaid": "Celkovo vyplatené",
+            "gAccountPaid": "G-účet vyplatený",
+            "pending": "Čakajúce",
+            "queued": "V poradí",
+            "billed": "Účtované",
+            "paid": "Zaplatené",
+            "createdAt": "Vytvorené",
+            "sendAt": "Odoslať na",
+            "invoiceWillBeBilled": "Faktúry za toto obdobie budú čoskoro vyúčtované.",
+            "invoiceWillBeSent": "Faktúra bude odoslaná.",
+            "sales": "Predaje",
+            "costs": "Náklady",
+            "margin": "Marža",
+            "freelancerInvoice": "Faktúra od freelancera",
+            "agreedWorkInvoice": "Dohodnutá faktúra za prácu",
+            "freelancer": "Freelancer",
+            "agreedWork": "Dohodnutá práca",
+            "extraInvoice": "Extra faktúra",
+            "creditInvoice": "Dobropisovaná faktúra",
+            "hideEmail": "Skryť e-mail",
+            "rows": "Riadky",
+            "description": "Popis",
+            "attachments": "Prílohy",
+            "customInvoice": "Vlastná faktúra",
+            "invoiceDate": "Dátum faktúry",
+            "preview": "Náhľad",
+            "customCosts": "Vlastné náklady",
+            "deleteInvoiceText": "Určite chcete túto faktúru vymazať?",
+            "confirmTypeChangeText": "Všetky existujúce položky faktúry budú odstránené. Ste si istí, že chcete zmeniť typ?",
+            "exportDescriptiveText": "Naraz je možné exportovať maximálne {count} faktúr. Všetky filtre zadané vo vyhľadávacom poli sa použijú na obmedzenie množstva faktúr v exporte.",
+            "customCostsOverview": "Prehľad vlastných nákladov",
+            "remuneration": "Odmeny",
+            "custom": "Vlastné",
+            "newItem": "Nová položka",
+            "amount": "Čiastka",
+            "unitPrice": "Cena za jednotku",
+            "items": "Položky",
+            "makeMargin": "Vytvoriť maržu",
+            "item": "Položka",
+            "vat": "DPH",
+            "employee": "Zamestnanec",
+            "deduction": "Zrážka",
+            "exports": "Exporty",
+            "exportInvalidText": "Je vybraných príliš veľa faktúr, obmedzte ich počet pomocou vyššie uvedených filtrov.",
+            "billing": "Fakturácia",
+            "relatedInvoices": "Súvisiace faktúry",
+            "resellerMargin": "Marža predajcu",
+            "resellerMarginInvoice": "Predajca marže faktúry",
+            "customInvoiceItemVatNotDefaultConfirmationText": "Určite chcete použiť iný sadzobník DPH?"
+        },
+        "actions": {
+            "addPayment": "Pridať platbu",
+            "download": "Stiahnuť",
+            "billNow": "Účet teraz",
+            "sendNow": "Odoslať teraz",
+            "create": "Vytvoriť",
+            "addToQueue": "Pridať do fronty",
+            "preview": "Náhľad",
+            "createExport": "Exportovať {count} faktúr",
+            "downloadAll": "Stiahnuť všetko",
+            "billSelected": "Vyúčtovať vybrané faktúry",
+            "selectBillable": "Vybrať zúčtovateľné",
+            "deselectAll": "Zrušiť výber všetkých"
+        },
+        "filter": {
+            "from": "Od",
+            "to": "Do",
+            "type": "Typ",
+            "queuedOnly": "Len v poradí",
+            "outstandingOnly": "Iba neuhradené"
+        }
+    },
+    "factoring": {
+        "static": {
+            "factoringCompany": "Faktoringová spoločnosť",
+            "details": "Detaily",
+            "cessionText": "Text odstúpenia",
+            "impact": "Dopad",
+            "factris": "Factris",
+            "type": "Typ",
+            "deleteFactoringCompanyConfirmationText": "Ste si istí, že chcete vymazať túto faktoringovú spoločnosť?",
+            "typeInfo": "Typ určuje, aký formát budú mať exporty.",
+            "sendInvoice": "Odoslať faktúry?",
+            "nlCredit": "NL-Kredit"
+        }
+    },
+    "enterprises": {
+        "static": {
+            "enterprise": "Podnik",
+            "details": "Detaily",
+            "deleteStandardDocumentConfirmationText": "Ste si istí, že chcete tento štandardný dokument vymazať?",
+            "standardDocuments": "Štandardné dokumenty",
+            "standardDocumentUpdateSuccess": "Štandardný dokument úspešne aktualizovaný.",
+            "shouldNotifyCustomers": "Mal by informovať zákazníkov",
+            "noFileUploaded": "Zatiaľ nebol nahraný žiadny súbor.",
+            "uploadNewFile": "Nahrať nový súbor",
+            "payOutEnterpriseInfo": "Výplatný podnik je možné zrušiť výberom výplatného podniku pre zamestnanca alebo nájomcu.",
+            "canHaveJobsInfo": "Ak je táto možnosť vypnutá, nie je možné vytvárať žiadne pracovné miesta ani pracovné miesta freelancera pre nájomcov, ktorí sú prepojení s týmto podnikom.",
+            "canBeInvoicedInfo": "Ak je táto možnosť povolená, tento podnik bude k dispozícii pri vytváraní nového nájomcu ako pracovná agentúra."
+        }
+    },
+    "exports": {
+        "static": {
+            "notStarted": "Ešte nezačaté",
+            "queued": "Vo fronte",
+            "running": "Beží",
+            "completed": "Dokončené",
+            "cancelled": "Zrušené",
+            "failed": "Neúspešné",
+            "factoringCompanyExport": "Export faktoringovej spoločnosti",
+            "options": "Možnosti",
+            "exports": "Exporty",
+            "generatedAt": "Generované",
+            "deleteExportConfirmationText": "Týmto sa vymaže export.",
+            "deleteInvoiceConfirmationText": "Týmto sa odstránia všetky súvisiace faktúry a odblokuje sa registrácia času pre toto obdobie.",
+            "export": "Export",
+            "periods": "Obdobie",
+            "deleteSepaOverviewExportConfirmationText": "Export sa vymaže a stav platby pre každú faktúru v tomto exporte sa vynuluje.",
+            "payOutInfo": "Názov exportu bude rovnaký ako najvyššie vybrané obdobie. Všetky vybrané registrácie v nižších obdobiach sa budú exportovať v samostatných súboroch. Všetky neuhradené faktúry budú vyúčtované.",
+            "marginAndDeductionsExport": "Export marže a zrážok",
+            "total": "Celkom",
+            "exportSuccessful": "Export úspešný",
+            "selectedInvoices": "Vybrali ste {count} faktúr(y).",
+            "payOutExport": "Export výplaty",
+            "noRegistrationsFound": "Nenájdené žiadne registrácie.",
+            "deletePayOutExportConfirmationText": "Export sa vymaže a všetky registrácie v tomto exporte bude možné opäť exportovať.",
+            "registrations": "Registrácie",
+            "noInvoicesFound": "Nenájdené žiadne faktúry.",
+            "deductionsDocumentNotSigned": "Dokument o zrážkach nie je podpísaný.",
+            "employeesExport": "Export zamestnancov",
+            "deleteWageAttachmentConfirmationText": "Exekúcia mzdy sa vymaže.",
+            "archiveEmploymentAgencyConfirmationText": "Ste si istí, že chcete túto pracovnú agentúru archivovať?",
+            "deleteTravelTypeConfirmationText": "Ste si istí, že chcete tento typ cesty vymazať?",
+            "missingDocumentsForPayOutExport": "Chýbajúce podpísané dokumenty",
+            "archiveHirerConfirmationText": "Ste si istí, že chcete tohto prenajímateľa archivovať?",
+            "deleteCompensationConfirmationText": "Ste si istí, že chcete túto náhradu vymazať?",
+            "deleteHourTypeConfirmationText": "Ste si istí, že chcete tento typ hodiny vymazať?",
+            "unarchiveEmploymentAgencyConfirmationText": "Ste si istí, že chcete túto pracovnú agentúru odarchivovať?",
+            "unarchiveHirerConfirmationText": "Ste si istí, že chcete zrušiť archiváciu tohto nájomcu?",
+            "accountingSoftwareExport": "Účtovný softvér",
+            "marginOverview": "Prehľad marže",
+            "marginOverviewExport": "Export prehľadu marže",
+            "invoice": "Faktúra",
+            "saveInvoiceConfirmationText": "Faktúry sa uložia a obdobie sa uzamkne.",
+            "freelancersPayoutExport": "Export výplaty freelancerov",
+            "exportHealhInsuranceRemainder": "Export neexportovaných zdravotných poistení",
+            "hollandZorg": "HollandZorg",
+            "newEmployees": "Noví zamestnanci",
+            "markAllAsChanged": "Označiť všetko ako zmenené",
+            "changedEmployees": "Zmenení zamestnanci",
+            "markAllAsNew": "Označiť všetko ako nové",
+            "editExport": "Upraviť export",
+            "addEmployee": "Pridať zamestnanca",
+            "unexportedHealhInsuranceCount": "{count} neexportované zdravotné poistenia.",
+            "healthInsuranceExport": "Export zdravotného poistenia",
+            "doNotExport": "Neexportovať",
+            "doExport": "Exportovať",
+            "markAllAsDoNotExport": "Označiť všetko ako neexportovať",
+            "markAllAsDoExport": "Označiť všetko ako exportovať",
+            "exported": "Exportované",
+            "archiveResellerConfirmationText": "Určite chcete archivovať tohto predajcu?",
+            "unarchiveResellerConfirmationText": "Určite chcete zrušiť archiváciu tohto predajcu?",
+            "mijnSubsidie": "Môj príspevok",
+            "resellerMarginsExport": "Export marží predajcov",
+            "mijnSubsidieExport": "Export pre Môj príspevok",
+            "historicalPayOutExport": "Historický export výplat",
+            "historicalPayOutInfo": "Exporty sa vytvoria pre každú vybranú časovú registráciu. Uplatňujú sa bežné pravidlá vyplácania, s výnimkou toho, že sa nevypočítavajú žiadne nárasty rezervy."
+        },
+        "pages": {
+            "factoringCompany": "Faktoringová spoločnosť",
+            "marginAndDeductions": "Marža a zrážky",
+            "payOutExport": "Export výplaty",
+            "employeesExport": "Export zamestnancov",
+            "accountingSoftwareExport": "Účtovný softvér",
+            "marginOverviewExport": "Export prehľadu marže",
+            "hollandZorgExport": "Export HollandZorg",
+            "freelancersPayout": "Výplata freelancerov",
+            "resellerMargins": "Marže predajcu",
+            "mijnSubsidieExport": "Export pre Môj príspevok"
+        },
+        "actions": {
+            "refresh": "Obnoviť",
+            "selectAll": "Vybrať všetko",
+            "clearSelection": "Zrušiť výber",
+            "generate": "Generovať",
+            "selectPeriod": "Vybrať obdobie",
+            "exactDate": "Presný dátum",
+            "timePeriod": "Časové obdobie",
+            "showOldExports": "Zobraziť staré exporty"
+        },
+        "payOut": {
+            "static": {
+                "notExportedEmployeesInfo": "Niektoré negatívne hodiny týchto zamestnancov nebolo možné exportovať:",
+                "skipNonExportableValidation": "Vynechať overovanie chýbajúcich dokumentov"
+            },
+            "actions": {
+                "historical": "Historické"
+            }
+        },
+        "employees": {
+            "static": {
+                "createFreshExportInfo": "Ak je povolená možnosť „najnovší export“, do exportu budú zahrnutí všetci aktuálne aktívni zamestnanci.",
+                "createFreshExport": "Najnovší export"
+            }
+        }
+    },
+    "documentStatus": {
+        "static": {
+            "created": "Vytvorené",
+            "pending": "Čakajúce",
+            "declined": "Odmietnuté",
+            "expired": "Vypršala platnosť",
+            "completed": "Dokončené"
+        }
+    },
+    "documentType": {
+        "static": {
+            "pdf": "PDF",
+            "template": "Šablóna",
+            "view": "Zobraziť",
+            "upload": "Nahrať"
+        }
+    },
+    "emails": {
+        "editor": {
+            "invitationLink": "Odkaz na pozvánku"
+        }
+    },
+    "documentSubjectType": {
+        "static": {
+            "employment": "Zamestnanie",
+            "employmentAgency": "Pracovná agentúra",
+            "hirer": "Prenajímateľ",
+            "factoringCompany": "Faktoringová spoločnosť",
+            "freelancerJob": "Práca freelancera",
+            "employee": "Zamestnanec",
+            "enterprise": "Podnik",
+            "freelancer": "Freelancer",
+            "employeeContract": "Zamestnanecká zmluva"
+        }
+    },
+    "employment": {
+        "messages": {
+            "wizardPreviousEmploymentExplanation": "Predchádzajúce zamestnanie sa používa ako základ pre toto nové zamestnanie."
+        },
+        "static": {
+            "payOutPreferences": "Výplatné preferencie",
+            "startDate": "Dátum začiatku",
+            "endDate": "Dátum ukončenia",
+            "function": "Funkcia",
+            "scale": "Stupnica",
+            "factor": "Faktor",
+            "grossSalary": "Hrubá mzda",
+            "salesRate": "Predajná sadzba",
+            "includeExtraDays": "Zahrnúť dni navyše do mzdy",
+            "deleteSuccess": "Zamestnanie bolo vymazané.",
+            "deleteFailed": "Nepodarilo sa vymazať zamestnanie.",
+            "workdaysAndTimes": "Pracovné dni a hodiny",
+            "deleteConfirmationText": "Určite chcete toto zamestnanie vymazať?",
+            "emptyFunctionSalesRateConfirmationText": "Všetky funkcie majú prázdnu predajnú sadzbu.",
+            "missingRequiredAttributesConfirmText": "Zamestnanie ešte nie je možné odoslať na schválenie, pretože nie sú vyplnené niektoré požadované atribúty.",
+            "submitForApprovalConfirmText": "Zamestnanie sa odošle na schválenie."
+        },
+        "actions": {
+            "addFunction": "Pridať funkciu",
+            "createNext": "Vytvoriť ďalšie",
+            "goToEmployment": "Prejdi na zamestnanie"
+        }
+    },
+    "imports": {
+        "static": {
+            "imports": "Importy",
+            "importedAt": "Importované v",
+            "notStarted": "Ešte nezačaté",
+            "queued": "V poradí",
+            "running": "Beží",
+            "completed": "Dokončené",
+            "cancelled": "Zrušené",
+            "failed": "Neúspešné",
+            "payslips": "Výplatné pásky",
+            "upload": "Nahrať",
+            "payslipsImported": "Import výplatných pások",
+            "log": "Log",
+            "payslipsImport": "Import výplatných pások",
+            "bankImport": "Import banky",
+            "imported": "Importované",
+            "payslipsPayments": "Platby výplatných pások",
+            "employee": "Zamestnanec",
+            "total": "Celkom",
+            "iban": "IBAN",
+            "payments": "Platby",
+            "reservations": "Rezervácie",
+            "reservationsImported": "Importované rezervácie",
+            "reservationsImport": "Import rezervácií",
+            "annualStatements": "Ročné výkazy",
+            "annualStatementsImport": "Import ročných výkazov",
+            "dispatched": "Odoslané",
+            "sendAfterCompletion": "Odoslať po dokončení",
+            "timeRegistration": "Registrácia hodín",
+            "desiredSalaryCheck": "Kontrola požadovanej mzdy",
+            "payslipPaymentsCreateCompensations": "Vytvoriť náhrady",
+            "outstandingDesiredSalaryCheck": "Niektoré výplaty nezodpovedajú požadovanej mzde:",
+            "outstandingDesiredSalaryCompensationsCreated": "Náhrady sú vytvorené.",
+            "annualStatementsImported": "Ročné výkazy importované",
+            "entity": "Subjekt",
+            "payslipsPaymentsPeriodText": "Ak je vybrané obdobie a/alebo oprava, všetky platby v PDF budú importované v tomto období. Ak nie je vybrané žiadne obdobie, použije sa číslo obdobia v PDF."
+        },
+        "pages": {
+            "bankImport": "Import banky",
+            "payslips": "Výplatné pásky",
+            "payments": "Platby",
+            "reservations": "Rezervácie",
+            "annualStatements": "Ročné výkazy"
+        },
+        "actions": {
+            "upload": "Nahrať",
+            "refresh": "Obnoviť"
+        }
+    },
+    "freelancerJob": {
+        "static": {
+            "hourType": "Typ hodín",
+            "activities": "Aktivity",
+            "startDate": "Dátum začiatku",
+            "endDate": "Dátum ukončenia",
+            "hourlyRate": "Hodinová sadzba",
+            "salesRate": "Predajná sadzba",
+            "margin": "Marža",
+            "deleteHourTypeConfirmationText": "Ste si istí, že chcete tento typ hodiny vymazať?",
+            "compensation": "Kompenzácia",
+            "name": "Názov",
+            "travelType": "Typ cesty",
+            "rate": "Sadzba",
+            "deleteSuccess": "Práca bola vymazaná.",
+            "deleteFailed": "Nepodarilo sa vymazať prácu.",
+            "deleteConfirmationText": "Určite chcete túto prácu vymazať?",
+            "hourTypeMarginInfo": "Vyplnením tejto hodnoty sa bude ignorovať tarifná tabuľka.",
+            "notMinimumHourTypeMarginConfirmationText": "Niektoré marže sú nižšie ako vypočítaná marža.",
+            "deviatingMargin": "Marža odchýlky",
+            "missingRequiredAttributesConfirmText": "Pracovné miesto ešte nie je možné odoslať na schválenie, pretože nie sú vyplnené niektoré požadované atribúty.",
+            "submitForApprovalConfirmText": "Pracovné miesto sa odošle na schválenie."
+        },
+        "actions": {
+            "addCompensation": "Pridať kompenzáciu",
+            "addHourType": "Pridať typ hodiny",
+            "addTravelType": "Pridať typ cesty"
+        }
+    },
+    "company": {
+        "static": {
+            "notificationEmailCc": "Upozornenie cc",
+            "documentEmail": "Dokument e-mail",
+            "documentEmailCc": "Dokument cc",
+            "notificationEmail": "Upozornenie e-mailom",
+            "reminderEmail": "Pripomienkový e-mail",
+            "reminderEmailCc": "Pripomienka cc",
+            "copyInfo": "Vytvorí sa nová kópia a prepojí sa s vybraným podnikom. Pre každý podnik je možné vytvoriť len jednu kópiu. Zmeny vykonané v origináli sa môžu synchronizovať s kópiou.",
+            "freelancerMargins": "Marže freelancera",
+            "copies": "Kópie",
+            "synchronizeInfo": "Vybrané hodnoty sa synchronizujú s vybranou spoločnosťou.",
+            "copiesAreIdentical": "Kópie sú identické.",
+            "synchronizationSuccessful": "Kópie sú úspešne synchronizované.",
+            "original": "Originál",
+            "typeSlug": "Typ spoločnosti",
+            "pensionPlanFactors": "Faktory penzijného plánu",
+            "email": "Firemný e-mail",
+            "phone": "Firemný telefón",
+            "website": "Firemná webová stránka",
+            "legalFormSlug": "Právna forma"
+        },
+        "actions": {
+            "synchronize": "Synchronizovať",
+            "makeCopy": "Vytvoriť kópiu",
+            "newCopy": "Nová kópia"
+        }
+    },
+    "user": {
+        "actions": {
+            "sendResetPasswordLink": "Odoslať odkaz na obnovenie hesla"
+        },
+        "static": {
+            "notActivated": "Užívateľ nie je aktivovaný.",
+            "deactivated": "Deaktivované"
+        }
+    },
+    "document": {
+        "static": {
+            "log": "Log",
+            "selectSubjects": "Vybrať subjekty",
+            "selectSubjectsForSignRequestsText": "Vyberte všetky subjekty, ktorým chcete poslať žiadosť o podpis.",
+            "selectSubjectsForSignedFileText": "Vyberte všetky subjekty, ktorým chcete poslať podpísaný súbor.",
+            "sendSignRequestsConfirmationText": "Žiadosť o podpis dostanú tieto subjekty.",
+            "generatorSubjectSendAfterCompletionExplanation": "Tieto subjekty dostanú dokument po jeho dokončení.",
+            "selectSubjectsForCompletedFileText": "Vyberte všetky subjekty, ktorým chcete odoslať vyplnený súbor.",
+            "generatorSubjectShouldSignExplanation": "Žiadosť o podpis dostanú tieto subjekty.",
+            "subjectSaved": "Subjekt bol uložený.",
+            "subjectDeleted": "Subjekt bol odstránený."
+        }
+    },
+    "log": {
+        "static": {
+            "description": "Popis",
+            "date": "Dátum",
+            "old": "Staré",
+            "new": "Nové",
+            "properties": "Vlastnosti",
+            "system": "Systém",
+            "causer": "Príčina",
+            "id": "Id",
+            "subject": "Subjekt"
+        }
+    },
+    "freelancer": {
+        "static": {
+            "job": "Práca",
+            "jobs": "Pracovné miesta",
+            "jobCreationSuccess": "Pracovné miesto bolo vytvorené",
+            "deleteConfirmationText": "Určite chcete odstrániť tohto freelancera?",
+            "deleteSuccess": "Freelancer bol vymazaný.",
+            "deleteFailed": "Nepodarilo sa vymazať freelancera.",
+            "linkedThroughJob": "Prepojenie prostredníctvom pracovného miesta",
+            "inviteNewInfoText": "Pozvánka bude zaslaná novému freelancerovi.",
+            "inviteExistingInfoText": "Pozvánka bude zaslaná freelancerovi {name}.",
+            "missingRequiredAttributesConfirmText": "Freelancer ešte nemôže byť odoslaný na schválenie, pretože nie sú vyplnené niektoré požadované atribúty.",
+            "submittedForApproval": "Freelancer bol odoslaný na schválenie",
+            "submitForApprovalConfirmText": "Freelancer bude odoslaný na schválenie.",
+            "archiveConfirmationText": "Ste si istí, že chcete archivovať tohto freelancera?",
+            "activeOnly": "Iba aktívne",
+            "unarchiveConfirmationText": "Ste si istí, že chcete zrušiť archiváciu tohto freelancera?",
+            "archivedText": "Tento freelancer je archivovaný."
+        }
+    },
+    "employee": {
+        "static": {
+            "employments": "Zamestnania",
+            "employment": "Zamestnanie",
+            "wageAttachment": "Exekúcia mzdy",
+            "contractDeleteSuccess": "Zmluva bola vymazaná.",
+            "wageAttachmentCreationSuccess": "Exekúcia mzdy bola vytvorená.",
+            "wageAttachmentUpdateSuccess": "Exekúcia mzdy bola aktualizovaná.",
+            "wageAttachmentDeleteSuccess": "Exekúcia mzdy bola vymazaná.",
+            "wageAttachments": "Exekúcia mzdy",
+            "contracts": "Zmluvy",
+            "contractDeleteFailed": "Nepodarilo sa vymazať zmluvu.",
+            "contractCreateSuccess": "Zmluva bola vytvorená.",
+            "contractUpdateSuccess": "Zmluva bola aktualizovaná.",
+            "deleteContractConfirmationText": "Ste si istí, že chcete túto zmluvu vymazať?",
+            "createContract": "Vytvoriť zmluvu",
+            "contract": "Zmluva",
+            "functions": "Funkcie",
+            "noRecentPayslips": "Nenašli sa žiadne aktuálne výplatné pásky.",
+            "archivedText": "Tento zamestnanec je archivovaný.",
+            "noAnnualStatements": "Žiadne ročné výkazy.",
+            "deleteConfirmationText": "Určite chcete tohto zamestnanca vymazať?",
+            "deleteSuccess": "Zamestnanec bol vymazaný.",
+            "deleteFailed": "Nepodarilo sa vymazať zamestnanca.",
+            "archiveConfirmationText": "Určite chcete tohto zamestnanca archivovať?",
+            "unarchiveConfirmationText": "Určite chcete zrušiť archiváciu tohto zamestnanca?",
+            "annualStatements": "Ročné výkazy",
+            "annualStatement": "Ročný výkaz",
+            "payslips": "Výplatné pásky",
+            "pensionPlan": "Dôchodkový plán",
+            "canNotDeleteEmployeeText": "Zamestnanca nie je možné odstrániť kvôli existujúcim časovým registráciám.",
+            "contractRequiredForEmploymentInfoText": "Upozornenie. Vytvorenie zmluvy je voliteľné, ak ešte nemáte nájomcu/pracovníka. Bez zmluvy nemôžete vytvoriť pracovný pomer.",
+            "markedAsNew": "Označené ako nové",
+            "markedAsChanged": "Označené ako zmenené",
+            "deleteValidationFailed": "Nemožno skontrolovať, či je možné zamestnanca odstrániť.",
+            "inviteExistingInfoText": "Pozvánka bude zaslaná zamestnancovi {name}.",
+            "canNotDeleteEmploymentText": "Pracovný pomer nie je možné odstrániť z dôvodu existujúcich časových registrácií.",
+            "inviteNewInfoText": "Pozvánka bude zaslaná novému zamestnancovi.",
+            "activeContract": "Aktívna zmluva",
+            "wizardSkipContractConfirmationText": "Určite nechcete vytvoriť zmluvu? Bez zmluvy nemôžete vytvoriť pracovný pomer.",
+            "wizardSkipEmploymentConfirmationText": "Určite nechcete vytvoriť pracovný pomer?",
+            "healthInsurances": "Zdravotné poistenia",
+            "submitForApprovalConfirmText": "Zamestnanec bude odoslaný na schválenie.",
+            "submittedForApproval": "Zamestnanec bol odoslaný na schválenie.",
+            "missingRequiredAttributesConfirmText": "Zamestnanca zatiaľ nie je možné odoslať na schválenie, pretože nie sú vyplnené niektoré požadované atribúty.",
+            "markToBeRenewedConfirmationText": "Zmluva bude na konci platnosti označená ako obnoviteľná.",
+            "markNotToBeRenewedConfirmationText": "Zmluva nebude označená na obnovenie a bude odstránená zo správ. Zamestnanec dostane e-mail s potvrdením, že zmluva nebude po uplynutí jej platnosti obnovená.",
+            "contractMarkedToBeRenewed": "Zmluva bola označená ako obnoviteľná",
+            "contractMarkedNotToBeRenewed": "Zmluva bola označená ako neobnoviteľná",
+            "contractCreateWithDocumentInfo": "Vytvorí sa nová zmluva a príslušný dokument. Požiadavka na podpísanie dokumentu bude odoslaná 1 hodinu po vytvorení. Dátum ukončenia aktuálnej zmluvy bude nastavený na deň pred dátumom začiatku novej zmluvy.",
+            "accountNotActivatedInfo": "Účet nebol (zatiaľ) aktivovaný. Kliknutím na tlačidlo Pozvať odošlete zamestnancovi aktivačný odkaz.",
+            "subsidyCreateSuccess": "Dotácia bola vytvorená.",
+            "subsidyDeleteSuccess": "Dotácia bola zrušená."
+        },
+        "actions": {
+            "newContract": "Nová zmluva",
+            "markAsNew": "Označiť ako nové",
+            "markAsChanged": "Označiť ako zmenené",
+            "createContract": "Vytvoriť zmluvu",
+            "deleteContract": "Odstrániť zmluvu",
+            "createEmployment": "Vytvoriť pracovný pomer",
+            "deleteSubsidyConfirmationText": "Ste si istí, že chcete odstrániť dotáciu?"
+        },
+        "messages": {
+            "identityBothSides": "Nahrajte prednú aj zadnú stranu vášho preukazu totožnosti."
+        },
+        "outOfService": "Mimo službu"
+    },
+    "export": {
+        "actions": {
+            "toSepaAndMarkAsPaid": "SEPA a označiť ako zaplatené",
+            "generate": "Generovať"
+        },
+        "static": {
+            "skipValidation": "Vynechať overovanie"
+        }
+    },
+    "period": {
+        "actions": {
+            "select": "Vybrať"
+        }
+    },
+    "permission": {
+        "action": {
+            "view": "Zobraziť",
+            "create": "Vytvoriť",
+            "update": "Aktualizovať",
+            "delete": "Vymazať"
+        }
+    },
+    "contact": {
+        "static": {
+            "userNotLinkedMessage": "Používateľ nie je aktivovaný alebo nie je prepojený s kontaktom.",
+            "uploadSuccess": "Súbor je nahraný.",
+            "detached": "Kontakt bol odpojený.",
+            "detachFailed": "Kontakt nebolo možné odpojiť.",
+            "detachConfirmationText": "Určite chcete kontakt odpojiť?"
+        }
+    },
+    "etRegulation": {
+        "static": {
+            "calculatedAmount": "Vypočítaná suma: {amount}",
+            "amountShouldBeBetween": "Celková suma by mala byť medzi {min} a {max}.",
+            "totalAmount": "Aktuálna celková suma je {amount}.",
+            "singleTrip": "Vzdialenosť jednej cesty: {distance} km"
+        },
+        "validation": {
+            "totalNotAllowed": "Celková hodnota et regulácie nie je medzi povolenými hodnotami.",
+            "distanceCalculationFailedText": "Nepodarilo sa nám vypočítať vzdialenosť k adrese bydliska. Skontrolujte, či sú údaje o adrese platné."
+        }
+    },
+    "documentTemplate": {
+        "actions": {
+            "saveTranslation": "Uložiť preklad"
+        },
+        "static": {
+            "contractPhase12": "Fáza zmluvy 1/2",
+            "employmentConfirmation": "Potvrdenie zamestnania",
+            "contractPayrollPermanent": "Zmluva o mzde na dobu neurčitú",
+            "wageAttachmentRequest": "Žiadosť o exekúciu mzdy",
+            "leadGenerationAgreement": "Dohoda o generovaní potenciálnych zákazníkov",
+            "employmentTerminationAgreement": "Dohoda o ukončení pracovného pomeru",
+            "deductionsAndAdvances": "Zrážky a zálohy",
+            "etAddendum": "Dodatok ET",
+            "antiDiscriminationPolicy": "Politika boja proti diskriminácii",
+            "contractPhase3": "Fáza zmluvy 3",
+            "contractPhase4": "Fáza zmluvy 4",
+            "termsAndConditions": "Pravidlá a podmienky",
+            "frameworkAgreement": "Rámcová dohoda",
+            "hireAgreement": "Dohoda o prenájme",
+            "jobConfirmation": "Potvrdenie o práci",
+            "declarationAgreement": "Dohoda o vyhlásení",
+            "staffGuide": "Sprievodca pre personál",
+            "guaranteeAgreement": "Dohoda o záruke",
+            "employersDeclaration": "Vyhlásenie zamestnávateľa",
+            "contractPayrollFixedTerm": "Zmluva o mzde na dobu určitú",
+            "mediationAgreement": "Dohoda o sprostredkovaní",
+            "intermediateAgreement": "Priebežná dohoda",
+            "hireAgreementFreelancers": "Dohoda o prenájme freelancerov",
+            "healthcareAuthorisationForm": "Formulár na schválenie zdravotnej starostlivosti",
+            "idStatementForm": "ID formulár vyhlásenia",
+            "deliveryDeed": "Doklad o dodaní",
+            "jobConfirmationFreelancer": "Potvrdenie práce freelancera",
+            "collaborationAgreementFreelancer": "Dohoda o spolupráci freelancera",
+            "healthcareAgreement": "Dohoda o zdravotnej starostlivosti",
+            "payrollConfirmation": "Potvrdenie o mzde"
+        }
+    },
+    "users": {
+        "static": {
+            "sendPasswordResetConfirmationText": "E-mail s odkazom na obnovenie hesla bude odoslaný na adresu {email}.",
+            "deactivateConfirmationText": "Používateľ bude deaktivovaný a už sa nebude môcť prihlásiť.",
+            "permissionsSaved": "Oprávnenia boli uložené.",
+            "reactivateConfirmationText": "Užívateľ bude reaktivovaný a môže sa znova prihlásiť."
+        }
+    },
+    "outOfServiceReason": {
+        "static": {
+            "endOfEmployment": "Skončenie pracovného pomeru zo zákona z dôvodu ukončenia zmluvy",
+            "cancelledByEmployerWithinProbation": "Zrušené zamestnávateľom v skúšobnej dobe",
+            "cancelledByEmployerUwv": "Zrušené zamestnávateľom, schválené UWV",
+            "cancelledByJudge": "Zrušené sudcom",
+            "cancelledByAgreement": "Ukončenie zmluvy dohodou",
+            "cancelledByEmployee": "Zrušené zamestnancom",
+            "cancelledByEmployer": "Zrušené zamestnávateľom",
+            "endByLawOtherReason": "Skončenie pracovného pomeru zo zákona z iného dôvodu",
+            "deploymentEndByIllness": "Ukončenie vyslania z dôvodu choroby",
+            "deploymentEndByOtherReason": "Ukončenie vyslania z iného dôvodu",
+            "continuedWithoutIncome": "Pokračovanie bez príjmu",
+            "otherReason": "Ďalší dôvod"
+        }
+    },
+    "cv": {
+        "certificate": {
+            "addEducation": "Pridať vzdelanie / kvalifikáciu",
+            "certificates": "Osvedčenia",
+            "description": "Popis",
+            "addCertificate": "Pridať certifikát"
+        },
+        "profile": {
+            "profileSummary": "Tu zadajte zhrnutie svojho profilu (vyžaduje sa minimálne 150 slov).",
+            "profile": "Profil"
+        },
+        "work": {
+            "workExperience": "Pracovné skúsenosti",
+            "function": "Funkcia",
+            "jobDescription": "Popis práce",
+            "addWorkExperience": "Pridať pracovné skúsenosti"
+        },
+        "education": {
+            "educationsAndQualifications": "Vzdelanie a kvalifikácia",
+            "educationsDescription": "Popis vzdelania"
+        },
+        "title": "Titulok",
+        "from": "Od",
+        "till": "Do",
+        "interest": {
+            "interests": "Záujmy",
+            "pickInterests": "Vyberte si svoje záujmy"
+        },
+        "language": {
+            "languages": "Jazyky",
+            "pickLanguage": "Vyberte si svoje jazyky",
+            "rating": "Hodnotenie vašich jazykov"
+        },
+        "select": "Vybrať",
+        "reference": {
+            "references": "Referencie",
+            "fullName": "Úplný názov zamestnávateľa",
+            "company": "Spoločnosť",
+            "telephone": "Telefón",
+            "email": "Email",
+            "addReference": "Pridať referenciu"
+        },
+        "skill": {
+            "skills": "Zručnosti",
+            "pickSkills": "Vyberte si svoje zručnosti",
+            "rating": "Hodnotenie vašich zručností"
+        },
+        "dialog": {
+            "close": "Zavrieť",
+            "generateCv": "Vytvoriť cv"
+        }
+    },
+    "wageAttachment": {
+        "static": {
+            "garnisheeContact": "Kontaktná osoba pre zástavu mzdy",
+            "taxFreeSum": "Nezdaniteľná čiastka",
+            "outstandingAmount": "Nezaplatená suma",
+            "garnishee": "Zástavný veriteľ",
+            "garnisheeCity": "Zástavný veriteľ mesto",
+            "reference": "Referencia",
+            "overallSum": "Celkový súčet",
+            "paidAmount": "Zaplatená suma",
+            "informationRequestSent": "Žiadosť o informácie odoslaná",
+            "paid": "Zaplatené",
+            "outstanding": "Nezaplatené"
+        },
+        "actions": {
+            "sendInformationRequest": "Odoslať žiadosť o informácie",
+            "informationRequest": "Žiadosť o informácie"
+        }
+    },
+    "legalForm": {
+        "static": {
+            "limitedCompanyStartUpAForm": "N.V. (akciová spoločnosť) /B.V. (spoločnosť s ručením obmedzeným), start-up na formulári A",
+            "limitedCompanyStartUpDForm": "N.V. (akciová spoločnosť) /B.V. (spoločnosť s ručením obmedzeným) start-up na formulári D",
+            "publicLimitedCompanyTwoTier": "Akciová spoločnosť podľa stanov dvojstupňovej spoločnosti",
+            "publicLimitedCompanyInvestmentVariableCapitalTwoTier": "Akciová investičná spoločnosť s premenlivým základným imaním podľa stanov dvojstupňovej spoločnosti",
+            "cooperativeLimitedLiabilityStructuralCooperative": "Družstvo s právnou zodpovednosťou podľa stanov štrukturálnej spolupráce",
+            "mutualInsuranceCompany": "Vzájomná poisťovacia spoločnosť",
+            "mutualInsuranceCompanyStructuralMutual": "Vzájomná poisťovacia spoločnosť podľa stanov spoločnosti",
+            "mutualInsuranceCompanyLegalLiabilityStructuralMutual": "Vzájomná poisťovacia spoločnosť s právnou zodpovednosťou podľa stanov štrukturálnej spoločnosti",
+            "foreignEcBusinessCompanyNetherlands": "Zahraničná spoločnosť ES so spoločnosťou v Holandsku",
+            "foreignSimilarEcBusinessMainOfficeNetherlands": "Zahraničná spoločnosť, podobná ES so sídlom v Holandsku",
+            "soleProprietor": "Výhradný vlastník",
+            "soleProprietorMultipleOwners": "Samostatný podnikateľ s viac ako jedným vlastníkom",
+            "commercialPartnership": "Všeobecné partnerstvo",
+            "publicPartnership": "Verejné partnerstvo",
+            "limitedPartnership": "Komanditná spoločnosť",
+            "shippingCompany": "Prepravná spoločnosť",
+            "limitedCompanyStartUpBForm": "N.V. (akciová spoločnosť) /B.V. (spoločnosť s ručením obmedzeným) start-up na formulári B",
+            "legalPersonStartUp": "Právnická osoba typu start-up",
+            "privateLimitedCompany": "Súkromná spoločnosť s ručením obmedzeným",
+            "privateLimitedCompanyRegular": "Súkromná spoločnosť s ručením obmedzeným s bežnou štruktúrou",
+            "privateLimitedCompanyTwoTier": "Spoločnosť s ručením obmedzeným podľa stanov dvojstupňovej spoločnosti",
+            "publicLimitedCompany": "Akciová spoločnosť",
+            "publicLimitedCompanyRegular": "Akciová spoločnosť s bežnou štruktúrou",
+            "publicLimitedCompanyInvestmentVariableCapital": "Akciová investičná spoločnosť s premenlivým základným imaním",
+            "europeanPublicLimitedCompanyRegular": "Európska akciová spoločnosť (SE) s bežnou štruktúrou",
+            "europeanPublicLimitedCompanyRegularTwoTierCooperative": "Európska spoločnosť s ručením obmedzeným (SE) podľa Spoločenskej zmluvy",
+            "cooperative": "Družstvo",
+            "cooperativeStructuralCooperative": "Družstvo podľa stanov štrukturálneho družstva",
+            "cooperativeLegalLiabilityRegular": "Družstvo s právnou zodpovednosťou s bežnou štruktúrou",
+            "cooperativeLegalLiabilityStructuralCooperative": "Družstvo s právnou zodpovednosťou podľa stanov štrukturálnej spoločnosti",
+            "cooperativeLimitedLiabilityRegular": "Družstvo s ručením obmedzeným s bežnou štruktúrou",
+            "homeownersAssociation": "Združenie vlastníkov domov",
+            "associationFullLegalCapacity": "Združenie s plnou právnou subjektivitou",
+            "associationLimitedLegalCapacity": "Združenie s obmedzenou právnou subjektivitou",
+            "religiousDenomination": "Náboženská spoločnosť",
+            "foundation": "Nadácia",
+            "mutualInsuranceCompanyLegalLiabilityRegular": "Vzájomná poisťovacia spoločnosť so zákonnou zodpovednosťou s bežnou štruktúrou",
+            "mutualInsuranceCompanyLimitedLiabilityRegular": "Vzájomná poisťovacia spoločnosť so zákonnou zodpovednosťou s bežnou štruktúrou",
+            "mutualInsuranceCompanyLimitedLiabilityStructuralMutual": "Vzájomná poisťovacia spoločnosť s právnou zodpovednosťou podľa stanov štrukturálnej spoločnosti",
+            "legalPersonPublicLaw": "Právnická osoba podľa verejného práva",
+            "legalPersonPrivateLaw": "Právnická osoba, podliehajúca súkromnému právu",
+            "foreignLegalFormHeadOfficeNetherlands": "Zahraničná právna forma so sídlom v Holandsku",
+            "branchOfficeHeadOfficeAbroad": "Pobočka so sídlom v zahraničí",
+            "europeanEconomicInterestGrouping": "Európske hospodárske záujmové združenie",
+            "foreignEcBusinessMainOfficeNetherlands": "Zahraničná spoločnosť ES so sídlom v Holandsku",
+            "foreignSimilarEcBusinessCompanyNetherlands": "Zahraničná spoločnosť, podobná spoločnosti ES so sídlom v Holandsku"
+        }
+    },
+    "job": {
+        "static": {
+            "freelancerJobs": "Práca freelancera",
+            "employment": "Zamestnanie",
+            "freelancerJob": "Práca freelancera",
+            "employments": "Zamestnania"
+        }
+    },
+    "invitation": {
+        "actions": {
+            "sendInvitation": "Odoslať pozvánku"
+        },
+        "static": {
+            "inviteSuccess": "Pozvanie úspešné",
+            "tokenInvalid": "Token neplatný",
+            "tokenInvalidDescription": "Token je neplatný."
+        }
+    },
+    "employees": {
+        "static": {
+            "activeOnly": "Iba aktívne",
+            "linkedThroughEmployment": "Prepojenie prostredníctvom pracovného pomeru"
+        }
+    },
+    "contractType": {
+        "static": {
+            "phase1And2": "Fáza 1/2",
+            "phase3": "Fáza 3",
+            "phase4": "Fáza 4",
+            "payrollFixedTerm": "Mzda (na dobu určitú)",
+            "payrollPermanent": "Mzda (na dobu neurčitú)"
+        }
+    },
+    "note": {
+        "actions": {
+            "deleteConfirmationText": "Určite chcete túto poznámku vymazať?",
+            "delete": "Vymazať",
+            "cancel": "Zrušiť"
+        },
+        "success": {
+            "deleted": "Poznámka bola úspešne vymazaná."
+        }
+    },
+    "riskGroup": {
+        "static": {
+            "administrative": "Administratívne",
+            "executive": "Výkonné"
+        }
+    },
+    "sickReport": {
+        "success": {
+            "deleted": "Správa o chorobe bola úspešne vymazaná."
+        },
+        "actions": {
+            "cancel": "Zrušiť",
+            "deleteConfirmationText": "Ste si istí, že chcete toto hlásenie o chorobe vymazať?",
+            "delete": "Vymazať"
+        },
+        "alreadySick": "Zamestnanec je už nahlásený ako chorý.",
+        "betterReport": {
+            "actions": {
+                "confirmationTextEmployee": "Ste si istí, že chcete o tomto zamestnancovi nahlásiť zlepšenie?",
+                "confirmationText": "Ste si istí, že chcete nahlásiť zlepšenie?",
+                "confirm": "Potvrdiť",
+                "cancel": "Zrušiť"
+            },
+            "report": "Nahlásiť zlepšenie",
+            "confirmationQuestion": "Ste si istý?",
+            "success": "Zamestnanec nahlásil úspešne zlepšenie."
+        },
+        "reportSick": "Hlásenie o chorobe",
+        "filter": {
+            "currentSickOnly": "Len aktuálne chorí",
+            "start": "Štart",
+            "end": "Koniec"
+        }
+    },
+    "creditLimit": {
+        "static": {
+            "finalAssessmentWillFollowLater": "Konečné posúdenie úverového limitu bude nasledovať neskôr."
+        }
+    },
+    "outOfService": {
+        "actions": {
+            "processConfirmationText": "Ste si istí, že chcete spracovať oznámenie o ukončení služby?",
+            "deleteConfirmationText": "Ste si istí, že chcete odstrániť oznámenie o ukončení služby?",
+            "delete": "Vymazať",
+            "cancel": "Zrušiť",
+            "process": "Spracovanie"
+        },
+        "search": "Hľadať",
+        "process": "Spracovanie",
+        "date": "Dátum",
+        "reason": "Dôvod",
+        "processSuccess": "Oznámenia o ukončení služby boli úspešne spracované.",
+        "onlyOutstanding": "Iba nevyriešené"
+    },
+    "deductions": {
+        "static": {
+            "recurringDeductions": "Opakované zrážky",
+            "saved": "Zrážky sú uložené.",
+            "outstandingDeductions": "Nevyrovnané zrážky",
+            "amountIsLimited": "Výška zrážky je obmedzená na základe počtu hodín tohto obdobia.",
+            "amount": "Čiastka",
+            "for": "Pre",
+            "remainingAmount": "Zostávajúca čiastka",
+            "files": "Súbory",
+            "uploadFile": "Nahrať súbor",
+            "deductFrom": "Odpočítať z",
+            "noDeductions": "Žiadne zrážky",
+            "remaining": "Zostávajúce",
+            "unexportedOnly": "Iba neexportované"
+        }
+    },
+    "hirer": {
+        "static": {
+            "hirerRemuneration": "Odmena prenajímateľa",
+            "archivedText": "Tento prenajímateľ je archivovaný.",
+            "saved": "Prenajímateľ je uložený",
+            "deleteConfirmationText": "Určite chcete odstrániť tohto prenajímateľa?",
+            "deleteSuccess": "Prenajímateľ bol vymazaný.",
+            "deleteFailed": "Nepodarilo sa vymazať prenajímateľa.",
+            "inviteExistingInfoText": "Pozvánka bude zaslaná prenajímateľovi {companyName}.",
+            "projectDeleted": "Projekt bol odstránený.",
+            "assignment": "Pridelenie",
+            "inviteNewInfoText": "Pozvánka bude zaslaná novému prenajímateľovi.",
+            "missingRequiredAttributesConfirmText": "Prenajímateľa zatiaľ nie je možné odoslať na schválenie, pretože nie sú vyplnené niektoré požadované atribúty.",
+            "notMinimumCompanyFreelancerHourTypeMarginConfirmationText": "Základná marža typu hodiny freelancera je nižšia ako hodnota pracovného pomeru.",
+            "submitForApprovalConfirmText": "Prenajímateľ bude odoslaný na schválenie.",
+            "submittedForApproval": "Prenajímateľ bol odoslaný na schválenie.",
+            "notMinimumCompanyFreelancerHourTypeMarginAdditionsConfirmationText": "Niektoré prírastky marže sú nižšie ako hodnoty zamestnanosti."
+        },
+        "form": {
+            "overtime": "Nadčasové hodiny",
+            "shiftWork": "Práca na zmeny",
+            "travelHours": "Čas cestovania",
+            "travelCost": "Cestovné náklady",
+            "otherCompensations": "Ostatné náhrady",
+            "companyOwnedScheme": "Podnikový systém",
+            "remunerationSpecifics": "Špecifiká",
+            "holidays": "Dovolenka"
+        }
+    },
+    "pensionPlan": {
+        "static": {
+            "basic": "Stipp basic",
+            "plus": "Stipp plus",
+            "adequate": "Adekvátne",
+            "bpf": "BPF"
+        }
+    },
+    "wizard": {
+        "static": {
+            "noDocumentsToGenerate": "Žiadne doklady na vygenerovanie.",
+            "employmentAgencyNotApproved": "Táto pracovná agentúra ešte nebola schválená.",
+            "employeeNotApproved": "Tento zamestnanec ešte nebol schválený.",
+            "hirerNotApproved": "Tento prenajímateľ ešte nebol schválený.",
+            "freelancerNotApproved": "Tento freelancer ešte nebol schválený.",
+            "resellerNotApproved": "Tento predajca ešte nebol schválený."
+        },
+        "actions": {
+            "viewWizard": "Sprievodca zobrazením"
+        }
+    },
+    "employmentAgency": {
+        "static": {
+            "archivedText": "Táto pracovná agentúra je archivovaná.",
+            "deleteConfirmationText": "Určite chcete túto pracovnú agentúru vymazať?",
+            "deleteSuccess": "Pracovná agentúra bola vymazaná.",
+            "deleteFailed": "Nepodarilo sa vymazať agentúru práce.",
+            "inviteExistingInfoText": "Pozvánka bude zaslaná pracovnej agentúre {companyName}.",
+            "inviteNewInfoText": "Pozvánka bude zaslaná novej pracovnej agentúre.",
+            "missingRequiredAttributesConfirmText": "Pracovnú agentúru ešte nie je možné odoslať na schválenie, pretože nie sú vyplnené niektoré požadované atribúty.",
+            "submitForApprovalConfirmText": "Pracovná agentúra sa odošle na schválenie.",
+            "makeResellerConfirmationText": "Určite chcete vytvoriť predajcu pre pracovnú agentúru?"
+        }
+    },
+    "filters": {
+        "static": {
+            "archivedOnly": "Iba archivované",
+            "withActiveEmploymentsOnly": "Len s aktívnymi pracovnými pomermi",
+            "createdByAdmin": "Vytvorené adminom",
+            "readyForApproval": "Pripravené na schválenie",
+            "selectedEnterpriseOnly": "Len vybraný podnik"
+        }
+    },
+    "import": {
+        "static": {
+            "reservationsImported": "Importované rezervácie"
+        }
+    },
+    "employeePayslip": {
+        "static": {
+            "sendEmailConfirmationText": "Určite chcete poslať výplatnú pásku teraz?",
+            "sendEmailSuccess": "Výplatná páska bola odoslaná.",
+            "sendEmailFailed": "Výplatnú pásku nebolo možné odoslať."
+        },
+        "actions": {
+            "sendNow": "Odoslať teraz"
+        }
+    },
+    "timeRegistrationPeriodStatus": {
+        "static": {
+            "completed": "Dokončené",
+            "requiresAction": "Vyžaduje akciu",
+            "open": "Otvorené",
+            "locking": "Uzamykanie",
+            "locked": "Uzamknuté"
+        }
+    },
+    "invoiceGroup": {
+        "static": {
+            "custom": "Vlastné",
+            "timeRegistration": "Registrácia hodín"
+        }
+    },
+    "error": {
+        "static": {
+            "description": "Vyskytla sa chyba. Skúste obnovenie alebo sa vráťte na predchádzajúcu stránku.",
+            "serverError": "Chyba servera",
+            "pageNotFound": "Stránka nebola nájdená",
+            "pageNotFoundDescription": "Hľadanú stránku sme nenašli."
+        },
+        "actions": {
+            "back": "Späť na predchádzajúcu stránku"
+        }
+    },
+    "reservations": {
+        "static": {
+            "deleteReservationText": "Rezervácia bude odstránená z časovej registrácie.",
+            "editBuildupInfo": "Pri zmene týchto hodnôt sa aktualizuje príslušná časová registrácia.\nPri vytváraní novej žiadosti alebo ak už bola žiadosť vyplatená;\n- aktualizuje sa stav rezervácie.\n- Žiadosť sa nezobrazí v exporte vyplatenia.\nPri aktualizácii žiadosti, ktorá ešte nebola vyplatená;\n- Stav rezervácie sa neaktualizuje.\n- Žiadosť sa aktualizuje v exporte pre vyplácanie.",
+            "buildup": "Akumulácia",
+            "paidOut": "Vyplatené",
+            "noBuildupFound": "Nenašla sa žiadna akumulácia",
+            "showEmptyPeriods": "Zobraziť prázdne obdobia",
+            "request": "Žiadosť",
+            "saved": "Rezervácia bola uložená.",
+            "deleted": "Rezervácia bola odstránená",
+            "reservationRequest": "Žiadosti o rezerváciu",
+            "newRequest": "Nová žiadosť",
+            "canOnlyEditHistoricalBuildupInfo": "Upravovať možno len minulé hodnoty.",
+            "noReservations": "Žiadne rezervácie",
+            "requestReservations": "Žiadosť o rezervácie",
+            "calculationTool": "Nástroj na výpočet"
+        },
+        "tooltip": {
+            "warningRequestNotYetExported": "Táto žiadosť ešte nebola vyplatená."
+        },
+        "actions": {
+            "request": "Žiadosť"
+        }
+    },
+    "entity": {
+        "static": {
+            "freelancer": "Freelancer",
+            "enterprise": "Podnik",
+            "employmentAgency": "Pracovná agentúra",
+            "hirer": "Prenajímateľ",
+            "employee": "Zamestnanec"
+        }
+    },
+    "project": {
+        "static": {
+            "projectManagers": "Manažéri projektu",
+            "createProject": "Vytvoriť projekt",
+            "projectCreationSuccess": "Projekt úspešne vytvorený.",
+            "updateProject": "Aktualizovať projekt",
+            "deleteProjectConfirmationText": "Určite chcete projekt odstrániť?"
+        }
+    },
+    "search": {
+        "static": {
+            "noMoreResults": "Žiadne ďalšie výsledky.",
+            "ctrlShiftF": "Ctrl + Shift + F"
+        }
+    },
+    "holiday": {
+        "static": {
+            "newYear": "Nový rok",
+            "easterMonday": "Veľkonočný pondelok",
+            "ascensionDay": "Deň nanebovstúpenia",
+            "whitMonday": "Svätodušný pondelok",
+            "firstChristmasDay": "Prvý sviatok vianočný",
+            "secondChristmasDay": "Druhý sviatok vianočný",
+            "kingsDay": "Deň kráľa",
+            "liberationDay": "Deň oslobodenia"
+        }
+    },
+    "factoringCompany": {
+        "static": {
+            "deleted": "Faktoringová spoločnosť bola odstránená."
+        }
+    },
+    "companyType": {
+        "static": {
+            "healthcare": "Zdravotná starostlivosť",
+            "default": "Predvolené"
+        }
+    },
+    "workServiceType": {
+        "static": {
+            "night": "Nočná zmena",
+            "weekend": "Víkendová zmena",
+            "reachability": "Služba dostupnosti",
+            "consignment": "Zásielková služba"
+        }
+    },
+    "media": {
+        "static": {
+            "type": "Typ",
+            "other": "Iné",
+            "curriculumVitae": "Životopis",
+            "motivationLetter": "Motivačný list",
+            "diploma": "Diplom",
+            "certificateOfConduct": "Osvedčenie o správaní",
+            "pdfPagesCount": "PDF má {amount} strán"
+        }
+    },
+    "healthInsurance": {
+        "static": {
+            "saved": "Zdravotné poistenia sú uložené."
+        }
+    },
+    "reseller": {
+        "static": {
+            "missingRequiredAttributesConfirmText": "Predajcu ešte nie je možné odoslať na schválenie, pretože nie sú vyplnené niektoré požadované atribúty.",
+            "employeeMargins": "Marže zamestnancov",
+            "deleteCustomerConfirmationText": "Ste si istí, že chcete odstrániť tohto zákazníka? Všetky marže spojené s týmto zákazníkom budú odstránené.",
+            "submitForApprovalConfirmText": "Predajca bude odoslaný na schválenie.",
+            "archivedText": "Tento predajca je archivovaný.",
+            "deleteConfirmationText": "Určite chcete vymazať tohto predajcu?",
+            "deleteSuccess": "Predajca bol vymazaný.",
+            "deleteFailed": "Nepodarilo sa vymazať predajcu.",
+            "freelancerMargins": "Marže freelancera",
+            "defaultMargin": "Predvolená marža",
+            "zeroMarginConfirmationText": "Jedna alebo viacero marží má hodnotu „0“.",
+            "customerCanOnlyHaveOneResellerInfoMessage": "Ak pracovná agentúra nie je uvedená v zozname, skontrolujte, či už nie je prepojená s iným predajcom."
+        }
+    },
+    "freelancerHourTypeMarginAddition": {
+        "static": {
+            "hirerPaymentTermTableHeader": "Platobná lehota prijímateľa",
+            "hourlyRateFreelancerTableHeader": "Hodinová sadzba (od)"
+        }
+    },
+    "marginType": {
+        "static": {
+            "default": "Predvolené",
+            "overtime": "Nadčasy",
+            "etRegulation": "Regulácia ET",
+            "senior": "Senior",
+            "hourType": "Typ hodín"
+        }
+    },
+    "teamType": {
+        "static": {
+            "freelancer": "Freelancer",
+            "employee": "Zamestnanec",
+            "hirer": "Prenajímateľ",
+            "employmentAgency": "Pracovná agentúra",
+            "reseller": "Predajca"
+        }
+    },
+    "teams": {
+        "static": {
+            "team": "Tím",
+            "addTeam": "Pridať tím",
+            "deleteTeamText": "Určite chcete tento tím odstrániť?",
+            "details": "Detaily",
+            "deleteTeamPresetText": "Určite chcete odstrániť predvoľby tohto tímu?",
+            "teamOwner": "Vlastník tímu",
+            "roles": "Úlohy"
+        }
+    },
+    "personalAccessToken": {
+        "static": {
+            "tokenCreatedInfo": "Token bol vytvorený. Token sa zobrazí len raz, preto ho uložte na bezpečné miesto.",
+            "tokenPlaceholder": "Token sa zobrazí tu.",
+            "tokenCopied": "Token bol skopírovaný do schránky",
+            "personalAccessTokens": "Osobné prístupové tokeny",
+            "details": "Detaily",
+            "deletePersonalAccessTokenText": "Token bude odstránený a už sa nebude dať použiť."
+        }
+    },
+    "messageBox": {
+        "static": {
+            "shouldSignDocument": {
+                "hideDocumentConfirmationText": "Určite chcete túto úlohu skryť? Už sa znovu neobjaví.",
+                "subject": "Subjekt",
+                "sendSignRequestConfirmationText": "Žiadosť o podpis dostane tento subjekt",
+                "newSignTokenConfirmationText": "Dostanete nový podpisový token.",
+                "newSignTokenSuccess": "Podpisový token bol úspešne prijatý.",
+                "newSignTokenFailed": "Pri prijímaní nového podpisového tokenu došlo k chybe."
+            },
+            "hideContractConfirmationText": "Určite chcete túto zmluvu skryť? Už sa znovu neobjaví."
+        }
+    },
+    "roles": {
+        "static": {
+            "roleCreated": "Úloha bola vytvorená.",
+            "permissionsSaved": "Oprávnenia boli uložené."
+        }
+    },
+    "subsidyCompany": {
+        "static": {
+            "deleteSubsidyCompanyConfirmationText": "Ste si istí, že chcete vymazať dotačnú spoločnosť?",
+            "deleted": "Dotačná spoločnosť bola vymazaná."
+        }
+    },
+    "subsidy": {
+        "static": {
+            "clearToExcludeFromSubsidy": "Vymažte toto pole, ak chcete túto položku vylúčiť z dotácie.",
+            "endDateInfo": "Ak dátum ukončenia nie je koniec týždňa, dotácia bude zahrnutá do konca predchádzajúceho týždňa.",
+            "details": "Detaily",
+            "createSubsidy": "Vytvoriť dotáciu",
+            "updateSubsidy": "Aktualizovať dotáciu",
+            "startDateInfo": "Ak dátum začiatku nie je začiatkom týždňa, dotácia sa započíta od začiatku nasledujúceho týždňa.",
+            "confirmation": "Potvrdenie dotácie"
+        }
+    },
+    "proFormaPayslip": {
+        "actions": {
+            "previewCostPriceOverview": "Náhľad prehľadu cien nákladov",
+            "previewPayslip": "Prehľad výplatnej pásky"
+        },
+        "static": {
+            "splitPayOutInfo": "Ak je táto možnosť povolená, bežné hodiny budú na výplatnej páske rozdelené od ostatných hodín/príplatkov/kompenzácií."
+        }
+    }
+}

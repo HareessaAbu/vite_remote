@@ -1,0 +1,2598 @@
+{
+    "auth": {
+        "pages": {
+            "forgotPassword": "Password dimenticata",
+            "login": "Accesso",
+            "setPassword": "Impostare la password",
+            "activateAccount": "Attivare l'account"
+        },
+        "actions": {
+            "backToLogin": "Torna al login",
+            "forgotPassword": "Password dimenticata",
+            "login": "Accesso",
+            "resetPassword": "Reimpostare la password",
+            "updatePassword": "Aggiornare la password",
+            "logout": "Disconnessione",
+            "leaveImpersonation": "Lasciare l'impersonificazione",
+            "changePassword": "Modifica della password",
+            "deactivate": "Disattivare",
+            "reactivate": "Riattivare"
+        },
+        "static": {
+            "accountActivationSuccess": "Account attivato",
+            "email": "Email",
+            "forgotPasswordSuccess": "Inviato il link per la reimpostazione della password.",
+            "forgotPasswordSuccessDescription": "Le abbiamo inviato un'e-mail con un link per reimpostare la password.",
+            "passwordResetSuccess": "Ripristino della password",
+            "logoutConfirmationText": "È sicuro di volersi disconnettere?",
+            "registrationSuccessful": "La registrazione è andata a buon fine",
+            "leaveImpersonationConfirmationText": "Sei sicuro di voler lasciare l'impersonificazione?",
+            "passwordUpdated": "La password è stata aggiornata.",
+            "userDeactivated": "L'utente è stato disattivato.",
+            "mobileDashboardOrderUpdated": "L'ordine del cruscotto mobile è stato aggiornato.",
+            "tokenExpired": "Gettone scaduto",
+            "tokenExpiredInfo": "L'utente è stato disconnesso perché il token di autenticazione è scaduto. Per continuare, accedere con le proprie credenziali.",
+            "authenticated": "Hai effettuato l'accesso!",
+            "userReactivated": "L'utente è stato riattivato."
+        }
+    },
+    "documents": {
+        "editor": {
+            "date": "Data",
+            "employee": "Dipendente",
+            "employmentAgency": "Agenzia per il lavoro",
+            "hirer": "Assegnatario",
+            "variables": "Variabili",
+            "factoringCompany": "Società di factoring",
+            "freelancer": "Libero professionista",
+            "employment": "Occupazione",
+            "enterprise": "Impresa",
+            "freelancerJob": "Lavoro da freelance",
+            "employeeContract": "Contratto"
+        },
+        "static": {
+            "templateSaved": "Modello salvato",
+            "variable": "Variabile",
+            "originalFile": "File originale",
+            "signedFile": "File firmato",
+            "auditReport": "Rapporto di audit",
+            "signRequestSentAt": "Richiesta di firma inviata a",
+            "category": "Categoria",
+            "description": "Descrizione",
+            "fieldOptions": "Opzioni di campo",
+            "fieldType": "Tipo di campo",
+            "info": "Info",
+            "layout": "Layout",
+            "name": "Nome",
+            "newDocumentTemplate": "Nuovo modello di documento",
+            "slug": "Lumaca",
+            "template": "Modello",
+            "templateDeleted": "Template cancellato",
+            "variableDeleted": "Variabile eliminata",
+            "variables": "Variabili",
+            "variableSaved": "Variabile salvata",
+            "documentPreview": "Anteprima del documento",
+            "documentName": "Nome del documento",
+            "signedAt": "Firmato a",
+            "declinedAt": "Declinato a",
+            "subjects": "Soggetti",
+            "subjectType": "Tipo di soggetto",
+            "isOwner": "È proprietario",
+            "shouldSign": "Dovrebbe firmare",
+            "canView": "Può visualizzare",
+            "status": "Stato",
+            "generateDocument": "Generare un documento",
+            "testData": "Dati del test",
+            "editDocument": "Modifica del documento",
+            "archiveDocumentConfirmationText": "In questo modo il documento verrà archiviato.",
+            "created": "Creato",
+            "signRequests": "Richieste di firme",
+            "fillableBySubject": "Compilabile per soggetto",
+            "position": "Posizione",
+            "signDocument": "Firma il documento",
+            "uploadFile": "Caricare il file",
+            "sendAfterCompletion": "Inviare dopo il completamento",
+            "logoSubject": "Oggetto del logo",
+            "associateLogoSubject": "Soggetto associato al logo",
+            "subject": "Oggetto",
+            "uploadDocument": "Caricare il documento",
+            "document": "Documento",
+            "linkDeductions": "Link deduzioni",
+            "linkDeductionsInfo": "In questo modo si assicura che non vengano create forme di deduzione quando si inseriscono nella registrazione del tempo.",
+            "hideDocumentConfirmationText": "Siete sicuri di voler nascondere questa attività? Non riapparirà più.",
+            "signRequestsSent": "Le richieste di cartelli sono state inviate",
+            "isVisibleOn": "È visibile su",
+            "creatableByRoles": "Creabile per ruoli",
+            "fallbackValue": "Valore di ripiego"
+        },
+        "tabs": {
+            "info": "Info",
+            "template": "Modello",
+            "variables": "Variabili",
+            "subjects": "Soggetti"
+        },
+        "steps": {
+            "selectTemplate": "Selezionare il modello",
+            "review": "Recensione",
+            "subjects": "Soggetti",
+            "variables": "Variabili"
+        },
+        "actions": {
+            "showPreview": "Anteprima dello spettacolo",
+            "generateDocument": "Generare un documento",
+            "editor": "Editore",
+            "pdf": "PDF",
+            "download": "Scaricare",
+            "upload": "Caricare",
+            "addSubject": "Aggiungi soggetto",
+            "create": "Creare",
+            "createFromTemplate": "Creare da un modello",
+            "options": "Opzioni"
+        }
+    },
+    "notifications": {
+        "static": {
+            "info": "Info",
+            "category": "Categoria",
+            "description": "Descrizione",
+            "name": "Nome",
+            "slug": "Lumaca",
+            "layout": "Layout",
+            "template": "Modello",
+            "newNotificationTemplate": "Nuovo modello di notifica",
+            "subjects": "Soggetti",
+            "subjectType": "Tipo di soggetto",
+            "variables": "Variabili",
+            "variable": "Variabile",
+            "fieldType": "Tipo di campo",
+            "variableSaved": "Variabile salvata",
+            "variableDeleted": "Variabile eliminata",
+            "subjectSaved": "Il soggetto è stato salvato.",
+            "subjectDeleted": "L'argomento è stato cancellato.",
+            "templateDeleted": "Template cancellato",
+            "templateSaved": "Modello salvato",
+            "type": "Tipo",
+            "mail": "Posta",
+            "testData": "Dati del test",
+            "fieldOptions": "Opzioni di campo"
+        },
+        "tabs": {
+            "info": "Info",
+            "template": "Modello",
+            "variables": "Variabili",
+            "subjects": "Soggetti"
+        }
+    },
+    "notificationTemplates": {
+        "static": {
+            "subjectDisabled": "L'oggetto di questa notifica è variabile e non può essere modificato.",
+            "default": "Predefinito",
+            "noTranslations": "Nessuna traduzione",
+            "deleteConfirmationText": "Siete sicuri di voler eliminare questo modello di notifica?",
+            "deleteVariableConfirmationText": "Siete sicuri di voler cancellare questa variabile di notifica?",
+            "deleteSharedNotificationTemplate": "Siete sicuri di voler smettere di usare questo modello di notifica?",
+            "mailOptions": "Opzioni di posta elettronica",
+            "ccAndBccToAllMailsFromTemplate": "Tutte le e-mail che utilizzano questo modello saranno inviate a questi indirizzi cc e bcc."
+        },
+        "types": {
+            "email": {
+                "email": "Email",
+                "bcc": "Bcc",
+                "cc": "Cc",
+                "subject": "Oggetto"
+            }
+        },
+        "actions": {
+            "copyToCurrentEnterprise": "Copia nell'impresa corrente",
+            "addSharedNotificationTemplate": "Aggiungere un modello di notifica condiviso",
+            "saveTranslation": "Salva la traduzione"
+        }
+    },
+    "enum": {
+        "fieldType": {
+            "textArea": "Area di testo",
+            "hirerHourType": "Tipo di ora del noleggiatore",
+            "checkbox": "Casella di controllo",
+            "money": "Il denaro",
+            "button": "Pulsante",
+            "table": "Tabella",
+            "text": "Testo",
+            "datePicker": "Datepicker"
+        },
+        "contractPhase": {
+            "phase1And2": "Fase 1/2 (A)",
+            "phase3": "Fase 3 (B)",
+            "phase4": "Fase 4 (C)"
+        },
+        "employeeType": {
+            "normal": "Normale",
+            "payroll": "Buste paga",
+            "temporary": "Temporaneo",
+            "other": "Altro",
+            "a1": "A1"
+        },
+        "gender": {
+            "female": "Donna",
+            "male": "Uomo",
+            "other": "Altro"
+        },
+        "identityType": {
+            "alienIdentityCard": "Carta d'identità per stranieri",
+            "alienPassport": "Passaporto straniero",
+            "diplomaticPassport": "Passaporto diplomatico",
+            "dutchIdentityCard": "Carta d'identità olandese",
+            "dutchMunicipalitiesIdentityCard": "Carta d'identità dei comuni olandesi",
+            "dutchPassport": "Passaporto olandese",
+            "none": "Nessuno",
+            "passportEeaCountry": "Passaporto Paese SEE",
+            "passportNonEeaCountry": "Passaporto non appartenente al SEE",
+            "refugeePassport": "Passaporto per rifugiati",
+            "residenceDocuments": "Documenti di residenza",
+            "servicePassport": "Passaporto di servizio"
+        },
+        "maritalStatus": {
+            "divorced": "Divorziato",
+            "livingTogetherWithContract": "Convivenza con il contratto",
+            "livingTogetherWithoutContract": "Convivenza senza contratto",
+            "married": "Sposato",
+            "registeredPartnership": "Società registrata",
+            "unmarried": "Non sposato",
+            "widowhood": "Vedova"
+        },
+        "vatTariff": {
+            "shifted": "Spostato",
+            "exempt": "Esente"
+        },
+        "subsidyType": {
+            "none": "Nessuno",
+            "targetJobAgreement": "Gruppo target contratto di lavoro e persone con difficoltà educative",
+            "hiringDisabledEmployee": "Assunzione di un dipendente disabile",
+            "reassigningDisabledEmployee": "Riassegnazione di un dipendente con disabilità professionale"
+        }
+    },
+    "form": {
+        "static": {
+            "factorOvertime": "Fattore straordinario",
+            "invoiceEmailCc": "Fattura CC",
+            "maritalStatus": "Stato civile",
+            "middleName": "Secondo nome",
+            "motivationLetter": "Lettera di motivazione",
+            "name": "Nome",
+            "passwordConfirmation": "Conferma della password",
+            "paymentTerm": "Termine di pagamento",
+            "payOutFrequency": "Frequenza di pagamento",
+            "phase": "Fase",
+            "phone": "Telefono",
+            "employment": "Occupazione",
+            "reason": "Motivo",
+            "end": "Fine",
+            "background": "Sfondo (ritratto)",
+            "backgroundLandscape": "Sfondo (paesaggio)",
+            "outOfServiceReasonSlug": "Motivo",
+            "outOfServiceDate": "Data di uscita dal servizio",
+            "salaryWithExtraDays": "Stipendio con giorni extra",
+            "factorWithExtraDays": "Fattore con giorni extra",
+            "website": "Sito web",
+            "invoiceCompany": "Società di fatturazione",
+            "date": "Data",
+            "accountHolder": "Titolare del conto",
+            "authorizedSignatory": "Firmatario autorizzato",
+            "birthdate": "Data di nascita",
+            "birthplace": "Luogo di nascita",
+            "cao": "CAO",
+            "cc": "CC",
+            "certificate": "Certificati",
+            "chamberOfCommerceNumber": "Numero della camera di commercio",
+            "citizenServiceNumber": "Numero di servizio del cittadino",
+            "city": "Città",
+            "contractHours": "Ore di contratto",
+            "costOfLivingAllowance": "Indennità per il costo della vita",
+            "country": "Paese",
+            "countryCode": "Codice paese",
+            "countryOfBirth": "Paese di nascita",
+            "creditLimit": "Limite di credito",
+            "curriculumVitae": "Curriculum vitae",
+            "diplomas": "Diplomi",
+            "documentNumber": "Numero del documento",
+            "email": "Email",
+            "employeeFunction": "Funzione dipendente",
+            "employeeType": "Tipo di dipendente",
+            "employmentAgency": "Agenzia per il lavoro",
+            "employmentDate": "Data di assunzione",
+            "gAccount": "Conto G?",
+            "gAccountPercentage": "Percentuale del conto G",
+            "etRegulation": "Regolazione dell'ET",
+            "expirationDate": "Data di scadenza",
+            "factor": "Fattore",
+            "factorEtRegulation": "Regolazione del fattore ET",
+            "factoringCompany": "Società di factoring",
+            "firstName": "nome di battesimo",
+            "gender": "Genere",
+            "grossSalary": "Salario lordo",
+            "hasNoRiskPolicy": "Nessuna politica di rischio?",
+            "hasPayrollTaxReduction": "Riduzione dell'imposta sui salari",
+            "hirer": "Assegnatario",
+            "homewardTravelCost": "Costo del viaggio di ritorno",
+            "homewardTravelDistance": "Distanza di viaggio verso casa",
+            "homewardTravelFrequency": "Frequenza del viaggio di ritorno",
+            "iban": "IBAN",
+            "id": "ID",
+            "identityType": "Tipo di identità",
+            "identityValidUntil": "Identità valida fino a",
+            "initials": "Iniziali",
+            "invoiceEmail": "Email di fatturazione",
+            "language": "Lingua",
+            "lastName": "Cognome",
+            "legalForm": "Forma giuridica",
+            "logo": "Logo",
+            "mainLanguage": "Lingua principale",
+            "description": "Descrizione",
+            "nationality": "Nazionalità",
+            "noRiskPolicy": "Politica di assenza di rischio",
+            "password": "Password",
+            "probation": "Libertà vigilata",
+            "proofOfRecruitmentAbroad": "Prova di assunzione all'estero",
+            "rentalOrPurchaseContractHomeCountry": "Contratto di locazione o di acquisto dal paese d'origine",
+            "riskGroup": "Gruppo di rischio",
+            "sbiCodes": "Codici SBI",
+            "seniorDays": "Giornate per anziani",
+            "shouldDeductHealthInsurance": "Dedurre l'assicurazione sanitaria?",
+            "shouldPayOutHolidays": "Pagare le ferie?",
+            "shouldPayOutNonStatutoryHolidays": "Pagare le ferie non obbligatorie?",
+            "shouldPayOutReducedHours": "Pagare le ore di lavoro ridotte?",
+            "shouldPayOutShortAbsence": "Pagare le assenze brevi?",
+            "shouldPayOutVacationMoney": "Pagare le ferie?",
+            "signature": "Firma",
+            "startDate": "Data di inizio",
+            "pensionPlan": "Piano pensionistico",
+            "street": "Via",
+            "streetNumber": "Numero",
+            "streetNumberAddition": "Aggiunta",
+            "subject": "Oggetto",
+            "terminationDate": "Data di cessazione",
+            "vatNumber": "Numero di partita IVA",
+            "vatTariff": "Tariffa IVA",
+            "workTimeReductionDays": "Giorni di riduzione dell'orario di lavoro",
+            "zipCode": "Codice postale",
+            "caoWorkweek": "Settimana lavorativa CAO",
+            "functionScale": "Bilance di funzione",
+            "cessionText": "Testo della cessione",
+            "employee": "Dipendente",
+            "useFrameworkAgreement": "Utilizzare l'accordo quadro",
+            "enterprise": "Impresa",
+            "chamberOfCommerceExtract": "Estratto della Camera di Commercio",
+            "liabilityInsurance": "Assicurazione di responsabilità civile",
+            "marginInvoicePerWeek": "Fattura a margine per settimana",
+            "freelancer": "Libero professionista",
+            "freelancerJob": "Lavoro da freelance",
+            "gAccountIban": "Conto G IBAN",
+            "gAccountHolder": "Titolare di un conto G",
+            "factorSenior": "Fattore senior",
+            "payslips": "Buste paga",
+            "payslipsCc": "Buste paga CC",
+            "salesRate": "Tasso di vendita",
+            "housingCost": "Costo dell'alloggio",
+            "weeksWorked": "Settimane lavorate",
+            "documentTemplate": "Modello di documento",
+            "deliveryDeed": "Atto di consegna",
+            "files": "File",
+            "isAgreedWork": "È un lavoro concordato",
+            "endDate": "Data di fine",
+            "note": "Nota",
+            "timeRegistration": "Registrazione del tempo",
+            "timeRegistrationQuestion": "Registrazione del tempo",
+            "timeForTime": "Tempo per tempo",
+            "workHours": "Orario di lavoro",
+            "workStartTime": "Orario di inizio lavori",
+            "workEndTime": "Orario di fine lavoro",
+            "start": "Inizio",
+            "location": "Posizione",
+            "workDaysAndHours": "Giorni e orari di lavoro",
+            "file": "File",
+            "currentPassword": "Password attuale",
+            "exchangeOvertime": "Scambio di ore straordinarie",
+            "payOutEnterprise": "Impresa di pagamento",
+            "employerNumber": "Numero del datore di lavoro",
+            "upload": "Caricare",
+            "shouldPayOutVacationDays": "Pagare i giorni di ferie?",
+            "seasonalWork": "Lavoro stagionale",
+            "splitInvoicePerProject": "Fattura suddivisa per progetto",
+            "splitInvoicePerEmployee": "Fattura suddivisa per dipendente",
+            "search": "Ricerca",
+            "splitInvoicePerFreelancer": "Dividere la fattura per ogni freelance",
+            "splitInvoiceItemsByDate": "Dividere le ore di fattura e i viaggi per data",
+            "companyType": "Tipo di azienda",
+            "healthcareDescription": "Descrizione dell'assistenza sanitaria",
+            "qualifications": "Qualifiche",
+            "workServices": "Servizi di lavoro",
+            "activities": "Attività",
+            "certificateOfConduct": "Certificato di condotta",
+            "deductMarginVat": "Detrazione dell'IVA sul margine",
+            "requireFreelancerVatNumber": "Richiesta di partita IVA per freelance",
+            "employeeTypeSlugs": "Tipi di dipendenti",
+            "blockSalesRate": "Tasso di vendita dei blocchi",
+            "ownerCompany": "Azienda proprietaria",
+            "generateFreelancerDocuments": "Generare documenti per i freelance",
+            "snfCertification": "Certificazione SNF",
+            "payOutExport": "Pagamenti all'esportazione",
+            "isPayOutEnabledQuestion": "Pagamenti abilitati?",
+            "healthInsurance": "Assicurazione sanitaria",
+            "splitPayOut": "Pagamenti frazionati",
+            "dontSendDocuments": "Non inviare documenti",
+            "selectedAmount": "{amount} selezionato",
+            "reseller": "Rivenditore",
+            "searchAddress": "Indirizzo di ricerca",
+            "teamTypes": "Tipi di squadra",
+            "teamModel": "Entità",
+            "team": "Squadra",
+            "teamPresets": "Preset di squadra",
+            "canHaveJobs": "Possono avere un lavoro",
+            "noRecordsFound": "Nessun record trovato...",
+            "workDays": "Giorni di lavoro",
+            "role": "Ruolo",
+            "user": "Utente",
+            "contact": "Contatto",
+            "subsidyCompany": "Società di sovvenzione",
+            "type": "Tipo",
+            "subsidy": "Sovvenzione",
+            "shouldPayOutSeniorDays": "Pagare i giorni di anzianità?",
+            "shouldPayOutWorkTimeReductionDays": "Pagare i giorni di riduzione dell'orario di lavoro?",
+            "grossSalaryPerHour": "Salario lordo orario",
+            "deductionOverviewPerWeek": "Panoramica delle detrazioni a settimana",
+            "kiwaNumber": "Numero Kiwa",
+            "niwoNumber": "Numero Niwo",
+            "showFunctionOnInvoice": "Mostra la funzione sulla fattura",
+            "languageCode": "Codice lingua",
+            "period": "Periodo",
+            "deduction": "Deduzione",
+            "invoiceEnterprise": "Fattura aziendale",
+            "europeanHealthInsuranceCardNumber": "Numero di tessera sanitaria europea",
+            "europeanHealthInsuranceCard": "Tessera europea di assicurazione sanitaria",
+            "driversLicense": "Patente di guida",
+            "caoFunction": "Funzione CAO",
+            "hirerFunction": "Funzione noleggiatore"
+        },
+        "steps": {
+            "contactAndFinancial": "Contatti e informazioni finanziarie",
+            "documents": "Documenti",
+            "documentsAndEmployment": "Documenti e occupazione",
+            "employment": "Occupazione",
+            "files": "File",
+            "foreignNationality": "Nazionalità straniera",
+            "general": "Generale",
+            "job": "Lavoro",
+            "account": "Conto",
+            "employer": "Datore di lavoro",
+            "contract": "Contratto",
+            "hirerRemuneration": "Remunerazione del noleggiatore"
+        },
+        "hint": {
+            "startTypingToSearch": "Iniziare a digitare per effettuare la ricerca",
+            "lockPensionPlan": "Bloccare il piano pensionistico in modo che non venga adeguato automaticamente."
+        },
+        "actions": {
+            "upload": "Caricare"
+        }
+    },
+    "general": {
+        "actions": {
+            "confirm": "Confermare",
+            "viewParentCompany": "Visualizza la società madre",
+            "remove": "Rimuovere",
+            "add": "Aggiungi",
+            "refresh": "Aggiornare",
+            "selectAll": "Seleziona tutti",
+            "deselectAll": "Deselezionare tutti",
+            "invite": "Invito",
+            "create": "Creare",
+            "addRow": "Aggiungi riga",
+            "approve": "Approvare",
+            "archive": "Archivio",
+            "cancel": "Annullamento",
+            "delete": "Cancellare",
+            "edit": "Modifica",
+            "new": "Nuovo",
+            "next": "Avanti",
+            "previous": "Precedente",
+            "save": "Risparmiare",
+            "saveTranslations": "Salva le traduzioni",
+            "sendInvitation": "Inviare l'invito",
+            "skip": "Salto",
+            "linkEnterprise": "Impresa di collegamento",
+            "upload": "Caricare",
+            "addType": "Aggiungi tipo",
+            "unarchive": "Disarchivio",
+            "clearFilters": "Cancella i filtri",
+            "deleteSelected": "Cancellare la selezione ({amount})",
+            "close": "Chiudere",
+            "downloadFormat": "Formato di download",
+            "import": "Importazione",
+            "ok": "Ok",
+            "copyToken": "Copia del token",
+            "submit": "Invia",
+            "continue": "Continua",
+            "impersonate": "Impersonare",
+            "fill": "Riempimento",
+            "calculate": "Calcolare",
+            "reset": "Reset",
+            "actions": "Azioni",
+            "editPermissions": "Modifica delle autorizzazioni",
+            "attach": "Allegare",
+            "detach": "Staccare",
+            "selectAllFromRole": "Selezionare tutti dal ruolo",
+            "editUser": "Modifica utente"
+        },
+        "errors": {
+            "forbidden": "Le autorizzazioni non sono sufficienti per eseguire questa azione."
+        },
+        "plurals": {
+            "hour": "Nessuna ora | {count} ora | {count} ora",
+            "month": "Nessun mese | {count} mese | {count} mese",
+            "week": "Nessuna settimana | {count} settimana | {count} settimane",
+            "file": "Nessun file | {count} file | {count} file"
+        },
+        "static": {
+            "etRegulation": "Regolazione dell'ET",
+            "yes": "Sì",
+            "payOutFrequency": "Frequenza di pagamento",
+            "contractHours": "Ore di contratto",
+            "year": "Anno",
+            "sendFailed": "Invio fallito.",
+            "location": "Posizione",
+            "holidaySurcharge": "Supplemento vacanze",
+            "uploadFiles": "Caricare i file",
+            "invoiceCompany": "Società di fatturazione",
+            "employments": "Impieghi",
+            "unarchiveFailed": "Non siamo riusciti a disarchiviare questo articolo.",
+            "recentVisitedPages": "Qui vengono visualizzate le pagine visitate di recente.",
+            "description": "Descrizione",
+            "subject": "Oggetto",
+            "causer": "Causatore",
+            "payOutEnterprise": "Impresa di pagamento",
+            "marginInvoicePerWeek": "Fattura a margine per settimana",
+            "token": "Token di accesso",
+            "personalAccessTokens": "Token di accesso personale",
+            "showTotal": "Mostra il totale",
+            "notificationTemplates": "Modello di notifica",
+            "expiresAt": "Scade a",
+            "signRequestSentAt": "Richiesta di firma inviata a",
+            "signTokenExpiresAt": "Il token di firma scade a",
+            "receiveNewSignToken": "Ricezione di un nuovo token segno",
+            "missingDocumentsAmount": "Importo dei documenti mancanti",
+            "accountHolder": "Titolare del conto",
+            "address": "Indirizzo",
+            "addressInformation": "Informazioni sull'indirizzo",
+            "authorizedSignatory": "Firmatario autorizzato",
+            "birthdate": "Data di nascita",
+            "birthplace": "Luogo di nascita",
+            "cao": "Cao",
+            "category": "Categoria",
+            "chamberOfCommerceNumber": "Numero della camera di commercio",
+            "citizenServiceNumber": "Numero di servizio del cittadino",
+            "company": "Azienda",
+            "companyInformation": "Informazioni sulla società",
+            "contact": "Contatto",
+            "contractDetails": "Dettagli del contratto",
+            "contactInformation": "Informazioni di contatto",
+            "country": "Paese",
+            "countryOfBirth": "Paese di nascita",
+            "createContact": "Creare un contatto",
+            "creditLimit": "Limite di credito",
+            "currentEmployments": "Impieghi attuali",
+            "deleteFailed": "Qualcosa è andato storto, contattateci se il problema persiste.",
+            "documentNumber": "Numero del documento",
+            "documents": "Documenti",
+            "documentTemplates": "Modelli di documento",
+            "email": "Email",
+            "employeeApprovalFail": "Mancata approvazione del dipendente.",
+            "employeeApprovalSuccess": "Dipendente approvato con successo.",
+            "employeeCreationSuccess": "Creazione di un dipendente riuscita.",
+            "employees": "I dipendenti",
+            "employment": "Occupazione",
+            "employmentAgencies": "Agenzie di collocamento",
+            "employmentAgency": "Agenzia per il lavoro",
+            "employmentAgencyApprovalFail": "Mancata approvazione dell'agenzia di collocamento.",
+            "employmentAgencyApprovalSuccess": "Agenzia di collocamento approvata con successo.",
+            "employmentAgencyCreationSuccess": "Creazione di un'agenzia di collocamento di successo.",
+            "factor": "Fattore",
+            "files": "File",
+            "financialInformation": "Informazioni finanziarie",
+            "firstName": "nome di battesimo",
+            "gender": "Genere",
+            "hi": "Ciao {user}",
+            "hirer": "Assegnatario",
+            "hirerApprovalFail": "Non è stato approvato il noleggiatore.",
+            "hirerApprovalSuccess": "Noleggiatore approvato con successo.",
+            "hirerCreationSuccess": "Assuntore creato con successo.",
+            "hirers": "Assuntori",
+            "iban": "IBAN",
+            "id": "ID",
+            "identityType": "Tipo di identità",
+            "identityValidUntil": "Identità valida fino a",
+            "initials": "Iniziali",
+            "invite": "Invito",
+            "invoices": "Fatture",
+            "language": "Lingua",
+            "lastName": "Cognome",
+            "legalForm": "Forma giuridica",
+            "log": "Log",
+            "maritalStatus": "Stato civile",
+            "middleName": "Secondo nome",
+            "name": "Nome",
+            "none": "Nessuno",
+            "notApplicable": "Non applicabile",
+            "notes": "Note",
+            "personalData": "Dati personali",
+            "phone": "Telefono",
+            "postalAddress": "Indirizzo postale",
+            "residenceAddress": "Indirizzo di residenza",
+            "homeAddress": "Indirizzo di casa",
+            "sbiCodes": "Codici SBI",
+            "search": "Ricerca",
+            "settings": "Impostazioni",
+            "splitMargin": "Margine di divisione",
+            "timeForTime": "Tempo per tempo",
+            "vatNumber": "Numero di partita IVA",
+            "visitAddress": "Visita l'indirizzo",
+            "timeRegistration": "Registrazione del tempo",
+            "confirmationQuestion": "Sei sicuro?",
+            "percentage": "Percentuale",
+            "euro": "Euro",
+            "no": "No",
+            "employeeType": "Tipo di dipendente",
+            "employmentDate": "Data di assunzione",
+            "terminationDate": "Data di cessazione",
+            "payrollTaxReduction": "Riduzione dell'imposta sui salari",
+            "contractStartDate": "Data di inizio del contratto",
+            "contractEndDate": "Data di scadenza del contratto",
+            "participantEtRegulation": "Regolamento ET dei partecipanti?",
+            "startDate": "Data di inizio",
+            "homewardTravelCost": "Costo del viaggio di ritorno",
+            "homewardTravelDistance": "Distanza di viaggio verso casa",
+            "homewardTravelFrequency": "Frequenza del viaggio di ritorno",
+            "factorEtRegulation": "Regolazione del fattore ET",
+            "factorOvertime": "Fattore straordinario",
+            "vatTariff": "Tariffa IVA",
+            "invoiceEmail": "Email di fatturazione",
+            "invoiceEmailCc": "Fattura CC",
+            "city": "Città",
+            "employer": "Datore di lavoro",
+            "factoringCompanies": "Società di factoring",
+            "factoringCompany": "Società di factoring",
+            "enterprises": "Imprese",
+            "dashboard": "Cruscotto",
+            "employee": "Dipendente",
+            "enabled": "Abilitato",
+            "webhooks": "Ganci web",
+            "period": "Periodo",
+            "nr": "Nr",
+            "originalValue": "Valore originale",
+            "exports": "Esportazioni",
+            "total": "Totale",
+            "cancel": "Annullamento",
+            "enterprise": "Impresa",
+            "date": "Data",
+            "freelancers": "Liberi professionisti",
+            "freelancer": "Libero professionista",
+            "hours": "Orario",
+            "payslip": "Busta paga",
+            "timesheet": "Foglio di presenza",
+            "reservations": "Prenotazioni",
+            "imports": "Importazioni",
+            "billedAt": "Fatturato a",
+            "attachments": "Allegati",
+            "freelancerCreationSuccess": "Creazione di un freelance di successo",
+            "freelancerApprovalSuccess": "Libero professionista approvato con successo",
+            "freelancerApprovalFail": "Impossibile approvare il freelance",
+            "account": "Conto",
+            "overtime": "Lavoro straordinario",
+            "surcharge": "Supplemento",
+            "shiftWorkSurcharge": "Supplemento per lavoro a turni",
+            "sepaId": "ID SEPA",
+            "travelHours": "Ore di viaggio",
+            "users": "Utenti",
+            "permissions": "Permessi",
+            "user": "Utente",
+            "link": "Collegamento",
+            "newContact": "Nuovo contatto",
+            "km": "KM",
+            "housingCost": "Costo dell'alloggio",
+            "costOfLivingAllowance": "Indennità per il costo della vita",
+            "employmentCreationSuccess": "Creare occupazione con successo",
+            "resultsCount": "{count} risultati",
+            "resultsCountMobile": "Pagina {current} - {total}",
+            "phase": "Fase",
+            "sendPayslips": "Inviare le buste paga",
+            "stipp": "Stipp",
+            "weeksWorked": "Settimane lavorate",
+            "translations": "Traduzioni",
+            "subjects": "Soggetti",
+            "outOfServiceDate": "Data di uscita dal servizio",
+            "outOfServiceReason": "Motivo del fuori servizio",
+            "accountNumber": "Numero di conto",
+            "createdAt": "Creato presso",
+            "filters": "Filtri",
+            "startsAt": "Inizia a",
+            "endsAt": "Termina a",
+            "factorSenior": "Fattore senior",
+            "note": "Nota",
+            "createdBy": "Utente",
+            "createNote": "Creare una nota",
+            "seniorDays": "Giornate per anziani",
+            "workTimeReductionDays": "Giorni di riduzione dell'orario di lavoro",
+            "timeRegistrationIsNotEnabledText": "La registrazione dell'ora non è abilitata.",
+            "workHours": "Orario di lavoro",
+            "workweekHours": "Ore di lavoro settimanali",
+            "workStartTime": "Orario di inizio lavori",
+            "workEndTime": "Orario di fine lavoro",
+            "sickReports": "Rapporto di malattia",
+            "start": "Inizio",
+            "end": "Fine",
+            "reason": "Motivo",
+            "maxImageSize": "L'immagine deve essere più piccola di {width} x {height} px.",
+            "hint": "Suggerimento",
+            "outOfServiceEmployeeSuccess": "Il dipendente è stato segnalato con successo come fuori servizio.",
+            "outOfService": "Fuori servizio",
+            "outOfServiceSuccess": "Fuori servizio con successo",
+            "createFailed": "Non siamo riusciti a salvare questo record.",
+            "updateFailed": "Non siamo riusciti a salvare questo record.",
+            "saveFailed": "Non siamo riusciti a salvare questo record.",
+            "archiveSuccess": "L'articolo viene archiviato.",
+            "archiveFailed": "Non siamo riusciti ad archiviare questo articolo.",
+            "freelancerJobs": "Lavori da freelance",
+            "deleteFileConfirmationText": "Siete sicuri di voler eliminare definitivamente il file?",
+            "fromPeriod": "Dal periodo",
+            "filesUploaded": "File caricati",
+            "fileUploadFailed": "Caricamento file non riuscito",
+            "fileDeleted": "File cancellato",
+            "fileDeleteFailed": "Cancellazione del file non riuscita",
+            "unarchiveSuccess": "L'articolo non è archiviato.",
+            "frequency": "Frequenza",
+            "from": "Da",
+            "until": "Fino a quando",
+            "download": "Scaricare",
+            "reservationsBuildup": "Accumulo di riserve",
+            "seasonalWork": "Lavoro stagionale",
+            "payslips": "Buste paga",
+            "annualStatements": "Dichiarazioni annuali",
+            "takeOverFromHirer": "Subentro al noleggiatore",
+            "projects": "Progetti",
+            "correction": "Correzione",
+            "selectedAmount": "Selezionato ({amount})",
+            "validationFailed": "Convalida fallita",
+            "upcomingEmployments": "Prossimi impieghi",
+            "sharedDocumentTemplates": "Modelli di documenti condivisi",
+            "companyType": "Tipo di azienda",
+            "certificateOfConduct": "Certificato di condotta",
+            "useHirerValue": "Utilizzare il valore del noleggiatore",
+            "useEmploymentAgencyValue": "Utilizzare il valore dell'agenzia di collocamento",
+            "type": "Tipo",
+            "canNotDeleteEmployeeTitle": "Impossibile eliminare",
+            "usingHirerValue": "Utilizzo del valore del noleggiatore",
+            "usingEmploymentAgencyValue": "Utilizzo del valore dell'agenzia di collocamento",
+            "canNotDeleteEmploymentTitle": "Impossibile eliminare",
+            "useParentValue": "Utilizzare il valore del genitore",
+            "import": "Importazione",
+            "importHirers": "Noleggiatori d'importazione",
+            "importSuccessful": "Importazione riuscita",
+            "loadFailed": "Non siamo riusciti a caricare i dati richiesti.",
+            "importEmployees": "Importazione di dipendenti",
+            "importEmployments": "Importazione di posti di lavoro",
+            "importFreelancers": "Importazione di freelance",
+            "importFreelancerJobs": "Importazione di lavori da freelance",
+            "importEntityFailed": "L'importazione non è riuscita. Provare ad aggiornare la pagina ed eseguire nuovamente l'importazione.",
+            "registration": "Registrazione",
+            "owner": "Proprietario",
+            "generateFreelancerDocuments": "Generare documenti per i freelance",
+            "generateFreelancerDocumentsInfo": "Quando questa opzione è disattivata, non viene generato alcun documento al termine della procedura guidata per i freelance.",
+            "healthInsuranceStartDateInfo": "La detrazione per l'assicurazione sanitaria verrà aggiunta all'inizio di ogni settimana/quattro settimane/mese (a seconda della frequenza di pagamento), a condizione che in quella data vi sia un'assicurazione sanitaria attiva.",
+            "currentJobs": "Lavori attuali",
+            "upcomingJobs": "Prossimi lavori",
+            "pages": "Pagine",
+            "isPayOutEnabled": "Pagamenti abilitati?",
+            "dashboardOrderMobile": "Ordine del cruscotto per mobile",
+            "notifications": "Notifiche",
+            "splitPayOutInfo": "Se l'opzione è attivata, le ore regolari saranno suddivise dalle altre registrazioni nell'esportazione dei pagamenti.",
+            "splitPayOut": "Pagamenti frazionati",
+            "recurringDeductionInfo": "La detrazione ricorrente verrà aggiunta all'inizio di ogni settimana/quattro settimane/mese (a seconda della frequenza di pagamento).",
+            "disablePayOutConfirmationText": "È sicuro di voler disabilitare il pagamento per questa registrazione?",
+            "missingRequiredAttributesConfirmTitle": "Campi obbligatori mancanti",
+            "dontSendDocumentsInfo": "Le richieste di firma non verranno inviate per i documenti selezionati qui.",
+            "otherInfo": "Altre informazioni",
+            "dontSendDocuments": "Non inviare documenti",
+            "saved": "Salvati",
+            "fillAll": "Riempire tutti",
+            "submitForApprovalConfirmTitle": "Invia per l'approvazione",
+            "submittedForApproval": "Presentato per l'approvazione.",
+            "submitForApprovalFailed": "Non siamo riusciti a sottoporre l'entità all'approvazione.",
+            "notYetSubmittedForApproval": "Non ancora presentato per l'approvazione.",
+            "submitForApprovalConfirmText": "La voce sarà sottoposta ad approvazione.",
+            "missingRequiredAttributesConfirmText": "L'elemento non può ancora essere inviato per l'approvazione perché alcuni attributi richiesti non sono stati compilati.",
+            "jobCreationSuccess": "Il lavoro è stato creato.",
+            "variable": "Variabile",
+            "minimum": "Minimo",
+            "new": "Nuovo",
+            "resellers": "Rivenditori",
+            "resellerCreationSuccess": "Creazione di un rivenditore riuscita.",
+            "resellerApprovalSuccess": "Rivenditore approvato con successo.",
+            "resellerApprovalFail": "Impossibile approvare il rivenditore.",
+            "reseller": "Rivenditore",
+            "googleLogo": "Logo Google",
+            "confirmationImpersonateText": "Siete sicuri di voler impersonare questo utente?",
+            "defaultNotificationTemplates": "Modelli di notifica predefiniti",
+            "teams": "Squadre",
+            "teamPresets": "Preset di squadra",
+            "defaultValue": "Valore predefinito",
+            "unableToDeleteItem": "Impossibile eliminare l'elemento",
+            "logo": "Logo",
+            "messageBox": "Casella di messaggio",
+            "hide": "Nascondere",
+            "contractType": "Tipo di contratto",
+            "proFormaPayslip": "Busta paga proforma",
+            "fiscalYearlySalary": "Stipendio annuale fiscale",
+            "result": "Risultato",
+            "noPermissionForField": "Nessun permesso di visualizzazione...",
+            "NoPermissionForSegment": "Non hai i permessi per vedere questo segmento...",
+            "role": "Ruolo",
+            "contactHasNoAccountTooltip": "Questo contatto non ha un account",
+            "attachExistingContact": "Allegare il contatto esistente",
+            "portals": "Portali",
+            "roles": "Ruoli",
+            "subsidyCompany": "Società di sovvenzione",
+            "subsidy": "Sovvenzione",
+            "details": "Dettagli",
+            "subsidyCompanies": "Aziende sovvenzionate",
+            "confirmed": "Confermato",
+            "amount": "Importo",
+            "automatic": "Automatico",
+            "ageHint": "Età: {age}",
+            "deductionOverviewPerWeek": "Panoramica delle detrazioni a settimana",
+            "mainContact": "Contatto principale",
+            "timesToGo": "{times} andare",
+            "fileSubjects": "Soggetti del file",
+            "archiveFileConfirmationText": "In questo modo il file viene archiviato.",
+            "deleteExtraWarningText": "Questo non può essere annullato!",
+            "invoiceEnterprise": "Fattura aziendale",
+            "europeanHealthInsuranceCardNumber": "Numero di tessera sanitaria europea"
+        },
+        "tabs": {
+            "employees": "I dipendenti",
+            "companyDetails": "Dettagli dell'azienda",
+            "contactDetails": "Dettagli di contatto",
+            "contacts": "Contatti",
+            "details": "Dettagli",
+            "documents": "Documenti",
+            "hirers": "Assuntori",
+            "invoices": "Fatture",
+            "log": "Log",
+            "notes": "Note",
+            "settings": "Impostazioni",
+            "splitMargin": "Margine di divisione",
+            "hourTypes": "Tipi di ore",
+            "compensations": "Compensazioni",
+            "travelTypes": "Tipi di viaggio",
+            "employments": "Impieghi",
+            "hours": "Orario",
+            "reservations": "Prenotazioni",
+            "jobs": "Offerte di lavoro",
+            "wageAttachments": "Attaccamento al salario",
+            "deductions": "Deduzioni",
+            "projects": "Progetti",
+            "freelancers": "Liberi professionisti",
+            "tariffs": "Tariffe",
+            "margins": "Margini",
+            "customers": "Clienti",
+            "subsidies": "Sovvenzioni",
+            "user": "Utente",
+            "functions": "Funzioni"
+        },
+        "messages": {
+            "overriddenValue": "Questo valore viene sovrascritto.",
+            "dataUniqueToEnterprise": "Questi dati sono unici per l'impresa {enterpriseName}. Fare clic su {action} per sovrascrivere questi dati. I dati che non sono stati sovrascritti saranno presi dalla società madre."
+        },
+        "tooltip": {
+            "copyToClipboard": "Copia negli appunti"
+        }
+    },
+    "timeRegistration": {
+        "static": {
+            "date": "Data",
+            "from": "Da",
+            "to": "A",
+            "kilometers": "Chilometri",
+            "reservationDescriptiveText": "Testo descrittivo della prenotazione...",
+            "selectADeduction": "Selezionare una detrazione",
+            "uploadDeductionAttachment": "Caricare l'allegato della detrazione",
+            "deployed": "Schierato",
+            "timeRegistrationsDeleted": "Le registrazioni temporali sono state cancellate.",
+            "travelSaved": "Il viaggio è stato salvato.",
+            "week": "Settimana",
+            "compensationDescriptiveText": "Testo descrittivo di compensazione...",
+            "amount": "Importo",
+            "hours": "Orario",
+            "project": "Progetto",
+            "location": "Posizione",
+            "notes": "Note",
+            "payOut": "Pagamenti",
+            "hourType": "Tipo di ora",
+            "reservation": "Prenotazione",
+            "currentState": "Stato attuale",
+            "newState": "Nuovo Stato",
+            "compensations": "Compensazioni",
+            "reservations": "Prenotazioni",
+            "chargeTo": "Addebito a",
+            "deleteKilometersConfirmationText": "Sei sicuro di volerlo cancellare?",
+            "maxDistance": "Distanza massima",
+            "deductionDescriptiveText": "Deduzione testo descrittivo...",
+            "deduction": "Deduzione",
+            "deductionAmount": "Importo della detrazione",
+            "deductionAttachment": "Allegato alla detrazione",
+            "attachmentNotRequired": "Allegato non richiesto",
+            "deductions": "Deduzioni",
+            "travelType": "Tipo di viaggio",
+            "invoiceCreated": "Fattura creata",
+            "invoiceAlreadySaved": "Questa fattura è già stata salvata.",
+            "compensation": "Compensazione",
+            "staff": "Personale",
+            "companies": "Aziende",
+            "function": "Funzione",
+            "freelancers": "Liberi professionisti",
+            "invoicingFailed": "Non siamo riusciti a creare le fatture.",
+            "status": "Stato",
+            "employmentIsInactiveText": "Questo impiego non è attivo nel periodo selezionato.",
+            "jobIsInactiveText": "Questo lavoro non è attivo nel periodo selezionato.",
+            "unlocked": "Il periodo è stato sbloccato.",
+            "unlockFailed": "Non siamo riusciti a sbloccare il periodo.",
+            "hourInfoText": "I compensi e le detrazioni vengono ricalcolati automaticamente quando si aggiornano le ore.",
+            "deleteTimeRegistrationConfirmationText": "La registrazione dell'ora viene cancellata.",
+            "downloadFormatFailed": "Impossibile creare il formato.",
+            "import": "Importazione",
+            "validationFailed": "Convalida fallita",
+            "importSuccessful": "L'importazione è avvenuta con successo",
+            "importStarted": "L'importazione è iniziata. A seconda delle dimensioni, il completamento può richiedere fino a qualche minuto.",
+            "shouldNotSendWithInvoice": "Non inviare con la fattura",
+            "deleteTimeRegistrationsConfirmationText": "Siete sicuri di voler eliminare le registrazioni temporali selezionate?",
+            "compensationDeleted": "La compensazione è stata eliminata.",
+            "hourDeleted": "Le ore sono state cancellate.",
+            "copyFailed": "Non siamo riusciti a copiare la riga.",
+            "travelDeleted": "Il viaggio è stato cancellato.",
+            "returnTravelSaved": "Il viaggio di ritorno è stato salvato.",
+            "travelDuplicated": "Il viaggio è stato duplicato.",
+            "creatingInvoicesInfo": "La creazione delle fatture è programmata.",
+            "creatingInvoicesStatusText": "Le fatture vengono create. Una volta terminato questo processo, le fatture possono essere visualizzate qui.",
+            "noOutstandingTimeRegistrationsFound": "Non sono state trovate registrazioni in sospeso.",
+            "autoCalculateDeductionsInfo": "Se l'opzione è attivata, le detrazioni in sospeso saranno automaticamente ricalcolate quando si registrano le ore o si generano le fatture.",
+            "noRegistrationsFound": "Nessuna registrazione trovata.",
+            "someHoursNotCopied": "Alcune registrazioni di ore non potevano essere copiate a causa di un tipo di ora mancante.",
+            "hoursCopied": "Le ore sono state copiate.",
+            "someTravelsNotCopied": "Alcune registrazioni di viaggio non potevano essere copiate a causa di un tipo di viaggio mancante.",
+            "travelsCopied": "I viaggi sono stati copiati."
+        },
+        "actions": {
+            "cao": "CAO",
+            "duplicateReturnTravel": "Viaggio di ritorno",
+            "duplicateKilometerRow": "Riga duplicata",
+            "editHours": "Modifica ore",
+            "addRow": "Aggiungi riga",
+            "uploadKilometerAccountability": "Carica il resoconto dei chilometri",
+            "invoice": "Fattura",
+            "correction": "Correzione",
+            "saveInvoice": "Salva la fattura",
+            "copyPreviousPeriod": "Copia del periodo precedente",
+            "receipts": "Ricevute",
+            "uploadAttachments": "Caricare gli allegati",
+            "deployed": "Schierato",
+            "staff": "Personale",
+            "add": "Aggiungi",
+            "closePeriod": "Periodo di chiusura",
+            "unlock": "Sbloccare",
+            "autoCalculate": "Calcolo automatico",
+            "viewHours": "Visualizza le ore",
+            "previewInvoice": "Anteprima della fattura",
+            "viewInvoice": "Visualizza la fattura",
+            "generateInvoice": "Generare la fattura",
+            "deleteInvoice": "Cancellare la fattura",
+            "excel": "Excel",
+            "downloadFormat": "Formato di download",
+            "upload": "Caricare",
+            "import": "Importazione",
+            "createTimeRegistration": "Creare la registrazione del tempo",
+            "saveInvoices": "Salvare le fatture",
+            "selectLockable": "Seleziona tutti",
+            "deselectAll": "Deselezionare tutti",
+            "copyFromEmployee": "Copia da un altro dipendente",
+            "copyFromFreelancer": "Copia da un altro freelance"
+        },
+        "tabs": {
+            "hours": "Orario",
+            "kilometers": "Chilometri",
+            "compensations": "Compensazioni",
+            "reservations": "Prenotazioni",
+            "deductions": "Deduzioni"
+        }
+    },
+    "api": {
+        "kvk": {
+            "static": {
+                "companyInfoSuccessfullyFilled": "Informazioni sull'azienda compilate con successo",
+                "apiOffline": "KVK Api è offline"
+            },
+            "validation": {
+                "errors": {
+                    "cocNotFound": "Numero della Camera di Commercio non trovato."
+                }
+            }
+        },
+        "creditsafe": {
+            "validation": {
+                "errors": {
+                    "companyNotFound": "Azienda non trovata"
+                }
+            },
+            "static": {
+                "apiOffline": "L'API della cassaforte del credito è offline."
+            }
+        }
+    },
+    "hourType": {
+        "static": {
+            "timeForTimeEnabled": "Tempo per il tempo abilitato",
+            "hint": "Suggerimento",
+            "frequency": "Frequenza",
+            "type": "Tipo",
+            "defaultForNewEmployee": "Predefinito per i nuovi dipendenti",
+            "defaultForNewEmployeeUpdated": "Aggiornamento dei tipi di ore predefinite per i nuovi dipendenti",
+            "desiredNetSalary": "Salario netto desiderato",
+            "useDesiredNetSalary": "Utilizzare il salario netto desiderato",
+            "name": "Nome",
+            "timeForTime": "Tempo per tempo",
+            "value": "Valore",
+            "unit": "Unità",
+            "employeesWithoutAccess": "Dipendenti senza accesso",
+            "none": "Nessuno",
+            "employeesWithAccess": "Dipendenti con accesso",
+            "employeeHasHourTypeOverrides": "Il dipendente ha la possibilità di escludere il tipo di ora",
+            "hourType": "Tipo di ora",
+            "saved": "Salvati",
+            "default": "Ore predefinite",
+            "deleted": "Soppresso",
+            "caoSurcharges": "Supplementi CAO",
+            "timeForTimeDisabled": "Tempo per il tempo disabilitato",
+            "difference": "Differenza",
+            "actualNetSalary": "Salario netto effettivo",
+            "hourTypes": "Tipi di ore",
+            "chargeTo": "Addebito a"
+        },
+        "actions": {
+            "grantAccessToAll": "Concedere l'accesso a tutti",
+            "takeAccessFromAll": "Accedere da tutti",
+            "enableTimeForTimeForAll": "Attivare il tempo per il tempo per tutti",
+            "disableTimeForTimeForAll": "Disattivare l'orario per tutti"
+        }
+    },
+    "frequency": {
+        "static": {
+            "weekShort": "w",
+            "fourWeekShort": "4w",
+            "monthShort": "m",
+            "weekly": "Settimanale",
+            "fourWeekly": "Quattro appuntamenti settimanali",
+            "monthly": "Mensile",
+            "week": "Settimana",
+            "fourWeek": "Quattro settimane",
+            "month": "Mese",
+            "hourly": "Orario",
+            "daily": "Giornaliero",
+            "hour": "Ora",
+            "day": "Giorno",
+            "hourShort": "h",
+            "dayShort": "d"
+        }
+    },
+    "compensation": {
+        "static": {
+            "deviantFactor": "Fattore deviante",
+            "salesRate": "Tasso di vendita",
+            "compensationSaved": "I risarcimenti sono stati salvati.",
+            "enabledCompensationsRecalculatedInfo": "Quando si abilitano le compensazioni, queste vengono calcolate automaticamente in tutte le registrazioni di ore in sospeso (se ci sono ore registrate).",
+            "employeesWithoutAccess": "Dipendenti senza accesso",
+            "none": "Nessuno",
+            "employeesWithAccess": "Dipendenti con accesso",
+            "employeeHasCompensationOverrides": "Il dipendente ha la possibilità di escludere la retribuzione",
+            "name": "Nome",
+            "value": "Valore",
+            "unit": "Unità",
+            "caoCompensations": "Compensi CAO",
+            "compensation": "Compensazione",
+            "saved": "Salvati",
+            "deleted": "Soppresso",
+            "hint": "Suggerimento",
+            "factor": "Fattore",
+            "chargeTo": "Addebito a",
+            "frequency": "Frequenza",
+            "payOutEnabled": "Pagamenti abilitati",
+            "isGross": "È lordo",
+            "defaultForNewEmployee": "Predefinito per i nuovi dipendenti",
+            "defaultForNewEmployeeUpdated": "Aggiornamento dei compensi predefiniti per i nuovi dipendenti",
+            "desiredSalaryCompensation": "Retribuzione desiderata",
+            "compensations": "Compensazioni",
+            "payslipPaymentsDesiredSalaryExplanation": "Quando si importano i pagamenti delle buste paga, questa funzione crea una compensazione per ogni dipendente che ha un salario desiderato (indicato nell'importazione della registrazione temporale) superiore al pagamento della busta paga.",
+            "checkDesiredSalaryOnPayslipPayments": "Controllare il salario desiderato",
+            "noCompensations": "Nessuna compensazione"
+        },
+        "actions": {
+            "grantAccessToAll": "Concedere l'accesso a tutti",
+            "takeAccessFromAll": "Accedere da tutti",
+            "useDeviatingFactor": "Utilizzare il fattore di deviazione",
+            "addSalesRate": "Aggiungere il tasso di vendita"
+        }
+    },
+    "travelType": {
+        "static": {
+            "saved": "Salvati",
+            "deleted": "Soppresso",
+            "caoTravelExpenses": "Spese di viaggio CAO",
+            "default": "Predefinito",
+            "defaultForNewEmployee": "Predefinito per i nuovi dipendenti",
+            "name": "Nome",
+            "hint": "Suggerimento",
+            "value": "Valore",
+            "unit": "Unità",
+            "gross": "Lordo",
+            "net": "Netto",
+            "employeesWithoutAccess": "Dipendenti senza accesso",
+            "none": "Nessuno",
+            "employeesWithAccess": "Dipendenti con accesso",
+            "employeeHasTravelTypeOverrides": "Il dipendente dispone di opzioni per il tipo di viaggio",
+            "travelType": "Tipo di viaggio",
+            "defaultForNewEmployeeUpdated": "Aggiornamento dei tipi di viaggio predefiniti per i nuovi dipendenti",
+            "noTravels": "Nessun viaggio",
+            "chargeTo": "Addebito a"
+        },
+        "actions": {
+            "grantAccessToAll": "Concedere l'accesso a tutti",
+            "takeAccessFromAll": "Accedere da tutti"
+        }
+    },
+    "invoice": {
+        "static": {
+            "createdBy": "Creato da",
+            "sendAt": "Inviare a",
+            "freelancer": "Libero professionista",
+            "agreedWorkInvoice": "Fattura di lavoro concordata",
+            "agreedWork": "Lavoro concordato",
+            "customInvoice": "Fattura personalizzata",
+            "creditInvoice": "Fattura di credito",
+            "hideEmail": "Nascondi e-mail",
+            "rows": "Righe",
+            "number": "Numero",
+            "total": "Totale",
+            "period": "Periodo",
+            "salesInvoice": "Fattura di vendita",
+            "costsOverview": "Panoramica dei costi",
+            "marginInvoice": "Fattura a margine",
+            "billedAt": "Fatturato a",
+            "deductionsOverview": "Panoramica delle detrazioni",
+            "salesInvoices": "Fatture di vendita",
+            "marginInvoices": "Fattura a margine",
+            "searchInvoices": "Ricerca fatture",
+            "payments": "Pagamenti",
+            "noPaymentsFound": "Nessun pagamento trovato",
+            "addPayment": "Aggiungi pagamento",
+            "gAccount": "Conto G",
+            "log": "Log",
+            "ipAddress": "Indirizzo IP",
+            "download": "Scaricare",
+            "files": "File",
+            "invoice": "Fattura",
+            "info": "Info",
+            "totalPaid": "Totale pagato",
+            "gAccountPaid": "Conto G pagato",
+            "pending": "In attesa",
+            "queued": "In coda",
+            "billed": "Fatturato",
+            "paid": "Pagato",
+            "createdAt": "Creato presso",
+            "paidAt": "Pagato a",
+            "invoiceWillBeBilled": "Le fatture per questo periodo saranno fatturate a breve.",
+            "invoiceWillBeSent": "La fattura verrà inviata.",
+            "sales": "Vendite",
+            "costs": "Costi",
+            "margin": "Margine",
+            "deductions": "Deduzioni",
+            "freelancerInvoice": "Fattura del libero professionista",
+            "description": "Descrizione",
+            "attachments": "Allegati",
+            "invoiceDate": "Data della fattura",
+            "preview": "Anteprima",
+            "customCostsOverview": "Panoramica dei costi personalizzati",
+            "customCosts": "Costi personalizzati",
+            "remuneration": "Remunerazione",
+            "custom": "Personalizzato",
+            "deleteInvoiceText": "È sicuro di voler cancellare questa fattura?",
+            "newItem": "Nuovo articolo",
+            "amount": "Importo",
+            "unitPrice": "Prezzo unitario",
+            "items": "Articoli",
+            "confirmTypeChangeText": "Tutte le voci di fattura esistenti verranno rimosse. Siete sicuri di voler cambiare il tipo?",
+            "makeMargin": "Margine di guadagno",
+            "item": "Articolo",
+            "vat": "IVA",
+            "employee": "Dipendente",
+            "deduction": "Deduzione",
+            "exports": "Esportazioni",
+            "exportDescriptiveText": "È possibile esportare un massimo di {count} fatture alla volta. Tutti i filtri specificati nella casella di ricerca saranno utilizzati per limitare la quantità di fatture nell'esportazione.",
+            "exportInvalidText": "Troppe fatture selezionate, limitare la quantità di fatture utilizzando i filtri sopra.",
+            "billing": "Fatturazione",
+            "relatedInvoices": "Fatture correlate",
+            "resellerMarginInvoice": "Fattura del margine del rivenditore",
+            "resellerMargin": "Margine del rivenditore",
+            "customInvoiceItemVatNotDefaultConfirmationText": "Siete sicuri di voler utilizzare una tariffa IVA diversa?"
+        },
+        "actions": {
+            "addPayment": "Aggiungi pagamento",
+            "download": "Scaricare",
+            "billNow": "Bill ora",
+            "sendNow": "Invia ora",
+            "create": "Creare",
+            "addToQueue": "Aggiungi alla coda",
+            "preview": "Anteprima",
+            "createExport": "Esportazione di fatture {count}",
+            "downloadAll": "Scaricare tutti",
+            "billSelected": "Fattura le fatture selezionate",
+            "selectBillable": "Selezionare la fatturabile",
+            "deselectAll": "Deselezionare tutti"
+        },
+        "filter": {
+            "from": "Da",
+            "to": "A",
+            "type": "Tipo",
+            "queuedOnly": "Solo in coda",
+            "outstandingOnly": "Solo in sospeso"
+        }
+    },
+    "enterprises": {
+        "static": {
+            "deleteStandardDocumentConfirmationText": "Siete sicuri di voler cancellare questo documento standard?",
+            "enterprise": "Impresa",
+            "details": "Dettagli",
+            "standardDocuments": "Documenti standard",
+            "standardDocumentUpdateSuccess": "Il documento standard è stato aggiornato con successo.",
+            "shouldNotifyCustomers": "Dovrebbe informare i clienti",
+            "noFileUploaded": "Non è stato ancora caricato alcun file.",
+            "uploadNewFile": "Caricare un nuovo file",
+            "payOutEnterpriseInfo": "L'impresa di pagamento può essere annullata selezionando un'impresa di pagamento sul dipendente o sull'assuntore.",
+            "canHaveJobsInfo": "Se questa opzione è disattivata, non è possibile creare impieghi o lavori da libero professionista per gli assuntori collegati a questa impresa.",
+            "canBeInvoicedInfo": "Se l'opzione è attivata, questa impresa sarà disponibile quando si crea un nuovo assuntore come agenzia di lavoro."
+        }
+    },
+    "exports": {
+        "static": {
+            "total": "Totale",
+            "exportSuccessful": "Esportazione riuscita",
+            "archiveEmploymentAgencyConfirmationText": "Siete sicuri di voler archiviare questa agenzia di lavoro?",
+            "archiveHirerConfirmationText": "È sicuro di voler archiviare questo assuntore?",
+            "marginOverview": "Panoramica dei margini",
+            "changedEmployees": "Dipendenti modificati",
+            "notStarted": "Non iniziato",
+            "queued": "In coda",
+            "running": "In corsa",
+            "completed": "Completato",
+            "cancelled": "Annullato",
+            "failed": "Fallito",
+            "factoringCompanyExport": "Società di factoring per l'esportazione",
+            "options": "Opzioni",
+            "exports": "Esportazioni",
+            "generatedAt": "Generato a",
+            "deleteExportConfirmationText": "In questo modo si elimina l'esportazione.",
+            "deleteInvoiceConfirmationText": "In questo modo si cancellano tutte le fatture relative e si sblocca la registrazione del tempo per questo periodo.",
+            "marginAndDeductionsExport": "Margine e detrazioni esportazione",
+            "export": "Esportazione",
+            "periods": "Periodi",
+            "deleteSepaOverviewExportConfirmationText": "L'esportazione verrà cancellata e lo stato di pagamento di ogni fattura presente in questa esportazione verrà azzerato.",
+            "selectedInvoices": "Avete selezionato {count} fatture.",
+            "payOutExport": "Pagamenti all'esportazione",
+            "payOutInfo": "Il nome dell'esportazione sarà lo stesso del periodo più alto selezionato. Le registrazioni selezionate in periodi inferiori saranno esportate in file separati. Eventuali fatture in sospeso verranno addebitate.",
+            "noRegistrationsFound": "Nessuna registrazione trovata.",
+            "deletePayOutExportConfirmationText": "L'esportazione verrà cancellata e tutte le registrazioni contenute in questa esportazione torneranno a essere esportabili.",
+            "registrations": "Registrazioni",
+            "noInvoicesFound": "Non sono state trovate fatture.",
+            "deductionsDocumentNotSigned": "Documento di detrazione non firmato.",
+            "employeesExport": "Esportazione dei dipendenti",
+            "deleteWageAttachmentConfirmationText": "L'allegato salariale verrà cancellato.",
+            "deleteCompensationConfirmationText": "Sei sicuro di voler cancellare questa compensazione?",
+            "deleteHourTypeConfirmationText": "È sicuro di voler eliminare questo tipo di ora?",
+            "deleteTravelTypeConfirmationText": "È sicuro di voler eliminare questo tipo di viaggio?",
+            "missingDocumentsForPayOutExport": "Documenti firmati mancanti",
+            "unarchiveEmploymentAgencyConfirmationText": "È sicuro di voler disarchiviare questa agenzia di collocamento?",
+            "unarchiveHirerConfirmationText": "È sicuro di voler disarchiviare questo assuntore?",
+            "accountingSoftwareExport": "Software di contabilità",
+            "marginOverviewExport": "Esportazione della panoramica dei margini",
+            "invoice": "Fattura",
+            "saveInvoiceConfirmationText": "Le fatture saranno salvate e il periodo sarà bloccato.",
+            "hollandZorg": "OlandaZorg",
+            "freelancersPayoutExport": "Esportazione dei pagamenti dei freelance",
+            "newEmployees": "Nuovi dipendenti",
+            "markAllAsChanged": "Contrassegnare tutti come modificati",
+            "markAllAsNew": "Contrassegnare tutti come nuovi",
+            "editExport": "Modifica esportazione",
+            "addEmployee": "Aggiungere un dipendente",
+            "exportHealhInsuranceRemainder": "Esportazione di assicurazioni sanitarie non esportate",
+            "unexportedHealhInsuranceCount": "{count} assicurazioni sanitarie non esportate.",
+            "healthInsuranceExport": "Esportazione di assicurazione sanitaria",
+            "doNotExport": "Non esportare",
+            "doExport": "Esportare",
+            "markAllAsDoNotExport": "Contrassegnare tutti come non esportabili",
+            "markAllAsDoExport": "Contrassegnare tutti come da esportare",
+            "exported": "Esportato",
+            "archiveResellerConfirmationText": "Sei sicuro di voler archiviare questo rivenditore?",
+            "unarchiveResellerConfirmationText": "Sei sicuro di voler disarchiviare questo rivenditore?",
+            "mijnSubsidie": "MijnSubsidie",
+            "mijnSubsidieExport": "Esportazione MijnSubsidie",
+            "resellerMarginsExport": "Margini di esportazione dei rivenditori",
+            "historicalPayOutExport": "Esportazione dei pagamenti storici",
+            "historicalPayOutInfo": "Le esportazioni verranno create per ogni registrazione temporale selezionata. Si applicano le normali regole di pagamento, ad eccezione del fatto che non vengono calcolati gli accumuli delle prenotazioni.",
+            "deleteFunctionConfirmationText": "Siete sicuri di voler eliminare la funzione?",
+            "a1PayOutExport": "A1 pay out export",
+            "a1EmployeesExport": "A1 esportazione dei dipendenti"
+        },
+        "pages": {
+            "factoringCompany": "Società di factoring",
+            "marginAndDeductions": "Margine e detrazioni",
+            "payOutExport": "Pagamenti all'esportazione",
+            "employeesExport": "Esportazione dei dipendenti",
+            "accountingSoftwareExport": "Software di contabilità",
+            "marginOverviewExport": "Esportazione della panoramica dei margini",
+            "hollandZorgExport": "OlandaZorg Esportazione",
+            "freelancersPayout": "Retribuzione dei freelance",
+            "mijnSubsidieExport": "Esportazione MijnSubsidie",
+            "resellerMargins": "Margine del rivenditore"
+        },
+        "actions": {
+            "refresh": "Aggiornare",
+            "selectAll": "Seleziona tutti",
+            "clearSelection": "Cancella la selezione",
+            "generate": "Generare",
+            "selectPeriod": "Selezionare il periodo",
+            "exactDate": "Data esatta",
+            "timePeriod": "Periodo di tempo",
+            "showOldExports": "Mostra le vecchie esportazioni"
+        },
+        "payOut": {
+            "static": {
+                "skipNonExportableValidation": "Saltare la convalida dei documenti mancanti",
+                "notExportedEmployeesInfo": "Alcune ore negative di questi dipendenti non potevano essere esportate:"
+            },
+            "actions": {
+                "historical": "Storico"
+            }
+        },
+        "employees": {
+            "static": {
+                "createFreshExportInfo": "Quando l'opzione \"esportazione fresca\" è attivata, tutti i dipendenti attualmente attivi saranno inclusi nell'esportazione.",
+                "createFreshExport": "Esportazione di prodotti freschi"
+            }
+        }
+    },
+    "documentStatus": {
+        "static": {
+            "created": "Creato",
+            "pending": "In attesa",
+            "declined": "Declinato",
+            "expired": "Scaduto",
+            "completed": "Completato"
+        }
+    },
+    "document": {
+        "static": {
+            "subjectSaved": "Il soggetto è stato salvato.",
+            "log": "Log",
+            "selectSubjects": "Selezionare i soggetti",
+            "selectSubjectsForSignRequestsText": "Selezionare tutti i soggetti a cui si desidera inviare una richiesta di firma.",
+            "selectSubjectsForSignedFileText": "Selezionare tutti i soggetti a cui si desidera inviare il file firmato.",
+            "selectSubjectsForCompletedFileText": "Selezionare tutti i soggetti a cui si desidera inviare il file completato.",
+            "sendSignRequestsConfirmationText": "I seguenti soggetti riceveranno una richiesta di firma.",
+            "generatorSubjectShouldSignExplanation": "I seguenti soggetti riceveranno una richiesta di firma.",
+            "generatorSubjectSendAfterCompletionExplanation": "I seguenti soggetti riceveranno il documento una volta completato.",
+            "subjectDeleted": "L'argomento è stato cancellato."
+        }
+    },
+    "log": {
+        "static": {
+            "properties": "Proprietà",
+            "description": "Descrizione",
+            "date": "Data",
+            "old": "Vecchio",
+            "new": "Nuovo",
+            "system": "Sistema",
+            "causer": "Causatore",
+            "id": "Id",
+            "subject": "Oggetto"
+        }
+    },
+    "employment": {
+        "static": {
+            "hirerFunction": "Funzione noleggiatore",
+            "payOutPreferences": "Preferenze di pagamento",
+            "startDate": "Data di inizio",
+            "endDate": "Data di fine",
+            "function": "Funzione",
+            "scale": "Scala",
+            "factor": "Fattore",
+            "grossSalary": "Salario lordo",
+            "salesRate": "Tasso di vendita",
+            "includeExtraDays": "Includere i giorni extra nello stipendio",
+            "deleteConfirmationText": "È sicuro di voler cancellare questo impiego?",
+            "deleteSuccess": "L'impiego è stato cancellato.",
+            "deleteFailed": "Non è stato possibile eliminare l'occupazione.",
+            "workdaysAndTimes": "Giorni e orari di lavoro",
+            "emptyFunctionSalesRateConfirmationText": "Tutte le funzioni hanno un tasso di vendita vuoto.",
+            "missingRequiredAttributesConfirmText": "L'impiego non può ancora essere presentato per l'approvazione perché alcuni attributi richiesti non sono stati compilati.",
+            "submitForApprovalConfirmText": "L'assunzione sarà sottoposta ad approvazione.",
+            "employmentsApproved": "Le assunzioni sono approvate.",
+            "notSameDatesAsContractConfirmationText": "La data di inizio dell'impiego {employmentStartDate} e/o la data di fine {employmentEndDate} non coincidono con la data di inizio del contratto {contractStartDate} e/o la data di fine {contractEndDate}.",
+            "caoFunction": "Funzione CAO"
+        },
+        "actions": {
+            "addFunction": "Aggiungere funzioni",
+            "createNext": "Crea il prossimo",
+            "goToEmployment": "Vai all'occupazione"
+        },
+        "messages": {
+            "wizardPreviousEmploymentExplanation": "L'occupazione precedente viene utilizzata come base per la nuova occupazione."
+        }
+    },
+    "imports": {
+        "static": {
+            "notStarted": "Non iniziato",
+            "queued": "In coda",
+            "running": "In corsa",
+            "completed": "Completato",
+            "cancelled": "Annullato",
+            "failed": "Fallito",
+            "payslips": "Buste paga",
+            "upload": "Caricare",
+            "imports": "Importazioni",
+            "payslipsImported": "Buste paga importate",
+            "log": "Log",
+            "importedAt": "Importato a",
+            "payslipsImport": "Importazione di buste paga",
+            "bankImport": "Importazione bancaria",
+            "imported": "Importato",
+            "payslipsPayments": "Pagamenti delle buste paga",
+            "employee": "Dipendente",
+            "total": "Totale",
+            "iban": "IBAN",
+            "payments": "Pagamenti",
+            "reservations": "Prenotazioni",
+            "reservationsImported": "Prenotazioni importate",
+            "reservationsImport": "Importazione delle prenotazioni",
+            "annualStatements": "Dichiarazioni annuali",
+            "annualStatementsImported": "Importazione dei bilanci annuali",
+            "annualStatementsImport": "Importazione di dichiarazioni annuali",
+            "dispatched": "Spedito",
+            "sendAfterCompletion": "Inviare dopo il completamento",
+            "timeRegistration": "Registrazione del tempo",
+            "desiredSalaryCheck": "Assegno salariale desiderato",
+            "payslipPaymentsCreateCompensations": "Creare compensazioni",
+            "outstandingDesiredSalaryCheck": "Alcuni pagamenti non corrispondono al salario desiderato:",
+            "outstandingDesiredSalaryCompensationsCreated": "Le compensazioni vengono create.",
+            "payslipsPaymentsPeriodText": "Se si seleziona un periodo e/o una correzione, tutti i pagamenti nel PDF saranno importati in quel periodo. Se non viene selezionato alcun periodo, verrà utilizzato il numero di periodo presente nel PDF.",
+            "entity": "Entità"
+        },
+        "pages": {
+            "payslips": "Buste paga",
+            "bankImport": "Importazione bancaria",
+            "payments": "Pagamenti",
+            "reservations": "Prenotazioni",
+            "annualStatements": "Dichiarazioni annuali"
+        },
+        "actions": {
+            "upload": "Caricare",
+            "refresh": "Aggiornare"
+        }
+    },
+    "company": {
+        "static": {
+            "documentEmailCc": "Documento cc",
+            "notificationEmail": "Email di notifica",
+            "notificationEmailCc": "Notifica cc",
+            "reminderEmail": "E-mail di promemoria",
+            "reminderEmailCc": "Promemoria cc",
+            "documentEmail": "E-mail del documento",
+            "freelancerMargins": "Margini liberi professionisti",
+            "copies": "Copie",
+            "synchronizeInfo": "I valori selezionati saranno sincronizzati con l'azienda selezionata.",
+            "copyInfo": "Una nuova copia verrà creata e collegata all'impresa selezionata. È possibile creare una sola copia per ogni impresa. Le modifiche apportate all'originale possono essere sincronizzate con la copia.",
+            "copiesAreIdentical": "Le copie sono identiche.",
+            "synchronizationSuccessful": "Le copie sono state sincronizzate con successo.",
+            "original": "Originale",
+            "pensionPlanFactors": "Fattori del piano pensionistico",
+            "email": "Email aziendale",
+            "phone": "Telefono dell'azienda",
+            "website": "Sito web dell'azienda",
+            "legalFormSlug": "Forma giuridica",
+            "typeSlug": "Tipo di azienda",
+            "employeeFactors": "Fattori legati ai dipendenti"
+        },
+        "actions": {
+            "synchronize": "Sincronizzare",
+            "makeCopy": "Fare una copia",
+            "newCopy": "Nuova copia"
+        }
+    },
+    "export": {
+        "actions": {
+            "toSepaAndMarkAsPaid": "A SEPA e segnare come pagato",
+            "generate": "Generare"
+        },
+        "static": {
+            "skipValidation": "Saltare la convalida"
+        }
+    },
+    "permission": {
+        "action": {
+            "delete": "Cancellare",
+            "view": "Vista",
+            "create": "Creare",
+            "update": "Aggiornamento"
+        }
+    },
+    "user": {
+        "actions": {
+            "sendResetPasswordLink": "Invia il link per la reimpostazione della password"
+        },
+        "static": {
+            "notActivated": "L'utente non è attivato.",
+            "deactivated": "Disattivato"
+        }
+    },
+    "documentTemplate": {
+        "static": {
+            "employmentConfirmation": "Conferma dell'impiego",
+            "antiDiscriminationPolicy": "Politica antidiscriminazione",
+            "staffGuide": "Guida per il personale",
+            "deliveryDeed": "Atto di consegna",
+            "jobConfirmationFreelancer": "Conferma del lavoro come freelance",
+            "collaborationAgreementFreelancer": "Accordo di collaborazione con un libero professionista",
+            "healthcareAgreement": "Accordo per l'assistenza sanitaria",
+            "payrollConfirmation": "Conferma della busta paga",
+            "leadGenerationAgreement": "Accordo di lead generation",
+            "contractPhase12": "Fase contrattuale 1/2",
+            "contractPhase3": "Fase contrattuale 3",
+            "contractPhase4": "Fase contrattuale 4",
+            "termsAndConditions": "Termini e condizioni",
+            "frameworkAgreement": "Accordo quadro",
+            "hireAgreement": "Contratto di noleggio",
+            "jobConfirmation": "Conferma del lavoro",
+            "declarationAgreement": "Accordo di dichiarazione",
+            "employmentTerminationAgreement": "Accordo di risoluzione del rapporto di lavoro",
+            "deductionsAndAdvances": "Deduzioni e anticipi",
+            "etAddendum": "Addendum ET",
+            "guaranteeAgreement": "Accordo di garanzia",
+            "employersDeclaration": "Dichiarazione dei datori di lavoro",
+            "contractPayrollFixedTerm": "Contratto a tempo determinato",
+            "contractPayrollPermanent": "Contratto a tempo indeterminato",
+            "mediationAgreement": "Accordo di mediazione",
+            "intermediateAgreement": "Accordo intermedio",
+            "hireAgreementFreelancers": "Assumere freelance a contratto",
+            "healthcareAuthorisationForm": "Modulo di autorizzazione sanitaria",
+            "idStatementForm": "Modulo di dichiarazione ID",
+            "wageAttachmentRequest": "Richiesta di pignoramento del salario"
+        },
+        "actions": {
+            "saveTranslation": "Salva la traduzione"
+        }
+    },
+    "users": {
+        "static": {
+            "sendPasswordResetConfirmationText": "All'indirizzo {email} verrà inviata un'e-mail con un link per la reimpostazione della password.",
+            "deactivateConfirmationText": "L'utente viene disattivato e non può più accedere.",
+            "permissionsSaved": "Le autorizzazioni sono state salvate.",
+            "reactivateConfirmationText": "L'utente verrà riattivato e potrà accedere nuovamente."
+        }
+    },
+    "outOfServiceReason": {
+        "static": {
+            "cancelledByEmployerWithinProbation": "Annullato dal datore di lavoro durante il periodo di prova",
+            "cancelledByJudge": "Annullato dal giudice",
+            "cancelledByEmployerUwv": "Annullato dal datore di lavoro, approvato dall'UWV",
+            "cancelledByAgreement": "Risoluzione concordata del contratto",
+            "cancelledByEmployee": "Annullato dal dipendente",
+            "cancelledByEmployer": "Annullato dal datore di lavoro",
+            "endOfEmployment": "Fine del rapporto di lavoro per legge a causa della data di scadenza del contratto",
+            "endByLawOtherReason": "Fine del rapporto di lavoro per legge per un altro motivo",
+            "deploymentEndByIllness": "Fine della missione per malattia",
+            "deploymentEndByOtherReason": "Fine della distribuzione per un altro motivo",
+            "continuedWithoutIncome": "Continua senza reddito",
+            "otherReason": "Un altro motivo"
+        }
+    },
+    "employees": {
+        "static": {
+            "activeOnly": "Solo attivo",
+            "linkedThroughEmployment": "Legato all'occupazione"
+        }
+    },
+    "legalForm": {
+        "static": {
+            "soleProprietor": "Titolare di un'impresa individuale",
+            "soleProprietorMultipleOwners": "Impresa individuale con più di un titolare",
+            "commercialPartnership": "Società in nome collettivo",
+            "publicPartnership": "Partenariato pubblico",
+            "limitedPartnership": "Società in accomandita semplice",
+            "shippingCompany": "Società di spedizione",
+            "limitedCompanyStartUpAForm": "N.V. (società per azioni) /B.V. (società a responsabilità limitata) costituzione su modulo A",
+            "limitedCompanyStartUpBForm": "N.V. (società per azioni) /B.V. (società a responsabilità limitata) avvio su modulo B",
+            "legalPersonStartUp": "Avviamento della persona giuridica",
+            "privateLimitedCompany": "Società a responsabilità limitata",
+            "privateLimitedCompanyRegular": "Società a responsabilità limitata con struttura regolare",
+            "privateLimitedCompanyTwoTier": "Società a responsabilità limitata secondo lo statuto di una società a doppio livello",
+            "publicLimitedCompany": "Società per azioni",
+            "publicLimitedCompanyRegular": "Società per azioni a struttura ordinaria",
+            "publicLimitedCompanyTwoTier": "Società per azioni secondo lo statuto di una società a doppio livello",
+            "limitedCompanyStartUpDForm": "N.V. (società per azioni) /B.V. (società a responsabilità limitata) avviamento su modulo D",
+            "publicLimitedCompanyInvestmentVariableCapital": "Società per azioni società di investimento a capitale variabile",
+            "publicLimitedCompanyInvestmentVariableCapitalTwoTier": "Società per azioni società d'investimento a capitale variabile secondo lo statuto di una società a due livelli",
+            "europeanPublicLimitedCompanyRegular": "Società europea a responsabilità limitata (SE) a struttura ordinaria",
+            "europeanPublicLimitedCompanyRegularTwoTierCooperative": "Società europea a responsabilità limitata (SE) secondo lo statuto della Cooperativa",
+            "cooperative": "Cooperativa",
+            "cooperativeStructuralCooperative": "Cooperativa secondo lo statuto della cooperativa strutturale",
+            "cooperativeLegalLiabilityRegular": "Cooperativa a responsabilità legale con struttura ordinaria",
+            "cooperativeLegalLiabilityStructuralCooperative": "Cooperativa con Responsabilità Legale secondo lo statuto della cooperativa strutturale",
+            "cooperativeLimitedLiabilityRegular": "Cooperativa a responsabilità limitata a struttura ordinaria",
+            "cooperativeLimitedLiabilityStructuralCooperative": "Cooperativa a responsabilità limitata secondo lo statuto della cooperativa strutturale",
+            "homeownersAssociation": "Associazione dei proprietari di casa",
+            "associationFullLegalCapacity": "Associazione con piena capacità giuridica",
+            "associationLimitedLegalCapacity": "Associazione con capacità giuridica limitata",
+            "religiousDenomination": "Denominazione religiosa",
+            "foundation": "Fondazione",
+            "mutualInsuranceCompany": "Società di mutua assicurazione",
+            "mutualInsuranceCompanyStructuralMutual": "Società di mutua assicurazione secondo lo statuto sociale",
+            "mutualInsuranceCompanyLegalLiabilityRegular": "Compagnia di assicurazione mutualistica di Responsabilità Civile con struttura ordinaria",
+            "mutualInsuranceCompanyLegalLiabilityStructuralMutual": "Società di assicurazione mutualistica con Responsabilità Legale secondo lo statuto della mutua strutturale",
+            "mutualInsuranceCompanyLimitedLiabilityRegular": "Società di mutua assicurazione a responsabilità limitata a struttura ordinaria",
+            "mutualInsuranceCompanyLimitedLiabilityStructuralMutual": "Società di assicurazione mutua a responsabilità limitata secondo lo statuto della mutua strutturale",
+            "legalPersonPublicLaw": "Persona giuridica di diritto pubblico",
+            "legalPersonPrivateLaw": "Persona giuridica di diritto privato",
+            "foreignLegalFormHeadOfficeNetherlands": "Forma giuridica straniera con sede nei Paesi Bassi",
+            "branchOfficeHeadOfficeAbroad": "Filiale con sede principale all'estero",
+            "europeanEconomicInterestGrouping": "Gruppo europeo di interesse economico",
+            "foreignEcBusinessCompanyNetherlands": "Imprese straniere CE con società nei Paesi Bassi",
+            "foreignEcBusinessMainOfficeNetherlands": "Imprese straniere della CE con sede principale nei Paesi Bassi",
+            "foreignSimilarEcBusinessCompanyNetherlands": "Società estera simile alla CE-impresa con società nei Paesi Bassi",
+            "foreignSimilarEcBusinessMainOfficeNetherlands": "Società estera simile a EC-business con sede principale nei Paesi Bassi"
+        }
+    },
+    "contractType": {
+        "static": {
+            "phase3": "Fase 3",
+            "phase1And2": "Fase 1/2",
+            "phase4": "Fase 4",
+            "payrollFixedTerm": "Buste paga (tempo determinato)",
+            "payrollPermanent": "Buste paga (permanente)",
+            "a1": "A1"
+        }
+    },
+    "wizard": {
+        "static": {
+            "employmentAgencyNotApproved": "Questa agenzia di lavoro non è ancora stata approvata.",
+            "employeeNotApproved": "Questo dipendente non è ancora stato approvato.",
+            "hirerNotApproved": "Questo noleggiatore non è ancora stato approvato.",
+            "freelancerNotApproved": "Questo freelance non è ancora stato approvato.",
+            "resellerNotApproved": "Questo rivenditore non è ancora stato approvato.",
+            "noDocumentsToGenerate": "Nessun documento da generare."
+        },
+        "actions": {
+            "viewWizard": "Visualizza la procedura guidata"
+        }
+    },
+    "sickReport": {
+        "reportSick": "Segnala un malato",
+        "alreadySick": "Il dipendente è già segnalato come malato.",
+        "actions": {
+            "deleteConfirmationText": "È sicuro di voler cancellare questo rapporto di malattia?",
+            "delete": "Cancellare",
+            "cancel": "Annullamento"
+        },
+        "filter": {
+            "end": "Fine",
+            "currentSickOnly": "Solo malati attuali",
+            "start": "Inizio"
+        },
+        "betterReport": {
+            "actions": {
+                "confirmationTextEmployee": "È sicuro di voler segnalare meglio questo dipendente?",
+                "confirm": "Confermare",
+                "cancel": "Annullamento",
+                "confirmationText": "Sei sicuro di voler riferire meglio?"
+            },
+            "success": "Il dipendente viene segnalato come migliore.",
+            "report": "Segnala meglio",
+            "confirmationQuestion": "Sei sicuro?"
+        },
+        "success": {
+            "deleted": "La segnalazione di malattia è stata cancellata con successo."
+        }
+    },
+    "outOfService": {
+        "search": "Ricerca",
+        "process": "Processo",
+        "date": "Data",
+        "reason": "Motivo",
+        "actions": {
+            "deleteConfirmationText": "Siete sicuri di voler rimuovere la notifica di fuori servizio?",
+            "delete": "Cancellare",
+            "cancel": "Annullamento",
+            "processConfirmationText": "Siete sicuri di voler elaborare la notifica di fuori servizio?",
+            "process": "Processo"
+        },
+        "processSuccess": "Le notifiche di fuori servizio sono state elaborate con successo.",
+        "onlyOutstanding": "Solo i casi in sospeso"
+    },
+    "deductions": {
+        "static": {
+            "createRecurringDeduction": "Creare una detrazione ricorrente",
+            "outstandingDeductionCreateSuccess": "La detrazione in sospeso è stata creata",
+            "recurringDeductionCreateSuccess": "La deduzione ricorrente è stata creata",
+            "outstandingDeductionDeleteSuccess": "La detrazione in sospeso è stata eliminata.",
+            "recurringDeductionDeleteSuccess": "La detrazione ricorrente è stata eliminata.",
+            "amountIsLimited": "L'importo della detrazione è limitato in base alle ore di questo periodo.",
+            "outstandingDeductions": "Detrazioni in sospeso",
+            "recurringDeductions": "Detrazioni ricorrenti",
+            "saved": "Le detrazioni vengono salvate.",
+            "amount": "Importo",
+            "for": "Per",
+            "remainingAmount": "Importo rimanente",
+            "files": "File",
+            "uploadFile": "Caricare il file",
+            "deductFrom": "Detrazione da",
+            "noDeductions": "Nessuna detrazione",
+            "remaining": "Rimanente",
+            "unexportedOnly": "Solo non esportato",
+            "totalAmount": "Importo totale",
+            "createOutstandingDeduction": "Creare una detrazione eccezionale",
+            "editRecurringDeduction": "Modifica della detrazione ricorrente",
+            "updateRecurringDeductionSuccess": "La detrazione ricorrente è stata aggiornata.",
+            "canNotEditAmount": "Non è possibile modificare l'importo perché è già stato (parzialmente) detratto.",
+            "numberOfTimes": "Numero di volte",
+            "infiniteTimes": "Infinito",
+            "originalPeriod": "Periodo originale"
+        },
+        "actions": {
+            "deleteRecurringDeductionConfirmationText": "Siete sicuri di voler eliminare la detrazione ricorrente?",
+            "deleteOutstandingDeductionConfirmationText": "È sicuro di voler eliminare la detrazione in sospeso?"
+        }
+    },
+    "hirer": {
+        "static": {
+            "notMinimumCompanyFreelancerHourTypeMarginConfirmationText": "Il margine di base del tipo di ora del libero professionista è inferiore al valore di impiego.",
+            "archivedText": "Questo noleggiatore è archiviato.",
+            "hirerRemuneration": "Remunerazione del noleggiatore",
+            "saved": "Il noleggiatore viene salvato",
+            "deleteConfirmationText": "È sicuro di voler cancellare questo assuntore?",
+            "deleteSuccess": "Il noleggiatore è stato cancellato.",
+            "deleteFailed": "Cancellazione fallita del noleggiatore.",
+            "projectDeleted": "Il progetto è stato cancellato.",
+            "assignment": "Assegnazione",
+            "inviteExistingInfoText": "L'invito sarà inviato all'assuntore {companyName}.",
+            "inviteNewInfoText": "Verrà inviato un invito per una nuova assunzione.",
+            "notMinimumCompanyFreelancerHourTypeMarginAdditionsConfirmationText": "Alcune aggiunte di margine sono inferiori ai valori di occupazione.",
+            "missingRequiredAttributesConfirmText": "L'assuntore non può ancora essere sottoposto all'approvazione perché alcuni attributi richiesti non sono stati compilati.",
+            "submitForApprovalConfirmText": "Il noleggiatore sarà sottoposto ad approvazione.",
+            "submittedForApproval": "Il noleggiatore è stato sottoposto all'approvazione."
+        },
+        "form": {
+            "overtime": "Ore di straordinario",
+            "shiftWork": "Lavoro a turni",
+            "travelHours": "Ore di viaggio",
+            "travelCost": "Spese di viaggio",
+            "otherCompensations": "Altri compensi",
+            "companyOwnedScheme": "Schema di proprietà dell'azienda",
+            "remunerationSpecifics": "Specifiche",
+            "holidays": "Vacanze"
+        }
+    },
+    "error": {
+        "static": {
+            "description": "Si è verificato un errore. Provare ad aggiornare o tornare alla pagina precedente.",
+            "pageNotFound": "Pagina non trovata",
+            "pageNotFoundDescription": "Non siamo riusciti a trovare la pagina che stavi cercando.",
+            "serverError": "Errore del server"
+        },
+        "actions": {
+            "back": "Torna alla pagina precedente"
+        }
+    },
+    "invoiceGroup": {
+        "static": {
+            "custom": "Personalizzato",
+            "timeRegistration": "Registrazione del tempo"
+        }
+    },
+    "reservations": {
+        "static": {
+            "buildup": "Accumulo",
+            "paidOut": "Versato",
+            "showEmptyPeriods": "Mostra i periodi vuoti",
+            "noBuildupFound": "Non è stato trovato alcun accumulo",
+            "request": "Richiesta",
+            "saved": "La prenotazione è stata salvata.",
+            "deleted": "La prenotazione è stata cancellata",
+            "deleteReservationText": "La prenotazione sarà cancellata dal momento della registrazione.",
+            "reservationRequest": "Richieste di prenotazione",
+            "newRequest": "Nuova richiesta",
+            "editBuildupInfo": "Quando si modificano questi valori, la registrazione temporale corrispondente viene aggiornata.\nQuando si crea una nuova richiesta o se la richiesta è già stata pagata;\n- Lo stato della prenotazione viene aggiornato.\n- La richiesta non apparirà nell'esportazione dei pagamenti.\nQuando si aggiorna una richiesta che non è ancora stata pagata;\n- Lo stato di prenotazione non viene aggiornato.\n- La richiesta verrà aggiornata nell'esportazione dei pagamenti.",
+            "canOnlyEditHistoricalBuildupInfo": "È possibile modificare solo i valori storici.",
+            "noReservations": "Nessuna prenotazione",
+            "requestReservations": "Richiesta di prenotazione",
+            "calculationTool": "Strumento di calcolo"
+        },
+        "actions": {
+            "request": "Richiesta"
+        },
+        "tooltip": {
+            "warningRequestNotYetExported": "Questa richiesta non è ancora stata pagata."
+        }
+    },
+    "project": {
+        "static": {
+            "projectManagers": "Responsabili di progetto",
+            "createProject": "Creare un progetto",
+            "projectCreationSuccess": "Progetto creato con successo.",
+            "updateProject": "Aggiornamento del progetto",
+            "deleteProjectConfirmationText": "Siete sicuri di voler eliminare il progetto?"
+        }
+    },
+    "entity": {
+        "static": {
+            "employmentAgency": "Agenzia per il lavoro",
+            "hirer": "Assegnatario",
+            "employee": "Dipendente",
+            "freelancer": "Libero professionista",
+            "enterprise": "Impresa"
+        }
+    },
+    "personalAccessToken": {
+        "static": {
+            "tokenCreatedInfo": "Il token è stato creato. Il token verrà visualizzato una sola volta, quindi conservatelo in un luogo sicuro.",
+            "tokenCopied": "Token copiato negli appunti",
+            "personalAccessTokens": "Token di accesso personale",
+            "details": "Dettagli",
+            "tokenPlaceholder": "Il token verrà visualizzato qui.",
+            "deletePersonalAccessTokenText": "Il token verrà eliminato e non potrà più essere utilizzato."
+        }
+    },
+    "healthInsurance": {
+        "static": {
+            "saved": "Le assicurazioni sanitarie vengono risparmiate."
+        }
+    },
+    "freelancerHourTypeMarginAddition": {
+        "static": {
+            "hirerPaymentTermTableHeader": "Termine di pagamento del noleggiatore",
+            "hourlyRateFreelancerTableHeader": "Tariffa oraria (da)"
+        }
+    },
+    "reseller": {
+        "static": {
+            "employeeMargins": "Margini dei dipendenti",
+            "freelancerMargins": "Margini liberi professionisti",
+            "deleteCustomerConfirmationText": "Siete sicuri di voler rimuovere questo cliente? Tutti i margini collegati a questo cliente saranno cancellati.",
+            "missingRequiredAttributesConfirmText": "Il rivenditore non può ancora essere sottoposto all'approvazione perché alcuni attributi richiesti non sono stati compilati.",
+            "submitForApprovalConfirmText": "Il rivenditore sarà sottoposto ad approvazione.",
+            "archivedText": "Questo rivenditore è archiviato.",
+            "deleteConfirmationText": "È sicuro di voler eliminare questo rivenditore?",
+            "deleteSuccess": "Il rivenditore è stato cancellato.",
+            "deleteFailed": "Impossibile eliminare il rivenditore.",
+            "defaultMargin": "Margine predefinito",
+            "zeroMarginConfirmationText": "Uno o più margini hanno il valore \"0\".",
+            "customerCanOnlyHaveOneResellerInfoMessage": "Se l'agenzia di collocamento non è presente nell'elenco, verificate se è già collegata a un altro rivenditore."
+        }
+    },
+    "subsidy": {
+        "static": {
+            "startDateInfo": "Se la data di inizio non è l'inizio di una settimana, il sussidio sarà incluso dall'inizio della settimana successiva.",
+            "endDateInfo": "Se la data di fine non è la fine di una settimana, il sussidio sarà incluso fino alla fine della settimana precedente.",
+            "confirmation": "Conferma della sovvenzione",
+            "details": "Dettagli",
+            "createSubsidy": "Creare una sovvenzione",
+            "updateSubsidy": "Aggiornamento della sovvenzione",
+            "clearToExcludeFromSubsidy": "Deselezionare questo campo per escludere questa voce dalla sovvenzione."
+        }
+    },
+    "proFormaPayslip": {
+        "actions": {
+            "previewCostPriceOverview": "Anteprima costo prezzo panoramica",
+            "previewPayslip": "Anteprima della busta paga"
+        },
+        "static": {
+            "splitPayOutInfo": "Se l'opzione è attivata, le ore regolari saranno separate dalle altre ore/sovrapprezzi/compensi nella busta paga."
+        }
+    },
+    "files": {
+        "static": {
+            "updateSubjectsSuccess": "I temi sono stati aggiornati.",
+            "selectEmploymentAgencyInfo": "Selezionare un'agenzia di collocamento per impedire ad altre agenzie di collocamento di accedere al file. Lasciare vuoto per consentire a tutti i centri per l'impiego collegati (attraverso gli impieghi) di accedere al file."
+        }
+    },
+    "hirerFunction": {
+        "static": {
+            "name": "Nome",
+            "inUseBy": "In uso da",
+            "canNotDeleteBecauseInUse": "La funzione non può essere eliminata perché viene utilizzata dagli impiegati."
+        }
+    },
+    "function": {
+        "static": {
+            "functions": "Funzioni",
+            "caoFunctions": "Funzioni CAO",
+            "name": "Nome",
+            "function": "Funzione",
+            "saved": "La funzione è stata salvata.",
+            "deleted": "La funzione è stata eliminata.",
+            "switchToHirerFunctions": "Passare alle funzioni del noleggiatore",
+            "switchToCaoFunctions": "Passare alle funzioni CAO",
+            "usedByEmployments": "Utilizzato dagli impieghi"
+        }
+    },
+    "dashboard": {
+        "tabs": {
+            "creditApplications": "Domande di credito",
+            "newEmployees": "Nuovi dipendenti",
+            "newEmploymentAgencies": "Nuove agenzie di collocamento",
+            "newHirers": "Nuovi assuntori",
+            "newFreelancers": "Nuovi freelance"
+        },
+        "charts": {
+            "revenue": "Ricavi",
+            "employees": "I dipendenti",
+            "workedHours": "Ore lavorate",
+            "hirers": "Assuntori",
+            "employmentAgencies": "Agenzie di collocamento",
+            "freelancers": "Liberi professionisti",
+            "payroll": "Buste paga",
+            "temporary": "Temporaneo",
+            "overtime": "Lavoro straordinario",
+            "surchargeHours": "Ore di supplemento",
+            "margin": "Margine",
+            "freelancerCosts": "Costi dei freelance"
+        },
+        "static": {
+            "functions": "Funzioni",
+            "messageBox": "Casella di messaggio",
+            "yourReservations": "Le vostre prenotazioni",
+            "recentPayslips": "Buste paga recenti",
+            "recentInvoices": "Fatture recenti",
+            "unsignedContracts": "Contratti non firmati",
+            "hirersWithoutCao": "Assuntori senza CAO",
+            "annualStatements": "Dichiarazioni annuali",
+            "notifications": "Notifiche",
+            "statistics": "Statistiche",
+            "newRegistrations": "Nuove registrazioni",
+            "charts": "Grafici",
+            "approve": "Approvare"
+        },
+        "functions": {
+            "timeRegistration": "Registrazione del tempo",
+            "imports": "Importazioni",
+            "exports": "Esportazioni",
+            "invoices": "Fatture",
+            "documents": "Documenti",
+            "payslipsAndAnnualStatements": "Buste paga / rendiconti annuali"
+        },
+        "titles": {
+            "employmentAgencies": "Agenzie di collocamento",
+            "hirers": "Assuntori",
+            "freelancers": "Liberi professionisti",
+            "employees": "I dipendenti",
+            "costExcludingVat": "Costo {year} (IVA esclusa)",
+            "marginExcludingVat": "Margine (IVA esclusa)",
+            "resellers": "Rivenditori"
+        },
+        "messageBox": {
+            "payOut": "Pagamento ({frequency})",
+            "birthdays": "Compleanni",
+            "shouldSignDocuments": "Deve firmare i documenti",
+            "lockablePeriods": "Periodi di blocco",
+            "missingDocuments": "Documenti mancanti",
+            "expiredContracts": "Contratti scaduti",
+            "expiringContracts": "Contratti in scadenza",
+            "renewableContracts": "Contratti da rinnovare"
+        }
+    },
+    "documentTemplates": {
+        "static": {
+            "default": "Predefinito",
+            "noTranslations": "Nessuna traduzione",
+            "deleteConfirmationText": "Siete sicuri di voler eliminare questo modello di documento?",
+            "deleteVariableConfirmationText": "Siete sicuri di voler cancellare questa variabile del documento?",
+            "deleteSharedDocumentTemplate": "Siete sicuri di voler smettere di usare questo modello di documento?",
+            "kiwaDeclarationOfEmployment": "Dichiarazione di assunzione Kiwa",
+            "clean": "Pulito"
+        },
+        "actions": {
+            "copyToCurrentEnterprise": "Copia nell'impresa corrente",
+            "addSharedDocumentTemplate": "Aggiungere un modello di documento condiviso"
+        }
+    },
+    "emails": {
+        "editor": {
+            "invitationLink": "Link per l'invito"
+        }
+    },
+    "fieldTypes": {
+        "static": {
+            "noOptions": "Nessuna opzione"
+        }
+    },
+    "language": {
+        "static": {
+            "default": "Predefinito"
+        }
+    },
+    "menu": {
+        "actions": {
+            "dashboard": "Cruscotto",
+            "employees": "I dipendenti",
+            "employmentAgencies": "Agenzie di collocamento",
+            "functions": "Funzioni",
+            "hirers": "Assuntori",
+            "settings": "Impostazioni",
+            "timeRegistration": "Registrazione del tempo",
+            "invoices": "Fatture",
+            "exports": "Esportazioni",
+            "imports": "Importazioni",
+            "freelancers": "Liberi professionisti",
+            "logout": "Disconnessione",
+            "documents": "Documenti",
+            "language": "Lingua",
+            "leaveImpersonation": "Lasciare l'impersonificazione",
+            "sickReports": "Rapporto di malattia",
+            "outOfService": "Fuori servizio",
+            "account": "Conto",
+            "payslips": "Buste paga",
+            "resellers": "Rivenditori",
+            "proFormaPayslip": "Busta paga proforma"
+        }
+    },
+    "settings": {
+        "pages": {
+            "documents": "Documenti",
+            "factoringCompanies": "Società di factoring",
+            "enterprises": "Imprese",
+            "webhooks": "Ganci web",
+            "users": "Utenti",
+            "settings": "Impostazioni",
+            "notifications": "Notifiche",
+            "personalAccessTokens": "Token di accesso personale",
+            "teams": "Squadre",
+            "roles": "Ruoli",
+            "subsidyCompanies": "Aziende sovvenzionate"
+        }
+    },
+    "validation": {
+        "errors": {
+            "checkForm": "Controllare che il modulo non contenga errori",
+            "addressInvalid": "Non siamo riusciti a trovare questo indirizzo.",
+            "alternativeAddress": "Non siamo riusciti a trovare questo indirizzo, intendeva forse {address}?"
+        },
+        "static": {
+            "required": "Questo campo è obbligatorio",
+            "unableToDeleteItem": "Impossibile eliminare l'elemento"
+        }
+    },
+    "deduction": {
+        "static": {
+            "housing": "Alloggiamento",
+            "personalContributionForTransport": "Contributo personale per il trasporto",
+            "advance": "Anticipo",
+            "penalty": "Pena",
+            "certificateOfGoodBehavior": "Certificato di buona condotta",
+            "workingClothesWorkingShoes": "Abiti da lavoro scarpe da lavoro",
+            "eduction": "Istruzione",
+            "housingExtra": "Alloggio extra",
+            "advanceExtra": "Anticipo extra",
+            "healthInsurance": "Assicurazione sanitaria",
+            "healthInsuranceExtra": "Assicurazione sanitaria extra",
+            "mealAllowance": "Indennità di vitto",
+            "personnelAssociation": "Associazione del personale"
+        }
+    },
+    "reservation": {
+        "static": {
+            "holidayHoursLegal": "Orario festivo legale",
+            "holidayHoursExtraLegal": "Orario festivo extra legale",
+            "holidayPay": "Pagamento delle ferie",
+            "workTimeReductionHours": "Ore di riduzione del tempo di lavoro",
+            "seniorDays": "Giornate per anziani",
+            "timeForTime": "Tempo per tempo",
+            "holidayHours": "Orario festivo",
+            "holidays": "Vacanze",
+            "shortAbsence": "Breve assenza",
+            "time": "Tempo",
+            "money": "Il denaro",
+            "reservation": "Prenotazione",
+            "updatedAt": "Aggiornato a",
+            "amount": "Importo"
+        }
+    },
+    "pensionPlan": {
+        "static": {
+            "basic": "Stipp basic",
+            "plus": "Stipp plus",
+            "adequate": "Adeguato",
+            "bpf": "BPF"
+        }
+    },
+    "role": {
+        "static": {
+            "administrator": "Amministratore",
+            "employee": "Dipendente",
+            "employmentAgency": "Agenzia per il lavoro",
+            "hirer": "Assegnatario",
+            "freelancer": "Libero professionista",
+            "superAdministrator": "Super amministratore",
+            "deleteRoleText": "È sicuro di voler eliminare questo ruolo?",
+            "roleDeleted": "Il ruolo è stato cancellato."
+        }
+    },
+    "hourTypes": {
+        "actions": {
+            "edit": "Modifica"
+        }
+    },
+    "factoring": {
+        "static": {
+            "factoringCompany": "Società di factoring",
+            "details": "Dettagli",
+            "cessionText": "Testo della cessione",
+            "sendInvoice": "Inviare fatture?",
+            "deleteFactoringCompanyConfirmationText": "Siete sicuri di voler cancellare questa società di factoring?",
+            "impact": "Impatto",
+            "factris": "Factris",
+            "type": "Tipo",
+            "nlCredit": "Credito NL",
+            "typeInfo": "Il tipo definisce il formato delle esportazioni.",
+            "flowFactoring": "Factoring dei flussi"
+        }
+    },
+    "documentSubjectType": {
+        "static": {
+            "employee": "Dipendente",
+            "employment": "Occupazione",
+            "employmentAgency": "Agenzia per il lavoro",
+            "enterprise": "Impresa",
+            "hirer": "Assegnatario",
+            "factoringCompany": "Società di factoring",
+            "freelancer": "Libero professionista",
+            "freelancerJob": "Lavoro da freelance",
+            "employeeContract": "Contratto con i dipendenti"
+        }
+    },
+    "documentType": {
+        "static": {
+            "pdf": "PDF",
+            "template": "Modello",
+            "view": "Vista",
+            "upload": "Caricare"
+        }
+    },
+    "notificationType": {
+        "static": {
+            "mail": "Posta"
+        }
+    },
+    "freelancerJob": {
+        "static": {
+            "activities": "Attività",
+            "startDate": "Data di inizio",
+            "endDate": "Data di fine",
+            "hourlyRate": "Tariffa oraria",
+            "salesRate": "Tasso di vendita",
+            "margin": "Margine",
+            "hourType": "Tipo di ora",
+            "compensation": "Compensazione",
+            "name": "Nome",
+            "travelType": "Tipo di viaggio",
+            "rate": "Tasso",
+            "deleteConfirmationText": "È sicuro di voler cancellare questo lavoro?",
+            "deleteSuccess": "Il lavoro è stato cancellato.",
+            "deleteFailed": "Non è stato possibile eliminare il lavoro.",
+            "hourTypeMarginInfo": "Inserendo questo valore, la tabella delle tariffe verrà ignorata.",
+            "deviatingMargin": "Margine di deviazione",
+            "notMinimumHourTypeMarginConfirmationText": "Alcuni margini sono inferiori al margine calcolato.",
+            "missingRequiredAttributesConfirmText": "Il lavoro non può ancora essere inviato per l'approvazione perché alcuni attributi richiesti non sono stati compilati.",
+            "submitForApprovalConfirmText": "Il lavoro sarà sottoposto ad approvazione.",
+            "freelancerJobsApproved": "I lavori dei freelance sono approvati."
+        },
+        "actions": {
+            "addCompensation": "Aggiungere una compensazione",
+            "addHourType": "Aggiungere il tipo di ora",
+            "addTravelType": "Aggiungi il tipo di viaggio"
+        }
+    },
+    "freelancer": {
+        "static": {
+            "job": "Lavoro",
+            "jobs": "Offerte di lavoro",
+            "jobCreationSuccess": "Il lavoro è stato creato",
+            "deleteConfirmationText": "Sei sicuro di voler eliminare questo freelance?",
+            "deleteSuccess": "Il libero professionista è stato cancellato.",
+            "deleteFailed": "Cancellazione fallita del freelance.",
+            "linkedThroughJob": "Legato al lavoro",
+            "inviteNewInfoText": "Verrà inviato un invito per un nuovo freelance.",
+            "inviteExistingInfoText": "L'invito sarà inviato al freelance {name}.",
+            "missingRequiredAttributesConfirmText": "Il freelance non può ancora essere inviato per l'approvazione perché alcuni attributi richiesti non sono stati compilati.",
+            "submitForApprovalConfirmText": "Il freelance sarà sottoposto ad approvazione.",
+            "submittedForApproval": "Il freelance è stato sottoposto ad approvazione",
+            "activeOnly": "Solo attivo",
+            "archiveConfirmationText": "Sei sicuro di voler archiviare questo freelance?",
+            "unarchiveConfirmationText": "Sei sicuro di voler disarchiviare questo freelance?",
+            "archivedText": "Questo libero professionista è archiviato.",
+            "contactUsToEdit": "Contattateci per modificare questo freelance."
+        }
+    },
+    "employee": {
+        "static": {
+            "employments": "Impieghi",
+            "employment": "Occupazione",
+            "wageAttachment": "Attaccamento al salario",
+            "wageAttachmentCreationSuccess": "L'allegato salariale è stato creato.",
+            "wageAttachmentUpdateSuccess": "L'allegato salariale è stato aggiornato.",
+            "wageAttachmentDeleteSuccess": "L'allegato salariale è stato eliminato.",
+            "wageAttachments": "Attaccamento al salario",
+            "contracts": "Contratti",
+            "contractDeleteSuccess": "Il contratto è stato cancellato.",
+            "contractDeleteFailed": "Non è stato possibile eliminare il contratto.",
+            "contractCreateSuccess": "Il contratto è stato creato.",
+            "contractUpdateSuccess": "Il contratto è stato aggiornato.",
+            "deleteContractConfirmationText": "È sicuro di voler cancellare questo contratto?",
+            "createContract": "Creare un contratto",
+            "contract": "Contratto",
+            "functions": "Funzioni",
+            "noRecentPayslips": "Non sono state trovate buste paga recenti.",
+            "deleteConfirmationText": "È sicuro di voler eliminare questo dipendente?",
+            "deleteSuccess": "Il dipendente è stato eliminato.",
+            "deleteFailed": "Non è stato possibile eliminare un dipendente.",
+            "archivedText": "Questo dipendente è archiviato.",
+            "archiveConfirmationText": "È sicuro di voler archiviare questo dipendente?",
+            "unarchiveConfirmationText": "È sicuro di voler disarchiviare questo dipendente?",
+            "annualStatements": "Dichiarazioni annuali",
+            "annualStatement": "Dichiarazione annuale",
+            "payslips": "Buste paga",
+            "noAnnualStatements": "Nessuna dichiarazione annuale.",
+            "pensionPlan": "Piano pensionistico",
+            "markedAsNew": "Contrassegnato come nuovo",
+            "markedAsChanged": "Contrassegnato come modificato",
+            "deleteValidationFailed": "Impossibile verificare se il dipendente può essere cancellato.",
+            "canNotDeleteEmployeeText": "Il dipendente non può essere cancellato a causa delle registrazioni di tempo esistenti.",
+            "canNotDeleteEmploymentText": "L'occupazione non può essere cancellata a causa di registrazioni a tempo esistenti.",
+            "inviteExistingInfoText": "L'invito sarà inviato al dipendente {name}.",
+            "inviteNewInfoText": "Verrà inviato un invito per un nuovo dipendente.",
+            "contractRequiredForEmploymentInfoText": "Attenzione. La creazione di un contratto è facoltativa se non si ha ancora un'assunzione/un impiego. Non è possibile creare un impiego senza un contratto.",
+            "activeContract": "Contratto attivo",
+            "wizardSkipContractConfirmationText": "Siete sicuri di non voler creare un contratto? Non è possibile creare un rapporto di lavoro senza un contratto.",
+            "wizardSkipEmploymentConfirmationText": "È sicuro di non voler creare un'occupazione?",
+            "healthInsurances": "Assicurazione sanitaria",
+            "submitForApprovalConfirmText": "Il dipendente sarà sottoposto ad approvazione.",
+            "missingRequiredAttributesConfirmText": "Il dipendente non può ancora essere sottoposto all'approvazione perché alcuni attributi richiesti non sono stati compilati.",
+            "submittedForApproval": "Il dipendente è stato sottoposto all'approvazione.",
+            "markToBeRenewedConfirmationText": "Il contratto sarà contrassegnato per essere rinnovato alla fine del contratto.",
+            "markNotToBeRenewedConfirmationText": "Il contratto non sarà contrassegnato come da rinnovare e sarà rimosso dai messaggi. Il dipendente riceverà un'e-mail di conferma che il contratto non sarà rinnovato alla sua scadenza.",
+            "contractMarkedToBeRenewed": "Il contratto è stato contrassegnato per essere rinnovato",
+            "contractMarkedNotToBeRenewed": "Il contratto è stato contrassegnato come non rinnovato",
+            "contractCreateWithDocumentInfo": "Verrà creato un nuovo contratto e il documento corrispondente. Una richiesta di firma per il documento verrà inviata 1 ora dopo la creazione. La data di fine del contratto corrente sarà impostata un giorno prima della data di inizio del nuovo contratto.",
+            "subsidyCreateSuccess": "Il sussidio è stato creato.",
+            "subsidyDeleteSuccess": "Il sussidio è stato eliminato.",
+            "accountNotActivatedInfo": "L'account non è stato (ancora) attivato. Fare clic sul pulsante di invito per inviare un link di attivazione al dipendente.",
+            "enterpriseOnlyForWizardMessage": "L'impresa viene utilizzata solo per la procedura guidata e non verrà più allegata dopo l'approvazione del dipendente.",
+            "contactUsToEdit": "Contattateci per modificare questo dipendente."
+        },
+        "actions": {
+            "newContract": "Nuovo contatto",
+            "markAsNew": "Contrassegnare come nuovo",
+            "markAsChanged": "Segna come modificato",
+            "createContract": "Creare un contratto",
+            "deleteContract": "Cancellare il contratto",
+            "createEmployment": "Creare occupazione",
+            "deleteSubsidyConfirmationText": "È sicuro di voler eliminare la sovvenzione?"
+        },
+        "outOfService": "Fuori servizio",
+        "messages": {
+            "identityBothSides": "Si prega di caricare sia il fronte che il retro della propria identità."
+        }
+    },
+    "period": {
+        "actions": {
+            "select": "Selezionare"
+        }
+    },
+    "contact": {
+        "static": {
+            "userNotLinkedMessage": "L'utente non è attivato o non è collegato a un contatto.",
+            "uploadSuccess": "Il file viene caricato.",
+            "detached": "Il contatto è stato staccato.",
+            "detachFailed": "Non è stato possibile staccare il contatto.",
+            "detachConfirmationText": "È sicuro di voler staccare il contatto?"
+        }
+    },
+    "etRegulation": {
+        "static": {
+            "calculatedAmount": "Importo calcolato: {amount}",
+            "amountShouldBeBetween": "L'importo totale dovrebbe essere compreso tra {min} e {max}.",
+            "totalAmount": "L'importo totale attuale è {amount}.",
+            "singleTrip": "Distanza per un singolo viaggio: {distance} km"
+        },
+        "validation": {
+            "totalNotAllowed": "Il valore totale della regolazione et non è compreso tra i valori consentiti.",
+            "distanceCalculationFailedText": "Non siamo riusciti a calcolare la distanza dall'indirizzo di residenza. Si prega di verificare se i dati dell'indirizzo sono validi."
+        }
+    },
+    "invitation": {
+        "actions": {
+            "sendInvitation": "Inviare l'invito"
+        },
+        "static": {
+            "inviteSuccess": "Invitare al successo",
+            "tokenInvalid": "Token non valido",
+            "tokenInvalidDescription": "Il token non è valido."
+        }
+    },
+    "job": {
+        "static": {
+            "employment": "Occupazione",
+            "freelancerJob": "Lavoro da freelance",
+            "employments": "Impieghi",
+            "freelancerJobs": "Lavori da freelance"
+        }
+    },
+    "cv": {
+        "certificate": {
+            "certificates": "Certificati",
+            "description": "Descrizione",
+            "addCertificate": "Aggiungi certificato",
+            "addEducation": "Aggiungi istruzione/qualifica"
+        },
+        "education": {
+            "educationsAndQualifications": "Istruzione e qualifiche",
+            "educationsDescription": "Descrizione dell'istruzione"
+        },
+        "title": "Titolo",
+        "from": "Da",
+        "till": "Fino a quando",
+        "interest": {
+            "interests": "Interessi",
+            "pickInterests": "Scegliete i vostri interessi"
+        },
+        "language": {
+            "languages": "Le lingue",
+            "pickLanguage": "Scegliete le vostre lingue",
+            "rating": "Valutazione delle lingue"
+        },
+        "select": "Selezionare",
+        "profile": {
+            "profile": "Profilo",
+            "profileSummary": "Inserite qui il riassunto del vostro profilo (è richiesto un minimo di 150 parole)."
+        },
+        "reference": {
+            "references": "Riferimenti",
+            "fullName": "Nome completo del datore di lavoro",
+            "company": "Azienda",
+            "telephone": "Telefono",
+            "email": "Email",
+            "addReference": "Aggiungi riferimento"
+        },
+        "skill": {
+            "skills": "Competenze",
+            "pickSkills": "Scegliete le vostre abilità",
+            "rating": "Valutazione delle competenze"
+        },
+        "work": {
+            "workExperience": "Esperienza lavorativa",
+            "function": "Funzione",
+            "jobDescription": "Descrizione del lavoro",
+            "addWorkExperience": "Aggiungere l'esperienza lavorativa"
+        },
+        "dialog": {
+            "close": "Chiudere",
+            "generateCv": "Generare un curriculum vitae"
+        }
+    },
+    "wageAttachment": {
+        "static": {
+            "garnishee": "Granatiere",
+            "garnisheeContact": "Contatto pignoratizio",
+            "garnisheeCity": "Città di Garnishee",
+            "reference": "Riferimento",
+            "taxFreeSum": "Somma esente da imposte",
+            "overallSum": "Somma complessiva",
+            "outstandingAmount": "Importo in sospeso",
+            "paidAmount": "Importo pagato",
+            "informationRequestSent": "La richiesta di informazioni viene inviata",
+            "outstanding": "Eccezionale",
+            "paid": "Pagato"
+        },
+        "actions": {
+            "informationRequest": "Richiesta di informazioni",
+            "sendInformationRequest": "Invia una richiesta di informazioni"
+        }
+    },
+    "note": {
+        "actions": {
+            "deleteConfirmationText": "È sicuro di voler cancellare questa nota?",
+            "delete": "Cancellare",
+            "cancel": "Annullamento"
+        },
+        "success": {
+            "deleted": "La nota è stata cancellata con successo."
+        }
+    },
+    "riskGroup": {
+        "static": {
+            "administrative": "Amministrativo",
+            "executive": "Esecutivo"
+        }
+    },
+    "creditLimit": {
+        "static": {
+            "finalAssessmentWillFollowLater": "La valutazione finale del limite di credito seguirà in seguito."
+        }
+    },
+    "employmentAgency": {
+        "static": {
+            "archivedText": "Questa agenzia di collocamento è archiviata.",
+            "deleteConfirmationText": "Sei sicuro di voler cancellare questa agenzia di lavoro?",
+            "deleteSuccess": "L'agenzia di collocamento è stata cancellata.",
+            "deleteFailed": "Non è stato possibile cancellare l'agenzia di lavoro.",
+            "inviteExistingInfoText": "L'invito sarà inviato all'agenzia di lavoro {companyName}.",
+            "inviteNewInfoText": "Verrà inviato un invito per una nuova agenzia di collocamento.",
+            "missingRequiredAttributesConfirmText": "L'agenzia di collocamento non può ancora essere presentata per l'approvazione perché alcuni attributi richiesti non sono stati compilati.",
+            "submitForApprovalConfirmText": "L'agenzia di collocamento sarà sottoposta ad approvazione.",
+            "makeResellerConfirmationText": "Siete sicuri di voler creare un rivenditore per l'agenzia di collocamento?"
+        }
+    },
+    "filters": {
+        "static": {
+            "archivedOnly": "Solo archiviato",
+            "withActiveEmploymentsOnly": "Solo con impieghi attivi",
+            "readyForApproval": "Pronto per l'approvazione",
+            "createdByAdmin": "Creato da admin",
+            "selectedEnterpriseOnly": "Solo impresa selezionata",
+            "unexportedOnly": "Solo non esportato"
+        }
+    },
+    "import": {
+        "static": {
+            "reservationsImported": "Prenotazioni importate"
+        }
+    },
+    "employeePayslip": {
+        "actions": {
+            "sendNow": "Invia ora"
+        },
+        "static": {
+            "sendEmailConfirmationText": "È sicuro di voler inviare la busta paga adesso?",
+            "sendEmailSuccess": "La busta paga è stata inviata.",
+            "sendEmailFailed": "Non è stato possibile inviare la busta paga."
+        }
+    },
+    "timeRegistrationPeriodStatus": {
+        "static": {
+            "open": "Aperto",
+            "locking": "Bloccaggio",
+            "locked": "Bloccato",
+            "requiresAction": "Richiede un'azione"
+        }
+    },
+    "search": {
+        "static": {
+            "noMoreResults": "Non ci sono più risultati.",
+            "ctrlShiftF": "Ctrl + Shift + F"
+        }
+    },
+    "holiday": {
+        "static": {
+            "newYear": "Anno nuovo",
+            "easterMonday": "Lunedì di Pasqua",
+            "ascensionDay": "Ascensione",
+            "whitMonday": "Lunedì bianco",
+            "firstChristmasDay": "Il primo giorno di Natale",
+            "secondChristmasDay": "Secondo giorno di Natale",
+            "kingsDay": "Giorno dei Re",
+            "liberationDay": "Giorno della liberazione"
+        }
+    },
+    "factoringCompany": {
+        "static": {
+            "deleted": "La società di factoring è stata cancellata."
+        }
+    },
+    "companyType": {
+        "static": {
+            "healthcare": "Assistenza sanitaria",
+            "default": "Predefinito"
+        }
+    },
+    "teamType": {
+        "static": {
+            "freelancer": "Libero professionista",
+            "employee": "Dipendente",
+            "hirer": "Assegnatario",
+            "employmentAgency": "Agenzia per il lavoro",
+            "reseller": "Rivenditore"
+        }
+    },
+    "workServiceType": {
+        "static": {
+            "night": "Turno di notte",
+            "weekend": "Turno di fine settimana",
+            "reachability": "Servizio di raggiungibilità",
+            "consignment": "Servizio di consegna"
+        }
+    },
+    "media": {
+        "static": {
+            "type": "Tipo",
+            "other": "Altro",
+            "curriculumVitae": "Curriculum vitae",
+            "motivationLetter": "Lettera di motivazione",
+            "diploma": "Diploma",
+            "certificateOfConduct": "Certificato di condotta",
+            "pdfPagesCount": "Il PDF ha {amount} pagine",
+            "useCertificateOfConduct": "Utilizzare il certificato di condotta",
+            "europeanHealthInsuranceCard": "Tessera europea di assicurazione sanitaria",
+            "driversLicense": "Patente di guida"
+        }
+    },
+    "marginType": {
+        "static": {
+            "default": "Predefinito",
+            "overtime": "Lavoro straordinario",
+            "etRegulation": "Regolazione dell'ET",
+            "senior": "Senior",
+            "hourType": "Tipo di ora"
+        }
+    },
+    "employeeContract": {
+        "static": {
+            "archiveConfirmationText": "è sicuro di voler archiviare questo contratto?"
+        }
+    },
+    "messageBox": {
+        "static": {
+            "shouldSignDocument": {
+                "subject": "Oggetto",
+                "sendSignRequestConfirmationText": "Il seguente soggetto riceverà una richiesta di firma",
+                "newSignTokenConfirmationText": "Verrà ricevuto un nuovo token di segno.",
+                "newSignTokenSuccess": "Il token di firma è stato ricevuto con successo.",
+                "newSignTokenFailed": "Si è verificato un errore durante la ricezione del nuovo token di firma.",
+                "hideDocumentConfirmationText": "Siete sicuri di voler nascondere questa attività? Non riapparirà più."
+            },
+            "hideContractConfirmationText": "È sicuro di voler nascondere questo contratto? Non riapparirà più."
+        }
+    },
+    "teams": {
+        "static": {
+            "details": "Dettagli",
+            "team": "Squadra",
+            "addTeam": "Aggiungi squadra",
+            "deleteTeamText": "È sicuro di voler cancellare questa squadra?",
+            "deleteTeamPresetText": "È sicuro di voler eliminare questa preimpostazione di squadra?",
+            "teamOwner": "Proprietario del team",
+            "roles": "Ruoli"
+        }
+    },
+    "roles": {
+        "static": {
+            "roleCreated": "Il ruolo è stato creato.",
+            "permissionsSaved": "Le autorizzazioni sono state salvate."
+        }
+    },
+    "subsidyCompany": {
+        "static": {
+            "deleteSubsidyCompanyConfirmationText": "È sicuro di voler eliminare la società di sovvenzioni?",
+            "deleted": "La società di sovvenzioni è stata cancellata."
+        }
+    }
+}

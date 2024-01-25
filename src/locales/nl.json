@@ -1,0 +1,3277 @@
+{
+    "auth": {
+        "actions": {
+            "backToLogin": "Terug naar Inloggen",
+            "login": "Login",
+            "forgotPassword": "Wachtwoord vergeten",
+            "resetPassword": "Wachtwoord resetten",
+            "updatePassword": "Wachtwoord bijwerken",
+            "logout": "Afmelden",
+            "leaveImpersonation": "Verlaat log in als",
+            "changePassword": "Wachtwoord wijzigen",
+            "deactivate": "Deactiveren",
+            "reactivate": "Opnieuw activeren"
+        },
+        "pages": {
+            "forgotPassword": "Wachtwoord vergeten",
+            "login": "Inloggen",
+            "setPassword": "Wachtwoord instellen",
+            "activateAccount": "Account activeren"
+        },
+        "static": {
+            "email": "E-mail",
+            "accountActivationSuccess": "Account geactiveerd",
+            "forgotPasswordSuccess": "Wachtwoord resetlink verstuurd",
+            "forgotPasswordSuccessDescription": "We hebben u een e-mail gestuurd met een link om uw wachtwoord opnieuw in te stellen.",
+            "passwordResetSuccess": "Wachtwoord resetten",
+            "logoutConfirmationText": "Weet u zeker dat u zich wilt afmelden?",
+            "registrationSuccessful": "Registratie succesvol",
+            "leaveImpersonationConfirmationText": "Weet u zeker dat u log in als wil verlaten?",
+            "userDeactivated": "De gebruiker is gedeactiveerd.",
+            "passwordUpdated": "Het wachtwoord is bijgewerkt.",
+            "mobileDashboardOrderUpdated": "De volgorde van het mobiele dashboard is bijgewerkt.",
+            "tokenExpired": "Token is verlopen",
+            "tokenExpiredInfo": "U bent uitgelogd omdat uw authenticatietoken is verlopen. Log in met uw inloggegevens om door te gaan.",
+            "authenticated": "Je bent ingelogd!",
+            "userReactivated": "De gebruiker is opnieuw geactiveerd."
+        }
+    },
+    "documents": {
+        "editor": {
+            "hirer": "Inlener",
+            "date": "Datum",
+            "employee": "Medewerker",
+            "employmentAgency": "Uitzendbureau",
+            "variables": "Variabelen",
+            "factoringCompany": "Factoringmaatschappij",
+            "freelancer": "Freelancer",
+            "employment": "Werk",
+            "employeeContract": "Contract",
+            "enterprise": "Onderneming",
+            "freelancerJob": "Freelance werk"
+        },
+        "static": {
+            "category": "Categorie",
+            "description": "Beschrijving",
+            "fieldOptions": "Veldopties",
+            "fieldType": "Veldtype",
+            "info": "Info",
+            "layout": "Lay-out",
+            "name": "Naam",
+            "newDocumentTemplate": "Nieuw document template",
+            "previewValue": "Voorvertoning waarde",
+            "slug": "Webadresregel",
+            "template": "Template",
+            "templateDeleted": "Template verwijderd",
+            "templateSaved": "Template opgeslagen",
+            "variable": "Variabele",
+            "variableDeleted": "Variabele verwijderd",
+            "variables": "Variabelen",
+            "variableSaved": "Variabele opgeslagen",
+            "documentName": "Documentnaam",
+            "signedAt": "Ondertekend op",
+            "declinedAt": "Afgewezen op",
+            "subjects": "Onderwerpen",
+            "isOwner": "Is eigenaar",
+            "shouldSign": "Moet ondertekenen",
+            "canView": "Recht op inzage",
+            "status": "Status",
+            "generateDocument": "Document aanmaken",
+            "testData": "Testgegevens",
+            "editDocument": "Document bewerken",
+            "archiveDocumentConfirmationText": "Dit zal het document archiveren.",
+            "created": "Aangemaakt",
+            "originalFile": "Origineel document",
+            "signedFile": "Ondertekend bestand",
+            "auditReport": "Auditrapport",
+            "signRequestSentAt": "Verzoek om ondertekening verstuurd op",
+            "signRequests": "Verzoeken om ondertekening",
+            "documentPreview": "Document preview",
+            "subjectType": "Onderwerp type",
+            "fillableBySubject": "In te vullen per onderwerp",
+            "position": "Functie",
+            "signDocument": "Document ondertekenen",
+            "uploadFile": "Bestand uploaden",
+            "sendAfterCompletion": "Verzenden na voltooiing",
+            "logoSubject": "Logo onderwerp",
+            "associateLogoSubject": "Logo-onderwerp koppelen",
+            "subject": "Onderwerp",
+            "uploadDocument": "Document upload",
+            "linkDeductionsInfo": "Dit zorgt ervoor dat er geen inhoudingsformulieren worden aangemaakt wanneer deze in de tijdregistratie worden ingevoerd.",
+            "linkDeductions": "Link inhoudingen",
+            "hideDocumentConfirmationText": "Weet u zeker dat u deze taak wilt verbergen? Het zal niet opnieuw verschijnen.",
+            "signRequestsSent": "De tekenverzoeken zijn verzonden",
+            "isVisibleOn": "Is zichtbaar op",
+            "creatableByRoles": "Aan te maken door rollen",
+            "fallbackValue": "Terugvalwaarde",
+            "uploadUwvDocument": "UWV document oploaden",
+            "document": "Document",
+            "deleteSignedFileConfirmationText": "Weet u zeker dat u dit ondertekende bestand wilt verwijderen?",
+            "deleteSignedFileFailed": "Het was niet mogelijk om het ondertekende bestand te verwijderen.",
+            "deleteSignedFileSuccess": "Het ondertekende bestand is verwijderd."
+        },
+        "tabs": {
+            "info": "Info",
+            "subjects": "Onderwerpen",
+            "template": "Template",
+            "variables": "Variabelen"
+        },
+        "steps": {
+            "selectTemplate": "Template selecteren",
+            "selectData": "Data selecteren",
+            "review": "Herzien",
+            "subjects": "Onderwerpen",
+            "variables": "Variabelen"
+        },
+        "actions": {
+            "showPreview": "Preview tonen",
+            "generateDocument": "Document aanmaken",
+            "editor": "Editor",
+            "pdf": "PDF",
+            "download": "Downloaden",
+            "upload": "Uploaden",
+            "addSubject": "Onderwerp toevoegen",
+            "create": "Maken",
+            "createFromTemplate": "Maken op basis van sjabloon",
+            "options": "Opties"
+        },
+        "vcuD1": {
+            "ok": "Ok",
+            "instructionsOnRisks": "Instructies over specifieke risico's",
+            "areThereAnyOtherSpecialRisks": "Zijn er nog andere risico's die niet worden genoemd",
+            "andAccomodation": "en accomodatie",
+            "presenceOfToilets": "Aanwezigheid van toiletten",
+            "reportCreatedBy": "Rapport opgesteld door",
+            "dateOfInspection": "Datum onderzoek",
+            "inspectionDoneBy": "Onderzoek uitgevoerd door",
+            "info": "Info",
+            "location": "Locatie",
+            "nameOfEmployee": "Naam werknemer",
+            "workSiteSpecificRisks": "Werkplek-specifieke risico's",
+            "jobSpecificRisks": "Baan-specifieke risico's",
+            "requiredPpe": "Vereiste PBM",
+            "questionControlPoints": "Vragen / controlepunten",
+            "actions": "Acties",
+            "tempWorkAsPerApplicationForm": "Tijdelijk werk volgens het sollicitatieformulier",
+            "deviation": "Afwijking",
+            "nA": "N.v.t.",
+            "employeeFamiliarWithRisks": "Is de werknemer bekend met specifieke risico's",
+            "receiptionIntroduction": "Ontvangst / introductie en regels in het bedrijf",
+            "introducingSupervisor": "Kennismaking met de leidinggevende",
+            "instructionsOnWorkplace": "Instructies over de werkplek en taak",
+            "inAroundWorkSite": "Op en rondom de werkplek",
+            "areThereAnySpecialRisks": "Zijn er bijzondere risico's",
+            "taskPerformedByTempWorker": "Wordt de taak uitgevoerd door de uitzendkracht in overeenstemming met de opdrachtbevestiging",
+            "areTheseProperlyMitigated": "Zijn die op de juiste manier verminderd",
+            "seeAlsoApplicationForm": "Zie ook het sollicitatie formulier",
+            "forExample": "Bijvoorbeeld",
+            "whatIsTheNoiseLevel": "Wat is het geluidsniveau",
+            "workingPosturesOfEmployees": "Werkhouding van medewerkers",
+            "highRiskEquipment": "Apparatuur met hoog risico",
+            "liftingEquipment": "Hefapparatuur, elektrisch handgereedschap",
+            "limitingTrafficRisks": "Beperken van verkeersrisico's",
+            "scaffoldingEquipment": "Steigermateriaal, ladders, trappen, liften, enz.",
+            "personalProtectiveEquipment": "Persoonlijke Beschermingsmiddelen",
+            "prescribedPPEWornCorrectly": "Worden de voorgeschreven PBM correct gedragen",
+            "doTheyFunctionProperly": "Functioneren ze naar behoren",
+            "staffFacilities": "Personeelsfaciliteiten",
+            "orderCleanlinessHygiene": "Orde en netheid en hygiëne",
+            "inHouseEmergencyResponseService": "Aanwezigheid van BHV",
+            "firstAidEquipment": "EHBO uitrusting",
+            "by": "Door",
+            "dateCompleted": "Datum afgerond",
+            "verifiedBy": "Geverifieerd door",
+            "completed": "Afgerond",
+            "startOfWork": "Begindatum",
+            "client": "Cliënt"
+        }
+    },
+    "dashboard": {
+        "tabs": {
+            "creditApplications": "Kredietaanvragen",
+            "newEmployees": "Nieuwe medewerkers",
+            "newEmploymentAgencies": "Nieuwe uitzendbureaus",
+            "newHirers": "Nieuwe inleners",
+            "newFreelancers": "Nieuwe freelancers"
+        },
+        "titles": {
+            "employmentAgencies": "Uitzendbureaus",
+            "hirers": "Inleners",
+            "freelancers": "Freelancers",
+            "employees": "Werknemers",
+            "costExcludingVat": "Kost {year} (excl. BTW)",
+            "marginExcludingVat": "Marge (excl. BTW)",
+            "resellers": "Resellers",
+            "mandatoryTasks": "Verplichte taken",
+            "niceToDoTasks": "Leuke taken om te doen",
+            "leaveOfAbsence": "Verlof",
+            "calendar": "Kalender"
+        },
+        "charts": {
+            "revenue": "Omzet",
+            "employees": "Werknemers",
+            "workedHours": "Gewerkte uren",
+            "hirers": "Inleners",
+            "employmentAgencies": "Uitzendbureaus",
+            "temporary": "Tijdelijk",
+            "overtime": "Overwerk",
+            "surchargeHours": "Toeslag uren",
+            "margin": "Marge",
+            "freelancerCosts": "Freelance kosten",
+            "freelancers": "Freelancers",
+            "payroll": "Payroll"
+        },
+        "static": {
+            "functions": "Functies",
+            "messageBox": "Berichtenbox",
+            "yourReservations": "Uw reserveringen",
+            "hirersWithoutCao": "Inleners zonder CAO",
+            "unsignedContracts": "Niet getekende contracten",
+            "recentInvoices": "Recente facturen",
+            "recentPayslips": "Recente loonstrookjes",
+            "annualStatements": "Jaaropgaven",
+            "notifications": "Meldingen",
+            "statistics": "Statistieken",
+            "newRegistrations": "Nieuwe inschrijvingen",
+            "charts": "Grafieken",
+            "approve": "Goedkeuren"
+        },
+        "functions": {
+            "timeRegistration": "Tijdregistratie",
+            "imports": "Imports",
+            "exports": "Exports",
+            "invoices": "Facturen",
+            "documents": "Documenten",
+            "payslipsAndAnnualStatements": "Loonstroken / jaaropgaven"
+        },
+        "messageBox": {
+            "payOut": "Verloning ({frequency})",
+            "birthdays": "Verjaardagen",
+            "shouldSignDocuments": "Te tekenen documenten",
+            "lockablePeriods": "Openstaande ureninvoer",
+            "missingDocuments": "Ontbrekende documenten",
+            "expiredContracts": "Verlopen contracten",
+            "expiringContracts": "Aflopende contracten",
+            "renewableContracts": "Contracten worden verlengd",
+            "salaryMutations": "Salaris mutaties",
+            "componentMutations": "Component wijzigingen",
+            "hourTypeMutations": "Urensoort wijzigingen",
+            "creditLimits": "Kredietlimieten"
+        },
+        "leaveOfAbsence": {
+            "taskType": {
+                "completedTask": "Afgeronde taken",
+                "openTask": "Openstaande taken"
+            },
+            "title": "Verlof dashboard",
+            "company": "Bedrijf",
+            "companyName": "Bedrijfsnaam",
+            "employee": "Medewerker",
+            "employeeName": "Naam medewerker",
+            "sickSince": "Ziek vanaf",
+            "dueDate": "Deadline",
+            "status": "Status",
+            "overdue": "Verlopen",
+            "taskDescription": "Taakomschrijving",
+            "usefulLinksDocuments": "Handige links/documenten",
+            "writeSummary": "Samenvatting schrijven",
+            "sickLeaveTotal": "Totaal verlof",
+            "actions": {
+                "openTask": "Openstaande taak",
+                "viewTask": "Taak bekijken",
+                "linkTo": "Link naar",
+                "callEmployee": "Medewerker bellen",
+                "goToTask": "Ga naar taak",
+                "finishTask": "Taak afronden"
+            }
+        }
+    },
+    "frequency": {
+        "static": {
+            "hourly": "Per uur",
+            "fourWeekly": "Vierwekelijks",
+            "daily": "Dagelijks",
+            "weekly": "Wekelijks",
+            "monthly": "Maandelijks",
+            "hour": "Uur",
+            "day": "Dag",
+            "week": "Week",
+            "month": "Maand",
+            "fourWeek": "Vier weken",
+            "weekShort": "w",
+            "dayShort": "d",
+            "hourShort": "h",
+            "fourWeekShort": "4w",
+            "monthShort": "m"
+        }
+    },
+    "form": {
+        "static": {
+            "homewardTravelCost": "Kosten terugreis",
+            "maritalStatus": "Burgerlijke staat",
+            "paymentTerm": "Betalingstermijn",
+            "rentalOrPurchaseContractHomeCountry": "Huur- of koopcontract uit eigen land",
+            "shouldPayOutVacationMoney": "Vakantiegeld uitbetalen?",
+            "functionScale": "Functieschaal",
+            "chamberOfCommerceNumber": "Kamer van Koophandel nummer",
+            "documentNumber": "Documentnummer",
+            "accountHolder": "Accounthouder",
+            "city": "Stad",
+            "email": "E-mail",
+            "authorizedSignatory": "Bevoegde ondertekenaar",
+            "birthdate": "Geboortedatum",
+            "birthplace": "Geboorteplaats",
+            "cao": "CAO",
+            "cc": "CC",
+            "certificate": "Certificaat",
+            "citizenServiceNumber": "Burgerservicenummer",
+            "contractHours": "Contracturen",
+            "costOfLivingAllowance": "Kosten voor levensonderhoud",
+            "factorOvertime": "Factor overuren",
+            "gender": "Geslacht",
+            "grossSalary": "Bruto salaris",
+            "hasNoRiskPolicy": "No-risk polis?",
+            "hasPayrollTaxReduction": "Loonheffingskorting?",
+            "homewardTravelDistance": "Terugreis tijd",
+            "homewardTravelFrequency": "Terugreis frequentie",
+            "iban": "IBAN",
+            "id": "ID",
+            "identityType": "Type identiteit",
+            "identityValidUntil": "Identiteit geldig tot",
+            "initials": "Initialen",
+            "invoiceEmail": "Factuur e-mailadres",
+            "language": "Taal",
+            "legalForm": "Juridische vorm",
+            "logo": "Logo",
+            "mainLanguage": "Hoofdtaal",
+            "motivationLetter": "Motivatiebrief",
+            "nationality": "Nationaliteit",
+            "noRiskPolicy": "No-risk polis",
+            "password": "Wachtwoord",
+            "passwordConfirmation": "Bevestiging wachtwoord",
+            "firstName": "Voornaam",
+            "lastName": "Achternaam",
+            "middleName": "Middelste naam",
+            "name": "Naam",
+            "country": "Land",
+            "countryCode": "Landcode",
+            "countryOfBirth": "Geboorteland",
+            "creditLimit": "Kredietlimiet",
+            "curriculumVitae": "Curriculum Vitae",
+            "diplomas": "Diploma's",
+            "hirer": "Inlener",
+            "employeeType": "Type medewerker",
+            "employeeFunction": "Functie medewerker",
+            "employmentAgency": "Uitzendbureau",
+            "employmentDate": "Datum van indiensttreding",
+            "gAccount": "G-rekening?",
+            "gAccountPercentage": "G-rekening percentage",
+            "etRegulation": "ET Regelgeving",
+            "expirationDate": "Vervaldatum",
+            "factor": "Factor",
+            "factorEtRegulation": "Factor ET Regelgeving",
+            "factoringCompany": "Factoringmaatschappij",
+            "payOutFrequency": "Betalingsfrequentie",
+            "phase": "Fase",
+            "probation": "Proeftijd",
+            "street": "Straat",
+            "proofOfRecruitmentAbroad": "Bewijs van aanwerving in het buitenland",
+            "riskGroup": "Risicogroep",
+            "sbiCodes": "SBI codes",
+            "seniorDays": "Seniordagen",
+            "shouldDeductHealthInsurance": "Ziektekostenverzekering inhouden?",
+            "shouldPayOutNonStatutoryHolidays": "Niet-wettelijke vakantiedagen uitbetalen?",
+            "shouldPayOutHolidays": "Feestdagen uitbetalen?",
+            "shouldPayOutReducedHours": "Arbeidstijdverkorting uitbetalen?",
+            "shouldPayOutShortAbsence": "Korte verzuim uitbetalen?",
+            "signature": "Handtekening",
+            "startDate": "Startdatum",
+            "stippPlan": "StiPP plan",
+            "streetNumber": "Nummer",
+            "streetNumberAddition": "Toevoeging",
+            "subject": "Onderwerp",
+            "terminationDate": "Beëindigingsdatum",
+            "vatNumber": "BTW-nummer",
+            "vatTariff": "BTW-tarief",
+            "workTimeReductionDays": "ATV/ADV",
+            "zipCode": "Postcode",
+            "caoWorkweek": "CAO Werkweek",
+            "employment": "Tewerkstelling",
+            "cessionText": "Tekst van de overdracht",
+            "employee": "Medewerker",
+            "useFrameworkAgreement": "Gebruik raamovereenkomst",
+            "phone": "Telefoonnummer",
+            "invoiceEmailCc": "Factuur CC",
+            "enterprise": "Onderneming",
+            "freelancerJob": "Freelancer job",
+            "chamberOfCommerceExtract": "Kamer van koophandel uittreksel",
+            "liabilityInsurance": "Aansprakelijkheidsverzekering",
+            "marginInvoicePerWeek": "Margefactuur per week",
+            "freelancer": "Freelancer",
+            "gAccountIban": "G-rekening IBAN",
+            "gAccountHolder": "G-rekeninghouder",
+            "factorStatePension": "Factor staatspensioen",
+            "payslips": "Loonstroken",
+            "payslipsCc": "Loonstroken CC",
+            "salesRate": "Verkoop",
+            "factorSenior": "Factor senior",
+            "isAgreedWork": "Is afgesproken werk",
+            "workStartTime": "Begintijd van het werk",
+            "housingCost": "Huisvestingskosten",
+            "weeksWorked": "Aantal weken gewerkt",
+            "documentTemplate": "Document template",
+            "deliveryDeed": "Leveringsakte",
+            "files": "Bestanden",
+            "endDate": "Einddatum",
+            "timeRegistration": "Tijdregistratie",
+            "timeRegistrationQuestion": "Tijdregistratie?",
+            "timeForTime": "Tijd voor tijd",
+            "workHours": "Werkuren",
+            "workEndTime": "Eindtijd van het werk",
+            "note": "Opmerking",
+            "end": "Einde",
+            "background": "Achtergrond (staand)",
+            "backgroundLandscape": "Achtergrond (liggend)",
+            "location": "Locatie",
+            "workDaysAndHours": "Werkdagen & uren",
+            "website": "Website",
+            "reason": "Reden",
+            "start": "Start",
+            "outOfServiceDate": "Datum uit dienst",
+            "outOfServiceReasonSlug": "Reden",
+            "salaryWithExtraDays": "Salaris inclusief atv/adv dagen",
+            "factorWithExtraDays": "Factor inclusief extra dagen",
+            "file": "Bestand",
+            "pensionPlan": "Pensioenplan",
+            "invoiceCompany": "Factuur bedrijf",
+            "date": "Datum",
+            "currentPassword": "Huidig paswoord",
+            "payOutEnterprise": "Verloning bedrijf",
+            "employerNumber": "Werkgeversnummer",
+            "exchangeOvertime": "Overwerk uitruilen",
+            "shouldPayOutVacationDays": "Vakantiedagen uitbetalen?",
+            "seasonalWork": "Seizoenswerk",
+            "splitInvoicePerFreelancer": "Factuur splitsen per freelancer",
+            "requireFreelancerVatNumber": "BTW-nummer freelancer nodig",
+            "splitInvoicePerProject": "Factuur splitsen per project",
+            "splitInvoicePerEmployee": "Factuur splitsen per medewerker",
+            "companyType": "Bedrijfstype",
+            "healthcareDescription": "Beschrijving van de gezondheidszorg",
+            "qualifications": "Kwalificaties",
+            "workServices": "Werkdiensten",
+            "activities": "Activiteiten",
+            "deductMarginVat": "Btw uit de marge halen (zorg)",
+            "employeeTypeSlugs": "Medewerker type slugs",
+            "certificateOfConduct": "Verklaring Omtrent het Gedrag",
+            "healthInsurance": "Zorgverzekering",
+            "splitInvoiceItemsByDate": "Factuur splitsen op datum",
+            "blockSalesRate": "Verkooptarief blokkeren.",
+            "ownerCompany": "Eigenaar bedrijf",
+            "generateFreelancerDocuments": "Freelancer-documenten genereren",
+            "snfCertification": "SNF-certificering",
+            "payOutExport": "Uitbetaling export",
+            "isPayOutEnabledQuestion": "Uitbetalen ingeschakeld?",
+            "dontSendDocuments": "Stuur geen documenten",
+            "selectedAmount": "{amount} geselecteerd",
+            "splitPayOut": "Gesplitste uitbetaling",
+            "searchAddress": "Zoek adres",
+            "search": "Zoeken",
+            "canHaveJobs": "Kan een baan hebben",
+            "noRecordsFound": "Geen records gevonden...",
+            "description": "Beschrijving",
+            "teamModel": "Entiteit",
+            "teamPresets": "Voorinstellingen voor teams",
+            "role": "Rol",
+            "user": "Gebruiker",
+            "shouldPayOutSeniorDays": "Seniorendagen uitbetalen?",
+            "shouldPayOutWorkTimeReductionDays": "ATV/ADV uitbetalen?",
+            "grossSalaryPerHour": "Bruto salaris per uur",
+            "teamTypes": "Teamtypen",
+            "workDays": "Werkdagen",
+            "subsidyCompany": "Subsidie bedrijf",
+            "subsidy": "Subsidie",
+            "showFunctionOnInvoice": "Functie vermelden op factuur",
+            "deductionOverviewPerWeek": "Inhoudingsoverzicht per week",
+            "kiwaNumber": "Kiwa Nummer",
+            "niwoNumber": "Niwo nummer",
+            "languageCode": "Taalcode",
+            "team": "Team",
+            "contact": "Contact",
+            "type": "Type",
+            "reseller": "Reseller",
+            "upload": "Uploaden",
+            "europeanHealthInsuranceCardNumber": "Nummer Europese ziekteverzekeringskaart",
+            "period": "Periode",
+            "deduction": "Inhoudingen",
+            "invoiceEnterprise": "Factuur onderneming",
+            "europeanHealthInsuranceCard": "Europese ziekteverzekeringskaart",
+            "driversLicense": "Rijbewijs",
+            "caoFunction": "CAO-functie",
+            "hirerFunction": "Huurder functie",
+            "dontSendEmail": "Stuur geen e-mail",
+            "canBeInvoiced": "Kan gefactureerd worden",
+            "bigNumber": "BIG nummer",
+            "breakMinutes": "Pauze (minuten)",
+            "comments": "Opmerkingen",
+            "limitations": "Beperkingen",
+            "thirdPartyInformation": "Informatie van derden",
+            "questionType": "Soort vraag",
+            "title": "Titel",
+            "question": "Vraag",
+            "option": "Keuzemogelijkheid",
+            "endTime": "Eindtijd",
+            "notifications": "Mededelingen",
+            "startTime": "Starttijd",
+            "creditLimitIncrease": "Kredietlimiet verhogen",
+            "bulkCorrection": "Bulkcorrectie",
+            "canPayOut": "Kan uitbetalen",
+            "creditLimitInternal": "Intern kredietlimiet",
+            "claimSelection": "Claim selectie",
+            "combineTimeRegistrations": "Combineer tijdregistraties",
+            "tradeNames": "Handelsnamen",
+            "percentageOfSalary": "% van het salaris",
+            "thirdPartyInvolvement": "Betrokkenheid van derden",
+            "caoHours": "CAO uren"
+        },
+        "steps": {
+            "contactAndFinancial": "Contact en financiële informatie",
+            "documents": "Documenten",
+            "employment": "Tewerkstelling",
+            "files": "Bestanden",
+            "foreignNationality": "Buitenlandse nationaliteit",
+            "general": "Algemeen",
+            "etRegulation": "ET regulatie",
+            "documentsAndEmployment": "Documenten en tewerkstelling",
+            "job": "Job",
+            "account": "Account",
+            "employer": "Werkgever",
+            "contract": "Contract",
+            "hirerRemuneration": "Inlenersbeloning",
+            "modules": "Modules"
+        },
+        "hint": {
+            "startTypingToSearch": "Begin te typen om te zoeken",
+            "lockPensionPlan": "Vergrendel de pensioenregeling zodat deze niet automatisch wordt aangepast.",
+            "proposedValue": "Voorgestelde waarde"
+        },
+        "actions": {
+            "upload": "Uploaden"
+        }
+    },
+    "general": {
+        "static": {
+            "employeeType": "Werknemer type",
+            "chamberOfCommerceNumber": "Kamer van Koophandel nummer",
+            "deleteFailed": "Er is iets fout gegaan, neem contact met ons op als het probleem zich blijft voordoen.",
+            "employmentAgencyApprovalFail": "Uitzendbureau niet goedgekeurd.",
+            "employmentAgencyCreationSuccess": "Uitzendbureau succesvol aangemaakt.",
+            "hirerCreationSuccess": "Inlener succesvol aangemaakt.",
+            "middleName": "Middelste naam",
+            "payrollTaxReduction": "Loonheffingskorting",
+            "homewardTravelFrequency": "Terugreis frequentie",
+            "employee": "Werknemer",
+            "postalAddress": "Postadres",
+            "address": "Adres",
+            "authorizedSignatory": "Bevoegde ondertekenaar",
+            "addressInformation": "Adresinformatie",
+            "company": "Bedrijf",
+            "companyInformation": "Bedrijfsinformatie",
+            "contact": "Contact",
+            "email": "E-mail",
+            "accountHolder": "Accounthouder",
+            "birthdate": "Geboortedatum",
+            "birthplace": "Geboorteplaats",
+            "cao": "Cao",
+            "category": "Categorie",
+            "citizenServiceNumber": "Burgerservicenummer",
+            "country": "Land",
+            "countryOfBirth": "Geboorteland",
+            "createContact": "Contact aanmaken",
+            "creditLimit": "Kredietlimiet",
+            "currentEmployments": "Huidige tewerkstellingen",
+            "documentNumber": "Documentnummer",
+            "documents": "Documenten",
+            "documentTemplates": "Documenttemplates",
+            "employeeApprovalFail": "Werknemer niet goedgekeurd.",
+            "employeeCreationSuccess": "Werknemer succesvol aangemaakt.",
+            "employeeApprovalSuccess": "Werknemer succesvol goedgekeurd.",
+            "employees": "Medewerkers",
+            "employment": "Tewerkstelling",
+            "employmentAgencies": "Uitzendbureaus",
+            "employmentAgency": "Uitzendbureau",
+            "employmentAgencyApprovalSuccess": "Uitzendbureau succesvol goedgekeurd.",
+            "etRegulation": "ET-regelgeving",
+            "factor": "Factor",
+            "files": "Bestanden",
+            "financialInformation": "Financiële informatie",
+            "firstName": "Voornaam",
+            "gender": "Geslacht",
+            "hi": "Hallo {user}",
+            "id": "ID",
+            "invoices": "Facturen",
+            "language": "Taal",
+            "name": "Naam",
+            "phone": "Telefoon",
+            "search": "Zoeken",
+            "visitAddress": "Bezoekadres",
+            "hirer": "Inlener",
+            "hirerApprovalFail": "Inlener niet goedgekeurd.",
+            "hirerApprovalSuccess": "Inlener succesvol goedgekeurd.",
+            "hirers": "Inleners",
+            "takeOverFromHirer": "Overnemen van aannemer",
+            "iban": "IBAN",
+            "identityType": "Identiteitstype",
+            "identityValidUntil": "Identiteit geldig tot",
+            "initials": "Initialen",
+            "invite": "Uitnodiging",
+            "lastName": "Achternaam",
+            "legalForm": "Rechtsvorm",
+            "log": "Loggen",
+            "maritalStatus": "Burgerlijke stand",
+            "none": "Geen",
+            "notApplicable": "Niet van toepassing",
+            "notes": "Opmerkingen",
+            "personalData": "Persoonsgegevens",
+            "residenceAddress": "Woonadres",
+            "homeAddress": "Thuisadres",
+            "sbiCodes": "SBI-codes",
+            "settings": "Instellingen",
+            "splitMargin": "Gesplitste marge",
+            "timeForTime": "Tijd voor Tijd",
+            "vatNumber": "BTW-nummer",
+            "timeRegistration": "Tijdregistratie",
+            "percentage": "Percentage",
+            "yes": "Ja",
+            "no": "Nee",
+            "euro": "Euro",
+            "employmentDate": "Datum in dienst",
+            "terminationDate": "Einddatum",
+            "contractPhase": "Contractfase",
+            "payOutFrequency": "Uitbetalingsfrequentie",
+            "contractHours": "Contracturen",
+            "participantEtRegulation": "Deelnemer ET regelgeving?",
+            "startDate": "Start date",
+            "homewardTravelCost": "Terugreis kosten",
+            "homewardTravelDistance": "Terugreis afstand",
+            "factorEtRegulation": "Factor ET-regelgeving",
+            "factorOvertime": "Factor overuren",
+            "vatTariff": "BTW-tarief",
+            "invoiceEmail": "Factuur e-mailadres",
+            "city": "Stad",
+            "employer": "Werkgever",
+            "factoringCompanies": "Factoringmaatschappijen",
+            "factoringCompany": "Factoringmaatschappij",
+            "enterprises": "Bedrijven",
+            "enabled": "Ingeschakeld",
+            "webhooks": "Webhooks",
+            "period": "Periode",
+            "nr": "Nr",
+            "exports": "Export",
+            "confirmationQuestion": "Weet u het zeker?",
+            "contactInformation": "Contactinformatie",
+            "dashboard": "Dashboard",
+            "invoiceEmailCc": "Factuur CC",
+            "reservations": "Reserveringen",
+            "freelancerApprovalFail": "Goedkeuren freelancer mislukt",
+            "sepaId": "SEPA-ID",
+            "costOfLivingAllowance": "Toelage voor kosten van levensonderhoud",
+            "outOfServiceReason": "Reden voor uitdiensttreding",
+            "seniorDays": "Aantal seniordagen",
+            "shiftWorkSurcharge": "Toeslag voor ploegendienst",
+            "originalValue": "Originele waarde",
+            "total": "Totaal",
+            "cancel": "Annuleren",
+            "enterprise": "Onderneming",
+            "date": "Datum",
+            "freelancers": "Freelancers",
+            "freelancer": "Freelancer",
+            "hours": "Uren",
+            "payslip": "Loonbrief",
+            "timesheet": "Urenbrief",
+            "imports": "Imports",
+            "billedAt": "Gefactureerd op",
+            "attachments": "Bijlagen",
+            "freelancerCreationSuccess": "Freelancer succesvol aangemaakt",
+            "freelancerApprovalSuccess": "Freelancers succesvol goedgekeurd",
+            "account": "Account",
+            "overtime": "Overuren",
+            "surcharge": "Toeslag",
+            "travelHours": "Reistijd",
+            "users": "Gebruikers",
+            "permissions": "Toestemmingen",
+            "user": "Gebruiker",
+            "link": "Link",
+            "newContact": "Nieuw contract",
+            "km": "KM",
+            "housingCost": "Huisvestingskosten",
+            "employmentCreationSuccess": "Tewerkstelling succesvol aangemaakt",
+            "resultsCount": "{count} resultaten",
+            "phase": "Fase",
+            "sendPayslips": "Loonstroken verzenden",
+            "stipp": "Stipp",
+            "weeksWorked": "Aantal weken gewerkt",
+            "translations": "Vertalingen",
+            "subjects": "Onderwerpen",
+            "outOfServiceDate": "Datum uitdiensttreding",
+            "accountNumber": "Rekeningnummer",
+            "createdAt": "Gemaakt op",
+            "filters": "Filters",
+            "startsAt": "Start om",
+            "endsAt": "Eindigt om",
+            "factorSenior": "Factor senior",
+            "year": "Jaar",
+            "sendFailed": "Verzenden mislukt",
+            "createdBy": "Gebruiker",
+            "createNote": "Opmerking aanmaken",
+            "note": "Opmerking",
+            "workTimeReductionDays": "ATV/ADV",
+            "timeRegistrationIsNotEnabledText": "Tijdregistratie is niet ingeschakeld.",
+            "workHours": "Werkuren",
+            "workStartTime": "Begintijd werk",
+            "workEndTime": "Eindtijd werk",
+            "outOfService": "Buiten dienst",
+            "sickReports": "Verzuimmeldingen",
+            "outOfServiceEmployeeSuccess": "De werknemer is met succes als buiten dienst gemeld.",
+            "outOfServiceSuccess": "Met succes buiten dienst",
+            "holidaySurcharge": "Vakantietoeslag",
+            "reason": "Reden",
+            "hint": "Hint",
+            "end": "Eind",
+            "createFailed": "We konden dit dossier niet opslaan.",
+            "updateFailed": "We konden dit dossier niet opslaan.",
+            "saveFailed": "We konden dit dossier niet opslaan.",
+            "archiveSuccess": "Het item is gearchiveerd.",
+            "archiveFailed": "We konden dit item niet archiveren.",
+            "location": "Locatie",
+            "uploadFiles": "Bestanden uploaden",
+            "invoiceCompany": "Factuur bedrijf",
+            "employments": "Tewerkstellingen",
+            "freelancerJobs": "Freelance jobs",
+            "fromPeriod": "Vanaf periode",
+            "filesUploaded": "Bestanden geupload",
+            "fileUploadFailed": "Bestand uploaden mislukt",
+            "fileDeleted": "Bestand verwijderd",
+            "fileDeleteFailed": "Bestand verwijderen mislukt",
+            "unarchiveSuccess": "Het item is ongearchiveerd.",
+            "unarchiveFailed": "We konden dit item niet onarchiveren.",
+            "start": "Start",
+            "maxImageSize": "De afbeelding moet kleiner zijn dan {width} x {height} px.",
+            "deleteFileConfirmationText": "Weet je zeker dat je het bestand permanent wilt verwijderen?",
+            "recentVisitedPages": "Hier verschijnen recent bezochte pagina's",
+            "payOutEnterprise": "Uitbetaling bedrijf",
+            "frequency": "Frequentie",
+            "from": "Van",
+            "until": "totdat",
+            "upcomingEmployments": "Komende tewerkstellingen",
+            "description": "Beschrijving",
+            "causer": "Veroorzaker",
+            "sharedDocumentTemplates": "Sjablonen voor gedeelde documenten",
+            "usingEmploymentAgencyValue": "Uitzendbureauwaarde gebruiken",
+            "subject": "Onderwerp",
+            "reservationsBuildup": "Reserveringen opbouw",
+            "seasonalWork": "Seizoenswerk",
+            "payslips": "Loonstroken",
+            "annualStatements": "Jaaropgaven",
+            "projects": "Projecten",
+            "correction": "Correctie",
+            "selectedAmount": "Geselecteerd ({amount})",
+            "companyType": "Bedrijfstype",
+            "useHirerValue": "Gebruik inlener waarde",
+            "useEmploymentAgencyValue": "Gebruik uitzendbureauwaarde",
+            "canNotDeleteEmployeeTitle": "Kan niet verwijderen",
+            "usingHirerValue": "Inlenerwaarde gebruiken",
+            "canNotDeleteEmploymentTitle": "Kan niet verwijderen",
+            "useParentValue": "Bovenliggende waarde gebruiken",
+            "certificateOfConduct": "Verklaring Omtrent het Gedrag",
+            "pages": "Pagina's",
+            "importHirers": "Inlener import",
+            "importEntityFailed": "Het importeren is mislukt. Probeer de pagina te vernieuwen en voer de import opnieuw uit.",
+            "owner": "Eigenaar",
+            "generateFreelancerDocuments": "Freelancer-documenten genereren",
+            "generateFreelancerDocumentsInfo": "Als deze optie is uitgeschakeld, worden er aan het einde van de freelancer-wizard geen documenten gegenereerd.",
+            "contractStartDate": "Contract startdatum",
+            "contractEndDate": "Contract einddatum",
+            "validationFailed": "Validatie mislukt",
+            "importSuccessful": "Import succesvol",
+            "loadFailed": "We konden de gevraagde gegevens niet laden.",
+            "importEmployees": "Medewerkers import",
+            "importEmployments": "Tewerkstelling import",
+            "importFreelancers": "Freelancers import",
+            "importFreelancerJobs": "Freelancer jobs import",
+            "registration": "Registratie",
+            "marginInvoicePerWeek": "Margefactuur per week",
+            "healthInsuranceStartDateInfo": "De zorgverzekering inhouding wordt toegevoegd aan het begin van elke week/vier weken/maand (afhankelijk van de uitbetalingsfrequentie), zolang er op die datum een actieve zorgverzekering is.",
+            "currentJobs": "Actieve jobs",
+            "upcomingJobs": "Aankomende jobs",
+            "isPayOutEnabled": "Uitbetalen ingeschakeld?",
+            "showTotal": "Toon totaal",
+            "saved": "Opgeslagen",
+            "variable": "Variabel",
+            "tariff": "Tarief",
+            "dontSendDocuments": "Verstuur geen documenten",
+            "submittedForApproval": "Ter goedkeuring ingediend.",
+            "missingRequiredAttributesConfirmText": "Het item kan nog niet ter goedkeuring worden ingediend omdat enkele vereiste velden niet zijn ingevuld.",
+            "splitPayOutInfo": "Als deze optie is ingeschakeld, worden de reguliere uren gesplitst van andere registraties in de uitbetalingsexport.",
+            "splitPayOut": "Verloning splitsen",
+            "recurringDeductionInfo": "De periodieke inhouding wordt toegevoegd aan het begin van elke week/vier weken/maand (afhankelijk van de uitbetalingsfrequentie).",
+            "disablePayOutConfirmationText": "Weet u zeker dat u uitbetaling voor deze registratie wilt uitschakelen?",
+            "missingRequiredAttributesConfirmTitle": "Ontbrekende verplichte velden",
+            "dontSendDocumentsInfo": "Er worden geen ondertekenverzoeken verzonden voor documenten die hier zijn geselecteerd.",
+            "otherInfo": "Andere informatie",
+            "fillAll": "Vul alles",
+            "submitForApprovalConfirmTitle": "Indienen voor goedkeuring",
+            "submitForApprovalFailed": "We kunnen de entiteit niet ter goedkeuring indienen.",
+            "notYetSubmittedForApproval": "Nog niet ter goedkeuring ingediend.",
+            "submitForApprovalConfirmText": "Het item wordt ter goedkeuring voorgelegd.",
+            "jobCreationSuccess": "De plaatsing is gecreëerd.",
+            "dashboardOrderMobile": "Dashboard volgorde voor mobiel",
+            "notifications": "Meldingen",
+            "new": "Nieuw",
+            "resellerCreationSuccess": "Reseller aangemaakt.",
+            "resellerApprovalSuccess": "Reseller goedgekeurd.",
+            "resellerApprovalFail": "Kan reseller niet goedkeuren.",
+            "confirmationImpersonateText": "Weet u zeker dat u deze gebruiker wilt imiteren?",
+            "defaultValue": "Standaardwaarde",
+            "unableToDeleteItem": "Kan item niet verwijderen",
+            "resultsCountMobile": "Pagina {current} - {total}",
+            "token": "Toegangstoken",
+            "personalAccessTokens": "Persoonlijke toegangstokens",
+            "teamPresets": "Voorinstellingen voor teams",
+            "messageBox": "Berichten box",
+            "hide": "Verbergen",
+            "contractType": "Contract type",
+            "expiresAt": "Verloopt op",
+            "signRequestSentAt": "Tekenverzoek verzonden naar",
+            "signTokenExpiresAt": "Tekentoken verloopt om",
+            "receiveNewSignToken": "Ontvang een nieuw tekentoken",
+            "missingDocumentsAmount": "Aantal ontbrekende documenten",
+            "noPermissionForField": "Geen toestemming om te bekijken...",
+            "NoPermissionForSegment": "U heeft niet de juiste rechten om dit segment te bekijken...",
+            "role": "Rol",
+            "contactHasNoAccountTooltip": "Deze gebruiker heeft geen account",
+            "attachExistingContact": "Voeg bestaand contact toe",
+            "portals": "Portalen",
+            "roles": "Rollen",
+            "amount": "Aantal",
+            "automatic": "Automatisch",
+            "workweekHours": "Werkweek uren",
+            "proFormaPayslip": "Proforma loonstrook",
+            "fiscalYearlySalary": "Fiscaal jaarsalaris",
+            "result": "Resultaat",
+            "details": "Details",
+            "subsidyCompany": "Subsidie bedrijf",
+            "subsidy": "Subsidie",
+            "subsidyCompanies": "Subsidie bedrijven",
+            "confirmed": "Bevestigd",
+            "ageHint": "Leeftijd: {age}",
+            "deductionOverviewPerWeek": "Inhoudingsoverzicht per week",
+            "mainContact": "Belangrijkste contactpersoon",
+            "deleteExtraWarningText": "Dit kan niet ongedaan worden gemaakt!",
+            "archiveFileConfirmationText": "Hiermee wordt het bestand gearchiveerd.",
+            "reseller": "Reseller",
+            "googleLogo": "Google-logo",
+            "resellers": "Wederverkopers",
+            "notificationTemplates": "Meldingssjablonen",
+            "defaultNotificationTemplates": "Standaard meldingssjablonen",
+            "timesToGo": "{times} om te gaan",
+            "invoiceEnterprise": "Factuur onderneming",
+            "type": "Type",
+            "import": "Import",
+            "contractDetails": "Contractgegevens",
+            "download": "Downloaden",
+            "minimum": "Minimaal",
+            "teams": "Teams",
+            "logo": "Logo",
+            "fileSubjects": "Bestand onderwerpen",
+            "europeanHealthInsuranceCardNumber": "Nummer Europese ziekteverzekeringskaart",
+            "mutationReason": "Mutatie reden",
+            "wednesday": "Woensdag",
+            "appliesToWeeks": "Geldt voor weken",
+            "replyMessageFailed": "Bericht is niet verzonden. Probeer de pagina te vernieuwen en beantwoord het bericht opnieuw.",
+            "newVersionReleasedInfo": "Er is een nieuwe versie van Paythr uitgebracht! Om er zeker van te zijn dat u de nieuwe versie gebruikt, vernieuwt u de pagina handmatig of klikt u op de onderstaande knop.",
+            "vcuDocuments": "VCU Documenten",
+            "endDate": "Einddatum",
+            "oldHourlyRate": "Oud uurtarief",
+            "sickLeaveDocuments": "Verlofdocumenten",
+            "months": "Maanden",
+            "tuesday": "Dinsdag",
+            "monday": "Maandag",
+            "saturday": "Zaterdag",
+            "friday": "Vrijdag",
+            "sunday": "Zondag",
+            "applyToAll": "Van toepassing op alle",
+            "caoHours": "CAO uren",
+            "workDays": "Werkdagen",
+            "inactive": "Inactief",
+            "activationDate": "Begindatum",
+            "status": "Status",
+            "modules": "Modules",
+            "title": "Titel",
+            "createAssessmentCriteria": "Maak nieuwe beoordelingscriteria",
+            "confirmationLeavePageText": "Niet opgeslagen wijzigingen gaan verloren. Weet u zeker dat u deze pagina wilt verlaten?",
+            "maintenance": "Onderhoud",
+            "maintenanceInfo": "Momenteel zijn wij buiten bedrijf vanwege onderhoud. Komt u later nog eens terug.",
+            "newSalesRate": "Nieuwe verkoopprijs",
+            "oldValue": "Oude waarde",
+            "newValue": "Nieuwe waarde",
+            "creditLimitInternal": "Intern kredietlimiet",
+            "totalCreditLimit": "Totaal kredietlimiet",
+            "expectedAmount": "Verwacht bedrag",
+            "uwv": "UWV",
+            "uploaded": "Geüpload",
+            "sendMessageFailed": "Het verzenden van bericht is mislukt. Probeer de pagina te vernieuwen en verzend het bericht opnieuw.",
+            "replyMessageSuccess": "Bericht beantwoord.",
+            "sendMessageSuccess": "Bericht is verzonden.",
+            "saveChangesFirst": "Sla alstublieft eerst uw wijzigingen op.",
+            "thursday": "Donderdag",
+            "newHourlyRate": "Nieuw uurtarief",
+            "oldSalesRate": "Oude verkoopprijs",
+            "outstandingInvoicesTotal": "Totaal openstaande facturen",
+            "debtor": "Debiteur",
+            "creditor": "Crediteur",
+            "probationMonths": "Maanden proeftijd",
+            "contract": "Contract",
+            "newVersionReleased": "Er is een nieuwe versie uitgebracht!"
+        },
+        "errors": {
+            "forbidden": "Niet genoeg rechten om deze actie uit te voeren."
+        },
+        "tabs": {
+            "invoices": "Facturen",
+            "documents": "Documenten",
+            "employees": "Medewerkers",
+            "hirers": "Inleners",
+            "companyDetails": "Bedrijfsdetails",
+            "contactDetails": "Contactdetails",
+            "contacts": "Contacten",
+            "details": "Details",
+            "log": "Loggen",
+            "notes": "Opmerkingen",
+            "settings": "Instellingen",
+            "splitMargin": "Gesplitste marge",
+            "hourTypes": "Uurtypes",
+            "compensations": "Vergoedingen",
+            "travelTypes": "Reistypes",
+            "employments": "Tewerkstellingen",
+            "hours": "Uren",
+            "reservations": "Reserveringen",
+            "jobs": "Plaatsingen",
+            "wageAttachments": "Loonbeslagen",
+            "deductions": "Inhoudingen",
+            "projects": "Projecten",
+            "tariffs": "Tarieven",
+            "margins": "Marges",
+            "customers": "Klanten",
+            "user": "Gebruiker",
+            "subsidies": "Subsidies",
+            "freelancers": "Freelancers",
+            "functions": "Functies",
+            "enterpriseDetails": "Bedrijfsgegevens",
+            "modules": "Modules",
+            "matching": "Overeenstemmen",
+            "contracts": "Contracten"
+        },
+        "actions": {
+            "archive": "Archief",
+            "addRow": "Rij toevoegen",
+            "approve": "Goedkeuren",
+            "delete": "Verwijderen",
+            "next": "Volgende",
+            "previous": "Vorige",
+            "saveTranslations": "Vertalingen bewaren",
+            "sendInvitation": "Uitnodiging verzenden",
+            "skip": "Overslaan",
+            "confirm": "Bevestigen",
+            "edit": "Bewerken",
+            "new": "Nieuw",
+            "save": "Opslaan",
+            "cancel": "Annuleren",
+            "linkEnterprise": "Link naar onderneming",
+            "viewParentCompany": "Bekijk moederbedrijf",
+            "remove": "Verwijderen",
+            "add": "Toevoegen",
+            "refresh": "Opnieuw laden",
+            "selectAll": "Alles selecteren",
+            "deselectAll": "Alles deselecteren",
+            "invite": "Uitnodigen",
+            "create": "Aanmaken",
+            "upload": "Uploaden",
+            "unarchive": "Onarchiveren",
+            "addType": "Type toevoegen",
+            "clearFilters": "Wis filters",
+            "deleteSelected": "Geselecteerde verwijderen ({amount})",
+            "close": "Sluiten",
+            "downloadFormat": "Download formaat",
+            "submit": "Indienen",
+            "continue": "Doorgaan",
+            "impersonate": "Inloggen als",
+            "fill": "Invullen",
+            "copyToken": "Token kopiëren",
+            "actions": "Acties",
+            "editPermissions": "Machtigingen bewerken",
+            "detach": "losmaken",
+            "selectAllFromRole": "Selecteer alles van rol",
+            "calculate": "Berekenen",
+            "attach": "Bijvoegen",
+            "editUser": "Bewerk gebruiker",
+            "ok": "Ok",
+            "import": "Import",
+            "reset": "Reset",
+            "print": "Afdrukken",
+            "apply": "Toepassen",
+            "renew": "Vernieuwen",
+            "refreshPage": "Pagina verversen",
+            "setMainContact": "Hoofdcontact instellen",
+            "enableAll": "Alles inschakelen",
+            "disableAll": "Alles uitschakelen",
+            "view": "Bekijken"
+        },
+        "plurals": {
+            "month": "Geen maanden | {count} maand | {count} maanden",
+            "week": "Geen weken | {count} week | {count} weken",
+            "hour": "Geen uren | {count} uur | {count} uur",
+            "days": "Geen dag | {count} dag | {count} dagen",
+            "file": "Geen bestanden | {count} bestand | {count} files"
+        },
+        "messages": {
+            "overriddenValue": "Deze waarde wordt vervangen.",
+            "dataUniqueToEnterprise": "Deze gegevens zijn uniek voor de onderneming {enterpriseName}. Klik op {action} om deze gegevens te vervangen. Gegevens die niet overschreven zijn, worden overgenomen van de bovenliggende onderneming."
+        },
+        "tooltip": {
+            "copyToClipboard": "Kopieer naar klembord",
+            "pleaseFillAttribute": "Vul alstublieft \"{attribute}\" in"
+        }
+    },
+    "reservation": {
+        "static": {
+            "holidayHoursExtraLegal": "Vakantie-uren bovenwettelijk",
+            "workTimeReductionHours": "ATV/ADV-uren",
+            "holidayHoursLegal": "Vakantie-uren wettelijk",
+            "holidayPay": "Vakantiegeld",
+            "seniorDays": "Seniorendagen",
+            "timeForTime": "Tijd voor tijd",
+            "holidayHours": "Vakantie-uren",
+            "holidays": "Feestdagen",
+            "shortAbsence": "Kort verzuim",
+            "money": "Geld",
+            "time": "Tijd",
+            "reservation": "Reserveringen",
+            "updatedAt": "Bijgewerkt op",
+            "amount": "Hoeveelheid"
+        }
+    },
+    "hourType": {
+        "static": {
+            "name": "Naam",
+            "employeeHasHourTypeOverrides": "Werknemer heeft uurtype overschrijdingen",
+            "timeForTime": "Tijd voor tijd",
+            "value": "Waarde",
+            "unit": "Eenheid",
+            "employeesWithoutAccess": "Medewerkers zonder toegang",
+            "none": "Geen",
+            "employeesWithAccess": "Medewerkers met toegang",
+            "hourType": "Uurtype",
+            "saved": "Opgeslagen",
+            "default": "Standaarduren",
+            "deleted": "Verwijderd",
+            "caoSurcharges": "CAO-toeslag",
+            "timeForTimeDisabled": "TIjd voor Tijd uitgeschakeld",
+            "timeForTimeEnabled": "Tijd voor Tijd ingeschakeld",
+            "hint": "Hint",
+            "frequency": "Frequentie",
+            "type": "Type",
+            "defaultForNewEmployee": "Standaard voor nieuwe werknemer",
+            "defaultForNewEmployeeUpdated": "Standaard uurtypes voor nieuwe werknemer bijgewerkt",
+            "difference": "Verschil",
+            "actualNetSalary": "Werkelijk netto salaris",
+            "useDesiredNetSalary": "Gebruik gewenst netto salaris",
+            "hourTypes": "Uren types",
+            "desiredNetSalary": "Gewenst netto salaris",
+            "chargeTo": "In rekening brengen aan"
+        },
+        "actions": {
+            "grantAccessToAll": "Allen toegang verlenen",
+            "takeAccessFromAll": "Toegang van allen verwijderen",
+            "enableTimeForTimeForAll": "Tijd voor tijd voor allen inschakelen",
+            "disableTimeForTimeForAll": "Tijd voor tijd voor allen uitschakelen"
+        }
+    },
+    "compensation": {
+        "static": {
+            "isGross": "Is bruto",
+            "frequency": "Frequentie",
+            "caoCompensations": "CAO-vergoedingen",
+            "employeesWithoutAccess": "Werknemers zonder toegang",
+            "none": "Geen",
+            "employeesWithAccess": "Werknemers met toegang",
+            "employeeHasCompensationOverrides": "Werknemers heeft te weinig vergoedingen",
+            "name": "Naam",
+            "value": "Waarde",
+            "unit": "Eenheid",
+            "compensation": "Vergoeding",
+            "saved": "Opgeslagen",
+            "deleted": "Verwijderd",
+            "hint": "Hint",
+            "factor": "Factor",
+            "chargeTo": "Factureren aan",
+            "payOutEnabled": "Uitbetaling ingeschakeld",
+            "defaultForNewEmployeeUpdated": "Standaard compensaties voor nieuwe werknemer bijgewerkt",
+            "defaultForNewEmployee": "Standaard voor nieuwe werknemer",
+            "payslipPaymentsDesiredSalaryExplanation": "Bij het importeren van loonbetalingen creëert deze functie een vergoeding voor elke werknemer die een gewenst salaris heeft (gegeven in de tijdregistratie-import) dat hoger is dan de loonbetaling.",
+            "desiredSalaryCompensation": "Gewenste salariscompensatie",
+            "compensations": "Vergoedingen",
+            "checkDesiredSalaryOnPayslipPayments": "Gewenst salaris checken",
+            "noCompensations": "Geen vergoedingen",
+            "deviantFactor": "Afwijkende factor",
+            "salesRate": "Verkooptarief",
+            "compensationSaved": "De vergoedingen zijn opgeslagen.",
+            "enabledCompensationsRecalculatedInfo": "Bij het inschakelen van compensaties worden deze automatisch verrekend in eventuele openstaande tijdregistraties (indien er uren zijn geregistreerd).",
+            "gross": "Bruto",
+            "caoTravelExpenses": "CAO reiskosten",
+            "type": "Type"
+        },
+        "actions": {
+            "takeAccessFromAll": "Toegang verwijderen voor allen",
+            "grantAccessToAll": "Toegang verlenen aan allen",
+            "useDeviatingFactor": "Gebruik afwijkende factor",
+            "addSalesRate": "Voeg verkooptarief toe"
+        }
+    },
+    "deduction": {
+        "static": {
+            "certificateOfGoodBehavior": "Bewijs van goed gedrag",
+            "housing": "Huisvesting",
+            "personalContributionForTransport": "Persoonlijke bijdrage voor vervoer",
+            "advance": "Voorschot",
+            "penalty": "Boete",
+            "workingClothesWorkingShoes": "Werkkleding werkschoenen",
+            "eduction": "Opleiding",
+            "housingExtra": "Extra huisvesting",
+            "advanceExtra": "Extra voorschot",
+            "healthInsurance": "Ziektekostenverzekering",
+            "healthInsuranceExtra": "Extra ziektekostenverzekering",
+            "mealAllowance": "Maaltijd vergoeding",
+            "personnelAssociation": "Personeelsvereniging",
+            "bedding": "Bedlinnen"
+        }
+    },
+    "menu": {
+        "actions": {
+            "employees": "Medewerkers",
+            "hirers": "Inleners",
+            "dashboard": "Dashboard",
+            "employmentAgencies": "Uitzendbureaus",
+            "functions": "Functies",
+            "settings": "Instellingen",
+            "timeRegistration": "Tijdregistratie",
+            "invoices": "Facturen",
+            "exports": "Exports",
+            "leaveImpersonation": "Verlaat log in als",
+            "imports": "Imports",
+            "freelancers": "Freelancers",
+            "logout": "Uitloggen",
+            "documents": "Documenten",
+            "language": "Taal",
+            "sickReports": "Verzuimmeldingen",
+            "outOfService": "Uit dienst",
+            "account": "Account",
+            "payslips": "Loonstroken",
+            "proFormaPayslip": "Proforma loonstrook",
+            "resellers": "Reseller",
+            "leaveOfAbsence": "Verlof"
+        }
+    },
+    "timeRegistration": {
+        "static": {
+            "from": "Van",
+            "compensations": "Vergoedingen",
+            "deleteKilometersConfirmationText": "Weet u zeker dat u dit wilt verwijderen?",
+            "invoiceAlreadySaved": "Deze factuur werd al bewaard.",
+            "week": "Week",
+            "compensationDescriptiveText": "Vergoeding beschrijvingstekst...",
+            "amount": "Bedrag",
+            "hours": "Uren",
+            "project": "Project",
+            "location": "Locatie",
+            "notes": "Opmerkingen",
+            "payOut": "Uitbetalen",
+            "hourType": "Uur type",
+            "date": "Datum",
+            "to": "Tot",
+            "kilometers": "Kilometers",
+            "reservationDescriptiveText": "Reservering beschrijvingstekst...",
+            "reservation": "Reservering",
+            "currentState": "Huidige staat",
+            "newState": "Nieuwe staat",
+            "reservations": "Reserveringen",
+            "chargeTo": "Factureren aan",
+            "maxDistance": "Max afstand",
+            "deductionDescriptiveText": "Inhouding beschrijvingstekst...",
+            "deduction": "Inhouding",
+            "deductionAttachment": "Inhouding bijlage",
+            "deductionAmount": "Inhouding bedrag",
+            "selectADeduction": "Selecteer een inhouding",
+            "uploadDeductionAttachment": "Upload de bijlage van inhouding",
+            "attachmentNotRequired": "Bijlage niet verplicht",
+            "deductions": "Inhoudingen",
+            "travelType": "Reistype",
+            "invoiceCreated": "Factuur aangemaakt",
+            "compensation": "Vergoedingen",
+            "deployed": "Ingezet",
+            "staff": "Werknemers",
+            "companies": "Bedrijven",
+            "function": "Functie",
+            "freelancers": "Freelancers",
+            "invoicingFailed": "Het lukte ons niet de facturen aan te maken.",
+            "status": "Status",
+            "employmentIsInactiveText": "Deze tewerkstelling is niet actief in de geselecteerde periode.",
+            "jobIsInactiveText": "Deze plaatsing is niet actief in de geselecteerde periode.",
+            "unlocked": "De periode is ontgrendeld.",
+            "unlockFailed": "Er is een fout opgetreden bij het ontgrendelen van de periode.",
+            "hourInfoText": "Vergoedingen en inhoudingen worden automatisch herberekend na het schrijven of aanpassen van uren.",
+            "deleteTimeRegistrationConfirmationText": "De tijdregistratie wordt verwijderd.",
+            "downloadFormatFailed": "Kan het bestand niet maken.",
+            "validationFailed": "Verificatie mislukt",
+            "importSuccessful": "Succesvol geïmporteerd",
+            "importStarted": "Het importeren is gestart. Afhankelijk van de grootte kan het enkele minuten duren om te voltooien.",
+            "deleteTimeRegistrationsConfirmationText": "Weet je zeker dat je de geselecteerde tijdregistraties wilt verwijderen?",
+            "shouldNotSendWithInvoice": "Niet verzenden met factuur",
+            "timeRegistrationsDeleted": "De tijdregistraties zijn verwijderd.",
+            "compensationDeleted": "De vergoeding is verwijderd.",
+            "hourDeleted": "De uren zijn verwijderd.",
+            "copyFailed": "We kunnen de rij niet kopiëren.",
+            "travelSaved": "De reis is opgeslagen.",
+            "travelDeleted": "De reis is verwijderd.",
+            "returnTravelSaved": "De terugreis is opgeslagen.",
+            "travelDuplicated": "De reis is gekopieerd.",
+            "creatingInvoicesInfo": "De facturen zijn gepland om te worden gemaakt.",
+            "creatingInvoicesStatusText": "De facturen worden aangemaakt. Zodra dit proces is voltooid, kunnen de facturen hier worden bekeken.",
+            "noOutstandingTimeRegistrationsFound": "Geen openstaande tijdregistraties gevonden.",
+            "autoCalculateDeductionsInfo": "Als deze optie is ingeschakeld, worden openstaande inhoudingen automatisch opnieuw berekend bij het registreren van uren of het genereren van facturen.",
+            "noRegistrationsFound": "Geen registraties gevonden.",
+            "someHoursNotCopied": "Sommige uurregistraties konden niet worden gekopieerd vanwege een ontbrekend uurtype.",
+            "hoursCopied": "De uren zijn gekopieerd.",
+            "someTravelsNotCopied": "Sommige reisregistraties konden niet worden gekopieerd vanwege een ontbrekend reistype.",
+            "travelsCopied": "De reizen zijn gekopieerd.",
+            "import": "Import"
+        },
+        "actions": {
+            "copyPreviousPeriod": "Kopieer vorige periode",
+            "cao": "CAO",
+            "duplicateReturnTravel": "Terugreis",
+            "duplicateKilometerRow": "Rij kopiëren",
+            "editHours": "Uren bewerken",
+            "addRow": "Rij toevoegen",
+            "uploadKilometerAccountability": "Berekening kilometers uploaden",
+            "invoice": "Factuur",
+            "correction": "Correctie",
+            "saveInvoice": "Factuur opslaan",
+            "receipts": "Kwitanties",
+            "uploadAttachments": "Bijlagen uploaden",
+            "deployed": "Ingezet",
+            "staff": "Personeel",
+            "add": "Toevoegen",
+            "closePeriod": "Periode afsluiten",
+            "unlock": "Ontgrendelen",
+            "autoCalculate": "Automatisch berekenen",
+            "viewHours": "Bekijk uren",
+            "previewInvoice": "Voorbeeld factuur",
+            "viewInvoice": "Bekijk factuur",
+            "generateInvoice": "Factuur genereren",
+            "deleteInvoice": "Factuur verwijderen",
+            "downloadFormat": "Bestand downloaden",
+            "createTimeRegistration": "Tijdregistratie aanmaken",
+            "saveInvoices": "Bewaar facturen",
+            "selectLockable": "Selecteer alles",
+            "deselectAll": "Deselecteer alles",
+            "copyFromFreelancer": "Kopiëren van een andere freelancer",
+            "copyFromEmployee": "Kopiëren van een andere medewerker",
+            "upload": "Uploaden",
+            "import": "Import",
+            "excel": "Excel",
+            "activityLog": "Open activiteiten logboek"
+        },
+        "tabs": {
+            "hours": "Uren",
+            "kilometers": "Kilometers",
+            "compensations": "Vergoedingen",
+            "reservations": "Reserveringen",
+            "deductions": "Inhoudingen"
+        },
+        "validation": {
+            "notAllowedToEditHours": "Geen toestemming om uren te bewerken"
+        }
+    },
+    "language": {
+        "static": {
+            "default": "Standaard"
+        },
+        "actions": {
+            "select": "Selecteer"
+        }
+    },
+    "settings": {
+        "pages": {
+            "factoringCompanies": "Factoringmaatschappijen",
+            "documents": "Documenten",
+            "enterprises": "Ondernemingen",
+            "webhooks": "Webhooks",
+            "users": "Gebruikers",
+            "personalAccessTokens": "Persoonlijke toegangstokens",
+            "roles": "Rollen",
+            "subsidyCompanies": "Subsidie bedrijven",
+            "settings": "Instellingen",
+            "notifications": "Notificaties",
+            "teams": "Teams"
+        },
+        "static": {
+            "preferenceOrderSaved": "Voorkeur volgorde opgeslagen."
+        }
+    },
+    "documentTemplates": {
+        "static": {
+            "default": "Standaard",
+            "noTranslations": "Geen vertalingen",
+            "deleteConfirmationText": "Weet u zeker dat u deze documentsjabloon wilt verwijderen?",
+            "deleteVariableConfirmationText": "Weet u zeker dat u deze documentvariabele wilt verwijderen?",
+            "deleteSharedDocumentTemplate": "Weet u zeker dat u deze documentsjabloon niet meer wilt gebruiken?",
+            "kiwaDeclarationOfEmployment": "Kiwa Verklaring Tewerkstelling",
+            "clean": "Schoon",
+            "vcuA1": "VCU A1",
+            "vcuD1": "VCU D1",
+            "vcuD3": "VCU D3",
+            "vcuD6": "VCU D6",
+            "vcuD8": "VCU D8",
+            "vcuD9": "VCU D9",
+            "vcuD10": "VCU D10",
+            "vcuD12": "VCU D12",
+            "vcuD11": "VCU D11",
+            "vcuD13": "VCU D13",
+            "vcuD14": "VCU D14"
+        },
+        "actions": {
+            "copyToCurrentEnterprise": "Kopiëren naar huidige onderneming",
+            "addSharedDocumentTemplate": "Sjabloon voor gedeeld document toevoegen"
+        }
+    },
+    "enum": {
+        "gender": {
+            "male": "Mannelijk",
+            "female": "Vrouwelijk",
+            "other": "Ander",
+            "nonBinary": "Non-binary"
+        },
+        "identityType": {
+            "diplomaticPassport": "Diplomatisch paspoort",
+            "passportEeaCountry": "Paspoort EER-land",
+            "alienIdentityCard": "Vreemdelingenkaart",
+            "alienPassport": "Vreemdelingenpaspoort",
+            "dutchIdentityCard": "Nederlandse identiteitskaart",
+            "dutchMunicipalitiesIdentityCard": "Nederlandse gemeenten identiteitskaart",
+            "dutchPassport": "Nederlands paspoort",
+            "none": "Geen",
+            "passportNonEeaCountry": "Paspoort niet-EER-land",
+            "refugeePassport": "Vluchtelingenpaspoort",
+            "residenceDocuments": "Verblijfsdocumenten",
+            "servicePassport": "Dienstpaspoort"
+        },
+        "maritalStatus": {
+            "livingTogetherWithoutContract": "Samenwonend",
+            "divorced": "Gescheiden",
+            "livingTogetherWithContract": "Samenlevingscontract",
+            "married": "Getrouwd",
+            "registeredPartnership": "Geregistreerd partnerschap",
+            "unmarried": "Ongetrouwd",
+            "widowhood": "Weduwe/Weduwnaar"
+        },
+        "contractPhase": {
+            "phase1And2": "Fase 1/2 (A)",
+            "phase3": "Fase 3 (B)",
+            "phase4": "Fase 4 (C)"
+        },
+        "employeeType": {
+            "normal": "Normaal",
+            "payroll": "Payroll",
+            "temporary": "Uitzend",
+            "other": "Ander",
+            "a1": "A1"
+        },
+        "vatTariff": {
+            "shifted": "Verlegd",
+            "exempt": "Vrijstellen"
+        },
+        "fieldType": {
+            "text": "Tekst",
+            "textArea": "Tekstgebied",
+            "hirerHourType": "Inlener uur type",
+            "checkbox": "Selectievakje",
+            "money": "Geld",
+            "datePicker": "Datumkiezer",
+            "button": "Knop",
+            "table": "Tabel"
+        },
+        "subsidyType": {
+            "none": "Geen",
+            "targetJobAgreement": "Doelgroep arbeidsovereenkomst en mensen met leerproblemen",
+            "hiringDisabledEmployee": "Het aannemen van een gehandicapte werknemer",
+            "reassigningDisabledEmployee": "Herplaatsing van een arbeidsongeschikte werknemer"
+        },
+        "enterpriseAssessmentQuestionType": {
+            "closedAnswer": "Ja/Nee",
+            "longAnswer": "Tekstveld",
+            "multiChoiceAnswer": "Meervoudige selectie",
+            "shortAnswer": "Tekstregel"
+        }
+    },
+    "stippPlanType": {
+        "static": {
+            "basic": "Basis",
+            "plus": "Plus"
+        }
+    },
+    "travelType": {
+        "static": {
+            "employeeHasTravelTypeOverrides": "Werknemer heeft reistype overschrijdingen",
+            "name": "Naam",
+            "hint": "Hint",
+            "value": "Waarde",
+            "unit": "Eenheid",
+            "gross": "Bruto",
+            "net": "Netto",
+            "employeesWithoutAccess": "Werknemers zonder toegang",
+            "none": "Geen",
+            "employeesWithAccess": "Werknemers met toegang",
+            "travelType": "Reistype",
+            "saved": "Bewaard",
+            "deleted": "Verwijderd",
+            "caoTravelExpenses": "CAO-reiskosten",
+            "default": "Standaard",
+            "defaultForNewEmployee": "Standaard voor nieuwe werknemer",
+            "defaultForNewEmployeeUpdated": "Standaard reistypes voor nieuwe werknemer bijgewerkt",
+            "noTravels": "Geen reizen",
+            "chargeTo": "In rekening brengen aan",
+            "travelTypes": "Soorten vervoer",
+            "type": "Type"
+        },
+        "actions": {
+            "grantAccessToAll": "Toegang verlenen aan allen",
+            "takeAccessFromAll": "Toegang verwijderen bij allen"
+        }
+    },
+    "emails": {
+        "editor": {
+            "invitationLink": "Uitnodigingslink"
+        }
+    },
+    "invoice": {
+        "static": {
+            "costsOverview": "Kostenoverzicht",
+            "ipAddress": "IP-adres",
+            "gAccount": "G-rekening",
+            "number": "Nummer",
+            "period": "Periode",
+            "salesInvoice": "Verkoopfactuur",
+            "marginInvoice": "Margefactuur",
+            "deductionsOverview": "Overzicht inhoudingen",
+            "salesInvoices": "Verkoopsfacturen",
+            "marginInvoices": "Marge facturen",
+            "searchInvoices": "Zoek facturen",
+            "payments": "Betalingen",
+            "noPaymentsFound": "Geen betalingen gevonden",
+            "addPayment": "Betaling toevoegen",
+            "log": "Logboek",
+            "total": "Totaal",
+            "invoice": "Factuur",
+            "info": "Info",
+            "totalPaid": "Totaal betaald",
+            "createdAt": "Aangemaakt op",
+            "deductions": "Inhoudingen",
+            "description": "Omschrijving",
+            "billedAt": "Gefactureerd op",
+            "download": "Downloaden",
+            "files": "Bestanden",
+            "createdBy": "Aangemaakt door",
+            "gAccountPaid": "G-rekening betaald",
+            "pending": "In afwachting",
+            "queued": "In wachtrij",
+            "billed": "Gefactureerd",
+            "paid": "Betaald",
+            "sendAt": "Verzonden op",
+            "paidAt": "Betaald op",
+            "invoiceWillBeBilled": "De facturen voor deze periode zullen binnenkort worden gefactureerd.",
+            "invoiceWillBeSent": "De factuur zal worden verzonden.",
+            "sales": "Verkoop",
+            "costs": "Kosten",
+            "margin": "Marge",
+            "freelancerInvoice": "Factuur freelancer",
+            "freelancer": "Freelancer",
+            "agreedWork": "overeengekomen werk",
+            "agreedWorkInvoice": "Factuur voor overeengekomen werk",
+            "extraInvoice": "Extra factuur",
+            "creditInvoice": "Creditnota",
+            "hideEmail": "E-mail verbergen",
+            "rows": "Rijen",
+            "attachments": "Bijlagen",
+            "invoiceDate": "Factuurdatum",
+            "preview": "Voorbeeld",
+            "customInvoice": "Factuurmodule",
+            "customCostsOverview": "Kostenoverzicht",
+            "customCosts": "Aangepaste kosten",
+            "remuneration": "Vergoeding",
+            "custom": "Aangepast",
+            "deleteInvoiceText": "Weet u zeker dat u deze factuur wilt verwijderen?",
+            "newItem": "Nieuw item",
+            "amount": "Hoeveelheid",
+            "unitPrice": "Eenheid prijs",
+            "items": "Artikelen",
+            "confirmTypeChangeText": "Eventuele bestaande factuuritems worden verwijderd. Weet u zeker dat u het type wilt wijzigen?",
+            "makeMargin": "Maak marge",
+            "vat": "BTW",
+            "employee": "Medewerker",
+            "deduction": "Inhouding",
+            "exportDescriptiveText": "Er kunnen maximaal {count} facturen tegelijk worden geëxporteerd. Alle filters die in het zoekvak zijn opgegeven, worden gebruikt om het aantal facturen in de export te beperken.",
+            "exportInvalidText": "Te veel facturen geselecteerd, beperk het aantal facturen door gebruik te maken van bovenstaande filters.",
+            "item": "Artikel",
+            "billing": "Facturering",
+            "relatedInvoices": "Gerelateerde facturen",
+            "resellerMarginInvoice": "Margefactuur reseller",
+            "resellerMargin": "Reseller marge",
+            "customInvoiceItemVatNotDefaultConfirmationText": "Weet u zeker dat u een ander btw-tarief wilt hanteren?",
+            "exports": "Exports"
+        },
+        "actions": {
+            "addPayment": "Betaling toevoegen",
+            "download": "Downloaden",
+            "billNow": "Nu factureren",
+            "sendNow": "Nu verzenden",
+            "create": "Aanmaken",
+            "addToQueue": "Toevoegen aan wachtrij",
+            "preview": "Voorbeeld",
+            "createExport": "{count} facturen exporteren",
+            "downloadAll": "Download alles",
+            "billSelected": "Geselecteerde facturen factureren",
+            "selectBillable": "Selecteer factureerbaar",
+            "deselectAll": "Deselecteer alles"
+        },
+        "filter": {
+            "from": "Van",
+            "to": "Naar",
+            "type": "Type",
+            "queuedOnly": "Alleen in de wachtrij",
+            "outstandingOnly": "Alleen uitstaande",
+            "until": "Tot"
+        }
+    },
+    "factoring": {
+        "static": {
+            "deleteFactoringCompanyConfirmationText": "Weet u zeker dat u deze factoringmaatschappij wilt verwijderen?",
+            "factoringCompany": "Factoringmaatschappij",
+            "details": "Details",
+            "cessionText": "Sessie tekst",
+            "impact": "Impact",
+            "factris": "Factris",
+            "type": "Type",
+            "sendInvoice": "Facturen verzenden?",
+            "nlCredit": "NL-Credit",
+            "typeInfo": "Het type bepaalt welk formaat de exports zullen hebben.",
+            "flowFactoring": "Flow factoring"
+        }
+    },
+    "exports": {
+        "static": {
+            "deleteExportConfirmationText": "Dit zal de export verwijderen.",
+            "notStarted": "Niet gestart",
+            "queued": "In de rij",
+            "running": "In uitvoering",
+            "completed": "Voltooid",
+            "cancelled": "Geannuleerd",
+            "failed": "Mislukt",
+            "factoringCompanyExport": "Factoringmaatschappij export",
+            "options": "Opties",
+            "exports": "Export",
+            "generatedAt": "Aangemaakt op",
+            "deleteInvoiceConfirmationText": "Dit zal alle gerelateerde facturen verwijderen en de tijdregistratie voor deze periode deblokkeren.",
+            "payOutInfo": "De naam van de export zal dezelfde zijn als de hoogst geselecteerde periode. Alle geselecteerde registraties in lagere periodes zullen in aparte bestanden worden geëxporteerd. Eventuele openstaande facturen zullen worden gefactureerd.",
+            "marginAndDeductionsExport": "Marges & inhoudingen export",
+            "export": "Export",
+            "periods": "Perioden",
+            "total": "Totaal",
+            "exportSuccessful": "Export succesvol",
+            "deleteSepaOverviewExportConfirmationText": "De export wordt verwijderd en de betalingsstatus voor elke factuur in deze export wordt opnieuw ingesteld.",
+            "selectedInvoices": "U heeft {count} facturen geselecteerd.",
+            "payOutExport": "Verloning export",
+            "noRegistrationsFound": "Geen registraties gevonden.",
+            "deletePayOutExportConfirmationText": "De export zal worden gewist en alle registraties in deze export zullen weer exporteerbaar worden.",
+            "registrations": "Registraties",
+            "noInvoicesFound": "Geen facturen gevonden.",
+            "deductionsDocumentNotSigned": "Inhoudingsdocumenten niet ondertekend.",
+            "employeesExport": "Werknemers export",
+            "deleteWageAttachmentConfirmationText": "Het loonbeslag zal worden gewist.",
+            "unarchiveEmploymentAgencyConfirmationText": "Weet u zeker dat u dit uitzendbureau wilt onarchiveren?",
+            "archiveEmploymentAgencyConfirmationText": "Weet u zeker dat u dit uitzendbureau wilt archiveren?",
+            "archiveHirerConfirmationText": "Weet u zeker dat u deze huurder wilt archiveren?",
+            "deleteCompensationConfirmationText": "Weet u zeker dat u deze compensatie wilt verwijderen?",
+            "deleteHourTypeConfirmationText": "Weet u zeker dat u dit uurtype wilt verwijderen?",
+            "deleteTravelTypeConfirmationText": "Weet u zeker dat u dit reistype wilt verwijderen?",
+            "missingDocumentsForPayOutExport": "Ontbrekende ondertekende documenten",
+            "unarchiveHirerConfirmationText": "Weet u zeker dat u deze huurder wilt onarchiveren?",
+            "accountingSoftwareExport": "Boekhoudexport",
+            "marginOverview": "Marge overzicht",
+            "marginOverviewExport": "Marge overzicht exporteren",
+            "saveInvoiceConfirmationText": "De facturen worden bewaard en de periode wordt vergrendeld.",
+            "invoice": "Factuur",
+            "freelancersPayoutExport": "Uitbetalingen voor freelancers",
+            "editExport": "Export bewerken",
+            "newEmployees": "Nieuwe werknemers",
+            "markAllAsChanged": "Alles markeren als gewijzigd",
+            "changedEmployees": "Gewijzigde medewerkers",
+            "markAllAsNew": "Alles markeren als nieuw",
+            "addEmployee": "Werknemer toevoegen",
+            "unexportedHealhInsuranceCount": "{count} niet-geëxporteerde zorgverzekeringen.",
+            "exportHealhInsuranceRemainder": "Niet-geëxporteerde zorgverzekeringen exporteren",
+            "healthInsuranceExport": "Zorgverzekering export",
+            "doNotExport": "Niet exporteren",
+            "doExport": "Exporteren",
+            "markAllAsDoNotExport": "Alles markeren als niet exporteren",
+            "markAllAsDoExport": "Alles markeren als exporteren",
+            "exported": "Geëxporteerd",
+            "archiveResellerConfirmationText": "Weet u zeker dat u deze reseller wilt archiveren?",
+            "unarchiveResellerConfirmationText": "Weet u zeker dat u deze reseller uit het archief wilt halen?",
+            "resellerMarginsExport": "Resellermarges exporteren",
+            "historicalPayOutExport": "Historische uitbetaling export",
+            "historicalPayOutInfo": "Voor elke geselecteerde tijdregistratie worden exports gemaakt. De normale uitbetalingsregels zijn van toepassing, behalve dat er geen reserveringsopbouw wordt berekend.",
+            "hollandZorg": "HollandZorg",
+            "mijnSubsidie": "MijnSubsidie",
+            "mijnSubsidieExport": "MijnSubsidie export",
+            "deleteFunctionConfirmationText": "Weet je zeker dat je de functie wilt verwijderen?",
+            "a1PayOutExport": "A1 uitbetaling export",
+            "a1EmployeesExport": "A1 werknemers exporteren"
+        },
+        "pages": {
+            "factoringCompany": "Factoringmaatschappij",
+            "marginAndDeductions": "Marges & inhoudingen",
+            "payOutExport": "Verloning export",
+            "employeesExport": "Werknemers export",
+            "accountingSoftwareExport": "Boekhoudexport",
+            "marginOverviewExport": "Marge overzicht exporteren",
+            "freelancersPayout": "Uitbetaling voor freelancers",
+            "resellerMargins": "Reseller marges",
+            "hollandZorgExport": "HollandZorg Export",
+            "mijnSubsidieExport": "MijnSubsidie export"
+        },
+        "actions": {
+            "refresh": "Vernieuwen",
+            "selectAll": "Alles selecteren",
+            "clearSelection": "Selectie  opheffen",
+            "generate": "Genereren",
+            "selectPeriod": "Periode selecteren",
+            "exactDate": "Precieze datum",
+            "timePeriod": "Tijdsperiode",
+            "showOldExports": "Toon oude exports"
+        },
+        "payOut": {
+            "static": {
+                "notExportedEmployeesInfo": "Enkele negatieve uren van deze medewerkers konden niet geëxporteerd worden:",
+                "skipNonExportableValidation": "Validatie van ontbrekende documenten overslaan"
+            },
+            "actions": {
+                "historical": "Historisch"
+            }
+        },
+        "employees": {
+            "static": {
+                "createFreshExportInfo": "Wanneer de optie 'verse export' is ingeschakeld, worden alle momenteel actieve medewerkers meegenomen in de export.",
+                "createFreshExport": "Verse export"
+            }
+        }
+    },
+    "fieldTypes": {
+        "static": {
+            "checkbox": "Selectievakje",
+            "multiSelect": "Meerkeuze",
+            "noOptions": "Geen opties",
+            "radioButton": "Radioknop",
+            "select": "Selecteer",
+            "textField": "Tekstveld"
+        }
+    },
+    "validation": {
+        "errors": {
+            "checkForm": "Gelieve het formulier te controleren op fouten",
+            "addressInvalid": "We kunnen dit adres niet vinden.",
+            "alternativeAddress": "We kunnen dit adres niet vinden, bedoel je {address}?",
+            "valueDuplicated": "De ingevoerde waarde wordt gedupliceerd."
+        },
+        "static": {
+            "required": "Dit veld is verplicht",
+            "unableToDeleteItem": "Kan item niet verwijderen"
+        }
+    },
+    "api": {
+        "kvk": {
+            "static": {
+                "apiOffline": "KVK Api is offline",
+                "companyInfoSuccessfullyFilled": "Bedrijfsinfo succesvol ingevuld"
+            },
+            "validation": {
+                "errors": {
+                    "cocNotFound": "Kamer van Koophandel nummer niet gevonden."
+                }
+            }
+        },
+        "creditsafe": {
+            "static": {
+                "apiOffline": "Credit safe API is offline."
+            },
+            "validation": {
+                "errors": {
+                    "companyNotFound": "Bedrijf niet gevonden"
+                }
+            }
+        }
+    },
+    "role": {
+        "static": {
+            "hirer": "Inlener",
+            "administrator": "Administrator",
+            "employee": "Werknemer",
+            "employmentAgency": "Uitzendbureau",
+            "freelancer": "Freelancer",
+            "superAdministrator": "Super-admin",
+            "deleteRoleText": "Weet u zeker dat u deze rol wilt verwijderen?",
+            "roleDeleted": "De rol is verwijderd.",
+            "caseManager": "Case manager"
+        }
+    },
+    "hourTypes": {
+        "actions": {
+            "edit": "Bewerken"
+        }
+    },
+    "documentSubjectType": {
+        "static": {
+            "hirer": "Inlener",
+            "employment": "Tewerkstelling",
+            "employmentAgency": "Uitzendbureau",
+            "factoringCompany": "Factoringmaatschappij",
+            "freelancerJob": "Freelancer job",
+            "employee": "Werknemer",
+            "enterprise": "Onderneming",
+            "freelancer": "Freelancer",
+            "employeeContract": "Werknemerscontract",
+            "caseManager": "Casemanager"
+        }
+    },
+    "enterprises": {
+        "static": {
+            "enterprise": "Onderneming",
+            "details": "Details",
+            "standardDocuments": "Standaard documenten",
+            "standardDocumentUpdateSuccess": "Standaard document met succes bijgewerkt.",
+            "shouldNotifyCustomers": "Moet klanten op de hoogte brengen",
+            "noFileUploaded": "Nog geen bestand geupload.",
+            "uploadNewFile": "Nieuw bestand uploaden",
+            "deleteStandardDocumentConfirmationText": "Weet u zeker dat u dit standaarddocument wilt verwijderen?",
+            "payOutEnterpriseInfo": "Het uitbetalingsbedrijf kan worden overschreven door een uitbetalingsbedrijf te selecteren voor de werknemer of inlener.",
+            "canHaveJobsInfo": "Als deze optie is uitgeschakeld, kunnen er geen arbeidsovereenkomsten of freelancerbanen worden aangemaakt voor inleners die aan deze onderneming zijn gekoppeld.",
+            "canBeInvoicedInfo": "Als deze optie is ingeschakeld, is deze onderneming beschikbaar bij het aanmaken van een nieuwe inlener als uitzendbureau."
+        }
+    },
+    "documentStatus": {
+        "static": {
+            "created": "Aangemaakt",
+            "pending": "In afwachting",
+            "declined": "Afgewezen",
+            "expired": "Vervallen",
+            "completed": "Voltooid"
+        }
+    },
+    "documentType": {
+        "static": {
+            "pdf": "PDF",
+            "template": "Template",
+            "view": "Bekijken",
+            "upload": "Uploaden"
+        }
+    },
+    "permission": {
+        "action": {
+            "create": "Aanmaken",
+            "delete": "Verwijderen",
+            "update": "Updaten",
+            "view": "Bekijken"
+        }
+    },
+    "document": {
+        "static": {
+            "selectSubjects": "Selecteer onderwerpen",
+            "selectSubjectsForSignedFileText": "Selecteer alle onderwerpen waarnaar u het ondertekende bestand wilt sturen.",
+            "log": "Log",
+            "selectSubjectsForSignRequestsText": "Selecteer alle onderwerpen waarnaar u een verzoek voor ondertekening wilt sturen.",
+            "sendSignRequestsConfirmationText": "De volgende onderwerpen krijgen een verzoek voor ondertekening.",
+            "selectSubjectsForCompletedFileText": "Selecteer alle onderwerpen waarnaar u het voltooide bestand wilt verzenden.",
+            "generatorSubjectShouldSignExplanation": "De volgende onderwerpen krijgen een tekenverzoek.",
+            "generatorSubjectSendAfterCompletionExplanation": "De volgende onderwerpen ontvangen het document als het klaar is.",
+            "subjectSaved": "Het onderwerp is opgeslagen.",
+            "subjectDeleted": "Het onderwerp is verwijderd."
+        }
+    },
+    "employment": {
+        "static": {
+            "payOutPreferences": "Betaalvoorkeuren",
+            "salesRate": "Omzet",
+            "startDate": "Begindatum",
+            "endDate": "Einddatum",
+            "function": "Functie",
+            "scale": "Schaal",
+            "factor": "Factor",
+            "grossSalary": "Bruto loon",
+            "includeExtraDays": "Reken atv/adv dagen mee in het salaris",
+            "deleteSuccess": "Het dienstverband is verwijderd.",
+            "deleteFailed": "Kan dienstverband niet verwijderen.",
+            "deleteConfirmationText": "Weet u zeker dat u dit dienstverband wilt verwijderen?",
+            "workdaysAndTimes": "Werkdagen en tijden",
+            "emptyFunctionSalesRateConfirmationText": "Alle functies hebben een leeg verkooptarief.",
+            "missingRequiredAttributesConfirmText": "Het dienstverband kan nog niet ter goedkeuring worden voorgelegd omdat enkele vereiste velden niet zijn ingevuld.",
+            "submitForApprovalConfirmText": "Het dienstverband wordt ter goedkeuring voorgelegd.",
+            "caoFunction": "CAO-functie",
+            "hirerFunction": "Inlener functie",
+            "employmentsApproved": "De aanstellingen worden goedgekeurd.",
+            "notSameDatesAsContractConfirmationText": "De begindatum van het dienstverband {employmentStartDate} en/of einddatum {employmentEndDate} zijn niet dezelfde als de begindatum van het contract {contractStartDate} en/of einddatum {contractEndDate}.",
+            "period": "Periode",
+            "hourTypes": "Urensoorten",
+            "hourTypesSaved": "De urensoorten zijn gewijzigd.",
+            "travelTypesSaved": "Reissoorten zijn opgeslagen.",
+            "compensationsSaved": "De compensaties zijn opgeslagen.",
+            "addHirerFunction": "Functie inlener toevoegen",
+            "compensations": "Compensaties",
+            "travelTypes": "Reissoorten",
+            "addHirerFunctionInfo": "Er wordt een nieuwe functie toegevoegd aan de inlener. Andere werkgevers zullen deze functie ook kunnen gebruiken."
+        },
+        "messages": {
+            "wizardPreviousEmploymentExplanation": "De vorige tewerkstelling wordt gebruikt als basis voor deze nieuwe tewerkstelling."
+        },
+        "actions": {
+            "addFunction": "Functie toevoegen",
+            "createNext": "Volgende aanmaken",
+            "goToEmployment": "Ga naar tewerkstelling",
+            "addTravelType": "Reissoort toevoegen",
+            "addHourType": "Urensoort toevoegen"
+        }
+    },
+    "imports": {
+        "static": {
+            "payslipsPayments": "Loonbetalingen",
+            "notStarted": "Niet gestart",
+            "queued": "In de wachtrij",
+            "running": "In uitvoering",
+            "completed": "Voltooid",
+            "cancelled": "Geannuleerd",
+            "failed": "Mislukt",
+            "payslips": "Loonstroken import",
+            "upload": "Uploaden",
+            "imports": "Imports",
+            "payslipsImported": "Geïmporteerde loonstroken",
+            "log": "Log",
+            "importedAt": "Geïmporteerd op",
+            "payslipsImport": "Import loonstrookjes",
+            "bankImport": "Bank import",
+            "imported": "Geïmporteerd",
+            "employee": "Werknemer",
+            "total": "Totaal",
+            "iban": "IBAN",
+            "payments": "Loonbetalingen import",
+            "reservations": "Reserveringen import",
+            "reservationsImported": "Reserveringen geïmporteerd",
+            "reservationsImport": "Reserveringen import",
+            "annualStatements": "Jaaropgaven",
+            "annualStatementsImported": "Jaaropgaven geïmporteerd",
+            "annualStatementsImport": "Jaaropgaven importeren",
+            "dispatched": "Afgeleverd",
+            "sendAfterCompletion": "Verzenden na voltooiing",
+            "outstandingDesiredSalaryCheck": "Sommige uitbetalingen komen niet overeen met het gewenste salaris:",
+            "timeRegistration": "Tijdregistratie",
+            "desiredSalaryCheck": "Gewenst salaris checken",
+            "payslipPaymentsCreateCompensations": "Vergoedingen aanmaken",
+            "outstandingDesiredSalaryCompensationsCreated": "De vergoedingen worden aangemaakt.",
+            "payslipsPaymentsPeriodText": "Als een periode en/of correctie is geselecteerd, worden alle betalingen in de PDF in die periode geïmporteerd. Als er geen periode is geselecteerd, wordt het periodenummer in de PDF gebruikt.",
+            "entity": "Entiteit",
+            "deleteBankImportConfirmationText": "Weet u zeker dat u deze import wilt verwijderen? Alle betalingen worden ongedaan gemaakt."
+        },
+        "pages": {
+            "payslips": "Loonstroken import",
+            "bankImport": "Bank import",
+            "payments": "Loonbetalingen",
+            "reservations": "Reserveringen import",
+            "annualStatements": "Jaaropgaven"
+        },
+        "actions": {
+            "upload": "Uploaden",
+            "refresh": "Vernieuwen"
+        }
+    },
+    "freelancerJob": {
+        "static": {
+            "compensation": "Compensatie",
+            "activities": "Activiteiten",
+            "startDate": "Begindatum",
+            "endDate": "Einddatum",
+            "hourlyRate": "Uurloon",
+            "salesRate": "Omzet",
+            "margin": "Marge",
+            "hourType": "Uurtype",
+            "name": "Naam",
+            "travelType": "Reistype",
+            "rate": "Loon",
+            "deleteSuccess": "De taak is verwijderd.",
+            "deleteFailed": "Kan taak niet verwijderen.",
+            "deleteConfirmationText": "Weet u zeker dat u deze taak wilt verwijderen?",
+            "hourTypeMarginInfo": "Door deze waarde in te vullen, wordt de tarieftabel genegeerd.",
+            "deviatingMargin": "Afwijkende marge",
+            "notMinimumHourTypeMarginConfirmationText": "Sommige marges zijn kleiner dan de berekende marge.",
+            "missingRequiredAttributesConfirmText": "De plaatsing kan nog niet ter goedkeuring worden ingediend omdat enkele vereiste velden niet zijn ingevuld.",
+            "submitForApprovalConfirmText": "De plaatsing wordt ter goedkeuring voorgelegd.",
+            "freelancerJobsApproved": "De freelancertaken zijn goedgekeurd."
+        },
+        "actions": {
+            "addCompensation": "Compensatie toevoegen",
+            "addHourType": "Uurtype toevoegen",
+            "addTravelType": "Reistype toevoegen"
+        }
+    },
+    "company": {
+        "static": {
+            "documentEmailCc": "Document cc",
+            "documentEmail": "Document e-mail",
+            "notificationEmail": "Notificatie-e-mail",
+            "notificationEmailCc": "Notificatie cc",
+            "reminderEmail": "Herinneringse-mail",
+            "reminderEmailCc": "Herinnering cc",
+            "freelancerMargins": "Freelancer marges",
+            "copies": "Kopieën",
+            "synchronizeInfo": "De geselecteerde waarden worden gesynchroniseerd met het geselecteerde bedrijf.",
+            "copyInfo": "Er wordt een nieuwe kopie gemaakt en gekoppeld aan de geselecteerde onderneming. Per onderneming kan slechts één kopie worden gemaakt. Wijzigingen aan het origineel kunnen worden gesynchroniseerd met de kopie.",
+            "copiesAreIdentical": "De exemplaren zijn identiek.",
+            "synchronizationSuccessful": "De kopieën zijn succesvol gesynchroniseerd.",
+            "original": "Orgineel",
+            "typeSlug": "Bedrijfstype",
+            "pensionPlanFactors": "Factoren pensioenplan",
+            "email": "Bedrijfs e-mail",
+            "phone": "Bedrijfstelefoon",
+            "website": "Bedrijfswebsite",
+            "legalFormSlug": "Wettelijk document",
+            "employeeFactors": "Werknemersfactoren",
+            "sicknessBenefit": "Ziektewetuitkering",
+            "increaseCreditLimit": "Kredietlimiet verhogen",
+            "increaseCreditLimitInternal": "Intern kredietlimiet verhogen"
+        },
+        "actions": {
+            "synchronize": "Synchroniseren",
+            "makeCopy": "Kopie maken",
+            "newCopy": "Nieuw kopie",
+            "setAsCompanyName": "Instellen als bedrijfsnaam"
+        }
+    },
+    "employee": {
+        "static": {
+            "wageAttachment": "Loonbeslag",
+            "contractDeleteSuccess": "Het contract is verwijderd.",
+            "employments": "Tewerkstellingen",
+            "employment": "Tewerkstelling",
+            "wageAttachmentCreationSuccess": "Het loonbeslag is aangemaakt.",
+            "wageAttachmentUpdateSuccess": "Het loonbeslag is bijgewerkt.",
+            "wageAttachmentDeleteSuccess": "Het loonbeslag is verwijderd.",
+            "wageAttachments": "Loonbeslagen",
+            "contracts": "Contracten",
+            "contractDeleteFailed": "Contract verwijderen mislukt.",
+            "contractCreateSuccess": "Het contract is aangemaakt.",
+            "contractUpdateSuccess": "Het contract is bijgewerkt.",
+            "deleteContractConfirmationText": "Weet u zeker dat u dit contract wilt verwijderen?",
+            "createContract": "Contract aanmaken",
+            "contract": "Contract",
+            "functions": "Functies",
+            "noRecentPayslips": "Geen recente loonstrookjes gevonden.",
+            "deleteConfirmationText": "Weet u zeker dat u deze medewerker wilt verwijderen?",
+            "deleteSuccess": "De medewerker is verwijderd.",
+            "deleteFailed": "Kan werknemer niet verwijderen.",
+            "archiveConfirmationText": "Weet u zeker dat u deze medewerker wilt archiveren?",
+            "archivedText": "Deze medewerker wordt gearchiveerd.",
+            "unarchiveConfirmationText": "Weet u zeker dat u deze medewerker uit het archief wilt halen?",
+            "annualStatements": "Jaaropgaven",
+            "annualStatement": "Jaaropgaven",
+            "payslips": "Loonstroken",
+            "noAnnualStatements": "Geen jaaropgaven",
+            "pensionPlan": "Pensioen",
+            "markedAsNew": "Gemarkeerd als nieuw",
+            "deleteValidationFailed": "Kan niet controleren of de werknemer kan worden verwijderd.",
+            "markedAsChanged": "Gemarkeerd als gewijzigd",
+            "canNotDeleteEmployeeText": "De medewerker kan niet worden verwijderd vanwege bestaande tijdregistraties.",
+            "canNotDeleteEmploymentText": "Het dienstverband kan niet worden verwijderd vanwege bestaande tijdregistraties.",
+            "contractRequiredForEmploymentInfoText": "Let op. Het aanmaken van een contract is optioneel als je nog geen inlener/tewerkstelling hebt. Zonder contract kan je geen tewerkstelling aanmaken.",
+            "wizardSkipContractConfirmationText": "Weet u zeker dat u geen contract wilt aanmaken? Zonder contract kunt u geen tewerkstelling aanmaken.",
+            "wizardSkipEmploymentConfirmationText": "Weet u zeker dat u geen tewerkstelling wilt aanmaken?",
+            "healthInsurances": "Zorgverzekering",
+            "inviteExistingInfoText": "Uitnodiging wordt verzonden naar medewerker {name}.",
+            "inviteNewInfoText": "Voor een nieuwe medewerker wordt een uitnodiging verzonden.",
+            "activeContract": "Actief contract",
+            "submitForApprovalConfirmText": "De werknemer wordt ter goedkeuring voorgelegd.",
+            "missingRequiredAttributesConfirmText": "De medewerker kan nog niet ter goedkeuring worden voorgelegd omdat enkele vereiste velden niet zijn ingevuld.",
+            "submittedForApproval": "De werknemer is ter goedkeuring voorgelegd.",
+            "markToBeRenewedConfirmationText": "Het contract wordt gemarkeerd om te worden verlengd aan het einde van het contract.",
+            "markNotToBeRenewedConfirmationText": "Het contract wordt niet gemarkeerd voor verlenging en wordt uit de berichten verwijderd. De werknemer ontvangt een e-mail met een bevestiging dat het contract na afloop niet wordt verlengd.",
+            "contractMarkedToBeRenewed": "Het contract is gemarkeerd voor verlenging",
+            "contractMarkedNotToBeRenewed": "Het contract is gemarkeerd om niet verlengd te worden",
+            "contractCreateWithDocumentInfo": "Er wordt een nieuw contract aangemaakt samen met het bijbehorende document. Een ondertekeningsverzoek voor het document wordt 1 uur na creatie verzonden. De einddatum van het huidige contract wordt gesteld op een dag voor de ingangsdatum van het nieuwe contract.",
+            "subsidyDeleteSuccess": "De subsidie is verwijderd.",
+            "subsidyCreateSuccess": "De subsidie is aangemaakt.",
+            "accountNotActivatedInfo": "Het account is (nog) niet geactiveerd. Klik op de uitnodigingsknop om een activatielink naar de medewerker te sturen.",
+            "enterpriseOnlyForWizardMessage": "De onderneming wordt alleen gebruikt voor het wizardproces en wordt niet meer gekoppeld nadat de werknemer is goedgekeurd.",
+            "contactUsToEdit": "Neem contact met ons op om deze medewerker aan te passen.",
+            "activeFunctions": "Actieve functies",
+            "warningSwitchEmployeeTypeConfirmationText": "Na deze wijziging is het niet meer mogelijk om van type werknemer te wisselen.",
+            "wizardPleaseCheckComponents": "Controleer urensoorten, reissoorten en compensaties voordat u verder gaat.",
+            "renewContract": "Contract vernieuwen"
+        },
+        "actions": {
+            "newContract": "Nieuw contract",
+            "markAsNew": "Markeren als nieuw",
+            "markAsChanged": "Markeren als gewijzigd",
+            "createContract": "Contract aanmaken",
+            "deleteContract": "Contract verwijderen",
+            "createEmployment": "Tewerkstelling aanmaken",
+            "deleteSubsidyConfirmationText": "Weet u zeker dat u de subsidie wilt verwijderen?",
+            "addCompensation": "Voeg compensatie toe",
+            "links": "Links",
+            "addHourType": "Voeg urensoort toe",
+            "addTravelType": "Voeg reissoort toe"
+        },
+        "outOfService": "Uit dienst",
+        "messages": {
+            "identityBothSides": "Upload zowel de voor- als de achterkant van uw identiteitsbewijs."
+        }
+    },
+    "riskGroup": {
+        "static": {
+            "executive": "Uitvoerend",
+            "administrative": "Administratief"
+        }
+    },
+    "user": {
+        "actions": {
+            "sendResetPasswordLink": "Wachtwoord reset link verzenden"
+        },
+        "static": {
+            "notActivated": "De gebruiker is niet geactiveerd.",
+            "deactivated": "Gedeactiveerd"
+        }
+    },
+    "log": {
+        "static": {
+            "description": "Beschrijving",
+            "date": "Datum",
+            "old": "Oud",
+            "new": "Nieuw",
+            "properties": "Eigendommen",
+            "system": "Systeem",
+            "causer": "Veroorzaker",
+            "subject": "Onderwerp",
+            "id": "Id"
+        }
+    },
+    "freelancer": {
+        "static": {
+            "job": "Plaatsing",
+            "jobs": "Jobs",
+            "jobCreationSuccess": "De job is aangemaakt",
+            "deleteConfirmationText": "Weet je zeker dat je deze freelancer wilt verwijderen?",
+            "deleteSuccess": "De freelancer is verwijderd.",
+            "deleteFailed": "Kan freelancer niet verwijderen.",
+            "linkedThroughJob": "Gelinkt via vacature",
+            "inviteNewInfoText": "Er wordt een uitnodiging gestuurd voor een nieuwe freelancer.",
+            "inviteExistingInfoText": "Uitnodiging wordt verzonden naar freelancer {name}.",
+            "submittedForApproval": "De freelancer is ter goedkeuring voorgelegd",
+            "missingRequiredAttributesConfirmText": "De freelancer kan nog niet ter goedkeuring worden voorgelegd omdat enkele vereiste velden niet zijn ingevuld.",
+            "submitForApprovalConfirmText": "De freelancer wordt ter goedkeuring voorgelegd.",
+            "archiveConfirmationText": "Weet je zeker dat je deze freelancer wilt archiveren?",
+            "activeOnly": "Alleen actief",
+            "unarchiveConfirmationText": "Weet je zeker dat je deze freelancer uit het archief wilt halen?",
+            "archivedText": "Deze freelancer is gearchiveerd.",
+            "contactUsToEdit": "Neem contact met ons op om deze freelancer te bewerken.",
+            "canNotDeleteFreelancerJobText": "De freelance baan kan niet verwijderd worden vanwege bestaande tijdregistraties."
+        }
+    },
+    "export": {
+        "actions": {
+            "toSepaAndMarkAsPaid": "Naar SEPA & markeer als betaald",
+            "generate": "Genereren"
+        },
+        "static": {
+            "skipValidation": "Validatie overslaan"
+        }
+    },
+    "period": {
+        "actions": {
+            "select": "Selecteren"
+        }
+    },
+    "note": {
+        "success": {
+            "deleted": "De notitie is met succes verwijderd."
+        },
+        "actions": {
+            "delete": "Verwijderen",
+            "cancel": "Annuleren",
+            "deleteConfirmationText": "Weet u zeker dat u deze notitie wilt verwijderen?"
+        }
+    },
+    "legalForm": {
+        "static": {
+            "soleProprietor": "Eenmanszaak",
+            "soleProprietorMultipleOwners": "Eenmanszaak met meer dan één eigenaar",
+            "commercialPartnership": "Vennootschap onder firma",
+            "publicPartnership": "Maatschap",
+            "limitedPartnership": "Commanditaire vennootschap",
+            "shippingCompany": "Transportbedrijf",
+            "limitedCompanyStartUpAForm": "N.V./B.V. in oprichting op A-formulier",
+            "limitedCompanyStartUpBForm": "N.V./B.V. in oprichting op B-formulier",
+            "limitedCompanyStartUpDForm": "N.V./B.V. in oprichting op D-formulier",
+            "legalPersonStartUp": "Rechtspersoon in oprichting",
+            "privateLimitedCompany": "Besloten vennootschap",
+            "privateLimitedCompanyRegular": "Besloten vennootschap met gewone structuur",
+            "privateLimitedCompanyTwoTier": "Besloten vennootschap volgens statuten structuurvennootschap",
+            "publicLimitedCompany": "Naamloze vennootschap",
+            "publicLimitedCompanyRegular": "Naamloze vennootschap met gewone structuur",
+            "publicLimitedCompanyTwoTier": "Naamloze vennootschap blijkens statuten structuurvennootschap",
+            "publicLimitedCompanyInvestmentVariableCapital": "Naamloze vennootschap beleggingsmaatschappij met veranderlijk kapitaal",
+            "publicLimitedCompanyInvestmentVariableCapitalTwoTier": "Naamloze vennootschap beleggingsmaatschappij met veranderlijk kapitaal blijkens statuten structuurvennootschap",
+            "europeanPublicLimitedCompanyRegular": "Europese naamloze vennootschap (SE) met gewone structuur",
+            "europeanPublicLimitedCompanyRegularTwoTierCooperative": "Europese naamloze vennootschap (SE) blijkens statuten structuurvennootschap",
+            "cooperative": "Coöperatie",
+            "cooperativeStructuralCooperative": "Coöperatie volgens statuten structuurcoöperatie",
+            "cooperativeLegalLiabilityRegular": "Coöperatie W.A. met gewone structuur",
+            "cooperativeLegalLiabilityStructuralCooperative": "Coöperatie W.A. blijkens statuten structuurcoöperatie",
+            "cooperativeLimitedLiabilityRegular": "Coöperatie B.A. met gewone structuur",
+            "cooperativeLimitedLiabilityStructuralCooperative": "Coöperatie B.A. blijkens statuten structuurcoöperatie",
+            "homeownersAssociation": "Vereniging van eigenaars",
+            "associationFullLegalCapacity": "Vereniging met volledige rechtsbevoegdheid",
+            "associationLimitedLegalCapacity": "Vereniging met beperkte rechtsbevoegdheid",
+            "religiousDenomination": "Vereniging met beperkte rechtsbevoegdheid",
+            "foundation": "Stichting",
+            "mutualInsuranceCompany": "Onderlinge waarborgmaatschappij",
+            "mutualInsuranceCompanyStructuralMutual": "Onderlinge waarborgmaatschappij blijkens statuten structuuronderlinge",
+            "mutualInsuranceCompanyLegalLiabilityRegular": "Onderlinge waarborgmaatschappij W.A. met gewone structuur",
+            "mutualInsuranceCompanyLegalLiabilityStructuralMutual": "Onderlinge waarborgmaatschappij W.A. blijkens statuten structuuronderlinge",
+            "mutualInsuranceCompanyLimitedLiabilityRegular": "Onderlinge waarborgmaatschappij B.A. met gewone structuur",
+            "mutualInsuranceCompanyLimitedLiabilityStructuralMutual": "Onderlinge waarborgmaatschappij B.A. blijkens statuten structuuronderlinge",
+            "legalPersonPublicLaw": "Publiekrechtelijke rechtspersoon",
+            "legalPersonPrivateLaw": "Privaatrechtelijke rechtspersoon",
+            "foreignLegalFormHeadOfficeNetherlands": "Buitenlandse rechtsvorm met hoofdvestiging in Nederland",
+            "branchOfficeHeadOfficeAbroad": "Nevenvest. met hoofdvest. in buitenl.",
+            "europeanEconomicInterestGrouping": "Europees economisch samenwerkingsverband",
+            "foreignEcBusinessCompanyNetherlands": "Buitenl. EG-venn. met onderneming in Nederland",
+            "foreignEcBusinessMainOfficeNetherlands": "Buitenl. EG-venn. met hoofdnederzetting in Nederland",
+            "foreignSimilarEcBusinessCompanyNetherlands": "Buitenl. op EG-venn. lijkende venn. met onderneming in Nederland",
+            "foreignSimilarEcBusinessMainOfficeNetherlands": "Buitenl. op EG-venn. lijkende venn. met hoofdnederzetting in Nederland"
+        }
+    },
+    "hirer": {
+        "static": {
+            "hirerRemuneration": "Inlenersbeloning",
+            "archivedText": "Deze huurder is gearchiveerd.",
+            "saved": "De inlener is opgeslagen",
+            "deleteConfirmationText": "Weet u zeker dat u deze inlener wilt verwijderen?",
+            "deleteSuccess": "De inlener is verwijderd.",
+            "deleteFailed": "Kan inlener niet verwijderen.",
+            "projectDeleted": "Het project is verwijderd.",
+            "assignment": "Opdracht",
+            "inviteExistingInfoText": "Uitnodiging wordt verzonden naar inlener {companyName}.",
+            "inviteNewInfoText": "Voor een nieuwe inlener wordt een uitnodiging gestuurd.",
+            "notMinimumCompanyFreelancerHourTypeMarginConfirmationText": "De basismarge van het type freelancer is lager dan de arbeidswaarde.",
+            "notMinimumCompanyFreelancerHourTypeMarginAdditionsConfirmationText": "Sommige margetoevoegingen zijn lager dan de werkgelegenheidswaarden.",
+            "missingRequiredAttributesConfirmText": "De inlener kan nog niet ter goedkeuring worden voorgelegd omdat enkele vereiste velden niet zijn ingevuld.",
+            "submitForApprovalConfirmText": "De inlener wordt ter goedkeuring voorgelegd.",
+            "submittedForApproval": "De inlener is ter goedkeuring voorgelegd.",
+            "outstandingInvoices": "Openstaande facturen"
+        },
+        "form": {
+            "holidays": "Vakantiedagen",
+            "travelCost": "Reiskosten",
+            "overtime": "Overuren",
+            "shiftWork": "Ploegendienst",
+            "travelHours": "Reistijd",
+            "otherCompensations": "Andere compensaties",
+            "companyOwnedScheme": "Bedrijfseigen regeling",
+            "remunerationSpecifics": "Bijzonderheden"
+        }
+    },
+    "cv": {
+        "reference": {
+            "references": "Referenties",
+            "company": "Bedrijf",
+            "addReference": "Referentie toevoegen",
+            "telephone": "Telefoon",
+            "email": "E-mail",
+            "fullName": "Volledige naam van werkgever"
+        },
+        "certificate": {
+            "addCertificate": "Certificaat toevoegen",
+            "certificates": "Certificaten",
+            "description": "Beschrijving",
+            "addEducation": "Onderwijs / Kwalificatie toevoegen"
+        },
+        "interest": {
+            "pickInterests": "Kies uw interesses",
+            "interests": "Interesses"
+        },
+        "profile": {
+            "profileSummary": "Voer hier uw profielsamenvatting in (minimaal 150 woorden vereist).",
+            "profile": "Profiel"
+        },
+        "skill": {
+            "rating": "Beoordeling van uw vaardigheden",
+            "skills": "Vaardigheden",
+            "pickSkills": "Kies uw vaardigheden"
+        },
+        "work": {
+            "workExperience": "Werkervaring",
+            "function": "Functie",
+            "jobDescription": "Functiebeschrijving",
+            "addWorkExperience": "Werkervaring toevoegen"
+        },
+        "education": {
+            "educationsAndQualifications": "Opleidingen en kwalificaties",
+            "educationsDescription": "Beschrijving onderwijs"
+        },
+        "title": "Titel",
+        "from": "Vanaf",
+        "till": "Tot",
+        "language": {
+            "languages": "Talen",
+            "pickLanguage": "Kies uw talen",
+            "rating": "Beoordeling van uw talen"
+        },
+        "select": "Selecteer",
+        "dialog": {
+            "close": "Sluiten",
+            "generateCv": "Genereer cv"
+        }
+    },
+    "wageAttachment": {
+        "static": {
+            "garnisheeContact": "Contact executoriaal beslaglegger",
+            "garnisheeCity": "Plaats executoriaal beslaglegger",
+            "reference": "Referentie",
+            "outstandingAmount": "Uitstaand bedrag",
+            "overallSum": "Totaalbedrag",
+            "taxFreeSum": "Beslagvrije voet",
+            "paid": "Betaald",
+            "garnishee": "Executoriaal beslag",
+            "paidAmount": "Betaald bedrag",
+            "outstanding": "Uitstaand",
+            "informationRequestSent": "Het informatieverzoek is verstuurd"
+        },
+        "actions": {
+            "sendInformationRequest": "Verzoek om informatie versturen",
+            "informationRequest": "Informatieverzoek"
+        }
+    },
+    "job": {
+        "static": {
+            "freelancerJob": "Freelancer plaatsing",
+            "freelancerJobs": "Freelance jobs",
+            "employment": "Tewerkstelling",
+            "employments": "Tewerkstellingen"
+        }
+    },
+    "import": {
+        "static": {
+            "reservationsImported": "Reserveringen geïmporteerd"
+        }
+    },
+    "outOfService": {
+        "onlyOutstanding": "Alleen uitstaand",
+        "actions": {
+            "deleteConfirmationText": "Weet u zeker dat u de buiten dienst melding wilt verwijderen?",
+            "delete": "Verwijderen",
+            "cancel": "Annuleren",
+            "processConfirmationText": "Weet u zeker dat u de buiten dienst melding wilt verwerken?",
+            "process": "Verwerken"
+        },
+        "search": "Zoeken",
+        "process": "Proces",
+        "date": "Datum",
+        "reason": "Reden",
+        "processSuccess": "De buiten dienst meldingen werden met succes verwerkt."
+    },
+    "sickReport": {
+        "filter": {
+            "currentSickOnly": "Actieve ziekmeldingen",
+            "start": "Start",
+            "end": "Eind"
+        },
+        "success": {
+            "deleted": "De ziekmelding is met succes verwijderd.",
+            "deletedCaseManager": "De ziekmelding is succesvol verwijderd.",
+            "deletedManager": "De ziekmelding is succesvol verwijderd."
+        },
+        "betterReport": {
+            "report": "Beter melden",
+            "actions": {
+                "confirmationText": "Weet u zeker dat u beter wilt melden?",
+                "confirmationTextEmployee": "Weet u zeker dat u deze werknemer beter wilt melden?",
+                "confirm": "Bevestigen",
+                "cancel": "Annuleren"
+            },
+            "confirmationQuestion": "Weet je het zeker?",
+            "success": "De werknemer is met succes beter gemeld.",
+            "successPartially": "De werknemer is gedeeltelijk beter gemeld.",
+            "form" : {
+                "reportBetterFull": "Volledig hersteld",
+                "reportBetterPartially": "Gedeeltelijk hersteld",
+                "percentageRecovered": "Percentage hersteld"
+            }
+        },
+        "actions": {
+            "deleteConfirmationText": "Weet u zeker dat u deze ziekmelding wilt verwijderen?",
+            "delete": "Verwijderen",
+            "cancel": "Annuleren",
+            "message": {
+                "updateProtocolSuccess": "Protocol informatie opgeslagen",
+                "updateStatusError": "Kan casemanager informatie niet opslaan. Probeer opnieuw",
+                "updateStatusSuccess": "Informatie over casemanager opgeslagen",
+                "updateProtocolError": "Protocol informatie kan niet worden opgeslagen. Probeer opnieuw"
+            },
+            "view": "Bekijk",
+            "deleteConfirmationTextCaseManager": "Weet je zeker dat je deze ziekmelding van de casemanager wilt verwijderen?",
+            "deleteConfirmationTextManager": "Weet je zeker dat je dit manager ziek rapport wilt verwijderen?"
+        },
+        "reportSick": "Ziek melden",
+        "alreadySick": "De werknemer is al ziek gemeld.",
+        "forms": {
+            "occupationalPhysicianSaved": "Bedrijfsarts opgeslagen",
+            "nursingFacilityName": "Naam van de verpleeginstelling",
+            "alreadyGaveBirth": "Reeds bevallen",
+            "reportMadeInTime": "Is de melding op tijd gedaan door de medewerker?",
+            "isSaturdayWorking": "Zaterdag is een werkdag",
+            "dateIncapacitated": "Datum arbeidsongeschikt",
+            "nursingFacility": "Verpleeginstelling",
+            "dateResumptionWorkDateDelivery": "Datum hervatting werkzaamheden na bevalling",
+            "resumptionFullyRecovered": "Hervatting na volledig herstel",
+            "reasonEnd": "Reden voor beëindiging",
+            "dateResumptionWorkNotification": "Datum hervatting van werkzaamheden notificatie",
+            "dateResumptionWorkChange": "Datum hervatting van werkzaamheden wijzigen",
+            "dateResumptionWorkEndAoCm": "Datum hervatting van werkzaamheden einde AO CM",
+            "dateResumptionWorkEndAo": "Datum hervatting van werkzaamheden einde AO",
+            "dateResumptionWorkStartAo": "Datum hervatting van werkzaamheden start AO",
+            "percentagePartialResumptionWork": "Deels hervatten van werkzaamheden %",
+            "datePartialResumptionWorkRecoveryNotification": "Datum deels hervatten van werkzaamheden notificatie",
+            "dateExpectedLastClaim": "Datum verwachte laatste claim dag",
+            "extraWeeksBirthLeave": "Aantal extra weken geboorteverlof",
+            "standardBirthLeaveTaken": "Standaard geboorteverlof reeds opgenomen",
+            "dateSuspectedDelivery": "Verwachte datum van bevalling",
+            "dateLeaveOfAbsence": "Begindatum verlof",
+            "reasonWazoOmission": "Reden WAZO weglating",
+            "culpableForLateReporting": "Is de werknemer aansprakelijk voor te laat melden?",
+            "financialResponsibilityErd": "Financiële verantwoordelijkheid ERD",
+            "activitiesElsewhere": "Activiteiten elders",
+            "afterEffectArticle46": "Na effect van artikel 46",
+            "chainNotificationUwvErd": "Keten informeren UWV ERD",
+            "otherIncome": "Overig inkomen",
+            "dateStartInsuranceAct": "Begindatum verzekeringswet",
+            "workObligation": "Werkverplichting",
+            "reasonReportLate": "Reden te laat melden",
+            "isSundayWorking": "Zondag is een werkdag",
+            "datePossibleWorking": "Datum eerst mogelijke werkdag",
+            "dateLastWorking": "Datum laatste werkdag",
+            "codeAccident": "Code ongeval",
+            "causeAbsenteeism": "Reden van verzuim",
+            "reasonOmission": "Reden van verzuim",
+            "dateNotification": "Datum van kennisgeving",
+            "occupationalPhysician": {
+                "classification": "Bedrijfsarts classificatie",
+                "organisation": "Bedrijfsarts organisatie",
+                "name": "Bedrijfsarts"
+            },
+            "nursingFacilitySaved": "Verpleeginstelling opgeslagen",
+            "nursingFacilityDateOfAdmission": "Datum opname verpleeginstelling",
+            "recipientName": "Naam ontvanger",
+            "sender": "Afzender",
+            "emailAddress": "E-mailadres",
+            "recipient": "Ontvanger",
+            "subject": "Onderwerp",
+            "attachments": "Bijlagen",
+            "date": "Datum",
+            "reply": "Antwoorden",
+            "body": "Hoofdtekst"
+        },
+        "tabs": {
+            "documents": "Documenten",
+            "employmentDetails": "Werk details",
+            "endOfClaim": "Einde claim",
+            "occupationalPhysician": "Bedrijfsarts",
+            "Messages": "Berichten",
+            "medicalCard": "Medische kaart",
+            "salaryDetails": "Salaris details",
+            "generalInfo": "Algemene informatie",
+            "composeNew": "Nieuwe opstellen",
+            "messages": "Berichten",
+            "tasks": "Taken",
+            "protocol": "Protocol",
+            "caseManager": "Casemanager",
+            "details": "Details",
+            "wazo": "WAZO"
+        },
+        "static": {
+            "useSmsForNotification": "Gebruik SMS voor ziekmeldingen",
+            "incapacitatedForWorkByThirdParty": "Arbeidsongeschikt door een derde partij",
+            "sickDueToPregnancy": "Ziek wegens zwangerschap",
+            "sundayIsWorkingDay": "Zondag is een werkdag",
+            "hoursScheduledOnFirstSickDay": "Uren ingeroosterd op 1e ziektedag",
+            "substituteUntil": "Vervangen Tot",
+            "activeSuccessiveProtocol": "Actief Opeenvolgend Protocol",
+            "substituteFrom": "Vervangen vanaf",
+            "substituteCasemanager": "Tijdelijke Case manager",
+            "successiveProtocol": "Opeenvolgend protocol",
+            "activeStandardProtocol": "Actief standaardprotocol",
+            "standardProtocol": "Standaardprotocol",
+            "industrialAccident": "Werkongeval",
+            "death": "Overleden",
+            "sickDueToOrganDonation": "Ziek door orgaandonatie",
+            "sickDueToBirth": "Ziek door bevalling",
+            "sickOtherArt4Or5": "Ziek overig art. 4 of 5",
+            "sickArt29b": "Ziek art. 29b",
+            "sickOutOfServiceOrSickAtEndOfEmployment": "Ziek aan einde dienstverband",
+            "sickOnCallWorker": "Zieke oproepkracht",
+            "sickTemporaryWorkerOrSickEmployee": "Zieke uitzendkracht/zieke werknemer",
+            "temporaryWorker": "Tijdelijke werknemer",
+            "trainee": "Stagiair",
+            "laborContract": "Arbeidscontract",
+            "saturdayIsWorkingDay": "Zaterdag is een werkdag",
+            "nextWorkingDate": "Volgende werkdag",
+            "dateOfNextScheduledWorkingDay": "Datum volgende geplande werkdag",
+            "workObligation": "Werk Verplichting",
+            "hoursWorkedOnFirstSickDay": "Gewerkte uren op 1e ziektedag",
+            "dateOfNotification": "Datum van kennisgeving",
+            "firstSickDay": "Eerste ziektedag",
+            "typeOfAccident": "Type ongeval",
+            "additionalReasonForAbsence": "Aanvullende reden van verzuim",
+            "natureOfEmployment": "Aard van het dienstverband",
+            "differentResidenceAddress": "Ander verblijfadres",
+            "active": "Actief",
+            "medicalCard": "Medische kaart",
+            "sickReportSms": "Ziekmelding sms",
+            "sickReportEmail": "Ziekmelding e-mail",
+            "useEmailForNotification": "Gebruik e-mail voor ziekmeldingen",
+            "employee": "Medewerker",
+            "reasonForAbsence": "Oorzaak van verzuim werknemer / uitzendkracht",
+            "isIndustrialAccident": "Bedrijfsongeval",
+            "reason": "Reden ",
+            "declaration": "Ik verklaar dat ik dit formulier naar waarheid heb ingevuld",
+            "fase1": "Fase 1",
+            "doesNotApply": "Niet van toepassing",
+            "certainPeriodOfTime": "Bepaalde tijd / onbepaalde tijd",
+            "caseManager": "Casemanager",
+            "protocolDetails": "Protocol details",
+            "newEmail": "Nieuw bericht",
+            "sendEmail": "Bericht verzenden",
+            "emailSuccessfullySent": "Bericht is verzonden.",
+            "viewEmail": "Bericht bekijken",
+            "other": "Anders",
+            "reply": "Antwoorden",
+            "employeeNumber": "Personeelsnummer",
+            "referenceNumber": "Referentienummer",
+            "fase": "Fase",
+            "comments": "Opmerkingen",
+            "fase2": "Fase 2",
+            "fase3": "Fase 3",
+            "fase4": "Fase 4",
+            "wazo": "WAZO",
+            "personnelNumber": "Personeelsnummer",
+            "phoneNumber": "Telefoonnummer",
+            "phase": "Fase",
+            "dateOfCommencementOfEmployment": "Datum indiensttreding",
+            "dateOfEndOfEmployment": "Datum einde dienstverband",
+            "profession": "Beroep",
+            "branch": "Branche",
+            "branchName": "Branche naam",
+            "branchContactPerson": "Branche contactpersoon",
+            "employmentAgencyName": "Naam uitzendbureau",
+            "employmentAgencyPhoneNumber": "Telefoonnummer uitzendbureau",
+            "employmentAgencyEmail": "E-mail uitzendbureau",
+            "HirerName": "Naam inlener",
+            "HirerPhoneNumber": "Telefoonnummer inlener",
+            "HirerEmail": "E-mail inlener"
+        },
+        "thirdParty": {
+            "uwv": "(her)beoordeling (UWV)",
+            "le": "Arbeidsdeskundige (AD)",
+            "op": "Bedrifjsarts (BA)"
+        },
+        "thirdParties": "Derden",
+        "returnToWork": "Terug aan het werk",
+        "sickReport": "Ziekmelding",
+        "endOfClaim": {
+            "reasonEnd": {
+                "static": {
+                    "default": "Standaard"
+                }
+            },
+            "resumptionWorkFullyRecovered": {
+                "static": {
+                    "default": "Standaard"
+                }
+            }
+        },
+        "wazo": {
+            "alreadyGaveBirth": {
+                "static": {
+                    "default": "Standaard"
+                }
+            },
+            "standardBirthLeaveTaken": {
+                "static": {
+                    "default": "Standaard"
+                }
+            },
+            "extraWeeksBirthLeave": {
+                "static": {
+                    "default": "Standaard"
+                }
+            }
+        },
+        "claim": {
+            "reasonOmission": {
+                "static": {
+                    "default": "Standaard"
+                }
+            },
+            "causeAbsenteeism": {
+                "static": {
+                    "default": "Standaard"
+                }
+            },
+            "otherIncome": {
+                "static": {
+                    "default": "Standaard"
+                }
+            },
+            "chainNotificationUwvErd": {
+                "static": {
+                    "default": "Standaard"
+                }
+            },
+            "aftereffectArticle46": {
+                "static": {
+                    "default": "Standaard"
+                }
+            },
+            "reportMadeInTime": {
+                "static": {
+                    "default": "Standaard"
+                }
+            },
+            "activitiesElsewhere": {
+                "static": {
+                    "default": "Standaard"
+                }
+            },
+            "claimsCulpableForLateReport": {
+                "static": {
+                    "default": "Standaard"
+                }
+            },
+            "financialResponsibilityERD": {
+                "static": {
+                    "default": "Standaard"
+                }
+            },
+            "codeAccident": {
+                "static": {
+                    "default": "Standaard"
+                }
+            }
+        },
+        "errors": {
+            "noRecipients": "Geen ontvanger gevonden.",
+            "resultNotFound": "Resultaat niet gevonden."
+        },
+        "messages": {
+            "recipientType": "Soort ontvanger",
+            "communicationType": "Soort communicatie",
+            "createdAt": "Opgesteld op",
+            "subject": "Onderwerp",
+            "typeMessageSubjectHere": "Vul hier het onderwerp in van uw bericht",
+            "startTypingMessage": "Schrijf uw bericht",
+            "messageTo": "Bericht naar",
+            "additionalRecipients": "Kies extra ontvangers:",
+            "today": "Vandaag",
+            "recipients": {
+                "employer": "Werkgever",
+                "me": "Ik",
+                "caseManager": "Casemanager"
+            },
+            "tabs": {
+                "allMessages": "Alle berichten",
+                "newMessage": "Nieuw bericht",
+                "notes": "Opmerkingen"
+            }
+        },
+        "managers": "Managers",
+        "caseManagers": "Casemanagers"
+    },
+    "employees": {
+        "static": {
+            "activeOnly": "Alleen actief",
+            "linkedThroughEmployment": "Verbonden door contract"
+        }
+    },
+    "wizard": {
+        "static": {
+            "hirerNotApproved": "Deze inlener is nog niet goedgekeurd.",
+            "freelancerNotApproved": "Deze freelancer is nog niet goedgekeurd.",
+            "noDocumentsToGenerate": "Geen documenten om te genereren.",
+            "employmentAgencyNotApproved": "Dit uitzendbureau is nog niet goedgekeurd.",
+            "employeeNotApproved": "Deze werknemer is nog niet goedgekeurd.",
+            "resellerNotApproved": "Deze reseller is nog niet goedgekeurd."
+        },
+        "actions": {
+            "viewWizard": "Bekijk wizard"
+        }
+    },
+    "pensionPlan": {
+        "static": {
+            "basic": "Stipp basis",
+            "plus": "Stipp plus",
+            "adequate": "Adequate",
+            "bpf": "BPF"
+        }
+    },
+    "contact": {
+        "static": {
+            "uploadSuccess": "Het bestand is geüpload.",
+            "userNotLinkedMessage": "De gebruiker is niet geactiveerd of niet aan een contact gekoppeld.",
+            "detached": "Het contact is verbroken.",
+            "detachFailed": "Het contact kon niet worden losgekoppeld.",
+            "detachConfirmationText": "Weet u zeker dat u het contact wilt loskoppelen?",
+            "switchMainContactConfirmationText": "Weet u zeker dat u de hoofdcontactpersoon wilt wijzigen?",
+            "switchedMainContact": "De hoofdcontactpersoon is gewijzigd.",
+            "switchedMainContactFailed": "Hoofdcontactpersoon kan niet worden gewijzigd."
+        }
+    },
+    "outOfServiceReason": {
+        "static": {
+            "endOfEmployment": "Einde van het dienstverband van rechtswege wegens einddatum contract",
+            "endByLawOtherReason": "Einde van het dienstverband van rechtswege om een andere reden",
+            "deploymentEndByIllness": "Inzet beëindigd wegens ziekte",
+            "deploymentEndByOtherReason": "Einde van de inzet om een andere reden",
+            "continuedWithoutIncome": "Voortgezet zonder inkomen",
+            "cancelledByEmployerWithinProbation": "Door werkgever binnen proeftijd opgezegd",
+            "cancelledByEmployerUwv": "Opgezegd door werkgever, goedgekeurd door UWV",
+            "cancelledByJudge": "Geannuleerd door rechter",
+            "cancelledByAgreement": "Overeengekomen beëindiging van het contract",
+            "cancelledByEmployee": "Geannuleerd door werknemer",
+            "cancelledByEmployer": "Geannuleerd door werkgever",
+            "otherReason": "Andere reden"
+        }
+    },
+    "creditLimit": {
+        "static": {
+            "finalAssessmentWillFollowLater": "De definitieve beoordeling van de kredietlimiet volgt later."
+        }
+    },
+    "etRegulation": {
+        "validation": {
+            "totalNotAllowed": "De totale waarde van de et-regeling ligt niet tussen de toegestane waarden.",
+            "distanceCalculationFailedText": "We konden de afstand tot het adres van de woonplaats niet berekenen. Controleer of de adresgegevens geldig zijn."
+        },
+        "static": {
+            "calculatedAmount": "Berekend bedrag: {amount}",
+            "amountShouldBeBetween": "Het totale bedrag moet tussen {min} en {max} liggen.",
+            "totalAmount": "Het huidige totaalbedrag is {amount}.",
+            "singleTrip": "Enkele reisafstand: {distance} km"
+        }
+    },
+    "documentTemplate": {
+        "static": {
+            "contractPhase12": "Contractfase 1/2",
+            "contractPhase3": "Contractfase 3",
+            "termsAndConditions": "Algemene voorwaarden",
+            "frameworkAgreement": "Raamovereenkomst",
+            "hireAgreement": "Aanwervingsovereenkomst",
+            "jobConfirmation": "Opdrachtbevestiging",
+            "declarationAgreement": "Declaratieovereenkomst",
+            "employmentTerminationAgreement": "Overeenkomst tot beëindiging van de tewerkstelling",
+            "deductionsAndAdvances": "Inhoudingen en voorschotten",
+            "etAddendum": "ET addendum",
+            "antiDiscriminationPolicy": "Antidiscriminatiebeleid",
+            "staffGuide": "Personeelsgids",
+            "employersDeclaration": "Werkgeversverklaring",
+            "contractPayrollFixedTerm": "Contract payroll voor bepaalde tijd",
+            "contractPayrollPermanent": "Contract payroll voor onbepaalde tijd",
+            "mediationAgreement": "Bemiddelingsovereenkomst",
+            "intermediateAgreement": "Tussentijdse overeenkomst",
+            "healthcareAuthorisationForm": "Formulier voor toestemming voor gezondheidszorg",
+            "idStatementForm": "Formulier voor identiteitsverklaring",
+            "deliveryDeed": "Akte van levering",
+            "leadGenerationAgreement": "Overeenkomst voor het genereren van leads",
+            "contractPhase4": "Contractfase 4",
+            "employmentConfirmation": "Bevestiging van tewerkstelling",
+            "guaranteeAgreement": "Garantieovereenkomst",
+            "hireAgreementFreelancers": "Aanwervingsovereenkomst freelancers",
+            "wageAttachmentRequest": "Aanvraag loonbeslag",
+            "jobConfirmationFreelancer": "Opdrachtbevestiging freelancer",
+            "collaborationAgreementFreelancer": "Samenwerkingsovereenkomst freelancer",
+            "healthcareAgreement": "Zorgovereenkomst",
+            "payrollConfirmation": "Payroll bevestiging"
+        },
+        "actions": {
+            "saveTranslation": "Vertaling opslaan"
+        }
+    },
+    "users": {
+        "static": {
+            "sendPasswordResetConfirmationText": "Een e-mail met een wachtwoord reset link wordt naar {email} gestuurd.",
+            "deactivateConfirmationText": "De gebruiker wordt gedeactiveerd en kan niet meer inloggen.",
+            "permissionsSaved": "De machtigingen zijn opgeslagen.",
+            "reactivateConfirmationText": "De gebruiker wordt opnieuw geactiveerd en kan opnieuw inloggen."
+        }
+    },
+    "contractType": {
+        "static": {
+            "payrollFixedTerm": "Payroll (voor bepaalde tijd)",
+            "phase1And2": "Fase 1/2",
+            "phase3": "Fase 3",
+            "phase4": "Fase 4",
+            "payrollPermanent": "Payroll (Onbepaalde tijd)",
+            "a1": "A1"
+        }
+    },
+    "deductions": {
+        "static": {
+            "saved": "De inhoudingen worden opgeslagen.",
+            "amountIsLimited": "Het inhoudingbedrag is beperkt op grond van de uren van deze periode.",
+            "outstandingDeductions": "Uitstaande inhoudingen",
+            "recurringDeductions": "Terugkerende inhoudingen",
+            "amount": "Bedrag",
+            "for": "Voor",
+            "remainingAmount": "Resterend bedrag",
+            "files": "Bestanden",
+            "uploadFile": "Bestand uploaden",
+            "deductFrom": "Inhouden bij",
+            "noDeductions": "Geen inhoudingen",
+            "remaining": "Resterend",
+            "unexportedOnly": "Alleen niet-geëxporteerde",
+            "recurringDeductionDeleteSuccess": "De terugkerende inhouding is verwijderd.",
+            "editRecurringDeduction": "Terugkerende inhouding bewerken",
+            "updateRecurringDeductionSuccess": "De terugkerende inhouding is bijgewerkt.",
+            "numberOfTimes": "Aantal keren",
+            "infiniteTimes": "Oneindig",
+            "originalPeriod": "Oorspronkelijke periode",
+            "totalAmount": "Totaal bedrag",
+            "createOutstandingDeduction": "Uitstaande inhouding creëren",
+            "createRecurringDeduction": "Terugkerende inhouding creëren",
+            "outstandingDeductionCreateSuccess": "De uitstaande inhouding is gecreëerd",
+            "recurringDeductionCreateSuccess": "De terugkerende inhouding is aangemaakt",
+            "outstandingDeductionDeleteSuccess": "De uitstaande inhouding is verwijderd.",
+            "canNotEditAmount": "Kan het bedrag niet bewerken omdat het al (gedeeltelijk) is ingehouden."
+        },
+        "actions": {
+            "deleteRecurringDeductionConfirmationText": "Weet je zeker dat je de terugkerende inhouding wilt verwijderen?",
+            "deleteOutstandingDeductionConfirmationText": "Weet je zeker dat je de openstaande inhouding wilt verwijderen?"
+        }
+    },
+    "invitation": {
+        "actions": {
+            "sendInvitation": "Verstuur uitnodiging"
+        },
+        "static": {
+            "inviteSuccess": "Uitnodigen succesvol",
+            "tokenInvalid": "Token ongeldig",
+            "tokenInvalidDescription": "Het token is ongeldig."
+        }
+    },
+    "employmentAgency": {
+        "static": {
+            "archivedText": "Dit uitzendbureau is gearchiveerd.",
+            "deleteSuccess": "Het uitzendbureau is verwijderd.",
+            "deleteFailed": "Kan uitzendbureau niet verwijderen.",
+            "deleteConfirmationText": "Weet je zeker dat je dit uitzendbureau wilt verwijderen?",
+            "inviteExistingInfoText": "Uitnodiging wordt verstuurd naar uitzendbureau {companyName}.",
+            "inviteNewInfoText": "Er wordt een uitnodiging gestuurd voor een nieuw uitzendbureau.",
+            "missingRequiredAttributesConfirmText": "Het uitzendbureau kan nog niet ter goedkeuring worden voorgelegd omdat enkele vereiste velden niet zijn ingevuld.",
+            "submitForApprovalConfirmText": "Het uitzendbureau wordt ter goedkeuring voorgelegd.",
+            "makeResellerConfirmationText": "Weet je zeker dat je een reseller wilt maken voor het uitzendbureau?"
+        }
+    },
+    "filters": {
+        "static": {
+            "archivedOnly": "Alleen gearchiveerd",
+            "withActiveEmploymentsOnly": "Alleen met actieve dienstverbanden",
+            "readyForApproval": "Klaar voor goedkeuring",
+            "createdByAdmin": "Gemaakt door admin",
+            "selectedEnterpriseOnly": "Alleen geselecteerde onderneming",
+            "unexportedOnly": "Alleen niet-geëxporteerde",
+            "sentOnly": "Alleen succesvol verzonden"
+        }
+    },
+    "employeePayslip": {
+        "actions": {
+            "sendNow": "Nu versturen"
+        },
+        "static": {
+            "sendEmailConfirmationText": "Weet je zeker dat je de loonstrook nu wilt versturen?",
+            "sendEmailSuccess": "De loonstrook is verzonden.",
+            "sendEmailFailed": "De loonstrook kon niet worden verzonden."
+        }
+    },
+    "timeRegistrationPeriodStatus": {
+        "static": {
+            "completed": "Voltooid",
+            "requiresAction": "Actie vereist",
+            "locking": "Vergrendelen",
+            "locked": "Op slot",
+            "open": "Open"
+        }
+    },
+    "invoiceGroup": {
+        "static": {
+            "custom": "Aangepast",
+            "timeRegistration": "Tijdregistratie"
+        }
+    },
+    "error": {
+        "actions": {
+            "back": "Terug naar de vorige pagina"
+        },
+        "static": {
+            "description": "Er is een fout opgetreden. Probeer te vernieuwen of ga terug naar de vorige pagina.",
+            "serverError": "Server Error",
+            "pageNotFound": "Pagina niet gevonden",
+            "pageNotFoundDescription": "We konden de pagina die u zocht niet vinden."
+        }
+    },
+    "project": {
+        "static": {
+            "projectCreationSuccess": "Project succesvol aangemaakt.",
+            "projectManagers": "Project managers",
+            "createProject": "Project maken",
+            "updateProject": "Project bijwerken",
+            "deleteProjectConfirmationText": "Weet u zeker dat u het project wilt verwijderen?"
+        }
+    },
+    "holiday": {
+        "static": {
+            "firstChristmasDay": "Eerste Kerstdag",
+            "newYear": "Nieuwjaar",
+            "easterMonday": "Paasmaandag",
+            "ascensionDay": "Hemelvaartsdag",
+            "whitMonday": "Witte maandag",
+            "secondChristmasDay": "Tweede kerstdag",
+            "kingsDay": "Koningsdag",
+            "liberationDay": "Bevrijdingsdag"
+        }
+    },
+    "workServiceType": {
+        "static": {
+            "reachability": "Bereikbaarheidsservice",
+            "night": "Nachtdienst",
+            "weekend": "Weekenddienst",
+            "consignment": "Consignatiedienst"
+        }
+    },
+    "reservations": {
+        "static": {
+            "buildup": "Opbouw",
+            "paidOut": "Uitbetaald",
+            "noBuildupFound": "Geen opbouw gevonden",
+            "showEmptyPeriods": "Toon lege perioden",
+            "noReservations": "Geen reserveringen",
+            "request": "Verzoek",
+            "saved": "De reservering is opgeslagen.",
+            "reservationRequest": "Reserveringsverzoeken",
+            "newRequest": "Nieuw verzoek",
+            "deleted": "De reservering is verwijderd",
+            "deleteReservationText": "De reservering wordt verwijderd uit de tijdregistratie.",
+            "editBuildupInfo": "Bij het wijzigen van deze waarden wordt de bijbehorende tijdregistratie bijgewerkt.\nBij het aanmaken van een nieuwe aanvraag of als de aanvraag al is uitbetaald;\n- De reserveringsstatus wordt bijgewerkt.\n- Het verzoek verschijnt niet in de uitbetalingsexport.\nBij het bijwerken van een aanvraag die nog niet is uitbetaald;\n- De reserveringsstatus wordt niet bijgewerkt.\n- Het verzoek wordt bijgewerkt in de uitbetalingsexport.",
+            "canOnlyEditHistoricalBuildupInfo": "Alleen historische waarden kunnen worden bewerkt.",
+            "calculationTool": "Rekentool",
+            "requestReservations": "Reserveringen aanvragen"
+        },
+        "tooltip": {
+            "warningRequestNotYetExported": "Dit verzoek is nog niet uitbetaald."
+        },
+        "actions": {
+            "request": "Verzoek"
+        }
+    },
+    "search": {
+        "static": {
+            "noMoreResults": "Geen resultaten meer.",
+            "ctrlShiftF": "Ctrl + Shift + F"
+        }
+    },
+    "factoringCompany": {
+        "static": {
+            "deleted": "De factormaatschappij is verwijderd."
+        }
+    },
+    "companyType": {
+        "static": {
+            "healthcare": "Gezondheidszorg",
+            "default": "Standaard"
+        }
+    },
+    "media": {
+        "static": {
+            "other": "Ander",
+            "motivationLetter": "Motivatiebrief",
+            "certificateOfConduct": "Verklaring Omtrent het Gedrag",
+            "pdfPagesCount": "De PDF heeft {amount} pagina's",
+            "useCertificateOfConduct": "Gebruik verklaring omtrent gedrag",
+            "type": "Type",
+            "curriculumVitae": "Curriculum Vitae",
+            "diploma": "Diploma's",
+            "europeanHealthInsuranceCard": "Nummer Europese ziekteverzekeringskaart",
+            "driversLicense": "Rijbewijs"
+        }
+    },
+    "entity": {
+        "static": {
+            "enterprise": "Onderneming",
+            "employmentAgency": "Uitzender",
+            "hirer": "Inlener",
+            "employee": "Werknemer",
+            "freelancer": "Freelancer",
+            "reseller": "Reseller"
+        }
+    },
+    "healthInsurance": {
+        "static": {
+            "saved": "De zorgverzekeringen worden bewaard."
+        }
+    },
+    "freelancerHourTypeMarginAddition": {
+        "static": {
+            "hirerPaymentTermTableHeader": "Betalingstermijn inlener",
+            "hourlyRateFreelancerTableHeader": "Uurtarief (vanaf)"
+        }
+    },
+    "marginType": {
+        "static": {
+            "default": "Standaard",
+            "overtime": "Overuren",
+            "etRegulation": "ET-regulering",
+            "senior": "Senior",
+            "hourType": "Uurtype"
+        }
+    },
+    "reseller": {
+        "static": {
+            "missingRequiredAttributesConfirmText": "De reseller kan nog niet ter goedkeuring worden ingediend omdat enkele vereiste velden niet zijn ingevuld.",
+            "submitForApprovalConfirmText": "De reseller wordt ter goedkeuring voorgelegd.",
+            "archivedText": "Deze reseller is gearchiveerd.",
+            "deleteConfirmationText": "Weet u zeker dat u deze reseller wilt verwijderen?",
+            "deleteSuccess": "De reseller is verwijderd.",
+            "deleteFailed": "Kan reseller niet verwijderen.",
+            "employeeMargins": "Werknemersmarges",
+            "freelancerMargins": "Freelancermarges",
+            "deleteCustomerConfirmationText": "Weet u zeker dat u deze klant wilt verwijderen? Alle marges die aan deze klant zijn gekoppeld, worden verwijderd.",
+            "defaultMargin": "Standaardmarge",
+            "zeroMarginConfirmationText": "Een of meer van de marges hebben de waarde '0'.",
+            "customerCanOnlyHaveOneResellerInfoMessage": "Staat het uitzendbureau er niet tussen, check of die al aan een andere reseller gekoppeld zit."
+        }
+    },
+    "teamType": {
+        "static": {
+            "employee": "Medewerker",
+            "hirer": "Inlener",
+            "employmentAgency": "Uitzendbureau",
+            "reseller": "Reseller",
+            "freelancer": "Freelancer",
+            "employer": "Werkgever"
+        }
+    },
+    "personalAccessToken": {
+        "static": {
+            "tokenCreatedInfo": "Het token is aangemaakt. Het token wordt maar één keer getoond, dus bewaar het op een veilige plaats.",
+            "tokenCopied": "Token gekopieerd naar klembord",
+            "personalAccessTokens": "Persoonlijke toegangstokens",
+            "tokenPlaceholder": "Het token wordt hier weergegeven.",
+            "deletePersonalAccessTokenText": "Het token wordt verwijderd en kan niet meer worden gebruikt.",
+            "details": "Details"
+        }
+    },
+    "messageBox": {
+        "static": {
+            "shouldSignDocument": {
+                "subject": "Onderwerp",
+                "sendSignRequestConfirmationText": "Het volgende onderwerp krijgt een tekenverzoek",
+                "newSignTokenConfirmationText": "Er wordt een nieuw tekentoken ontvangen.",
+                "newSignTokenSuccess": "Het tekentoken is succesvol ontvangen.",
+                "newSignTokenFailed": "Er is een fout opgetreden bij het ontvangen van het nieuwe tekentoken.",
+                "hideDocumentConfirmationText": "Weet u zeker dat u deze taak wilt verbergen? Het zal niet opnieuw verschijnen."
+            },
+            "hideContractConfirmationText": "Weet u zeker dat u dit contract wilt verbergen? Het zal niet opnieuw verschijnen."
+        }
+    },
+    "teams": {
+        "static": {
+            "addTeam": "Team toevoegen",
+            "deleteTeamText": "Weet je zeker dat je dit team wilt verwijderen?",
+            "deleteTeamPresetText": "Weet je zeker dat je deze teamvoorinstelling wilt verwijderen?",
+            "teamOwner": "Teameigenaar",
+            "roles": "Rollen",
+            "details": "Details",
+            "team": "Team"
+        }
+    },
+    "roles": {
+        "static": {
+            "roleCreated": "De rol is aangemaakt.",
+            "permissionsSaved": "De machtigingen zijn opgeslagen."
+        }
+    },
+    "subsidyCompany": {
+        "static": {
+            "deleteSubsidyCompanyConfirmationText": "Weet u zeker dat u het subsidiebedrijf wilt verwijderen?",
+            "deleted": "Het subsidiebedrijf is verwijderd."
+        }
+    },
+    "subsidy": {
+        "static": {
+            "clearToExcludeFromSubsidy": "Maak dit veld leeg om dit artikel uit te sluiten van subsidie.",
+            "endDateInfo": "Als de einddatum niet het einde van een week is, wordt de subsidie doorberekend tot het einde van de vorige week.",
+            "createSubsidy": "Subsidie aanmaken",
+            "updateSubsidy": "Update subsidie",
+            "startDateInfo": "Als de startdatum niet het begin van een week is, wordt de subsidie meegenomen vanaf het begin van de volgende week.",
+            "confirmation": "Subsidie bevestiging",
+            "details": "Details"
+        }
+    },
+    "proFormaPayslip": {
+        "actions": {
+            "previewCostPriceOverview": "Preview kostprijsoverzicht",
+            "previewPayslip": "Voorbeeld loonstrook"
+        },
+        "static": {
+            "splitPayOutInfo": "Als deze optie is ingeschakeld, worden de reguliere uren afgesplitst van de overige uren/toeslagen/vergoedingen op de loonstrook."
+        }
+    },
+    "files": {
+        "static": {
+            "selectEmploymentAgencyInfo": "Selecteer een uitzendbureau om te voorkomen dat andere uitzendbureaus toegang krijgen tot het bestand. Laat het leeg om alle gekoppelde uitzendbureaus (via dienstverbanden) toegang te geven tot het bestand.",
+            "updateSubjectsSuccess": "De onderwerpen zijn bijgewerkt."
+        }
+    },
+    "notifications": {
+        "static": {
+            "layout": "Lay-out",
+            "variableSaved": "Variabele bewaard",
+            "category": "Categorie",
+            "description": "Beschrijving",
+            "name": "Naam",
+            "slug": "Slug",
+            "template": "Sjabloon",
+            "newNotificationTemplate": "Nieuw meldingssjabloon",
+            "info": "Info",
+            "subjects": "Onderwerpen",
+            "subjectType": "Onderwerp type",
+            "variables": "Variabelen",
+            "variable": "Variabele",
+            "fieldType": "Type veld",
+            "variableDeleted": "Variabele verwijderd",
+            "subjectSaved": "Het onderwerp is opgeslagen.",
+            "subjectDeleted": "Het onderwerp is verwijderd.",
+            "templateDeleted": "Template verwijderd",
+            "templateSaved": "Template bewaard",
+            "type": "Type",
+            "mail": "Mail",
+            "testData": "Test gegevens",
+            "fieldOptions": "Veldopties",
+            "sickReport": "Ziekmeldingen"
+        },
+        "tabs": {
+            "subjects": "Onderwerpen",
+            "info": "Info",
+            "template": "Sjabloon",
+            "variables": "Variabelen"
+        }
+    },
+    "notificationTemplates": {
+        "static": {
+            "deleteConfirmationText": "Weet je zeker dat je deze meldingssjabloon wilt verwijderen?",
+            "subjectDisabled": "Het onderwerp van deze kennisgeving is variabel en kan niet worden gewijzigd.",
+            "default": "Standaard",
+            "noTranslations": "Geen vertalingen",
+            "deleteVariableConfirmationText": "Weet je zeker dat je deze meldingsvariabele wilt verwijderen?",
+            "deleteSharedNotificationTemplate": "Weet je zeker dat je deze meldingssjabloon niet meer wilt gebruiken?",
+            "mailOptions": "Mail opties",
+            "ccAndBccToAllMailsFromTemplate": "Alle e-mails die deze sjabloon gebruiken, worden naar deze cc- en bcc-adressen gestuurd."
+        },
+        "types": {
+            "email": {
+                "email": "E-mailaders",
+                "bcc": "Bcc",
+                "cc": "Cc",
+                "subject": "Subject"
+            }
+        },
+        "actions": {
+            "copyToCurrentEnterprise": "Kopiëren naar huidige onderneming",
+            "addSharedNotificationTemplate": "Sjabloon voor gedeelde meldingen toevoegen",
+            "saveTranslation": "Vertaling opslaan"
+        }
+    },
+    "employeeContract": {
+        "static": {
+            "archiveConfirmationText": "Weet u zeker dat u dit contract wilt archiveren?"
+        }
+    },
+    "hirerFunction": {
+        "static": {
+            "name": "Naam",
+            "inUseBy": "In gebruik door",
+            "canNotDeleteBecauseInUse": "De functie kan niet worden verwijderd omdat deze wordt gebruikt door werknemers.",
+            "deleted": "De functie is verwijderd.",
+            "saved": "De functie is opgeslagen.",
+            "function": "Functie"
+        }
+    },
+    "function": {
+        "static": {
+            "functions": "Functies",
+            "caoFunctions": "CAO-functies",
+            "name": "Naam",
+            "function": "Functie",
+            "saved": "De functie is opgeslagen.",
+            "deleted": "De functie is verwijderd.",
+            "switchToHirerFunctions": "Overschakelen naar inlener functie",
+            "switchToCaoFunctions": "Overschakelen naar CAO-functies",
+            "usedByEmployments": "Gebruikt door werkgevers",
+            "deleteFailed": "Het is niet gelukt om de functie te verwijderen.",
+            "addHirerFunction": "Voeg inlener functie toe"
+        }
+    },
+    "notificationType": {
+        "static": {
+            "mail": "Mail"
+        }
+    },
+    "entityModules": {
+        "dialog": {
+            "updateSettingModuleConfirmationText": "Wil je de wijzegingen opslaan?",
+            "start": "Start"
+        },
+        "static": {
+            "activationDateNote": "Let op, de activatiedatum kan pas over 3 maanden na deactivatie aangepast worden.",
+            "sickLeave": "Ziekteverzuim",
+            "checkboxConfirmationText": "Akkoord.",
+            "modules": "Module",
+            "disableConfirmationText": "Alle onderliggende instellingen van deze module worden ook uitgeschakeld.",
+            "module": "Module",
+            "vcu": "VCU",
+            "leaveOfAbsence": "Verlof"
+        }
+    },
+    "crud": {
+        "static": {
+            "deleteFailed": "Verwijderen van {model} is niet gelukt",
+            "deleteSuccess": "{model} is succesvol verwijdert",
+            "updateFailed": "{model} update niet gelukt",
+            "updateSuccess": "{model} succesvol ge-update",
+            "createSuccess": "{model} succesvol aangemaakt",
+            "create": "Maak {model}",
+            "update": "Update {model}"
+        }
+    },
+    "employmentFunction": {
+        "static": {
+            "functionWithDifferentTypeMessage": "Mocht je een functie met een andere CAO-functie of inlener functie willen aanmaken, maak een nieuwe tewerkstelling.",
+            "canNotUpdateHistoricalFunctions": "Historische functie kunnen niet ge-update worden.",
+            "deleteFunctionConfirmationText": "Weet je zeker dat je deze functie wil verwijderen?",
+            "confirmSaveHistoricalFunction": "De einddatum is voor de huidige datum, dit betekend dat de functie niet ge-update kan worden na het opslaan. Wil je toch doorgaan?",
+            "canNotDeleteBecauseInUse": "De functie kan niet worden verwijderd, want er zijn uren op geboekt.",
+            "deleted": "De functie is verwijderd.",
+            "saved": "De functie is opgeslagen.",
+            "function": "Functie",
+            "confirmChangeFunctionScale": "Weet u zeker dat u de functieschaal wilt wijzigen?"
+        }
+    },
+    "salaryMutationReason": {
+        "static": {
+            "cao": "CAO",
+            "minimumWage": "Minimum loon"
+        }
+    },
+    "assessmentCriteria": {
+        "tabs": {
+            "assessmentCriteria": "Beoordelingscriteria"
+        },
+        "actions": {
+            "archiveConfirmationText": "Weet je zeker dat je deze beoordelingscriterium wilt archiveren?",
+            "addOption": "Voeg een optie toe"
+        },
+        "static": {
+            "options": "Opties"
+        },
+        "steps": {
+            "option": "Optie",
+            "question": "Vraag",
+            "selectQuestionType": "Selecteer een vraag type"
+        }
+    },
+    "notificationLogs": {
+        "static": {
+            "bcc": "Verborgen kopie verzonden naar (BCC)",
+            "receipient": "Ontvanger",
+            "id": "ID",
+            "to": "Ontvanger",
+            "cc": "Kopie verzonden naar (CC)",
+            "messageId": "Bericht ID",
+            "resend": "Opnieuw verzenden",
+            "subject": "Onderwerp",
+            "body": "Hoofdtekst",
+            "attachments": "Bijlagen",
+            "events": "Gebeurtenis",
+            "sentAt": "Verzonden naar",
+            "status": "Verzonden ?",
+            "details": "Bericht details",
+            "none": "<Geen>",
+            "dashed": "-",
+            "info": "Extra informatie",
+            "confirmationQuestion": "Wat u zeker dat u wilt archiveren?",
+            "error": "Foutmelding",
+            "sent": "Verzonden"
+        },
+        "status": {
+            "opened": "Geopend",
+            "clicked": "Geklikt",
+            "viewedInBrowser": "In browser bekeken",
+            "permanentBounced": "Permanent teruggekomen",
+            "bounced": "Teruggekomen",
+            "blacklisted": "Op zwarte lijst gezet",
+            "sent": "Verzonden",
+            "unsubscribe": "Uitschrijven",
+            "delivered": "Afgeleverd",
+            "complaint": "Klacht",
+            "error": "Bericht is niet verstuurd."
+    }
+    },
+    "sicknessBenefit": {
+        "static": {
+            "default": "Standaard is {value}%",
+            "firstYearTotalPercentage": "Totaal eerste jaar",
+            "secondYearTotalPercentage": "Totaal tweede jaar"
+        }
+    },
+    "cao": {
+        "static": {
+            "filterBySbi": "Filter op SBI code"
+        }
+    },
+    "contract": {
+        "static": {
+            "createContract": "Stel contract op"
+        }
+    }
+}

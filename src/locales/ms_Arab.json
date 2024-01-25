@@ -1,0 +1,2443 @@
+{
+    "documents": {
+        "static": {
+            "signRequestSentAt": "Permintaan tandatangan telah dihantar",
+            "fillableBySubject": "Subject yang difailkan",
+            "associateLogoSubject": "Logo subjek sekutu",
+            "category": "Kategori",
+            "fieldOptions": "Ruang tambahan",
+            "fieldType": "Jenis medan",
+            "info": "Info",
+            "layout": "Bentangan",
+            "name": "Nama",
+            "newDocumentTemplate": "Templat bagi dokumen baharu",
+            "slug": "Slug",
+            "template": "Templat",
+            "templateSaved": "Templat disimpan",
+            "variable": "Pemboleh-ubah",
+            "variableDeleted": "Pemboleh-ubah dipadamkan",
+            "variables": "Pemboleh-ubah",
+            "documentPreview": "Prebiu dokumen",
+            "documentName": "Nama dokumen",
+            "signedAt": "Sila tandatangan di",
+            "declinedAt": "Penolakan di",
+            "subjects": "Subjek",
+            "subjectType": "Jenis subjek",
+            "isOwner": "Pemiliknya",
+            "shouldSign": "Perlu tandatangan",
+            "canView": "Boleh di lihat",
+            "status": "Status",
+            "generateDocument": "Menjana dokumen",
+            "testData": "Data diuji",
+            "created": "Diciptakan",
+            "originalFile": "Fail asal",
+            "signedFile": "Fail yang telah ditandatangani",
+            "auditReport": "Laporan audit",
+            "signRequests": "Sila tandatangan",
+            "position": "Posisi",
+            "signDocument": "Dokumen ditandatangan",
+            "uploadFile": "Muat naik fail",
+            "sendAfterCompletion": "Hantar selepas selesai",
+            "logoSubject": "Subjek logo",
+            "subject": "Subjek",
+            "uploadDocument": "Muat naik dokumen",
+            "document": "Dokumen",
+            "linkDeductions": "Pautan deduksi",
+            "hideDocumentConfirmationText": "Adakah anda pasti untuk sembunyi tugas ini?Ia tidak akan muncul semula.",
+            "signRequestsSent": "Permintaan tandatangan telah dihantar",
+            "linkDeductionsInfo": "Ini memastikan tiada borang yang akan deduksi apabila memasukkan ini semasa pendaftaran.",
+            "archiveDocumentConfirmationText": "Ini akan arkib dokumen itu.",
+            "description": "Huraian",
+            "templateDeleted": "Templat telah dipadamkan",
+            "variableSaved": "Pemboleh-ubah disimpan",
+            "editDocument": "Sunting dokumen",
+            "fallbackValue": "Nilai timbal balik",
+            "isVisibleOn": "Boleh dilihat pada",
+            "creatableByRoles": "Dicipta mengikut peranan"
+        },
+        "editor": {
+            "employee": "Pekerja",
+            "employmentAgency": "Agensi pekerjaan",
+            "variables": "Pembolehubah",
+            "freelancer": "Pekerja bebas",
+            "hirer": "Makikan",
+            "freelancerJob": "Kerja pekerja bebas",
+            "employeeContract": "Kontrak",
+            "date": "Tarikh",
+            "factoringCompany": "Syarikat pemfaktoran",
+            "employment": "Pekerjaan",
+            "enterprise": "Perusahaan"
+        },
+        "tabs": {
+            "info": "Info",
+            "variables": "Pemboleh-ubah",
+            "template": "Templat",
+            "subjects": "Subjek"
+        },
+        "steps": {
+            "selectTemplate": "Templat subjek",
+            "review": "Ulasan",
+            "subjects": "Subjek",
+            "variables": "Pemboleh-ubah"
+        },
+        "actions": {
+            "showPreview": "Pamerkan prebiu",
+            "editor": "Penyunting",
+            "pdf": "PDF",
+            "download": "Muat turun",
+            "upload": "Muat naik",
+            "create": "Cipta",
+            "createFromTemplate": "Ciptaan dari templat",
+            "options": "Pilihan",
+            "generateDocument": "Jana dokumen",
+            "addSubject": "Subjek tambahan"
+        }
+    },
+    "general": {
+        "static": {
+            "startsAt": "Mula pada",
+            "workTimeReductionDays": "Potongan jam hari bekerja",
+            "createFailed": "Kami tidak dapat simpan rekod ini.",
+            "holidaySurcharge": "Surcaj cuti",
+            "deleteFileConfirmationText": "Adakah anda pasti untuk padam fail ini?",
+            "unarchiveFailed": "Kami tidak boleh untuk nyah arkib item ini.",
+            "payslips": "Slip gaji",
+            "accountHolder": "Pemilik akaun",
+            "address": "Alamat",
+            "addressInformation": "Maklumat alamat",
+            "birthdate": "Tarikh lahir",
+            "birthplace": "Tempat lahir",
+            "cao": "Cao",
+            "category": "Kategori",
+            "citizenServiceNumber": "Nombor perkhidmatan warganegara",
+            "company": "Syarikat",
+            "companyInformation": "Maklumat syarikat",
+            "contact": "Hubungan",
+            "contactInformation": "Maklumat hubungan",
+            "country": "Negara",
+            "countryOfBirth": "Negara kelahiran",
+            "currentEmployments": "Pekerjaan terkini",
+            "deleteFailed": "Terdapat kesulitan, sila hubungi kami jika masalah berterusan.",
+            "documentNumber": "Nombor dokumen",
+            "documents": "Dokumen",
+            "documentTemplates": "Templat",
+            "email": "E-mel",
+            "employeeCreationSuccess": "Berjaya mewujudkan pekerja.",
+            "employees": "Pekerja",
+            "employeeApprovalSuccess": "Pekerja berjaya disahkan.",
+            "employmentAgencies": "Agensi pekerjaan",
+            "employmentAgency": "Agensi pekerjaan",
+            "employmentAgencyApprovalSuccess": "Berjaya sahkan agensi pekerjaan.",
+            "etRegulation": "Peraturan ET",
+            "factor": "Faktor",
+            "files": "Fail",
+            "financialInformation": "Maklumat kewangan",
+            "firstName": "Nama pertama",
+            "gender": "Jantina",
+            "hirer": "Majikan",
+            "hirerApprovalSuccess": "Berjaya sahkan majikan.",
+            "hirerCreationSuccess": "Berjaya wujudkan majikan.",
+            "hirers": "Majikan",
+            "iban": "IBAN",
+            "id": "Pengenalan",
+            "identityValidUntil": "Identiti sah sehingga",
+            "initials": "Tandatangan",
+            "invite": "Jemput",
+            "invoices": "Invois",
+            "language": "Bahasa",
+            "lastName": "Nama keluarga",
+            "log": "Log",
+            "maritalStatus": "Status perkahwinan",
+            "middleName": "Nama tengah",
+            "name": "Nama",
+            "none": "Tiada",
+            "notApplicable": "Tidak berkaitan",
+            "notes": "Nota",
+            "phone": "Telefon",
+            "postalAddress": "Poskod",
+            "residenceAddress": "Alamat permastautin",
+            "homeAddress": "Alamat rumah",
+            "sbiCodes": "Kod SBI",
+            "search": "Cari",
+            "settings": "Tentuan",
+            "splitMargin": "Bahagi margin",
+            "vatNumber": "Nombor VAT",
+            "visitAddress": "Alamat lawatan",
+            "timeRegistration": "Masa pendaftaran",
+            "yes": "Ya",
+            "confirmationQuestion": "Adakah anda pasti?",
+            "percentage": "Peratusan",
+            "euro": "Euro",
+            "employmentDate": "Tarikh lantikan dan",
+            "terminationDate": "Tarikh diberhentikan",
+            "payrollTaxReduction": "Potongan cukai penggajian",
+            "payOutFrequency": "Kekerapan bayaran",
+            "contractHours": "Jam kontrak",
+            "contractStartDate": "Tarikh mula kontrak",
+            "contractEndDate": "Tarikh akhir kontrak",
+            "participantEtRegulation": "Peserta peraturan ET?",
+            "startDate": "Tarikh mula",
+            "homewardTravelCost": "Kos perjalanan balik rumah",
+            "homewardTravelDistance": "Jarak perjalanan balik ke rumah",
+            "homewardTravelFrequency": "Kekerapan perjalanan balik ke hotel",
+            "factorEtRegulation": "Faktor peraturan ET",
+            "factorOvertime": "Faktor kerja lebih masa",
+            "vatTariff": "Tarif VAT",
+            "invoiceEmail": "E-mel invois",
+            "invoiceEmailCc": "Invois CC",
+            "city": "Bandar",
+            "employer": "Pekerja",
+            "factoringCompany": "Syarikat pemfaktoran",
+            "enterprises": "Perusahaan",
+            "dashboard": "Papan pemuka",
+            "employee": "Pekerja",
+            "enabled": "Kebolehan",
+            "webhooks": "Webhooks",
+            "nr": "Nr",
+            "originalValue": "Harga asal",
+            "exports": "Eksport",
+            "total": "Jumlah",
+            "cancel": "Batal",
+            "enterprise": "Perusahaan",
+            "date": "Tarikh",
+            "freelancers": "Pekerja bebas",
+            "hours": "Jam",
+            "payslip": "Slip gaji",
+            "timesheet": "Lembaran masa",
+            "reservations": "Tempahan",
+            "imports": "Import",
+            "billedAt": "Bil pada",
+            "freelancerCreationSuccess": "Berjaya wujudkan pekerja bebas",
+            "freelancerApprovalSuccess": "Berjaya sahkan pekerja bebas",
+            "account": "Akaun",
+            "overtime": "Lebih masa",
+            "surcharge": "Surcaj",
+            "shiftWorkSurcharge": "Tukar surcaj kerja",
+            "sepaId": "SEPA ID",
+            "travelHours": "Jam perjalanan",
+            "users": "Pengguna",
+            "permissions": "Kebenaran",
+            "user": "Pengguna",
+            "link": "Pautan",
+            "newContact": "Hubungan baharu",
+            "km": "KM",
+            "housingCost": "Kos perumahan",
+            "employmentCreationSuccess": "Berjaya wujudkan pekerjaan",
+            "resultsCount": "{count} keputusan",
+            "resultsCountMobile": "Muka surat {current} - {total}",
+            "phase": "Fasa",
+            "sendPayslips": "Hantar slip gaji",
+            "stipp": "Stipp",
+            "translations": "Terjemahan",
+            "subjects": "Subjek",
+            "outOfServiceDate": "Keluar dari waktu perkhidmatan",
+            "outOfServiceReason": "Sebab keluar dari perkhidmatan",
+            "accountNumber": "Nombor akaun",
+            "createdAt": "Wujud pada",
+            "filters": "Tapisan",
+            "endsAt": "Akhir pada",
+            "factorSenior": "Faktor senior",
+            "year": "Tahun",
+            "sendFailed": "Hantaran tidak berjaya",
+            "note": "Nota",
+            "createdBy": "Penggunaan",
+            "createNote": "Cipta nota",
+            "seniorDays": "Hari senior",
+            "workHours": "Waktu bekerja",
+            "workweekHours": "Waktu kerja mingguan",
+            "workStartTime": "Masa mula bekerja",
+            "workEndTime": "Waktu tamat bekerja",
+            "sickReports": "Laporan sakit",
+            "start": "Mula",
+            "end": "Tamat",
+            "reason": "Sebab",
+            "maxImageSize": "Imej mesti kecil dari {width} x {height} px.",
+            "hint": "Pembayang",
+            "outOfServiceEmployeeSuccess": "Pekerja telah berjaya dilaporkan sebagai keluar dari perkhidmatan.",
+            "outOfService": "Service tergendala",
+            "outOfServiceSuccess": "Service tergendala berjaya",
+            "updateFailed": "Kami tidak boleh simpan rekod ini.",
+            "saveFailed": "Kami tidak dapat simpan rekod ini.",
+            "archiveSuccess": "Item ini diarkib.",
+            "archiveFailed": "Kami tidak boleh arkibkan item tersebut.",
+            "location": "Lokasi",
+            "uploadFiles": "Kemaskini fail",
+            "invoiceCompany": "Invois syarikat",
+            "employments": "Pekerjaan",
+            "freelancerJobs": "Tugas pekerja bebas",
+            "fromPeriod": "Dari tempoh",
+            "filesUploaded": "Muat naik fail",
+            "fileUploadFailed": "Muat naik fail telah gagal",
+            "fileDeleted": "Fail dipadamkan",
+            "fileDeleteFailed": "Gagal padamkan fail",
+            "recentVisitedPages": "Baru-baru ini, mukasurat yang telah dilawati akan muncul disini.",
+            "description": "Deskripsi",
+            "subject": "Subjek",
+            "causer": "Umum",
+            "payOutEnterprise": "Bayaran perusahaan",
+            "frequency": "Kekerapan",
+            "from": "Daripada",
+            "until": "Sehingga",
+            "download": "Muat turun",
+            "reservationsBuildup": "Tambahan tempahan",
+            "seasonalWork": "Kerja bermusim",
+            "annualStatements": "Laporan tahunan",
+            "projects": "Projek",
+            "correction": "Pembetulan",
+            "selectedAmount": "Pilihan ({amount})",
+            "validationFailed": "Pengesahan gagal",
+            "upcomingEmployments": "Pekerjaan akan datang",
+            "sharedDocumentTemplates": "Perkongsian templat",
+            "companyType": "Jenis syarikat",
+            "useHirerValue": "Guna nilai majikan",
+            "type": "Jenis",
+            "canNotDeleteEmployeeTitle": "Tidak dapat padam",
+            "usingHirerValue": "Menggunakan nilai majikan",
+            "usingEmploymentAgencyValue": "Menggunakan nilai agensi pekerjaan",
+            "canNotDeleteEmploymentTitle": "Tidak dapat padam",
+            "useParentValue": "Nilai induk",
+            "import": "Import",
+            "importHirers": "Import pengambil pekerja",
+            "importSuccessful": "Import berjaya",
+            "importEmployments": "Pekerjaan import",
+            "importFreelancerJobs": "Tugas pekerja bebas import",
+            "importEntityFailed": "Import gagal. Sila segar semula muka surat dan mulakan import semula.",
+            "registration": "Pendaftaran",
+            "owner": "Pemilik",
+            "marginInvoicePerWeek": "Margin invois setiap minggu",
+            "generateFreelancerDocumentsInfo": "Bila pilihan dinyahkan, tiada dokumen dapat dijana pada bestari pekerja bebas.",
+            "currentJobs": "Tugas terkini",
+            "upcomingJobs": "Tugas akan datang",
+            "pages": "Muka surat",
+            "healthInsuranceStartDateInfo": "Potongan insuran kesihatan akan ditambah pada awal setiap minggu/empat minggu/bulan (bergantung kekerapan bayaran), selagi insuran kesihatan aktif pada masa tersebut.",
+            "token": "Capaian token",
+            "personalAccessTokens": "Capaian token peribadi",
+            "isPayOutEnabled": "Bayaran dibolehkan?",
+            "dashboardOrderMobile": "Peringkat papan pemuka untuk telefon bimbit",
+            "notifications": "Notifikasi",
+            "splitPayOut": "Slip bayaran gaji",
+            "disablePayOutConfirmationText": "Adakah anda mahu nyahkan bayaran untuk pendaftaran ini?",
+            "missingRequiredAttributesConfirmTitle": "Medan diperlukan hilang",
+            "otherInfo": "Lain-lain",
+            "dontSendDocuments": "Jangan hantar dokumen",
+            "showTotal": "Papar jumlah",
+            "saved": "Simpan",
+            "fillAll": "Isi semua",
+            "submitForApprovalConfirmTitle": "Hantar untuk sahkan",
+            "submitForApprovalFailed": "Kami tidak dapat menghantar entiti untuk kelulusan.",
+            "variable": "Pemboleh-ubah",
+            "minimum": "Minimum",
+            "submitForApprovalConfirmText": "Item itu akan dihantar untuk kelulusan.",
+            "jobCreationSuccess": "Jawatan itu telah diwujudkan.",
+            "resellers": "Penjual semula",
+            "resellerCreationSuccess": "Berjaya wujudkan penjual semula.",
+            "reseller": "Penjual semula",
+            "confirmationImpersonateText": "Adakah anda pasti untuk menyamar sebagai pengguna ini?",
+            "googleLogo": "Logo Google",
+            "teams": "Kumpulan",
+            "teamPresets": "Pra set kumpulan",
+            "resellerApprovalFail": "Gagal untuk luluskan penjual semula.",
+            "defaultValue": "Nilai lali",
+            "unableToDeleteItem": "Tidak boleh padam item ini",
+            "messageBox": "Kotak mesej",
+            "hide": "Sembunyi",
+            "contractType": "Jenis kontrak",
+            "expiresAt": "Luput pada",
+            "signRequestSentAt": "Permintaan tandatangan dihantar kepada",
+            "signTokenExpiresAt": "Tanda token luput pada",
+            "receiveNewSignToken": "Terima daftar baharu token",
+            "missingDocumentsAmount": "Jumlah dokumen hilang",
+            "proFormaPayslip": "Proforma slip gaji",
+            "fiscalYearlySalary": "Gaji tahunan fiskal",
+            "result": "Keputusan",
+            "role": "Tigas",
+            "noPermissionForField": "Tiada kebenaran untuk melihat...",
+            "NoPermissionForSegment": "Anda tidak punya kebenaran untuk melihat segmen ini...",
+            "contactHasNoAccountTooltip": "Kontrak ini tiada akaun",
+            "attachExistingContact": "Gabung hubungan yang tersedia",
+            "portals": "Portal",
+            "roles": "Tugasan",
+            "subsidyCompany": "Syarikat subsidi",
+            "subsidy": "Subsidi",
+            "subsidyCompanies": "Syarikat subsidi",
+            "confirmed": "Pasti",
+            "amount": "Jumlah",
+            "automatic": "Automatik",
+            "takeOverFromHirer": "Ambil alih daripada pengambil pekerja",
+            "certificateOfConduct": "Sijil tatacara",
+            "useEmploymentAgencyValue": "Nilai agensi pekerjaan",
+            "loadFailed": "Kami tidak dapat untuk muat naik data yang diminta.",
+            "importEmployees": "Pekerja import",
+            "importFreelancers": "Pekerja bebas diimport",
+            "generateFreelancerDocuments": "Jana dokumen pekerja bebas",
+            "splitPayOutInfo": "Apabila pilihan dinyahkan, waktu biasa akan dibahagikan daripada pendaftaran yang lain kepada bayaran eksport.",
+            "dontSendDocumentsInfo": "Permintaan tandatangan tidak akan dihantar untuk dokumen yang telah dipilih disini.",
+            "submittedForApproval": "Telah dihantar untuk kelulusan.",
+            "notYetSubmittedForApproval": "Belum dihantar untuk kelulusan.",
+            "missingRequiredAttributesConfirmText": "Item tidak boleh lagi dihantar untuk kelulusan kerana sebahagian atribut tidak disis.",
+            "new": "Baharu",
+            "resellerApprovalSuccess": "Berjaya meluluskan penjual semula.",
+            "recurringDeductionInfo": "Potongan berkala akan ditambah pada setiap minggu/empat minggu/bulan (bergantung kekerapan bayaran).",
+            "timeRegistrationIsNotEnabledText": ".Masa pendaftaran tidak dibenarkan.",
+            "unarchiveSuccess": ".Item ini tidak diarkib.",
+            "details": "Perincian",
+            "authorizedSignatory": "Tandatangan yang disahkan",
+            "chamberOfCommerceNumber": "Nombor Dewan Perniagaan",
+            "createContact": "Cipta hubungan",
+            "creditLimit": "Had kredit",
+            "employeeApprovalFail": "Gagal untuk sahkan pekerja.",
+            "employment": "Pekerjaan",
+            "employmentAgencyApprovalFail": "Gagal untuk sahkan agensi pekerjaan.",
+            "employmentAgencyCreationSuccess": "Berjaya wujudkan agensi pekerjaan.",
+            "hi": "Hai {user}",
+            "hirerApprovalFail": "Gagal sahkan majikan.",
+            "identityType": "Jenis pengenalan",
+            "legalForm": "Perundangan",
+            "personalData": "Maklumat peribadi",
+            "timeForTime": "Semasa ke semasa",
+            "no": "Tidak",
+            "employeeType": "Jenis pekerja",
+            "factoringCompanies": "Syarikat pemfaktoran",
+            "period": "Tempoh",
+            "freelancer": "Pekerja bebas",
+            "attachments": "Gabungan",
+            "freelancerApprovalFail": "Gagal sahkan pekerja bebas",
+            "costOfLivingAllowance": "Elaun sara hidup",
+            "weeksWorked": "Kerja mingguan",
+            "ageHint": "Umur:{age}",
+            "deductionOverviewPerWeek": "Keseluruhan potongan setiap minggu",
+            "mainContact": "Kontak utama"
+        },
+        "actions": {
+            "approve": "Lulus",
+            "archive": "Arkib",
+            "cancel": "Batal",
+            "delete": "Padam",
+            "new": "Baharu",
+            "next": "Seterusnya",
+            "save": "Simpan",
+            "saveTranslations": "Simpan terjemahan",
+            "sendInvitation": "Hantar jemputan",
+            "skip": "Langkau",
+            "viewParentCompany": "Papar syarikat induk",
+            "remove": "Buang",
+            "add": "Tambah",
+            "refresh": "Menyegar semula",
+            "deselectAll": "Nyahpilih semua",
+            "invite": "Jemput",
+            "create": "Cipta",
+            "linkEnterprise": "Pautan perusahaan",
+            "upload": "Muat naik",
+            "addType": "Tambah jenis",
+            "unarchive": "Tidak arkib",
+            "clearFilters": "Buang tapisan",
+            "deleteSelected": "Padam pilihan ({amount})",
+            "close": "Tutup",
+            "import": "Import",
+            "ok": "Ok",
+            "copyToken": "Salin token",
+            "submit": "Hantar",
+            "continue": "Teruskan",
+            "impersonate": "Menyamar",
+            "fill": "Isi",
+            "calculate": "Kira",
+            "reset": "Tetapan semula",
+            "actions": "Aksi",
+            "editPermissions": "Keizinan menyunting",
+            "attach": "Gabung",
+            "detach": "Nyah gabung",
+            "selectAllFromRole": "Pilih semua dari tugas",
+            "editUser": "Sunting pengguna",
+            "addRow": "Tambah baris",
+            "edit": "Sunting",
+            "previous": "Sebelum",
+            "confirm": "Pasti",
+            "selectAll": "Pilih semua",
+            "downloadFormat": "Muat turun format"
+        },
+        "plurals": {
+            "month": "No bulan | {count} bulan | {count} bulan",
+            "hour": "Bil jam | {count} jam | {count} jam",
+            "file": "No fail | {count} fail | {count} fail",
+            "week": "No minggu | {count} minggu | {count} minggu"
+        },
+        "messages": {
+            "overriddenValue": "Nilai ini di langkau.",
+            "dataUniqueToEnterprise": "Data ini unik untuk perusahaan {enterpriseName}. Tekan {action} untuk tulis ganti data ini. Data yang tidak ditulis ganti akan diambil daripada syarikat induk."
+        },
+        "tabs": {
+            "companyDetails": "Perincian syarikat",
+            "contactDetails": "Perincian hubungan",
+            "contacts": "Hubungan",
+            "documents": "Dokumen",
+            "employees": "Pekerja",
+            "hirers": "Majikan",
+            "invoices": "Invois",
+            "log": "Log",
+            "notes": "Nota",
+            "settings": "Sasaran",
+            "splitMargin": "Margin dibahagikan",
+            "hourTypes": "Jenis jam",
+            "compensations": "Pampasan",
+            "travelTypes": "Jenis perjalanan",
+            "employments": "Pekerjaan",
+            "hours": "Jam",
+            "reservations": "Tempahan",
+            "jobs": "Tugas",
+            "wageAttachments": "Upah diserta",
+            "deductions": "Potongan",
+            "projects": "Projek",
+            "freelancers": "Pekerja bebas",
+            "tariffs": "Tarif",
+            "margins": "Margin",
+            "customers": "Pelanggan",
+            "subsidies": "Subsidi",
+            "user": "Pengguna",
+            "details": "Perincian"
+        },
+        "tooltip": {
+            "copyToClipboard": "Salin ke papan keratan"
+        },
+        "errors": {
+            "forbidden": "Perlu kebenaran tambahan untuk teruskan aksi ini."
+        }
+    },
+    "documentSubjectType": {
+        "static": {
+            "employeeContract": "Kontrak pekerja",
+            "employee": "Pekerja",
+            "employment": "Pekerjaan",
+            "employmentAgency": "Agensi pekerjaan",
+            "hirer": "Majikan",
+            "factoringCompany": "Syarikat pemfaktoran",
+            "freelancer": "Pekerja bebas",
+            "freelancerJob": "Kerja pekerja bebas",
+            "enterprise": "Perusahaan"
+        }
+    },
+    "sickReport": {
+        "betterReport": {
+            "actions": {
+                "confirmationText": "Adakah anda pasti untuk laporan baik?",
+                "confirm": "Sah",
+                "confirmationTextEmployee": "Adakah anda pasti untuk lapor pekerja ini baik?",
+                "cancel": "Batal"
+            },
+            "report": "Laporan baik",
+            "confirmationQuestion": "Adakah anda pasti?",
+            "success": "Pekerja itu berjaya dilaporkan baik."
+        },
+        "reportSick": "Laporan sakit",
+        "alreadySick": "Employee dilaporkan sakit.",
+        "actions": {
+            "deleteConfirmationText": "Adakah anda pasti untuk padam laporan sakit ini?",
+            "delete": "Padam",
+            "cancel": "Batal"
+        },
+        "filter": {
+            "currentSickOnly": "Kini sakit sahaja",
+            "start": "Mula",
+            "end": "Tamat"
+        },
+        "success": {
+            "deleted": "Laporan sakit itu berjaya dipadam."
+        }
+    },
+    "exports": {
+        "static": {
+            "deleteExportConfirmationText": "Ini akan memadamkan eksport.",
+            "notStarted": "Belum bermula",
+            "queued": "Beratur",
+            "running": "Sedang diproses",
+            "completed": "Siap",
+            "cancelled": "Tamat",
+            "failed": "Gagal",
+            "factoringCompanyExport": "Syarikat export pemfaktoran",
+            "options": "Pilihan",
+            "exports": "Eksport",
+            "generatedAt": "Jana untuk",
+            "marginAndDeductionsExport": "Margin dan potongan eksport",
+            "export": "Eksport",
+            "periods": "Tempoh",
+            "total": "Jumlah",
+            "exportSuccessful": "Eksport berjaya",
+            "payOutExport": "Bayaran dieksport",
+            "selectedInvoices": "Anda telah memilih {count} invois.",
+            "registrations": "Pendaftaran",
+            "noInvoicesFound": "Tiada invois ditemui.",
+            "deductionsDocumentNotSigned": "Potongan dokumen tidak ditandatangan.",
+            "archiveEmploymentAgencyConfirmationText": "Adakah anda ingin arkib agensi pekerjaan ini?",
+            "archiveHirerConfirmationText": "Adakah anda ingin arkibkan majikan ini?",
+            "deleteCompensationConfirmationText": "Adakah anda pasti untuk padam pampasan ini?",
+            "deleteTravelTypeConfirmationText": "Adakah anda pasti untuk padam jenis perjalanan ini?",
+            "missingDocumentsForPayOutExport": "Dokumen ditandatangani hilang",
+            "unarchiveEmploymentAgencyConfirmationText": "Adakah anda pasti untuk nyah arkib agensi pekerjaan ini?",
+            "marginOverviewExport": "Paparan eksport margin",
+            "invoice": "Invois",
+            "hollandZorg": "HollandZorg",
+            "freelancersPayoutExport": "Bayaran eksport pekerja bebas",
+            "newEmployees": "Pekerja baharu",
+            "markAllAsChanged": "Tanda semua sebagai tukar",
+            "changedEmployees": "Pekerja bertukar",
+            "editExport": "Sunting eksport",
+            "addEmployee": "Tambah pekerja",
+            "unexportedHealhInsuranceCount": "{count} insuran kesihatan tidak dieksport.",
+            "healthInsuranceExport": "Eksport insuran kesihatan",
+            "doNotExport": "Jangan eksport",
+            "doExport": "Sila eksport",
+            "markAllAsDoNotExport": "Tanda semua sebagai tidak boleh eksport",
+            "markAllAsDoExport": "Tanda semua sebagai boleh eksport",
+            "exported": "Telah dieksport",
+            "unarchiveResellerConfirmationText": "Adakah anda pasti untuk nyah arkib penjual semula ini?",
+            "historicalPayOutExport": "Sejarah bayaran eksport",
+            "mijnSubsidieExport": "Eksport subsidi Mijn",
+            "mijnSubsidie": "Subsidi Mijn",
+            "deleteInvoiceConfirmationText": "Ini akan memadamkan semua invois berkaitan dan membuka masa pendaftaran untuk tempoh ini.",
+            "deleteSepaOverviewExportConfirmationText": "Eksport itu akan dipadamkan dan status bayaran untuk setiap invois akan ditetapkan semula.",
+            "noRegistrationsFound": "Tiada pendaftaran ditemui.",
+            "deletePayOutExportConfirmationText": "Eksport akan dipadamkan dan semua pendaftaran untuk eksport ini akan boleh dieksport lagi.",
+            "employeesExport": "Pekerja dieksport",
+            "payOutInfo": "Nama eksport itu akan sama seperti tempoh pilihan yang tertinggi. Mana-mana pendaftaran pilihan dalam tempoh lebih rendah akan dieksport didalam fail yang berbeza. Sebarang tunggakan invois akan di bil.",
+            "deleteWageAttachmentConfirmationText": "Lampiran gaji akan dipadamkan.",
+            "deleteHourTypeConfirmationText": "Adakah anda pasti untuk padam jenis jam ini?",
+            "unarchiveHirerConfirmationText": "Adakah anda pasti untuk nyah arkib majikan ini?",
+            "accountingSoftwareExport": "Perisian perakaunan",
+            "marginOverview": "Paparan margin",
+            "saveInvoiceConfirmationText": "Invois akan di simpan dan tempoh akan dikunci.",
+            "markAllAsNew": "Tanda semua sebagai baharu",
+            "exportHealhInsuranceRemainder": "Eksport bukan eksport untuk insuran kesihatan",
+            "archiveResellerConfirmationText": "Adakah anda pasti untuk arkib penjual semula ini?",
+            "resellerMarginsExport": "Margin eksport penjual semula",
+            "historicalPayOutInfo": "Eksport akan dicipta untuk setiap pilihan masa pendaftaran. Bagi peraturan bayaran normal yang dipakai, kecuali tiada tempahan buildups dikira."
+        },
+        "pages": {
+            "factoringCompany": "Syarikat pemfaktoran",
+            "marginAndDeductions": "Margin dan potongan",
+            "payOutExport": "Bayaran eksport",
+            "employeesExport": "Eksport pekerja",
+            "accountingSoftwareExport": "Perisian perakaunan",
+            "marginOverviewExport": "Paparan margin eksport",
+            "hollandZorgExport": "Eksport HollandZorg",
+            "freelancersPayout": "Bayaran pekerja bebas",
+            "mijnSubsidieExport": "Eksport subsidi Mijn",
+            "resellerMargins": "Margin penjual semula"
+        },
+        "actions": {
+            "refresh": "Segar semula",
+            "selectAll": "Pilih semua",
+            "clearSelection": "Bersihkan pilihan",
+            "generate": "Jana",
+            "selectPeriod": "Pilih tempoh",
+            "timePeriod": "Tempoh masa",
+            "showOldExports": "Papar eksport terdahulu",
+            "exactDate": "Tarikh tepat"
+        },
+        "payOut": {
+            "static": {
+                "skipNonExportableValidation": "Langkau dokumen yang tidak disahkan",
+                "notExportedEmployeesInfo": "Sebahagian masa yang negatif untuk pekerja yang tidak boleh dieksport:"
+            },
+            "actions": {
+                "historical": "Sejarah"
+            }
+        },
+        "employees": {
+            "static": {
+                "createFreshExportInfo": "Apabila pilihan 'eksport segar' dibenarkan, semua pekerja yang aktif waktu ini akan dimasukkan di dalam eksport.",
+                "createFreshExport": "Permulaan eksport"
+            }
+        }
+    },
+    "outOfService": {
+        "actions": {
+            "processConfirmationText": "Adakah anda pasti untuk proses notifikasi perkhidmatan tergendala?",
+            "deleteConfirmationText": "Adakah anda pasti untuk buang notifikasi perkhidmatan tergendala?",
+            "delete": "Padam",
+            "cancel": "Batal",
+            "process": "Proses"
+        },
+        "search": "Cari",
+        "process": "Proses",
+        "date": "Tarikh",
+        "reason": "Alasan",
+        "processSuccess": "Notifikasi perkhidmatan tergendala telah berjaya diproses.",
+        "onlyOutstanding": "Hanya tunggakan"
+    },
+    "deductions": {
+        "static": {
+            "amountIsLimited": "Jumlah potongan adalah had berdasarkan jam untuk tempoh ini.",
+            "uploadFile": "Muat naik fail",
+            "outstandingDeductions": "Potongan tunggakan",
+            "recurringDeductions": "Potongan berskala",
+            "amount": "Jumlah",
+            "for": "Untuk",
+            "remainingAmount": "Jumlah baki",
+            "files": "Fail",
+            "saved": "Potongan disimpan.",
+            "deductFrom": "Dipotong daripada",
+            "noDeductions": "Tiada potongan",
+            "remaining": "Baki",
+            "unexportedOnly": "Dinyah eksport sahaja"
+        }
+    },
+    "employmentAgency": {
+        "static": {
+            "deleteConfirmationText": "Adakah anda pasti untuk padam agensi pekerjaan ini?",
+            "deleteSuccess": "Agensi pekerjaan ini telah dipadamkan.",
+            "archivedText": "Agensi pekerjaan di arkib.",
+            "inviteExistingInfoText": "Jemputan akan dihantar kepada agensi pekerjaan {companyName}.",
+            "inviteNewInfoText": "Jemputan akan dihantar untuk agensi pekerjaan terbaharu.",
+            "submitForApprovalConfirmText": "Agensi pekerjaan itu akan menghantar untuk kelulusan.",
+            "makeResellerConfirmationText": "Adakah anda pasti untuk buat penjual semula untuk agensi pekerjaan?",
+            "deleteFailed": "Gagal padam agensi pekerjaan.",
+            "missingRequiredAttributesConfirmText": "Agensi pekerjaan itu tidak boleh lagi menghantar kelulusan kerana sebahagian atribut belum diisi."
+        }
+    },
+    "auth": {
+        "actions": {
+            "login": "Log masuk",
+            "logout": "Log keluar",
+            "backToLogin": "Log masuk semula",
+            "resetPassword": "Tetapan semula kata laluan",
+            "deactivate": "Dinyahaktifkan",
+            "reactivate": "Di aktif semula",
+            "leaveImpersonation": "Tinggalkan penyamaran",
+            "forgotPassword": "Lupa kata laluan",
+            "updatePassword": "Sila kemaskini kata laluan",
+            "changePassword": "Tukar kata laluan"
+        },
+        "pages": {
+            "forgotPassword": "Lupa kata laluan",
+            "login": "Log masuk",
+            "activateAccount": "Akaun yang diaktifkan",
+            "setPassword": "Tetapan kata laluan"
+        },
+        "static": {
+            "accountActivationSuccess": "Akaun telah diaktifkan",
+            "forgotPasswordSuccessDescription": "Kami telah menghantar e-mel beserta pautan untuk tetapan semula kata laluan.",
+            "passwordResetSuccess": "Tetapan semula kata laluan",
+            "passwordUpdated": "Kata laluan sudah dikemaskini.",
+            "logoutConfirmationText": "Anda pasti untuk log keluar?",
+            "registrationSuccessful": "Pendaftaran berjaya",
+            "mobileDashboardOrderUpdated": "Turutan di papan pemuka telefon bimbit telah di kemaskini.",
+            "tokenExpired": "Token telah luput",
+            "authenticated": "Anda telah log masuk!",
+            "userReactivated": "Pengguna telah diaktifkan semula.",
+            "forgotPasswordSuccess": "Pautan tetapan semula kata laluan telah dihantar",
+            "leaveImpersonationConfirmationText": "Adakah anda pasti untuk meninggalkan penyamaran?",
+            "tokenExpiredInfo": "Anda di log keluar kerana kesahihan token telah luput. Bagi meneruskan, sila log masuk menggunakan kelayakan anda.",
+            "email": "E-mel",
+            "userDeactivated": "Penggunaan dinyahaktifkan."
+        }
+    },
+    "dashboard": {
+        "tabs": {
+            "creditApplications": "Permohonan kredit",
+            "newFreelancers": "Pekerja bebas baharu",
+            "newHirers": "Majikan baru",
+            "newEmployees": "Pekerja baharu",
+            "newEmploymentAgencies": "Agensi pekerjaan baharu"
+        },
+        "charts": {
+            "revenue": "Hasil",
+            "employees": "Pekerja",
+            "workedHours": "Waktu bekerja",
+            "hirers": "Majikan",
+            "employmentAgencies": "Agensi pekerjaan",
+            "freelancers": "Pekerja bebas",
+            "payroll": "Senarai gaji",
+            "temporary": "Sementara",
+            "overtime": "Lebih masa",
+            "surchargeHours": "Surcaj",
+            "margin": "Margin",
+            "freelancerCosts": "Kos pekerja bebas"
+        },
+        "static": {
+            "functions": "Fungsi-fungsi",
+            "messageBox": "Kotak mesej",
+            "recentPayslips": "Slip gaji terkini",
+            "recentInvoices": "Invois terkini",
+            "unsignedContracts": "Kontrak-kontrak yang tidak bertandatangan",
+            "notifications": "Notifikasi",
+            "statistics": "Statistik",
+            "newRegistrations": "Pendaftaran baharu",
+            "charts": "Carta",
+            "yourReservations": "Tempahan anda",
+            "annualStatements": "Penyata tahunan",
+            "hirersWithoutCao": "Pengambil pekerja tanpa CAO"
+        },
+        "functions": {
+            "imports": "Import",
+            "exports": "Eksport",
+            "invoices": "Invois",
+            "documents": "Dokumen",
+            "timeRegistration": "Masa pendaftaran",
+            "payslipsAndAnnualStatements": "Slip gaji / penyata tahunan"
+        },
+        "titles": {
+            "employmentAgencies": "Agensi pekerjaan",
+            "freelancers": "Pekerja bebas",
+            "marginExcludingVat": "Margin (tanpa VAT)",
+            "hirers": "Majikan",
+            "employees": "Pekerja",
+            "costExcludingVat": "Kos {year} (tanpa VAT)",
+            "resellers": "Penjual semula"
+        },
+        "messageBox": {
+            "birthdays": "Hari lahir",
+            "shouldSignDocuments": "Dokumen ditandatangani",
+            "lockablePeriods": "Waktu yang boleh di kunci",
+            "missingDocuments": "Dokumen yang hilang",
+            "expiringContracts": "Kontrak yang sedang luput",
+            "renewableContracts": "Kontrak yang akan diperbaharui",
+            "payOut": "Bayar ({frequency})",
+            "expiredContracts": "Kontrak yang telah luput"
+        }
+    },
+    "documentTemplates": {
+        "static": {
+            "default": "Lalai",
+            "noTranslations": "Tiada terjemahan",
+            "deleteSharedDocumentTemplate": "Adakah anda mahu memberhentikan penggunaan templat ini?",
+            "deleteConfirmationText": "Adakah anda pasti untuk memadamkan templat ini?",
+            "deleteVariableConfirmationText": "Adakah anda pasti untuk memadamkan dokumen pemboleh-ubah ini?",
+            "kiwaDeclarationOfEmployment": "Pengisytiharan KIWA"
+        },
+        "actions": {
+            "copyToCurrentEnterprise": "Sila salin ke perusahaan terkini",
+            "addSharedDocumentTemplate": "Sila tambah ke templat sepunya"
+        }
+    },
+    "emails": {
+        "editor": {
+            "invitationLink": "Pautan jemputan"
+        }
+    },
+    "enum": {
+        "contractPhase": {
+            "phase1And2": "Fasa 1/2 (A)",
+            "phase4": "Fasa 4 (C)",
+            "phase3": "Fasa 3 (B)"
+        },
+        "employeeType": {
+            "normal": "Normal",
+            "payroll": "Senarai gaji",
+            "temporary": "Sementara",
+            "other": "Lain-lain"
+        },
+        "gender": {
+            "female": "Wanita",
+            "male": "Lelaki",
+            "other": "Lain-lain"
+        },
+        "identityType": {
+            "alienPassport": "Pasport asing",
+            "diplomaticPassport": "Pasport diplomatik",
+            "dutchPassport": "Pasport Belanda",
+            "none": "Tiada",
+            "passportEeaCountry": "Pasport negara EEA",
+            "refugeePassport": "Pasport pelarian",
+            "residenceDocuments": "Dokumen pemastautin",
+            "servicePassport": "Perkhidmatan pasport",
+            "alienIdentityCard": "Kad pengenalan tidak dikenal pasti",
+            "dutchIdentityCard": "Kad pengenalan Belanda",
+            "dutchMunicipalitiesIdentityCard": "Kad pengenalan perbandaran Belanda",
+            "passportNonEeaCountry": "Pasport bukan dari negara EEA"
+        },
+        "maritalStatus": {
+            "divorced": "Bercerai",
+            "livingTogetherWithContract": "Tinggal bersama dengan kontrak",
+            "livingTogetherWithoutContract": "Tinggal bersama tanpa kontrak",
+            "married": "Berkahwin",
+            "registeredPartnership": "Pendaftaran kongsi",
+            "widowhood": "Balu",
+            "unmarried": "Tidak berkahwin"
+        },
+        "vatTariff": {
+            "shifted": "Berpindah",
+            "exempt": "Dikecualikan"
+        },
+        "fieldType": {
+            "text": "Teks",
+            "textArea": "Kawasan teks",
+            "hirerHourType": "Jenis waktu pengambilan",
+            "checkbox": "Semakan",
+            "money": "Wang",
+            "datePicker": "Tarikh pilihan"
+        },
+        "subsidyType": {
+            "none": "Tiada",
+            "hiringDisabledEmployee": "Pengambilan pekerja kelainan upaya",
+            "reassigningDisabledEmployee": "Serah semula pekerjaan pekerja kelainan upaya",
+            "targetJobAgreement": "Kumpulan sasaran perjanjian kerja dan mereka yang mempunyai masalah pembelajaran"
+        }
+    },
+    "fieldTypes": {
+        "static": {
+            "noOptions": "Tiada pilihan"
+        }
+    },
+    "form": {
+        "static": {
+            "accountHolder": "Pemegang akaun",
+            "authorizedSignatory": "Penandatangan dibenarkan",
+            "birthdate": "Tarikh lahir",
+            "cao": "CAO",
+            "cc": "CC",
+            "certificate": "Sijil",
+            "chamberOfCommerceNumber": "Nombor Dewan Perniagaan",
+            "city": "Bandar",
+            "contractHours": "Jam kontrak",
+            "costOfLivingAllowance": "Elaun sara diri",
+            "country": "Negara",
+            "countryCode": "Kod negara",
+            "countryOfBirth": "Negara kelahiran",
+            "creditLimit": "Had kredit",
+            "diplomas": "Diploma",
+            "documentNumber": "Nombor dokumen",
+            "email": "E-mel",
+            "employeeFunction": "Fungsi pekerja",
+            "employeeType": "Jenis pekerja",
+            "employmentAgency": "Agensi pekerjaan",
+            "gAccount": "Akaun-G?",
+            "gAccountPercentage": "Peratus akaun-G",
+            "etRegulation": "Peraturan ET",
+            "expirationDate": "Tarikh luput",
+            "factor": "Faktor",
+            "factoringCompany": "Syarikat pemfaktoran",
+            "factorOvertime": "Faktor lebih masa",
+            "firstName": "Nama pertama",
+            "gender": "Jantina",
+            "grossSalary": "Gaji kasar",
+            "hasNoRiskPolicy": "Polisi tiada risiko?",
+            "hirer": "Majikan",
+            "homewardTravelCost": "Kos perjalanan balik",
+            "homewardTravelFrequency": "Kekerapan perjalanan balik ke rumah",
+            "iban": "IBAN",
+            "id": "ID",
+            "identityValidUntil": "Identiti sah sehingga",
+            "initials": "Tandatangan",
+            "invoiceEmailCc": "Invois CC",
+            "invoiceEmail": "E-mel invois",
+            "language": "Bahasa",
+            "lastName": "Nama keluarga",
+            "logo": "Logo",
+            "maritalStatus": "Status perkahwinan",
+            "middleName": "Nama tengah",
+            "motivationLetter": "Surat motivasi",
+            "nationality": "Warganegara",
+            "noRiskPolicy": "Polisi tiada risiko",
+            "password": "Kata laluan",
+            "passwordConfirmation": "Pengesahan kata laluan",
+            "paymentTerm": "Tempoh bayaran",
+            "payOutFrequency": "Kekerapan bayaran",
+            "phase": "Fasa",
+            "probation": "Percubaan",
+            "proofOfRecruitmentAbroad": "Bukti perlantikan luar negara",
+            "riskGroup": "Kumpulan berisiko",
+            "seniorDays": "Hari senior",
+            "shouldPayOutHolidays": "Bayaran hari cuti?",
+            "shouldPayOutNonStatutoryHolidays": "Bayaran bukan hari cuti?",
+            "shouldPayOutReducedHours": "Pengurangan jam bayaran?",
+            "shouldPayOutShortAbsence": "Bayaran ketakhadiran jangka pendek?",
+            "signature": "Tandatangan",
+            "startDate": "Tarikh mula",
+            "pensionPlan": "Pelan persaraan",
+            "street": "Jalan",
+            "streetNumberAddition": "Tambahan",
+            "terminationDate": "Tarikh diberhentikan",
+            "vatNumber": "Nombor VAT",
+            "vatTariff": "Tarif VAT",
+            "workTimeReductionDays": "Tolak waktu hari bekerja",
+            "zipCode": "Poskod",
+            "caoWorkweek": "Minggu bekerja CAO",
+            "employment": "Pekerjaan",
+            "employee": "Pekerja",
+            "useFrameworkAgreement": "Guna kerangka perjanjian",
+            "enterprise": "Perusahaan",
+            "chamberOfCommerceExtract": "Sari dari Dewan Perniagaan",
+            "liabilityInsurance": "Insuran liabiliti",
+            "freelancer": "Pekerja bebas",
+            "freelancerJob": "Kerja pekerja benbas",
+            "gAccountIban": "IBAN akaun-G",
+            "factorSenior": "Faktor senior",
+            "payslips": "Slip gaji",
+            "payslipsCc": "CC Slip gaji",
+            "salesRate": "Kadar jualan",
+            "housingCost": "Kos perumahan",
+            "weeksWorked": "Bekerja mingguan",
+            "documentTemplate": "Templat",
+            "deliveryDeed": "Perjanjian penghantaran",
+            "files": "Fail",
+            "isAgreedWork": "Pekerjaan yang telah dipersetujui",
+            "endDate": "Tarikh akhir",
+            "note": "Nota",
+            "timeRegistration": "Masa pendaftaran",
+            "timeRegistrationQuestion": "Masa pendaftaran?",
+            "timeForTime": "Semasa ke semasa",
+            "workHours": "Waktu bekerja",
+            "workStartTime": "Waktu mula bekerja",
+            "workEndTime": "Waktu kerja habis",
+            "start": "Mula",
+            "reason": "Sebab",
+            "end": "Habis",
+            "outOfServiceDate": "Diluar tarikh perkhidmatan",
+            "salaryWithExtraDays": "Gaji dengan lebihan hari",
+            "factorWithExtraDays": "Faktor dengan lebihan hari",
+            "location": "Lokasi",
+            "workDaysAndHours": "Jam dan waktu bekerja",
+            "website": "Laman sesawang",
+            "invoiceCompany": "Invois syarikat",
+            "date": "Tarikh",
+            "file": "Fail",
+            "currentPassword": "Kata laluan terkini",
+            "exchangeOvertime": "Pertukaran kerja lebih masa",
+            "payOutEnterprise": "Bayaran perusahaan",
+            "upload": "Muat naik",
+            "seasonalWork": "Kerja bermusim",
+            "splitInvoicePerProject": "Asingkan invois berdasarkan projek",
+            "splitInvoicePerEmployee": "Bahagi invois mengikut pekerja",
+            "search": "Cari",
+            "splitInvoiceItemsByDate": "Bahagi invois mengikut jam dan tarikh perjalanan",
+            "companyType": "Jenis syarikat",
+            "qualifications": "Kelayakan",
+            "workServices": "Perkhidmatan",
+            "activities": "Aktiviti",
+            "certificateOfConduct": "Sijil tatakelakuan",
+            "requireFreelancerVatNumber": "Perlu Nombor VAT pekerja bebas",
+            "blockSalesRate": "Blok kadar jualan",
+            "employeeTypeSlugs": "Jenis pekerja",
+            "snfCertification": "Sijil SNF",
+            "payOutExport": "Bayaran eksport",
+            "isPayOutEnabledQuestion": "Bayaran dibolehkan?",
+            "healthInsurance": "Insuran kesihatan",
+            "dontSendDocuments": "Jangan hantar dokumen",
+            "selectedAmount": "{amount} telah dipilih",
+            "reseller": "Penjual semula",
+            "teamTypes": "Jenis kumpulan",
+            "teamModel": "Entiti",
+            "team": "Kumpulan",
+            "teamPresets": "Pra set kumpulan",
+            "canHaveJobs": "Boleh dapat kerja",
+            "noRecordsFound": "Tiada rekod ditemui...",
+            "workDays": "Hari bekerja",
+            "role": "Tanggungjawab",
+            "user": "Pengguna",
+            "contact": "Kenalan",
+            "subsidyCompany": "Syarikat subsidi",
+            "type": "Jenis",
+            "subsidy": "Subsidi",
+            "shouldPayOutSeniorDays": "Bayaran hari senior?",
+            "shouldPayOutWorkTimeReductionDays": "Bayaran untuk potongan waktu hari bekerja?",
+            "grossSalaryPerHour": "Gaji kasar sejam",
+            "birthplace": "Tempat lahir",
+            "citizenServiceNumber": "Nombor perkhidmatan warganegara",
+            "curriculumVitae": "Kokurikulum",
+            "employmentDate": "Tarikh mula bekerja",
+            "factorEtRegulation": "Faktor peraturan ET",
+            "hasPayrollTaxReduction": "Potongan cukai penggajian?",
+            "homewardTravelDistance": "Jarak perjalanan balik ke rumah",
+            "identityType": "Jenis pengenalan",
+            "legalForm": "Borang perundangan",
+            "mainLanguage": "Bahasa utama",
+            "name": "Nama",
+            "description": "Deskripsi",
+            "phone": "Telefon",
+            "rentalOrPurchaseContractHomeCountry": "Sewa atau kontrak belian dari negara asal",
+            "sbiCodes": "Kod SBI",
+            "shouldDeductHealthInsurance": "Tolak insuran kesihatan?",
+            "shouldPayOutVacationMoney": "Bayaran wang percutian?",
+            "streetNumber": "Nombor",
+            "subject": "Subjek",
+            "functionScale": "Timbangan fungsi",
+            "cessionText": "Penyerahan teks",
+            "marginInvoicePerWeek": "Margin invois setiap minggu",
+            "gAccountHolder": "Pemilik akaun-G",
+            "background": "Latar belakang (menegak)",
+            "outOfServiceReasonSlug": "Sebab",
+            "employerNumber": "Nombor majikan",
+            "shouldPayOutVacationDays": "Bayaran hari percutian?",
+            "splitInvoicePerFreelancer": "Bahagi invois mengikut pekerja bebas",
+            "healthcareDescription": "Deskripsi penjagaan kesihatan",
+            "deductMarginVat": "Potongan margin VAT",
+            "ownerCompany": "Pemilik syarikat",
+            "generateFreelancerDocuments": "Jana dokumen pekerja bebas",
+            "splitPayOut": "Bahagi bayaran",
+            "searchAddress": "Cari alamat",
+            "deductionOverviewPerWeek": "Keseluruhan potongan setiap minggu",
+            "backgroundLandscape": "Latar belakang (melintang)",
+            "kiwaNumber": "Nombor KIWA",
+            "niwoNumber": "Nombor Niwo",
+            "languageCode": "Kod bahasa",
+            "showFunctionOnInvoice": "Tunjuk fungsi pada invois"
+        },
+        "steps": {
+            "contactAndFinancial": "Hubungan dan maklumat kewangan",
+            "documents": "Dokumen",
+            "documentsAndEmployment": "Dokumen dan pekerjaan",
+            "employment": "Pekerjaan",
+            "files": "Fail",
+            "foreignNationality": "Warganegara asing",
+            "general": "Umum",
+            "job": "Kerja",
+            "account": "Akaun",
+            "contract": "Kontrak",
+            "employer": "Pekerja",
+            "hirerRemuneration": "Imbuhan pengambil pekerja"
+        },
+        "hint": {
+            "startTypingToSearch": "Mula menaip carian",
+            "lockPensionPlan": "Sekat pelan persaraan supaya tidak diubah secara automatik."
+        },
+        "actions": {
+            "upload": "Muat naik"
+        }
+    },
+    "language": {
+        "static": {
+            "default": "Lalai"
+        }
+    },
+    "menu": {
+        "actions": {
+            "dashboard": "Papan pemuka",
+            "employees": "Pekerja",
+            "employmentAgencies": "Agensi pekerjaan",
+            "functions": "Fungsi",
+            "hirers": "Majikan",
+            "settings": "Sasaran",
+            "invoices": "Invois",
+            "exports": "Eksport",
+            "imports": "Import",
+            "freelancers": "Pekerja bebas",
+            "logout": "Log keluar",
+            "documents": "Dokumen",
+            "language": "Bahasa",
+            "leaveImpersonation": "Penyamaran",
+            "outOfService": "Servis tergendala",
+            "account": "Akaun",
+            "payslips": "Slip gaji",
+            "resellers": "Penjual semula",
+            "proFormaPayslip": "Proforma slip gaji",
+            "timeRegistration": "Masa pendaftaran",
+            "sickReports": "Laporan kesihatan"
+        }
+    },
+    "settings": {
+        "pages": {
+            "documents": "Dokumen",
+            "enterprises": "Perusahaan",
+            "webhooks": "Webhooks",
+            "users": "Pengguna",
+            "teams": "Kumpulan",
+            "roles": "Tugasan",
+            "subsidyCompanies": "Syarikat subsidi",
+            "factoringCompanies": "Syarikat pemfaktoran",
+            "personalAccessTokens": "Daftar token peribadi"
+        }
+    },
+    "validation": {
+        "errors": {
+            "checkForm": "Sila semak borang jika ada sebarang kesilapan",
+            "addressInvalid": "Kami tidak dapat mencari alamat ini.",
+            "alternativeAddress": "Kami tidak menemui alamat ini, maksud anda {address}?"
+        },
+        "static": {
+            "required": "Medan ini diperlukan",
+            "unableToDeleteItem": "Tidak boleh padam item ini"
+        }
+    },
+    "timeRegistration": {
+        "static": {
+            "week": "Minggu",
+            "compensationDescriptiveText": "Deskripsi teks pampasan.",
+            "amount": "Jumlah",
+            "hours": "Jam",
+            "project": "Projek",
+            "location": "Lokasi",
+            "notes": "Nota",
+            "payOut": "Bayaran",
+            "hourType": "Jenis waktu",
+            "from": "Daripada",
+            "kilometers": "Kilometer",
+            "reservation": "Tempahan",
+            "currentState": "Keadaan terkini",
+            "newState": "Negeri baharu",
+            "compensations": "Pampasan",
+            "chargeTo": "Caj kepada",
+            "maxDistance": "Jarak maksimum",
+            "deduction": "Potongan",
+            "deductionAmount": "Jumlah potongan",
+            "deductionDescriptiveText": "Deskripsi teks potongan...",
+            "selectADeduction": "Pilih potongan",
+            "attachmentNotRequired": "Lampiran tidak diperlukan",
+            "deductions": "Potongan",
+            "travelType": "Jenis perjalanan",
+            "invoiceCreated": "Invois diwujudkan",
+            "invoiceAlreadySaved": "Invois ini sudah disimpan.",
+            "compensation": "Pampasan",
+            "deployed": "Letak atur",
+            "staff": "Kakitangan",
+            "function": "Fungsi",
+            "freelancers": "Pekerja bebas",
+            "status": "Status",
+            "employmentIsInactiveText": "Pekerjaan ini tidak aktif pada tempoh yang di tetapkan.",
+            "jobIsInactiveText": "Jawatan ini tidak aktif pada masa dipilih.",
+            "unlockFailed": "Kami tidak boleh membuka tempoh tersebut.",
+            "deleteTimeRegistrationConfirmationText": "Masa pendaftaran akan dipadamkan.",
+            "downloadFormatFailed": "Gagal untuk wujudkan format.",
+            "import": "Import",
+            "validationFailed": "Pengesahan gagal",
+            "importSuccessful": "Import berjaya",
+            "shouldNotSendWithInvoice": "Jangan hantar bersama inv",
+            "timeRegistrationsDeleted": "Masa pendaftaran akan dipadamkan .",
+            "compensationDeleted": "Pampasan telah dipadamkan.",
+            "hourDeleted": "Masa telah dipadamkan.",
+            "copyFailed": "Kami tidak boleh menyalin barisan itu.",
+            "travelDeleted": "Perjalanan itu telah dipadamkan.",
+            "returnTravelSaved": "Perjalanan pulang itu telah disimpan.",
+            "travelDuplicated": "Perjalanan itu telah mempunyai salinan pendua.",
+            "creatingInvoicesStatusText": "Invois telah dicipta. Apabila proses selesai, invois akan dipaparkan di sini.",
+            "noOutstandingTimeRegistrationsFound": "Tiada tunggakan waktu pendaftaran ditemui.",
+            "noRegistrationsFound": "Tiada pendaftaran ditemui.",
+            "hoursCopied": "Masa telah disalin.",
+            "travelsCopied": "Perjalanan telah disalin.",
+            "reservationDescriptiveText": "Deskripsi teks tempahan...",
+            "date": "Tarikh",
+            "to": "Kepada",
+            "reservations": "Tempahan",
+            "deleteKilometersConfirmationText": "Adakah anda pasti untuk padamkan ini?",
+            "deductionAttachment": "Gabung potongan",
+            "uploadDeductionAttachment": "Muat naik gabungan potongan",
+            "companies": "Syarikat",
+            "invoicingFailed": "Kami tidak dapat cipta invois.",
+            "unlocked": "Tempoh ini sudah dibuka.",
+            "hourInfoText": "Pampasan dan potongan akan dikira semula secara automatik apabila waktu dikemaskini.",
+            "importStarted": "Import telah bermula. Berdasarkan saiz ia akan memakan masa beberapa minit untuk siap.",
+            "deleteTimeRegistrationsConfirmationText": "Adakah anda pasti untuk padamkan masa pendaftaran yang dipilih?",
+            "travelSaved": "Perjalanan itu telah disimpan.",
+            "creatingInvoicesInfo": "Invois dijadual untuk diwujudkan.",
+            "autoCalculateDeductionsInfo": "Jika pilihan dibenarkan, tunggakan potongan akan dikira semula secara automatik apabila masa pendaftaran atau semasa jana invois.",
+            "someHoursNotCopied": "Sebahagian masa pendaftaran tidak dapat disalin kerana hilang jenis waktu.",
+            "someTravelsNotCopied": "Sebahagian pendaftaran perjalanan tidak dapat disalin kerana kehilangan jenis perjalanan."
+        },
+        "actions": {
+            "cao": "CAO",
+            "duplicateReturnTravel": "Perjalanan pulang",
+            "addRow": "Tambah baris",
+            "invoice": "Invois",
+            "correction": "Pembetulan",
+            "saveInvoice": "Invois disimpan",
+            "copyPreviousPeriod": "Salin tempoh sebelum",
+            "receipts": "Resit",
+            "uploadKilometerAccountability": "Muat naik akauntabiliti kilometer",
+            "deployed": "Aturan letak",
+            "staff": "Kakitangan",
+            "add": "Tambah",
+            "closePeriod": "Tutup tempoh",
+            "unlock": "Nyah kunci",
+            "autoCalculate": "Kiraan secara automatik",
+            "viewHours": "Paparan masa",
+            "viewInvoice": "Papar invois",
+            "generateInvoice": "Jana invois",
+            "deleteInvoice": "Padam invois",
+            "excel": "Excel",
+            "downloadFormat": "Muat turun format",
+            "upload": "Muat naik",
+            "import": "Import",
+            "saveInvoices": "Simpan invois",
+            "selectLockable": "Pilih semua",
+            "copyFromEmployee": "Salin daripada pekerja lain",
+            "editHours": "Suntingan masa",
+            "uploadAttachments": "Muat naik lampiran",
+            "duplicateKilometerRow": "Baris pendua",
+            "previewInvoice": "Prebiu invois",
+            "createTimeRegistration": "Cipta masa pendaftaran",
+            "deselectAll": "Nyah pilihan semua",
+            "copyFromFreelancer": "Salin daripada pekerja bebas yang lain"
+        },
+        "tabs": {
+            "hours": "Jam",
+            "kilometers": "Kilometer",
+            "compensations": "Pampasan",
+            "reservations": "Tempahan",
+            "deductions": "Potongan"
+        }
+    },
+    "api": {
+        "kvk": {
+            "static": {
+                "apiOffline": "KVK Api luar saluran",
+                "companyInfoSuccessfullyFilled": "Info syarikat berjaya diisi"
+            },
+            "validation": {
+                "errors": {
+                    "cocNotFound": "Nombor Dewan Perniagaan tidak ditemui."
+                }
+            }
+        },
+        "creditsafe": {
+            "validation": {
+                "errors": {
+                    "companyNotFound": "Syarikat tidak ditemui"
+                }
+            },
+            "static": {
+                "apiOffline": "Kredit selamat API luar storan."
+            }
+        }
+    },
+    "hourType": {
+        "static": {
+            "name": "Nama",
+            "timeForTime": "Semasa ke semasa",
+            "value": "Nilai",
+            "unit": "Unit",
+            "employeesWithoutAccess": "Pekerja tanpa akses",
+            "none": "Tiada",
+            "employeesWithAccess": "Pekerja dengan akses",
+            "employeeHasHourTypeOverrides": "Membatalkan pekerja yang ada jenis waktu",
+            "hourType": "Jenis jam",
+            "saved": "Simpan",
+            "default": "Jam lalai",
+            "deleted": "Padam",
+            "caoSurcharges": "Surcaj CAO",
+            "timeForTimeDisabled": "Masa untuk dinyahkan",
+            "timeForTimeEnabled": "Masa untuk dibenarkan",
+            "hint": "Petunjuk",
+            "frequency": "Kekerapan",
+            "type": "Jenis",
+            "defaultForNewEmployeeUpdated": "Jenis jam lalai untuk kemaskini pekerja baharu",
+            "desiredNetSalary": "Gaji bersih yang di ingini",
+            "difference": "Perbezaan",
+            "actualNetSalary": "Gaji bersih sebenar",
+            "useDesiredNetSalary": "Guna keinginan gaji bersih",
+            "chargeTo": "Caj kepada",
+            "defaultForNewEmployee": "Lalai untuk pekerja baharu",
+            "hourTypes": "Jenis jam"
+        },
+        "actions": {
+            "grantAccessToAll": "Pemberian akses kepada Semua",
+            "takeAccessFromAll": "Ambil akses dari semua",
+            "disableTimeForTimeForAll": "Nyah semasa ke semasa untuk semua",
+            "enableTimeForTimeForAll": "Masa dibolehkan semasa ke semasa untuk semua"
+        }
+    },
+    "frequency": {
+        "static": {
+            "daily": "Harian",
+            "weekly": "Mingguan",
+            "fourWeekly": "Empat mingguan",
+            "monthly": "Bulanan",
+            "hour": "Jam",
+            "day": "Hari",
+            "week": "Minggu",
+            "month": "Bulan",
+            "fourWeek": "Empat minggu",
+            "hourShort": "J",
+            "weekShort": "M",
+            "fourWeekShort": "4M",
+            "monthShort": "B",
+            "dayShort": "H",
+            "hourly": "Sejam"
+        }
+    },
+    "deduction": {
+        "static": {
+            "advance": "Pendahuluan",
+            "penalty": "Penalti",
+            "eduction": "Pendidikan",
+            "housingExtra": "Tambahan perumahan",
+            "healthInsurance": "Insurans kesihatan",
+            "healthInsuranceExtra": "Tambahan insurans kesihatan",
+            "mealAllowance": "Elaun makan",
+            "certificateOfGoodBehavior": "Sijil berkelakuan baik",
+            "workingClothesWorkingShoes": "Pakaian dan kasut kerja",
+            "advanceExtra": "Lebihan pendahuluan",
+            "personnelAssociation": "Pertubuhan kakitangan",
+            "housing": "Perumahan",
+            "personalContributionForTransport": "Sumbangan peribadi untuk pengangkutan"
+        }
+    },
+    "reservation": {
+        "static": {
+            "seniorDays": "Hari senior",
+            "holidayHoursLegal": "Waktu cuti sah",
+            "holidayHoursExtraLegal": "Waktu cuti tambahan sah",
+            "holidayPay": "Gaji waktu cuti",
+            "holidays": "Cuti",
+            "timeForTime": "Waktu untuk masa",
+            "money": "Wang",
+            "reservation": "Tempahan",
+            "updatedAt": "Kemaskini di",
+            "time": "Waktu",
+            "holidayHours": "Waktu cuti",
+            "workTimeReductionHours": "Masa pengurangan waktu bekerja",
+            "shortAbsence": "Ketakhadiran singkat",
+            "amount": "Jumlah"
+        }
+    },
+    "compensation": {
+        "static": {
+            "employeesWithoutAccess": "Pekerja tiada akses",
+            "none": "Tiada",
+            "employeesWithAccess": "Pekerja dengan akses",
+            "name": "Nama",
+            "value": "Nilai",
+            "unit": "Unit",
+            "caoCompensations": "Pampasan CAO",
+            "compensation": "Pampasan",
+            "saved": "Simpan",
+            "deleted": "Dipadamkan",
+            "hint": "Petunjuk",
+            "factor": "Faktor",
+            "chargeTo": "Caj kepada",
+            "frequency": "Kekerapan",
+            "isGross": "Adalah kasar",
+            "desiredSalaryCompensation": "Pampasan gaji yang diinginkan",
+            "compensations": "Pampasan",
+            "checkDesiredSalaryOnPayslipPayments": "Semak gaji yang dikehendaki",
+            "deviantFactor": "Faktor menyimpang",
+            "salesRate": "Kadar jualan",
+            "employeeHasCompensationOverrides": "Pekerja mempunyai pampasan yang dilangkau",
+            "payOutEnabled": "Bayaran dibenarkan",
+            "defaultForNewEmployee": "Lalai untuk pekerja baharu",
+            "defaultForNewEmployeeUpdated": "Pampasan lalai untuk pekerja baru dikemaskini",
+            "payslipPaymentsDesiredSalaryExplanation": "Apabila mengimport bayaran gaji, fungsi ini mewujudkan pampasan bagi setiap pekerja yang mempunyai gaji yang dikehendaki (semasa waktu pendaftaran diimport) iaitu lebih tinggi daripada bayaran gaji.",
+            "noCompensations": "Tiada pampasan",
+            "compensationSaved": "Pampasan telah disimpan.",
+            "enabledCompensationsRecalculatedInfo": "Apabila pampasan didayakan, perkiraan automatik ke atas tunggakan dikira semasa pendaftaran (jika ada masa didaftar)."
+        },
+        "actions": {
+            "takeAccessFromAll": "Ambil akses daripada semua",
+            "useDeviatingFactor": "Menggunakan faktor menyimpang",
+            "addSalesRate": "Tambah kadar jualan",
+            "grantAccessToAll": "Pemberian akses kepada semua"
+        }
+    },
+    "pensionPlan": {
+        "static": {
+            "basic": "Asas Stipp",
+            "plus": "Stipp plus",
+            "adequate": "Mencukupi",
+            "bpf": "BPF"
+        }
+    },
+    "travelType": {
+        "static": {
+            "hint": "Petunjuk",
+            "value": "Nilai",
+            "unit": "Unit",
+            "gross": "Kasar",
+            "net": "Bersih",
+            "employeesWithAccess": "Pekerja dengan akses",
+            "travelType": "Jenis perjalanan",
+            "saved": "Simpan",
+            "deleted": "Padam",
+            "caoTravelExpenses": "Perbelanjaan perjalanan CAO",
+            "default": "Lalai",
+            "defaultForNewEmployee": "Lalai untuk pekerja baharu",
+            "defaultForNewEmployeeUpdated": "Jenis perjalanan lalai untuk pekerja baharu dikemaskini",
+            "noTravels": "Perjalanan tidak dibenarkan",
+            "chargeTo": "Caj kepada",
+            "name": "Nama",
+            "employeesWithoutAccess": "Pekerja tanpa akses",
+            "none": "Tiada",
+            "employeeHasTravelTypeOverrides": "Pekerja mempunyai jenis perjalanan langkau"
+        },
+        "actions": {
+            "grantAccessToAll": "Pemberian akses kepada semua",
+            "takeAccessFromAll": "Ambil akses daripada semua"
+        }
+    },
+    "role": {
+        "static": {
+            "administrator": "Pentadbir",
+            "employee": "Pekerja",
+            "employmentAgency": "Agensi pekerjaan",
+            "hirer": "Majikan",
+            "freelancer": "Pekerja bebas",
+            "superAdministrator": "Pentadbir luar biasa",
+            "roleDeleted": "Tugas itu sudah dipadam.",
+            "deleteRoleText": "Adakah anda pasti untuk memadamkan tugas ini?"
+        }
+    },
+    "invoice": {
+        "static": {
+            "costsOverview": "Gambaran kos",
+            "marginInvoice": "Invois margin",
+            "number": "Nombor",
+            "period": "Tempoh",
+            "salesInvoice": "Invois jualan",
+            "deductionsOverview": "Gambaran pemotongan",
+            "billedAt": "Bil kepada",
+            "salesInvoices": "Invois",
+            "marginInvoices": "Margin invois",
+            "searchInvoices": "Cari invois",
+            "payments": "Bayaran",
+            "sales": "Jualan",
+            "costs": "Kos",
+            "margin": "Margin",
+            "deductions": "Pemotongan",
+            "noPaymentsFound": "Tiada maklumat bayaran ditemui",
+            "addPayment": "Tambah bayaran",
+            "log": "Log",
+            "ipAddress": "Alamat IP",
+            "download": "Muat turun",
+            "files": "Fail",
+            "info": "Maklumat",
+            "createdBy": "Dicipta oleh",
+            "totalPaid": "Jumlah dibayar",
+            "gAccountPaid": "Akaun -G telah dibayar",
+            "pending": "Tergantung",
+            "queued": "Beratur",
+            "billed": "Bil",
+            "paid": "Telah dibayar",
+            "createdAt": "Dicipta pada",
+            "sendAt": "Hantar kepada",
+            "invoiceWillBeBilled": "Invois untuk tempoh ini akan di bil tidak lama lagi.",
+            "freelancerInvoice": "Invois pekerja bebas",
+            "freelancer": "Pekerja Bebas",
+            "agreedWork": "Kerja dipersetujui",
+            "customInvoice": "Invois mengikut tempahan",
+            "invoiceDate": "Tarikh invois",
+            "description": "Penerangan",
+            "hideEmail": "E-mel terlindung",
+            "rows": "Barisan",
+            "attachments": "Lampiran",
+            "preview": "Prebiu",
+            "customCostsOverview": "Paparan kos yang tersuai",
+            "customCosts": "Kos tersuai",
+            "remuneration": "Imbuhan",
+            "custom": "Tersuai",
+            "deleteInvoiceText": "Adakah anda pasti untuk padam invois ini?",
+            "newItem": "Item baharu",
+            "amount": "Jumlah",
+            "vat": "VAT",
+            "unitPrice": "Harga seunit",
+            "items": "Item",
+            "makeMargin": "Margin dibuat",
+            "item": "Item",
+            "resellerMarginInvoice": "Invois margin penjual berdaftar",
+            "resellerMargin": "Margin penjual berdaftar",
+            "exports": "Eksport",
+            "exportInvalidText": "Terlalu banyak invois yang dipilih, sila had jumlah invois menggunakan tapisan si atas.",
+            "billing": "Bil",
+            "relatedInvoices": "Invois berkaitan",
+            "customInvoiceItemVatNotDefaultConfirmationText": "Adakah anda ingin menggunakan tarif VAT yang berbeza?",
+            "exportDescriptiveText": "Maksimum {count} invois yang boleh dieksport sekaligus. Semua tapisan yang spesifik di dalam kotak carian akan digunakan untuk menghadkan jumlah invois yang dieksport.",
+            "employee": "Pekerja",
+            "total": "Jumlah",
+            "invoice": "Invois",
+            "invoiceWillBeSent": "Invois akan dihantar.",
+            "gAccount": "Akaun -G",
+            "paidAt": "Bayar kepada",
+            "agreedWorkInvoice": "Invois setuju bekerja",
+            "creditInvoice": "Invois kredit",
+            "deduction": "Potongan",
+            "confirmTypeChangeText": "Mana-mana invois yang masih wujud akan di buang. Adakah anda pasti untuk tukar jenis tersebut?"
+        },
+        "actions": {
+            "addPayment": "Tambah bayaran",
+            "billNow": "Bil sekarang",
+            "sendNow": "Hantar sekarang",
+            "create": "Cipta",
+            "addToQueue": "Tambah ke barisan",
+            "preview": "Prebiu",
+            "billSelected": "Bil invois pilihan",
+            "selectBillable": "Pilihan invois yang boleh bil",
+            "deselectAll": "Nyah pilih semuanya",
+            "download": "Muat turun",
+            "createExport": "Eksport {count} invois",
+            "downloadAll": "Muat turun semua"
+        },
+        "filter": {
+            "from": "Daripada",
+            "type": "Jenis",
+            "queuedOnly": "Hanya yang telah beratur",
+            "outstandingOnly": "Hanya tunggakan",
+            "to": "Ke"
+        }
+    },
+    "hourTypes": {
+        "actions": {
+            "edit": "Sunting"
+        }
+    },
+    "factoring": {
+        "static": {
+            "details": "Perincian",
+            "cessionText": "Teks serahan",
+            "sendInvoice": "Hantar invois?",
+            "deleteFactoringCompanyConfirmationText": "Adakah anda ingin padamkan syarikat pemfaktoran ini?",
+            "impact": "Impak",
+            "factris": "Factris",
+            "type": "Jenis",
+            "nlCredit": "NL-kredit",
+            "factoringCompany": "Syarikat pemfaktoran",
+            "typeInfo": "Jenis menentukan bagaimana format eksport yang dikehendaki."
+        }
+    },
+    "enterprises": {
+        "static": {
+            "enterprise": "Perusahaan",
+            "details": "Perincian",
+            "standardDocuments": "Dokumen standard",
+            "shouldNotifyCustomers": "Pelanggan sepatutnya diberitahu",
+            "noFileUploaded": "Tiada fail dimuat naik.",
+            "canHaveJobsInfo": "Sekiranya pilihan dinyahkan, tiada pekerjaan atau kerja pekerja bebas boleh dicipta oleh majikan yang berkaitan dengan perusahaan.",
+            "deleteStandardDocumentConfirmationText": "Adakah anda ingin padam dokumen yang standard?",
+            "standardDocumentUpdateSuccess": "Dokumen standard berjaya dikemaskini.",
+            "uploadNewFile": "Muat naik fail baharu",
+            "payOutEnterpriseInfo": "Bayaran perusahaan boleh di langkau dengan memilih bayaran perusahaan kepada pekerja atau majikan.",
+            "canBeInvoicedInfo": "Jika pilihan didayakan, perusahaan ini akan tersedia apabila majikan baharu dicipta sebagai agensi pekerjaan."
+        }
+    },
+    "documentStatus": {
+        "static": {
+            "created": "Cipta",
+            "pending": "Tergantung",
+            "declined": "Di tolak",
+            "expired": "Luput",
+            "completed": "Siap"
+        }
+    },
+    "documentType": {
+        "static": {
+            "pdf": "PDF",
+            "template": "Templat",
+            "view": "Papar",
+            "upload": "Muat naik"
+        }
+    },
+    "document": {
+        "static": {
+            "log": "Log",
+            "selectSubjects": "Subjek dipilih",
+            "selectSubjectsForSignedFileText": "Sila pilih semua subjek yang dikehendaki.untuk hantar fail ditandatangani.",
+            "selectSubjectsForCompletedFileText": "Sila pilih semua subjek yang dikehendaki untuk hantar fail yang telah siap.",
+            "sendSignRequestsConfirmationText": "Subjek yang berikut akan menerima permintaan tandatangan.",
+            "subjectSaved": "Subjek tersebut telah disimpan.",
+            "subjectDeleted": "Subjek tersebut telah dipadamkan.",
+            "selectSubjectsForSignRequestsText": "Sila pilih semua subjek yang dikehendaki untuk hantar permintaan tandatangan kepada.",
+            "generatorSubjectShouldSignExplanation": "Subjek berikut akan menerima permintaan tandatangan.",
+            "generatorSubjectSendAfterCompletionExplanation": "Subjek berikut akan menerima dokumen apabila siap."
+        }
+    },
+    "log": {
+        "static": {
+            "description": "Deskripsi",
+            "date": "Tarikh",
+            "old": "Dahulu",
+            "new": "Baharu",
+            "properties": "Hartanah",
+            "system": "Sistem",
+            "causer": "Sebab",
+            "id": "Id",
+            "subject": "Subjek"
+        }
+    },
+    "employment": {
+        "static": {
+            "startDate": "Tarikh mula",
+            "endDate": "Tarikh akhir",
+            "function": "Fungsi",
+            "scale": "Skala",
+            "factor": "Faktor",
+            "grossSalary": "Gaji kasar",
+            "salesRate": "Kasar jualan",
+            "includeExtraDays": "Termasuk lebihan hari dalam gaji",
+            "deleteSuccess": "Pekerjaan telah dipadamkan.",
+            "workdaysAndTimes": "Hari bekerja dan waktu",
+            "emptyFunctionSalesRateConfirmationText": "Setiap fungsi mempunyai kadar jualan.",
+            "submitForApprovalConfirmText": "Pekerjaan itu akan dihantar untuk kelulusan.",
+            "deleteFailed": "Gagal untuk pada pekerjaan.",
+            "payOutPreferences": "Keutamaan bayaran",
+            "deleteConfirmationText": "Adakah anda pasti untuk padam pekerjaan ini?",
+            "missingRequiredAttributesConfirmText": "Pekerjaan itu tidak boleh lagi dihantar untuk kelulusan kerana memerlukan beberapa atribut tidak dipenuhi."
+        },
+        "actions": {
+            "addFunction": "Fungsi tambahan",
+            "createNext": "Cipta selepas",
+            "goToEmployment": "Pergi ke pekerjaan"
+        },
+        "messages": {
+            "wizardPreviousEmploymentExplanation": "Pekerjaan terdahulu digunakan sebagai asas untuk pekerjaan baharu."
+        }
+    },
+    "imports": {
+        "static": {
+            "notStarted": "Belum bermula",
+            "queued": "Beratur",
+            "running": "Sedang diproses",
+            "completed": "Siap",
+            "failed": "Gagal",
+            "payslips": "Slip gaji",
+            "upload": "Muat naik",
+            "imports": "Import",
+            "payslipsImported": "Slip gaji diimport",
+            "log": "Log",
+            "importedAt": "Diimport di",
+            "payslipsPayments": "Bayaran slip gaji",
+            "employee": "Pekerja",
+            "total": "Jumlah",
+            "iban": "IBAN",
+            "reservationsImported": "Tempahan diimport",
+            "reservationsImport": "Tempahan import",
+            "annualStatements": "Penyata tahunan",
+            "annualStatementsImported": "Penyata tahunan telah diimport",
+            "dispatched": "Dihantar",
+            "sendAfterCompletion": "Dihantar selepas siap",
+            "timeRegistration": "Masa pendaftaran",
+            "desiredSalaryCheck": "Gaji yang diinginkan",
+            "payslipPaymentsCreateCompensations": "Cipta pampasan",
+            "outstandingDesiredSalaryCompensationsCreated": "Pampasan itu telah dicipta.",
+            "entity": "Entiti",
+            "cancelled": "Tamat",
+            "payslipsImport": "Import slip gaji",
+            "bankImport": "Import bank",
+            "imported": "Diimport",
+            "payments": "Bayaran",
+            "reservations": "Tempahan",
+            "annualStatementsImport": "Penyata tahunan diimport",
+            "outstandingDesiredSalaryCheck": "Sebahagian bayaran tidak sesuai dengan gaji diingini:",
+            "payslipsPaymentsPeriodText": "Jika tempoh dan/atau pembetulan dipilih, semua bayaran di PDF akan diimport dalam tempoh tersebut. Jika tiada tempoh dipilih, tempoh didalam PDF akan digunakan."
+        },
+        "pages": {
+            "payslips": "Slip gaji",
+            "payments": "Bayaran",
+            "reservations": "Tempahan",
+            "bankImport": "Import bank",
+            "annualStatements": "Penyata tahunan"
+        },
+        "actions": {
+            "upload": "Muat naik",
+            "refresh": "Ulang segar"
+        }
+    },
+    "freelancerJob": {
+        "static": {
+            "startDate": "Tarikh mula",
+            "endDate": "Tarikh akhir",
+            "salesRate": "Kadar jualan",
+            "hourType": "Jenis jam",
+            "compensation": "Pampasan",
+            "name": "Nama",
+            "travelType": "Jenis perjalanan",
+            "deleteConfirmationText": "Adakah anda pasti untuk padam kerja ini?",
+            "deleteFailed": "Gagal untuk padam kerje itu.",
+            "hourTypeMarginInfo": "Jadual tarif akan diabaikan dengan mengisi nilai ini.",
+            "deviatingMargin": "Margin yang disimpang",
+            "missingRequiredAttributesConfirmText": "Kerja tidak boleh lagi dihantar untuk kelulusan selagi sebahagian atribut tidak diisi.",
+            "submitForApprovalConfirmText": "Kerja tersebut akan dihantar untuk kelulusan.",
+            "activities": "Aktiviti",
+            "hourlyRate": "Kadar sejam",
+            "margin": "Margin",
+            "rate": "Kadar",
+            "deleteSuccess": "Kerja itu telah dipadamkan.",
+            "notMinimumHourTypeMarginConfirmationText": "Sebahagian margin adalah berkurangan daripada margin yang telah dikira."
+        },
+        "actions": {
+            "addHourType": "Jenis jam ditambah",
+            "addTravelType": "Jenis perjalanan ditambah",
+            "addCompensation": "Pampasan ditambah"
+        }
+    },
+    "freelancer": {
+        "static": {
+            "job": "Kerja",
+            "jobs": "Kerja",
+            "deleteSuccess": "Pekerja bebas telah dipadam.",
+            "deleteFailed": "Gagal untuk padam pekerja bebas.",
+            "inviteExistingInfoText": "Jemputan akan dihantar kepada pekerja bebas {name}.",
+            "missingRequiredAttributesConfirmText": "Pekerja bebas tidak boleh lagi dihantar sekiranya sebahagian atribut tidak diisi.",
+            "submitForApprovalConfirmText": "Pekerja bebas akan dihantar untuk kelulusan.",
+            "jobCreationSuccess": "Kerja telah dicipta",
+            "deleteConfirmationText": "Adakah anda pasti untuk padam pekerja bebas ini?",
+            "linkedThroughJob": "Dihubungkan melalui kerja",
+            "inviteNewInfoText": "Jemputan akan dihantar untuk pekerja bebas yang baharu.",
+            "submittedForApproval": "Pekerja bebas telah pun menghantar untuk kelulusan",
+            "activeOnly": "Aktif sahaja",
+            "archiveConfirmationText": "Adakah anda pasti anda mahu mengarkibkan pekerja bebas ini?",
+            "unarchiveConfirmationText": "Adakah anda pasti anda ingin menyaharkib pekerja bebas ini?",
+            "archivedText": "Pekerja bebas ini telah diarkib."
+        }
+    },
+    "company": {
+        "static": {
+            "documentEmailCc": "Dokumen cc",
+            "notificationEmail": "Notifikasi e-mel",
+            "notificationEmailCc": "Notifikasi cc",
+            "reminderEmail": "E-mel peringatan",
+            "reminderEmailCc": "Peringatan cc",
+            "copies": "Salinan",
+            "copiesAreIdentical": "Salinan adalah serupa.",
+            "synchronizationSuccessful": "Salinan tersebut berjaya disegerakkan.",
+            "original": "Asli",
+            "documentEmail": "E-mel dokumen",
+            "freelancerMargins": "Margin pekerja bebas",
+            "synchronizeInfo": "Nilai yang dipilih akan segerak kepada syarikat pilihan.",
+            "copyInfo": "Salinan baru akan dicipta dan disambung kepada perusahaan pilihan. Hanya satu salinan boleh dicipta untuk setiap perusahaan. Perubahan kepada yang asli boleh di segerak kepada salinan tersebut.",
+            "typeSlug": "Jenis syarikat",
+            "pensionPlanFactors": "Faktor pelan persaraan",
+            "email": "E-mel syarikat",
+            "phone": "Telefon syarikat",
+            "website": "Laman web syarikat",
+            "legalFormSlug": "Borang perundangan"
+        },
+        "actions": {
+            "synchronize": "Segerak",
+            "makeCopy": "Buat salinan",
+            "newCopy": "Salinan baharu"
+        }
+    },
+    "employee": {
+        "static": {
+            "employments": "Pekerjaan",
+            "wageAttachmentCreationSuccess": "Lampiran upah telah dicipta.",
+            "wageAttachment": "Lampiran upah",
+            "wageAttachmentUpdateSuccess": "Lampiran upah telah dikemaskini.",
+            "wageAttachments": "Lampiran upah",
+            "contracts": "Kontrak",
+            "contractDeleteSuccess": "Kontrak telah dipadamkan.",
+            "contractDeleteFailed": "Gagal untuk padam kontrak.",
+            "contractCreateSuccess": "Kontrak telah dicipta.",
+            "createContract": "Cipta kontrak",
+            "contract": "Kontrak",
+            "functions": "Fungsi",
+            "noRecentPayslips": "Tiada slip gaji terkini ditemui.",
+            "deleteSuccess": "Pekerja itu telah dipadam.",
+            "archivedText": "Pekerja ini di arkib.",
+            "archiveConfirmationText": "Adakah anda pasti untuk arkib pekerja ini?",
+            "annualStatement": "Penyata tahunan",
+            "payslips": "Slip gaji",
+            "noAnnualStatements": "Tiada penyata tahunan.",
+            "pensionPlan": "Pelan persaraan",
+            "markedAsNew": "Ditanda sebagai baharu",
+            "markedAsChanged": "Ditanda sebagai telah diubah",
+            "canNotDeleteEmploymentText": "Pekerjaan itu tidak boleh dipadam kerana kewujudan masa pendaftaran.",
+            "inviteExistingInfoText": "Jemputan akan dihantar kepada pekerja {name}.",
+            "activeContract": "Kontrak aktif",
+            "wizardSkipContractConfirmationText": "Adakah anda pasti untuk tidak cipta satu kontrak? Anda tidak boleh cipta pekerjaan tanpa kontrak.",
+            "wizardSkipEmploymentConfirmationText": "Adakah anda pasti tidak ingin cipta pekerjaan?",
+            "healthInsurances": "Insuran kesihatan",
+            "submitForApprovalConfirmText": "Pekerja itu akan dihantar untuk kelulusan.",
+            "missingRequiredAttributesConfirmText": "Pekerja itu tidak boleh lagi dihantar untuk kelulusan kerana sebahagian atribut tidak diisi.",
+            "submittedForApproval": "Pekerja itu telah dihantar untuk kelulusan.",
+            "contractMarkedToBeRenewed": "Kontrak itu telah ditanda akan diperbaharui",
+            "contractMarkedNotToBeRenewed": "Kontrak itu telah ditanda untuk tidak diperbaharui",
+            "subsidyCreateSuccess": "Subsidi telahpun di cipta.",
+            "subsidyDeleteSuccess": "Subsidi telahpun dipadam.",
+            "employment": "Pekerjaan",
+            "wageAttachmentDeleteSuccess": "Lampiran upah telah dipadam.",
+            "contractUpdateSuccess": "Kontrak telah dikemaskini.",
+            "deleteContractConfirmationText": "Adakah anda pasti untuk padam kontrak ini?",
+            "deleteConfirmationText": "Adakah anda pasti untuk padam pekerja ini?",
+            "deleteFailed": "Gagal untuk padam pekerja.",
+            "unarchiveConfirmationText": "Adakah anda pasti nyah arkib pekerja ini?",
+            "annualStatements": "Penyata tahunan",
+            "deleteValidationFailed": "Tidak boleh ditandakan jika pekerja boleh dipadam.",
+            "canNotDeleteEmployeeText": "Pekerja tidak boleh dipadam kerana masa pendaftaran telah pun wujud.",
+            "inviteNewInfoText": "Jemputan akan dihantar untuk seorang pekerja baharu.",
+            "contractRequiredForEmploymentInfoText": "Peringatan. Mencipta satu kontrak adalah pilihan sekiranya anda belum lagi mempunyai majikan/pekerjaan. Anda tidak boleh cipta pekerjaan tanpa kontrak.",
+            "markToBeRenewedConfirmationText": "Kontrak itu akan ditanda sebagai diperbaharui di akhir kontrak.",
+            "markNotToBeRenewedConfirmationText": "Kontrak itu tidak akan ditanda sebagai diperbaharui,dan akan dipadam daripada mesej. Pekerja itu akan menerima e-mel bersama pengesahan yang kontrak tidak akan diperbaharui apabila telah tamat tempoh.",
+            "contractCreateWithDocumentInfo": "Dokumen Kontrak baharu itu akan dicipta bersama dokumen sepadan. Pemintaan tandatangan untuk dokumen akan dihantar satu jam selepas dicipta. Tarikh akhir untuk kontrak terkini akan ditetapkan sehari sebelum tarikh mula kontrak baharu.",
+            "accountNotActivatedInfo": "Akaun itu (belum lagi) diaktifkan.Sila tekan butang jemput untuk hantar pautan pengaktifan kepada pekerja itu."
+        },
+        "actions": {
+            "newContract": "Kontrak baharu",
+            "markAsNew": "Tanda sebagai baharu",
+            "markAsChanged": "Tanda sebagai telah diubah",
+            "createContract": "Kontrak dicipta",
+            "deleteContract": "Kontrak dipadamkan",
+            "createEmployment": "Cipta pekerjaan",
+            "deleteSubsidyConfirmationText": "Adakah anda pasti untuk padam subsidi ini?"
+        },
+        "outOfService": "Perkhidmatan tergendala",
+        "messages": {
+            "identityBothSides": "Sila muat naik kedua-dua hadapan dan belakang identiti anda."
+        }
+    },
+    "permission": {
+        "action": {
+            "update": "Kemas kini",
+            "view": "Papar",
+            "create": "Cipta",
+            "delete": "Padam"
+        }
+    },
+    "export": {
+        "actions": {
+            "toSepaAndMarkAsPaid": "Bagi SEPA & tanda sebagai sudah dibayar",
+            "generate": "Jana"
+        },
+        "static": {
+            "skipValidation": "Langkau pengesahan"
+        }
+    },
+    "period": {
+        "actions": {
+            "select": "Pilih"
+        }
+    },
+    "user": {
+        "actions": {
+            "sendResetPasswordLink": "Hantar tetapan semula pautan kata laluan"
+        },
+        "static": {
+            "notActivated": "Pengguna itu tidak diaktifkan.",
+            "deactivated": "Nyah aktif"
+        }
+    },
+    "contact": {
+        "static": {
+            "detached": "Orang hubungan itu telah diasingkan.",
+            "detachFailed": "Orang hubungan itu tidak boleh diasingkan.",
+            "uploadSuccess": "Fail itu telah dimuat naik.",
+            "userNotLinkedMessage": "Pengguna itu tidak diaktifkan atau tiada bersambung kepada orang hubungan.",
+            "detachConfirmationText": "Adakah anda pasti untuk asingkan orang hubungan?"
+        }
+    },
+    "etRegulation": {
+        "static": {
+            "calculatedAmount": "Jumlah kiraan: {amount}",
+            "totalAmount": "Jumlah terkini adalah {amount}.",
+            "singleTrip": "Jarak perjalanan tunggal: {distance} km",
+            "amountShouldBeBetween": "Jumlah mestilah diantara {min} dan {max}."
+        },
+        "validation": {
+            "totalNotAllowed": "Nilai jumlah peraturan ET bukan diantara nilai yang dibenarkan.",
+            "distanceCalculationFailedText": "Kami tidak boleh untuk mengira jarak ke alamat permastautin. Sila semak jika alamat itu betul."
+        }
+    },
+    "documentTemplate": {
+        "static": {
+            "contractPhase12": "Fasa kontrak 1/2",
+            "contractPhase3": "Fasa kontrak 3",
+            "termsAndConditions": "Terma dan syarat",
+            "frameworkAgreement": "Perjanjian rangka kerja",
+            "hireAgreement": "Perjanjian pengambilan bekerja",
+            "employmentConfirmation": "Pengesahan pekerjaan",
+            "jobConfirmation": "Pengesahan kerja",
+            "declarationAgreement": "Perjanjian deklarasi",
+            "etAddendum": "Addendum ET",
+            "antiDiscriminationPolicy": "Dasar Anti Diskriminasi",
+            "staffGuide": "Panduan kakitangan",
+            "guaranteeAgreement": "Perjanjian jaminan",
+            "contractPayrollFixedTerm": "Terma tetap gaji kontrak",
+            "contractPayrollPermanent": "Kontrak gaji kekal",
+            "mediationAgreement": "Perjanjian pengantaraan",
+            "intermediateAgreement": "Perjanjian pertengahan",
+            "hireAgreementFreelancers": "Perjanjian pekerjaan pekerja bebas",
+            "healthcareAuthorisationForm": "Borang kebenaran penjagaan kesihatan",
+            "idStatementForm": "Borang penyata ID",
+            "wageAttachmentRequest": "Permintaan lampiran gaji",
+            "jobConfirmationFreelancer": "Pengesahan kerja pekerja bebas",
+            "collaborationAgreementFreelancer": "Perjanjian kerjasama pekerja bebas",
+            "healthcareAgreement": "Perjanjian penjagaan kesihatan",
+            "leadGenerationAgreement": "Perjanjian penjanaan utama",
+            "contractPhase4": "Fasa kontrak 4",
+            "employmentTerminationAgreement": "Perjanjian Penamatan Pekerjaan",
+            "deductionsAndAdvances": "Pemotongan dan pendahuluan",
+            "employersDeclaration": "Deklarasi majikan",
+            "deliveryDeed": "Surat ikatan penghantaran",
+            "payrollConfirmation": "Pengesahan senarai gaji"
+        },
+        "actions": {
+            "saveTranslation": "Simpan terjemahan"
+        }
+    },
+    "invitation": {
+        "actions": {
+            "sendInvitation": "Hantar jemputan"
+        },
+        "static": {
+            "inviteSuccess": "Jemputan berjaya",
+            "tokenInvalid": "Token tidak sah",
+            "tokenInvalidDescription": "Token itu tidak sah."
+        }
+    },
+    "job": {
+        "static": {
+            "employment": "Pekerjaan",
+            "freelancerJob": "Pekerja bebas",
+            "employments": "Pekerjaan",
+            "freelancerJobs": "Pekerja bebas"
+        }
+    },
+    "users": {
+        "static": {
+            "deactivateConfirmationText": "Pengguna akan dinyahaktifkan dan tidak boleh log masuk.",
+            "permissionsSaved": "Kebenaran telah disimpan.",
+            "reactivateConfirmationText": "Pengguna akan diaktifkan semula dan boleh log masuk.",
+            "sendPasswordResetConfirmationText": "E-mel dengan pautan tetapan semula kata laluan dihantar ke {email}."
+        }
+    },
+    "outOfServiceReason": {
+        "static": {
+            "cancelledByEmployerWithinProbation": "Dipadamkan oleh majikan dalam tempoh percubaan",
+            "cancelledByEmployerUwv": "Dipadamkan oleh majikan, disahkan oleh UWV",
+            "cancelledByJudge": "Dipadamkan oleh hakim",
+            "cancelledByEmployee": "Dipadam oleh pekerja",
+            "cancelledByEmployer": "Dipadamkan oleh majikan",
+            "endOfEmployment": "Pekerjaan dihentikan oleh undang-undang kerana kontrak telah luput",
+            "endByLawOtherReason": "Penamatan pekerjaan oleh undang-undang kerana alasan yang lain",
+            "deploymentEndByIllness": "Pengetahuan berakhir kerana penyakit",
+            "continuedWithoutIncome": "Sambung tanpa pendapatan",
+            "cancelledByAgreement": "Bersetuju penamatan kontrak",
+            "deploymentEndByOtherReason": "Pengetahuan berakhir kerana alasan yang lain",
+            "otherReason": "Alasan yang lain"
+        }
+    },
+    "cv": {
+        "certificate": {
+            "certificates": "Sijil",
+            "description": "Deskripsi",
+            "addCertificate": "Tambah deskripsi",
+            "addEducation": "Tambah pendidikan / Kelayakan"
+        },
+        "education": {
+            "educationsAndQualifications": "Pendidikan dan kelayakan",
+            "educationsDescription": "Deskripsi pendidikan"
+        },
+        "title": "Tajuk",
+        "from": "Daripada",
+        "till": "Sehingga",
+        "interest": {
+            "interests": "Minat",
+            "pickInterests": "Pilih minat anda"
+        },
+        "language": {
+            "languages": "Bahasa",
+            "rating": "Penarafan bahasa anda",
+            "pickLanguage": "Pilih bahasa anda"
+        },
+        "select": "Pilih",
+        "profile": {
+            "profile": "Profil",
+            "profileSummary": "Masukkan ringkasan profil anda disini (minimum 150 patah perkataan dikehendaki).."
+        },
+        "reference": {
+            "references": "Rujukan",
+            "fullName": "Nama penuh majikan",
+            "company": "Syarikat",
+            "email": "E-mel",
+            "addReference": "Tambah rujukan",
+            "telephone": "Telefon"
+        },
+        "skill": {
+            "skills": "Kemahiran",
+            "pickSkills": "Pilih kemahiran anda",
+            "rating": "Penarafan kemahiran anda"
+        },
+        "work": {
+            "workExperience": "Pengalaman kerja",
+            "function": "Fungsi",
+            "jobDescription": "Deskripsi tugas",
+            "addWorkExperience": "Tambah pengalaman kerja"
+        },
+        "dialog": {
+            "close": "Tutup",
+            "generateCv": "Jana cv"
+        }
+    },
+    "wageAttachment": {
+        "static": {
+            "garnishee": "Gamis",
+            "garnisheeContact": "Kontrak yang digamis",
+            "garnisheeCity": "Bandar Gamis",
+            "reference": "Rujukan",
+            "taxFreeSum": "Jumlah bebas cukai",
+            "overallSum": "Jumlah keseluruhan",
+            "outstandingAmount": "Jumlah tertunggak",
+            "paidAmount": "Amount dibayar",
+            "outstanding": "Tunggakan",
+            "paid": "Dibayar",
+            "informationRequestSent": "Permintaan maklumat di hantar"
+        },
+        "actions": {
+            "informationRequest": "Permintaan maklumat",
+            "sendInformationRequest": "Hantar maklumat yang dipinta"
+        }
+    },
+    "legalForm": {
+        "static": {
+            "soleProprietorMultipleOwners": "Peniaga tunggal yang mempunyai lebih daripada satu pemilik",
+            "publicPartnership": "Perkongsian awam",
+            "limitedPartnership": "Perkongsian terhad",
+            "shippingCompany": "Syarikat Penghantaran",
+            "limitedCompanyStartUpDForm": "N.V. (Syarikat berhad awam) /B.V. (Syarikat berhad swasta) permulaan pada borang D",
+            "legalPersonStartUp": "Permulaan yang sah",
+            "privateLimitedCompanyRegular": "Syarikat sendirian berhad dengan struktur biasa",
+            "publicLimitedCompany": "Syarikat awam berhad",
+            "publicLimitedCompanyRegular": "Syarikat awam berhad dengan struktur biasa",
+            "publicLimitedCompanyTwoTier": "Syarikat awam berhad mengikut artikel persatuan syarikat dua peringkat",
+            "cooperative": "Koperasi",
+            "cooperativeStructuralCooperative": "Koperasi mengikut artikel persatuan struktur koperasi",
+            "cooperativeLegalLiabilityRegular": "Koperasi dengan Liabiliti Undang-undang dengan struktur biasa",
+            "europeanPublicLimitedCompanyRegular": "Syarikat Eropah dengan liabiliti terhad awam (SE) dengan struktur biasa",
+            "publicLimitedCompanyInvestmentVariableCapital": "Syarikat pelaburan syarikat berhad awam dengan modal pembolehubah",
+            "cooperativeLimitedLiabilityRegular": "Koperasi dengan Liabiliti Terhad dengan struktur biasa",
+            "cooperativeLimitedLiabilityStructuralCooperative": "Koperasi Liabiliti Terhad mengikut artikel struktur persatuan koperasi",
+            "homeownersAssociation": "Persatuan Pemilik Rumah",
+            "associationFullLegalCapacity": "Persatuan dengan kapasiti undang-undang penuh",
+            "associationLimitedLegalCapacity": "Persatuan dengan kapasiti undang-undang terhad",
+            "religiousDenomination": "Denominasi agama",
+            "foundation": "Pertubuhan",
+            "mutualInsuranceCompany": "Syarikat insurans bersama",
+            "mutualInsuranceCompanyLegalLiabilityRegular": "Syarikat insurans bersama dengan Liabiliti Undang-undang dengan struktur biasa",
+            "mutualInsuranceCompanyLegalLiabilityStructuralMutual": "Syarikat insurans bersama dengan Liabiliti Undang-undang mengikut artikel persatuan struktur bersama",
+            "mutualInsuranceCompanyLimitedLiabilityStructuralMutual": "Syarikat insurans bersama dengan Liabiliti Terhad mengikut artikel persatuan struktur bersama",
+            "legalPersonPublicLaw": "Orang sah di bawah undang-undang awam",
+            "legalPersonPrivateLaw": "Orang sah ditadbir yang oleh undang-undang persendirian",
+            "foreignLegalFormHeadOfficeNetherlands": "Borang undang-undang asing dengan ibu pejabat di Belanda",
+            "branchOfficeHeadOfficeAbroad": "Pejabat cawangan dengan ibu pejabat di luar negara",
+            "europeanEconomicInterestGrouping": "Kumpulan Kepentingan Ekonomi Eropah",
+            "foreignEcBusinessCompanyNetherlands": "Perniagaan EC asing dengan syarikat di Belanda",
+            "foreignEcBusinessMainOfficeNetherlands": "Perniagaan EC asing dengan pejabat utama di Belanda",
+            "europeanPublicLimitedCompanyRegularTwoTierCooperative": "Syarikat Eropah dengan liabiliti terhad awam (SE) mengikut artikel persatuan Koperasi",
+            "cooperativeLegalLiabilityStructuralCooperative": "Koperasi dengan Liabiliti Undang-undang mengikut artikel struktur persatuan koperasi",
+            "mutualInsuranceCompanyStructuralMutual": "Syarikat insurans bersama mengikut artikel persatuan",
+            "mutualInsuranceCompanyLimitedLiabilityRegular": "Syarikat insurans bersama dengan Liabiliti Terhad dengan struktur biasa",
+            "foreignSimilarEcBusinessCompanyNetherlands": "Syarikat asing serupa dengan perniagaan EC dengan syarikat di Belanda",
+            "foreignSimilarEcBusinessMainOfficeNetherlands": "Syarikat asing yang serupa dengan perniagaan EC dengan pejabat utama di Belanda",
+            "soleProprietor": "Pemilik tunggal",
+            "limitedCompanyStartUpBForm": "N.V. (Syarikat berhad awam) /B.V. (Syarikat berhad swasta) permulaan pada borang B",
+            "commercialPartnership": "Perkongsian umum",
+            "limitedCompanyStartUpAForm": "N.V. (Syarikat berhad awam) /B.V. (Syarikat berhad swasta) permulaan pada borang A",
+            "privateLimitedCompany": "Syarikat sendirian Berhad",
+            "privateLimitedCompanyTwoTier": "Syarikat sendirian berhad mengikut artikel persatuan syarikat dua peringkat",
+            "publicLimitedCompanyInvestmentVariableCapitalTwoTier": "Syarikat pelaburan syarikat awam berhad dengan modal berubah-ubah mengikut artikel persatuan syarikat dua lapis"
+        }
+    },
+    "employees": {
+        "static": {
+            "activeOnly": "Yang aktif sahaja",
+            "linkedThroughEmployment": "Hubungan melalui pekerjaan"
+        }
+    },
+    "contractType": {
+        "static": {
+            "phase1And2": "Fasa 1/2",
+            "phase3": "Fasa 3",
+            "phase4": "Fasa 4",
+            "payrollFixedTerm": "Senarai gaji (terma tetap)",
+            "payrollPermanent": "Gaji (tetap)"
+        }
+    },
+    "note": {
+        "actions": {
+            "delete": "Padam",
+            "cancel": "Batal",
+            "deleteConfirmationText": "Adakah anda pasti untuk padam nota ini?"
+        },
+        "success": {
+            "deleted": "Nota itu berjaya dipadamkan."
+        }
+    },
+    "riskGroup": {
+        "static": {
+            "administrative": "Pentadbiran",
+            "executive": "Eksekutif"
+        }
+    },
+    "wizard": {
+        "static": {
+            "employmentAgencyNotApproved": "Agensi pekerjaan ini masih tidak diluluskan lagi.",
+            "employeeNotApproved": "Pekerja ini belum diluluskan lagi.",
+            "hirerNotApproved": "Majikan belum diluluskan lagi.",
+            "resellerNotApproved": "Penjual semula belum diluluskan lagi.",
+            "noDocumentsToGenerate": "Tiada dokumen untuk dijana.",
+            "freelancerNotApproved": "Pekerja bebas belum diluluskan lagi."
+        },
+        "actions": {
+            "viewWizard": "Papar bestari"
+        }
+    },
+    "filters": {
+        "static": {
+            "archivedOnly": "Arkib sahaja",
+            "withActiveEmploymentsOnly": "Bersama pekerjaan yang aktif sahaja",
+            "readyForApproval": "Sedia untuk kelulusan",
+            "createdByAdmin": "Dicipta oleh pentadbir",
+            "selectedEnterpriseOnly": "Hanya perusahaan yang dipilih"
+        }
+    },
+    "hirer": {
+        "static": {
+            "archivedText": "Majikan ini telah diarkib.",
+            "saved": "Majikan disimpan",
+            "deleteConfirmationText": "Adakah anda pasti untuk padam majikan ini?",
+            "deleteSuccess": "Majikan telah dipadamkan.",
+            "deleteFailed": "Gagal untuk padam majikan.",
+            "assignment": "Tugasan",
+            "inviteExistingInfoText": "Jemputan akan dihantar kepada majikan {companyName}.",
+            "inviteNewInfoText": "Jemputan akan dihantar untuk majikan baharu.",
+            "notMinimumCompanyFreelancerHourTypeMarginAdditionsConfirmationText": "Sebahagian margin tambahan adalah kurang daripada nilai pekerjaan.",
+            "submitForApprovalConfirmText": "Majikan akan menghantar untuk kelulusan.",
+            "submittedForApproval": "Majikan telah menghantar untuk kelulusan.",
+            "hirerRemuneration": "Imbuhan majikan",
+            "projectDeleted": "Projek telah dipadamkan.",
+            "notMinimumCompanyFreelancerHourTypeMarginConfirmationText": "Asa margin pekerja bebas berdasarkan jenis jam adalah kurang daripada nilai pekerjaan.",
+            "missingRequiredAttributesConfirmText": "Majikan tidak boleh lagi dihantar untuk kelulusan kerana sebahagian atribut tidak diisi."
+        },
+        "form": {
+            "overtime": "Waktu kerja lebih masa",
+            "shiftWork": "Kerja syif",
+            "travelHours": "Jam perjalanan",
+            "travelCost": "Kos perjalanan",
+            "otherCompensations": "Pampasan yang lain",
+            "companyOwnedScheme": "Skim milik syarikat",
+            "remunerationSpecifics": "Spesifik",
+            "holidays": "Cuti"
+        }
+    },
+    "import": {
+        "static": {
+            "reservationsImported": "Tempahan telah diimport"
+        }
+    },
+    "employeePayslip": {
+        "actions": {
+            "sendNow": "Hantar sekarang"
+        },
+        "static": {
+            "sendEmailConfirmationText": "Adakah anda pasti untuk hantar slip gaji sekarang?",
+            "sendEmailSuccess": "Slip gaji telah dihantar.",
+            "sendEmailFailed": "Slip gaji tidak boleh dihantar."
+        }
+    },
+    "timeRegistrationPeriodStatus": {
+        "static": {
+            "open": "Buka",
+            "locking": "Mengunci",
+            "locked": "Telah dikunci",
+            "requiresAction": "Tindakan yang dikehendaki"
+        }
+    },
+    "error": {
+        "actions": {
+            "back": "Balik ke muka surat sebelum ini"
+        },
+        "static": {
+            "serverError": "Ralat pelayan",
+            "pageNotFound": "Muka surat tidak dijumpai",
+            "pageNotFoundDescription": "Kami tidak menjumpai muka surat yang dicari oleh kamu.",
+            "description": "Ralat telah berlaku. Cuba ulang segar atau balik ke muka surat sebelumnya."
+        }
+    },
+    "invoiceGroup": {
+        "static": {
+            "timeRegistration": "Masa pendaftaran",
+            "custom": "Tersuai"
+        }
+    },
+    "reservations": {
+        "static": {
+            "buildup": "Binaan",
+            "paidOut": "Bayaran",
+            "noBuildupFound": "Tiada binaan dijumpai",
+            "showEmptyPeriods": "Papar tempoh kosong",
+            "request": "Permintaan",
+            "deleted": "Jemputan itu telah dipadam",
+            "deleteReservationText": "Jemputan akan dipadamkan daripada masa pendaftaran.",
+            "reservationRequest": "Permintaan tempahan",
+            "newRequest": "Permintaan baharu",
+            "noReservations": "Tiada tempahan",
+            "requestReservations": "Permintaan tempahan",
+            "calculationTool": "Alat pengiraan",
+            "saved": "Jemputan telah disimpan.",
+            "canOnlyEditHistoricalBuildupInfo": "Hanya jumlah terdahulu akan disunting.",
+            "editBuildupInfo": "Apabila menukar nilai ini, masa yang sepadan dengan masa pendaftaran akan dikemaskini.\nApabila mencipta permintaan yang baharu atau permintaan telah dibayar;\n- Rantau tempahan akan dikemaskini.\n- Permintaan tidak akan wujud didalam bayaran eksport.\nApabila mengemaskini permintaan dimana belum dibayar;\n- Rantau tempahan tidak akan dikemaskini.\n- Permintaan akan dikemaskini dalam bayaran eksport."
+        },
+        "tooltip": {
+            "warningRequestNotYetExported": "Permintaan ini belum dibayar."
+        },
+        "actions": {
+            "request": "Permintaan"
+        }
+    },
+    "project": {
+        "static": {
+            "projectManagers": "Pengurus projek",
+            "createProject": "Cipta projek",
+            "updateProject": "Kemaskini projek",
+            "projectCreationSuccess": "Projek berjaya dicipta.",
+            "deleteProjectConfirmationText": "Adakah anda pasti untuk padam projek ini?"
+        }
+    },
+    "search": {
+        "static": {
+            "noMoreResults": "Tiada lagi keputusan.",
+            "ctrlShiftF": "Ctrl + Shift + F"
+        }
+    },
+    "holiday": {
+        "static": {
+            "newYear": "Tahun baru",
+            "ascensionDay": "Hari kenaikan",
+            "whitMonday": "Isnin Whit",
+            "firstChristmasDay": "Hari Krismas pertama",
+            "kingsDay": "Hari raja-raja",
+            "liberationDay": "Hari kemerdekaan",
+            "secondChristmasDay": "Hari Krismas kedua",
+            "easterMonday": "Isnin Easter"
+        }
+    },
+    "companyType": {
+        "static": {
+            "healthcare": "Kesihatan",
+            "default": "Lalai"
+        }
+    },
+    "teamType": {
+        "static": {
+            "freelancer": "Pekerja bebas",
+            "hirer": "Majikan",
+            "employmentAgency": "Agensi pekerjaan",
+            "reseller": "Penjual semula",
+            "employee": "Pekerja"
+        }
+    },
+    "workServiceType": {
+        "static": {
+            "night": "Syif malam",
+            "weekend": "Syif hujung minggu",
+            "consignment": "Khidmat konsainan",
+            "reachability": "Perkhidmatan pencapaian"
+        }
+    },
+    "media": {
+        "static": {
+            "type": "Jenis",
+            "other": "Lain-lain",
+            "curriculumVitae": "Kurikulum vitae",
+            "motivationLetter": "Surat motivasi",
+            "diploma": "Diploma",
+            "certificateOfConduct": "Sijil tatacara",
+            "pdfPagesCount": "PDF mempunyai {amount} halaman"
+        }
+    },
+    "entity": {
+        "static": {
+            "enterprise": "Perusahaan",
+            "employmentAgency": "Agensi pekerjaan",
+            "employee": "Pekerja",
+            "freelancer": "Pekerja bebas",
+            "hirer": "Majikan"
+        }
+    },
+    "personalAccessToken": {
+        "static": {
+            "personalAccessTokens": "Akses token peribadi",
+            "details": "Perincian",
+            "tokenCopied": "Token disalin kepada papan klip",
+            "tokenPlaceholder": "Token akan dipaparkan disini.",
+            "deletePersonalAccessTokenText": "Token akan dipadamkan dan tidak boleh digunakan lagi.",
+            "tokenCreatedInfo": "Token telah dicipta. Token akan dipamerkan hanya sekali, maka simpan ditempat selamat."
+        }
+    },
+    "healthInsurance": {
+        "static": {
+            "saved": "Insuran kesihatan telah disimpan."
+        }
+    },
+    "freelancerHourTypeMarginAddition": {
+        "static": {
+            "hirerPaymentTermTableHeader": "Terma bayaran majikan",
+            "hourlyRateFreelancerTableHeader": "Kadar jam (daripada)"
+        }
+    },
+    "reseller": {
+        "static": {
+            "submitForApprovalConfirmText": "Penjual semula akan dihantar untuk kelulusan.",
+            "deleteSuccess": "Penjual semula telah dipadamkan.",
+            "deleteFailed": "Gagal untuk padam pekerja semula.",
+            "employeeMargins": "Margin pekerja",
+            "freelancerMargins": "Margin pekerja bebas",
+            "defaultMargin": "Margin lalai",
+            "archivedText": "Penjual semula diarkib.",
+            "deleteConfirmationText": "Adakah anda pasti untuk padam penjual semula?",
+            "missingRequiredAttributesConfirmText": "Penjual semula tidak boleh lagi menghantar untuk kelulusan kerana sebahagian atribut tidak diisi.",
+            "deleteCustomerConfirmationText": "Adakah anda pasti untuk padam pelanggan ini? Semua margin berkaitan pelanggan ini akan dipadamkan.",
+            "zeroMarginConfirmationText": "Satu atau lebih margin mempunyai nilai '0'.",
+            "customerCanOnlyHaveOneResellerInfoMessage": "Sekiranya agensi pekerjaan tidak tersenarai, semak samada ia sudah dipaut bersama penjual semula yang lain."
+        }
+    },
+    "marginType": {
+        "static": {
+            "default": "Lalai",
+            "overtime": "Lebih Masa",
+            "etRegulation": "Peraturan ET",
+            "hourType": "Jenis waktu",
+            "senior": "Senior"
+        }
+    },
+    "messageBox": {
+        "static": {
+            "shouldSignDocument": {
+                "subject": "Subjek",
+                "sendSignRequestConfirmationText": "Berikut subjek akan menerima permintaan tandatangan",
+                "newSignTokenConfirmationText": "Token terbaharu akan diterima.",
+                "newSignTokenFailed": "Ralat berlaku ketika menerima token baharu.",
+                "newSignTokenSuccess": "Token berjaya diterima.",
+                "hideDocumentConfirmationText": "Adakah anda pasti untuk sembunyikan tugas ini? Ini tidak akan muncul semula."
+            },
+            "hideContractConfirmationText": "Adakah anda pasti untuk sembunyikan kontrak ini? Ini tidak akan muncul semula."
+        }
+    },
+    "teams": {
+        "static": {
+            "details": "Perincian",
+            "team": "Kumpulan",
+            "addTeam": "Tambah kumpulan",
+            "deleteTeamText": "Adakah anda pasti untuk padam kumpulan ini?",
+            "deleteTeamPresetText": "Adakah anda pasti untuk padam pra tetapan kumpulan ini?",
+            "teamOwner": "Pemilik kumpulan",
+            "roles": "Tugas"
+        }
+    },
+    "roles": {
+        "static": {
+            "roleCreated": "Tugas telah dicipta.",
+            "permissionsSaved": "Kebenaran itu telah disimpan."
+        }
+    },
+    "subsidyCompany": {
+        "static": {
+            "deleteSubsidyCompanyConfirmationText": "Adakah anda pasti untuk padam syarikat subsidi?",
+            "deleted": "Syarikat subsidi telah dipadamkan."
+        }
+    },
+    "subsidy": {
+        "static": {
+            "details": "Perincian",
+            "createSubsidy": "Cipta subsidi",
+            "updateSubsidy": "Kemaskini subsidi",
+            "endDateInfo": "Jika tarikh akhir bukan tarikh akhir minggu tersebut, subsidi akan dimasukkan sehingga akhir minggu sebelum.",
+            "confirmation": "Subsidi disahkan",
+            "clearToExcludeFromSubsidy": "Bersih kan medan untuk kecualikan item ini daripada subsidi.",
+            "startDateInfo": "Jika tarikh mula bukan permulaan minggu , subsidi akan dimasukkan daripada mula minggu berikutnya."
+        }
+    },
+    "proFormaPayslip": {
+        "actions": {
+            "previewCostPriceOverview": "Prebiu kos paparan harga",
+            "previewPayslip": "Prebiu slip gaji"
+        },
+        "static": {
+            "splitPayOutInfo": "Apabila pilihan ini didayakan, waktu biasa akan diasingkan daripada masa lain/surcaj/pampasan di dalam penyata gaji."
+        }
+    },
+    "factoringCompany": {
+        "static": {
+            "deleted": "Syarikat pemfaktoran telah dipadamkan."
+        }
+    },
+    "creditLimit": {
+        "static": {
+            "finalAssessmentWillFollowLater": "Ujian akhir untuk had kredit akan diikuti kemudian."
+        }
+    }
+}

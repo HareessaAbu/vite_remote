@@ -1,0 +1,2466 @@
+{
+    "auth": {
+        "actions": {
+            "backToLogin": "Επιστροφή στην σελίδα εισόδου",
+            "login": "Σύνδεση",
+            "resetPassword": "Επαναφορά κωδικού πρόσβασης",
+            "updatePassword": "Ενημέρωση κωδικού πρόσβασης",
+            "forgotPassword": "Ξεχάσατε τον κωδικό πρόσβασης σας",
+            "logout": "Αποσύνδεση",
+            "leaveImpersonation": "Πλαστοπροσωπία άδειας",
+            "changePassword": "Αλλαγή κωδικού πρόσβασης",
+            "deactivate": "Απενεργοποίηση",
+            "reactivate": "Επανενεργοποίηση"
+        },
+        "pages": {
+            "forgotPassword": "Ξεχάσατε τον κωδικό πρόσβασής σας",
+            "login": "Σύνδεση",
+            "setPassword": "Ορισμός κωδικού πρόσβασης",
+            "activateAccount": "Ενεργοποίηση λογαριασμού"
+        },
+        "static": {
+            "accountActivationSuccess": "Ο λογαριασμός ενεργοποιήθηκε",
+            "email": "Email",
+            "forgotPasswordSuccess": "Ο σύνδεσμος επαναφοράς κωδικού πρόσβασης έχει αποσταλεί",
+            "forgotPasswordSuccessDescription": "Σας έχουμε στείλει ένα email με σύνδεσμο για να επαναφέρετε τον κωδικό πρόσβασης σας.",
+            "passwordResetSuccess": "Επαναφορά κωδικού πρόσβασης",
+            "logoutConfirmationText": "Είστε βέβαιοι πως θέλετε να αποσυνδεθείτε;",
+            "registrationSuccessful": "Επιτυχής εγγραφή",
+            "leaveImpersonationConfirmationText": "Είστε βέβαιοι πως θέλετε να φύγετε από την πλαστοπροσωπία;",
+            "passwordUpdated": "Ο κωδικός πρόσβασης έχει ενημερωθεί.",
+            "userDeactivated": "Ο χρήστης έχει απενεργοποιηθεί.",
+            "mobileDashboardOrderUpdated": "Η σειρά του ταμπλό του κινητού έχει ενημερωθεί.",
+            "tokenExpired": "Το token έληξε",
+            "tokenExpiredInfo": "Έχετε αποσυνδεθεί επειδή έληξε το token ελέγχου ταυτότητας. Για να συνεχίσετε, παρακαλούμε συνδεθείτε χρησιμοποιώντας τα διαπιστευτήριά σας.",
+            "authenticated": "Έχετε συνδεθεί!",
+            "userReactivated": "Ο χρήστης έχει επανενεργοποιηθεί."
+        }
+    },
+    "enum": {
+        "vatTariff": {
+            "shifted": "Έγινε αλλαγή",
+            "exempt": "Απαλλάσσεται"
+        },
+        "identityType": {
+            "dutchMunicipalitiesIdentityCard": "Ταυτότητα Ολλανδικών δήμων",
+            "alienIdentityCard": "Ταυτότητα αλλοδαπού",
+            "none": "Κανένας",
+            "passportEeaCountry": "Διαβατήριο χώρας ΕΟΧ",
+            "servicePassport": "Υπηρεσιακό διαβατήριο",
+            "dutchPassport": "Ολλανδικό διαβατήριο",
+            "residenceDocuments": "Έγγραφα κατοικίας",
+            "diplomaticPassport": "Διπλωματικό διαβατήριο",
+            "dutchIdentityCard": "Ολλανδική ταυτότητα",
+            "passportNonEeaCountry": "Διαβατήριο χώρας εκτός ΕΟΧ",
+            "alienPassport": "Διαβατήριο αλλοδαπού",
+            "refugeePassport": "Διαβατήριο πρόσφυγα"
+        },
+        "contractPhase": {
+            "phase1And2": "Φάση 1/2 (Α)",
+            "phase3": "Φάση 3 (Β)",
+            "phase4": "Φάση 4 (Γ)"
+        },
+        "employeeType": {
+            "normal": "Τυπικός",
+            "temporary": "Προσωρινός",
+            "payroll": "Μισθοδοσία",
+            "other": "Άλλο"
+        },
+        "gender": {
+            "female": "Γυναίκα",
+            "male": "Άνδρας",
+            "other": "Άλλο"
+        },
+        "maritalStatus": {
+            "livingTogetherWithContract": "Συμβίωση με σύμφωνο",
+            "livingTogetherWithoutContract": "Συμβίωση χωρίς σύμφωνο",
+            "married": "Έγγαμος",
+            "divorced": "Διαζευγμένος",
+            "unmarried": "Άγαμος",
+            "widowhood": "Χήρος",
+            "registeredPartnership": "Καταχωρημένο σύμφωνο συμβίωσης"
+        },
+        "fieldType": {
+            "hirerHourType": "Τύπος ώρας εργοδότη",
+            "text": "Κείμενο",
+            "money": "Χρήματα",
+            "textArea": "Πεδίο κειμένου",
+            "checkbox": "Πλαίσιο ελέγχου",
+            "datePicker": "Στοιχείο Ελέγχου Επιλογής Ημερομηνίας"
+        },
+        "subsidyType": {
+            "reassigningDisabledEmployee": "Επανατοποθέτηση εργαζομένου με επαγγελματική αναπηρία",
+            "none": "Κανένας",
+            "hiringDisabledEmployee": "Πρόσληψη εργαζομένου με αναπηρία",
+            "targetJobAgreement": "Συμφωνητικό εργασίας με ομάδα-στόχο και άτομα με μαθησιακές δυσκολίες"
+        }
+    },
+    "fieldTypes": {
+        "static": {
+            "select": "Επιλογή",
+            "multiSelect": "Πολλαπλή επιλογή",
+            "checkbox": "Λίστα ελέγχου",
+            "radioButton": "Κουμπί ραδιοφώνου",
+            "noOptions": "Καμία επιλογή",
+            "textField": "Πεδίο κειμένου"
+        }
+    },
+    "form": {
+        "static": {
+            "accountHolder": "Κάτοχος λογαριασμού",
+            "authorizedSignatory": "Εξουσιοδοτημένος υπογράφων",
+            "chamberOfCommerceNumber": "Αριθμός Εμπορικού Επιμελητηρίου",
+            "contractHours": "Ώρες συμβολαίου",
+            "curriculumVitae": "Βιογραφικό",
+            "birthplace": "Τόπος γέννησης",
+            "employeeType": "Τύπος υπαλλήλου",
+            "identityValidUntil": "Η ταυτότητα ισχύει έως",
+            "middleName": "Μεσαίο όνομα",
+            "cao": "CAO",
+            "nationality": "Εθνικότητα",
+            "password": "Κωδικός πρόσβασης",
+            "streetNumber": "Αριθμός",
+            "zipCode": "Ταχυδρομικός κώδικας",
+            "cc": "CC",
+            "motivationLetter": "Επιστολή παρότρυνσης",
+            "name": "Όνομα",
+            "costOfLivingAllowance": "Κόστος επιδόματος επιβίωσης",
+            "gAccount": "G-λογαριασμός;",
+            "gAccountPercentage": "Ποσοστό G-λογαριασμού",
+            "etRegulation": "Κανονισμός ΕΤ",
+            "hasNoRiskPolicy": "Χωρίς πολιτική κινδύνου;",
+            "homewardTravelCost": "Ταξιδιωτικά έξοδα προς το σπίτι",
+            "homewardTravelDistance": "Απόσταση ταξιδιού προς το σπίτι",
+            "id": "Ταυτότητα",
+            "legalForm": "Νομικό έντυπο",
+            "factorEtRegulation": "Παράγοντας κανονισμού ΕΤ",
+            "hasPayrollTaxReduction": "Μείωση φόρου μισθοδοσίας;",
+            "invoiceEmail": "Διεύθυνση ηλεκτρονικού ταχυδρομείου τιμολογίου",
+            "city": "Πόλη",
+            "country": "Χώρα",
+            "countryCode": "Κωδικός χώρας",
+            "countryOfBirth": "Χώρα γέννησης",
+            "creditLimit": "Όριο πίστωσης",
+            "diplomas": "Διπλώματα",
+            "documentNumber": "Αριθμός εγγράφου",
+            "email": "Διεύθυνση ηλεκτρονικού ταχυδρομείου",
+            "employeeFunction": "Λειτουργία υπαλλήλου",
+            "employmentAgency": "Γραφείο ανεύρεσης εργασίας",
+            "employmentDate": "Ημερομηνία πρόσληψης",
+            "expirationDate": "Ημερομηνία λήξης",
+            "factor": "Παράγοντας",
+            "firstName": "Όνομα",
+            "gender": "Φύλο",
+            "grossSalary": "Μικτός μισθός",
+            "hirer": "Εργοδότης",
+            "iban": "IBAN",
+            "identityType": "Τύπος ταυτότητας",
+            "initials": "Αρχικά",
+            "language": "Γλώσσα",
+            "lastName": "Επώνυμο",
+            "logo": "Λογότυπο",
+            "mainLanguage": "Κύρια γλώσσα",
+            "maritalStatus": "Οικογενειακή κατάσταση",
+            "paymentTerm": "Όρος πληρωμής",
+            "payOutFrequency": "Συχνότητα πληρωμών",
+            "riskGroup": "Ομάδα κινδύνου",
+            "sbiCodes": "Κωδικοί SBI",
+            "shouldDeductHealthInsurance": "Παρακράτηση ασφάλειας υγείας;",
+            "shouldPayOutHolidays": "Πληρωμή αδειών;",
+            "shouldPayOutNonStatutoryHolidays": "Πληρωμή μη νομοθετημένων αργιών;",
+            "shouldPayOutReducedHours": "Πληρωμή μειωμένων ωρών;",
+            "shouldPayOutVacationMoney": "Πληρωμή χρημάτων διακοπών;",
+            "stippPlan": "Σχέδιο StiPP",
+            "vatTariff": "Κόστος ΦΠΑ",
+            "workTimeReductionDays": "Ημέρες μείωσης χρόνου εργασίας",
+            "caoWorkweek": "Εργάσιμες ώρες CAO",
+            "employment": "Εργασία",
+            "cessionText": "Κείμενο εκχώρησης",
+            "useFrameworkAgreement": "Χρήση πλαισίου σύμβασης",
+            "vatNumber": "αριθμός ΦΠΑ",
+            "probation": "Δοκιμαστική περίοδος",
+            "seniorDays": "Ημέρες παλαιότερων",
+            "passwordConfirmation": "Επιβεβαίωση κωδικού πρόσβασης",
+            "phase": "Φάση",
+            "phone": "Τηλέφωνο",
+            "signature": "Υπογραφή",
+            "startDate": "Ημερομηνία έναρξης",
+            "street": "Οδός",
+            "streetNumberAddition": "Προσθήκη",
+            "subject": "Θέμα",
+            "terminationDate": "Ημερομηνία τερματισμού",
+            "employee": "Υπάλληλος",
+            "citizenServiceNumber": "Αριθμός Πολίτη",
+            "homewardTravelFrequency": "Συχνότητα ταξιδιού προς το σπίτι",
+            "noRiskPolicy": "Χωρίς πολιτική κινδύνου",
+            "rentalOrPurchaseContractHomeCountry": "Συμβόλαιο ενοικίασης ή αγοράς από την χώρα προέλευσης",
+            "shouldPayOutShortAbsence": "Πληρωμή βραχυπρόθεσμης άδειας;",
+            "functionScale": "Κλίμακα λειτουργίας",
+            "factorOvertime": "Παράγοντας υπερωρίας",
+            "proofOfRecruitmentAbroad": "Απόδειξη πρόσληψης στο εξωτερικό",
+            "factoringCompany": "Εταιρεία factoring",
+            "birthdate": "Ημερομηνία γέννησης",
+            "certificate": "Πιστοποιητικό",
+            "enterprise": "Επιχείρηση",
+            "freelancerJob": "Δουλειά ελεύθερου επαγγελματία",
+            "invoiceEmailCc": "CC Τιμολογίου",
+            "chamberOfCommerceExtract": "Απόσπασμα εμπορικού επιμελητήριου",
+            "payslipsCc": "CC Αποδεικτικών μισθοδοσίας",
+            "freelancer": "Ελεύθερος επαγγελματίας",
+            "payslips": "Αποδεικτικά μισθοδοσίας",
+            "liabilityInsurance": "Ασφάλιση ευθύνης",
+            "marginInvoicePerWeek": "Τιμολόγιο περιθωρίου ανά εβδομάδα",
+            "gAccountIban": "IBAN λογαριασμού G",
+            "gAccountHolder": "Κάτοχος λογαριασμού G",
+            "factorStatePension": "Παράγοντας κρατικής σύνταξης",
+            "salesRate": "Τιμή πωλήσεων",
+            "isAgreedWork": "Είναι συμφωνημένη εργασία",
+            "documentTemplate": "Πρότυπο εγγράφου",
+            "deliveryDeed": "Τίτλος παράδοσης",
+            "timeRegistrationQuestion": "Καταχώρηση χρόνου;",
+            "files": "Αρχεία",
+            "endDate": "Ημερομηνία λήξης",
+            "note": "Σημείωση",
+            "timeRegistration": "Καταχώρηση χρόνου",
+            "timeForTime": "Χρόνος για χρόνο",
+            "workHours": "Ώρες εργασίας",
+            "workStartTime": "Ώρα έναρξης εργασίας",
+            "workEndTime": "Ώρα λήξης εργασίας",
+            "factorSenior": "Ανώτερος παράγοντας",
+            "housingCost": "Κόστος στέγασης",
+            "weeksWorked": "Εβδομάδες εργασίας",
+            "location": "Τοποθεσία",
+            "website": "Ιστοσελίδα",
+            "invoiceCompany": "Εταιρεία τιμολόγησης",
+            "factorWithExtraDays": "Παράγοντας με επιπλέον ημέρες",
+            "pensionPlan": "Συνταξιοδοτικό πλάνο",
+            "outOfServiceDate": "Ημερομηνία εκτός λειτουργίας",
+            "salaryWithExtraDays": "Μισθός με επιπλέον ημέρες",
+            "start": "Έναρξη",
+            "reason": "Αιτία",
+            "end": "Λήξη",
+            "background": "Υπόβαθρο (πορτρέτο)",
+            "outOfServiceReasonSlug": "Αιτία",
+            "workDaysAndHours": "Ημέρες & ώρες εργασίας",
+            "file": "Αρχείο",
+            "date": "Ημερομηνία",
+            "currentPassword": "Τρέχων κωδικός πρόσβασης",
+            "exchangeOvertime": "Ανταλλαγή υπερωρίας",
+            "employerNumber": "Αριθμός εργοδότη",
+            "upload": "Μεταφόρτωση",
+            "shouldPayOutVacationDays": "Πληρωμή ημερών άδειας;",
+            "payOutEnterprise": "Πληρωμή επιχείρησης",
+            "splitInvoicePerProject": "Διαχωρισμός τιμολογίου ανά έργο",
+            "splitInvoiceItemsByDate": "Διαχωρισμός ωρών & ταξιδιών τιμολογίου ανά ημερομηνία",
+            "certificateOfConduct": "Πιστοποιητικό συμπεριφοράς",
+            "isPayOutEnabledQuestion": "Ενεργοποιημένη πληρωμή;",
+            "requireFreelancerVatNumber": "Απαίτηση αριθμού φορολογικού μητρώου του ελεύθερου επαγγελματία",
+            "splitInvoicePerEmployee": "Διαχωρισμός τιμολογίου ανά υπάλληλο",
+            "splitInvoicePerFreelancer": "Διαχωρισμός τιμολογίου ανά ελεύθερο επαγγελματία",
+            "companyType": "Τύπος εταιρείας",
+            "healthcareDescription": "Περιγραφή ιατροφαρμακευτικής περίθαλψης",
+            "qualifications": "Πιστοποιήσεις",
+            "workServices": "Υπηρεσίες εργασίας",
+            "activities": "Δραστηριότητες",
+            "deductMarginVat": "Αφαίρεση περιθωρίου ΦΠΑ",
+            "generateFreelancerDocuments": "Δημιουργία εγγράφων ελεύθερου επαγγελματία",
+            "snfCertification": "Πιστοποίηση SNF",
+            "healthInsurance": "Ασφάλεια υγείας",
+            "payOutExport": "Εξαγωγή πληρωμής",
+            "seasonalWork": "Εποχική εργασία",
+            "blockSalesRate": "Μπλοκ ποσοστού πωλήσεων",
+            "ownerCompany": "Ιδιοκτήτρια εταιρείας",
+            "employeeTypeSlugs": "Τύποι εργαζομένου",
+            "dontSendDocuments": "Μην αποστείλετε έγγραφα",
+            "selectedAmount": "{amount} επιλεγμένα",
+            "search": "Αναζήτηση",
+            "searchAddress": "Αναζήτηση διεύθυνσης",
+            "splitPayOut": "Διαχωρισμός πληρωμής",
+            "reseller": "Μεταπωλητής",
+            "noRecordsFound": "Δε βρέθηκαν αρχεία...",
+            "canHaveJobs": "Μπορεί να έχει θέσεις εργασίας",
+            "teamTypes": "Τύποι ομάδας",
+            "teamPresets": "Προεπιλογές Ομάδας",
+            "description": "Περιγραφή",
+            "teamModel": "Οντότητα",
+            "team": "Ομάδα",
+            "role": "Ρόλος",
+            "user": "Χρήστης",
+            "contact": "Επικοινωνία",
+            "deductionOverviewPerWeek": "Επισκόπηση της παρακράτησης ανά εβδομάδα",
+            "showFunctionOnInvoice": "Προβολή λειτουργίας στο τιμολόγιο",
+            "grossSalaryPerHour": "Μικτός μισθός ανά ώρα",
+            "workDays": "Ημέρες εργασίας",
+            "subsidyCompany": "Επιδοτούμενη εταιρεία",
+            "type": "Τύπος",
+            "shouldPayOutSeniorDays": "Πληρωμή ημερών ανωτέρων;",
+            "shouldPayOutWorkTimeReductionDays": "Πληρωμή χρόνου εργασίας για μειωμένες ημέρες;",
+            "subsidy": "Επιδότηση",
+            "backgroundLandscape": "Υπόβαθρο (οριζόντιο)",
+            "kiwaNumber": "Αριθμός Kiwa",
+            "niwoNumber": "Αριθμός Niwo",
+            "languageCode": "Γλωσσικός κώδικας"
+        },
+        "steps": {
+            "employment": "Εργασία",
+            "foreignNationality": "Ξένη εθνικότητα",
+            "contactAndFinancial": "Στοιχεία επικοινωνίας και οικονομικά στοιχεία",
+            "documents": "Έγγραφα",
+            "files": "Αρχεία",
+            "general": "Γενικά",
+            "documentsAndEmployment": "Έγγραφα και εργασία",
+            "job": "Δουλειά",
+            "account": "Λογαριασμός",
+            "employer": "Εργοδότης",
+            "etRegulation": "Κανονισμός ET",
+            "contract": "Συμβόλαιο",
+            "hirerRemuneration": "Αποδοχές εργοδότη"
+        },
+        "hint": {
+            "startTypingToSearch": "Ξεκινήστε να πληκτρολογείτε για να αναζητήσετε",
+            "lockPensionPlan": "Κλειδώστε το συνταξιοδοτικό πλάνο έτσι ώστε να μη ρυθμίζεται αυτόματα."
+        },
+        "actions": {
+            "upload": "Μεταφόρτωση"
+        }
+    },
+    "general": {
+        "static": {
+            "personalData": "Προσωπικά δεδομένα",
+            "contractPhase": "Φάση συμβολαίου",
+            "employer": "Εργοδότης",
+            "addressInformation": "Στοιχεία διεύθυνσης",
+            "chamberOfCommerceNumber": "Αριθμός Εμπορικού Επιμελητηρίου",
+            "deleteFailed": "Κάτι πήγε στραβά, παρακαλούμε επικοινωνήστε μαζί μας εάν το πρόβλημα εξακολουθεί να υπάρχει.",
+            "employeeCreationSuccess": "Ο υπάλληλος δημιουργήθηκε επιτυχώς.",
+            "employmentAgencies": "Γραφεία ανεύρεσης εργασίας",
+            "employmentAgencyApprovalSuccess": "Το γραφείο ανεύρεσης εργασίας εγκρίθηκε επιτυχώς.",
+            "hirerApprovalFail": "Η έγκριση του εργοδότη απέτυχε.",
+            "identityValidUntil": "Η ταυτότητα ισχύει έως",
+            "cao": "Cao",
+            "citizenServiceNumber": "Αριθμός Πολίτη",
+            "currentEmployments": "Τρέχουσες εργασίες",
+            "accountHolder": "Κάτοχος λογαριασμού",
+            "address": "Διεύθυνση",
+            "authorizedSignatory": "Εξουσιοδοτημένος υπογράφων",
+            "birthdate": "Ημερομηνία γέννησης",
+            "birthplace": "Τόπος γέννησης",
+            "category": "Κατηγορία",
+            "company": "Εταιρεία",
+            "companyInformation": "Στοιχεία εταιρείας",
+            "contact": "Επικοινωνία",
+            "country": "Χώρα",
+            "countryOfBirth": "Χώρα γέννησης",
+            "createContact": "Δημιουργία επαφής",
+            "creditLimit": "Όριο πίστωσης",
+            "documentNumber": "Αριθμός εγγράφου",
+            "documents": "Έγγραφα",
+            "documentTemplates": "Πρότυπα εγγράφων",
+            "email": "Διεύθυνση ηλεκτρονικού ταχυδρομείου",
+            "employeeApprovalFail": "Η έγκριση υπαλλήλου απέτυχε.",
+            "employeeApprovalSuccess": "Ο υπάλληλος εγκρίθηκε επιτυχώς.",
+            "employees": "Υπάλληλοι",
+            "employment": "Απασχόληση",
+            "invite": "Πρόσκληση",
+            "invoices": "Τιμολόγια",
+            "language": "Γλώσσα",
+            "lastName": "Επώνυμο",
+            "maritalStatus": "Οικογενειακή κατάσταση",
+            "middleName": "Μεσαίο όνομα",
+            "name": "Όνομα",
+            "notes": "Σημειώσεις",
+            "phone": "Τηλέφωνο",
+            "postalAddress": "Ταχυδρομική διεύθυνση",
+            "search": "Αναζήτηση",
+            "settings": "Ρυθμίσεις",
+            "etRegulation": "Κανονισμός ΕΤ",
+            "factor": "Παράγοντας",
+            "id": "Ταυτότητα",
+            "employmentAgency": "Γραφείο ανεύρεσης εργασίας",
+            "employmentAgencyCreationSuccess": "Το γραφείο ανεύρεσης εργασίας δημιουργήθηκε επιτυχώς.",
+            "files": "Αρχεία",
+            "financialInformation": "Οικονομικά στοιχεία",
+            "firstName": "Όνομα",
+            "gender": "Φύλο",
+            "hi": "Γεια {user}",
+            "hirer": "Εργοδότης",
+            "hirerApprovalSuccess": "Ο εργοδότης εγκρίθηκε επιτυχώς.",
+            "hirerCreationSuccess": "Ο εργοδότης δημιουργήθηκε επιτυχώς.",
+            "hirers": "Εργοδότες",
+            "iban": "IBAN",
+            "identityType": "Τύπος ταυτότητας",
+            "initials": "Αρχικά",
+            "legalForm": "Νομικό έντυπο",
+            "none": "Κανένα",
+            "notApplicable": "Δεν εφαρμόζεται",
+            "sbiCodes": "Κωδικοί SBI",
+            "takeOverFromHirer": "Ανάληψη από τον εργοδότη",
+            "timeForTime": "Χρόνος για Χρόνο",
+            "vatNumber": "Αριθμός ΦΠΑ",
+            "percentage": "Ποσοστό",
+            "euro": "Ευρώ",
+            "no": "Όχι",
+            "employeeType": "Τύπος υπαλλήλου",
+            "employmentDate": "Ημερομηνία πρόσληψης",
+            "terminationDate": "Ημερομηνία τερματισμού",
+            "yes": "Ναι",
+            "contractHours": "Ώρες συμβολαίου",
+            "startDate": "Ημερομηνία έναρξης",
+            "city": "Πόλη",
+            "employee": "Υπάλληλος",
+            "period": "Περίοδος",
+            "exports": "Εξαγωγές",
+            "visitAddress": "Διεύθυνση επίσκεψης",
+            "confirmationQuestion": "Είστε βέβαιοι;",
+            "payOutFrequency": "Συχνότητα πληρωμών",
+            "participantEtRegulation": "Συμμετέχων κανονισμού ΕΤ;",
+            "homewardTravelCost": "Ταξιδιωτικά έξοδα προς το σπίτι",
+            "homewardTravelFrequency": "Συχνότητα ταξιδιού προς το σπίτι",
+            "factorEtRegulation": "Παράγοντας κανονισμού ΕΤ",
+            "factorOvertime": "Παράγοντας υπερωρίας",
+            "vatTariff": "Κόστος ΦΠΑ",
+            "enterprises": "Επιχειρήσεις",
+            "dashboard": "Πίνακας ελέγχου",
+            "enabled": "Ενεργοποιήθηκε",
+            "webhooks": "Webhooks",
+            "nr": "Ν.",
+            "timeRegistration": "Καταχώρηση ώρας",
+            "factoringCompanies": "Εταιρείες factoring",
+            "splitMargin": "Διαμοιρασμός περιθωρίου",
+            "employmentAgencyApprovalFail": "Η έγκριση γραφείου ανεύρεσης εργασίας απέτυχε.",
+            "log": "Αρχείο καταγραφής",
+            "residenceAddress": "Διεύθυνση κατοικίας",
+            "payrollTaxReduction": "Μείωση φόρου μισθοδοσίας",
+            "homewardTravelDistance": "Απόσταση ταξιδιού προς το σπίτι",
+            "contactInformation": "Πληροφορίες επικοινωνίας",
+            "invoiceEmail": "Διεύθυνση ηλεκτρονικού ταχυδρομείου τιμολογίου",
+            "factoringCompany": "Εταιρεία factoring",
+            "originalValue": "Αρχική αξία",
+            "freelancers": "Ελεύθεροι επαγγελματίες",
+            "reservations": "Κρατήσεις",
+            "surcharge": "Πρόσθετη χρέωση",
+            "employmentCreationSuccess": "Επιτυχής δημιιουργία εργασίας",
+            "freelancerApprovalSuccess": "Επιτυχής έγκριση ελεύθερου επαγγελματία",
+            "total": "Σύνολο",
+            "cancel": "Ακύρωση",
+            "enterprise": "Επιχείρηση",
+            "date": "Ημερομηνία",
+            "freelancer": "Ελεύθερος επαγγελματίας",
+            "hours": "Ώρες",
+            "payslip": "Αποδεικτικό μισθοδοσίας",
+            "timesheet": "Δελτίο απασχόλησης",
+            "imports": "Εισαγωγές",
+            "freelancerApprovalFail": "Αποτυχία έγκρισης ελεύθερου επαγγελματία",
+            "account": "Λογαριασμός",
+            "overtime": "Υπερωρία",
+            "users": "Χρήστες",
+            "permissions": "Άδειες",
+            "user": "Χρήστης",
+            "link": "Σύνδεσμος",
+            "newContact": "Νέα επαφή",
+            "invoiceEmailCc": "CC Τιμολογίου",
+            "billedAt": "Τιμολογήθηκε στις",
+            "attachments": "Συνημμένα αρχεία",
+            "freelancerCreationSuccess": "Επιτυχής δημιουργία ελεύθερου επαγγελματία",
+            "shiftWorkSurcharge": "Πρόσθετη χρέωση βάρδιας",
+            "sepaId": "Ταυτότητα SEPA",
+            "travelHours": "Ώρες ταξιδιών",
+            "km": "KM",
+            "housingCost": "Κόστος στέγασης",
+            "costOfLivingAllowance": "Κόστος επιδόματος επιβίωσης",
+            "resultsCount": "{count} αποτελέσματα",
+            "phase": "Φάση",
+            "stipp": "Stipp",
+            "translations": "Μεταφράσεις",
+            "subjects": "Θέματα",
+            "accountNumber": "Αριθμός λογαριασμού",
+            "createdAt": "Δημιουργήθηκε στις",
+            "filters": "Φίλτρα",
+            "startsAt": "Έναρξη στις",
+            "endsAt": "Λήξη στις",
+            "sendPayslips": "Αποστολή αποδείξεων μισθοδοσίας",
+            "weeksWorked": "Εβδομάδες εργασίας",
+            "outOfServiceDate": "Ημερομηνία εκτός λειτουργίας",
+            "outOfServiceReason": "Αιτία εκτός λειτουργίας",
+            "year": "Έτος",
+            "factorSenior": "Ανώτερος παράγοντας",
+            "note": "Σημείωση",
+            "createNote": "Δημιουργία σημείωσης",
+            "seniorDays": "Ημέρες παλαιότερων",
+            "timeRegistrationIsNotEnabledText": "Δεν έχει ενεργοποιηθεί η καταχώρηση χρόνου.",
+            "workHours": "Ώρες εργασίας",
+            "workStartTime": "Ώρα έναρξης εργασίας",
+            "workEndTime": "Ώρα λήξης εργασίας",
+            "sendFailed": "Η αποστολή απέτυχε",
+            "createdBy": "Χρήστης",
+            "workTimeReductionDays": "Ημέρες μείωσης χρόνου εργασίας",
+            "maxImageSize": "Η εικόνα πρέπει να είναι μικρότερη από {width} x {height} px.",
+            "updateFailed": "Δεν μπορέσαμε να αποθηκεύσουμε αυτό το αρχείο.",
+            "archiveFailed": "Δεν μπορέσαμε να αρχειοθετήσουμε αυτό το αντικείμενο.",
+            "deleteFileConfirmationText": "Θέλετε σίγουρα να διαγράψετε το αρχείο;",
+            "fileDeleteFailed": "Η διαγραφή του αρχείου απέτυχε",
+            "end": "Λήξη",
+            "reason": "Αιτία",
+            "unarchiveSuccess": "Το αντικείμενο έχει αφαιρεθεί από την αρχειοθέτηση.",
+            "start": "Έναρξη",
+            "hint": "Υπόδειξη",
+            "outOfService": "Εκτός λειτουργίας",
+            "outOfServiceSuccess": "Επιτυχώς εκτός λειτουργίας",
+            "createFailed": "Δεν μπορέσαμε να αποθηκεύσουμε αυτό το αρχείο.",
+            "saveFailed": "Δεν μπορέσαμε να αποθηκεύσουμε αυτό το αρχείο.",
+            "archiveSuccess": "Το αντικείμενο έχει αρχειοθετηθεί.",
+            "location": "Τοποθεσία",
+            "holidaySurcharge": "Πρόσθετη χρέωση άδειας",
+            "uploadFiles": "Μεταφόρτωση αρχείων",
+            "invoiceCompany": "Εταιρεία τιμολόγησης",
+            "employments": "Εργασίες",
+            "freelancerJobs": "Δουλειές ελεύθερου επαγγελματία",
+            "fromPeriod": "Από περίοδο",
+            "filesUploaded": "Μεταφορτωμένα αρχεία",
+            "fileUploadFailed": "Η μεταφόρτωση του αρχείου απέτυχε",
+            "fileDeleted": "Το αρχείο διαγράφηκε",
+            "sickReports": "Δηλώσεις ασθένειας",
+            "outOfServiceEmployeeSuccess": "Ο υπάλληλος έχει αναφερθεί επιτυχώς ως εκτός λειτουργίας.",
+            "unarchiveFailed": "Δεν μπορέσαμε να αφαιρέσουμε αυτό το αρχείο από την αρχειοθέτηση.",
+            "recentVisitedPages": "Οι σελίδες που επισκεφτήκατε πρόσφατα θα εμφανιστούν εδώ.",
+            "payOutEnterprise": "Πληρωμή επιχείρησης",
+            "frequency": "Συχνότητα",
+            "from": "Από",
+            "until": "Έως",
+            "download": "Λήψη",
+            "annualStatements": "Ετήσιες δηλώσεις",
+            "certificateOfConduct": "Πιστοποιητικό συμπεριφοράς",
+            "reservationsBuildup": "Συσσώρευση κρατήσεων",
+            "healthInsuranceStartDateInfo": "Η έκπτωση της ασφάλειας υγείας θα προστίθεται στην αρχή κάθε εβδομάδας/τεσσάρων εβδομάδων/μήνα (ανάλογα με τη συχνότητα πληρωμής), εφόσον υπάρχει ενεργή ασφάλεια υγείας εκείνη την ημερομηνία.",
+            "contractStartDate": "Ημερομηνία Έναρξης Συμβολαίου",
+            "contractEndDate": "Ημερομηνία Λήξης Συμβολαίου",
+            "description": "Περιγραφή",
+            "subject": "Θέμα",
+            "payslips": "Αποδεικτικά μισθοδοσίας",
+            "correction": "Διόρθωση",
+            "selectedAmount": "Επιλεγμένα ({amount})",
+            "validationFailed": "Η επικύρωση απέτυχε",
+            "sharedDocumentTemplates": "Κοινόχρηστα πρότυπα εγγράφων",
+            "companyType": "Τύπος εταιρείας",
+            "useHirerValue": "Χρήση αξίας εργοδότη",
+            "type": "Τύπος",
+            "canNotDeleteEmployeeTitle": "Αδυναμία διαγραφής",
+            "upcomingEmployments": "Επερχόμενες θέσεις εργασίας",
+            "useEmploymentAgencyValue": "Χρήση αξίας γραφείου ανεύρεσης εργασίας",
+            "projects": "Έργα",
+            "causer": "Υπαίτιος",
+            "seasonalWork": "Εποχική εργασία",
+            "usingHirerValue": "Χρήση αξίας εργοδότη",
+            "canNotDeleteEmploymentTitle": "Αδυναμία διαγραφής",
+            "import": "Εισαγωγή",
+            "importHirers": "Εισαγωγή εργοδοτών",
+            "importSuccessful": "Επιτυχής εισαγωγή",
+            "importEmployees": "Εισαγωγή υπαλλήλων",
+            "importFreelancers": "Εισαγωγή ελεύθερων επαγγελματιών",
+            "importFreelancerJobs": "Εισαγωγή εργασιών ελεύθερων επαγγελματιών",
+            "importEntityFailed": "Η εισαγωγή απέτυχε. Δοκιμάστε να ανανεώσετε τη σελίδα και τρέξτε ξανά την εισαγωγή.",
+            "registration": "Εγγραφή",
+            "loadFailed": "Δεν μπορέσαμε να φορτώσουμε τα δεδομένα που ζητήσατε.",
+            "importEmployments": "Εισαγωγή θέσεων εργασίας",
+            "owner": "Ιδιοκτήτης",
+            "marginInvoicePerWeek": "Τιμολόγιο περιθωρίου ανά εβδομάδα",
+            "generateFreelancerDocuments": "Δημιουργία εγγράφων ελεύθερου επαγγελματία",
+            "usingEmploymentAgencyValue": "Γίνεται χρήση της αξίας γραφείου ανεύρεσης εργασίας",
+            "useParentValue": "Χρήση μητρικής αξίας",
+            "generateFreelancerDocumentsInfo": "Όταν αυτή η επιλογή απενεργοποιείται, δεν δημιουργούνται έγγραφα στο τέλος του οδηγού για ελεύθερους επαγγελματίες.",
+            "currentJobs": "Τρέχουσες δουλειές",
+            "upcomingJobs": "Επερχόμενες δουλειές",
+            "isPayOutEnabled": "Ενεργοποιημένη πληρωμή;",
+            "pages": "Σελίδες",
+            "homeAddress": "Διεύθυνση σπιτιού",
+            "dashboardOrderMobile": "Παραγγελία ταμπλό για κινητά",
+            "splitPayOut": "Διαχωρισμός πληρωμής",
+            "disablePayOutConfirmationText": "Θέλετε σίγουρα να απενεργοποιήσετε την πληρωμή για αυτή την εγγραφή;",
+            "submitForApprovalFailed": "Δεν μπορέσαμε να υποβάλουμε την οντότητα για έγκριση.",
+            "resellers": "Μεταπωλητές",
+            "resellerApprovalSuccess": "Ο μεταπωλητής εγκρίθηκε επιτυχώς.",
+            "splitPayOutInfo": "Όταν αυτή η επιλογή είναι ενεργοποιημένη, οι τυπικές ώρες θα διαχωριστούν από τις άλλες καταχωρήσεις στην εξαγωγή πληρωμών.",
+            "recurringDeductionInfo": "Η επαναλαμβανόμενη κράτηση θα προστίθεται κάθε εβδομάδα/τέσσερις εβδομάδες/μήνα (ανάλογα με την συχνότητα πληρωμής).",
+            "showTotal": "Προβολή συνόλου",
+            "dontSendDocuments": "Μην αποστείλετε έγγραφα",
+            "saved": "Αποθηκευμένο",
+            "missingRequiredAttributesConfirmText": "Αυτό το πεδίο δεν μπορεί να υποβληθεί ακόμα για έγκριση γιατί ορισμένα απαραίτητα πεδία δεν έχουν συμπληρωθεί.",
+            "notifications": "Ειδοποιήσεις",
+            "missingRequiredAttributesConfirmTitle": "Λείπουν απαραίτητα πεδία",
+            "dontSendDocumentsInfo": "Δεν θα αποσταλούν αιτήματα υπογραφής για έγγραφα που είναι επιλεγμένα εδώ.",
+            "otherInfo": "Άλλες πληροφορίες",
+            "fillAll": "Συμπλήρωση όλων",
+            "submitForApprovalConfirmTitle": "Υποβολή για έγκριση",
+            "submittedForApproval": "Υποβλήθηκε για έγκριση.",
+            "notYetSubmittedForApproval": "Δεν έχει υποβληθεί ακόμα για έγκριση.",
+            "submitForApprovalConfirmText": "Το αντικείμενο θα υποβληθεί για έγκριση.",
+            "jobCreationSuccess": "Η εργασία έχει δημιουργηθεί.",
+            "variable": "Μεταβλητή",
+            "minimum": "Ελάχιστο",
+            "new": "Νέο",
+            "resellerCreationSuccess": "Ο μεταπωλητής δημιουργήθηκε επιτυχώς.",
+            "resellerApprovalFail": "Η έγκριση του μεταπωλητή απέτυχε.",
+            "reseller": "Μεταπωλητής",
+            "confirmationImpersonateText": "Θέλετε σίγουρα να μιμηθείτε αυτόν τον χρήστη;",
+            "googleLogo": "Λογότυπο Google",
+            "resultsCountMobile": "Σελίδα {current} - {total}",
+            "unableToDeleteItem": "Αδυναμία διαγραφής αντικειμένου",
+            "signRequestSentAt": "Το αίτημα υπογραφής στάλθηκε στις",
+            "token": "Token πρόσβασης",
+            "personalAccessTokens": "Tokens προσωπικής πρόσβασης",
+            "teams": "Ομάδες",
+            "teamPresets": "Προεπιλογές Ομάδας",
+            "defaultValue": "Προεπιλεγμένη αξία",
+            "messageBox": "Παράθυρο μηνυμάτων",
+            "hide": "Απόκρυψη",
+            "contractType": "Τύπος συμβολαίου",
+            "expiresAt": "Λήγει στις",
+            "noPermissionForField": "Δεν υπάρχει άδεια προβολής...",
+            "signTokenExpiresAt": "Το token υπογραφής λήγει στις",
+            "receiveNewSignToken": "Λήψη νέου token υπογραφής",
+            "missingDocumentsAmount": "Ποσότητα εγγράφων που λείπουν",
+            "NoPermissionForSegment": "Δεν έχετε τα κατάλληλα δικαιώματα για να δείτε αυτό το τμήμα...",
+            "role": "Ρόλος",
+            "contactHasNoAccountTooltip": "Αυτή η επαφή δεν έχει λογαριασμό",
+            "attachExistingContact": "Επισύναψη υπάρχουσας επαφής",
+            "portals": "Πύλες",
+            "roles": "Ρόλοι",
+            "workweekHours": "Εβδομαδιαίες ώρες εργασίας",
+            "result": "Αποτέλεσμα",
+            "subsidyCompanies": "Επιδοτούμενες εταιρείες",
+            "proFormaPayslip": "Τυπικό αποδεικτικό μισθοδοσίας",
+            "fiscalYearlySalary": "Ετήσιος μισθός",
+            "subsidyCompany": "Επιδοτούμενη εταιρεία",
+            "subsidy": "Επιδότηση",
+            "details": "Στοιχεία",
+            "confirmed": "Επιβεβαιώθηκε",
+            "amount": "Ποσό",
+            "automatic": "Αυτόματο",
+            "ageHint": "Ηλικία: {age}",
+            "deductionOverviewPerWeek": "Επισκόπηση της παρακράτησης ανά εβδομάδα",
+            "mainContact": "Κύρια επαφή"
+        },
+        "tabs": {
+            "contactDetails": "Στοιχεία επικοινωνίας",
+            "documents": "Έγγραφα",
+            "hourTypes": "Τύποι ωρών",
+            "companyDetails": "Στοιχεία εταιρείας",
+            "contacts": "Επαφές",
+            "details": "Στοιχεία",
+            "employees": "Υπάλληλοι",
+            "hirers": "Εργοδότες",
+            "invoices": "Τιμολόγια",
+            "notes": "Σημειώσεις",
+            "settings": "Ρυθμίσεις",
+            "compensations": "Αποζημιώσεις",
+            "travelTypes": "Τύποι ταξιδιών",
+            "log": "Αρχείο καταγραφής",
+            "splitMargin": "Διαμοιρασμός περιθωρίου",
+            "reservations": "Κρατήσεις",
+            "hours": "Ώρες",
+            "employments": "Εργασίες",
+            "jobs": "Δουλειές",
+            "wageAttachments": "Συνημμένα αρχεία μισθού",
+            "deductions": "Εκπτώσεις",
+            "freelancers": "Ελεύθεροι επαγγελματίες",
+            "projects": "Έργα",
+            "margins": "Περιθώρια",
+            "customers": "Πελάτες",
+            "tariffs": "Τιμές",
+            "user": "Χρήστης",
+            "subsidies": "Επιδοτήσεις"
+        },
+        "actions": {
+            "archive": "Αρχειοθέτηση",
+            "saveTranslations": "Αποθήκευση μεταφράσεων",
+            "addRow": "Προσθήκη σειράς",
+            "approve": "Έγκριση",
+            "cancel": "Ακύρωση",
+            "delete": "Διαγραφή",
+            "edit": "Επεξεργασία",
+            "new": "Νέο",
+            "next": "Επόμενο",
+            "previous": "Προηγούμενο",
+            "save": "Αποθήκευση",
+            "sendInvitation": "Αποστολή πρόσκλησης",
+            "skip": "Παράλειψη",
+            "confirm": "Επιβεβαίωση",
+            "viewParentCompany": "Προβολή μητρικής εταιρείας",
+            "deselectAll": "Αποεπιλογή όλων",
+            "remove": "Αφαίρεση",
+            "add": "Προσθήκη",
+            "refresh": "Ανανέωση",
+            "selectAll": "Επιλογή όλων",
+            "invite": "Πρόσκληση",
+            "linkEnterprise": "Σύνδεσμος επιχείρησης",
+            "create": "Δημιουργία",
+            "upload": "Μεταφόρτωση",
+            "unarchive": "Αφαίρεση από αρχειοθέτηση",
+            "addType": "Προσθήκη τύπου",
+            "deleteSelected": "Διαγραφή επιλεγμένων ({amount})",
+            "close": "Κλείσιμο",
+            "downloadFormat": "Μορφή λήψης",
+            "import": "Εισαγωγή",
+            "clearFilters": "Διαγραφή φίλτρων",
+            "submit": "Υποβολή",
+            "continue": "Συνέχεια",
+            "impersonate": "Μίμηση",
+            "fill": "Συμπληρώστε",
+            "ok": "Ok",
+            "copyToken": "Αντιγραφή token",
+            "actions": "Ενέργειες",
+            "editPermissions": "Επεξεργασία αδειών",
+            "attach": "Επισύναψη",
+            "detach": "Αποσύνδεση",
+            "selectAllFromRole": "Επιλογή όλων από ρόλο",
+            "calculate": "Υπολογισμός",
+            "reset": "Επαναφορά",
+            "editUser": "Επεξεργασία χρήστη"
+        },
+        "plurals": {
+            "month": "Κανένας μήνας | {count} μήνας | {count} μήνες",
+            "week": "Καμία εβδομάδα | {count} εβδομάδα | {count} εβδομάδες",
+            "hour": "Καμία ώρα | {count} ώρα | {count} ώρες",
+            "file": "Κανένα αρχείο | {count} αρχείο | {count} αρχεία"
+        },
+        "errors": {
+            "forbidden": "Δεν υπάρχουν αρκετές άδειες για να πραγματοποιήσετε αυτή την ενέργεια."
+        },
+        "tooltip": {
+            "copyToClipboard": "Αντιγραφή σε πρόχειρο"
+        },
+        "messages": {
+            "dataUniqueToEnterprise": "Αυτά τα δεδομένα ανήκουν αποκλειστικά στην επιχείρηση {enterpriseName}. Πατήστε {action} για να αντικαταστήσετε αυτά τα δεδομένα. Τα δεδομένα που δεν έχουν αντικατασταθεί θα ληφθούν από τη μητρική εταιρεία.",
+            "overriddenValue": "Αυτή η αξία έχει παρακαμφθεί."
+        }
+    },
+    "menu": {
+        "actions": {
+            "employmentAgencies": "Γραφεία ανεύρεσης εργασίας",
+            "employees": "Υπάλληλοι",
+            "hirers": "Εργοδότες",
+            "settings": "Ρυθμίσεις",
+            "invoices": "Τιμολόγια",
+            "exports": "Εξαγωγές",
+            "dashboard": "Πίνακας ελέγχου",
+            "functions": "Λειτουργίες",
+            "timeRegistration": "Καταχώρηση ώρας",
+            "imports": "Εισαγωγές",
+            "freelancers": "Ελεύθεροι επαγγελματίες",
+            "logout": "Αποσύνδεση",
+            "documents": "Έγγραφα",
+            "language": "Γλώσσα",
+            "leaveImpersonation": "Πλαστοπροσωπία άδειας",
+            "outOfService": "Εκτός λειτουργίας",
+            "sickReports": "Δηλώσεις ασθένειας",
+            "account": "Λογαριασμός",
+            "payslips": "Αποδεικτικά μισθοδοσίας",
+            "resellers": "Μεταπωλητές",
+            "proFormaPayslip": "Τυπικό αποδεικτικό μισθοδοσίας"
+        }
+    },
+    "settings": {
+        "pages": {
+            "documents": "Έγγραφα",
+            "enterprises": "Επιχειρήσεις",
+            "webhooks": "Webhooks",
+            "factoringCompanies": "Εταιρείες factoring",
+            "users": "Χρήστες",
+            "personalAccessTokens": "Tokens προσωπικής πρόσβασης",
+            "teams": "Ομάδες",
+            "roles": "Ρόλοι",
+            "subsidyCompanies": "Επιδοτούμενες εταιρείες"
+        }
+    },
+    "timeRegistration": {
+        "static": {
+            "payOut": "Πληρωμή",
+            "from": "Από",
+            "kilometers": "Χιλιόμετρα",
+            "maxDistance": "Μέγιστη απόσταση",
+            "invoiceAlreadySaved": "Αυτό το τιμολόγιο έχει ήδη αποθηκευτεί.",
+            "week": "Εβδομάδα",
+            "amount": "Ποσό",
+            "hours": "Ώρες",
+            "location": "Τοποθεσία",
+            "notes": "Σημειώσεις",
+            "hourType": "Τύπος ώρας",
+            "date": "Ημερομηνία",
+            "compensationDescriptiveText": "Κείμενο περιγραφής αποζημίωσης...",
+            "project": "Έργο",
+            "to": "Έως",
+            "reservation": "Κράτηση",
+            "currentState": "Τρέχουσα κατάσταση",
+            "compensations": "Αποζημιώσεις",
+            "reservations": "Κρατήσεις",
+            "chargeTo": "Χρέωση σε",
+            "travelType": "Τύπος ταξιδιού",
+            "invoiceCreated": "Το τιμολόγιο δημιουργήθηκε",
+            "reservationDescriptiveText": "Κείμενο περιγραφής κράτησης...",
+            "newState": "Νέα κατάσταση",
+            "deductionDescriptiveText": "Κείμενο περιγραφής έκπτωσης...",
+            "deduction": "Έκπτωση",
+            "deductionAmount": "Ποσό έκπτωσης",
+            "deductionAttachment": "Συνημμένο έκπτωσης",
+            "selectADeduction": "Επιλέξτε μία έκπτωση",
+            "attachmentNotRequired": "Δεν απαιτείται συνημμένο αρχείο",
+            "deductions": "Εκπτώσεις",
+            "deleteKilometersConfirmationText": "Είστε σίγουροι πως θέλετε να προχωρήσετε σε διαγραφή;",
+            "uploadDeductionAttachment": "Μεταφόρτωση συνημμένου αρχείου έκπτωσης",
+            "companies": "Εταιρείες",
+            "compensation": "Αποζημίωση",
+            "staff": "Προσωπικό",
+            "function": "Λειτουργία",
+            "deployed": "Χρησιμοποιήθηκαν",
+            "freelancers": "Ελεύθεροι επαγγελματίες",
+            "invoicingFailed": "Δεν μπορέσαμε να δημιουργήσουμε τα τιμολόγια.",
+            "downloadFormatFailed": "Αδυναμία δημιουργίας της μορφής.",
+            "hourInfoText": "Οι αποζημιώσεις και οι εκπτώσεις υπολογίζονται αυτόματα κατά την ενημέρωση των ωρών.",
+            "status": "Κατάσταση",
+            "jobIsInactiveText": "Αυτή η εργασία δεν είναι ενεργή κατά την επιλεγμένη περίοδο.",
+            "unlocked": "Η περίοδος έχει ξεκλειδωθεί.",
+            "unlockFailed": "Δεν καταφέραμε να ξεκλειδώσουμε την περίοδο.",
+            "deleteTimeRegistrationConfirmationText": "Η εγγραφή ώρας θα διαγραφεί.",
+            "import": "Εισαγωγή",
+            "validationFailed": "Η επικύρωση απέτυχε",
+            "importSuccessful": "Η εισαγωγή ολοκληρώθηκε επιτυχώς",
+            "employmentIsInactiveText": "Αυτή η δουλειά δεν είναι ενεργή κατά την επιλεγμένη περίοδο.",
+            "importStarted": "Η εισαγωγή έχει ξεκινήσει. Ανάλογα με το μέγεθος, ενδέχεται να χρειαστούν μερικά λεπτά για να ολοκληρωθεί.",
+            "creatingInvoicesStatusText": "Τα τιμολόγια δημιουργούνται. Μόλις αυτή η διαδικασία ολοκληρωθεί, μπορείτε να δείτε τα τιμολόγια εδώ.",
+            "shouldNotSendWithInvoice": "Μην αποστείλετε με τιμολόγιο",
+            "timeRegistrationsDeleted": "Οι καταχωρήσεις χρόνου έχουν διαγραφεί.",
+            "creatingInvoicesInfo": "Τα τιμολόγια έχουν προγραμματιστεί να δημιουργηθούν.",
+            "travelDuplicated": "Το ταξίδι έχει αναπαραχθεί.",
+            "deleteTimeRegistrationsConfirmationText": "Θέλετε σίγουρα να διαγράψετε τις επιλεγμένες καταχωρήσεις χρόνου;",
+            "compensationDeleted": "Η αποζημίωση έχει διαγραφεί.",
+            "hourDeleted": "Οι ώρες έχουν διαγραφεί.",
+            "copyFailed": "Δεν καταφέραμε να αντιγράψουμε τη σειρά.",
+            "travelSaved": "Το ταξίδι έχει αποθηκευτεί.",
+            "travelDeleted": "Το ταξίδι έχει διαγραφεί.",
+            "returnTravelSaved": "Το ταξίδι επιστροφής έχει αποθηκευτεί.",
+            "noRegistrationsFound": "Δεν βρέθηκαν εγγραφές.",
+            "travelsCopied": "Τα ταξίδια έχουν αντιγραφεί.",
+            "noOutstandingTimeRegistrationsFound": "Δεν βρέθηκαν εκκρεμείς καταχωρήσεις ωρών.",
+            "autoCalculateDeductionsInfo": "Εάν αυτή η επιλογή είναι ενεργοποιημένη, οι εκκρεμείς εκπτώσεις θα υπολογίζονται εκ νέου αυτόματα κατά την καταχώρηση ωρών ή δημιουργία τιμολογίων.",
+            "hoursCopied": "Οι ώρες έχουν αντιγραφεί.",
+            "someHoursNotCopied": "Δεν ήταν δυνατή η αντιγραφή ορισμένων καταχωρήσεων ωρών εξαιτίας ενός τύπου ώρας που έλειπε.",
+            "someTravelsNotCopied": "Δεν ήταν δυνατή η αντιγραφή ορισμένων εγγραφών ταξιδιών εξαιτίας ενός τύπου ταξιδιού που έλειπε."
+        },
+        "actions": {
+            "copyPreviousPeriod": "Αντιγραφή προηγούμενης περιόδου",
+            "staff": "Προσωπικό",
+            "duplicateKilometerRow": "Αντιγραφή σειράς",
+            "editHours": "Επεξεργασία ωρών",
+            "addRow": "Προσθήκη σειράς",
+            "invoice": "Τιμολόγιο",
+            "correction": "Διόρθωση",
+            "saveInvoice": "Αποθήκευση τιμολογίου",
+            "receipts": "Αποδείξεις",
+            "cao": "CAO",
+            "duplicateReturnTravel": "Ταξίδι επιστροφής",
+            "uploadAttachments": "Μεταφόρτωση συνημμένων αρχείων",
+            "deployed": "Χρησιμοποιήθηκαν",
+            "uploadKilometerAccountability": "Λογοδοσία μεταφόρτωσης χιλιομέτρων",
+            "add": "Προσθήκη",
+            "closePeriod": "Κλείσιμο περιόδου",
+            "viewInvoice": "Προβολή τιμολογίου",
+            "unlock": "Ξεκλείδωμα",
+            "autoCalculate": "Αυτόματος υπολογισμός",
+            "viewHours": "Προβολή ωρών",
+            "previewInvoice": "Προεπισκόπηση τιμολογίου",
+            "generateInvoice": "Δημιουργία τιμολογίου",
+            "deleteInvoice": "Διαγραφή τιμολογίου",
+            "excel": "Excel",
+            "downloadFormat": "Λήψη μορφής",
+            "upload": "Μεταφόρτωση",
+            "import": "Εισαγωγή",
+            "createTimeRegistration": "Δημιουργία καταχώρησης ώρας",
+            "copyFromFreelancer": "Αντιγραφή από άλλον ελεύθερο επαγγελματία",
+            "saveInvoices": "Αποθήκευση τιμολογίων",
+            "selectLockable": "Επιλογή όλων",
+            "deselectAll": "Αποεπιλογή όλων",
+            "copyFromEmployee": "Αντιγραφή από άλλον υπάλληλο"
+        },
+        "tabs": {
+            "kilometers": "Χιλιόμετρα",
+            "hours": "Ώρες",
+            "compensations": "Αποζημιώσεις",
+            "reservations": "Κρατήσεις",
+            "deductions": "Εκπτώσεις"
+        }
+    },
+    "api": {
+        "kvk": {
+            "validation": {
+                "errors": {
+                    "cocNotFound": "Δεν βρέθηκε ο αριθμός Εμπορικού Επιμελητηρίου."
+                }
+            },
+            "static": {
+                "apiOffline": "Το KVK Api είναι απενεργοποιημένο",
+                "companyInfoSuccessfullyFilled": "Τα στοιχεία της εταιρείας συμπληρώθηκαν επιτυχώς"
+            }
+        },
+        "creditsafe": {
+            "static": {
+                "apiOffline": "Το API της ασφαλούς πίστωσης είναι εκτός σύνδεσης."
+            },
+            "validation": {
+                "errors": {
+                    "companyNotFound": "Η εταιρεία δεν βρέθηκε"
+                }
+            }
+        }
+    },
+    "deduction": {
+        "static": {
+            "certificateOfGoodBehavior": "Πιστοποιητικό καλής διαγωγής",
+            "penalty": "Πρόστιμο",
+            "workingClothesWorkingShoes": "Ρούχα εργασίας παπούτσια εργασίας",
+            "eduction": "Εκπαίδευση",
+            "healthInsurance": "Ασφάλεια υγείας",
+            "housing": "Στέγαση",
+            "personalContributionForTransport": "Προσωπική συνεισφορά για μεταφορά",
+            "advance": "Προκαταβολή",
+            "housingExtra": "Έξτρα για στέγαση",
+            "advanceExtra": "Έξτρα προκαταβολή",
+            "healthInsuranceExtra": "Έξτρα ασφάλεια υγείας",
+            "mealAllowance": "Επίδομα γευμάτων",
+            "personnelAssociation": "Σύνδεσμος προσωπικού"
+        }
+    },
+    "frequency": {
+        "static": {
+            "monthly": "Μηνιαία",
+            "fourWeekly": "Κάθε τέσσερις εβδομάδες",
+            "weekly": "Εβδομαδιαία",
+            "week": "Εβδομάδα",
+            "month": "Μήνας",
+            "hourly": "Ωριαία",
+            "daily": "Ημερήσια",
+            "hour": "Ώρα",
+            "day": "Ημέρα",
+            "fourWeek": "Τέσσερις εβδομάδες",
+            "hourShort": "ω",
+            "dayShort": "η",
+            "weekShort": "ε",
+            "fourWeekShort": "4ε",
+            "monthShort": "μ"
+        }
+    },
+    "compensation": {
+        "static": {
+            "employeesWithoutAccess": "Υπάλληλοι χωρίς πρόσβαση",
+            "employeesWithAccess": "Υπάλληλοι με πρόσβαση",
+            "name": "Όνομα",
+            "value": "Αξία",
+            "unit": "Μονάδα",
+            "hint": "Υπόδειξη",
+            "chargeTo": "Χρέωση σε",
+            "frequency": "Συχνότητα",
+            "isGross": "Είναι μικτό",
+            "none": "Καμία",
+            "caoCompensations": "Αποζημιώσεις CAO",
+            "saved": "Αποθηκεύτηκε",
+            "deleted": "Διαγράφηκε",
+            "factor": "Παράγοντας",
+            "payOutEnabled": "Η πληρωμή ενεργοποιήθηκε",
+            "employeeHasCompensationOverrides": "Ο υπάλληλος έχει υπερβάσεις αποζημίωσης",
+            "compensation": "Αποζημίωση",
+            "defaultForNewEmployee": "Προεπιλογή για νέο υπάλληλο",
+            "defaultForNewEmployeeUpdated": "Οι προεπιλεγμένες αποζημιώσεις για νέο υπάλληλο ενημερώθηκαν",
+            "desiredSalaryCompensation": "Επιθυμητή αποζημίωση μισθού",
+            "compensations": "Αποζημιώσεις",
+            "payslipPaymentsDesiredSalaryExplanation": "Όταν εισάγετε αποδεικτικά μισθοδοσίας, αυτή η λειτουργία δημιουργία μία αποζημίωση για κάθε υπάλληλο που έχει επιθυμητό μισθό (ποτ αναφέρεται στην εισαγωγή καταχώρησης ώρας), ο οποίος είναι υψηλότερος από την πληρωμή στο αποδεικτικό μισθοδοσίας.",
+            "checkDesiredSalaryOnPayslipPayments": "Έλεγχος επιθυμητού μισθού",
+            "noCompensations": "Χωρίς αποζημιώσεις",
+            "salesRate": "Τιμή πώλησης",
+            "deviantFactor": "Αποκλίνων παράγοντας",
+            "compensationSaved": "Οι αποζημιώσεις έχουν αποθηκευτεί.",
+            "enabledCompensationsRecalculatedInfo": "Όταν ενεργοποιείτε τις αποζημιώσεις, αυτές υπολογίζονται αυτόματα σε τυχόν εκκρεμείς καταχωρίσεις χρόνου (εάν υπάρχουν καταχωρημένες ώρες)."
+        },
+        "actions": {
+            "grantAccessToAll": "Παραχώρηση πρόσβασης σε όλους",
+            "takeAccessFromAll": "Αφαίρεση πρόσβασης από όλους",
+            "useDeviatingFactor": "Χρήση αποκλίνοντα παράγοντα",
+            "addSalesRate": "Προσθήκη τιμής πώλησης"
+        }
+    },
+    "travelType": {
+        "static": {
+            "employeesWithAccess": "Υπάλληλοι με πρόσβαση",
+            "name": "Όνομα",
+            "hint": "Υπόδειξη",
+            "value": "Αξία",
+            "unit": "Μονάδα",
+            "employeesWithoutAccess": "Υπάλληλοι χωρίς πρόσβαση",
+            "travelType": "Τύπος ταξιδιού",
+            "none": "Κανένας",
+            "deleted": "Διαγράφηκε",
+            "gross": "Μικτός",
+            "net": "Καθαρός",
+            "employeeHasTravelTypeOverrides": "Ο υπάλληλος έχει υπερβάσεις τύπου ταξιδιού",
+            "caoTravelExpenses": "Ταξιδιωτικά έξοδα CAO",
+            "default": "Προεπιλογή",
+            "saved": "Αποθηκεύτηκε",
+            "defaultForNewEmployee": "Προεπιλογή για νέο υπάλληλο",
+            "defaultForNewEmployeeUpdated": "Οι προεπιλεγμένοι τύποι ταξιδιού για νέο υπάλληλο ενημερώθηκαν",
+            "noTravels": "Χωρίς ταξίδια",
+            "chargeTo": "Χρέωση σε"
+        },
+        "actions": {
+            "grantAccessToAll": "Παραχώρηση πρόσβασης σε όλους",
+            "takeAccessFromAll": "Αφαίρεση πρόσβασης από όλους"
+        }
+    },
+    "role": {
+        "static": {
+            "employmentAgency": "Γραφείο ανεύρεσης εργασίας",
+            "administrator": "Διαχειριστής",
+            "employee": "Υπάλληλος",
+            "hirer": "Εργοδότης",
+            "freelancer": "Ελεύθερος επαγγελματίας",
+            "superAdministrator": "Ανώτερος διαχειριστής",
+            "deleteRoleText": "Θέλετε σίγουρα να διαγράψετε αυτόν τον ρόλο;",
+            "roleDeleted": "Ο ρόλος έχει διαγραφεί."
+        }
+    },
+    "invoice": {
+        "static": {
+            "salesInvoices": "Τιμολογία πωλήσεων",
+            "number": "Αριθμός",
+            "total": "Σύνολο",
+            "period": "Περίοδος",
+            "salesInvoice": "Τιμολόγιο πώλησης",
+            "searchInvoices": "Αναζήτηση τιμολογίων",
+            "payments": "Πληρωμές",
+            "noPaymentsFound": "Δεν βρέθηκαν πληρωμές",
+            "addPayment": "Προσθήκη πληρωμής",
+            "ipAddress": "Διεύθυνση IP",
+            "costsOverview": "Σύνοψη εξόδων",
+            "marginInvoice": "Τιμολόγιο περιθωρίου",
+            "deductionsOverview": "Σύνοψη εκπτώσεων",
+            "marginInvoices": "Τιμολόγια περιθωρίου",
+            "gAccount": "G-λογαριασμός",
+            "log": "Αρχείο καταγραφής",
+            "download": "Λήψη",
+            "files": "Αρχεία",
+            "info": "Πληροφορίες",
+            "paidAt": "Πληρώθηκε στις",
+            "invoiceWillBeBilled": "Τα τιμολόγια για αυτήν την περίοδο θα εκδοθούν σύντομα.",
+            "billed": "Τιμολογήθηκε",
+            "billedAt": "Τιμολογήθηκε στις",
+            "invoice": "Τιμολόγιο",
+            "createdBy": "Δημιουργήθηκε από",
+            "pending": "Εκκρεμούν",
+            "queued": "Σε αναμονή",
+            "createdAt": "Δημιουργήθηκε στις",
+            "sendAt": "Αποστολή στις",
+            "invoiceWillBeSent": "Το τιμολόγιο θα αποσταλεί.",
+            "sales": "Πωλήσεις",
+            "costs": "Κόστος",
+            "margin": "Περιθώριο",
+            "deductions": "Κρατήσεις",
+            "paid": "Πληρώθηκε",
+            "totalPaid": "Σύνολο πληρωμών",
+            "gAccountPaid": "Πληρωμές σε G-λογαριασμό",
+            "freelancerInvoice": "Τιμολόγιο ελεύθερου επαγγελματία",
+            "freelancer": "Ελεύθερος επαγγελματίας",
+            "attachments": "Συνημμένα αρχεία",
+            "extraInvoice": "Έξτρα τιμολόγιο",
+            "creditInvoice": "Πιστωτικό τιμολόγιο",
+            "hideEmail": "Απόκρυψη email",
+            "rows": "Σειρές",
+            "description": "Περιγραφή",
+            "agreedWorkInvoice": "Συμφωνημένο τιμολόγιο εργασίας",
+            "agreedWork": "Συμφωνημένη εργασία",
+            "customInvoice": "Προσαρμοσμένο Τιμολόγιο",
+            "invoiceDate": "Ημερομηνία τιμολογίου",
+            "preview": "Προεπισκόπηση",
+            "customCostsOverview": "Σύνοψη προσαρμοσμένων εξόδων",
+            "deleteInvoiceText": "Θέλετε σίγουρα να διαγράψετε αυτό το τιμολόγιο;",
+            "exportInvalidText": "Έχουν επιλεχθεί υπερβολικά πολλά τιμολόγια, παρακαλώ περιορίστε τον αριθμό των τιμολογίων χρησιμοποιώντας τα παραπάνω φίλτρα.",
+            "exportDescriptiveText": "Είναι δυνατή η ταυτόχρονη εξαγωγή {count} τιμολογίων το πολύ. Όλα τα φίλτρα που ορίζονται στο πλαίσιο αναζήτησης θα χρησιμοποιηθούν για να περιορίσουν τον αριθμό τιμολογίων στην εξαγωγή.",
+            "items": "Αντικείμενα",
+            "confirmTypeChangeText": "Όλα τα υπάρχοντα αντικείμενα τιμολογίου θα αφαιρεθούν. Θέλετε σίγουρα να αλλάξετε τον τύπο;",
+            "customCosts": "Προσαρμοσμένα έξοδα",
+            "remuneration": "Αποζημίωση",
+            "newItem": "Νέο αντικείμενο",
+            "amount": "Ποσό",
+            "unitPrice": "Τιμή μονάδας",
+            "makeMargin": "Δημιουργία περιθωρίου",
+            "item": "Αντικείμενο",
+            "vat": "ΦΠΑ",
+            "employee": "Υπάλληλος",
+            "deduction": "Έκπτωση",
+            "exports": "Εξαγωγές",
+            "custom": "Προσαρμοσμένο",
+            "billing": "Τιμολόγηση",
+            "resellerMarginInvoice": "Τιμολόγιο περιθωρίου μεταπωλητή",
+            "relatedInvoices": "Σχετικά τιμολόγια",
+            "resellerMargin": "Περιθώριο μεταπωλητή",
+            "customInvoiceItemVatNotDefaultConfirmationText": "Θέλετε σίγουρα να χρησιμοποιήσετε διαφορετική αξία ΦΠΑ;"
+        },
+        "actions": {
+            "addPayment": "Προσθήκη πληρωμής",
+            "download": "Λήψη",
+            "billNow": "Τιμολόγηση τώρα",
+            "sendNow": "Αποστολή τώρα",
+            "create": "Δημιουργία",
+            "addToQueue": "Προσθήκη στην ουρά",
+            "preview": "Προεπισκόπηση",
+            "createExport": "Εξαγωγή {count} τιμολογίων",
+            "downloadAll": "Λήψη όλων",
+            "billSelected": "Χρέωση επιλεγμένων τιμολογίων",
+            "selectBillable": "Επιλογή χρεωτέων",
+            "deselectAll": "Αποεπιλογή όλων"
+        },
+        "filter": {
+            "from": "Από",
+            "to": "Έως",
+            "type": "Τύπος",
+            "queuedOnly": "Μόνο σε αναμονή",
+            "outstandingOnly": "Μόνο εκπρόθεσμες"
+        }
+    },
+    "factoring": {
+        "static": {
+            "type": "Τύπος",
+            "details": "Λεπτομέριες",
+            "cessionText": "Κείμενο εκχώρησης",
+            "impact": "Αντίκτυπος",
+            "factris": "Factris",
+            "factoringCompany": "Εταιρεία factoring",
+            "deleteFactoringCompanyConfirmationText": "Είστε βέβαιοι πως θέλετε να διαγράψετε αυτή την εταιρεία factoring;",
+            "sendInvoice": "Αποστολή τιμολογίων;",
+            "typeInfo": "Ο τύπος καθορίζει τι μορφή θα έχουν οι εξαγωγές.",
+            "nlCredit": "Πίστωση-NL"
+        }
+    },
+    "documentSubjectType": {
+        "static": {
+            "employmentAgency": "Γραφείο ανεύρεσης εργασίας",
+            "employment": "Εργασία",
+            "hirer": "Εργοδότης",
+            "factoringCompany": "Εταιρεία factoring",
+            "freelancerJob": "Δουλειά ελεύθερου επαγγελματία",
+            "enterprise": "Επιχείρηση",
+            "employee": "Υπάλληλος",
+            "freelancer": "Ελεύθερος επαγγελματίας",
+            "employeeContract": "Συμβόλαιο υπαλλήλου"
+        }
+    },
+    "exports": {
+        "static": {
+            "deleteExportConfirmationText": "Αυτό θα διαγράψει την εξαγωγή.",
+            "options": "Επιλογές",
+            "exports": "Εξαγωγές",
+            "generatedAt": "Δημιουργήθηκε στις",
+            "notStarted": "Δεν έχει ξεκινήσει",
+            "queued": "Σε αναμονή",
+            "running": "Σε λειτουργία",
+            "completed": "Ολοκληρώθηκαν",
+            "cancelled": "Ακυρώθηκαν",
+            "failed": "Απέτυχαν",
+            "factoringCompanyExport": "Εξαγωγή εταιρείας factoring",
+            "deletePayOutExportConfirmationText": "Η εξαγωγή θα διαγραφεί και όλες οι καταχωρήσεις σε αυτή την εξαγωγή θα γίνουν και πάλι εξαγώγιμες.",
+            "payOutInfo": "Το όνομα της εξαγωγής θα είναι το ίδιο με την υψηλότερη επιλεγμένη περίοδο. Οποιαδήποτε επιλεγμένη καταχώρηση σε χαμηλότερες περιόδους θα εξαχθεί σε ξεχωριστά αρχεία. Οποιαδήποτε εκπρόθεσμα τιμολόγια θα χρεωθούν.",
+            "deleteInvoiceConfirmationText": "Αυτό θα διαγράψει όλα τα σχετικά τιμολόγια και θα ξεκλειδώσει την καταχώρηση χρόνου για αυτήν την περίοδο.",
+            "deleteSepaOverviewExportConfirmationText": "Η εξαγωγή θα διαγραφεί και θα πραγματοποιηθεί επαναφορά της κατάστασης πληρωμής για κάθε τιμολόγιο σε αυτήν την εξαγωγή.",
+            "marginAndDeductionsExport": "Εξαγωγή περιθωρίου & εκπτώσεων",
+            "export": "Εξαγωγή",
+            "periods": "Περίοδοι",
+            "total": "Σύνολο",
+            "exportSuccessful": "Επιτυχής εξαγωγή",
+            "selectedInvoices": "Έχετε επιλέξει {count} τιμολόγια.",
+            "noRegistrationsFound": "Δε βρέθηκαν καταχωρήσεις.",
+            "registrations": "Καταχωρήσεις",
+            "noInvoicesFound": "Δε βρέθηκαν τιμολόγια.",
+            "payOutExport": "Εξαγωγή πληρωμής",
+            "deductionsDocumentNotSigned": "Το έγγραφο εκπτώσεων δεν έχει υπογραφεί.",
+            "deleteWageAttachmentConfirmationText": "Το συνημμένο του μισθού θα διαγραφεί.",
+            "employeesExport": "Εξαγωγή υπαλλήλων",
+            "archiveEmploymentAgencyConfirmationText": "Θέλετε σίγουρα να αρχειοθετήσετε αυτό το γραφείο ανεύρεσης εργασίας;",
+            "deleteCompensationConfirmationText": "Θέλετε σίγουρα να διαγράψετε αυτήν την αποζημίωση;",
+            "deleteTravelTypeConfirmationText": "Θέλετε σίγουρα να διαγράψετε αυτόν τον τύπο ταξιδιού;",
+            "unarchiveEmploymentAgencyConfirmationText": "Θέλετε σίγουρα να αφαιρέσετε από την αρχειοθέτηση αυτό το γραφείο ανεύρεσης εργασίας;",
+            "deleteHourTypeConfirmationText": "Θέλετε σίγουρα να διαγράψετε αυτόν τον τύπο ώρας;",
+            "missingDocumentsForPayOutExport": "Υπογεγραμμένα έγγραφα που λείπουν",
+            "unarchiveHirerConfirmationText": "Θέλετε σίγουρα να αφαιρέσετε από την αρχειοθέτηση αυτόν τον εργοδότη;",
+            "archiveHirerConfirmationText": "Θέλετε σίγουρα να αρχειοθετήσετε αυτόν τον εργοδότη;",
+            "saveInvoiceConfirmationText": "Τα τιμολόγια θα αποθηκευτούν και η περίοδος θα κλειδωθεί.",
+            "accountingSoftwareExport": "Λογιστικό λογισμικό",
+            "marginOverview": "Σύνοψη περιθωρίου",
+            "marginOverviewExport": "Εξαγωγή σύνοψης περιθωρίου",
+            "invoice": "Τιμολόγιο",
+            "markAllAsNew": "Σήμανση όλων ως νέα",
+            "editExport": "Επεξεργασία εξαγωγής",
+            "addEmployee": "Προσθήκη υπαλλήλου",
+            "healthInsuranceExport": "Εξαγωγή ασφάλειας υγείας",
+            "freelancersPayoutExport": "Εξαγωγή πληρωμών ελεύθερων επαγγελματιών",
+            "newEmployees": "Νέοι υπάλληλοι",
+            "markAllAsChanged": "Σήμανση όλων ως αλλαγμένα",
+            "changedEmployees": "Αλλαγμένοι υπάλληλοι",
+            "exportHealhInsuranceRemainder": "Εξαγωγή ασφαλειών υγείας που δεν έχουν εξαχθεί",
+            "unexportedHealhInsuranceCount": "{count} ασφάλειες υγείας δεν έχουν εξαχθεί.",
+            "doNotExport": "Μην εξαγάγετε",
+            "doExport": "Εξάγετε",
+            "markAllAsDoNotExport": "Σήμανση όλων ως μην εξάγετε",
+            "markAllAsDoExport": "Σήμανση όλων ως εξάγετε",
+            "exported": "Εξάχθηκαν",
+            "hollandZorg": "HollandZorg",
+            "archiveResellerConfirmationText": "Θέλετε σίγουρα να αρχειοθετήσετε αυτόν τον μεταπωλητή;",
+            "unarchiveResellerConfirmationText": "Θέλετε σίγουρα να αναιρέσετε την αρχειοθέτηση αυτού του μεταπωλητή;",
+            "resellerMarginsExport": "Εξαγωγή περιθωρίων μεταπωλητή",
+            "mijnSubsidie": "MijnSubsidie",
+            "mijnSubsidieExport": "Εξαγωγή MijnSubsidie",
+            "historicalPayOutExport": "Εξαγωγή ιστορικού πληρωμών",
+            "historicalPayOutInfo": "Οι εξαγωγές θα δημιουργηθούν για κάθε επιλεγμένη καταχώριση χρόνου. Ισχύουν οι συνήθεις κανόνες πληρωμής, εκτός από το ότι δεν υπολογίζονται οι συσσωρευμένες κρατήσεις."
+        },
+        "pages": {
+            "factoringCompany": "Εταιρεία factoring",
+            "marginAndDeductions": "Περιθώριο & εκπτώσεις",
+            "payOutExport": "Εξαγωγή πληρωμής",
+            "employeesExport": "Εξαγωγή υπαλλήλων",
+            "accountingSoftwareExport": "Λογιστικό λογισμικό",
+            "marginOverviewExport": "Εξαγωγή σύνοψης περιθωρίου",
+            "hollandZorgExport": "Εξαγωγή HollandZorg",
+            "freelancersPayout": "Πληρωμή ελεύθερων επαγγελματιών",
+            "resellerMargins": "Περιθώρια μεταπωλητή",
+            "mijnSubsidieExport": "Εξαγωγή MijnSubsidie"
+        },
+        "actions": {
+            "refresh": "Ανανέωση",
+            "selectAll": "Επιλογή όλων",
+            "generate": "Δημιουργία",
+            "selectPeriod": "Επιλογή περιόδου",
+            "clearSelection": "Καθαρισμός επιλογής",
+            "exactDate": "Ακριβής Ημερομηνία",
+            "timePeriod": "Χρονική Περίοδος",
+            "showOldExports": "Προβολή παλιών εξαγωγών"
+        },
+        "payOut": {
+            "static": {
+                "skipNonExportableValidation": "Παράλειψη επικύρωσης εγγράφων που λείπουν",
+                "notExportedEmployeesInfo": "Δεν ήταν δυνατή η εξαγωγή ορισμένων αρνητικών ωρών αυτών των υπαλλήλων:"
+            },
+            "actions": {
+                "historical": "Ιστορικό"
+            }
+        },
+        "employees": {
+            "static": {
+                "createFreshExportInfo": "Όταν είναι ενεργοποιημένη η επιλογή «νέα εξαγωγή», στην εξαγωγή θα συμπεριληφθούν όλοι οι ενεργοί εργαζόμενοι.",
+                "createFreshExport": "Νέα εξαγωγή"
+            }
+        }
+    },
+    "documentStatus": {
+        "static": {
+            "pending": "Εκκρεμούν",
+            "created": "Δημιουργήθηκε",
+            "declined": "Απορρίφθηκαν",
+            "expired": "Έληξαν",
+            "completed": "Ολοκληρώθηκαν"
+        }
+    },
+    "dashboard": {
+        "tabs": {
+            "creditApplications": "Εφαρμογές πίστωσης",
+            "newEmployees": "Νέοι υπάλληλοι",
+            "newEmploymentAgencies": "Νέα γραφεία ανεύρεσης εργασίας",
+            "newHirers": "Νέοι εργοδότες",
+            "newFreelancers": "Νέοι ελεύθεροι επαγγελματίες"
+        },
+        "charts": {
+            "workedHours": "Ώρες εργασίας",
+            "revenue": "Έσοδα",
+            "employees": "Υπάλληλοι",
+            "hirers": "Εργοδότες",
+            "employmentAgencies": "Γραφεία ανεύρεσης εργασίας",
+            "freelancers": "Ελεύθεροι επαγγελματίες",
+            "payroll": "Μισθοδοσία",
+            "temporary": "Προσωρινός",
+            "overtime": "Υπερωρία",
+            "surchargeHours": "Ώρες προσαύξησης",
+            "margin": "Περιθώριο",
+            "freelancerCosts": "Κόστος ελεύθερου επαγγελματία"
+        },
+        "static": {
+            "yourReservations": "Οι κρατήσεις σας",
+            "functions": "Λειτουργίες",
+            "messageBox": "Παράθυρο μηνυμάτων",
+            "hirersWithoutCao": "Εργοδότες χωρίς CAO",
+            "recentPayslips": "Πρόσφατες αποδείξεις μισθοδοσίας",
+            "recentInvoices": "Πρόσφατα τιμολόγια",
+            "unsignedContracts": "Μη υπογεγραμμένα συμβόλαια",
+            "annualStatements": "Ετήσιες δηλώσεις",
+            "notifications": "Ειδοποιήσεις",
+            "statistics": "Στατιστικά",
+            "newRegistrations": "Νέες εγγραφές",
+            "charts": "Διαγράμματα"
+        },
+        "titles": {
+            "employmentAgencies": "Ενεργά γραφεία ανεύρεσης εργασίας",
+            "hirers": "Ενεργοί εργοδότες",
+            "freelancers": "Ενεργοί ελεύθεροι επαγγελματίες",
+            "employees": "Ενεργοί υπάλληλοι",
+            "marginExcludingVat": "Περιθώριο (χωρίς ΦΠΑ)",
+            "costExcludingVat": "Κόστος {year} (χωρίς ΦΠΑ)",
+            "resellers": "Μεταπωλητές"
+        },
+        "functions": {
+            "invoices": "Τιμολόγια",
+            "documents": "Έγγραφα",
+            "timeRegistration": "Καταχώρηση χρόνου",
+            "imports": "Εισαγωγές",
+            "exports": "Εξαγωγές",
+            "payslipsAndAnnualStatements": "Αποδείξεις μισθοδοσίας / ετήσιες δηλώσεις"
+        },
+        "messageBox": {
+            "payOut": "Πληρωμή ({frequency})",
+            "birthdays": "Γενέθλια",
+            "shouldSignDocuments": "Έγγραφα που πρέπει να υπογραφούν",
+            "lockablePeriods": "Περίοδοι που κλειδώνουν",
+            "missingDocuments": "Έγγραφα που λείπουν",
+            "expiredContracts": "Συμβόλαια που έχουν λήξει",
+            "expiringContracts": "Συμβόλαια που λήγουν",
+            "renewableContracts": "Συμβόλαια που θα ανανεωθούν"
+        }
+    },
+    "documents": {
+        "editor": {
+            "date": "Ημερομηνία",
+            "employee": "Υπάλληλος",
+            "employmentAgency": "Γραφείο ανεύρεσης εργασίας",
+            "hirer": "Εργοδότης",
+            "variables": "Μεταβλητές",
+            "freelancer": "Ελεύθερος επαγγελματίας",
+            "factoringCompany": "Εταιρεία factoring",
+            "employment": "Εργασία",
+            "employeeContract": "Συμβόλαιο",
+            "enterprise": "Επιχείρηση",
+            "freelancerJob": "Δουλειά ελεύθερου επαγγελματία"
+        },
+        "static": {
+            "category": "Κατηγορία",
+            "description": "Περιγραφή",
+            "fieldOptions": "Επιλογές πεδίου",
+            "fieldType": "Τύπος πεδίου",
+            "info": "Πληροφορίες",
+            "layout": "Διάταξη",
+            "name": "Όνομα",
+            "slug": "Slug",
+            "shouldSign": "Πρέπει να υπογράφει",
+            "canView": "Μπορεί να προβάλει",
+            "previewValue": "Αξία προεπισκόπησης",
+            "template": "Πρότυπο",
+            "newDocumentTemplate": "Νέο πρότυπο εγγράφου",
+            "templateSaved": "Το πρότυπο έχει αποθηκευτεί",
+            "templateDeleted": "Το πρότυπο έχει διαγραφεί",
+            "variable": "Μεταβλητή",
+            "variableDeleted": "Η μεταβλητή έχει διαγραφεί",
+            "variables": "Μεταβλητές",
+            "variableSaved": "Η μεταβλητή έχει αποθηκευτεί",
+            "documentPreview": "Προεπισκόπηση εγγράφου",
+            "documentName": "Όνομα εγγράφου",
+            "signedAt": "Υπογράφηκε στις",
+            "declinedAt": "Απορρίφθηκε στις",
+            "subjects": "Θέματα",
+            "subjectType": "Τύπος θέματος",
+            "isOwner": "Είναι ιδιοκτήτης",
+            "status": "Κατάσταση",
+            "generateDocument": "Δημιουργία εγγράφου",
+            "testData": "Δεδομένα τεστ",
+            "editDocument": "Επεξεργασία εγγράφου",
+            "archiveDocumentConfirmationText": "Αυτό θα αρχειοθετήσει το έγγραφο.",
+            "created": "Δημιουργήθηκε",
+            "originalFile": "Αρχικό αρχείο",
+            "signedFile": "Υπογεγραμμένο αρχείο",
+            "auditReport": "Έκθεση ελέγχου",
+            "signRequests": "Αιτήματα υπογραφής",
+            "signRequestSentAt": "Το αίτημα υπογραφής στάλθηκε στις",
+            "fillableBySubject": "Συμπληρώνεται ανά θέμα",
+            "position": "Θέση",
+            "signDocument": "Υπογραφή εγγράφου",
+            "uploadFile": "Μεταφόρτωση αρχείου",
+            "sendAfterCompletion": "Αποστολή μετά την ολοκλήρωση",
+            "logoSubject": "Θέμα λογότυπου",
+            "associateLogoSubject": "Θέμα λογότυπου συνεργάτη",
+            "subject": "Θέμα",
+            "uploadDocument": "Μεταφόρτωση εγγράφου",
+            "document": "Έγγραφο",
+            "linkDeductionsInfo": "Αυτό θα επιβεβαιώσει ότι δεν δημιουργούνται φόρμες αφαίρεσης όταν εισάγετε αυτά στην καταχώρηση χρόνου.",
+            "linkDeductions": "Σύνδεση μειώσεων",
+            "hideDocumentConfirmationText": "Είστε σίγουροι ότι θέλετε να αποκρύψετε αυτή την εργασία; Δεν θα εμφανιστεί ξανά.",
+            "signRequestsSent": "Έχουν αποσταλεί τα αιτήματα υπογραφής",
+            "isVisibleOn": "Είναι ορατό σε",
+            "creatableByRoles": "Δημιουργείται ανά ρόλους",
+            "fallbackValue": "Εναλλακτική αξία"
+        },
+        "tabs": {
+            "info": "Πληροφορίες",
+            "template": "Πρότυπο",
+            "variables": "Μεταβλητές",
+            "subjects": "Θέματα"
+        },
+        "steps": {
+            "selectTemplate": "Επιλογή προτύπου",
+            "selectData": "Επιλογή δεδομένων",
+            "review": "Έλεγχος",
+            "subjects": "Θέματα",
+            "variables": "Μεταβλητές"
+        },
+        "actions": {
+            "showPreview": "Προβολή προεπισκόπησης",
+            "editor": "Υπεύθυνος επεξεργασίας",
+            "pdf": "PDF",
+            "download": "Λήψη",
+            "generateDocument": "Δημιουργία εγγράφου",
+            "upload": "Μεταφόρτωση",
+            "addSubject": "Προσθήκη θέματος",
+            "create": "Δημιουργία",
+            "createFromTemplate": "Δημιουργία από πρότυπο",
+            "options": "Επιλογές"
+        }
+    },
+    "documentTemplates": {
+        "static": {
+            "default": "Προεπιλογή",
+            "noTranslations": "Χωρίς μεταφράσεις",
+            "deleteConfirmationText": "Θέλετε σίγουρα να διαγράψετε αυτό το πρότυπο εγγράφου;",
+            "deleteVariableConfirmationText": "Θέλετε σίγουρα να διαγράψετε αυτή τη μεταβλητή εγγράφου;",
+            "deleteSharedDocumentTemplate": "Θέλετε σίγουρα να σταματήσετε να χρησιμοποιείτε αυτό το πρότυπο εγγράφου;",
+            "kiwaDeclarationOfEmployment": "Δήλωση Απασχόλησης της Kiwa"
+        },
+        "actions": {
+            "copyToCurrentEnterprise": "Αντιγραφή στην τρέχουσα επιχείρηση",
+            "addSharedDocumentTemplate": "Προσθήκη κοινόχρηστου προτύπου εγγράφου"
+        }
+    },
+    "emails": {
+        "editor": {
+            "invitationLink": "Σύνδεσμος πρόσκλησης"
+        }
+    },
+    "language": {
+        "actions": {
+            "select": "Επιλογή"
+        },
+        "static": {
+            "default": "Προεπιλογή"
+        }
+    },
+    "validation": {
+        "errors": {
+            "checkForm": "Παρακαλούμε ελέγξτε το έντυπο για σφάλματα",
+            "addressInvalid": "Δεν μπορέσαμε να βρούμε αυτή τη διεύθυνση.",
+            "alternativeAddress": "Δεν μπορέσαμε να βρούμε αυτή τη διεύθυνση, εννοούσατε {address};"
+        },
+        "static": {
+            "required": "Αυτό το πεδίο είναι απαραίτητο",
+            "unableToDeleteItem": "Αδυναμία διαγραφής αντικειμένου"
+        }
+    },
+    "hourType": {
+        "static": {
+            "name": "Όνομα",
+            "value": "Αξία",
+            "unit": "Μονάδα",
+            "employeesWithoutAccess": "Υπάλληλοι χωρίς πρόσβαση",
+            "employeesWithAccess": "Υπάλληλοι με πρόσβαση",
+            "hourType": "Τύπος ώρας",
+            "hint": "Υπόδειξη",
+            "frequency": "Συχνότητα",
+            "timeForTime": "Χρόνος για χρόνο",
+            "none": "Κανένας",
+            "saved": "Αποθηκεύτηκε",
+            "default": "Προκαθορισμένες ώρες",
+            "deleted": "Διαγράφηκε",
+            "timeForTimeDisabled": "Ο Χρόνος για Χρόνο απενεργοποιήθηκε",
+            "timeForTimeEnabled": "Ο Χρόνος για Χρόνο ενεργοποιήθηκε",
+            "employeeHasHourTypeOverrides": "Ο υπάλληλος έχει υπερβάσεις τύπου ωρών",
+            "caoSurcharges": "Προσαυξήσεις CAO",
+            "type": "Τύπος",
+            "defaultForNewEmployeeUpdated": "Οι προεπιλεγμένοι τύποι ώρας για νέο υπάλληλο ενημερώθηκαν",
+            "defaultForNewEmployee": "Προεπιλογή για νέο υπάλληλο",
+            "desiredNetSalary": "Επιθυμητός καθαρός μισθός",
+            "difference": "Διαφορά",
+            "actualNetSalary": "Πραγματικός καθαρός μισθός",
+            "useDesiredNetSalary": "Χρήση επιθυμητού καθαρού μισθού",
+            "hourTypes": "Τύποι ωρών",
+            "chargeTo": "Χρέωση σε"
+        },
+        "actions": {
+            "enableTimeForTimeForAll": "Ενεργοποίηση χρόνου για χρόνο για όλους",
+            "takeAccessFromAll": "Αφαίρεση πρόσβασης από όλους",
+            "grantAccessToAll": "Παραχώρηση πρόσβασης σε όλους",
+            "disableTimeForTimeForAll": "Απενεργοποίηση χρόνου για χρόνο για όλους"
+        }
+    },
+    "stippPlanType": {
+        "static": {
+            "plus": "Πρόσθετο",
+            "basic": "Βασικό"
+        }
+    },
+    "reservation": {
+        "static": {
+            "holidayPay": "Πληρωμή αργιών",
+            "timeForTime": "Χρόνος για χρόνο",
+            "holidayHoursLegal": "Νόμιμες ώρες διακοπών",
+            "workTimeReductionHours": "Ώρες μείωσης ωραρίου εργασίας",
+            "seniorDays": "Ημέρες παλαιότερων",
+            "holidayHoursExtraLegal": "Έξτρα νόμιμες ώρες διακοπών",
+            "shortAbsence": "Σύντομη απουσία",
+            "time": "Χρόνος",
+            "money": "Χρήματα",
+            "reservation": "Κράτηση",
+            "updatedAt": "Ενημερώθηκε στις",
+            "amount": "Ποσό",
+            "holidayHours": "Ώρες αργιών",
+            "holidays": "Αργίες"
+        }
+    },
+    "hourTypes": {
+        "actions": {
+            "edit": "Επεξεργασία"
+        }
+    },
+    "enterprises": {
+        "static": {
+            "enterprise": "Επιχείρηση",
+            "details": "Στοιχεία",
+            "deleteStandardDocumentConfirmationText": "Θέλετε σίγουρα να διαγράψετε αυτό το τυπικό έγγραφο;",
+            "noFileUploaded": "Δεν έχει μεταφορτωθεί ακόμα αρχείο.",
+            "uploadNewFile": "Μεταφόρτωση νέου αρχείου",
+            "standardDocuments": "Τυπικά έγγραφα",
+            "standardDocumentUpdateSuccess": "Το τυπικό έγγραφο ενημερώθηκε επιτυχώς.",
+            "shouldNotifyCustomers": "Πρέπει να ειδοποιηθούν οι πελάτες",
+            "payOutEnterpriseInfo": "Η επιχείρηση πληρωμής μπορεί να παρακαμφθεί επιλέγοντας μια επιχείρηση πληρωμής για τον εργαζόμενο ή τον εργοδότη.",
+            "canHaveJobsInfo": "Εάν αυτή η επιλογή είναι απενεργοποιημένη, δεν μπορούν να δημιουργηθούν θέσεις εργασίας ή θέσεις εργασίας ελεύθερου επαγγελματία για εργοδότες που συνδέονται με αυτή την επιχείρηση.",
+            "canBeInvoicedInfo": "Εάν αυτή η επιλογή είναι ενεργοποιημένη, αυτή η επιχείρηση θα είναι διαθέσιμη κατά τη δημιουργία ενός νέου εργοδότη ως γραφείο εύρεσης εργασίας."
+        }
+    },
+    "documentType": {
+        "static": {
+            "pdf": "PDF",
+            "template": "Πρότυπο",
+            "view": "Προβολή",
+            "upload": "Μεταφόρτωση"
+        }
+    },
+    "employment": {
+        "messages": {
+            "wizardPreviousEmploymentExplanation": "Η προηγούμενη εργασία χρησιμοποιείται ως βάση για αυτή την νέα εργασία."
+        },
+        "actions": {
+            "addFunction": "Προσθήκη λειτουργίας",
+            "createNext": "Δημιουργία επόμενου",
+            "goToEmployment": "Μετάβαση στην εργασία"
+        },
+        "static": {
+            "factor": "Παράγοντας",
+            "grossSalary": "Μικτός μισθός",
+            "payOutPreferences": "Προτιμήσεις πληρωμής",
+            "startDate": "Ημερομηνία έναρξης",
+            "endDate": "Ημερομηνία λήξης",
+            "function": "Λειτουργία",
+            "scale": "Κλίμακα",
+            "salesRate": "Τιμή πωλήσεων",
+            "includeExtraDays": "Συμπερίληψη επιπλέον ημερών στον μισθό",
+            "deleteConfirmationText": "Θέλετε σίγουρα να διαγράψετε αυτή τη δουλειά;",
+            "deleteSuccess": "Η δουλειά έχει διαγραφεί.",
+            "deleteFailed": "Αποτυχία διαγραφής δουλειάς.",
+            "workdaysAndTimes": "Ημέρες εργασίας και ώρες",
+            "emptyFunctionSalesRateConfirmationText": "Όλες οι λειτουργίες έχουν άδεια αξία πωλήσεων.",
+            "missingRequiredAttributesConfirmText": "Η εργασία δεν μπορεί να υποβληθεί ακόμα για έγκριση γιατί ορισμένα απαραίτητα πεδία δεν έχουν συμπληρωθεί.",
+            "submitForApprovalConfirmText": "Η εργασία θα υποβληθεί για έγκριση."
+        }
+    },
+    "company": {
+        "static": {
+            "documentEmail": "Email εγγράφου",
+            "documentEmailCc": "CC Εγγράφου",
+            "notificationEmailCc": "CC Ειδοποίησης",
+            "reminderEmail": "Email υπενθύμισης",
+            "reminderEmailCc": "CC υπενθύμισης",
+            "notificationEmail": "Email ειδοποίησης",
+            "copies": "Αντίγραφα",
+            "synchronizeInfo": "Οι επιλεγμένες αξίες θα συγχρονιστούν με την επιλεγμένη εταιρεία.",
+            "copyInfo": "Ένα νέο αντίγραφο θα δημιουργηθεί και θα συνδεθεί με την επιλεγμένη επιχείρηση. Μόνο ένα αντίγραφο μπορεί να δημιουργηθεί για κάθε επιχείρηση. Οι αλλαγές που πραγματοποιούνται στο πρωτότυπο μπορούν να συγχρονιστούν με το αντίγραφο.",
+            "freelancerMargins": "Περιθώρια ελεύθερου επαγγελματία",
+            "copiesAreIdentical": "Τα αντίγραφα είναι πανομοιότυπα.",
+            "synchronizationSuccessful": "Τα αντίγραφα συγχρονίστηκαν επιτυχώς.",
+            "original": "Πρωτότυπο",
+            "email": "Email εταιρείας",
+            "pensionPlanFactors": "Παράγοντες συνταξιοδοτικού προγράμματος",
+            "phone": "Τηλέφωνο εταιρείας",
+            "website": "Ιστοσελίδα εταιρείας",
+            "legalFormSlug": "Νομικό έντυπο",
+            "typeSlug": "Τύπος εταιρείας"
+        },
+        "actions": {
+            "synchronize": "Συγχρονισμός",
+            "makeCopy": "Δημιουργία αντιγράφου",
+            "newCopy": "Νέο αντίγραφο"
+        }
+    },
+    "export": {
+        "actions": {
+            "toSepaAndMarkAsPaid": "Προς SEPA & σήμανση ως πληρωμένο",
+            "generate": "Δημιουργία"
+        },
+        "static": {
+            "skipValidation": "Παράλειψη επικύρωσης"
+        }
+    },
+    "imports": {
+        "static": {
+            "completed": "Ολοκληρώθηκαν",
+            "payslips": "Αποδεικτικά μισθοδοσίας",
+            "imports": "Εισαγωγές",
+            "payslipsImport": "Εισαγωγή αποδεικτικών μισθοδοσίας",
+            "notStarted": "Δεν έχει ξεκινήσει",
+            "queued": "Σε αναμονή",
+            "running": "Σε λειτουργία",
+            "cancelled": "Ακυρώθηκαν",
+            "upload": "Μεταφόρτωση",
+            "log": "Αρχείο καταγραφής",
+            "importedAt": "Έγινε εισαγωγή στις",
+            "bankImport": "Εισαγωγή τράπεζας",
+            "payslipsPayments": "Πληρωμές αποδεικτικών μισθοδοσίας",
+            "employee": "Υπάλληλος",
+            "total": "Σύνολο",
+            "iban": "IBAN",
+            "payments": "Πληρωμές",
+            "failed": "Απέτυχε",
+            "payslipsImported": "Έγινε εισαγωγή των αποδεικτικών πληρωμής",
+            "imported": "Έγινε εισαγωγή",
+            "reservations": "Κρατήσεις",
+            "reservationsImport": "Εισαγωγή κρατήσεων",
+            "reservationsImported": "Εισηγμένες κρατήσεις",
+            "outstandingDesiredSalaryCompensationsCreated": "Οι αποζημιώσεις δημιουργήθηκαν.",
+            "annualStatements": "Ετήσιες δηλώσεις",
+            "sendAfterCompletion": "Αποστολή μετά την ολοκλήρωση",
+            "timeRegistration": "Καταχώρηση ώρας",
+            "desiredSalaryCheck": "Έλεγχος επιθυμητού μισθού",
+            "payslipPaymentsCreateCompensations": "Δημιουργία αποζημιώσεων",
+            "outstandingDesiredSalaryCheck": "Κάποιες πληρωμές δεν ταιριάζουν με τον επιθυμητό μισθό:",
+            "annualStatementsImported": "Έγινε εισαγωγή των ετήσιων δηλώσεων",
+            "annualStatementsImport": "Εισαγωγή ετήσιων δηλώσεων",
+            "dispatched": "Έγινε αποστολή",
+            "payslipsPaymentsPeriodText": "Εάν επιλεχθεί μία περίοδος και/ή διόρθωση, όλες οι πληρωμές στο PDF θα εισαχθούν σε αυτή την περίοδο. Εάν δεν επιλεχθεί καμία περίοδος, θα χρησιμοποιηθεί ο αριθμός περιόδου στο PDF.",
+            "entity": "Οντότητα"
+        },
+        "pages": {
+            "bankImport": "Εισαγωγή τράπεζας",
+            "payslips": "Αποδεικτικά μισθοδοσίας",
+            "payments": "Πληρωμές",
+            "reservations": "Κρατήσεις",
+            "annualStatements": "Ετήσιες δηλώσεις"
+        },
+        "actions": {
+            "upload": "Μεταφόρτωση",
+            "refresh": "Ανανέωση"
+        }
+    },
+    "freelancerJob": {
+        "static": {
+            "endDate": "Ημερομηνία λήξης",
+            "deleteHourTypeConfirmationText": "Είστε βέβαιοι πως επιθυμείτε να διαγράψετε αυτόν τον τύπο ώρας;",
+            "activities": "Δραστηριότητες",
+            "startDate": "Ημερομηνία έναρξης",
+            "margin": "Περιθώριο",
+            "hourType": "Τύπος ώρας",
+            "hourlyRate": "Ωρομίσθιο",
+            "salesRate": "Τιμή πωλήσεων",
+            "compensation": "Αποζημίωση",
+            "name": "Όνομα",
+            "travelType": "Τύπος ταξιδιού",
+            "rate": "Αξιολόγηση",
+            "deleteConfirmationText": "Θέλετε σίγουρα να διαγράψετε αυτή την εργασία;",
+            "deleteFailed": "Αποτυχία διαγραφής εργασίας.",
+            "deleteSuccess": "Αυτή η εργασία έχει διαγραφεί.",
+            "notMinimumHourTypeMarginConfirmationText": "Κάποια περιθώρια είναι μικρότερα από το υπολογισμένο περιθώριο.",
+            "missingRequiredAttributesConfirmText": "Η εργασία δεν μπορεί να υποβληθεί ακόμα για έγκριση γιατί ορισμένα απαραίτητα πεδία δεν έχουν συμπληρωθεί.",
+            "hourTypeMarginInfo": "Συμπληρώνοντας αυτή την τιμή, ο πίνακας τιμών θα αγνοηθεί.",
+            "submitForApprovalConfirmText": "Η εργασία θα υποβληθεί για έγκριση.",
+            "deviatingMargin": "Αποκλίνον περιθώριο"
+        },
+        "actions": {
+            "addTravelType": "Προσθήκη τύπου ταξιδιού",
+            "addCompensation": "Προσθήκη αποζημίωσης",
+            "addHourType": "Προσθήκη τύπου ώρας"
+        }
+    },
+    "user": {
+        "actions": {
+            "sendResetPasswordLink": "Αποστολή συνδέσμου επαναφοράς κωδικού πρόσβασης"
+        },
+        "static": {
+            "notActivated": "Ο χρήστης δεν είναι ενεργοποιημένος.",
+            "deactivated": "Απενεργοποιήθηκε"
+        }
+    },
+    "document": {
+        "static": {
+            "log": "Αρχείο καταγραφής",
+            "selectSubjects": "Επιλογή θεμάτων",
+            "selectSubjectsForSignRequestsText": "Επιλέξτε όλα τα άτομα στα οποία επιθυμείτε να στείλετε αίτημα υπογραφής.",
+            "selectSubjectsForSignedFileText": "Επιλέξτε όλα τα άτομα στα οποία επιθυμείτε να αποστείλετε το υπογεγραμμένο αρχείο.",
+            "sendSignRequestsConfirmationText": "Τα παρακάτω άτομα θα λάβουν αίτημα υπογραφής.",
+            "selectSubjectsForCompletedFileText": "Επιλέξτε όλα τα άτομα στα οποία επιθυμείτε να στείλετε το ολοκληρωμένο αρχείο.",
+            "generatorSubjectShouldSignExplanation": "Τα παρακάτω άτομα θα λάβουν αίτημα υπογραφής.",
+            "generatorSubjectSendAfterCompletionExplanation": "Τα παρακάτω άτομα θα λάβουν το έγγραφο όταν ολοκληρωθεί.",
+            "subjectSaved": "Το θέμα έχει αποθηκευτεί.",
+            "subjectDeleted": "Το θέμα έχει διαγραφεί."
+        }
+    },
+    "log": {
+        "static": {
+            "description": "Περιγραφή",
+            "date": "Ημερομηνία",
+            "new": "Νέο",
+            "properties": "Ιδιότητες",
+            "system": "Σύστημα",
+            "subject": "Θέμα",
+            "old": "Παλιό",
+            "id": "Id",
+            "causer": "Υπαίτιος"
+        }
+    },
+    "freelancer": {
+        "static": {
+            "job": "Δουλειά",
+            "jobs": "Δουλειές",
+            "jobCreationSuccess": "Η δουλειά έχει δημιουργηθεί",
+            "deleteConfirmationText": "Θέλετε σίγουρα να διαγράψετε αυτόν τον ελεύθερο επαγγελματία;",
+            "deleteSuccess": "Ο ελεύθερος επαγγελματίας έχει διαγραφεί.",
+            "deleteFailed": "Αποτυχία διαγραφής ελεύθερου επαγγελματία.",
+            "linkedThroughJob": "Συνδέθηκε μέσω εργασίας",
+            "inviteNewInfoText": "Θα σταλεί πρόσκληση για νέο ελεύθερο επαγγελματία.",
+            "inviteExistingInfoText": "Θα σταλεί πρόσκληση σε ελεύθερο επαγγελματία {name}.",
+            "submittedForApproval": "Ο ελεύθερος επαγγελματίας έχει υποβληθεί για έγκριση",
+            "missingRequiredAttributesConfirmText": "Ο ελεύθερος επαγγελματίας δεν μπορεί να υποβληθεί ακόμα για έγκριση γιατί ορισμένα απαραίτητα πεδία δεν έχουν συμπληρωθεί.",
+            "submitForApprovalConfirmText": "Ο ελεύθερος επαγγελματίας θα υποβληθεί για έγκριση.",
+            "activeOnly": "Μόνο ενεργοί",
+            "archiveConfirmationText": "Θέλετε σίγουρα να αρχειοθετήσετε αυτόν τον ελεύθερο επαγγελματία;",
+            "unarchiveConfirmationText": "Θέλετε σίγουρα να καταργήσετε την αρχειοθέτηση αυτού του ελεύθερου επαγγελματία;",
+            "archivedText": "Αυτός ο ελεύθερος επαγγελματίας έχει αρχειοθετηθεί."
+        }
+    },
+    "employee": {
+        "static": {
+            "employments": "Εργασίες",
+            "employment": "Εργασία",
+            "wageAttachmentCreationSuccess": "Το συνημμένο μισθού έχει δημιουργηθεί.",
+            "contractDeleteFailed": "Η διαγραφή του συμβολαίου απέτυχε.",
+            "deleteContractConfirmationText": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το συμβόλαιο;",
+            "wageAttachment": "Συνημμένο μισθού",
+            "contracts": "Συμβόλαια",
+            "contractDeleteSuccess": "Το συμβόλαιο έχει διαγραφεί.",
+            "contractCreateSuccess": "Το συμβόλαιο έχει δημιουργηθεί.",
+            "contractUpdateSuccess": "Το συμβόλαιο έχει ενημερωθεί.",
+            "createContract": "Δημιουργία συμβολαίου",
+            "contract": "Συμβόλαιο",
+            "functions": "Λειτουργίες",
+            "wageAttachmentUpdateSuccess": "Το συνημμένο μισθού έχει ενημερωθεί.",
+            "wageAttachmentDeleteSuccess": "Το συνημμένο μισθού έχει διαγραφεί.",
+            "wageAttachments": "Συνημμένα αρχεία μισθού",
+            "noRecentPayslips": "Δεν βρέθηκαν πρόσφατες αποδείξεις μισθοδοσίας.",
+            "deleteFailed": "Αποτυχία διαγραφής υπαλλήλου.",
+            "archiveConfirmationText": "Θέλετε σίγουρα να αρχειοθετήσετε αυτόν τον υπάλληλο;",
+            "unarchiveConfirmationText": "Θέλετε σίγουρα να αναιρέσετε την αρχειοθέτηση αυτού του υπαλλήλου;",
+            "annualStatements": "Ετήσιες δηλώσεις",
+            "annualStatement": "Ετήσια δήλωση",
+            "deleteConfirmationText": "Θέλετε σίγουρα να διαγράψετε αυτόν τον υπάλληλο;",
+            "deleteSuccess": "Ο υπάλληλος έχει διαγραφεί.",
+            "archivedText": "Αυτός ο υπάλληλος έχει αρχειοθετηθεί.",
+            "payslips": "Αποδεικτικά μισθοδοσίας",
+            "noAnnualStatements": "Καμία ετήσια δήλωση.",
+            "pensionPlan": "Συνταξιοδοτικό πλάνο",
+            "canNotDeleteEmployeeText": "Ο υπάλληλος δεν μπορεί να διαγραφεί εξαιτίας των καταχωρήσεων χρόνου που υπάρχουν.",
+            "wizardSkipContractConfirmationText": "Είστε βέβαιοι πως δεν θέλετε να δημιουργήσετε ένα συμβόλαιο; Δεν μπορείτε να δημιουργήσετε μία θέση εργασίας χωρίς συμβόλαιο.",
+            "canNotDeleteEmploymentText": "Η θέση εργασίας δεν μπορεί να διαγραφεί εξαιτίας των χρονικών περιορισμών που υπάρχουν.",
+            "contractRequiredForEmploymentInfoText": "Προσοχή. Η δημιουργία ενός συμβολαίου είναι προαιρετική εάν δεν έχετε εργοδότη/θέση εργασίας. Δεν μπορείτε να δημιουργήσετε θέση εργασίας χωρίς συμβόλαιο.",
+            "markedAsNew": "Σήμανση ως νέο",
+            "markedAsChanged": "Σήμανση ως αλλαγμένο",
+            "deleteValidationFailed": "Δεν μπόρεσε να ελεγχθεί εάν ο υπάλληλος μπορεί να διαγραφεί.",
+            "inviteExistingInfoText": "Θα σταλεί πρόσκληση στον υπάλληλο {name}.",
+            "inviteNewInfoText": "Θα σταλεί πρόσκληση για έναν νέο υπάλληλο.",
+            "activeContract": "Ενεργό συμβόλαιο",
+            "wizardSkipEmploymentConfirmationText": "Είστε βέβαιοι πως δεν θέλετε να δημιουργήσετε μία θέση εργασίας;",
+            "healthInsurances": "Ασφάλειες υγείας",
+            "submitForApprovalConfirmText": "Ο υπάλληλος θα υποβληθεί για έγκριση.",
+            "missingRequiredAttributesConfirmText": "Ο υπάλληλος δεν μπορεί να υποβληθεί ακόμα για έγκριση επειδή ορισμένα απαραίτητα στοιχεία δεν έχουν συμπληρωθεί.",
+            "submittedForApproval": "Ο υπάλληλος έχει υποβληθεί για έγκριση.",
+            "markToBeRenewedConfirmationText": "Η σύμβαση θα σημειωθεί για ανανέωση κατά τη λήξη της σύμβασης.",
+            "markNotToBeRenewedConfirmationText": "Η σύμβαση δεν θα σημειωθεί για ανανέωση και θα αφαιρεθεί από τα μηνύματα. Ο εργαζόμενος θα λάβει ένα μήνυμα ηλεκτρονικού ταχυδρομείου με επιβεβαίωση ότι η σύμβαση δεν θα ανανεωθεί μετά τη λήξη της.",
+            "contractMarkedToBeRenewed": "Η σύμβαση έχει επισημανθεί προς ανανέωση",
+            "contractMarkedNotToBeRenewed": "Η σύμβαση έχει χαρακτηριστεί ως μη ανανεώσιμη",
+            "contractCreateWithDocumentInfo": "Θα δημιουργηθεί μια νέα σύμβαση μαζί με το αντίστοιχο έγγραφο. Μια αίτηση υπογραφής για το έγγραφο θα αποσταλεί 1 ώρα μετά τη δημιουργία. Η ημερομηνία λήξης της τρέχουσας σύμβασης θα οριστεί μία ημέρα πριν από την ημερομηνία έναρξης της νέας σύμβασης.",
+            "subsidyCreateSuccess": "Η επιδότηση έχει δημιουργηθεί.",
+            "subsidyDeleteSuccess": "Η επιδότηση έχει διαγραφεί.",
+            "accountNotActivatedInfo": "Ο λογαριασμός δεν έχει ενεργοποιηθεί (ακόμη). Κάντε κλικ στο κουμπί πρόσκλησης για να στείλετε έναν σύνδεσμο ενεργοποίησης στον εργαζόμενο."
+        },
+        "actions": {
+            "newContract": "Νέο συμβόλαιο",
+            "createContract": "Δημιουργία συμβολαίου",
+            "deleteContract": "Διαγραφή συμβολαίου",
+            "createEmployment": "Δημιουργία θέσης εργασίας",
+            "markAsNew": "Σήμανση ως νέο",
+            "markAsChanged": "Σήμανση ως αλλαγμένο",
+            "deleteSubsidyConfirmationText": "Θέλετε σίγουρα να διαγράψετε την επιδότηση;"
+        },
+        "outOfService": "Εκτός λειτουργίας",
+        "messages": {
+            "identityBothSides": "Παρακαλώ μεταφορτώστε το μπροστινό και το πίσω μέρος της ταυτότητας σας."
+        }
+    },
+    "period": {
+        "actions": {
+            "select": "Επιλογή"
+        }
+    },
+    "permission": {
+        "action": {
+            "view": "Προβολή",
+            "create": "Δημιουργία",
+            "update": "Ενημέρωση",
+            "delete": "Διαγραφή"
+        }
+    },
+    "contact": {
+        "static": {
+            "userNotLinkedMessage": "Ο χρήστος δεν είναι ενεργοποιημένος ή δεν συνδέεται με επαφή.",
+            "uploadSuccess": "Το αρχείο έχει μεταφορτωθεί.",
+            "detached": "Η σύμβαση έχει αποσυνδεθεί.",
+            "detachFailed": "Δεν ήταν δυνατή η αποσύνδεση της σύμβασης.",
+            "detachConfirmationText": "Θέλετε σίγουρα να αποσυνδέσετε τη σύμβαση;"
+        }
+    },
+    "legalForm": {
+        "static": {
+            "mutualInsuranceCompanyLimitedLiabilityRegular": "Αλληλασφαλιστική εταιρεία Περιορισμένης Ευθύνης με τυπική δομή",
+            "branchOfficeHeadOfficeAbroad": "Παράρτημα εταιρείας με έδρα στο εξωτερικό",
+            "foreignEcBusinessMainOfficeNetherlands": "Ξένη ΕΕ-επιχείρηση με έδρα στην Ολλανδία",
+            "foreignSimilarEcBusinessMainOfficeNetherlands": "Ξένη εταιρεία παρόμοια με ΕΕ-επιχείρηση με έδρα στην Ολλανδία",
+            "limitedCompanyStartUpBForm": "N.V. (Ανώνυμη εταιρεία) /B.V. (Ιδιωτική κεφαλαιουχική εταιρεία) νεοφυής επιχείρηση με το έντυπο Β",
+            "commercialPartnership": "Ομόρρυθμη εταιρεία",
+            "limitedPartnership": "Ετερόρρυθμη εταιρεία",
+            "legalPersonStartUp": "Νεοφυής επιχείρηση νομικού προσώπου",
+            "cooperative": "Συνεταιρισμός",
+            "soleProprietor": "Μοναδικός ιδιοκτήτης",
+            "soleProprietorMultipleOwners": "Ανεξάρτητη επιχείρηση με περισσότερους από έναν ιδιοκτήτες",
+            "publicPartnership": "Δημόσια σύμπραξη",
+            "shippingCompany": "Ναυτιλιακή Εταιρεία",
+            "privateLimitedCompanyRegular": "Ιδιωτική κεφαλαιουχική εταιρεία με τυπική δομή",
+            "publicLimitedCompany": "Ανώνυμη εταιρεία",
+            "publicLimitedCompanyRegular": "Ανώνυμη εταιρεία με τυπική δομή",
+            "publicLimitedCompanyTwoTier": "Ανώνυμη εταιρεία σύμφωνα με το καταστατικί μίας εταιρείας δύο επιπέδων",
+            "europeanPublicLimitedCompanyRegular": "Ευρωπαϊκή εταιρεία περιορισμένης ευθύνης (SE) με τυπική δομή",
+            "europeanPublicLimitedCompanyRegularTwoTierCooperative": "Ευρωπαϊκή εταιρεία περιορισμένης ευθύνης (SE) σύμφωνα με το καταστατικό Συνεταιρισμού",
+            "cooperativeStructuralCooperative": "Συνεταιρισμός σύμφωνα με το καταστατικό δομικού συνεταιρισμού",
+            "limitedCompanyStartUpAForm": "N.V. (Ανώνυμη εταιρεία) /B.V. (Ιδιωτική κεφαλαιουχική εταιρεία) νεοφυής επιχείρηση με το έντυπο Α",
+            "limitedCompanyStartUpDForm": "N.V. (Ανώνυμη εταιρεία) /B.V. (Ιδιωτική κεφαλαιουχική εταιρεία) νεοφυής επιχείρηση με το έντυπο Δ",
+            "cooperativeLegalLiabilityRegular": "Συνεταιρισμός με Νομική Ευθύνη με τυπική δομή",
+            "cooperativeLimitedLiabilityRegular": "Συνεταιρισμός με Περιορισμένη Ευθύνη με τυπική δομή",
+            "privateLimitedCompany": "Ιδιωτική κεφαλαιουχική εταιρεία",
+            "privateLimitedCompanyTwoTier": "Ιδιωτική κεφαλαιουχική εταιρεία σύμφωνα με το καταστατικό μίας εταιρείας δύο επιπέδων",
+            "publicLimitedCompanyInvestmentVariableCapital": "Ανώνυμη εταιρεία επενδύσεων με μεταβλητό κεφάλαιο",
+            "publicLimitedCompanyInvestmentVariableCapitalTwoTier": "Ανώνυμη εταιρεία επενδύσεων με μεταβλητό κεφάλαιο σύμφωνα με το καταστατικό μίας εταιρείας δύο επιπέδων",
+            "cooperativeLegalLiabilityStructuralCooperative": "Συνεταιρισμός με Νομική Ευθύνη σύμφωνα με το καταστατικό δομικού συνεταιρισμού",
+            "associationLimitedLegalCapacity": "Σύλλογος με περιορισμένη δικαιοπρακτική ικανότητα",
+            "mutualInsuranceCompanyLegalLiabilityRegular": "Αλληλασφαλιστική εταιρεία με Νομική Ευθύνη με τυπική δομή",
+            "religiousDenomination": "Θρήσκευμα",
+            "legalPersonPrivateLaw": "Νομικό πρόσωπο που διέπεται από ιδιωτικό δίκαιο",
+            "cooperativeLimitedLiabilityStructuralCooperative": "Συνεταιρισμός με Περιορισμένη Ευθύνη σύμφωνα με το καταστατικό δομικού συνεταιρισμού",
+            "homeownersAssociation": "Σύλλογος Ιδιοκτητών Κατοικιών",
+            "associationFullLegalCapacity": "Σύλλογος με πλήρη δικαιοπρακτική ικανότητα",
+            "foundation": "Ίδρυμα",
+            "mutualInsuranceCompany": "Αλληλασφαλιστική εταιρεία",
+            "mutualInsuranceCompanyStructuralMutual": "Αλληλασφαλιστική εταιρεία σύμφωνα με το καταστατικό",
+            "mutualInsuranceCompanyLegalLiabilityStructuralMutual": "Αλληλασφαλιστική εταιρεία με Νομική Ευθύνη σύμφωνα με το καταστατικό αλληλασφαλιστικών",
+            "mutualInsuranceCompanyLimitedLiabilityStructuralMutual": "Αλληλασφαλιστική εταιρεία Περιορισμένης Ευθύνης σύμφωνα με το καταστατικό αλληλασφαλιστικών",
+            "legalPersonPublicLaw": "Νομικό πρόσωπο υπό το δημόσιο δίκαιο",
+            "foreignLegalFormHeadOfficeNetherlands": "Αλλοδαπή νομική οντότητα με έδρα στην Ολλανδία",
+            "europeanEconomicInterestGrouping": "Ευρωπαϊκός Όμιλος Οικονομικού Σκοπού",
+            "foreignEcBusinessCompanyNetherlands": "Ξένη ΕΕ-επιχείρηση με εταιρεία στην Ολλανδία",
+            "foreignSimilarEcBusinessCompanyNetherlands": "Ξένη εταιρεία παρόμοια με ΕΕ-επιχείρηση με εταιρεία στην Ολλανδία"
+        }
+    },
+    "etRegulation": {
+        "static": {
+            "amountShouldBeBetween": "Το συνολικό ποσό πρέπει να είναι ανάμεσα σε {min} και {max}.",
+            "calculatedAmount": "Υπολογισμένο ποσό: {amount}",
+            "totalAmount": "Το τρέχον συνολικό ποσό είναι {amount}.",
+            "singleTrip": "Απόσταση μίας διαδρομής: {distance} χιλιόμετρα"
+        },
+        "validation": {
+            "totalNotAllowed": "Η συνολική αξία του κανονισμού ET δεν βρίσκεται ανάμεσα στις επιτρεπόμενες αξίες.",
+            "distanceCalculationFailedText": "Δεν μπορέσαμε να υπολογίσουμε την απόσταση έως τη διεύθυνση κατοικίας. Παρακαλώ ελέγξτε εάν η διεύθυνση είναι σωστή."
+        }
+    },
+    "outOfServiceReason": {
+        "static": {
+            "cancelledByEmployerWithinProbation": "Ακυρώθηκε από τον εργοδότη εντός της δοκιμαστικής περιόδου",
+            "endByLawOtherReason": "Λήξη σύμβασης βάση νόμου για άλλον λόγο",
+            "cancelledByAgreement": "Συμφωνημένη λήξη σύμβασης",
+            "cancelledByEmployee": "Ακυρώθηκε από τον υπάλληλο",
+            "cancelledByEmployer": "Ακυρώθηκε από τον εργοδότη",
+            "otherReason": "Άλλος λόγος",
+            "cancelledByEmployerUwv": "Ακυρώθηκε από τον εργοδότη, εγκρίθηκε από την UWV",
+            "cancelledByJudge": "Ακυρώθηκε από δικαστή",
+            "endOfEmployment": "Λήξη σύμβασης βάση νόμου λόγω της ημερομηνίας λήξης της σύμβασης",
+            "deploymentEndByIllness": "Λήξη απασχόλησης λόγω ασθένειας",
+            "deploymentEndByOtherReason": "Λήξη απασχόλησης για άλλον λόγο",
+            "continuedWithoutIncome": "Συνέχεια χωρίς εισόδημα"
+        }
+    },
+    "cv": {
+        "profile": {
+            "profileSummary": "Συμπληρώστε την περιγραφή του προφίλ σας εδώ (απαιτούνται τουλάχιστον 150 λέξεις).",
+            "profile": "Προφίλ"
+        },
+        "certificate": {
+            "certificates": "Πιστοποιητικά",
+            "description": "Περιγραφή",
+            "addEducation": "Προσθήκη Εκπαίδευσης / Δεξιότητας",
+            "addCertificate": "Προσθήκη πιστοποιητικού"
+        },
+        "education": {
+            "educationsAndQualifications": "Εκπαίδευση και δεξιότητες",
+            "educationsDescription": "Περιγραφή εκπαίδευσης"
+        },
+        "title": "Τίτλος",
+        "from": "Από",
+        "till": "Έως",
+        "interest": {
+            "pickInterests": "Επιλέξτε τα ενδιαφέροντα σας",
+            "interests": "Ενδιαφέροντα"
+        },
+        "language": {
+            "languages": "Γλώσσες",
+            "pickLanguage": "Επιλέξτε τις γλώσσες σας",
+            "rating": "Αξιολόγηση των γλωσσών σας"
+        },
+        "select": "Επιλογή",
+        "reference": {
+            "references": "Συστατικές επιστολές",
+            "fullName": "Ονοματεπώνυμο υπαλλήλου",
+            "company": "Εταιρεία",
+            "telephone": "Τηλέφωνο",
+            "email": "Email",
+            "addReference": "Προσθήκη συστατικής επιστολής"
+        },
+        "skill": {
+            "skills": "Δεξιότητες",
+            "rating": "Αξιολόγηση των δεξιοτήτων σας",
+            "pickSkills": "Επιλέξτε τις δεξιότητες σας"
+        },
+        "work": {
+            "workExperience": "Προϋπηρεσία",
+            "function": "Λειτουργία",
+            "addWorkExperience": "Προσθήκη προϋπηρεσίας",
+            "jobDescription": "Περιγραφή δουλειάς"
+        },
+        "dialog": {
+            "close": "Κλείσιμο",
+            "generateCv": "Δημιουργία βιογραφικού σημειώματος"
+        }
+    },
+    "wageAttachment": {
+        "actions": {
+            "sendInformationRequest": "Αποστολή αιτήματος πληροφοριών",
+            "informationRequest": "Αίτημα πληροφοριών"
+        },
+        "static": {
+            "garnishee": "Οφειλέτης",
+            "garnisheeContact": "Συμβόλαιο οφειλέτη",
+            "garnisheeCity": "Πόλη οφειλέτη",
+            "reference": "Συστατική επιστολή",
+            "paidAmount": "Πληρωτέο ποσό",
+            "paid": "Πληρώθηκε",
+            "taxFreeSum": "Σύνολο χωρίς φόρους",
+            "overallSum": "Συνολικό ποσό",
+            "outstandingAmount": "Εκκρεμές ποσό",
+            "outstanding": "Σε εκκρεμότητα",
+            "informationRequestSent": "Το αίτημα πληροφοριών απεστάλη"
+        }
+    },
+    "job": {
+        "static": {
+            "freelancerJob": "Δουλειά ελεύθερου επαγγελματία",
+            "freelancerJobs": "Δουλειές ελεύθερου επαγγελματία",
+            "employments": "Εργασίες",
+            "employment": "Εργασία"
+        }
+    },
+    "documentTemplate": {
+        "actions": {
+            "saveTranslation": "Αποθήκευση μετάφρασης"
+        },
+        "static": {
+            "leadGenerationAgreement": "Συμφωνητικό πρόκλησης ενδιαφέροντος",
+            "contractPhase4": "Φάση συμβολαίου 4",
+            "jobConfirmation": "Επιβεβαίωση δουλειάς",
+            "antiDiscriminationPolicy": "Πολιτική κατά των διακρίσεων",
+            "contractPayrollFixedTerm": "Σταθερός όρος συμβολαίου μισθοδοσίας",
+            "hireAgreementFreelancers": "Συμφωνητικό πρόσληψης ελεύθερων επαγγελματιών",
+            "jobConfirmationFreelancer": "Επιβεβαίωση εργασίας ελεύθερου επαγγελματία",
+            "deductionsAndAdvances": "Κρατήσεις και προκαταβολές",
+            "contractPhase12": "Φάση συμβολαίου 1/2",
+            "contractPhase3": "Φάση συμβολαίου 3",
+            "termsAndConditions": "Όροι και προϋποθέσεις",
+            "frameworkAgreement": "Πλαίσιο σύμβασης",
+            "hireAgreement": "Συμφωνητικό πρόσληψης",
+            "employmentConfirmation": "Επιβεβαίωση απασχόλησης",
+            "declarationAgreement": "Συμφωνητικό δήλωσης",
+            "employmentTerminationAgreement": "Συμφωνητικό απόλυσης",
+            "staffGuide": "Οδηγός προσωπικού",
+            "guaranteeAgreement": "Συμφωνητικό εγγύησης",
+            "employersDeclaration": "Δήλωση εργοδοτών",
+            "contractPayrollPermanent": "Μόνιμο συμβόλαιο μισθοδοσίας",
+            "mediationAgreement": "Συμφωνητικό μεσολάβησης",
+            "intermediateAgreement": "Συμφωνητικό μεσολαβητή",
+            "healthcareAuthorisationForm": "Έντυπο έγκρισης περίθαλψης",
+            "idStatementForm": "Έντυπο δήλωσης ταυτότητας",
+            "deliveryDeed": "Τίτλος παράδοσης",
+            "wageAttachmentRequest": "Αίτημα συνημμένου μισθού",
+            "collaborationAgreementFreelancer": "Συμφωνητικό συνεργασίας ελεύθερου επαγγελματία",
+            "healthcareAgreement": "Συμφωνητικό ιατροφαρμακευτικής περίθαλψης",
+            "etAddendum": "Συμπλήρωμα ΕΤ",
+            "payrollConfirmation": "Βεβαίωση μισθοδοσίας"
+        }
+    },
+    "employees": {
+        "static": {
+            "activeOnly": "Μόνο ενεργοί",
+            "linkedThroughEmployment": "Συνδέθηκε μέσω θέσης εργασίας"
+        }
+    },
+    "users": {
+        "static": {
+            "sendPasswordResetConfirmationText": "Θα σταλεί ένα email με σύνδεσμο επαναφοράς κωδικού πρόσβασης στο {email}.",
+            "deactivateConfirmationText": "Ο χρήστης θα απενεργοποιηθεί και δεν θα μπορείτε πλέον να συνδεθείτε.",
+            "permissionsSaved": "Τα δικαιώματα έχουν αποθηκευτεί.",
+            "reactivateConfirmationText": "Ο χρήστης θα επανενεργοποιηθεί και θα μπορεί να συνδεθεί ξανά."
+        }
+    },
+    "invitation": {
+        "actions": {
+            "sendInvitation": "Αποστολή πρόσκλησης"
+        },
+        "static": {
+            "inviteSuccess": "Επιτυχής πρόσκληση",
+            "tokenInvalid": "Άκυρο token",
+            "tokenInvalidDescription": "Το token είναι άκυρο."
+        }
+    },
+    "contractType": {
+        "static": {
+            "phase1And2": "Φάση 1/2",
+            "phase3": "Φάση 3",
+            "phase4": "Φάση 4",
+            "payrollFixedTerm": "Μισθοδοσία (ορισμένου χρόνου)",
+            "payrollPermanent": "Μισθοδοσία (μόνιμη)"
+        }
+    },
+    "note": {
+        "actions": {
+            "deleteConfirmationText": "Είστε βέβαιοι πως θέλετε να διαγράψετε αυτήν τη σημείωση;",
+            "delete": "Διαγραφή",
+            "cancel": "Ακύρωση"
+        },
+        "success": {
+            "deleted": "Η σημείωση διαγράφηκε επιτυχώς."
+        }
+    },
+    "riskGroup": {
+        "static": {
+            "administrative": "Διοικητικός",
+            "executive": "Εκτελεστικός"
+        }
+    },
+    "wizard": {
+        "static": {
+            "employeeNotApproved": "Ο υπάλληλος δεν έχει λάβει ακόμα έγκριση.",
+            "employmentAgencyNotApproved": "Το γραφείο ανεύρεσης εργασίας δεν έχει λάβει ακόμα έγκριση.",
+            "hirerNotApproved": "Ο εργοδότης δεν έχει λάβει ακόμα έγκριση.",
+            "freelancerNotApproved": "Ο ελεύθερος επαγγελματίας δεν έχει λάβει ακόμα έγκριση.",
+            "noDocumentsToGenerate": "Δεν υπάρχουν έγγραφα για δημιουργία.",
+            "resellerNotApproved": "Αυτός ο μεταπωλητής δεν έχει εγκριθεί ακόμα."
+        },
+        "actions": {
+            "viewWizard": "Προβολή οδηγού"
+        }
+    },
+    "creditLimit": {
+        "static": {
+            "finalAssessmentWillFollowLater": "Η τελική αξιολόγηση του ορίου πίστωσης θα ακολουθήσει αργότερα."
+        }
+    },
+    "sickReport": {
+        "actions": {
+            "deleteConfirmationText": "Θέλετε σίγουρα να διαγράψετε αυτή τη δήλωση ασθένειας;",
+            "delete": "Διαγραφή",
+            "cancel": "Ακύρωση"
+        },
+        "betterReport": {
+            "actions": {
+                "confirmationTextEmployee": "Θέλετε σίγουρα να δηλώσετε την ανάρρωση αυτού του υπαλλήλου;",
+                "confirm": "Επιβεβαίωση",
+                "cancel": "Ακύρωση",
+                "confirmationText": "Θέλετε σίγουρα να δηλώσετε ανάρρωση;"
+            },
+            "confirmationQuestion": "Είστε βέβαιοι;",
+            "report": "Αναφορά ανάρρωσης",
+            "success": "Η δήλωση ανάρρωσης του υπαλλήλου πραγματοποιήθηκε επιτυχώς."
+        },
+        "reportSick": "Δήλωση ασθένειας",
+        "alreadySick": "Ο υπάλληλος έχει ήδη δηλωθεί ως άρρωστος.",
+        "success": {
+            "deleted": "Η δήλωση ασθένειας διαγράφηκε επιτυχώς."
+        },
+        "filter": {
+            "currentSickOnly": "Μόνο τρέχοντες ασθενείς",
+            "start": "Έναρξη",
+            "end": "Λήξη"
+        }
+    },
+    "outOfService": {
+        "date": "Ημερομηνία",
+        "search": "Αναζήτηση",
+        "process": "Επεξεργασία",
+        "actions": {
+            "delete": "Διαγραφή",
+            "deleteConfirmationText": "Θέλετε σίγουρα να αφαιρέσετε την ειδοποίηση εκτός λειτουργίας;",
+            "process": "Επεξεργασία",
+            "processConfirmationText": "Θέλετε σίγουρα να επεξεργαστείτε την ειδοποίηση εκτός λειτουργίας;",
+            "cancel": "Ακύρωση"
+        },
+        "reason": "Αιτία",
+        "processSuccess": "Η επεξεργασία των ειδοποιήσεων εκτός λειτουργίας ολοκληρώθηκε επιτυχώς.",
+        "onlyOutstanding": "Μόνο εκκρεμείς"
+    },
+    "pensionPlan": {
+        "static": {
+            "basic": "Βασικό Stipp",
+            "plus": "Plus Stipp",
+            "adequate": "Επαρκές",
+            "bpf": "BPF"
+        }
+    },
+    "deductions": {
+        "static": {
+            "amount": "Ποσό",
+            "for": "Για",
+            "files": "Αρχεία",
+            "uploadFile": "Μεταφόρτωση αρχείου",
+            "amountIsLimited": "Το ποσό της έκπτωσης περιορίζεται με βάση τις ώρες αυτής της περιόδου.",
+            "outstandingDeductions": "Εκκρεμείς εκπτώσεις",
+            "recurringDeductions": "Επαναλαμβανόμενες εκπτώσεις",
+            "saved": "Οι εκπτώσεις αποθηκεύτηκαν.",
+            "remainingAmount": "Υπολειπόμενο ποσό",
+            "deductFrom": "Έκπτωση από",
+            "noDeductions": "Χωρίς εκπτώσεις",
+            "unexportedOnly": "Μόνο όσα δεν έχουν εξαχθεί",
+            "remaining": "Υπολείπονται"
+        }
+    },
+    "hirer": {
+        "static": {
+            "archivedText": "Ο εργοδότης έχει αρχειοθετηθεί.",
+            "hirerRemuneration": "Αποδοχές εργοδότη",
+            "deleteSuccess": "Ο εργοδότης έχει διαγραφεί.",
+            "deleteConfirmationText": "Θέλετε σίγουρα να διαγράψετε αυτόν τον εργοδότη;",
+            "saved": "Ο εργοδότης αποθηκεύτηκε",
+            "deleteFailed": "Αποτυχία διαγραφής εργοδότη.",
+            "projectDeleted": "Το έργο έχει διαγραφεί.",
+            "assignment": "Εργασία",
+            "inviteExistingInfoText": "Θα σταλεί πρόσκληση στον εργοδότη {companyName}.",
+            "inviteNewInfoText": "Θα σταλεί πρόσκληση για έναν νέο εργοδότη.",
+            "submittedForApproval": "Ο εργοδότης έχει υποβληθεί για έγκριση.",
+            "notMinimumCompanyFreelancerHourTypeMarginConfirmationText": "Το βασικό περιθώριο τύπου ωρών του ελεύθερου επαγγελματία είναι μικρότερο από την αξία εργασίας.",
+            "missingRequiredAttributesConfirmText": "Ο εργοδότης δεν μπορεί να υποβληθεί ακόμα για έγκριση γιατί μερικά απαραίτητα πεδία δεν έχουν συμπληρωθεί.",
+            "submitForApprovalConfirmText": "Ο εργοδότης θα υποβληθεί για έγκριση.",
+            "notMinimumCompanyFreelancerHourTypeMarginAdditionsConfirmationText": "Κάποιες προσθήκες περιθωρίου είναι μικρότερες από τις αξίες εργασίας."
+        },
+        "form": {
+            "overtime": "Ώρες υπερωρίας",
+            "travelHours": "Ώρες ταξιδιών",
+            "travelCost": "Κόστος ταξιδιού",
+            "otherCompensations": "Άλλες αποζημιώσεις",
+            "remunerationSpecifics": "Λεπτομέρειες",
+            "holidays": "Αργίες",
+            "shiftWork": "Βάρδια εργασίας",
+            "companyOwnedScheme": "Σύστημα που ανήκει στην εταιρεία"
+        }
+    },
+    "employmentAgency": {
+        "static": {
+            "archivedText": "Το γραφείο ανεύρεσης εργασίας αρχειοθετήθηκε.",
+            "deleteFailed": "Αποτυχία διαγραφής του γραφείου ανεύρεσης εργασίας.",
+            "deleteConfirmationText": "Θέλετε σίγουρα να διαγράψετε αυτό το γραφείο ανεύρεσης εργασίας;",
+            "deleteSuccess": "Το γραφείο ανεύρεσης εργασίας έχει διαγραφεί.",
+            "inviteExistingInfoText": "Θα σταλεί πρόσκληση στο γραφείο ανεύρεσης εργασίας {companyName}.",
+            "inviteNewInfoText": "Θα σταλεί πρόσκληση για ένα νέο γραφείο ανεύρεσης εργασίας.",
+            "submitForApprovalConfirmText": "Το γραφείο εύρεσης εργασίας θα υποβληθεί για έγκριση.",
+            "makeResellerConfirmationText": "Θέλετε σίγουρα να δημιουργήσετε έναν μεταπωλητή για το γραφείο εύρεσης εργασίας;",
+            "missingRequiredAttributesConfirmText": "Το γραφείο εύρεσης εργασίας δεν μπορεί να υποβληθεί ακόμα για έγκριση γιατί ορισμένα απαραίτητα πεδία δεν έχουν συμπληρωθεί."
+        }
+    },
+    "filters": {
+        "static": {
+            "archivedOnly": "Μόνο αρχειοθετημένα",
+            "withActiveEmploymentsOnly": "Μόνο με ενεργές θέσεις εργασίας",
+            "selectedEnterpriseOnly": "Μόνο επιλεγμένη επιχείρηση",
+            "readyForApproval": "Έτοιμο για έγκριση",
+            "createdByAdmin": "Δημιουργήθηκε από τον διαχειριστή"
+        }
+    },
+    "import": {
+        "static": {
+            "reservationsImported": "Εισηγμένες κρατήσεις"
+        }
+    },
+    "employeePayslip": {
+        "actions": {
+            "sendNow": "Αποστολή τώρα"
+        },
+        "static": {
+            "sendEmailConfirmationText": "Θέλετε σίγουρα να στείλετε τώρα το αποδεικτικό μισθοδοσίας;",
+            "sendEmailSuccess": "Το αποδεικτικό μισθοδοσίας έχει σταλεί.",
+            "sendEmailFailed": "Δεν ήταν δυνατή η αποστολή του αποδεικτικού μισθοδοσίας."
+        }
+    },
+    "timeRegistrationPeriodStatus": {
+        "static": {
+            "completed": "Ολοκληρώθηκε",
+            "requiresAction": "Απαιτείται ενέργεια",
+            "open": "Άνοιγμα",
+            "locking": "Κλείδωμα",
+            "locked": "Κλειδώθηκε"
+        }
+    },
+    "invoiceGroup": {
+        "static": {
+            "timeRegistration": "Καταχώρηση ώρας",
+            "custom": "Προσαρμοσμένο"
+        }
+    },
+    "error": {
+        "static": {
+            "description": "Παρουσιάστηκε ένα σφάλμα. Προσπαθήστε να ανανεώσετε τη σελίδα ή επιστρέψτε στην προηγούμενη σελίδα.",
+            "serverError": "Σφάλμα Διακομιστή",
+            "pageNotFound": "Η σελίδα δε βρέθηκε",
+            "pageNotFoundDescription": "Δεν μπορέσαμε να βρούμε τη σελίδα που ψάχνατε."
+        },
+        "actions": {
+            "back": "Επιστροφή στην προηγούμενη σελίδα"
+        }
+    },
+    "reservations": {
+        "static": {
+            "deleteReservationText": "Η κράτηση θα διαγραφεί από την καταχώρηση χρόνου.",
+            "paidOut": "Πληρώθηκαν",
+            "canOnlyEditHistoricalBuildupInfo": "Είναι δυνατή η επεξεργασία μόνο ιστορικών τιμών.",
+            "editBuildupInfo": "Όταν αλλάζετε αυτές τις τιμές, η αντίστοιχη καταχώρηση χρόνου θα ενημερώνεται.\nΌταν δημιουργείτε ένα νέο αίτημα ή εάν το αίτημα έχει ήδη πληρωθεί.\n- Η κατάσταση κράτησης θα ενημερώνεται.\n- Το αίτημα δεν θα εμφανίζεται στην εξαγωγή πληρωμής.\nΌταν ενημερώνετε ένα αίτημα που δεν έχει πληρωθεί ακόμα.\n- Η κατάσταση κράτησης δεν θα ενημερώνεται.\n- Το αίτημα θα ενημερώνεται στην εξαγωγή πληρωμής.",
+            "showEmptyPeriods": "Προβολή άδειων περιόδων",
+            "request": "Αίτημα",
+            "saved": "Η κράτηση έχει αποθηκευτεί.",
+            "deleted": "Η κράτηση έχει διαγραφεί",
+            "reservationRequest": "Αιτήματα κράτησης",
+            "newRequest": "Νέο αίτημα",
+            "buildup": "Συσσώρευση",
+            "noBuildupFound": "Δε βρέθηκε συσσώρευση",
+            "noReservations": "Καμία κράτηση",
+            "requestReservations": "Αίτημα κρατήσεων",
+            "calculationTool": "Εργαλείο υπολογισμού"
+        },
+        "tooltip": {
+            "warningRequestNotYetExported": "Αυτό το αίτημα δεν έχει πληρωθεί ακόμα."
+        },
+        "actions": {
+            "request": "Αίτημα"
+        }
+    },
+    "project": {
+        "static": {
+            "projectManagers": "Διαχειριστές έργων",
+            "createProject": "Δημιουργία έργου",
+            "projectCreationSuccess": "Το έργο δημιουργήθηκε επιτυχώς.",
+            "updateProject": "Ενημέρωση έργου",
+            "deleteProjectConfirmationText": "Θέλετε σίγουρα να διαγράψετε το έργο;"
+        }
+    },
+    "search": {
+        "static": {
+            "noMoreResults": "Όχι άλλα αποτελέσματα.",
+            "ctrlShiftF": "Ctrl + Shift + F"
+        }
+    },
+    "holiday": {
+        "static": {
+            "newYear": "Νέο έτος",
+            "easterMonday": "Δευτέρα του Πάσχα",
+            "ascensionDay": "Ημέρα της Αναλήψεως",
+            "whitMonday": "Αγίου Πνεύματος",
+            "firstChristmasDay": "Ανήμερα Χριστουγέννων",
+            "secondChristmasDay": "Δεύτερη μέρα των Χριστουγέννων",
+            "kingsDay": "Ημέρα του Βασιλιά",
+            "liberationDay": "Ημέρα απελευθέρωσης"
+        }
+    },
+    "companyType": {
+        "static": {
+            "default": "Προεπιλογή",
+            "healthcare": "Ιατροφαρμακευτική περίθαλψη"
+        }
+    },
+    "workServiceType": {
+        "static": {
+            "night": "Νυχτερινή βάρδια",
+            "reachability": "Υπηρεσία προσβασιμότητας",
+            "consignment": "Υπηρεσία αποστολής",
+            "weekend": "Βάρδια Σαββατοκύριακου"
+        }
+    },
+    "media": {
+        "static": {
+            "type": "Τύπος",
+            "other": "Άλλο",
+            "curriculumVitae": "Βιογραφικό",
+            "motivationLetter": "Επιστολή παρότρυνσης",
+            "diploma": "Δίπλωμα",
+            "certificateOfConduct": "Πιστοποιητικό συμπεριφοράς",
+            "pdfPagesCount": "Το PDF έχει {amount} σελίδες"
+        }
+    },
+    "factoringCompany": {
+        "static": {
+            "deleted": "Η εταιρεία επιχειρηματικών απαιτήσεων έχει διαγραφεί."
+        }
+    },
+    "entity": {
+        "static": {
+            "enterprise": "Επιχείρηση",
+            "employmentAgency": "Γραφείο ανεύρεσης εργασίας",
+            "hirer": "Εργοδότης",
+            "employee": "Υπάλληλος",
+            "freelancer": "Ελεύθερος επαγγελματίας"
+        }
+    },
+    "healthInsurance": {
+        "static": {
+            "saved": "Οι ασφάλειες υγείας έχουν αποθηκευτεί."
+        }
+    },
+    "marginType": {
+        "static": {
+            "etRegulation": "Κανονισμός ΕΤ",
+            "default": "Προεπιλογή",
+            "overtime": "Υπερωρία",
+            "senior": "Ανώτερος",
+            "hourType": "Τύπος ώρας"
+        }
+    },
+    "reseller": {
+        "static": {
+            "missingRequiredAttributesConfirmText": "Ο μεταπωλητής δεν μπορεί να υποβληθεί ακόμα για έγκριση γιατί ορισμένα απαραίτητα πεδία δεν έχουν συμπληρωθεί.",
+            "employeeMargins": "Περιθώρια υπαλλήλου",
+            "deleteCustomerConfirmationText": "Θέλετε σίγουρα να διαγράψετε αυτόν τον πελάτη; Όλα τα περιθώρια που είναι συνδεδεμένα με αυτόν τον πελάτη θα διαγραφούν.",
+            "submitForApprovalConfirmText": "Ο μεταπωλητής θα υποβληθεί για έγκριση.",
+            "archivedText": "Ο μεταπωλητής έχει αρχειοθετηθεί.",
+            "deleteConfirmationText": "Θέλετε σίγουρα να διαγράψετε αυτόν τον μεταπωλητή;",
+            "deleteSuccess": "Ο μεταπωλητής έχει διαγραφεί.",
+            "deleteFailed": "Αποτυχία διαγραφής μεταπωλητή.",
+            "freelancerMargins": "Περιθώρια ελεύθερου επαγγελματία",
+            "defaultMargin": "Προκαθορισμένο περιθώριο",
+            "zeroMarginConfirmationText": "Ένα ή περισσότερα από τα περιθώρια έχουν αξία '0'.",
+            "customerCanOnlyHaveOneResellerInfoMessage": "Εάν το γραφείο ευρέσεως εργασίας δεν περιλαμβάνεται στη λίστα, ελέγξτε εάν είναι ήδη συνδεδεμένο με άλλον μεταπωλητή."
+        }
+    },
+    "freelancerHourTypeMarginAddition": {
+        "static": {
+            "hirerPaymentTermTableHeader": "Όρος πληρωμής εργοδότη",
+            "hourlyRateFreelancerTableHeader": "Ωρομίσθιο (από)"
+        }
+    },
+    "teamType": {
+        "static": {
+            "employee": "Υπάλληλος",
+            "hirer": "Εργοδότης",
+            "freelancer": "Ελεύθερος επαγγελματίας",
+            "employmentAgency": "Γραφείο Εργασίας",
+            "reseller": "Μεταπωλητής"
+        }
+    },
+    "messageBox": {
+        "static": {
+            "shouldSignDocument": {
+                "sendSignRequestConfirmationText": "Το ακόλουθο θέμα θα λάβει αίτημα υπογραφής",
+                "hideDocumentConfirmationText": "Είστε σίγουροι ότι θέλετε να αποκρύψετε αυτή την εργασία; Δεν θα εμφανιστεί ξανά.",
+                "subject": "Θέμα",
+                "newSignTokenConfirmationText": "Θα γίνει λήψη ενός νέου token υπογραφής.",
+                "newSignTokenSuccess": "Το token υπογραφής λήφθηκε επιτυχώς.",
+                "newSignTokenFailed": "Παρουσιάστηκε ένα σφάλμα κατά τη λήψη του νέου token υπογραφής."
+            },
+            "hideContractConfirmationText": "Θέλετε σίγουρα να αποκρύψετε αυτή τη σύμβαση; Δεν θα εμφανιστεί ξανά."
+        }
+    },
+    "teams": {
+        "static": {
+            "deleteTeamPresetText": "Θέλετε σίγουρα να διαγράψετε αυτή την προεπιλογή ομάδας;",
+            "details": "Στοιχεία",
+            "team": "Ομάδα",
+            "addTeam": "Προσθήκη ομάδας",
+            "deleteTeamText": "Θέλετε σίγουρα να διαγράψετε αυτή την ομάδα;",
+            "teamOwner": "Ιδιοκτήτης Ομάδας",
+            "roles": "Ρόλοι"
+        }
+    },
+    "personalAccessToken": {
+        "static": {
+            "tokenCreatedInfo": "Το token έχει δημιουργηθεί. Το token θα εμφανιστεί μόνο μία φορά, επομένως φυλάξτε το σε ασφαλές μέρος.",
+            "tokenCopied": "Το token αντιγράφηκε στο πρόχειρο",
+            "personalAccessTokens": "Tokens προσωπικής πρόσβασης",
+            "details": "Στοιχεία",
+            "tokenPlaceholder": "Το token θα εμφανίζεται εδώ.",
+            "deletePersonalAccessTokenText": "Το token θα διαγραφεί και δεν θα μπορεί πλέον να χρησιμοποιηθεί."
+        }
+    },
+    "roles": {
+        "static": {
+            "roleCreated": "Ο ρόλος έχει δημιουργηθεί.",
+            "permissionsSaved": "Τα δικαιώματα έχουν αποθηκευτεί."
+        }
+    },
+    "proFormaPayslip": {
+        "actions": {
+            "previewPayslip": "Προεπισκόπηση αποδεικτικού πληρωμής",
+            "previewCostPriceOverview": "Προεπισκόπηση της τιμής κόστους"
+        },
+        "static": {
+            "splitPayOutInfo": "Όταν αυτή η επιλογή είναι ενεργοποιημένη, οι κανονικές ώρες θα διαχωρίζονται από τις άλλες ώρες/προσαυξήσεις/αποζημιώσεις στην απόδειξη πληρωμής."
+        }
+    },
+    "subsidyCompany": {
+        "static": {
+            "deleteSubsidyCompanyConfirmationText": "Θέλετε σίγουρα να διαγράψετε την επιδοτούμενη εταιρεία;",
+            "deleted": "Η επιδοτούμενη εταιρεία έχει διαγραφεί."
+        }
+    },
+    "subsidy": {
+        "static": {
+            "details": "Στοιχεία",
+            "createSubsidy": "Δημιουργία επιδότησης",
+            "updateSubsidy": "Ενημέρωση επιδότησης",
+            "endDateInfo": "Εάν η ημερομηνία λήξης δεν είναι στο τέλος της εβδομάδας, η επιδότηση θα συμπεριληφθεί μέχρι το τέλος της προηγούμενης εβδομάδας.",
+            "confirmation": "Επιβεβαίωση επιδότησης",
+            "clearToExcludeFromSubsidy": "Καθαρίστε αυτό το πεδίο για να αποκλείσετε αυτό το στοιχείο από την επιδότηση.",
+            "startDateInfo": "Εάν η ημερομηνία έναρξης δεν είναι στην αρχή μιας εβδομάδας, η επιδότηση θα συμπεριληφθεί από την αρχή της επόμενης εβδομάδας."
+        }
+    }
+}

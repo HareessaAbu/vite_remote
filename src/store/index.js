@@ -1,14 +1,11 @@
 import { createStore } from 'vuex'
 
+import localization from '@/store/modules/localization';
+
 export default createStore({
-  state: {
-  },
   getters: {
   },
-  mutations: {
-  },
-  actions: {
-  },
   modules: {
+    localization
   }
 })

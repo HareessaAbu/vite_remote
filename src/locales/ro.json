@@ -1,0 +1,2465 @@
+{
+    "auth": {
+        "pages": {
+            "login": "Autentificare",
+            "setPassword": "Setează parolă",
+            "forgotPassword": "Am uitat parola",
+            "activateAccount": "Activează contul"
+        },
+        "static": {
+            "accountActivationSuccess": "Cont activat",
+            "email": "Email",
+            "forgotPasswordSuccess": "Link trimis pentru resetarea parolei",
+            "forgotPasswordSuccessDescription": "Ți-am trimis un email cu un link pentru a-ți reseta parola.",
+            "passwordResetSuccess": "Resetarea parolei",
+            "logoutConfirmationText": "Sigur vrei să te deconectezi?",
+            "registrationSuccessful": "Înregistrare reușită",
+            "leaveImpersonationConfirmationText": "Ești sigur că vrei să părăsești personificarea?",
+            "passwordUpdated": "Parola a fost actualizată.",
+            "userDeactivated": "Utilizatorul a fost dezactivat.",
+            "mobileDashboardOrderUpdated": "Ordinea panoului de control mobil a fost actualizată.",
+            "tokenExpired": "Token expirat",
+            "authenticated": "Ești autentificat!",
+            "tokenExpiredInfo": "Ai fost deconectat pentru că tokenul de autentificare a expirat. Pentru a continua, te rugăm să te autentifici folosindu-ți datele de logare.",
+            "userReactivated": "Utilizatorul a fost reactivat."
+        },
+        "actions": {
+            "forgotPassword": "Am uitat parola",
+            "login": "Autentificare",
+            "resetPassword": "Resetează parola",
+            "backToLogin": "Înapoi la autentificare",
+            "updatePassword": "Actualizează parola",
+            "logout": "Deconectare",
+            "deactivate": "Dezactivare",
+            "leaveImpersonation": "Părăsește personificarea",
+            "changePassword": "Schimbă parola",
+            "reactivate": "Reactivează"
+        }
+    },
+    "documents": {
+        "static": {
+            "templateDeleted": "Model șters",
+            "templateSaved": "Model salvat",
+            "variable": "Variabilă",
+            "variableDeleted": "Variabilă ștearsă",
+            "slug": "Bară",
+            "category": "Categorie",
+            "fieldOptions": "Opțiuni câmp",
+            "fieldType": "Tip câmp",
+            "info": "Info",
+            "layout": "Format",
+            "name": "Nume",
+            "newDocumentTemplate": "Model document nou",
+            "variables": "Variabile",
+            "variableSaved": "Variabilă salvată",
+            "documentPreview": "Previzualizare document",
+            "signedAt": "Semnat la",
+            "declinedAt": "Respins la",
+            "subjects": "Subiecte",
+            "subjectType": "Tip subiect",
+            "isOwner": "Este proprietar",
+            "shouldSign": "Trebuie să semneze",
+            "canView": "Poate vizualiza",
+            "status": "Status",
+            "generateDocument": "Generează document",
+            "testData": "Date de probă",
+            "archiveDocumentConfirmationText": "Aceasta va arhiva documentul.",
+            "created": "Creat",
+            "originalFile": "Fișier original",
+            "signedFile": "Fișier semnat",
+            "auditReport": "Raport audit",
+            "signRequestSentAt": "Cerere de semnare trimisă la",
+            "signRequests": "Cereri de semnare",
+            "description": "Descriere",
+            "template": "Model",
+            "documentName": "Nume document",
+            "editDocument": "Editează document",
+            "previewValue": "Previzualizează valoare",
+            "fillableBySubject": "Se completează de către subiect",
+            "position": "Poziție",
+            "signDocument": "Semnează documentul",
+            "uploadFile": "Încarcă fișierul",
+            "subject": "Subiect",
+            "uploadDocument": "Încarcă document",
+            "sendAfterCompletion": "Trimite după finalizare",
+            "logoSubject": "Subiect logo",
+            "associateLogoSubject": "Subiect logo asociat",
+            "document": "Document",
+            "linkDeductions": "Link deduceri",
+            "linkDeductionsInfo": "Astfel, se va evita crearea unor formulare de deducere la introducerea lor în înregistrarea orelor.",
+            "hideDocumentConfirmationText": "Sigur vrei să ascunzi această sarcină? Nu va reapărea din nou.",
+            "signRequestsSent": "Cererile de semnătură au fost trimise",
+            "isVisibleOn": "Este vizibil pe",
+            "creatableByRoles": "Creabil după roluri",
+            "fallbackValue": "Valoare de rezervă"
+        },
+        "editor": {
+            "date": "Data",
+            "employee": "Angajat",
+            "employmentAgency": "Agenție de recrutare",
+            "hirer": "Angajator",
+            "variables": "Variabile",
+            "factoringCompany": "Companie de factoring",
+            "freelancer": "Freelancer",
+            "employment": "Angajare",
+            "enterprise": "Întreprindere",
+            "employeeContract": "Contract",
+            "freelancerJob": "Job de freelancer"
+        },
+        "tabs": {
+            "info": "Info",
+            "template": "Model",
+            "variables": "Variabile",
+            "subjects": "Subiecte"
+        },
+        "steps": {
+            "selectTemplate": "Selectează model",
+            "selectData": "Selectează informații",
+            "review": "Evaluare",
+            "variables": "Variabile",
+            "subjects": "Subiecte"
+        },
+        "actions": {
+            "generateDocument": "Generează document",
+            "editor": "Editor",
+            "pdf": "PDF",
+            "download": "Descarcă",
+            "showPreview": "Arată previzualizare",
+            "upload": "Încarcă",
+            "addSubject": "Adaugă subiect",
+            "create": "Creează",
+            "createFromTemplate": "Creează din model",
+            "options": "Opțiuni"
+        }
+    },
+    "enum": {
+        "employeeType": {
+            "payroll": "Salarizare",
+            "temporary": "Temporar",
+            "normal": "Normal",
+            "other": "Altul"
+        },
+        "gender": {
+            "female": "Femeie",
+            "male": "Bărbat",
+            "other": "Altul"
+        },
+        "identityType": {
+            "alienPassport": "Pașaport străin",
+            "diplomaticPassport": "Pașaport diplomatic",
+            "dutchIdentityCard": "Act de identitate olandez",
+            "dutchMunicipalitiesIdentityCard": "Act de identitate al municipalităților olandeze",
+            "dutchPassport": "Pașaport olandez",
+            "none": "Niciunul",
+            "passportNonEeaCountry": "Pașaport țară non-SEE",
+            "refugeePassport": "Pașaport de refugiat",
+            "residenceDocuments": "Documente rezidență",
+            "servicePassport": "Pașaport de serviciu",
+            "alienIdentityCard": "Act de identitate străin",
+            "passportEeaCountry": "Pașaport țară SEE"
+        },
+        "contractPhase": {
+            "phase1And2": "Faza 1/2 (A)",
+            "phase3": "Faza 3 (B)",
+            "phase4": "Faza 4 (C)"
+        },
+        "maritalStatus": {
+            "divorced": "Divorțat",
+            "livingTogetherWithContract": "Conviețuire cu contract",
+            "married": "Căsătorit",
+            "registeredPartnership": "Parteneriat înregistrat",
+            "unmarried": "Necăsătorit",
+            "widowhood": "Văduv",
+            "livingTogetherWithoutContract": "Conviețuire fără contract"
+        },
+        "vatTariff": {
+            "shifted": "Mutat",
+            "exempt": "Exceptat"
+        },
+        "fieldType": {
+            "textArea": "Zonă text",
+            "hirerHourType": "Tip de oră angajator",
+            "checkbox": "Casetă de verificare",
+            "money": "Bani",
+            "datePicker": "Selector de date",
+            "text": "Text"
+        },
+        "subsidyType": {
+            "reassigningDisabledEmployee": "Reatribuirea unui angajat cu dizabilitate profesională",
+            "none": "Niciunul",
+            "targetJobAgreement": "Concentrați-vă pe contractul colectiv de muncă și pe cei cu dificultăți educaționale",
+            "hiringDisabledEmployee": "Angajarea unui angajat cu handicap"
+        }
+    },
+    "form": {
+        "static": {
+            "city": "Oraș",
+            "birthplace": "Locul nașterii",
+            "cao": "CAO",
+            "cc": "CC",
+            "certificate": "Certificat",
+            "chamberOfCommerceNumber": "Număr de la Camera de Comerț",
+            "citizenServiceNumber": "Număr Național de Asigurare",
+            "contractHours": "Ore contract",
+            "expirationDate": "Data expirării",
+            "factor": "Factor",
+            "factorEtRegulation": "Regulamentul factorului ET",
+            "identityValidUntil": "Identitate valabilă până la",
+            "initials": "Inițiale",
+            "invoiceEmail": "Email factură",
+            "language": "Limbă",
+            "shouldPayOutShortAbsence": "Plătești absențele scurte?",
+            "shouldPayOutVacationMoney": "Plătești banii de concediu?",
+            "signature": "Semnătura",
+            "startDate": "Data de început",
+            "streetNumber": "Număr",
+            "streetNumberAddition": "Adăugare",
+            "subject": "Subiect",
+            "firstName": "Prenume",
+            "accountHolder": "Titular cont",
+            "authorizedSignatory": "Semnatar autorizat",
+            "country": "Țara",
+            "countryCode": "Cod țară",
+            "countryOfBirth": "Țara nașterii",
+            "creditLimit": "Limită credit",
+            "curriculumVitae": "Curriculum Vitae",
+            "diplomas": "Diplome",
+            "documentNumber": "Număr document",
+            "employeeFunction": "Funcție angajat",
+            "employeeType": "Tip angajat",
+            "employmentAgency": "Agenție de recrutare",
+            "gAccount": "Cont G?",
+            "gAccountPercentage": "Procentaj cont G",
+            "etRegulation": "Regulament ET",
+            "gender": "Sex",
+            "name": "Nume",
+            "phone": "Telefon",
+            "grossSalary": "Salariu brut",
+            "hasNoRiskPolicy": "Fără politică de risc?",
+            "hirer": "Angajator",
+            "homewardTravelCost": "Costul transportului pentru întoarcerea acasă",
+            "homewardTravelDistance": "Distanța pentru întoarcerea acasă",
+            "homewardTravelFrequency": "Frecvența călătoriilor spre casă",
+            "iban": "IBAN",
+            "id": "ID",
+            "invoiceEmailCc": "Factură CC",
+            "legalForm": "Formular legal",
+            "logo": "Logo",
+            "maritalStatus": "Stare civilă",
+            "motivationLetter": "Scrisoare de motivație",
+            "nationality": "Naționalitate",
+            "noRiskPolicy": "Fără politică de risc",
+            "password": "Parolă",
+            "paymentTerm": "Termen de plată",
+            "payOutFrequency": "Frecvența plăților",
+            "phase": "Fază",
+            "probation": "Perioadă de probă",
+            "proofOfRecruitmentAbroad": "Dovada recrutării în străinătate",
+            "riskGroup": "Grupă de risc",
+            "sbiCodes": "Coduri SBI",
+            "shouldDeductHealthInsurance": "Deduci asigurarea de sănătate?",
+            "shouldPayOutHolidays": "Plătești concediile?",
+            "shouldPayOutNonStatutoryHolidays": "Plătești sărbătorile non-legale?",
+            "shouldPayOutReducedHours": "Plătești orele reduse?",
+            "terminationDate": "Data încetării",
+            "vatNumber": "Număr TVA",
+            "vatTariff": "Tarif TVA",
+            "workTimeReductionDays": "Zile cu reducerea timpului de lucru",
+            "zipCode": "Cod poștal",
+            "functionScale": "Scala de funcții",
+            "employment": "Angajare",
+            "cessionText": "Text cesiune",
+            "employee": "Angajat",
+            "useFrameworkAgreement": "Folosește acordul cadru",
+            "enterprise": "Întreprindere",
+            "liabilityInsurance": "Asigurare de răspundere",
+            "marginInvoicePerWeek": "Factura marjei pe săptămână",
+            "freelancer": "Freelancer",
+            "freelancerJob": "Job de freelancer",
+            "gAccountIban": "IBAN cont G",
+            "gAccountHolder": "Titularul contului G",
+            "payslips": "Fluturași de salariu",
+            "payslipsCc": "Fluturașe de salariu CC",
+            "email": "Email",
+            "lastName": "Nume de familie",
+            "middleName": "Nume mijlociu",
+            "street": "Stradă",
+            "birthdate": "Data nașterii",
+            "costOfLivingAllowance": "Indemnizație pentru costul de trai",
+            "employmentDate": "Data angajării",
+            "factoringCompany": "Companie de factoring",
+            "hasPayrollTaxReduction": "Reducerea taxei pe salariu?",
+            "identityType": "Tip identitate",
+            "mainLanguage": "Limba principală",
+            "passwordConfirmation": "Confirmarea parolei",
+            "rentalOrPurchaseContractHomeCountry": "Contractul de închiriere sau cumpărare din țara de origine",
+            "stippPlan": "Plan StiPP",
+            "caoWorkweek": "Săptămâna de lucru CAO",
+            "chamberOfCommerceExtract": "Extras camera de comerț",
+            "salesRate": "Rata vânzărilor",
+            "factorOvertime": "Factorul orelor suplimentare",
+            "seniorDays": "Zile seniori",
+            "factorStatePension": "Factorul pensiei de stat",
+            "pensionPlan": "Plan de pensii",
+            "factorSenior": "Factor senior",
+            "housingCost": "Costul cazării",
+            "documentTemplate": "Model document",
+            "deliveryDeed": "Act de livrare",
+            "files": "Fișiere",
+            "isAgreedWork": "Este muncă agreată",
+            "endDate": "Data de încheiere",
+            "note": "Notă",
+            "timeRegistration": "Înregistrarea timpului",
+            "timeForTime": "Timp recuperat",
+            "workHours": "Ore de lucru",
+            "workStartTime": "Ora începerii lucrului",
+            "workEndTime": "Ora încheierii lucrului",
+            "start": "Începe",
+            "reason": "Motiv",
+            "end": "Încheie",
+            "background": "Fundal (portret)",
+            "outOfServiceReasonSlug": "Motiv",
+            "salaryWithExtraDays": "Salariu cu zile extra",
+            "outOfServiceDate": "Data indisponibilității",
+            "factorWithExtraDays": "Factor cu zile extra",
+            "invoiceCompany": "Companie de facturare",
+            "date": "Data",
+            "weeksWorked": "Săptămâni lucrate",
+            "timeRegistrationQuestion": "Înregistrarea timpului?",
+            "file": "Fișier",
+            "location": "Locație",
+            "workDaysAndHours": "Zile & ore de lucru",
+            "website": "Website",
+            "upload": "Încarcă",
+            "shouldPayOutVacationDays": "Plătești zilele de concediu?",
+            "employerNumber": "Număr angajator",
+            "currentPassword": "Parolă actuală",
+            "exchangeOvertime": "Schimbă ore suplimentare",
+            "payOutEnterprise": "Plătește întreprinderea",
+            "requireFreelancerVatNumber": "Solicită numărul TVA al freelancer-ului",
+            "employeeTypeSlugs": "Tipuri angajat",
+            "seasonalWork": "Muncă sezonieră",
+            "splitInvoicePerProject": "Factură împărțită per proiect",
+            "splitInvoicePerEmployee": "Factură împărțită per angajat",
+            "splitInvoicePerFreelancer": "Factură împărțită per freelancer",
+            "splitInvoiceItemsByDate": "Factură împărțită pe ore și deplasări după dată",
+            "companyType": "Tip companie",
+            "healthcareDescription": "Descrierea asistenței medicale",
+            "qualifications": "Calificări",
+            "workServices": "Servicii de muncă",
+            "activities": "Activități",
+            "certificateOfConduct": "Certificat de conduită",
+            "deductMarginVat": "Dedu marja de TVA",
+            "blockSalesRate": "Blochează rata de vânzări",
+            "ownerCompany": "Compania deținătoare",
+            "generateFreelancerDocuments": "Generează documentele freelancerului",
+            "snfCertification": "Certificare SNF",
+            "isPayOutEnabledQuestion": "Plată activată?",
+            "healthInsurance": "Asigurare de sănătate",
+            "payOutExport": "Plătește exporturile",
+            "dontSendDocuments": "Nu trimite documente",
+            "selectedAmount": "{amount} selectate",
+            "search": "Caută",
+            "splitPayOut": "Plată împărțită",
+            "searchAddress": "Caută adresă",
+            "teamModel": "Entitate",
+            "teamTypes": "Tipuri echipă",
+            "user": "Utilizator",
+            "contact": "Contact",
+            "role": "Rol",
+            "team": "Echipă",
+            "teamPresets": "Presetări echipă",
+            "noRecordsFound": "Nu s-au găsit înregistrări...",
+            "reseller": "Distribuitor",
+            "canHaveJobs": "Poate avea locuri de muncă",
+            "description": "Descriere",
+            "subsidyCompany": "Companie subsidiară",
+            "shouldPayOutSeniorDays": "Plătiți zilele seniorilor?",
+            "showFunctionOnInvoice": "Arată funcția pe factură",
+            "workDays": "Zile lucrătoare",
+            "backgroundLandscape": "Fundal (peisaj)",
+            "type": "Tip",
+            "subsidy": "Filială",
+            "shouldPayOutWorkTimeReductionDays": "Plătiți zilele de lucru reduse?",
+            "grossSalaryPerHour": "Salariu brut pe oră",
+            "deductionOverviewPerWeek": "Prezentarea generală a deducției pe săptămână",
+            "kiwaNumber": "Număr Kiwa",
+            "niwoNumber": "Număr Niwo",
+            "languageCode": "Cod limbă"
+        },
+        "steps": {
+            "contactAndFinancial": "Informații de contact și financiare",
+            "documents": "Documente",
+            "documentsAndEmployment": "Documente și angajare",
+            "employment": "Angajare",
+            "files": "Fișiere",
+            "foreignNationality": "Naționalitate străină",
+            "general": "General",
+            "job": "Loc de muncă",
+            "employer": "Angajator",
+            "etRegulation": "Regulament ET",
+            "account": "Cont",
+            "contract": "Contract",
+            "hirerRemuneration": "Remunerația angajatorului"
+        },
+        "hint": {
+            "startTypingToSearch": "Începe să tastezi pentru a căuta",
+            "lockPensionPlan": "Blochează planul de pensie pentru a nu se ajusta automat."
+        },
+        "actions": {
+            "upload": "Încarcă"
+        }
+    },
+    "general": {
+        "plurals": {
+            "hour": "Nicio oră | {count} oră | {count} ore",
+            "month": "Nicio lună | {count} lună | {count} luni",
+            "week": "Nicio săptămână | {count} săptămână | {count} săptămâni",
+            "file": "Niciun fișier | {count} fișier | {count} fișiere"
+        },
+        "static": {
+            "accountHolder": "Titular cont",
+            "factor": "Factor",
+            "files": "Fișiere",
+            "firstName": "Prenume",
+            "gender": "Sex",
+            "hi": "Salut, {user}",
+            "hirer": "Angajator",
+            "percentage": "Procentaj",
+            "yes": "Da",
+            "euro": "Euro",
+            "employeeType": "Tip angajat",
+            "timeRegistration": "Înregistrarea timpului",
+            "employmentDate": "Data angajării",
+            "no": "Nu",
+            "enabled": "Activat",
+            "webhooks": "Webhooks",
+            "period": "Perioadă",
+            "nr": "Nr.",
+            "exports": "Exporturi",
+            "company": "Companie",
+            "companyInformation": "Informații companie",
+            "contact": "Contact",
+            "contactInformation": "Informații contact",
+            "address": "Adresă",
+            "authorizedSignatory": "Semnatar autorizat",
+            "birthdate": "Data nașterii",
+            "birthplace": "Locul nașterii",
+            "cao": "Cao",
+            "category": "Categorie",
+            "chamberOfCommerceNumber": "Număr Camera de Comerț",
+            "country": "Țara",
+            "countryOfBirth": "Țara nașterii",
+            "createContact": "Creează contact",
+            "id": "ID",
+            "invoices": "Facturi",
+            "language": "Limbă",
+            "name": "Nume",
+            "phone": "Telefon",
+            "postalAddress": "Adresă poștală",
+            "search": "Căutare",
+            "visitAddress": "Adresă de vizitare",
+            "creditLimit": "Limită credit",
+            "deleteFailed": "Ceva nu a mers bine, te rugăm să ne contactezi dacă problema persistă.",
+            "documentNumber": "Număr document",
+            "documents": "Documente",
+            "documentTemplates": "Modele document",
+            "employeeApprovalSuccess": "Angajat aprobat cu succes.",
+            "employeeCreationSuccess": "Angajat creat cu succes.",
+            "employees": "Angajați",
+            "employment": "Angajare",
+            "employmentAgencies": "Agenții de recrutare",
+            "employmentAgency": "Agenție de recrutare",
+            "employmentAgencyApprovalSuccess": "Agenție de recrutare aprobată cu succes.",
+            "employmentAgencyCreationSuccess": "Agenție de recrutare creată cu succes.",
+            "hirerApprovalFail": "Eroare în aprobarea angajatorului.",
+            "hirerApprovalSuccess": "Angajator aprobat cu succes.",
+            "hirerCreationSuccess": "Angajator creat cu succes.",
+            "hirers": "Angajatori",
+            "iban": "IBAN",
+            "identityType": "Tip identitate",
+            "identityValidUntil": "Identitate valabilă până la",
+            "initials": "Inițiale",
+            "lastName": "Nume de familie",
+            "log": "Registru",
+            "maritalStatus": "Stare civilă",
+            "middleName": "Nume mijlociu",
+            "none": "Niciunul",
+            "notApplicable": "Nu se aplică",
+            "notes": "Note",
+            "personalData": "Informații personale",
+            "residenceAddress": "Adresa de reședință",
+            "sbiCodes": "Coduri SBI",
+            "splitMargin": "Marjă divizată",
+            "timeForTime": "Timp recuperat",
+            "vatNumber": "Număr TVA",
+            "terminationDate": "Data încetării",
+            "newContact": "Contact nou",
+            "total": "Total",
+            "payrollTaxReduction": "Reducerea impozitului pe salariu",
+            "payOutFrequency": "Frecvență plată",
+            "contractHours": "Ore contract",
+            "participantEtRegulation": "Participant regulament ET?",
+            "startDate": "Data de început",
+            "homewardTravelCost": "Costul deplasării pentru întoarcerea acasă",
+            "homewardTravelFrequency": "Frecvența călătoriilor spre casă",
+            "factorEtRegulation": "Regulamentul factorului ET",
+            "vatTariff": "Tarif TVA",
+            "invoiceEmail": "Email factură",
+            "invoiceEmailCc": "Factură CC",
+            "city": "Oraș",
+            "employer": "Angajator",
+            "factoringCompanies": "Companii de factoring",
+            "factoringCompany": "Companie de factoring",
+            "enterprises": "Întreprinderi",
+            "cancel": "Anulare",
+            "enterprise": "Întreprindere",
+            "date": "Data",
+            "freelancers": "Freelanceri",
+            "freelancer": "Freelancer",
+            "hours": "Ore",
+            "payslip": "Fluturaș de salariu",
+            "timesheet": "Pontaj",
+            "reservations": "Rezervări",
+            "imports": "Importuri",
+            "billedAt": "Facturat la",
+            "freelancerCreationSuccess": "Freelancer creat cu succes",
+            "freelancerApprovalSuccess": "Freelancer aprobat cu succes",
+            "freelancerApprovalFail": "Eroare în aprobarea freelancerului",
+            "account": "Cont",
+            "overtime": "Ore suplimentare",
+            "surcharge": "Suprataxă",
+            "sepaId": "ID SEPA",
+            "travelHours": "Ore de călătorie",
+            "users": "Utilizatori",
+            "permissions": "Permisiuni",
+            "user": "Utilizator",
+            "link": "Link",
+            "employmentCreationSuccess": "Angajare creată cu succes",
+            "addressInformation": "Informații despre adresă",
+            "confirmationQuestion": "Sigur?",
+            "dashboard": "Tablou de bord",
+            "email": "Email",
+            "citizenServiceNumber": "Număr Național de Asigurare",
+            "currentEmployments": "Angajări actuale",
+            "employeeApprovalFail": "Eroare în aprobarea angajatului.",
+            "employmentAgencyApprovalFail": "Eroare în aprobarea agenției de recrutare.",
+            "etRegulation": "Regulament ET",
+            "financialInformation": "Informații financiare",
+            "legalForm": "Formular legal",
+            "settings": "Setări",
+            "contractPhase": "Fază contract",
+            "homewardTravelDistance": "Distanța de călătorit pentru întoarcerea acasă",
+            "employee": "Angajat",
+            "originalValue": "Valoare originală",
+            "attachments": "Atașamente",
+            "shiftWorkSurcharge": "Suprataxă pentru munca în ture",
+            "invite": "Invitație",
+            "takeOverFromHirer": "Preia de la angajator",
+            "factorOvertime": "Factorul orelor suplimentare",
+            "km": "KM",
+            "filters": "Filtre",
+            "endsAt": "Se încheie la",
+            "createdAt": "Creat la",
+            "year": "An",
+            "housingCost": "Costul cazării",
+            "costOfLivingAllowance": "Indemnizație pentru costul de trai",
+            "outOfServiceReason": "Motivul ieșirii din uz",
+            "timeRegistrationIsNotEnabledText": "Înregistrarea timpului nu este activată.",
+            "maxImageSize": "Imaginea trebuie să fie mai mică de {width} x {height} px.",
+            "archiveFailed": "Nu am putut arhiva acest articol.",
+            "fileUploadFailed": "Încărcarea fișierului a eșuat",
+            "freelancerJobs": "Joburi de freelancer",
+            "resultsCount": "{count} rezultate",
+            "phase": "Fază",
+            "sendPayslips": "Trimite fluturași de salariu",
+            "stipp": "Stipp",
+            "weeksWorked": "Săptămâni lucrate",
+            "translations": "Traduceri",
+            "subjects": "Subiecte",
+            "accountNumber": "Număr cont",
+            "startsAt": "Începe la",
+            "factorSenior": "Factor senior",
+            "sendFailed": "Trimitere eșuată",
+            "note": "Notă",
+            "createdBy": "Utilizator",
+            "createNote": "Creează notă",
+            "seniorDays": "Zile seniori",
+            "workTimeReductionDays": "Zile cu reducere a timpului de lucru",
+            "workHours": "Ore de lucru",
+            "workStartTime": "Ora începerii lucrului",
+            "workEndTime": "Ora încheierii lucrului",
+            "sickReports": "Rapoarte de boală",
+            "start": "Începe",
+            "end": "Încheie",
+            "reason": "Motiv",
+            "hint": "Indiciu",
+            "outOfServiceEmployeeSuccess": "Angajatul a fost raportat cu succes ca fiind indisponibil.",
+            "outOfService": "Indisponibil",
+            "outOfServiceSuccess": "Indisponibilitate înregistrată",
+            "createFailed": "Nu am putut salva această înregistrare.",
+            "updateFailed": "Nu am putut salva această înregistrare.",
+            "outOfServiceDate": "Data indisponibilității",
+            "saveFailed": "Nu am putut salva această înregistrare.",
+            "archiveSuccess": "Articolul este arhivat.",
+            "location": "Locație",
+            "holidaySurcharge": "Suprataxă concediu",
+            "uploadFiles": "Încarcă fișiere",
+            "invoiceCompany": "Companie de facturare",
+            "employments": "Angajări",
+            "fromPeriod": "Din perioada",
+            "filesUploaded": "Fișiere încărcate",
+            "fileDeleted": "Fișier șters",
+            "fileDeleteFailed": "Ștergerea fișierului a eșuat",
+            "unarchiveSuccess": "Articolul este dezarhivat.",
+            "unarchiveFailed": "Nu am putut dezarhiva acest articol.",
+            "deleteFileConfirmationText": "Sigur vrei să ștergi fișierul?",
+            "frequency": "Frecvență",
+            "from": "De la",
+            "until": "Până la",
+            "download": "Descarcă",
+            "recentVisitedPages": "Paginile vizitate recent vor fi afișate aici.",
+            "payOutEnterprise": "Plătește întreprinderea",
+            "sharedDocumentTemplates": "Șabloane documente partajate",
+            "usingEmploymentAgencyValue": "Se folosește valoarea agenției de angajare",
+            "importEmployments": "Importă angajări",
+            "generateFreelancerDocuments": "Generează documentele freelancerului",
+            "generateFreelancerDocumentsInfo": "Când această opțiune este dezactivată, nu se generează documente la finalul ghidului pentru freelanceri.",
+            "contractStartDate": "Data de începere a contractului",
+            "contractEndDate": "Data de sfârșit a contractului",
+            "description": "Descriere",
+            "subject": "Subiect",
+            "causer": "Cauzator",
+            "reservationsBuildup": "Acumulare rezerve",
+            "seasonalWork": "Muncă sezonieră",
+            "payslips": "Fluturași de salariu",
+            "annualStatements": "Declarații anuale",
+            "projects": "Proiecte",
+            "correction": "Corectură",
+            "selectedAmount": "Selectat ({amount})",
+            "validationFailed": "Validarea a eșuat",
+            "upcomingEmployments": "Angajări viitoare",
+            "companyType": "Tip companie",
+            "certificateOfConduct": "Certificat de conduită",
+            "useHirerValue": "Folosește valoarea angajatorului",
+            "useEmploymentAgencyValue": "Folosește valoarea agenției de angajare",
+            "type": "Tip",
+            "canNotDeleteEmployeeTitle": "Nu se poate șterge",
+            "usingHirerValue": "Se folosește valoarea angajatorului",
+            "canNotDeleteEmploymentTitle": "Nu se poate șterge",
+            "useParentValue": "Folosește valoarea implicită",
+            "import": "Importă",
+            "importHirers": "Importă angajatori",
+            "importSuccessful": "Importare reușită",
+            "loadFailed": "Nu am putut încărca datele solicitate.",
+            "importEmployees": "Importă angajați",
+            "importFreelancers": "Importă freelanceri",
+            "importFreelancerJobs": "Importă locuri de muncă pentru freelanceri",
+            "importEntityFailed": "Importarea a eșuat. Încearcă să reîncarci pagina și să reiei importarea.",
+            "registration": "Înregistrare",
+            "owner": "Proprietar",
+            "marginInvoicePerWeek": "Factura marjei pe săptămână",
+            "healthInsuranceStartDateInfo": "Deducerea asigurării de sănătate va fi adăugată la început de săptămână/patru săptămâni/lună (în funcție de frecvența plății), atât timp cât există o asigurare de sănătate activă la acea dată.",
+            "currentJobs": "Locuri de muncă actuale",
+            "upcomingJobs": "Locuri de muncă viitoare",
+            "isPayOutEnabled": "Plată activată?",
+            "pages": "Pagini",
+            "homeAddress": "Adresa de domiciliu",
+            "dashboardOrderMobile": "Comanda de pe tabloul de bord pentru mobil",
+            "splitPayOutInfo": "Când această opțiune este activată, orele obișnuite vor fi despărțite de alte înregistrări în exportul de plată.",
+            "disablePayOutConfirmationText": "Sigur vrei să dezactivezi plata pentru această înregistrare?",
+            "showTotal": "Arată totalul",
+            "fillAll": "Completează tot",
+            "submitForApprovalConfirmTitle": "Trimite pentru aprobare",
+            "submittedForApproval": "Trimis pentru aprobare.",
+            "new": "Nou",
+            "resellers": "Distribuitori",
+            "resellerCreationSuccess": "Distribuitor creat cu succes.",
+            "resellerApprovalSuccess": "Distribuitor aprobat cu succes.",
+            "resellerApprovalFail": "Eroare în aprobarea distribuitorului.",
+            "reseller": "Distribuitor",
+            "confirmationImpersonateText": "Sigur vrei să te conectezi ca acest utilizator?",
+            "googleLogo": "Logo Google",
+            "dontSendDocuments": "Nu trimite documentele",
+            "saved": "Salvat",
+            "submitForApprovalFailed": "Nu am putut trimite entitatea pentru aprobare.",
+            "notYetSubmittedForApproval": "Nu a fost trimis încă pentru aprobare.",
+            "submitForApprovalConfirmText": "Acest articol va fi trimis pentru aprobare.",
+            "jobCreationSuccess": "Locul de muncă a fost creat.",
+            "variable": "Variabil",
+            "minimum": "Minim",
+            "missingRequiredAttributesConfirmText": "Acest articol nu poate fi trimis încă spre aprobare deoarece unele atribute necesare nu sunt completate.",
+            "notifications": "Notificări",
+            "recurringDeductionInfo": "Deducerea repetată va fi adăugată la începutul fiecărei săptămâni/fiecăror patru săptămâni/fiecărei luni (în funcție de frecvența de plată).",
+            "missingRequiredAttributesConfirmTitle": "Câmpuri necesare lipsă",
+            "dontSendDocumentsInfo": "Solicitările de semnătură nu vor fi trimise pentru documentele care sunt selectate aici.",
+            "otherInfo": "Alte informații",
+            "splitPayOut": "Plată împărțită",
+            "personalAccessTokens": "Tokenuri acces personal",
+            "token": "Token de acces",
+            "teams": "Echipe",
+            "defaultValue": "Valoare implicită",
+            "teamPresets": "Presetări echipă",
+            "unableToDeleteItem": "Itemul nu poate fi șters",
+            "messageBox": "Căsuță mesaje",
+            "hide": "Ascunde",
+            "contractType": "Tip contract",
+            "expiresAt": "Expiră la",
+            "signTokenExpiresAt": "Tokenul pentru semnare expiră la",
+            "receiveNewSignToken": "Primește un nou token pentru semnare",
+            "missingDocumentsAmount": "Număr documente lipsă",
+            "noPermissionForField": "Nu există permisiunea pentru vizualizare...",
+            "role": "Rol",
+            "attachExistingContact": "Atașează contactul existent",
+            "portals": "Portaluri",
+            "roles": "Roluri",
+            "resultsCountMobile": "Pagina {current} - {total}",
+            "signRequestSentAt": "Cerere de semnare trimisă la",
+            "NoPermissionForSegment": "Nu ai permisiunea corectă pentru a vizualiza acest segment...",
+            "contactHasNoAccountTooltip": "Acest contact nu are cont",
+            "proFormaPayslip": "Fluturaș de salariu proform",
+            "deductionOverviewPerWeek": "Prezentarea generală a deducției pe săptămână",
+            "workweekHours": "Ore de lucru în timpul săptămânii",
+            "fiscalYearlySalary": "Salariu pe anul fiscal",
+            "result": "Rezultat",
+            "subsidyCompany": "Companie subsidiară",
+            "subsidy": "Filială",
+            "details": "Detalii",
+            "subsidyCompanies": "Companii subsidiare",
+            "confirmed": "Confirmat",
+            "amount": "Sumă",
+            "automatic": "Automat",
+            "ageHint": "Vârstă: {age}",
+            "mainContact": "Contact principal"
+        },
+        "tabs": {
+            "contactDetails": "Detalii contact",
+            "contacts": "Contacte",
+            "details": "Detalii",
+            "documents": "Documente",
+            "employees": "Angajați",
+            "hirers": "Angajatori",
+            "invoices": "Facturi",
+            "log": "Registru",
+            "notes": "Note",
+            "settings": "Setări",
+            "compensations": "Compensații",
+            "travelTypes": "Tipuri călătorie",
+            "employments": "Angajări",
+            "hours": "Ore",
+            "reservations": "Rezervări",
+            "jobs": "Locuri de muncă",
+            "companyDetails": "Detalii companie",
+            "hourTypes": "Tipuri ore",
+            "splitMargin": "Marja divizată",
+            "wageAttachments": "Anexe la salariu",
+            "deductions": "Deduceri",
+            "projects": "Proiecte",
+            "freelancers": "Freelanceri",
+            "tariffs": "Tarife",
+            "margins": "Marje",
+            "customers": "Clienți",
+            "subsidies": "Filiale",
+            "user": "Utilizator"
+        },
+        "actions": {
+            "cancel": "Anulare",
+            "edit": "Editează",
+            "new": "Nou",
+            "save": "Salvează",
+            "addRow": "Adaugă rând",
+            "approve": "Aprobă",
+            "delete": "Șterge",
+            "next": "Următorul",
+            "saveTranslations": "Salvează traduceri",
+            "sendInvitation": "Trimite invitație",
+            "skip": "Omite",
+            "viewParentCompany": "Vezi compania mamă",
+            "remove": "Șterge",
+            "add": "Adaugă",
+            "refresh": "Actualizare",
+            "selectAll": "Selectează toate",
+            "archive": "Arhivă",
+            "previous": "Anterior",
+            "deselectAll": "Deselectează toate",
+            "confirm": "Confirmă",
+            "invite": "Invitare",
+            "create": "Creează",
+            "linkEnterprise": "Link întreprindere",
+            "upload": "Încarcă",
+            "addType": "Adaugă tip",
+            "unarchive": "Dezarhivează",
+            "clearFilters": "Elimină filtrele",
+            "deleteSelected": "Șterge-le pe cele selectate ({amount})",
+            "close": "Închide",
+            "downloadFormat": "Formatul descărcării",
+            "import": "Importă",
+            "submit": "Trimite",
+            "continue": "Continuă",
+            "fill": "Completează",
+            "impersonate": "Autentifică-te ca",
+            "editPermissions": "Editează permisiuni",
+            "attach": "Atașează",
+            "detach": "Detașează",
+            "selectAllFromRole": "Selectează toate din rol",
+            "ok": "Ok",
+            "copyToken": "Copiază token",
+            "actions": "Acțiuni",
+            "calculate": "Calculează",
+            "reset": "Resetează",
+            "editUser": "Editează utilizator"
+        },
+        "messages": {
+            "overriddenValue": "Această valoare este suprascrisă.",
+            "dataUniqueToEnterprise": "Aceste informații sunt unice pentru compania {enterpriseName}. Apasă pe {action} pentru a rescrie aceste informații. Informațiile care nu au fost rescrise vor fi luate de la compania mamă."
+        },
+        "errors": {
+            "forbidden": "Nu există suficiente permisiuni pentru a efectua această acțiune."
+        },
+        "tooltip": {
+            "copyToClipboard": "Copiază în clipboard"
+        }
+    },
+    "timeRegistration": {
+        "static": {
+            "week": "Săptămână",
+            "compensationDescriptiveText": "Text descriptiv pentru compensație...",
+            "hours": "Ore",
+            "project": "Proiect",
+            "location": "Locație",
+            "notes": "Note",
+            "payOut": "Plată",
+            "hourType": "Tip oră",
+            "date": "Data",
+            "from": "De la",
+            "to": "La",
+            "kilometers": "Kilometri",
+            "reservationDescriptiveText": "Text descriptiv pentru rezervare...",
+            "reservation": "Rezervare",
+            "currentState": "Statut actual",
+            "newState": "Statut nou",
+            "attachmentNotRequired": "Atașamentul nu este necesar",
+            "deductions": "Deduceri",
+            "travelType": "Tip călătorie",
+            "invoiceCreated": "Factură creată",
+            "invoiceAlreadySaved": "Această factură a fost deja salvată.",
+            "compensations": "Compensații",
+            "reservations": "Rezervări",
+            "maxDistance": "Distanță max.",
+            "deductionDescriptiveText": "Text descriptiv deducere...",
+            "deduction": "Deducere",
+            "deductionAmount": "Sumă deducere",
+            "deductionAttachment": "Atașament deducere",
+            "compensation": "Compensație",
+            "deployed": "Desfășurat",
+            "staff": "Personal",
+            "companies": "Companii",
+            "function": "Funcție",
+            "deleteKilometersConfirmationText": "Sigur vrei să ștergi asta?",
+            "selectADeduction": "Selectează o deducere",
+            "uploadDeductionAttachment": "Încarcă atașamentul de deducere",
+            "amount": "Sumă",
+            "chargeTo": "Încasează la",
+            "freelancers": "Freelanceri",
+            "invoicingFailed": "Nu am putut crea facturile.",
+            "status": "Status",
+            "employmentIsInactiveText": "Această angajare nu este activă pe perioada selectată.",
+            "hourInfoText": "Compensațiile și deducerile sunt recalculate automat la actualizarea orelor.",
+            "validationFailed": "Validare eșuată",
+            "importSuccessful": "Importul a fost reușit",
+            "jobIsInactiveText": "Acest loc de muncă nu este activ pe perioada selectată.",
+            "unlocked": "Perioada a fost deblocată.",
+            "unlockFailed": "Nu am putut debloca perioada.",
+            "deleteTimeRegistrationConfirmationText": "Înregistrarea timpului va fi ștearsă.",
+            "downloadFormatFailed": "Eroare la crearea formatului.",
+            "import": "Importă",
+            "importStarted": "Importarea a început. În funcție de dimensiune, procesul poate dura până la câteva minute.",
+            "travelSaved": "Deplasarea a fost salvată.",
+            "creatingInvoicesStatusText": "Facturile sunt în curs de creare. Odată ce acest proces este finalizat, ele pot fi vizualizate aici.",
+            "shouldNotSendWithInvoice": "Nu trimite cu factură",
+            "timeRegistrationsDeleted": "Înregistrările orare au fost șterse.",
+            "deleteTimeRegistrationsConfirmationText": "Sigur vrei să ștergi înregistrările orare selectate?",
+            "compensationDeleted": "Compensația a fost ștearsă.",
+            "hourDeleted": "Orele au fost șterse.",
+            "copyFailed": "Nu am putut copia rândul.",
+            "travelDeleted": "Deplasarea a fost ștearsă.",
+            "returnTravelSaved": "Deplasarea retur a fost salvată.",
+            "travelDuplicated": "Călătoria a fost duplicată.",
+            "creatingInvoicesInfo": "Facturile sunt programate pentru a fi create.",
+            "noOutstandingTimeRegistrationsFound": "Nu au fost găsite înregistrări ale timpului în așteptare.",
+            "autoCalculateDeductionsInfo": "Dacă această opțiune este activată, deducerile în așteptare vor fi recalculate automat la înregistrarea orelor sau la generarea facturilor.",
+            "hoursCopied": "Orele au fost copiate.",
+            "someTravelsNotCopied": "Unele înregistrări de călătorie nu au putut fi copiate din cauza lipsei tipului de călătorie.",
+            "noRegistrationsFound": "Nu au fost găsite înregistrări.",
+            "someHoursNotCopied": "Unele înregistrări orare nu au putut fi copiate din cauza lipsei tipului de oră.",
+            "travelsCopied": "Călătoriile au fost copiate."
+        },
+        "actions": {
+            "cao": "CAO",
+            "duplicateReturnTravel": "Călătorie de întoarcere",
+            "duplicateKilometerRow": "Duplică rând",
+            "editHours": "Editează ore",
+            "addRow": "Adaugă rând",
+            "invoice": "Factură",
+            "correction": "Corectură",
+            "saveInvoice": "Salvează factură",
+            "receipts": "Chitanțe",
+            "uploadAttachments": "Încarcă atașamente",
+            "deployed": "Desfășurat",
+            "staff": "Personal",
+            "add": "Adaugă",
+            "copyPreviousPeriod": "Copiază perioada anterioară",
+            "uploadKilometerAccountability": "Actualizează contabilitatea kilometrilor",
+            "closePeriod": "Încheie perioada",
+            "viewHours": "Vizualizează ore",
+            "unlock": "Deblochează",
+            "autoCalculate": "Auto calculează",
+            "previewInvoice": "Previzualizează factura",
+            "viewInvoice": "Vizualizează factura",
+            "generateInvoice": "Generează factură",
+            "deleteInvoice": "Șterge factură",
+            "excel": "Excel",
+            "downloadFormat": "Descarcă format",
+            "upload": "Încarcă",
+            "import": "Importă",
+            "copyFromFreelancer": "Copiază de la alt freelancer",
+            "createTimeRegistration": "Creează o înregistrare a timpului",
+            "saveInvoices": "Salvează facturi",
+            "selectLockable": "Selectează toate",
+            "deselectAll": "Deselectează toate",
+            "copyFromEmployee": "Copiază de la alt angajat"
+        },
+        "tabs": {
+            "hours": "Ore",
+            "kilometers": "Kilometri",
+            "compensations": "Compensații",
+            "reservations": "Rezervări",
+            "deductions": "Deducții"
+        }
+    },
+    "hourType": {
+        "static": {
+            "value": "Valoare",
+            "unit": "Unitate",
+            "none": "Niciunul",
+            "name": "Nume",
+            "employeesWithAccess": "Angajați cu acces",
+            "employeeHasHourTypeOverrides": "Angajatul are anulări de tipul orei",
+            "hourType": "Tip oră",
+            "saved": "Salvat",
+            "default": "Ore implicite",
+            "deleted": "Șters",
+            "caoSurcharges": "Suprataxe CAO",
+            "timeForTimeEnabled": "Timp pentru Timp activat",
+            "hint": "Indiciu",
+            "frequency": "Frecvență",
+            "type": "Tip",
+            "timeForTime": "Timp pentru timp",
+            "employeesWithoutAccess": "Angajați fără acces",
+            "timeForTimeDisabled": "Timp pentru Timp dezactivat",
+            "defaultForNewEmployeeUpdated": "Tipurile orelor de bază pentru angajat nou actualizate",
+            "defaultForNewEmployee": "Implicit pentru angajat nou",
+            "desiredNetSalary": "Salariu net dorit",
+            "difference": "Diferență",
+            "actualNetSalary": "Salariu net actual",
+            "useDesiredNetSalary": "Folosește salariul net dorit",
+            "hourTypes": "Tipuri ore",
+            "chargeTo": "Încasează la"
+        },
+        "actions": {
+            "grantAccessToAll": "Acordă acces tuturor",
+            "takeAccessFromAll": "Ia accesul tuturor",
+            "enableTimeForTimeForAll": "Activează timp pentru timp pentru toți",
+            "disableTimeForTimeForAll": "Dezactivează timp pentru timp pentru toți"
+        }
+    },
+    "frequency": {
+        "static": {
+            "fourWeekly": "La patru săptămâni",
+            "monthly": "Lunar",
+            "week": "Săptămână",
+            "month": "Lună",
+            "fourWeek": "Patru săptămâni",
+            "hourly": "Pe oră",
+            "daily": "Zilnic",
+            "hour": "Oră",
+            "day": "Zi",
+            "weekly": "Săptămânal",
+            "hourShort": "h",
+            "dayShort": "z",
+            "weekShort": "s",
+            "fourWeekShort": "4s",
+            "monthShort": "l"
+        }
+    },
+    "reservation": {
+        "static": {
+            "holidayPay": "Plată concediu",
+            "timeForTime": "Timp recuperat",
+            "holidayHours": "Ore concediu",
+            "holidayHoursLegal": "Ore de concediu legale",
+            "holidayHoursExtraLegal": "Ore extra de concediu legal",
+            "holidays": "Concedii",
+            "shortAbsence": "Scurtă absență",
+            "money": "Bani",
+            "reservation": "Rezervare",
+            "updatedAt": "Actualizat la",
+            "workTimeReductionHours": "Reducerea orelor de lucru",
+            "seniorDays": "Zile seniori",
+            "time": "Timp",
+            "amount": "Sumă"
+        }
+    },
+    "travelType": {
+        "static": {
+            "employeeHasTravelTypeOverrides": "Angajatul are anulări de tipuri de călătorie",
+            "none": "Niciunul",
+            "employeesWithAccess": "Angajați cu acces",
+            "travelType": "Tip călătorie",
+            "saved": "Salvat",
+            "deleted": "Șters",
+            "name": "Nume",
+            "hint": "Indiciu",
+            "value": "Valoare",
+            "gross": "Brut",
+            "caoTravelExpenses": "Cheltuieli de călătorie CAO",
+            "default": "Implicit",
+            "unit": "Unitate",
+            "net": "Net",
+            "employeesWithoutAccess": "Angajați fără acces",
+            "defaultForNewEmployeeUpdated": "Tipuri de călătorie implicite pentru angajatul nou actualizate",
+            "defaultForNewEmployee": "Implicit pentru angajat nou",
+            "noTravels": "Fără deplasări",
+            "chargeTo": "Încasează la"
+        },
+        "actions": {
+            "grantAccessToAll": "Acordă acces tuturor",
+            "takeAccessFromAll": "Ia accesul tuturor"
+        }
+    },
+    "enterprises": {
+        "static": {
+            "enterprise": "Întreprindere",
+            "details": "Detalii",
+            "deleteStandardDocumentConfirmationText": "Ești sigur că vrei să ștergi acest document standard?",
+            "standardDocumentUpdateSuccess": "Document standard actualizat cu succes.",
+            "standardDocuments": "Documente standard",
+            "shouldNotifyCustomers": "Clienții trebuie înștiințați",
+            "noFileUploaded": "Niciun fișier nu a fost încărcat încă.",
+            "uploadNewFile": "Încarcă fișier nou",
+            "payOutEnterpriseInfo": "Întreprinderea plătitoare poate fi înlocuită selectând o întreprindere plătitoare a angajatului sau a angajatorului.",
+            "canHaveJobsInfo": "Dacă această opțiune este dezactivată, nu pot fi create angajări sau joburi pentru freelanceri pentru angajatorii care sunt asociați acestei întreprinderi.",
+            "canBeInvoicedInfo": "Dacă această opțiune este activată, această întreprindere va fi disponibilă când se va crea un nou angajator ca agenție de angajare."
+        }
+    },
+    "documentSubjectType": {
+        "static": {
+            "employment": "Angajare",
+            "employmentAgency": "Agenție de recrutare",
+            "hirer": "Angajator",
+            "factoringCompany": "Companie de factoring",
+            "freelancerJob": "Job de Freelancer",
+            "enterprise": "Întreprindere",
+            "freelancer": "Freelancer",
+            "employee": "Angajat",
+            "employeeContract": "Contract angajat"
+        }
+    },
+    "exports": {
+        "static": {
+            "queued": "Plasat în coada de așteptare",
+            "running": "În derulare",
+            "completed": "Finalizat",
+            "cancelled": "Anulat",
+            "failed": "Eșuat",
+            "factoringCompanyExport": "Export companie de factoring",
+            "options": "Opțiuni",
+            "exports": "Exporturi",
+            "generatedAt": "Generat la",
+            "deleteExportConfirmationText": "Acesta va șterge exportul.",
+            "marginAndDeductionsExport": "Export marjă & deducții",
+            "periods": "Perioade",
+            "total": "Total",
+            "exportSuccessful": "Export reușit",
+            "deleteSepaOverviewExportConfirmationText": "Exportul va fi șters, iar statusul plății pentru fiecare factură din acest export va fi resetat.",
+            "selectedInvoices": "Ai selectat {count} facturi.",
+            "notStarted": "Neînceput",
+            "deleteInvoiceConfirmationText": "Acesta va șterge toate facturile asociate și va debloca înregistrarea timpului pentru această perioadă.",
+            "export": "Exportă",
+            "payOutExport": "Plătește exporturile",
+            "noRegistrationsFound": "Nu s-au găsit înregistrări.",
+            "deletePayOutExportConfirmationText": "Exportul va fi șters, iar toate înregistrările din acest export vor deveni din nou exportabile.",
+            "registrations": "Înregistrări",
+            "noInvoicesFound": "Nu au fost găsite facturi.",
+            "deductionsDocumentNotSigned": "Document de deducții nesemnat.",
+            "payOutInfo": "Numele exportului va fi același cu cea mai mare perioadă selectată. Orice înregistrări selectate din perioade mai scurte vor fi exportate în fișiere separate. Orice facturi restante vor fi facturate.",
+            "archiveEmploymentAgencyConfirmationText": "Ești sigur că vrei să arhivezi această agenție de recrutare?",
+            "deleteWageAttachmentConfirmationText": "Atașamentul de salariu va fi șters.",
+            "archiveHirerConfirmationText": "Ești sigur că vrei să arhivezi acest angajator?",
+            "employeesExport": "Exportul angajaților",
+            "deleteCompensationConfirmationText": "Ești sigur că vrei să ștergi această compensație?",
+            "unarchiveEmploymentAgencyConfirmationText": "Ești sigur că vrei să dezarhivezi această agenție de recrutare?",
+            "deleteHourTypeConfirmationText": "Ești sigur că vrei să ștergi acest tip de oră?",
+            "deleteTravelTypeConfirmationText": "Ești sigur că vrei să ștergi acest tip de călătorie?",
+            "missingDocumentsForPayOutExport": "Lipsă documente semnate",
+            "unarchiveHirerConfirmationText": "Ești sigur că vrei să dezarhivezi acest angajator?",
+            "accountingSoftwareExport": "Software de contabilitate",
+            "saveInvoiceConfirmationText": "Facturile vor fi salvate și perioada va fi blocată.",
+            "marginOverview": "Prezentarea generală a marjelor",
+            "marginOverviewExport": "Exportul prezentării generale a marjelor",
+            "invoice": "Factură",
+            "hollandZorg": "HollandZorg",
+            "freelancersPayoutExport": "Exportarea plății freelancerilor",
+            "unexportedHealhInsuranceCount": "{count} asigurări de sănătate neexportate.",
+            "newEmployees": "Angajați noi",
+            "markAllAsChanged": "Marchează tot ca modificat",
+            "changedEmployees": "Angajați schimbați",
+            "markAllAsNew": "Marchează tot ca noutăți",
+            "editExport": "Editează exportarea",
+            "addEmployee": "Adaugă angajat",
+            "exportHealhInsuranceRemainder": "Exportă asigurările de sănătate neexportate",
+            "healthInsuranceExport": "Exportarea asigurărilor de sănătate",
+            "doNotExport": "Nu exporta",
+            "markAllAsDoNotExport": "Marchează tot ca „nu exporta”",
+            "markAllAsDoExport": "Marchează tot ca „exportă”",
+            "doExport": "Exportă",
+            "exported": "Exportat",
+            "archiveResellerConfirmationText": "Ești sigur că dorești să arhivezi acest revânzător?",
+            "unarchiveResellerConfirmationText": "Ești sigur că dorești să dezarhivezi acest revânzător?",
+            "resellerMarginsExport": "Exportul marjelor revânzătorului",
+            "mijnSubsidie": " ",
+            "mijnSubsidieExport": " ",
+            "historicalPayOutInfo": "Exporturile vor fi create pentru fiecare înregistrare de timp selectată. Se aplică regulile obișnuite de plată, cu excepția faptului că nu se calculează acumularea rezervelor.",
+            "historicalPayOutExport": "Export al istoricului plăților"
+        },
+        "pages": {
+            "factoringCompany": "Companie de factoring",
+            "marginAndDeductions": "Marjă & deducții",
+            "payOutExport": "Plătește exporturile",
+            "employeesExport": "Exportul angajaților",
+            "accountingSoftwareExport": "Software de contabilitate",
+            "marginOverviewExport": "Exportul prezentării generale a marjelor",
+            "hollandZorgExport": "Export HollandZorg",
+            "freelancersPayout": "Plată freelanceri",
+            "resellerMargins": "Marjele revânzătorului",
+            "mijnSubsidieExport": " "
+        },
+        "actions": {
+            "refresh": "Reactualizare",
+            "selectAll": "Selectează toate",
+            "clearSelection": "Golește selecția",
+            "generate": "Generează",
+            "selectPeriod": "Selectează perioada",
+            "exactDate": "Data exactă",
+            "timePeriod": "Perioada de timp",
+            "showOldExports": "Arată rapoarte vechi"
+        },
+        "payOut": {
+            "static": {
+                "skipNonExportableValidation": "Treci peste validarea documentelor lipsă",
+                "notExportedEmployeesInfo": "Unele ore negative ale angajaților nu au putut fi exportate:"
+            },
+            "actions": {
+                "historical": "Istoric"
+            }
+        },
+        "employees": {
+            "static": {
+                "createFreshExportInfo": "Când opțiunea 'export nou' este activată, toți angajații activi în prezent vor fi incluși în export.",
+                "createFreshExport": "Export nou"
+            }
+        }
+    },
+    "dashboard": {
+        "tabs": {
+            "newEmployees": "Angajați noi",
+            "newEmploymentAgencies": "Agenții de recrutare noi",
+            "newHirers": "Angajatori noi",
+            "newFreelancers": "Freelanceri noi",
+            "creditApplications": "Cereri de credit"
+        },
+        "charts": {
+            "revenue": "Venit",
+            "employees": "Angajați",
+            "workedHours": "Ore lucrate",
+            "hirers": "Angajatori",
+            "payroll": "Salarizare",
+            "temporary": "Temporar",
+            "overtime": "Ore suplimentare",
+            "surchargeHours": "Suprataxează ore",
+            "margin": "Marjă",
+            "freelancerCosts": "Costuri freelancer",
+            "freelancers": "Freelanceri",
+            "employmentAgencies": "Agenții de angajare"
+        },
+        "static": {
+            "functions": "Funcții",
+            "messageBox": "Căsuță mesaje",
+            "yourReservations": "Rezervările tale",
+            "recentPayslips": "Fluturași de salariu recenți",
+            "recentInvoices": "Facturi recente",
+            "unsignedContracts": "Contracte nesemnate",
+            "hirersWithoutCao": "Angajatori fără CAO",
+            "annualStatements": "Declarații anuale",
+            "notifications": "Notificări",
+            "statistics": "Statistici",
+            "newRegistrations": "Înregistrări noi",
+            "charts": "Grafice"
+        },
+        "functions": {
+            "exports": "Exporturi",
+            "invoices": "Facturi",
+            "documents": "Documente",
+            "imports": "Importuri",
+            "timeRegistration": "Înregistrarea timpului",
+            "payslipsAndAnnualStatements": "Fluturași de salariu / declarații anuale"
+        },
+        "titles": {
+            "employmentAgencies": "Agenții de recrutare",
+            "hirers": "Angajatori",
+            "freelancers": "Freelanceri",
+            "costExcludingVat": "Cost {year} (fără TVA)",
+            "marginExcludingVat": "Marjă (fără TVA)",
+            "employees": "Angajați",
+            "resellers": "Distribuitori"
+        },
+        "messageBox": {
+            "payOut": "Plată ({frequency})",
+            "birthdays": "Zile de naștere",
+            "lockablePeriods": "Perioade blocabile",
+            "missingDocuments": "Documente lipsă",
+            "expiredContracts": "Contracte expirate",
+            "expiringContracts": "Contracte care expiră",
+            "shouldSignDocuments": "Trebuie semnate documentele",
+            "renewableContracts": "Contracte de reînnoit"
+        }
+    },
+    "documentTemplates": {
+        "static": {
+            "default": "Implicit",
+            "noTranslations": "Fără traduceri",
+            "deleteConfirmationText": "Sigur vrei să ștergi acest șablon de document?",
+            "deleteVariableConfirmationText": "Sigur vrei să ștergi această variabilă a documentului?",
+            "deleteSharedDocumentTemplate": "Sigur nu mai vrei să folosești acest șablon de document?",
+            "kiwaDeclarationOfEmployment": "Declarația Kiwa de Angajare"
+        },
+        "actions": {
+            "copyToCurrentEnterprise": "Copiază la compania curentă",
+            "addSharedDocumentTemplate": "Adaugă șablonul de document partajat"
+        }
+    },
+    "emails": {
+        "editor": {
+            "invitationLink": "Link invitație"
+        }
+    },
+    "fieldTypes": {
+        "static": {
+            "checkbox": "Casetă de bifat",
+            "multiSelect": "Selecție multiplă",
+            "noOptions": "Nicio opțiune",
+            "radioButton": "Buton radio",
+            "select": "Selectează",
+            "textField": "Câmp text"
+        }
+    },
+    "language": {
+        "actions": {
+            "select": "Selectează"
+        },
+        "static": {
+            "default": "Implicit"
+        }
+    },
+    "menu": {
+        "actions": {
+            "dashboard": "Tablou de bord",
+            "employees": "Angajați",
+            "employmentAgencies": "Agenții de recrutare",
+            "functions": "Funcții",
+            "hirers": "Angajatori",
+            "settings": "Setări",
+            "invoices": "Facturi",
+            "exports": "Exporturi",
+            "imports": "Importuri",
+            "freelancers": "Freelanceri",
+            "logout": "Deconectare",
+            "language": "Limbă",
+            "documents": "Documente",
+            "timeRegistration": "Înregistrarea timpului",
+            "sickReports": "Rapoarte de boală",
+            "leaveImpersonation": "Părăsește personificarea",
+            "outOfService": "Indisponibil",
+            "account": "Cont",
+            "payslips": "Fluturași de salariu",
+            "resellers": "Distribuitori",
+            "proFormaPayslip": "Fluturaș de salariu proform"
+        }
+    },
+    "settings": {
+        "pages": {
+            "documents": "Documente",
+            "factoringCompanies": "Companii de factoring",
+            "enterprises": "Întreprinderi",
+            "users": "Utilizatori",
+            "webhooks": "Webhooks",
+            "personalAccessTokens": "Tokenuri acces personal",
+            "teams": "Echipe",
+            "roles": "Roluri",
+            "subsidyCompanies": "Companii subsidiare"
+        }
+    },
+    "deduction": {
+        "static": {
+            "housing": "Cazare",
+            "advance": "Avans",
+            "penalty": "Penalizare",
+            "certificateOfGoodBehavior": "Certificat de conduită bună",
+            "workingClothesWorkingShoes": "Haine de lucru, încălțăminte de lucru",
+            "eduction": "Educație",
+            "housingExtra": "Cazare extra",
+            "advanceExtra": "Avans extra",
+            "healthInsurance": "Asigurare de sănătate",
+            "personalContributionForTransport": "Contribuția personală la transport",
+            "healthInsuranceExtra": "Asigurare de sănătate extra",
+            "mealAllowance": "Indemnizație de hrană",
+            "personnelAssociation": "Asociația personalului"
+        }
+    },
+    "api": {
+        "kvk": {
+            "static": {
+                "apiOffline": "KVK Api este offline",
+                "companyInfoSuccessfullyFilled": "Informațiile companiei au fost completate cu succes"
+            },
+            "validation": {
+                "errors": {
+                    "cocNotFound": "Numărul Camerei de Comerț nu a fost găsit."
+                }
+            }
+        },
+        "creditsafe": {
+            "validation": {
+                "errors": {
+                    "companyNotFound": "Compania nu a fost găsită"
+                }
+            },
+            "static": {
+                "apiOffline": "Credit safe API este offline."
+            }
+        }
+    },
+    "compensation": {
+        "static": {
+            "employeesWithoutAccess": "Angajați fără acces",
+            "none": "Niciunul",
+            "employeesWithAccess": "Angajați cu acces",
+            "name": "Nume",
+            "value": "Valoare",
+            "unit": "Unitate",
+            "caoCompensations": "Compensații CAO",
+            "compensation": "Compensație",
+            "saved": "Salvat",
+            "deleted": "Șters",
+            "hint": "Indiciu",
+            "factor": "Factor",
+            "frequency": "Frecvență",
+            "payOutEnabled": "Plată activată",
+            "isGross": "Este brut",
+            "employeeHasCompensationOverrides": "Angajatul are anulări de compensații",
+            "chargeTo": "Încasează la",
+            "defaultForNewEmployee": "Implicit pentru angajat nou",
+            "defaultForNewEmployeeUpdated": "Compensații implicite pentru angajatul nou actualizate",
+            "payslipPaymentsDesiredSalaryExplanation": "La importarea plăților fluturașilor de salariu, această funcție creează o compensație pentru fiecare angajat care are un salariu dorit (furnizat în importul pentru înregistrarea timpului) mai mare decât plata fluturașului de salariu.",
+            "checkDesiredSalaryOnPayslipPayments": "Verifică salariul dorit",
+            "desiredSalaryCompensation": "Compensare salarială dorită",
+            "compensations": "Compensații",
+            "noCompensations": "Fără compensații",
+            "salesRate": "Rata vânzărilor",
+            "deviantFactor": "Factor deviant",
+            "compensationSaved": "Compensațiile au fost salvate.",
+            "enabledCompensationsRecalculatedInfo": "Când compensațiile sunt activate, acestea sunt calculate automat pentru orice înregistrări orare restante (dacă există ore înregistrate)."
+        },
+        "actions": {
+            "grantAccessToAll": "Acordă acces tuturor",
+            "takeAccessFromAll": "Ia accesul tuturor",
+            "addSalesRate": "Adaugă rata vânzărilor",
+            "useDeviatingFactor": "Folosește factorul deviant"
+        }
+    },
+    "invoice": {
+        "static": {
+            "costsOverview": "Sinteză costuri",
+            "deductionsOverview": "Sinteză deduceri",
+            "marginInvoice": "Marjă factură",
+            "number": "Număr",
+            "period": "Perioadă",
+            "salesInvoice": "Factură vânzări",
+            "billedAt": "Facturat la",
+            "salesInvoices": "Facturi vânzări",
+            "marginInvoices": "Facturi marjă",
+            "payments": "Plăți",
+            "noPaymentsFound": "Nu au fost găsite plăți",
+            "addPayment": "Adaugă plată",
+            "gAccount": "G-cont",
+            "log": "Registru",
+            "ipAddress": "Adresă IP",
+            "download": "Descarcă",
+            "files": "Fișiere",
+            "totalPaid": "Total plătit",
+            "gAccountPaid": "G-account plătit",
+            "pending": "În așteptare",
+            "queued": "Plasat în coada de așteptare",
+            "billed": "Facturat",
+            "paid": "Plătit",
+            "createdAt": "Creat la",
+            "paidAt": "Plătit la",
+            "invoiceWillBeBilled": "Facturile pentru această perioadă vor fi facturate curând.",
+            "invoiceWillBeSent": "Factura va fi trimisă.",
+            "sales": "Vânzări",
+            "costs": "Costuri",
+            "margin": "Marjă",
+            "total": "Total",
+            "invoice": "Factură",
+            "searchInvoices": "Caută facturi",
+            "info": "Info",
+            "createdBy": "Creat de",
+            "sendAt": "Trimite la",
+            "deductions": "Deduceri",
+            "customInvoice": "Factură personalizată",
+            "agreedWork": "Munca stabilită",
+            "creditInvoice": "Factură de credit",
+            "hideEmail": "Ascunde email",
+            "rows": "Rânduri",
+            "description": "Descriere",
+            "freelancerInvoice": "Factură freelancer",
+            "freelancer": "Freelancer",
+            "agreedWorkInvoice": "Factura pentru munca stabilită",
+            "attachments": "Atașamente",
+            "invoiceDate": "Data facturii",
+            "preview": "Previzualizare",
+            "exportDescriptiveText": "Un maxim de {count} facturi poate fi exportat o dată. Toate filtrele specificate în caseta de căutare vor fi folosite pentru a limita numărul de facturi din export.",
+            "customCostsOverview": "Prezentare generală a costurilor personalizate",
+            "customCosts": "Costuri personalizate",
+            "remuneration": "Remunerație",
+            "deleteInvoiceText": "Ești sigur că vrei să ștergi această factură?",
+            "newItem": "Articol nou",
+            "confirmTypeChangeText": "Orice articole de facturare existente vor fi șterse. Ești sigur că vrei să schimbi tipul?",
+            "makeMargin": "Creează marjă",
+            "item": "Articol",
+            "vat": "TVA",
+            "employee": "Angajat",
+            "deduction": "Deducție",
+            "custom": "Personalizat",
+            "amount": "Sumă",
+            "unitPrice": "Preț pe unitate",
+            "items": "Articole",
+            "exports": "Exporturi",
+            "exportInvalidText": "Prea multe facturi selectate, te rugăm să limitezi numărul de facturi folosind filtrele de mai sus.",
+            "billing": "Facturare",
+            "resellerMargin": "Marja distribuitorului",
+            "relatedInvoices": "Facturi asociate",
+            "resellerMarginInvoice": "Factura pentru marja distribuitorului",
+            "customInvoiceItemVatNotDefaultConfirmationText": "Ești sigur că vrei să folosești o taxă TVA diferită?"
+        },
+        "actions": {
+            "addPayment": "Adaugă plată",
+            "download": "Descarcă",
+            "billNow": "Facturează acum",
+            "sendNow": "Trimite acum",
+            "create": "Creează",
+            "addToQueue": "Adaugă la coadă",
+            "preview": "Previzualizează",
+            "createExport": "Exportă {count} facturi",
+            "downloadAll": "Descarcă tot",
+            "billSelected": "Facturează facturile selectate",
+            "selectBillable": "Selectează ceea ce este facturabil",
+            "deselectAll": "Deselectează toate"
+        },
+        "filter": {
+            "from": "De la",
+            "to": "Către",
+            "type": "Tip",
+            "queuedOnly": "Doar plasat în coada de așteptare",
+            "outstandingOnly": "Doar scadent"
+        }
+    },
+    "stippPlanType": {
+        "static": {
+            "basic": "Elementar",
+            "plus": "Plus"
+        }
+    },
+    "role": {
+        "static": {
+            "administrator": "Administrator",
+            "employee": "Angajat",
+            "hirer": "Angajator",
+            "freelancer": "Freelancer",
+            "superAdministrator": "Super administrator",
+            "employmentAgency": "Agenție de recrutare",
+            "roleDeleted": "Acest rol a fost șters.",
+            "deleteRoleText": "Ești sigur că dorești să ștergi acest rol?"
+        }
+    },
+    "hourTypes": {
+        "actions": {
+            "edit": "Editează"
+        }
+    },
+    "factoring": {
+        "static": {
+            "factoringCompany": "Companie de factoring",
+            "details": "Detalii",
+            "cessionText": "Text încetare",
+            "sendInvoice": "Trimite facturi?",
+            "impact": "Impact",
+            "factris": "Factris",
+            "nlCredit": "NL-Credit",
+            "typeInfo": "Tipul definește ce format vor avea exporturile.",
+            "deleteFactoringCompanyConfirmationText": "Ești sigur că vrei să ștergi această companie de factoring?",
+            "type": "Tip"
+        }
+    },
+    "permission": {
+        "action": {
+            "delete": "Șterge",
+            "update": "Actualizează",
+            "view": "Vizualizează",
+            "create": "Creează"
+        }
+    },
+    "validation": {
+        "errors": {
+            "checkForm": "Te rugăm să verifici formularul de erori",
+            "alternativeAddress": "Nu am putut găsi această adresă, te refereai la {address}?",
+            "addressInvalid": "Nu am putut găsi această adresă."
+        },
+        "static": {
+            "required": "Acest câmp este necesar",
+            "unableToDeleteItem": "Itemul nu poate fi șters"
+        }
+    },
+    "contact": {
+        "static": {
+            "userNotLinkedMessage": "Utilizatorul nu este activat sau nu este asociat unui contact.",
+            "uploadSuccess": "Fișierul este încărcat.",
+            "detached": "Contactul a fost detașat.",
+            "detachFailed": "Contactul nu a putut fi detașat.",
+            "detachConfirmationText": "Ești sigur că dorești să detașezi contactul?"
+        }
+    },
+    "employee": {
+        "static": {
+            "employments": "Angajări",
+            "employment": "Angajare",
+            "wageAttachments": "Atașamente salariale",
+            "wageAttachmentCreationSuccess": "Atașamentul de salariu a fost creat.",
+            "contractDeleteFailed": "Eroare în ștergerea contractului.",
+            "contractCreateSuccess": "Contractul a fost creat.",
+            "noRecentPayslips": "Nu s-au găsit fluturași de salariu recenți.",
+            "contractUpdateSuccess": "Contractul a fost actualizat.",
+            "deleteContractConfirmationText": "Ești sigur că vrei să ștergi acest contract?",
+            "createContract": "Creează contract",
+            "contract": "Contract",
+            "functions": "Funcții",
+            "wageAttachment": "Atașament salariu",
+            "wageAttachmentUpdateSuccess": "Atașamentul de salariu a fost actualizat.",
+            "wageAttachmentDeleteSuccess": "Atașamentul de salariu a fost șters.",
+            "contracts": "Contracte",
+            "contractDeleteSuccess": "Contractul a fost șters.",
+            "pensionPlan": "Plan de pensii",
+            "unarchiveConfirmationText": "Ești sigur că vrei să dezarhivezi acest angajat?",
+            "deleteConfirmationText": "Ești sigur că vrei să ștergi acest angajat?",
+            "deleteSuccess": "Angajatul a fost șters.",
+            "deleteFailed": "Ștergerea angajatului a eșuat.",
+            "archivedText": "Acest angajat este arhivat.",
+            "archiveConfirmationText": "Ești sigur că vrei să arhivezi acest angajat?",
+            "annualStatements": "Declarații anuale",
+            "annualStatement": "Declarație anuală",
+            "payslips": "Fluturași de salariu",
+            "noAnnualStatements": "Nu există declarații anuale.",
+            "deleteValidationFailed": "Nu se poate verifica dacă angajatul poate fi șters.",
+            "canNotDeleteEmploymentText": "Angajarea nu poate fi ștearsă din cauza înregistrărilor orare existente.",
+            "contractRequiredForEmploymentInfoText": "Atenție! Crearea unui contract este opțională dacă nu aveți încă un angajator/angajare. Nu puteți crea o angajare fără contract.",
+            "markedAsNew": "Marcat ca nou",
+            "markedAsChanged": "Marcat ca modificat",
+            "canNotDeleteEmployeeText": "Angajatul nu poate fi șters din cauza înregistrărilor orare existente.",
+            "inviteExistingInfoText": "Invitația îi va fi trimisă angajatului {name}.",
+            "inviteNewInfoText": "Invitația va fi trimisă pentru un nou angajat.",
+            "activeContract": "Contract activ",
+            "wizardSkipContractConfirmationText": "Sigur nu vrei să creezi un contract? Nu poți crea o angajare fără contract.",
+            "wizardSkipEmploymentConfirmationText": "Sigur nu vrei să creezi o angajare?",
+            "healthInsurances": "Asigurări de sănătate",
+            "submitForApprovalConfirmText": "Angajatul va fi trimis spre aprobare.",
+            "missingRequiredAttributesConfirmText": "Angajatul nu poate fi încă trimis spre aprobare deoarece unele atribute necesare nu sunt completate.",
+            "submittedForApproval": "Angajatul a fost trimis spre aprobare.",
+            "markToBeRenewedConfirmationText": "Contractul va fi marcat ca reînnoit la sfârșitul contractului.",
+            "markNotToBeRenewedConfirmationText": "Contractul nu va fi marcat ca reînnoit și va fi șters din mesaje. Angajatul va primi un email cu confirmarea că contractul nu va fi reînnoit după ce expiră.",
+            "contractCreateWithDocumentInfo": "Un nou contract va fi creat împreună cu documentul corespunzător. O cerere de semnare pentru document va fi trimisă la 1 oră după creare. Data încheierii contractului curent va fi stabilită la o zi înainte de data de început a noului contract.",
+            "contractMarkedNotToBeRenewed": "Contractul a fost marcat pentru a nu fi reînnoit",
+            "contractMarkedToBeRenewed": "Contractul a fost marcat pentru a fi reînnoit",
+            "subsidyCreateSuccess": "Filiala a fost creată.",
+            "accountNotActivatedInfo": "Contul nu a fost (încă) activat. Apasă pe butonul invitație pentru a trimite angajatului un link de activare.",
+            "subsidyDeleteSuccess": "Filiala a fost ștearsă."
+        },
+        "messages": {
+            "identityBothSides": "Te rugăm să încarci atât fața, cât și versoul actului de identitate."
+        },
+        "outOfService": "Indisponibil",
+        "actions": {
+            "newContract": "Contract nou",
+            "markAsNew": "Marchează ca nou",
+            "markAsChanged": "Marchează ca modificat",
+            "createContract": "Creează contract",
+            "deleteContract": "Șterge contract",
+            "createEmployment": "Creează angajare",
+            "deleteSubsidyConfirmationText": "Ești sigur că dorești să ștergi această filială?"
+        }
+    },
+    "imports": {
+        "static": {
+            "employee": "Angajat",
+            "total": "Total",
+            "notStarted": "Neînceput",
+            "queued": "Plasat în coada de așteptare",
+            "running": "În derulare",
+            "completed": "Finalizat",
+            "cancelled": "Anulat",
+            "failed": "Eșuat",
+            "payslips": "Fluturași de salariu",
+            "upload": "Încarcă",
+            "imports": "Importuri",
+            "payslipsImported": "Fluturași de salariu importați",
+            "log": "Registru",
+            "importedAt": "Importat la",
+            "payslipsImport": "Importul fluturașilor de salariu",
+            "bankImport": "Import bancar",
+            "imported": "Importat",
+            "payslipsPayments": "Plata fluturașilor de salariu",
+            "iban": "IBAN",
+            "payments": "Plăți",
+            "reservations": "Rezervări",
+            "reservationsImported": "Rezervări importate",
+            "reservationsImport": "Import rezervări",
+            "annualStatementsImport": "Importul declarațiilor anuale",
+            "payslipPaymentsCreateCompensations": "Creează compensații",
+            "annualStatements": "Declarații anuale",
+            "annualStatementsImported": "Declarații anuale importate",
+            "dispatched": "Expediat",
+            "sendAfterCompletion": "Trimite după finalizare",
+            "timeRegistration": "Înregistrarea timpului",
+            "desiredSalaryCheck": "Verificarea salariului dorit",
+            "outstandingDesiredSalaryCheck": "Unele plăți nu se potrivesc cu salariul dorit:",
+            "outstandingDesiredSalaryCompensationsCreated": "Compensațiile sunt create.",
+            "payslipsPaymentsPeriodText": "Dacă o perioadă și/sau corecție este selectată, toate plățile din PDF vor fi importate în acea perioadă. Dacă nicio perioadă nu este selectată, se va folosi numărul perioadei din PDF.",
+            "entity": "Entitate"
+        },
+        "pages": {
+            "payslips": "Fluturași de salariu",
+            "bankImport": "Import bancar",
+            "payments": "Plăți",
+            "reservations": "Rezervări",
+            "annualStatements": "Declarații anuale"
+        },
+        "actions": {
+            "upload": "Încarcă",
+            "refresh": "Actualizează"
+        }
+    },
+    "documentStatus": {
+        "static": {
+            "created": "Creat",
+            "pending": "În așteptare",
+            "declined": "Respins",
+            "expired": "Expirat",
+            "completed": "Finalizat"
+        }
+    },
+    "documentType": {
+        "static": {
+            "pdf": "PDF",
+            "template": "Model",
+            "view": "Vizualizează",
+            "upload": "Încarcă"
+        }
+    },
+    "document": {
+        "static": {
+            "log": "Registru",
+            "selectSubjects": "Selectează subiecții",
+            "selectSubjectsForSignedFileText": "Selectează toți subiecții cărora dorești să le trimiți fișierul semnat.",
+            "selectSubjectsForSignRequestsText": "Selectează toți subiecții cărora dorești să le trimiți o solicitare de semnare.",
+            "sendSignRequestsConfirmationText": "Următorii destinatari vor primi o solicitare pentru semnare.",
+            "generatorSubjectShouldSignExplanation": "Următorii destinatari vor primi o solicitare pentru semnare.",
+            "selectSubjectsForCompletedFileText": "Selectează toți destinatarii la care dorești să trimiți fișierul finalizat.",
+            "generatorSubjectSendAfterCompletionExplanation": "Următorii destinatari vor primi documentul când este finalizat.",
+            "subjectSaved": "Subiectul a fost salvat.",
+            "subjectDeleted": "Subiectul a fost șters."
+        }
+    },
+    "log": {
+        "static": {
+            "description": "Descriere",
+            "date": "Data",
+            "old": "Vechi",
+            "new": "Nou",
+            "properties": "Proprietăți",
+            "system": "Sistem",
+            "causer": "Cauzator",
+            "id": "ID",
+            "subject": "Subiect"
+        }
+    },
+    "employment": {
+        "static": {
+            "payOutPreferences": "Preferință plată",
+            "startDate": "Data de început",
+            "endDate": "Data de încheiere",
+            "function": "Funcție",
+            "scale": "Scală",
+            "factor": "Factor",
+            "grossSalary": "Salariu brut",
+            "salesRate": "Rata vânzărilor",
+            "includeExtraDays": "Include zilele extra în salariu",
+            "deleteConfirmationText": "Ești sigur că vrei să ștergi această angajare?",
+            "deleteSuccess": "Angajarea a fost ștearsă.",
+            "deleteFailed": "Ștergerea angajării a eșuat.",
+            "workdaysAndTimes": "Zile lucrătoare și ore",
+            "emptyFunctionSalesRateConfirmationText": "Totate funcțiile au o rată de vânzări goală.",
+            "missingRequiredAttributesConfirmText": "Angajarea nu poate fi trimisă încă spre aprobare deoarece unele atribute necesare nu sunt completate.",
+            "submitForApprovalConfirmText": "Angajarea va fi trimisă spre aprobare."
+        },
+        "actions": {
+            "createNext": "Creează următorul",
+            "addFunction": "Adaugă funcție",
+            "goToEmployment": "Accesează angajarea"
+        },
+        "messages": {
+            "wizardPreviousEmploymentExplanation": "Angajarea precedentă este folosită ca bază pentru această nouă angajare."
+        }
+    },
+    "freelancerJob": {
+        "static": {
+            "startDate": "Data de început",
+            "endDate": "Data de încheiere",
+            "hourlyRate": "Tarif orar",
+            "salesRate": "Rata vânzărilor",
+            "margin": "Marjă",
+            "hourType": "Tip oră",
+            "deleteHourTypeConfirmationText": "Ești sigur că dorești să ștergi acest tip de oră?",
+            "activities": "Activități",
+            "compensation": "Compensație",
+            "name": "Nume",
+            "travelType": "Tip călătorie",
+            "rate": "Rată",
+            "deleteConfirmationText": "Ești sigur că vrei să ștergi acest loc de muncă?",
+            "deleteSuccess": "Locul de muncă a fost șters.",
+            "deleteFailed": "Ștergerea locului de muncă a eșuat.",
+            "deviatingMargin": "Marjă deviantă",
+            "missingRequiredAttributesConfirmText": "Locul de muncă nu poate fi trimis încă spre aprobare deoarece unele atribute necesare nu sunt completate.",
+            "hourTypeMarginInfo": "Completând această valoare, tabelul cu tarife va fi ignorat.",
+            "notMinimumHourTypeMarginConfirmationText": "Unele marje sunt mai mici ca marja calculată.",
+            "submitForApprovalConfirmText": "Locul de muncă va fi trimis spre aprobare."
+        },
+        "actions": {
+            "addTravelType": "Adaugă tip de călătorie",
+            "addCompensation": "Adaugă compensație",
+            "addHourType": "Adaugă tip de oră"
+        }
+    },
+    "freelancer": {
+        "static": {
+            "job": "Loc de muncă",
+            "jobs": "Locuri de muncă",
+            "jobCreationSuccess": "Locul de muncă a fost creat",
+            "deleteConfirmationText": "Ești sigur că vrei să ștergi acest freelancer?",
+            "deleteFailed": "Ștergerea freelancer-ului a eșuat.",
+            "deleteSuccess": "Freelancer-ul a fost șters.",
+            "linkedThroughJob": "Asociat prin locul de muncă",
+            "inviteNewInfoText": "Invitația va fi trimisă pentru un freelancer nou.",
+            "inviteExistingInfoText": "Invitația va fi trimisă către freelancerul {name}.",
+            "missingRequiredAttributesConfirmText": "Freelancer-ul nu poate fi trimis încă spre aprobare deoarece unele atribute necesare nu sunt completate.",
+            "submitForApprovalConfirmText": "Freelancer-ul va fi trimis spre aprobare.",
+            "submittedForApproval": "Freelancer-ul a fost trimis spre aprobare",
+            "archiveConfirmationText": "Ești sigur că dorești să arhivezi acest freelancer?",
+            "activeOnly": "Doar activi",
+            "unarchiveConfirmationText": "Ești sigur că dorești să dezarhivezi acest freelancer?",
+            "archivedText": "Acest freelancer este arhivat."
+        }
+    },
+    "company": {
+        "static": {
+            "documentEmail": "Document email",
+            "documentEmailCc": "Document cc",
+            "notificationEmail": "Notificare email",
+            "notificationEmailCc": "Notificare cc",
+            "reminderEmail": "Email de reamintire",
+            "reminderEmailCc": "Reamintire cc",
+            "copyInfo": "O nouă copie va fi creată și asociată întreprinderii selectate. Doar o singură copie poate fi creată pentru fiecare întreprindere. Schimbările aduse originalului pot fi sincronizate cu copia.",
+            "freelancerMargins": "Marje freelancer",
+            "copies": "Copii",
+            "synchronizeInfo": "Valorile selectate vor fi sincronizate pentru compania selectată.",
+            "copiesAreIdentical": "Copiile sunt identice.",
+            "synchronizationSuccessful": "Copiile au fost sincronizate cu succes.",
+            "original": "Original",
+            "typeSlug": "Tip companie",
+            "pensionPlanFactors": "Factori plan de pensie",
+            "email": "Email companie",
+            "phone": "Telefon companie",
+            "website": "Website companie",
+            "legalFormSlug": "Formular legal"
+        },
+        "actions": {
+            "synchronize": "Sincronizează",
+            "makeCopy": "Creează copie",
+            "newCopy": "Copie nouă"
+        }
+    },
+    "export": {
+        "actions": {
+            "toSepaAndMarkAsPaid": "Către SEPA & marchează ca plătit",
+            "generate": "Generează"
+        },
+        "static": {
+            "skipValidation": "Omite validarea"
+        }
+    },
+    "period": {
+        "actions": {
+            "select": "Selectează"
+        }
+    },
+    "user": {
+        "actions": {
+            "sendResetPasswordLink": "Trimite link pentru resetarea parolei"
+        },
+        "static": {
+            "notActivated": "Utilizatorul nu este activat.",
+            "deactivated": "Dezactivat"
+        }
+    },
+    "job": {
+        "static": {
+            "freelancerJob": "Job de freelancer",
+            "employment": "Angajare",
+            "employments": "Angajări",
+            "freelancerJobs": "Joburi de freelancer"
+        }
+    },
+    "users": {
+        "static": {
+            "deactivateConfirmationText": "Utilizatorul va fi dezactivat și nu se va mai putea autentifica.",
+            "sendPasswordResetConfirmationText": "Un email cu link-ul pentru resetarea parolei va fi trimis la {email}.",
+            "permissionsSaved": "Permisiunile au fost salvate.",
+            "reactivateConfirmationText": "Utilizatorul va fi reactivat și se va putea autentifica din nou."
+        }
+    },
+    "outOfServiceReason": {
+        "static": {
+            "deploymentEndByIllness": "Încheierea contractului pe caz de boală",
+            "cancelledByEmployerWithinProbation": "Anulat de către angajator în timpul perioadei de probă",
+            "cancelledByAgreement": "Rezilierea contractului agreată",
+            "endByLawOtherReason": "Încheierea angajării conform legii din alt motiv",
+            "cancelledByEmployerUwv": "Anulat de angajator, aprobat de UWV",
+            "cancelledByJudge": "Anulat de către judecător",
+            "cancelledByEmployee": "Anulat de către angajat",
+            "cancelledByEmployer": "Anulat de către angajator",
+            "endOfEmployment": "Încheierea angajării conform legii din cauza datei de încheiere a contractului",
+            "deploymentEndByOtherReason": "Încheierea contractului din alt motiv",
+            "continuedWithoutIncome": "Continuat fără venit",
+            "otherReason": "Alt motiv"
+        }
+    },
+    "cv": {
+        "reference": {
+            "email": "Email",
+            "references": "Referințe",
+            "fullName": "Numele complet al angajatorului",
+            "company": "Companie",
+            "telephone": "Telefon",
+            "addReference": "Adaugă referință"
+        },
+        "interest": {
+            "interests": "Interese",
+            "pickInterests": "Alege interesele"
+        },
+        "profile": {
+            "profileSummary": "Introdu rezumatul profilului tău aici (minim 150 cuvinte necesare)...",
+            "profile": "Profil"
+        },
+        "work": {
+            "addWorkExperience": "Adaugă experiența profesională",
+            "workExperience": "Experiență profesională",
+            "function": "Funcție",
+            "jobDescription": "Descrierea postului"
+        },
+        "select": "Selectează",
+        "certificate": {
+            "certificates": "Certificate",
+            "description": "Descriere",
+            "addCertificate": "Adaugă certificat",
+            "addEducation": "Adaugă Educație / Calificare"
+        },
+        "education": {
+            "educationsAndQualifications": "Educație și calificări",
+            "educationsDescription": "Descriere educație"
+        },
+        "title": "Titlu",
+        "from": "De la",
+        "till": "Până la",
+        "language": {
+            "languages": "Limbi",
+            "pickLanguage": "Alege limbile",
+            "rating": "Evaluarea limbilor"
+        },
+        "skill": {
+            "skills": "Abilități",
+            "pickSkills": "Alege abilitățile tale",
+            "rating": "Evaluarea abilităților tale"
+        },
+        "dialog": {
+            "close": "Închide",
+            "generateCv": "Generează cv"
+        }
+    },
+    "wageAttachment": {
+        "static": {
+            "overallSum": "Suma totală",
+            "informationRequestSent": "Solicitarea de informații este transmisă",
+            "outstanding": "Restant",
+            "paid": "Plătit",
+            "garnishee": "Terț poprit",
+            "reference": "Referință",
+            "taxFreeSum": "Sumă fără taxe",
+            "outstandingAmount": "Suma restantă",
+            "paidAmount": "Suma plătită",
+            "garnisheeContact": "Contact terț poprit",
+            "garnisheeCity": "Oraș terț poprit"
+        },
+        "actions": {
+            "informationRequest": "Solicitare informații",
+            "sendInformationRequest": "Trimite solicitarea de informații"
+        }
+    },
+    "legalForm": {
+        "static": {
+            "homeownersAssociation": "Asociația Proprietarilor",
+            "soleProprietorMultipleOwners": "Comerciant unic cu mai mult de un proprietar",
+            "limitedPartnership": "Parteneriat limitat",
+            "limitedCompanyStartUpAForm": "Înființare N.V. (Societate cu răspundere limitată publică) /B.V. (Societate cu răspundere limitată închisă) pe formularul A",
+            "limitedCompanyStartUpBForm": "Înființare N.V. (Societate cu răspundere limitată publică) /B.V. (Societate cu răspundere limitată închisă) pe formularul B",
+            "publicLimitedCompanyRegular": "Societate publică cu răspundere limitată cu structură obișnuită",
+            "publicLimitedCompanyTwoTier": "Societate publică cu răspundere limitată conform statutului societății administrate în regim dualist",
+            "europeanPublicLimitedCompanyRegularTwoTierCooperative": "Companie europeană cu răspundere limitată publică (SE) conform statutului societății cooperative",
+            "cooperativeLimitedLiabilityStructuralCooperative": "Cooperativă cu Răspundere Limitată conform statutului societății cooperativă structurală",
+            "mutualInsuranceCompanyLegalLiabilityStructuralMutual": "Societate mutuală de asigurări cu Răspundere Juridică conform statutului societății mutual structural",
+            "branchOfficeHeadOfficeAbroad": "Filială cu sediul în străinătate",
+            "foreignEcBusinessMainOfficeNetherlands": "Afacere EC străină cu sediul principal în Țările de Jos",
+            "soleProprietor": "Proprietar unic",
+            "publicLimitedCompanyInvestmentVariableCapitalTwoTier": "Societate publică de investiții cu răspundere limitată cu capital variabil conform statutului societății administrate în regim dualist",
+            "privateLimitedCompanyTwoTier": "Societate privată cu răspundere limitată conform statutului societății administrate în regim dualist",
+            "commercialPartnership": "Parteneriat general",
+            "publicPartnership": "Parteneriat public",
+            "legalPersonStartUp": "Înființare persoană juridică",
+            "limitedCompanyStartUpDForm": "Înființare N.V. (Societate cu răspundere limitată publică) /B.V. (Societate cu răspundere limitată închisă) pe formularul D",
+            "publicLimitedCompany": "Societate publică cu răspundere limitată",
+            "privateLimitedCompanyRegular": "Societate privată cu răspundere limitată cu structură obișnuită",
+            "privateLimitedCompany": "Societate privată cu răspundere limitată",
+            "shippingCompany": "Companie de Transport",
+            "europeanPublicLimitedCompanyRegular": "Companie europeană cu răspundere limitată publică (SE) cu structură obișnuită",
+            "cooperative": "Cooperativă",
+            "cooperativeLegalLiabilityRegular": "Cooperativă cu Răspundere Legală cu structură obișnuită",
+            "cooperativeLegalLiabilityStructuralCooperative": "Cooperativă cu Răspundere Legală conform statutului societății cooperativă structurală",
+            "cooperativeLimitedLiabilityRegular": "Cooperativă cu Răspundere Limitată cu structură obișnuită",
+            "associationFullLegalCapacity": "Asociație cu capacitate juridică deplină",
+            "associationLimitedLegalCapacity": "Asociație cu capacitate juridică limitată",
+            "religiousDenomination": "Confesiune religioasă",
+            "foundation": "Fundație",
+            "mutualInsuranceCompany": "Societate mutuală de asigurări",
+            "mutualInsuranceCompanyStructuralMutual": "Societate mutuală de asigurări conform statutului societății",
+            "mutualInsuranceCompanyLegalLiabilityRegular": "Societate mutuală de asigurări cu Răspundere Judiciară cu structură obișnuită",
+            "mutualInsuranceCompanyLimitedLiabilityRegular": "Societate mutuală de asigurări cu Răspundere Limitată cu structură obișnuită",
+            "mutualInsuranceCompanyLimitedLiabilityStructuralMutual": "Societate mutuală de asigurări cu Răspundere Limitată conform statutului societății mutual structural",
+            "legalPersonPublicLaw": "Persoană juridică conform dreptului public",
+            "legalPersonPrivateLaw": "Persoană juridică de drept privat",
+            "europeanEconomicInterestGrouping": "Grupul European de Interes Economic",
+            "cooperativeStructuralCooperative": "Cooperativă conform statutului societății cooperativă structurală",
+            "publicLimitedCompanyInvestmentVariableCapital": "Societate publică de investiții cu răspundere limitată cu capital variabil",
+            "foreignLegalFormHeadOfficeNetherlands": "Formă juridică străină cu sediul central în Țările de Jos",
+            "foreignEcBusinessCompanyNetherlands": "Afacere EC străină cu compania în Țările de Jos",
+            "foreignSimilarEcBusinessCompanyNetherlands": "Companie străină similară unei afaceri EC cu companie în Țările de Jos",
+            "foreignSimilarEcBusinessMainOfficeNetherlands": "Companie străină similară unei afaceri EC cu sediul principal în Țările de Jos"
+        }
+    },
+    "contractType": {
+        "static": {
+            "payrollPermanent": "Statul de plată (permanent)",
+            "phase1And2": "Faza 1/2",
+            "phase3": "Faza 3",
+            "phase4": "Faza 4",
+            "payrollFixedTerm": "Statul de plată (termen fix)"
+        }
+    },
+    "outOfService": {
+        "date": "Data",
+        "process": "Procesează",
+        "search": "Căutare",
+        "actions": {
+            "deleteConfirmationText": "Ești sigur că vrei să elimini notificarea indisponibilității?",
+            "delete": "Șterge",
+            "cancel": "Anulează",
+            "processConfirmationText": "Ești sigur că vrei să procesezi notificarea indisponibilității?",
+            "process": "Procesează"
+        },
+        "reason": "Motiv",
+        "processSuccess": "Notificarea indisponibilității a fost procesată cu succes.",
+        "onlyOutstanding": "Doar restant"
+    },
+    "sickReport": {
+        "betterReport": {
+            "actions": {
+                "confirmationTextEmployee": "Ești sigur că vrei să raportezi însănătoșirea acestui angajat?",
+                "confirm": "Confirmă",
+                "cancel": "Anulează",
+                "confirmationText": "Ești sigur că vrei să raportezi însănătoșirea?"
+            },
+            "success": "Însănătoșirea angajatului a fost raportată cu succes.",
+            "report": "Raportează însănătoșire",
+            "confirmationQuestion": "Ești sigur?"
+        },
+        "success": {
+            "deleted": "Raportul de boală a fost șters cu succes."
+        },
+        "reportSick": "Raportează o boală",
+        "alreadySick": "Angajatul este deja raportat ca fiind bolnav.",
+        "actions": {
+            "deleteConfirmationText": "Ești sigur că vrei să ștergi acest raport de boală?",
+            "delete": "Șterge",
+            "cancel": "Anulează"
+        },
+        "filter": {
+            "currentSickOnly": "Doar cei bolnavi în prezent",
+            "start": "Începe",
+            "end": "Încheie"
+        }
+    },
+    "employmentAgency": {
+        "static": {
+            "archivedText": "Această agenție de recrutare este arhivată.",
+            "deleteConfirmationText": "Ești sigur că vrei să ștergi această agenție de angajare?",
+            "deleteSuccess": "Agenția de angajare a fost ștearsă.",
+            "deleteFailed": "Ștergerea agenției de angajare a eșuat.",
+            "inviteExistingInfoText": "Invitația va fi trimisă către agenția de angajare {companyName}.",
+            "inviteNewInfoText": "Invitația va fi trimisă către o nouă agenție de angajare.",
+            "missingRequiredAttributesConfirmText": "Agenția de angajare nu poate fi încă trimisă spre aprobare deoarece unele atribute necesare nu sunt completate.",
+            "makeResellerConfirmationText": "Ești sigur că dorești să creezi un revânzător pentru agenția de angajare?",
+            "submitForApprovalConfirmText": "Agenția de angajare va fi trimisă spre aprobare."
+        }
+    },
+    "deductions": {
+        "static": {
+            "amountIsLimited": "Suma deducției este limitată în baza orelor acestei perioade.",
+            "uploadFile": "Încarcă fișierul",
+            "outstandingDeductions": "Deducții restante",
+            "recurringDeductions": "Deducții recurente",
+            "saved": "Deducțiile sunt salvate.",
+            "amount": "Sumă",
+            "for": "Pentru",
+            "remainingAmount": "Suma rămasă",
+            "files": "Fișiere",
+            "deductFrom": "Dedu din",
+            "noDeductions": "Fără deduceri",
+            "remaining": "Rămas",
+            "unexportedOnly": "Doar ne-exportat"
+        }
+    },
+    "hirer": {
+        "form": {
+            "holidays": "Concedii",
+            "otherCompensations": "Alte compensații",
+            "overtime": "Ore suplimentare",
+            "shiftWork": "Muncă în ture",
+            "travelHours": "Ore de călătorie",
+            "travelCost": "Cost de călătorie",
+            "companyOwnedScheme": "Schemă deținută de companie",
+            "remunerationSpecifics": "Specificații"
+        },
+        "static": {
+            "archivedText": "Angajatorul este arhivat.",
+            "hirerRemuneration": "Remunerația angajatorului",
+            "deleteConfirmationText": "Ești sigur că vrei să ștergi acest angajator?",
+            "deleteSuccess": "Angajatorul a fost șters.",
+            "deleteFailed": "Ștergerea angajatorului a eșuat.",
+            "saved": "Angajatorul este salvat",
+            "projectDeleted": "Proiectul a fost șters.",
+            "assignment": "Sarcină",
+            "inviteExistingInfoText": "Invitația va fi trimisă către angajatorul {companyName}.",
+            "inviteNewInfoText": "Invitația va fi trimisă către un nou angajator.",
+            "missingRequiredAttributesConfirmText": "Angajatorul nu poate fi trimis încă spre aprobare deoarece unele atribute necesare nu sunt completate.",
+            "notMinimumCompanyFreelancerHourTypeMarginConfirmationText": "Marja de bază pentru tipul de oră al freelancer-ului este mai mică decât valoarea angajării.",
+            "notMinimumCompanyFreelancerHourTypeMarginAdditionsConfirmationText": "Unele adiții la marje sunt mai mici decât valorile de angajare.",
+            "submitForApprovalConfirmText": "Angajatorul va fi trimis spre aprobare.",
+            "submittedForApproval": "Angajatorul a fost trimis spre aprobare."
+        }
+    },
+    "etRegulation": {
+        "validation": {
+            "totalNotAllowed": "Valoarea totală a regulamentului et nu este între valorile permise.",
+            "distanceCalculationFailedText": "Nu am putut calcula distanța până la adresa de domiciliu. Te rugăm să verifici dacă detaliile adresei sunt valide."
+        },
+        "static": {
+            "calculatedAmount": "Sumă calculată: {amount}",
+            "amountShouldBeBetween": "Suma totală trebuie să fie între {min} și {max}.",
+            "totalAmount": "Suma totală actuală este {amount}.",
+            "singleTrip": "Distanța unei singure călătorii: {distance} km"
+        }
+    },
+    "note": {
+        "actions": {
+            "cancel": "Anulează",
+            "deleteConfirmationText": "Ești sigur că vrei să ștergi această notă?",
+            "delete": "Șterge"
+        },
+        "success": {
+            "deleted": "Nota a fost ștearsă cu succes."
+        }
+    },
+    "creditLimit": {
+        "static": {
+            "finalAssessmentWillFollowLater": "Evaluarea finală a limitei de credit va urma mai târziu."
+        }
+    },
+    "wizard": {
+        "static": {
+            "freelancerNotApproved": "Acest freelancer nu a fost aprobat încă.",
+            "noDocumentsToGenerate": "Niciun document de generat.",
+            "employmentAgencyNotApproved": "Această agenție de recrutare nu a fost aprobată încă.",
+            "employeeNotApproved": "Acest angajat nu a fost aprobat încă.",
+            "hirerNotApproved": "Acest angajator nu a fost aprobat încă.",
+            "resellerNotApproved": "Acest revânzător nu a fost aprobat încă."
+        },
+        "actions": {
+            "viewWizard": "Asistent de vizualizare"
+        }
+    },
+    "employees": {
+        "static": {
+            "activeOnly": "Doar activ",
+            "linkedThroughEmployment": "Asociat prin angajare"
+        }
+    },
+    "pensionPlan": {
+        "static": {
+            "basic": "Stipp basic",
+            "plus": "Stipp plus",
+            "adequate": "Adecvat",
+            "bpf": "BPF"
+        }
+    },
+    "invitation": {
+        "actions": {
+            "sendInvitation": "Trimite invitație"
+        },
+        "static": {
+            "inviteSuccess": "Invitație cu succes",
+            "tokenInvalid": "Token invalid",
+            "tokenInvalidDescription": "Token-ul este invalid."
+        }
+    },
+    "documentTemplate": {
+        "actions": {
+            "saveTranslation": "Salvează traducerea"
+        },
+        "static": {
+            "guaranteeAgreement": "Acord de garanție",
+            "hireAgreementFreelancers": "Acord de angajare pentru freelanceri",
+            "healthcareAuthorisationForm": "Formular de autorizare a asistenței medicale",
+            "etAddendum": "Anexa ET",
+            "antiDiscriminationPolicy": "Politică anti-discriminare",
+            "leadGenerationAgreement": "Acord de generare de lead-uri",
+            "contractPhase12": "Fază contract 1/2",
+            "contractPhase3": "Fază contract 3",
+            "contractPhase4": "Fază contract 4",
+            "termsAndConditions": "Termeni și condiții",
+            "frameworkAgreement": "Acord cadru",
+            "hireAgreement": "Acord de angajare",
+            "employmentConfirmation": "Confirmarea angajării",
+            "jobConfirmation": "Confirmarea locului de muncă",
+            "declarationAgreement": "Acord declarativ",
+            "employmentTerminationAgreement": "Acord de încetare a angajării",
+            "deductionsAndAdvances": "Deduceri și avansuri",
+            "staffGuide": "Ghidul personalului",
+            "employersDeclaration": "Declarația angajatorilor",
+            "contractPayrollFixedTerm": "Contract pe perioadă determinată",
+            "contractPayrollPermanent": "Contract pe perioadă nedeterminată",
+            "mediationAgreement": "Acord de mediere",
+            "intermediateAgreement": "Acord intermediar",
+            "idStatementForm": "Formular declarație ID",
+            "deliveryDeed": "Act de livrare",
+            "wageAttachmentRequest": "Solicitare anexă la salariu",
+            "jobConfirmationFreelancer": "Confirmare loc de muncă freelancer",
+            "collaborationAgreementFreelancer": "Acord de colaborare freelancer",
+            "healthcareAgreement": "Acord asistență medicală",
+            "payrollConfirmation": "Confirmarea statului de plată"
+        }
+    },
+    "riskGroup": {
+        "static": {
+            "administrative": "Administrativ",
+            "executive": "Executiv"
+        }
+    },
+    "filters": {
+        "static": {
+            "archivedOnly": "Doar arhivate",
+            "withActiveEmploymentsOnly": "Doar cu angajări active",
+            "readyForApproval": "Gata pentru aprobare",
+            "createdByAdmin": "Creat de admin",
+            "selectedEnterpriseOnly": "Doar întreprinderile selectate"
+        }
+    },
+    "import": {
+        "static": {
+            "reservationsImported": "Rezervări importate"
+        }
+    },
+    "employeePayslip": {
+        "actions": {
+            "sendNow": "Trimite acum"
+        },
+        "static": {
+            "sendEmailConfirmationText": "Ești sigur că vrei să trimiți fluturașul de salariu acum?",
+            "sendEmailSuccess": "Fluturașul de salariu a fost trimis.",
+            "sendEmailFailed": "Fluturașul de salariu nu a putut fi trimis."
+        }
+    },
+    "timeRegistrationPeriodStatus": {
+        "static": {
+            "completed": "Finalizat",
+            "requiresAction": "Necesită acțiune",
+            "open": "Deschide",
+            "locking": "Blocare",
+            "locked": "Blocat"
+        }
+    },
+    "invoiceGroup": {
+        "static": {
+            "custom": "Personalizat",
+            "timeRegistration": "Înregistrarea timpului"
+        }
+    },
+    "error": {
+        "static": {
+            "description": "A apărut o eroare. Încearcă să reîncarci sau să te întorci la pagina anterioară.",
+            "serverError": "Eroare de server",
+            "pageNotFound": "Pagina nu a fost găsită",
+            "pageNotFoundDescription": "Nu am putut găsi pagina pe care o cauți."
+        },
+        "actions": {
+            "back": "Înapoi la pagina anterioară"
+        }
+    },
+    "reservations": {
+        "static": {
+            "deleteReservationText": "Rezervarea va fi ștearsă din înregistrarea orară.",
+            "editBuildupInfo": "Când aceste valori se modifică, înregistrarea orară corespunzătoare va fi actualizată.\nCând se creează o nouă solicitare sau dacă solicitarea a fost deja plătită:\n- Statusul rezervării va fi actualizat.\n- Solicitarea nu va apărea în exportul plății.\nCând se actualizează o solicitare care nu a fost încă plătită:\n- Statusul rezervării nu va fi actualizat.\n- Solicitarea va fi actualizată în exportul plății.",
+            "buildup": "Acumulare",
+            "paidOut": "Plătit",
+            "noBuildupFound": "Nu s-a găsit nicio acumulare",
+            "showEmptyPeriods": "Arată perioadele goale",
+            "request": "Solicitare",
+            "saved": "Rezervarea a fost salvată.",
+            "deleted": "Rezervarea a fost ștearsă",
+            "reservationRequest": "Solicitări de rezervare",
+            "newRequest": "Solicitare nouă",
+            "canOnlyEditHistoricalBuildupInfo": "Doar valorile vechi pot fi editate.",
+            "noReservations": "Fără rezervări",
+            "requestReservations": "Solicită rezervări",
+            "calculationTool": "Uneltă de calculare"
+        },
+        "tooltip": {
+            "warningRequestNotYetExported": "Această solicitare nu a fost plătită încă."
+        },
+        "actions": {
+            "request": "Solicitare"
+        }
+    },
+    "project": {
+        "static": {
+            "projectManagers": "Manageri de proiect",
+            "createProject": "Creează proiect",
+            "projectCreationSuccess": "Proiect creat cu succes.",
+            "updateProject": "Actualizează proiect",
+            "deleteProjectConfirmationText": "Sigur vrei să ștergi proiectul?"
+        }
+    },
+    "search": {
+        "static": {
+            "noMoreResults": "Nu mai există rezultate.",
+            "ctrlShiftF": "Ctrl + Shift + F"
+        }
+    },
+    "holiday": {
+        "static": {
+            "easterMonday": "Lunea Paștelui",
+            "newYear": "Anul nou",
+            "ascensionDay": "Înălțarea Domnului",
+            "whitMonday": "Lunea Rusaliilor",
+            "firstChristmasDay": "Prima zi de Crăciun",
+            "secondChristmasDay": "A doua zi de Crăciun",
+            "kingsDay": "Ziua Regelui",
+            "liberationDay": "Ziua Eliberării"
+        }
+    },
+    "factoringCompany": {
+        "static": {
+            "deleted": "Compania de factoring a fost ștearsă."
+        }
+    },
+    "companyType": {
+        "static": {
+            "healthcare": "Asistență medicală",
+            "default": "Implicit"
+        }
+    },
+    "workServiceType": {
+        "static": {
+            "night": "Tură de noapte",
+            "weekend": "Tură de weekend",
+            "reachability": "Serviciul de accesibilitate",
+            "consignment": "Serviciul de expediere"
+        }
+    },
+    "media": {
+        "static": {
+            "type": "Tip",
+            "other": "Altul",
+            "curriculumVitae": "Curriculum Vitae",
+            "motivationLetter": "Scrisoare de intenție",
+            "diploma": "Diplomă",
+            "certificateOfConduct": "Certificat de conduită",
+            "pdfPagesCount": "PDF-ul are {amount} pagini"
+        }
+    },
+    "entity": {
+        "static": {
+            "enterprise": "Firmă",
+            "employmentAgency": "Agenție de recrutare",
+            "hirer": "Angajator",
+            "employee": "Angajat",
+            "freelancer": "Freelancer"
+        }
+    },
+    "healthInsurance": {
+        "static": {
+            "saved": "Asigurările de sănătate sunt salvate."
+        }
+    },
+    "marginType": {
+        "static": {
+            "default": "Implicit",
+            "overtime": "Ore suplimentare",
+            "etRegulation": "Regulament ET",
+            "senior": "Senior",
+            "hourType": "Tip oră"
+        }
+    },
+    "freelancerHourTypeMarginAddition": {
+        "static": {
+            "hirerPaymentTermTableHeader": "Termenul de plată al angajatorului",
+            "hourlyRateFreelancerTableHeader": "Tarif orar (de la)"
+        }
+    },
+    "reseller": {
+        "static": {
+            "deleteConfirmationText": "Ești sigur că dorești să ștergi acest revânzător?",
+            "deleteCustomerConfirmationText": "Ești sigur că dorești să ștergi acest client? Toate marjele asociate acestui client vor fi șterse.",
+            "missingRequiredAttributesConfirmText": "Revânzătorul nu poate fi trimis încă spre aprobare deoarece unele atribute necesare nu sunt completate.",
+            "submitForApprovalConfirmText": "Revânzătorul va fi trimis spre aprobare.",
+            "archivedText": "Acest revânzător este arhivat.",
+            "deleteSuccess": "Revânzătorul a fost șters.",
+            "deleteFailed": "Eroare în ștergerea revânzătorului.",
+            "employeeMargins": "Marje angajat",
+            "freelancerMargins": "Marje freelancer",
+            "defaultMargin": "Marjă implicită",
+            "zeroMarginConfirmationText": "Una sau mai multe marje au valoarea '0'.",
+            "customerCanOnlyHaveOneResellerInfoMessage": "Dacă agenția de angajare nu este afișată, verifică dacă este deja asociată unui alt revânzător."
+        }
+    },
+    "teamType": {
+        "static": {
+            "freelancer": "Freelancer",
+            "employee": "Angajat",
+            "hirer": "Angajator",
+            "employmentAgency": "Agenție de Angajare",
+            "reseller": "Revânzător"
+        }
+    },
+    "teams": {
+        "static": {
+            "team": "Echipă",
+            "addTeam": "Adaugă echipă",
+            "deleteTeamText": "Ești sigur că dorești să ștergi această echipă?",
+            "details": "Detalii",
+            "deleteTeamPresetText": "Ești sigur că dorești să ștergi această presetare a echipei?",
+            "teamOwner": "Deținător Echipă",
+            "roles": "Roluri"
+        }
+    },
+    "personalAccessToken": {
+        "static": {
+            "tokenCreatedInfo": "Tokenul a fost creat. Tokenul va fi afișat o singură dată, deci depozitează-l într-un loc sigur.",
+            "tokenCopied": "Token copiat în clipboard",
+            "personalAccessTokens": "Tokenuri acces personal",
+            "details": "Detalii",
+            "tokenPlaceholder": "Tokenul va fi afișat aici.",
+            "deletePersonalAccessTokenText": "Tokenul va fi șters și nu mai poate fi folosit."
+        }
+    },
+    "messageBox": {
+        "static": {
+            "shouldSignDocument": {
+                "subject": "Subiect",
+                "sendSignRequestConfirmationText": "Următorul subiect va primi o cerere de semnare",
+                "newSignTokenConfirmationText": "Un nou token pentru semnare va fi primit.",
+                "newSignTokenSuccess": "Tokenul pentru semnare a fost primit cu succes.",
+                "newSignTokenFailed": "A existat o eroare în timpul primirii noului token pentru semnare.",
+                "hideDocumentConfirmationText": "Ești sigur că dorești să ascunzi această sarcină? Nu va reapărea din nou."
+            },
+            "hideContractConfirmationText": "Ești sigur că dorești să ascunzi acest contract? Nu va reapărea din nou."
+        }
+    },
+    "roles": {
+        "static": {
+            "roleCreated": "Rolul a fost creat.",
+            "permissionsSaved": "Permisiunile au fost salvate."
+        }
+    },
+    "subsidyCompany": {
+        "static": {
+            "deleteSubsidyCompanyConfirmationText": "Ești sigur că dorești să ștergi compania subsidiară?",
+            "deleted": "Compania subsidiară a fost ștearsă."
+        }
+    },
+    "subsidy": {
+        "static": {
+            "clearToExcludeFromSubsidy": "Golește acest câmp pentru a exclude acest item din filială.",
+            "endDateInfo": "Dacă data de sfârșit nu este sfârșitul unei săptămâni, filiala va fi inclusă până la sfârșitul săptămânii anterioare.",
+            "details": "Detalii",
+            "createSubsidy": "Creează filială",
+            "updateSubsidy": "Actualizează filială",
+            "startDateInfo": "Dacă data de început nu este începutul unei săptămâni, filiala va fi inclusă de la începutul săptămânii următoare.",
+            "confirmation": "Confirmare filială"
+        }
+    },
+    "proFormaPayslip": {
+        "static": {
+            "splitPayOutInfo": "Când această opțiune este activată, orele obișnuite vor fi separate de celelalte ore/suprataxare/compensații în fluturașul de salariu."
+        },
+        "actions": {
+            "previewPayslip": "Previzualizează fluturașul de salariu",
+            "previewCostPriceOverview": "Previzualizează prezentarea generală a costurilor"
+        }
+    }
+}

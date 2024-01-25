@@ -1,0 +1,2466 @@
+{
+    "auth": {
+        "actions": {
+            "backToLogin": "Vissza a bejelentkezéshez",
+            "forgotPassword": "Elfelejtettem a jelszót",
+            "resetPassword": "Jelszó visszaállítása",
+            "login": "Belépés",
+            "updatePassword": "Jelszó frissítése",
+            "logout": "Kijelentkezés",
+            "leaveImpersonation": "Megszemélyesítés elhagyása",
+            "deactivate": "Kikapcsolás",
+            "changePassword": "Jelszó megváltoztatása",
+            "reactivate": "Újraaktiválás"
+        },
+        "pages": {
+            "login": "Belépés",
+            "setPassword": "Jelszó beállítása",
+            "forgotPassword": "Elfelejtettem a jelszót",
+            "activateAccount": "Felhasználó aktiválása"
+        },
+        "static": {
+            "accountActivationSuccess": "Felhasználó aktiválva",
+            "forgotPasswordSuccessDescription": "Küldtünk egy e-mailt a jelszó visszaállításához szükséges linkkel.",
+            "email": "E-mail",
+            "forgotPasswordSuccess": "Jelszót visszaállító link elküldve",
+            "passwordResetSuccess": "Jelszó visszaállítása",
+            "logoutConfirmationText": "Biztosan szeretne kijelentkezni?",
+            "registrationSuccessful": "Sikeres regisztráció",
+            "leaveImpersonationConfirmationText": "Biztos benne, hogy elhagyja a megszemélyesítést?",
+            "userDeactivated": "A felhasználó kikapcsolásra került.",
+            "passwordUpdated": "A jelszó frissítésre került.",
+            "mobileDashboardOrderUpdated": "A mobil vezérlőpult sorrendje frissült.",
+            "tokenExpired": "Token lejárt",
+            "tokenExpiredInfo": "Önt kijelentkeztették, mert a hitelesítési tokenje lejárt. A folytatáshoz kérjük, jelentkezzen be a hitelesítő adatokkal.",
+            "authenticated": "Ön bejelentkezett!",
+            "userReactivated": "A felhasználó újraaktiválásra került."
+        }
+    },
+    "role": {
+        "static": {
+            "employmentAgency": "Munkaközvetítő",
+            "administrator": "Adminisztrátor",
+            "employee": "Alkalmazott",
+            "hirer": "Alkalmazó",
+            "freelancer": "Szabadúszó",
+            "superAdministrator": "Szuper adminisztrátor",
+            "deleteRoleText": "Biztosan törli ezt a szerepet?",
+            "roleDeleted": "A szerep törölve."
+        }
+    },
+    "documentSubjectType": {
+        "static": {
+            "employmentAgency": "Munkaközvetítő",
+            "employment": "Munkaviszony",
+            "hirer": "Alkalmazó",
+            "factoringCompany": "Faktoring cég",
+            "freelancerJob": "Szabadúszó munka",
+            "employee": "Munkavállaló",
+            "enterprise": "Vállalat",
+            "freelancer": "Szabadúszó",
+            "employeeContract": "Munkavállaló szerződés"
+        }
+    },
+    "menu": {
+        "actions": {
+            "employmentAgencies": "Munkaközvetítők",
+            "dashboard": "Irányítópult",
+            "employees": "Alkalmazottak",
+            "functions": "Funkciók",
+            "hirers": "Alkalmazók",
+            "settings": "Beállítások",
+            "timeRegistration": "Időrögzítés",
+            "invoices": "Számlák",
+            "exports": "Exportok",
+            "imports": "Importálások",
+            "freelancers": "Szabadúszók",
+            "logout": "Kijelentkezés",
+            "documents": "Dokumentumok",
+            "language": "Nyelv",
+            "leaveImpersonation": "Megszemélyesítés elhagyása",
+            "sickReports": "Betegjelentések",
+            "outOfService": "Szolgálaton kívül",
+            "account": "Számla",
+            "payslips": "Bérpapírok",
+            "resellers": "Viszonteladók",
+            "proFormaPayslip": "Pro forma bérelszámolás"
+        }
+    },
+    "general": {
+        "static": {
+            "employmentAgencyApprovalSuccess": "Munkaközvetítő jóváhagyása sikeres.",
+            "middleName": "Második utónév",
+            "participantEtRegulation": "Részt vesz az ET szabályozásban?",
+            "authorizedSignatory": "Felhatalmazott aláíró",
+            "cao": "Cao",
+            "chamberOfCommerceNumber": "Kereskedelmi Kamarai szám",
+            "employmentAgencies": "Munkaközvetítők",
+            "hirerApprovalFail": "Alkalmazó jóváhagyása sikertelen.",
+            "identityValidUntil": "Személyazonosságot igazoló dokumentum érvényességi ideje",
+            "notes": "Megjegyzések",
+            "vatNumber": "Adószám",
+            "employmentDate": "Alkalmazás dátuma",
+            "vatTariff": "ÁFA-díj",
+            "employer": "Alkalmazó",
+            "addressInformation": "Cím információ",
+            "accountHolder": "Számlatulajdonos",
+            "address": "Cím",
+            "birthdate": "Születési dátum",
+            "birthplace": "Születési hely",
+            "createContact": "Kapcsolattartó létrehozása",
+            "currentEmployments": "Jelenlegi munkaviszonyok",
+            "documentTemplates": "Dokumentum sablonok",
+            "documentNumber": "Okmány száma",
+            "employeeApprovalFail": "Alkalmazott jóváhagyása sikertelen.",
+            "employeeApprovalSuccess": "Alkalmazott jóváhagyása sikeres.",
+            "employeeCreationSuccess": "Alkalmazott létrehozása sikeres.",
+            "employment": "Munkaviszony",
+            "employmentAgency": "Munkaközvetítő",
+            "employmentAgencyApprovalFail": "Munkaközvetítő jóváhagyása sikertelen.",
+            "employmentAgencyCreationSuccess": "Munkaközvetítő jóváhagyása sikeres.",
+            "firstName": "Utónév",
+            "hi": "Üdv {user}",
+            "hirerApprovalSuccess": "Alkalmazó jóváhagyása sikeres.",
+            "hirerCreationSuccess": "Alkalmazó létrehozása sikeres.",
+            "id": "Azonosító",
+            "identityType": "Azonosító típusa",
+            "initials": "Monogram",
+            "contact": "Elérhetőség",
+            "contactInformation": "Elérhetőség információk",
+            "email": "E-mail",
+            "invoices": "Számlák",
+            "category": "Kategória",
+            "country": "Ország",
+            "countryOfBirth": "Születési ország",
+            "creditLimit": "Hitelkeret",
+            "documents": "Dokumentumok",
+            "employees": "Alkalmazottak",
+            "etRegulation": "ET rendelet",
+            "factor": "Faktor",
+            "files": "Fájlok",
+            "financialInformation": "Pénzügyi információk",
+            "gender": "Nem",
+            "hirer": "Alkalmazó",
+            "hirers": "Alkalmazók",
+            "iban": "IBAN",
+            "invite": "Meghív",
+            "takeOverFromHirer": "Átvétel az alkalmazótól",
+            "employeeType": "Alkalmazotti típus",
+            "terminationDate": "Lejárat dátuma",
+            "contractHours": "Szerződésben meghatározott órák",
+            "startDate": "Kezdési dátum",
+            "homewardTravelCost": "Hazautazás költsége",
+            "homewardTravelDistance": "Hazautazás távolsága",
+            "homewardTravelFrequency": "Hazautazás gyakorisága",
+            "invoiceEmail": "Számla e-mail",
+            "splitMargin": "Osztott árrés",
+            "language": "Nyelv",
+            "name": "Név",
+            "phone": "Telefon",
+            "postalAddress": "Postacím",
+            "search": "Keresés",
+            "yes": "Igen",
+            "no": "Nem",
+            "lastName": "Vezetéknév",
+            "legalForm": "Jogi forma",
+            "log": "Napló",
+            "maritalStatus": "Családi állapot",
+            "none": "Nincs",
+            "notApplicable": "Nem érvényes",
+            "personalData": "Személyes adatok",
+            "residenceAddress": "Lakcím",
+            "sbiCodes": "SBI kódok",
+            "settings": "Beállítások",
+            "timeForTime": "Idő időért",
+            "visitAddress": "Cím megtekintése",
+            "timeRegistration": "Idő rögzítése",
+            "percentage": "Százalék",
+            "euro": "Euró",
+            "payrollTaxReduction": "Bérszámfejtési adócsökkentés",
+            "contractPhase": "Szerződés fázisa",
+            "payOutFrequency": "Fizetés gyakorisága",
+            "factorEtRegulation": "ET faktor szabályozása",
+            "factorOvertime": "Túlóra faktor",
+            "webhooks": "Webhookok",
+            "period": "Időszak",
+            "city": "Város",
+            "factoringCompanies": "Faktoring vállalatok",
+            "factoringCompany": "Faktoring vállalat",
+            "enterprises": "Vállalkozások",
+            "employee": "Alkalmazott",
+            "enabled": "Engedélyezve",
+            "nr": "Szám",
+            "exports": "Exportok",
+            "company": "Vállalat",
+            "companyInformation": "Vállalat információi",
+            "confirmationQuestion": "Biztos benne?",
+            "dashboard": "Irányítópult",
+            "citizenServiceNumber": "Személyazonosító Szám",
+            "deleteFailed": "Hiba történt. Ha a probléma továbbra is fennáll, kérjük, vegye fel velünk a kapcsolatot.",
+            "total": "Összesen",
+            "cancel": "Elvetés",
+            "enterprise": "Vállalat",
+            "date": "Dátum",
+            "freelancers": "Szabadúszók",
+            "freelancer": "Szabadúszó",
+            "hours": "Órák",
+            "payslip": "Bérpapír",
+            "timesheet": "Munkaidő-nyilvántartás",
+            "reservations": "Foglalások",
+            "imports": "Importálások",
+            "attachments": "Csatolmányok",
+            "freelancerCreationSuccess": "Szabadúszó sikeresen létrehozva",
+            "freelancerApprovalSuccess": "Szabadúszó sikeresen elfogadva",
+            "account": "Felhasználó",
+            "overtime": "Túlóra",
+            "surcharge": "Pótdíj",
+            "shiftWorkSurcharge": "Műszakos munka pótlék",
+            "sepaId": "SEPA felhasználó",
+            "travelHours": "Utazási órák",
+            "users": "Felhasználók",
+            "user": "Felhasználó",
+            "link": "Link",
+            "newContact": "Új kapcsolat",
+            "invoiceEmailCc": "CC számla",
+            "originalValue": "Eredeti érték",
+            "billedAt": "Számlázva ekkor",
+            "freelancerApprovalFail": "Szabadúszót nem sikerült elfogadni",
+            "permissions": "Engedélyek",
+            "employmentCreationSuccess": "Alkalmazás sikeresen létrehozva",
+            "km": "KM",
+            "housingCost": "Lakhatási költség",
+            "outOfServiceDate": "Üzemen kívül helyezés dátuma",
+            "sendFailed": "Küldés sikertelen",
+            "timeRegistrationIsNotEnabledText": "Az időregisztráció nincs engedélyezve.",
+            "workEndTime": "Munka befejezési ideje",
+            "costOfLivingAllowance": "Megélhetési támogatás költsége",
+            "resultsCount": "{count} eredmények",
+            "phase": "Fázis",
+            "sendPayslips": "Bérpapírok küldése",
+            "stipp": "Stipp",
+            "weeksWorked": "Ledolgozott hetek",
+            "translations": "Fordítás",
+            "subjects": "Tárgyak",
+            "outOfServiceReason": "Üzemen kívül helyezés oka",
+            "accountNumber": "Számlaszám",
+            "createdAt": "Létrehozva ekkor",
+            "filters": "Szűrők",
+            "startsAt": "Kezdés ekkor",
+            "endsAt": "Befejezés ekkor",
+            "factorSenior": "Faktor szenior",
+            "year": "Év",
+            "note": "Jegyzet",
+            "createdBy": "Felhasználó",
+            "createNote": "Jegyzet létrehozása",
+            "seniorDays": "Rangidős napok",
+            "workTimeReductionDays": "Munkaidő-csökkentési napok",
+            "workHours": "Munkaórák",
+            "workStartTime": "Munka kezdési ideje",
+            "sickReports": "Betegjelentések",
+            "maxImageSize": "A kép kisebb kell legyen, mint {width} x {height} pixel.",
+            "unarchiveSuccess": "Az elem archíválatlan.",
+            "end": "Befejezés",
+            "reason": "Ok",
+            "hint": "Tipp",
+            "outOfServiceEmployeeSuccess": "A munkavállalóról sikeresen jelentették, hogy nincs szolgálatban.",
+            "outOfService": "Szolgálaton kívül",
+            "uploadFiles": "Fájlok feltöltése",
+            "invoiceCompany": "Számlatársaság",
+            "employments": "Alkalmazások",
+            "freelancerJobs": "Szabadúszó állások",
+            "deleteFileConfirmationText": "Biztosan szeretné törölni a fájlt?",
+            "fromPeriod": "Ettől a periódustól",
+            "filesUploaded": "Fájlok feltöltve",
+            "fileUploadFailed": "Fájl feltöltése sikertelen",
+            "unarchiveFailed": "Nem sikerült archíválatlanná tenni ezt az elemet.",
+            "start": "Kezdés",
+            "fileDeleted": "File törölve",
+            "fileDeleteFailed": "Fájl törlése sikertelen",
+            "outOfServiceSuccess": "Sikeresen szolgálaton kívül",
+            "createFailed": "Nem sikerült elmenteni ezt a felvételt.",
+            "updateFailed": "Nem sikerült elmenteni ezt a felvételt.",
+            "saveFailed": "Nem sikerült elmenteni ezt a felvételt.",
+            "archiveSuccess": "Az elem archíválásra került.",
+            "archiveFailed": "Nem sikerült archíválni ezt az elemet.",
+            "location": "Helyszín",
+            "holidaySurcharge": "Szabadság pótdíj",
+            "recentVisitedPages": "Itt jelennek meg a nemrég felkeresett oldalak.",
+            "payOutEnterprise": "Vállalkozás kifizetése",
+            "frequency": "Gyakoriság",
+            "from": "Feladó",
+            "until": "Amíg",
+            "download": "Letöltés",
+            "annualStatements": "Éves bevallás(ok)",
+            "sharedDocumentTemplates": "Megosztott dokumentumsablon",
+            "upcomingEmployments": "Közelgő munkák",
+            "companyType": "Vállalat típusa",
+            "useHirerValue": "Toborzó érték alkalmazása",
+            "canNotDeleteEmployeeTitle": "Nem sikerült törölni",
+            "usingHirerValue": "Toborzó érték alkalmazása",
+            "certificateOfConduct": "Erkölcsi bizonyítvány",
+            "healthInsuranceStartDateInfo": "Az egészségbiztosítási levonás minden hét/négy hét/hónap elején kerül hozzáadásra (a kifizetés gyakoriságától függően), mindaddig, amíg az adott időpontban fennáll az aktív egészségbiztosítás.",
+            "contractEndDate": "Szerződés Vége Dátum",
+            "contractStartDate": "Szerződés Kezdő Dátum",
+            "description": "Leírás",
+            "subject": "Tárgy",
+            "causer": "Okozó",
+            "reservationsBuildup": "Foglalások felépítése",
+            "seasonalWork": "Szezonális munka",
+            "payslips": "Bérpapírok",
+            "projects": "Projektek",
+            "correction": "Javítás",
+            "selectedAmount": "Kijelölve ({amount})",
+            "validationFailed": "A validáció sikertelen",
+            "useEmploymentAgencyValue": "Munkaközvetítő érték alkalmazása",
+            "type": "Típus",
+            "usingEmploymentAgencyValue": "Munkaközvetítő érték alkalmazása",
+            "canNotDeleteEmploymentTitle": "Nem sikerült törölni",
+            "useParentValue": "Szülőérték alkalmazása",
+            "import": "Importálás",
+            "importHirers": "Toborzók importálása",
+            "importSuccessful": "Sikeres importálás",
+            "loadFailed": "Nem tudtuk betölteni a kért adatokat.",
+            "importEmployees": "Munkavállalók importálása",
+            "importEmployments": "Munkák importálása",
+            "importFreelancers": "Szabadúszók importálása",
+            "importFreelancerJobs": "Szabadúszó munkák importálása",
+            "importEntityFailed": "Az importálás nem sikerült. Próbálja meg frissíteni az oldalt, és futtassa újra az importálást.",
+            "registration": "Regisztráció",
+            "owner": "Tulajdonos",
+            "marginInvoicePerWeek": "Fedezeti számla hetente",
+            "generateFreelancerDocuments": "Szabadúszó dokumentumok létrehozása",
+            "generateFreelancerDocumentsInfo": "Ha ez az opció le van tiltva, a szabadúszó varázsló végén nem jön létre dokumentum.",
+            "currentJobs": "Aktuális munkák",
+            "upcomingJobs": "Közelgő munkák",
+            "isPayOutEnabled": "Kifizetés engedélyezve?",
+            "pages": "Oldalak",
+            "homeAddress": "Otthoni cím",
+            "splitPayOutInfo": "Ha ez az opció engedélyezve van, akkor a rendszeres órák a kifizetési exportban elkülönülnek a többi regisztrációtól.",
+            "dontSendDocumentsInfo": "Az itt kiválasztott dokumentumokra nem küldünk aláírási kérelmet.",
+            "showTotal": "Összes megjelenítése",
+            "submitForApprovalConfirmTitle": "Beküldés jóváhagyásra",
+            "submitForApprovalConfirmText": "A tétel benyújtásra kerül jóváhagyásra .",
+            "resellerApprovalSuccess": "Sikeresen jóváhagyta a viszonteladót.",
+            "dashboardOrderMobile": "Vezérlőpult elrendezés mobilra",
+            "notifications": "Értesítések",
+            "splitPayOut": "Osztott kifizetés",
+            "recurringDeductionInfo": "Az ismétlődő levonás minden hét/négy hét/hónap elején kerül hozzáadásra (a kifizetés gyakoriságától függően).",
+            "disablePayOutConfirmationText": "Biztos, hogy le akarja tiltani a regisztrációhoz tartozó kifizetéseket?",
+            "missingRequiredAttributesConfirmTitle": "Hiányzó kötelező mezők",
+            "otherInfo": "Egyéb információ",
+            "dontSendDocuments": "Ne küldjön dokumentumokat",
+            "saved": "Mentve",
+            "fillAll": "Összes kitöltése",
+            "submittedForApproval": "Jóváhagyásra benyújtva.",
+            "submitForApprovalFailed": "Nem tudtuk jóváhagyásra benyújtani az entitást.",
+            "notYetSubmittedForApproval": "Még nem lett jóváhagyásra benyújtva.",
+            "missingRequiredAttributesConfirmText": "A tétel még nem nyújtható be jóváhagyásra, mert néhány szükséges attribútum nincs kitöltve.",
+            "jobCreationSuccess": "Az állás létrehozva.",
+            "variable": "Változó",
+            "minimum": "Minimum",
+            "new": "Új",
+            "resellers": "Viszonteladók",
+            "resellerCreationSuccess": "Viszonteladó létrehozása sikeres.",
+            "resellerApprovalFail": "Nem sikerült jóváhagyni a viszonteladót.",
+            "reseller": "Viszonteladó",
+            "confirmationImpersonateText": "Biztosan ezt a felhasználót akarja megszemélyesíteni?",
+            "googleLogo": "Google logó",
+            "resultsCountMobile": "Oldal {current} - {total}",
+            "defaultValue": "Alapértelmezett érték",
+            "token": "Hozzáférési token",
+            "personalAccessTokens": "Személyes hozzáférési tokenek",
+            "signTokenExpiresAt": "Az aláírási token lejár:",
+            "NoPermissionForSegment": "Nincsen megfelelő jogosultsága a szegmens megtekintéséhez...",
+            "contactHasNoAccountTooltip": "Ennek a kapcsolatnak nincs fiókja",
+            "teams": "Csapatok",
+            "teamPresets": "Csapat előbeállítások",
+            "unableToDeleteItem": "Az elemet nem sikerült törölni",
+            "messageBox": "Üzenet doboz",
+            "hide": "Elrejtés",
+            "contractType": "Szerződés típus",
+            "expiresAt": "Lejár:",
+            "signRequestSentAt": "Aláírási kérelmezés elküldve ide",
+            "receiveNewSignToken": "Új aláírási token fogadása",
+            "missingDocumentsAmount": "Hiányzó dokumentumok összeg",
+            "noPermissionForField": "Nincs engedélye a megtekintésre...",
+            "role": "Szerep",
+            "attachExistingContact": "Csatlakoztassa a meglévő kapcsolatot",
+            "portals": "Portálok",
+            "roles": "Szerepek",
+            "workweekHours": "Munkaheti órák",
+            "fiscalYearlySalary": "Fiskális éves fizetés",
+            "subsidy": "Támogatott",
+            "details": "Részletek",
+            "subsidyCompanies": "Támogatott vállalat",
+            "automatic": "Automatikus",
+            "proFormaPayslip": "Pro forma bérelszámolás",
+            "result": "Eredmény",
+            "subsidyCompany": "Támogatott vállalat",
+            "confirmed": "Megerősítve",
+            "amount": "Összeg",
+            "ageHint": "Kor: {age}",
+            "deductionOverviewPerWeek": "Heti levonás áttekintése",
+            "mainContact": "Fő kapcsolat"
+        },
+        "errors": {
+            "forbidden": "Nincs elég engedélye a művelet végrehajtásához."
+        },
+        "tabs": {
+            "companyDetails": "Vállalat részletei",
+            "splitMargin": "Árrés elosztása",
+            "contactDetails": "Elérhetőségi adatok",
+            "employees": "Alkalmazottak",
+            "contacts": "Elérhetőségek",
+            "details": "Részletek",
+            "documents": "Dokumentumok",
+            "hirers": "Alkalmazók",
+            "invoices": "Számlák",
+            "log": "Napló",
+            "notes": "Megjegyzések",
+            "settings": "Beállítások",
+            "hourTypes": "Óra típusai",
+            "compensations": "Kompenzációk",
+            "travelTypes": "Utazás típusai",
+            "employments": "Alkalmazások",
+            "hours": "Órák",
+            "reservations": "Foglalások",
+            "jobs": "Munkák",
+            "wageAttachments": "Bérmellékletek",
+            "deductions": "Levonások",
+            "projects": "Projektek",
+            "freelancers": "Szabadúszók",
+            "tariffs": "Tarifák",
+            "margins": "Árrések",
+            "customers": "Ügyfelek",
+            "subsidies": "Támogatások",
+            "user": "Felhasználó"
+        },
+        "actions": {
+            "cancel": "Mégsem",
+            "approve": "Jóváhagyás",
+            "skip": "Kihagyás",
+            "edit": "Szerkesztés",
+            "new": "Új",
+            "save": "Mentés",
+            "addRow": "Sor hozzáadása",
+            "delete": "Törlés",
+            "next": "Következő",
+            "previous": "Előző",
+            "saveTranslations": "Fordítások mentése",
+            "sendInvitation": "Meghívó küldése",
+            "archive": "Archiválás",
+            "confirm": "Megerősítés",
+            "deselectAll": "Törölje az összes kijelölését",
+            "viewParentCompany": "Anyavállalat megtekintése",
+            "remove": "Eltávolítás",
+            "add": "Hozzáaddás",
+            "refresh": "Frissítés",
+            "selectAll": "Összes kijelölése",
+            "invite": "Meghívás",
+            "create": "Létrehozás",
+            "linkEnterprise": "Vállalat csatolása",
+            "upload": "Feltöltés",
+            "unarchive": "Archíválás visszavonása",
+            "addType": "Típus hozzáadása",
+            "clearFilters": "Szűrők törlése",
+            "deleteSelected": "Kijelöltek törlése ({amount})",
+            "close": "Bezárás",
+            "downloadFormat": "Formátum letöltése",
+            "import": "Importálás",
+            "continue": "Folytatás",
+            "submit": "Beküldés",
+            "impersonate": "Megszemélyesítés",
+            "fill": "Kitöltés",
+            "ok": "Ok",
+            "copyToken": "Token másolása",
+            "actions": "Tevékenységek",
+            "editPermissions": "Engedélyek szerkesztése",
+            "attach": "Csatolás",
+            "detach": "Leválasztás",
+            "selectAllFromRole": "Válassza ki az összeset a szerepkörből",
+            "calculate": "Kiszámítás",
+            "reset": "Visszaállítás",
+            "editUser": "Felhasználó szerkesztése"
+        },
+        "plurals": {
+            "month": "Nincsenek hónapok | {count} hónap | {count} hónap",
+            "week": "Nincsenek hetek | {count} hét | {count} hét",
+            "hour": "Nincsenek órák | {count} óra| {count} óra",
+            "file": "Nincsen fájl | {count} fájl | {count} fájl"
+        },
+        "messages": {
+            "overriddenValue": "Ez az érték felülbírálva van.",
+            "dataUniqueToEnterprise": "Ezek az adatok egyedülállóak a vállalat számára {enterpriseName}. Kattintson {action} hogy felülírja ezeket az adatokat. A nem felülírt adatokat az anyavállalattól kerülnek bejegyzésre."
+        },
+        "tooltip": {
+            "copyToClipboard": "Másolás vágólapra"
+        }
+    },
+    "enum": {
+        "identityType": {
+            "residenceDocuments": "Tartózkodási okmányok",
+            "dutchIdentityCard": "Holland személyi igazolvány",
+            "alienIdentityCard": "Idegen személyi igazolvány",
+            "alienPassport": "Idegen útlevél",
+            "diplomaticPassport": "Diplomata útlevél",
+            "dutchMunicipalitiesIdentityCard": "Holland önkormányzatok személyi igazolványa",
+            "dutchPassport": "Holland útlevél",
+            "none": "Egyik sem",
+            "passportEeaCountry": "EGT-ország útlevél",
+            "passportNonEeaCountry": "Útlevél EGT-n kívüli ország",
+            "refugeePassport": "Menekült útlevél",
+            "servicePassport": "Szolgálati útlevél"
+        },
+        "maritalStatus": {
+            "livingTogetherWithContract": "Együttélés szerződéssel",
+            "divorced": "Elvált",
+            "livingTogetherWithoutContract": "Együttélés szerződés nélkül",
+            "married": "Házas",
+            "registeredPartnership": "Bejegyzett élettársi kapcsolat",
+            "widowhood": "Özvegy",
+            "unmarried": "Nem házas"
+        },
+        "contractPhase": {
+            "phase4": "4 (C) fázis",
+            "phase1And2": "1/2 (A) fázis",
+            "phase3": "3 (B) fázis"
+        },
+        "employeeType": {
+            "normal": "Normál",
+            "payroll": "Bérlista",
+            "temporary": "Átmeneti",
+            "other": "Egyéb"
+        },
+        "gender": {
+            "female": "Nő",
+            "male": "Férfi",
+            "other": "Egyéb"
+        },
+        "vatTariff": {
+            "shifted": "Váltásban",
+            "exempt": "Mentes"
+        },
+        "fieldType": {
+            "datePicker": "Dátumválasztó",
+            "text": "Szöveg",
+            "textArea": "Szöveg terület",
+            "hirerHourType": "Bérlő óra típus",
+            "checkbox": "Jelölőnégyzet",
+            "money": "Pénz"
+        },
+        "subsidyType": {
+            "none": "Egyik sem",
+            "targetJobAgreement": "Célcsoport munkamegállapodás és oktatási nehézségekkel küzdők",
+            "hiringDisabledEmployee": "Fogyatékkal élő munkavállaló felvétele",
+            "reassigningDisabledEmployee": "Foglalkozási fogyatékossággal élő munkavállaló átcsoportosítása"
+        }
+    },
+    "fieldTypes": {
+        "static": {
+            "textField": "Szöveges mező",
+            "radioButton": "Választógomb",
+            "checkbox": "Jelölőnégyzet",
+            "multiSelect": "Többválasztásos",
+            "noOptions": "Nincsenek lehetőségek",
+            "select": "Kiválaszt"
+        }
+    },
+    "timeRegistration": {
+        "static": {
+            "amount": "Összeg",
+            "compensationDescriptiveText": "Kompenzáció leíró szöveg...",
+            "kilometers": "Kilométerek",
+            "reservationDescriptiveText": "Foglalást leíró szöveg...",
+            "uploadDeductionAttachment": "Töltsön fel egy levonási csatolmányt",
+            "from": "Feladó",
+            "to": "Címzett",
+            "chargeTo": "Elszámolás ide",
+            "deductionAmount": "Levonás összege",
+            "week": "Hét",
+            "hours": "Órák",
+            "project": "Projekt",
+            "location": "Helyszín",
+            "notes": "Megjegyzések",
+            "payOut": "Kifizetés",
+            "hourType": "Óra típusa",
+            "date": "Dátum",
+            "currentState": "Jelenlegi állapot",
+            "newState": "Új állapot",
+            "compensations": "Kompenzációk",
+            "reservations": "Foglalások",
+            "reservation": "Foglalás",
+            "deleteKilometersConfirmationText": "Biztosan szeretné törölni ezt?",
+            "maxDistance": "Max távolság",
+            "deductionDescriptiveText": "Levonást leíró szöveg...",
+            "deduction": "Levonás",
+            "deductionAttachment": "Levonás csatolmánya",
+            "selectADeduction": "Válasszon ki egy levonást",
+            "attachmentNotRequired": "A csatolmány nem szükséges",
+            "deductions": "Levonások",
+            "travelType": "Utazás típusa",
+            "invoiceCreated": "Számla létrehozva",
+            "invoiceAlreadySaved": "A számla már el van mentve.",
+            "compensation": "Kompenzáció",
+            "deployed": "Telepített",
+            "staff": "Személyzet",
+            "companies": "Vállalatok",
+            "function": "Funkció",
+            "freelancers": "Szabadúszók",
+            "invoicingFailed": "Nem tudtuk létrehozni a számlákat.",
+            "status": "Állapot",
+            "employmentIsInactiveText": "Ez a munkaviszony nem aktív a kiválasztott időszakban.",
+            "unlockFailed": "Nem tudtuk feloldani a periódust.",
+            "importSuccessful": "Az import sikeres",
+            "hourInfoText": "A kompenzációk és levonások automatikusan újraszámításra kerülnek az órák frissítésekor.",
+            "jobIsInactiveText": "Ez a munkakör nem aktív a kiválasztott időszakban.",
+            "unlocked": "A periódust feloldották.",
+            "deleteTimeRegistrationConfirmationText": "Az időpont regisztráció törlésre kerül.",
+            "downloadFormatFailed": "Nem sikerült létrehozni a formátumot.",
+            "import": "Importálás",
+            "validationFailed": "A validáció sikertelen",
+            "importStarted": "Az importálás megkezdődött. A mérettől függően akár néhány percet is igénybe vehet.",
+            "shouldNotSendWithInvoice": "Ne küldje számlával",
+            "timeRegistrationsDeleted": "Az időpont regisztrációk törlésre kerülnek.",
+            "deleteTimeRegistrationsConfirmationText": "Biztosan törli a kiválasztott időregisztrációkat?",
+            "compensationDeleted": "A kompenzáció törlésre került.",
+            "hourDeleted": "Az órákat törölték.",
+            "copyFailed": "Nem tudtuk másolni a sort.",
+            "travelSaved": "Az utazás mentésre került.",
+            "travelDeleted": "Az utazás törlésre került.",
+            "returnTravelSaved": "Az visszautazás mentésre került.",
+            "travelDuplicated": "Az utazás duplikálva lett.",
+            "creatingInvoicesInfo": "A számlák létrehozása ütemezve van.",
+            "creatingInvoicesStatusText": "A számlák készítése folyamatban van. Ha ez a folyamat megtörtént, a számlákat itt tekintheti meg.",
+            "noOutstandingTimeRegistrationsFound": "Hiányzó időregisztráció nem található.",
+            "autoCalculateDeductionsInfo": "Ha ez az opció be van kapcsolva, a fennálló levonások automatikusan újraszámításra kerülnek az órák regisztrálásakor vagy a számlák generálásakor.",
+            "noRegistrationsFound": "Nem található regisztráció.",
+            "someHoursNotCopied": "Néhány óraregisztrációt nem lehetett másolni, mert hiányzott az óratípus.",
+            "hoursCopied": "Az órák másolása megtörtént.",
+            "someTravelsNotCopied": "Néhány utazási regisztrációt nem lehetett másolni, mert hiányzott az utazási típus.",
+            "travelsCopied": "Az utazások másolása megtörtént."
+        },
+        "actions": {
+            "duplicateKilometerRow": "Sor duplázása",
+            "copyPreviousPeriod": "Előző periódus másolása",
+            "cao": "CAO",
+            "duplicateReturnTravel": "Visszautazás",
+            "editHours": "Órák szerkesztése",
+            "addRow": "Sor hozzáadása",
+            "uploadKilometerAccountability": "Kilométerek elszámoltathatóságának feltöltése",
+            "invoice": "Számla",
+            "correction": "Javítás",
+            "saveInvoice": "Számla mentése",
+            "receipts": "Nyugták",
+            "uploadAttachments": "Csatolmányok feltöltése",
+            "deployed": "Kiküldött",
+            "staff": "Személyzet",
+            "add": "Hozzáad",
+            "closePeriod": "Periódus lezárása",
+            "unlock": "Feloldás",
+            "autoCalculate": "Automatikus számítás",
+            "viewHours": "Órák megtekintése",
+            "previewInvoice": "Számla megtekintése",
+            "viewInvoice": "Számla megtekintése",
+            "generateInvoice": "Számla generálása",
+            "deleteInvoice": "Számla törlése",
+            "excel": "Excel",
+            "downloadFormat": "Formátum letöltése",
+            "upload": "Feltöltés",
+            "import": "Importálás",
+            "copyFromEmployee": "Másik munkavállalótól való másolás",
+            "createTimeRegistration": "Időregisztráció létrehozása",
+            "saveInvoices": "Számlák mentése",
+            "selectLockable": "Összes kijelölése",
+            "deselectAll": "Összes kijelölés törlése",
+            "copyFromFreelancer": "Másik szabadúszótól való másolás"
+        },
+        "tabs": {
+            "hours": "Órák",
+            "kilometers": "Kilométerek",
+            "compensations": "Kompenzációk",
+            "reservations": "Foglalások",
+            "deductions": "Levonások"
+        }
+    },
+    "form": {
+        "static": {
+            "employmentAgency": "Munkaközvetítő",
+            "factorEtRegulation": "ET faktor szabályozása",
+            "homewardTravelCost": "Hazautazás költsége",
+            "identityValidUntil": "Személyazonosságot igazoló dokumentum érvényességi ideje",
+            "shouldDeductHealthInsurance": "Levonja az egészségbiztosítást?",
+            "workTimeReductionDays": "Munkaidő-csökkentési napok",
+            "useFrameworkAgreement": "Keretmegállapodás használata",
+            "factorOvertime": "Túlóra faktor",
+            "birthplace": "Születési hely",
+            "citizenServiceNumber": "Személyazonosító Szám",
+            "contractHours": "Szerződésben meghatározott órák",
+            "costOfLivingAllowance": "Megélhetési támogatás költsége",
+            "gAccount": "G-fiók?",
+            "gAccountPercentage": "G-fiók százalék",
+            "email": "E-mail",
+            "accountHolder": "Számlatulajdonos",
+            "authorizedSignatory": "Felhatalmazott aláíró",
+            "birthdate": "Születési dátum",
+            "cao": "CAO",
+            "cc": "CC",
+            "certificate": "Tanúsítvány",
+            "country": "Ország",
+            "countryOfBirth": "Születési ország",
+            "creditLimit": "Hitelkeret",
+            "curriculumVitae": "Önéletrajz",
+            "diplomas": "Diplomák",
+            "documentNumber": "Okmány száma",
+            "employeeFunction": "Alkalmazotti funkció",
+            "employeeType": "Alkalmazotti típus",
+            "employmentDate": "Alkalmazás dátuma",
+            "etRegulation": "ET rendelet",
+            "expirationDate": "Lejárati dátum",
+            "factor": "Faktor",
+            "factoringCompany": "Faktoring vállalat",
+            "hasNoRiskPolicy": "Nincs kockázati politika?",
+            "hasPayrollTaxReduction": "Munkáltatói adó csökkentése?",
+            "homewardTravelDistance": "Hazautazás távolsága",
+            "homewardTravelFrequency": "Hazautazás gyakorisága",
+            "id": "Azonosító",
+            "identityType": "Azonosító típusa",
+            "initials": "Monogram",
+            "paymentTerm": "Fizetési feltételek",
+            "seniorDays": "Nyugdíjas napok",
+            "shouldPayOutHolidays": "Fizetett szabadságok?",
+            "shouldPayOutNonStatutoryHolidays": "Fizetett nem kötelező szabadnapok?",
+            "shouldPayOutReducedHours": "Fizetett csökkentett munkaidő?",
+            "shouldPayOutShortAbsence": "Fizetett rövid távollét?",
+            "shouldPayOutVacationMoney": "Fizetett nyaralási pénz?",
+            "stippPlan": "StiPP tervezet",
+            "lastName": "Vezetéknév",
+            "name": "Név",
+            "phone": "Telefon",
+            "street": "Utca",
+            "gender": "Nem",
+            "hirer": "Alkalmazó",
+            "iban": "IBAN",
+            "invoiceEmail": "Számla e-mail",
+            "language": "Nyelv",
+            "legalForm": "Jogi forma",
+            "logo": "Logó",
+            "maritalStatus": "Családi állapot",
+            "mainLanguage": "Anyanyelv",
+            "motivationLetter": "Motivációs levél",
+            "nationality": "Nemzetiség",
+            "password": "Jelszó",
+            "passwordConfirmation": "Jelszó megerősítése",
+            "payOutFrequency": "Fizetés gyakorisága",
+            "phase": "Fázis",
+            "probation": "Próbaidő",
+            "proofOfRecruitmentAbroad": "Külföldi munkavégzés igazolása",
+            "rentalOrPurchaseContractHomeCountry": "Bérleti vagy vásárlási szerződés a hazai országból",
+            "riskGroup": "Kockázati csoport",
+            "sbiCodes": "SBI kódok",
+            "signature": "Aláírás",
+            "startDate": "Kezdés dátuma",
+            "streetNumber": "Szám",
+            "terminationDate": "Lejárat dátuma",
+            "vatTariff": "ÁFA-díj",
+            "functionScale": "Funkció skála",
+            "employment": "Munkaviszony",
+            "cessionText": "Lemondás szövege",
+            "subject": "Tárgy",
+            "vatNumber": "Adószám",
+            "zipCode": "Irányítószám",
+            "caoWorkweek": "CAO Munkahét",
+            "employee": "Alkalmazott",
+            "city": "Város",
+            "firstName": "Utónév",
+            "chamberOfCommerceNumber": "Kereskedelmi Kamarai Azonosító",
+            "countryCode": "Országkód",
+            "grossSalary": "Bruttó bér",
+            "middleName": "Második utónév",
+            "noRiskPolicy": "Nincs kockázati politika",
+            "streetNumberAddition": "Továbbá",
+            "invoiceEmailCc": "Számla CC",
+            "enterprise": "Vállalat",
+            "marginInvoicePerWeek": "Fedezeti számla hetente",
+            "chamberOfCommerceExtract": "Kereskedelmi kamara kivonat",
+            "liabilityInsurance": "Felelősségbiztosítás",
+            "freelancer": "Szabadúszó",
+            "freelancerJob": "Szabadúszó munka",
+            "gAccountIban": "G számla IBAN",
+            "gAccountHolder": "G számlatulajdonos",
+            "factorStatePension": "Faktor állami nyugdíj",
+            "payslips": "Fizetőszelvények",
+            "payslipsCc": "Fizetőszelvények CC",
+            "salesRate": "Értékesítési ráta",
+            "factorSenior": "Faktor szenior",
+            "documentTemplate": "Dokumentum sablon",
+            "workStartTime": "Munka kezdési ideje",
+            "housingCost": "Lakhatási költség",
+            "weeksWorked": "Ledolgozott hetek",
+            "deliveryDeed": "Szállítási okirat",
+            "files": "Fájlok",
+            "isAgreedWork": "Megállapodott munka",
+            "endDate": "Befejezési dátum",
+            "note": "Jegyzet",
+            "timeRegistration": "Időregisztráció",
+            "timeRegistrationQuestion": "Időregisztráció?",
+            "timeForTime": "Itt az idő az időre",
+            "workHours": "Munkaórák",
+            "workEndTime": "Munka befejezési ideje",
+            "date": "Dátum",
+            "pensionPlan": "Nyugdíjterv",
+            "salaryWithExtraDays": "Fizetés extra napokkal",
+            "factorWithExtraDays": "Faktor extra napokkal",
+            "invoiceCompany": "Számlatársaság",
+            "file": "Fájl",
+            "location": "Helyszín",
+            "workDaysAndHours": "Munkanapok & órák",
+            "website": "Weboldal",
+            "outOfServiceReasonSlug": "Ok",
+            "outOfServiceDate": "Szolgálaton kívüliség ideje",
+            "start": "Kezdés",
+            "reason": "Ok",
+            "end": "Befejezés",
+            "background": "Háttér (portré)",
+            "employerNumber": "Foglalkoztató száma",
+            "currentPassword": "Aktuális jelszó",
+            "exchangeOvertime": "Túlóra csere",
+            "payOutEnterprise": "Vállalkozás kifizetése",
+            "upload": "Feltöltés",
+            "shouldPayOutVacationDays": "Kifizeti a nyaralási pénzt?",
+            "seasonalWork": "Szezonális munka",
+            "splitInvoicePerProject": "Osztott számla projektenként",
+            "splitInvoicePerEmployee": "Osztott számla munkavállalónként",
+            "companyType": "Vállalat típusa",
+            "workServices": "Munkaügyi szolgáltatások",
+            "splitInvoicePerFreelancer": "Felosztott számla szabadúszónként",
+            "splitInvoiceItemsByDate": "A számlaórák és az utazások felosztása dátum szerint",
+            "healthcareDescription": "Egészségügy leírás",
+            "qualifications": "Kvalifikáció(k)",
+            "activities": "Tevékenységek",
+            "deductMarginVat": "Árrés áfa levonása",
+            "requireFreelancerVatNumber": "Szabadúszó adószám kérése",
+            "ownerCompany": "Tulajdonos cég",
+            "generateFreelancerDocuments": "Szabadúszó dokumentumok létrehozása",
+            "snfCertification": "SNF tanúsítvány",
+            "payOutExport": "Kifizetés exportálása",
+            "isPayOutEnabledQuestion": "Kifizetés engedélyezve?",
+            "healthInsurance": "Egészségbiztosítás",
+            "certificateOfConduct": "Erkölcsi bizonyítvány",
+            "blockSalesRate": "Értékesítési ráta blokkolása",
+            "employeeTypeSlugs": "Munkavállaló típus",
+            "search": "Keresés",
+            "dontSendDocuments": "Ne küldjön dokumentumokat",
+            "selectedAmount": "{amount} kiválasztott",
+            "splitPayOut": "Osztott kifizetés",
+            "searchAddress": "Keresési cím",
+            "reseller": "Viszonteladó",
+            "canHaveJobs": "Lehetnek munkái",
+            "description": "Leírás",
+            "teamModel": "Entitás",
+            "team": "Csapat",
+            "noRecordsFound": "Nem találtunk feljegyzéseket...",
+            "role": "Szerep",
+            "contact": "Elérhetőség",
+            "teamTypes": "Csapat típusok",
+            "teamPresets": "Csapat előbeállítások",
+            "user": "Felhasználó",
+            "backgroundLandscape": "Háttér (fekvő)",
+            "workDays": "Munkanap(ok)",
+            "shouldPayOutSeniorDays": "Nyugdíjas napok kifizetése?",
+            "type": "Típus",
+            "subsidyCompany": "Támogatott vállalat",
+            "subsidy": "Támogatott",
+            "shouldPayOutWorkTimeReductionDays": "Munkaidő-csökkentő napok kifizetése?",
+            "grossSalaryPerHour": "Bruttó órabér",
+            "deductionOverviewPerWeek": "Heti levonás áttekintése",
+            "kiwaNumber": "Kiwa szám",
+            "niwoNumber": "Niwo szám",
+            "showFunctionOnInvoice": "Funkció megjelenítése a számlán",
+            "languageCode": "Nyelvkód"
+        },
+        "hint": {
+            "startTypingToSearch": "Kezdjen el írni a kereséshez",
+            "lockPensionPlan": "Zárolja a nyugdíjtervet, hogy ne lehessen automatikusan módosítani."
+        },
+        "steps": {
+            "employment": "Munkaviszony",
+            "contactAndFinancial": "Kapcsolattartási és pénzügyi információk",
+            "documents": "Dokumentumok",
+            "files": "Fájlok",
+            "foreignNationality": "Külföldi állampolgárság",
+            "general": "Általános",
+            "documentsAndEmployment": "Dokumentumok és foglalkoztatás",
+            "job": "Munka",
+            "account": "Felhasználó",
+            "employer": "Alkalmazó",
+            "etRegulation": "ET rendelet",
+            "contract": "Szerződés",
+            "hirerRemuneration": "Bérlői díjazás"
+        },
+        "actions": {
+            "upload": "Feltöltés"
+        }
+    },
+    "deduction": {
+        "static": {
+            "certificateOfGoodBehavior": "Erkölcsi bizonyítvány",
+            "housing": "Szállás",
+            "personalContributionForTransport": "Személyes hozzájárulás a közlekedéshez",
+            "advance": "Előleg",
+            "penalty": "Büntetés",
+            "workingClothesWorkingShoes": "Munkaruhák munkacipő",
+            "eduction": "Tanulmányok",
+            "housingExtra": "Extra szállás",
+            "advanceExtra": "Extra előleg",
+            "healthInsurance": "Egészségügyi biztosítás",
+            "healthInsuranceExtra": "Extra egészségügyi biztosítás",
+            "mealAllowance": "Étkezési támogatás",
+            "personnelAssociation": "Személyzeti egyesület"
+        }
+    },
+    "compensation": {
+        "static": {
+            "payOutEnabled": "Fizetés engedélyezve",
+            "none": "Nincs",
+            "employeesWithAccess": "Hozzáféréssel rendelkező alkalmazottak",
+            "employeeHasCompensationOverrides": "Az alkalmazott kompenzációi felülírják egymást",
+            "name": "Név",
+            "value": "Érték",
+            "unit": "Egység",
+            "compensation": "Kompenzáció",
+            "saved": "Mentve",
+            "deleted": "Törölve",
+            "hint": "Tipp",
+            "factor": "Faktor",
+            "chargeTo": "Felszámolás ide",
+            "frequency": "Gyakoriság",
+            "isGross": "Bruttó",
+            "employeesWithoutAccess": "Hozzáférés nélküli alkalmazottak",
+            "caoCompensations": "CAO kompenzációk",
+            "defaultForNewEmployee": "Alapértelmezett az új alkalmazottnak",
+            "defaultForNewEmployeeUpdated": "Az új alkalmazott alapértelmezett kompenzációi frissítve",
+            "payslipPaymentsDesiredSalaryExplanation": "Bérszámfejtési kifizetések importálásakor ez a funkció minden olyan munkavállaló számára kompenzációt hoz létre, akinek a kívánt bére (az időregisztrációs importban megadva) magasabb, mint a bérszámfejtési kifizetés.",
+            "desiredSalaryCompensation": "Kívánt bérkompenzáció",
+            "compensations": "Kompenzációk",
+            "checkDesiredSalaryOnPayslipPayments": "Kívánt bér ellenőrzése",
+            "noCompensations": "Nincs kompenzáció",
+            "deviantFactor": "Deviáns tényező",
+            "salesRate": "Értékesítési ráta",
+            "compensationSaved": "A kompenzációk mentésre kerültek.",
+            "enabledCompensationsRecalculatedInfo": "Ha engedélyezi a kompenzációkat, ezek automatikusan kiszámításra kerülnek a fennálló időnyilvántartásokban (ha vannak regisztrált órák)."
+        },
+        "actions": {
+            "grantAccessToAll": "Hozzáférés engedélyezése mindenkinek",
+            "takeAccessFromAll": "Hozzáférés megvonása mindenkitől",
+            "useDeviatingFactor": "Deviáns tényező használata",
+            "addSalesRate": "Értékesítési ráta hozzáadása"
+        }
+    },
+    "invoice": {
+        "static": {
+            "gAccount": "G-fiók",
+            "deductionsOverview": "Levonások áttekintése",
+            "total": "Összeg",
+            "ipAddress": "IP-cím",
+            "number": "Szám",
+            "period": "Periódus",
+            "salesInvoice": "Értékesítési számla",
+            "costsOverview": "Költségek áttekintése",
+            "marginInvoice": "Margó számla",
+            "salesInvoices": "Értékesítési számlák",
+            "marginInvoices": "Árrés számlák",
+            "searchInvoices": "Számlák keresése",
+            "payments": "Kifizetések",
+            "noPaymentsFound": "Nem található kifizetés",
+            "addPayment": "Kifizetés hozzáadása",
+            "log": "Napló",
+            "download": "Letöltés",
+            "paid": "Kifizetve",
+            "invoiceWillBeBilled": "Az erre az időszakra vonatkozó számlákat hamarosan kiszámlázzuk.",
+            "invoice": "Számla",
+            "billedAt": "Számlázva ekkor",
+            "files": "Fájlok",
+            "info": "Infó",
+            "createdBy": "Létrehozta",
+            "totalPaid": "Összesen kifizetett",
+            "gAccountPaid": "G-felhasználó kifizetve",
+            "pending": "Függőben lévő",
+            "queued": "Várólistára",
+            "billed": "Kiszámlázva",
+            "createdAt": "Létrehozva ekkor",
+            "paidAt": "Kifizetve ekkor",
+            "sendAt": "Elküldve ekkor",
+            "invoiceWillBeSent": "A számla elküldésre kerül.",
+            "sales": "Eladások",
+            "costs": "Költségek",
+            "margin": "Árrés",
+            "deductions": "Levonások",
+            "freelancerInvoice": "Szabadúszó számla",
+            "agreedWorkInvoice": "Megállapodott munkaszámla",
+            "freelancer": "Szabadúszó",
+            "agreedWork": "Megállapodott munka",
+            "extraInvoice": "Extra számla",
+            "creditInvoice": "Hitelszámla",
+            "hideEmail": "E-mail elrejtése",
+            "rows": "Sorok",
+            "description": "Leírás",
+            "attachments": "Csatolmányok",
+            "customInvoice": "Egyéni számla",
+            "invoiceDate": "Számla dátuma",
+            "preview": "Előnézet",
+            "customCostsOverview": "Egyedi költségek áttekintése",
+            "customCosts": "Egyedi költségek",
+            "remuneration": "Díjazás",
+            "custom": "Egyedi",
+            "deleteInvoiceText": "Biztosan törli ezt a számlát?",
+            "newItem": "Új tétel",
+            "amount": "Összeg",
+            "confirmTypeChangeText": "A meglévő számlaelemek eltávolításra kerülnek. Biztosan módosítani szeretné a típust?",
+            "unitPrice": "Egységár",
+            "items": "Tétel(ek)",
+            "makeMargin": "Határérték meghatározása",
+            "item": "Tétel",
+            "vat": "ÁFA",
+            "employee": "Munkavállaló",
+            "deduction": "Levonás",
+            "exports": "Exportok",
+            "exportDescriptiveText": "Egyszerre legfeljebb {count} számla exportálható. A keresőmezőben megadott összes szűrőt a rendszer az exportálás során a számlák mennyiségének korlátozására fogja használni.",
+            "exportInvalidText": "Túl sok számla van kiválasztva, kérjük, korlátozza a számlák mennyiségét a fenti szűrők használatával.",
+            "billing": "Számlázás",
+            "relatedInvoices": "Kapcsolódó számlák",
+            "resellerMargin": "Viszonteladói árrés",
+            "resellerMarginInvoice": "Viszonteladói árrés számla",
+            "customInvoiceItemVatNotDefaultConfirmationText": "Biztos, hogy más HÉA-tarifát szeretne használni?"
+        },
+        "actions": {
+            "addPayment": "Kifizetés hozzáadása",
+            "download": "Letöltés",
+            "billNow": "Kiszámlázás most",
+            "sendNow": "Elküldés most",
+            "create": "Létrehozás",
+            "addToQueue": "Hozzáadás a várólistához",
+            "preview": "Előnézet",
+            "createExport": "{count} számla exportálása",
+            "downloadAll": "Mind letöltése",
+            "selectBillable": "Számlázhatók kijelölése",
+            "billSelected": "Kijelölt számlák számlázása",
+            "deselectAll": "Összes kijelölés törlése"
+        },
+        "filter": {
+            "outstandingOnly": "Csak kiemelkedő",
+            "from": "Ettől",
+            "to": "Neki",
+            "type": "Típus",
+            "queuedOnly": "Csak várólistás"
+        }
+    },
+    "factoring": {
+        "static": {
+            "cessionText": "Lemondás szöveg",
+            "deleteFactoringCompanyConfirmationText": "Biztosan törli ezt a faktoring vállalatot?",
+            "factoringCompany": "Faktoring vállalat",
+            "details": "Részletek",
+            "impact": "Hatás",
+            "factris": "Gyárak",
+            "type": "Típus",
+            "sendInvoice": "Számlák elküldése?",
+            "typeInfo": "A típus határozza meg, hogy az export milyen formátummal rendelkezik.",
+            "nlCredit": "NL-Credit"
+        }
+    },
+    "travelType": {
+        "static": {
+            "employeesWithoutAccess": "Hozzáférés nélküli alkalmazottak",
+            "caoTravelExpenses": "CAO utazási költségek",
+            "name": "Név",
+            "hint": "Tipp",
+            "value": "Érték",
+            "unit": "Egység",
+            "gross": "Bruttó",
+            "net": "Nettó",
+            "none": "Nincs",
+            "employeesWithAccess": "Hozzáféréssel rendelkező alkalmazottak",
+            "employeeHasTravelTypeOverrides": "Az alkalmazott utazási típusai felülírják egymást",
+            "travelType": "Utazás típusa",
+            "saved": "Mentve",
+            "deleted": "Törölve",
+            "default": "Alapértelmezett",
+            "defaultForNewEmployee": "Alapértelmezett az új alkalmazottnak",
+            "defaultForNewEmployeeUpdated": "Az új alkalmazott alapértelmezett utazási típusai frissítve",
+            "noTravels": "Nincs utazás",
+            "chargeTo": "Elszámolás ide"
+        },
+        "actions": {
+            "grantAccessToAll": "Hozzáférés engedélyezése mindenkinek",
+            "takeAccessFromAll": "Hozzáférés megvonása mindenkitől"
+        }
+    },
+    "hourTypes": {
+        "actions": {
+            "edit": "Szerkesztés"
+        }
+    },
+    "exports": {
+        "static": {
+            "deleteExportConfirmationText": "Ez törölni fogja az exportot.",
+            "notStarted": "Nem kezdődött el",
+            "queued": "Várólistán",
+            "running": "Folyamatban",
+            "completed": "Befejezve",
+            "cancelled": "Elvetett",
+            "failed": "Sikertelen",
+            "factoringCompanyExport": "Faktoring vállalat export",
+            "options": "Lehetőségek",
+            "exports": "Exportok",
+            "generatedAt": "Generálva ekkor",
+            "deleteInvoiceConfirmationText": "Ez törli az összes kapcsolódó számlát, és feloldja az erre az időszakra vonatkozó regisztrációt.",
+            "payOutInfo": "Az exportálás neve megegyezik a legmagasabb kiválasztott időszak nevével. Az alacsonyabb időszakokban kiválasztott regisztrációkat a 2014-es adatok külön fájlokba exportálják. A fennmaradó számlák kiszámlázásra fognak kerülni.",
+            "marginAndDeductionsExport": "Margó és levonások exportálása",
+            "export": "Exportálás",
+            "periods": "Időszakok",
+            "total": "Összes",
+            "exportSuccessful": "Sikeres exportálás",
+            "deleteSepaOverviewExportConfirmationText": "Az exportálás törlődik, és az exportálásban szereplő egyes számlák fizetési állapota alaphelyzetbe áll.",
+            "selectedInvoices": "{count} számlát jelölt ki.",
+            "payOutExport": "Kifizetések exportálása",
+            "noRegistrationsFound": "Nem található regisztráció.",
+            "deletePayOutExportConfirmationText": "Az exportálás törlődik, és az exportálásban szereplő összes regisztráció ismét exportálhatóvá válik.",
+            "registrations": "Regisztrációk",
+            "noInvoicesFound": "Számla nem található.",
+            "deductionsDocumentNotSigned": "Levonási dokumentum nincs aláírva.",
+            "employeesExport": "Munkavállalói export",
+            "deleteWageAttachmentConfirmationText": "A bérmelléklet törlésre kerül.",
+            "archiveEmploymentAgencyConfirmationText": "Biztosan archiválni szeretné ezt a munkaügyi ügynökséget?",
+            "deleteCompensationConfirmationText": "Biztosan törli ezt a kompenzációt?",
+            "archiveHirerConfirmationText": "Biztosan archiválni szeretnéd ezt a munkáltatót?",
+            "deleteHourTypeConfirmationText": "Biztosan törli ezt az óratípust?",
+            "deleteTravelTypeConfirmationText": "Biztosan törli ezt az utazási típust?",
+            "missingDocumentsForPayOutExport": "Hiányzó aláírt dokumentumok",
+            "unarchiveEmploymentAgencyConfirmationText": "Biztosan archíválatlanná teszi ezt a munkaügyi ügynökséget?",
+            "unarchiveHirerConfirmationText": "Biztosan archíválatlanná teszi ezt a munkáltatót?",
+            "accountingSoftwareExport": "Bérszámfejtési szoftver",
+            "marginOverview": "Határérték áttekintés",
+            "marginOverviewExport": "Határérték áttekintés exportálása",
+            "invoice": "Számla",
+            "saveInvoiceConfirmationText": "A számlák mentésre kerülnek és az időszak zárolásra kerül.",
+            "markAllAsChanged": "Az összes megjelölése megváltozottként",
+            "changedEmployees": "Módosított munkavállalók",
+            "addEmployee": "Munkavállaló hozzáadása",
+            "hollandZorg": "HollandZorg",
+            "freelancersPayoutExport": "Szabadúszók kifizetésének exportálása",
+            "newEmployees": "Új munkavállalók",
+            "markAllAsNew": "Az összes megjelölése újként",
+            "editExport": "Exportálás szerkesztése",
+            "exportHealhInsuranceRemainder": "A nem exportált egészségbiztosítások exportálása",
+            "unexportedHealhInsuranceCount": "{count} nem exportált egészségbiztosítások.",
+            "healthInsuranceExport": "Egészségbiztosítás export",
+            "markAllAsDoNotExport": "Az összes megjelölése nem exportálandóként",
+            "doExport": "Exportálandó",
+            "doNotExport": "Nem exportálandó",
+            "markAllAsDoExport": "Az összes megjelölése exportálandóként",
+            "exported": "Exportált",
+            "archiveResellerConfirmationText": "Biztosan archiválja ezt a viszonteladót?",
+            "unarchiveResellerConfirmationText": "Biztosan visszavonja a viszonteladó archiválását?",
+            "mijnSubsidie": "MijnSubsidie",
+            "resellerMarginsExport": "Viszonteladói árrés export",
+            "mijnSubsidieExport": "MijnSubsidie exportálás",
+            "historicalPayOutExport": "Történeti kifizetés export",
+            "historicalPayOutInfo": "Az exportok minden egyes kiválasztott időpont-regisztrációhoz létrejönnek. A normál kifizetési szabályok érvényesek, kivéve, hogy a foglalások nem kerülnek kiszámításra."
+        },
+        "pages": {
+            "factoringCompany": "Faktoring vállalat",
+            "marginAndDeductions": "Margó & levonások",
+            "payOutExport": "Kifizetések exportálása",
+            "employeesExport": "Munkavállalói export",
+            "accountingSoftwareExport": "Bérszámfejtési szoftver",
+            "marginOverviewExport": "Határérték áttekintés exportálása",
+            "freelancersPayout": "Szabadúszók kifizetése",
+            "hollandZorgExport": "HollandZorg export",
+            "mijnSubsidieExport": "MijnSubsidie export",
+            "resellerMargins": "Viszonteladói árrés"
+        },
+        "actions": {
+            "selectAll": "Összes kijelölése",
+            "refresh": "Frissítés",
+            "clearSelection": "Kijelölés törlése",
+            "generate": "Generálás",
+            "selectPeriod": "Periódus kiválasztása",
+            "exactDate": "Pontos dátum",
+            "timePeriod": "Időszak",
+            "showOldExports": "Régi exportok megjelenítése"
+        },
+        "payOut": {
+            "static": {
+                "notExportedEmployeesInfo": "Az alábbi munkavállalók néhány negatív órája nem exportálható:",
+                "skipNonExportableValidation": "A hiányzó dokumentumok érvényesítésének kihagyása"
+            },
+            "actions": {
+                "historical": "Történelmi"
+            }
+        },
+        "employees": {
+            "static": {
+                "createFreshExportInfo": "Ha a \"friss exportálás\" opció engedélyezve van, az összes jelenleg aktív alkalmazott szerepel az exportálásban.",
+                "createFreshExport": "Friss export"
+            }
+        }
+    },
+    "documents": {
+        "static": {
+            "variableDeleted": "Változó törölve",
+            "generateDocument": "Dokumentum generálása",
+            "auditReport": "Ellenőrzési jelentés",
+            "layout": "Elrendezés",
+            "template": "Sablon",
+            "templateDeleted": "Sablon törölve",
+            "templateSaved": "Sablon mentve",
+            "signedAt": "Aláírva ekkor",
+            "testData": "Tesztadat",
+            "category": "Kategória",
+            "description": "Leírás",
+            "fieldOptions": "Terület lehetőségei",
+            "fieldType": "Terület típusa",
+            "info": "Információ",
+            "name": "Név",
+            "previewValue": "Érték előnézete",
+            "slug": "Mező",
+            "variable": "Változó",
+            "variables": "Változók",
+            "variableSaved": "Változó mentve",
+            "documentPreview": "Dokumentum előnézete",
+            "documentName": "Dokumentum neve",
+            "declinedAt": "Elutasítva ekkor",
+            "subjects": "Témák",
+            "subjectType": "Téma típusa",
+            "isOwner": "Tulajdonos",
+            "shouldSign": "Aláírhat",
+            "canView": "Megnézheti",
+            "status": "Állapot",
+            "editDocument": "Dokumentum szerkesztése",
+            "created": "Létrehozva",
+            "originalFile": "Eredeti fájl",
+            "signedFile": "Aláírt fájl",
+            "signRequests": "Aláírási kérelmezések",
+            "newDocumentTemplate": "Új dokumentum sablon",
+            "archiveDocumentConfirmationText": "Ez archiválni fogja a dokumentumot.",
+            "signRequestSentAt": "Aláírási kérelmezés elküldve ekkor",
+            "fillableBySubject": "Tárgy szerint kitölthető",
+            "signDocument": "Dokumentum aláírása",
+            "position": "Pozíció",
+            "uploadFile": "Fájl feltöltése",
+            "sendAfterCompletion": "Elküldés befejezés után",
+            "subject": "Tárgy",
+            "logoSubject": "Logó tárgya",
+            "associateLogoSubject": "Társult logó tárgya",
+            "uploadDocument": "Dokumentum feltöltése",
+            "document": "Dokumentum",
+            "linkDeductions": "Link levonások",
+            "linkDeductionsInfo": "Ez biztosítja, hogy ne jöjjön létre levonási űrlap, amikor ezeket beilleszti az időregisztrációba.",
+            "signRequestsSent": "Az aláírási igényléseket elküldték",
+            "hideDocumentConfirmationText": "Biztos, hogy el akarja rejteni ezt a feladatot? Nem fog újra megjelenni.",
+            "isVisibleOn": "Látható a következőkön",
+            "creatableByRoles": "Szerepek szerint létrehozható",
+            "fallbackValue": "Visszaesési érték"
+        },
+        "actions": {
+            "showPreview": "Előnézet megtekintése",
+            "generateDocument": "Dokumentum generálása",
+            "editor": "Szerkesztő",
+            "pdf": "PDF",
+            "download": "Letöltés",
+            "upload": "Feltöltés",
+            "createFromTemplate": "Létrehozás sablonból",
+            "addSubject": "Tárgy hozzáadása",
+            "create": "Létrehozás",
+            "options": "Opció(k)"
+        },
+        "editor": {
+            "date": "Dátum",
+            "employee": "Alkalmazott",
+            "employmentAgency": "Munkaközvetítő",
+            "hirer": "Alkalmazó",
+            "variables": "Változók",
+            "factoringCompany": "Faktoring cég",
+            "freelancer": "Szabadúszó",
+            "employment": "Munkaviszony",
+            "enterprise": "Vállalat",
+            "freelancerJob": "Szabadúszó munka",
+            "employeeContract": "Szerződés"
+        },
+        "tabs": {
+            "template": "Sablon",
+            "subjects": "Tárgyak",
+            "info": "Információ",
+            "variables": "Változók"
+        },
+        "steps": {
+            "selectTemplate": "Sablon kiválasztása",
+            "selectData": "Adatok kiválasztása",
+            "review": "Felülvizsgálás",
+            "subjects": "Tárgyak",
+            "variables": "Változók"
+        }
+    },
+    "settings": {
+        "pages": {
+            "webhooks": "Webhookok",
+            "documents": "Dokumentumok",
+            "factoringCompanies": "Faktoring vállalatok",
+            "enterprises": "Vállalatok",
+            "users": "Felhasználók",
+            "personalAccessTokens": "Személyes hozzáférési tokenek",
+            "teams": "Csapatok",
+            "roles": "Szerepek",
+            "subsidyCompanies": "Támogatott vállalatok"
+        }
+    },
+    "api": {
+        "kvk": {
+            "static": {
+                "companyInfoSuccessfullyFilled": "A vállalati információk kitöltése sikeres",
+                "apiOffline": "KVK Api nem elérhető"
+            },
+            "validation": {
+                "errors": {
+                    "cocNotFound": "A Kereskedelmi Kamara száma nem található."
+                }
+            }
+        },
+        "creditsafe": {
+            "validation": {
+                "errors": {
+                    "companyNotFound": "Vállalat nem található"
+                }
+            },
+            "static": {
+                "apiOffline": "A Credit safe API offline állapotban van."
+            }
+        }
+    },
+    "hourType": {
+        "static": {
+            "employeesWithAccess": "Hozzáféréssel rendelkező alkalmazottak",
+            "name": "Név",
+            "timeForTime": "Idő időért",
+            "value": "Érték",
+            "unit": "Egység",
+            "employeesWithoutAccess": "Hozzáférés nélküli alkalmazottak",
+            "none": "Nincs",
+            "employeeHasHourTypeOverrides": "Az alkalmazott óratípusai felüírják egymást",
+            "hourType": "Óratípus",
+            "saved": "Mentve",
+            "default": "Alapértelmezett órák",
+            "deleted": "Törölve",
+            "caoSurcharges": "CAO felárak",
+            "timeForTimeDisabled": "Idő időért kikapcsolva",
+            "timeForTimeEnabled": "Idő időért engedélyezve",
+            "hint": "Tipp",
+            "frequency": "Gyakoriság",
+            "type": "Típus",
+            "defaultForNewEmployee": "Alapértelmezett az új alkalmazottnak",
+            "defaultForNewEmployeeUpdated": "Az új alkalmazott alapértelmezett óra típusai frissítésre kerültek",
+            "desiredNetSalary": "Kívánt nettó bér",
+            "difference": "Különbség",
+            "actualNetSalary": "Tényleges nettó fizetés",
+            "useDesiredNetSalary": "Kívánt nettó bér alkalmazása",
+            "hourTypes": "Óra típusai",
+            "chargeTo": "Elszámolás ide"
+        },
+        "actions": {
+            "grantAccessToAll": "Hozzáférés engedélyezése mindenkinek",
+            "takeAccessFromAll": "Hozzáférés visszavonása mindenkitől",
+            "enableTimeForTimeForAll": "Idő időért engedélyezése mindenkinek",
+            "disableTimeForTimeForAll": "Idő időért megvonása mindenkitől"
+        }
+    },
+    "frequency": {
+        "static": {
+            "hourly": "Óránkénti",
+            "fourWeekly": "Négy heti",
+            "daily": "Napi",
+            "weekly": "Heti",
+            "monthly": "Havi",
+            "hour": "Óra",
+            "day": "Nap",
+            "week": "Hét",
+            "month": "Hónap",
+            "fourWeek": "Négy hét",
+            "hourShort": "h",
+            "dayShort": "n",
+            "weekShort": "h",
+            "fourWeekShort": "4h",
+            "monthShort": "hó"
+        }
+    },
+    "dashboard": {
+        "tabs": {
+            "creditApplications": "Hiteligénylések",
+            "newEmployees": "Új alkalmazottak",
+            "newEmploymentAgencies": "Új munkaközvetítők",
+            "newHirers": "Új alkalmazók",
+            "newFreelancers": "Új szabadúszók"
+        },
+        "static": {
+            "messageBox": "Üzenetek",
+            "functions": "Funkciók",
+            "yourReservations": "Az ön foglalásai",
+            "unsignedContracts": "Aláíratlan szerződések",
+            "hirersWithoutCao": "CAO nélküli alkalmazók",
+            "recentPayslips": "Legutóbbi fizetési bizonylatok",
+            "recentInvoices": "Legutóbbi számlák",
+            "annualStatements": "Éves bevallás(ok)",
+            "notifications": "Értesítések",
+            "statistics": "Statisztikák",
+            "newRegistrations": "Új regisztrációk",
+            "charts": "Diagramok"
+        },
+        "titles": {
+            "employmentAgencies": "Aktív foglalkoztatási ügynökségek",
+            "hirers": "Aktív alkalmazók",
+            "freelancers": "Aktív szabadúszók",
+            "employees": "Aktív alkalmazottak",
+            "costExcludingVat": "Költség {year} (ÁFA nélkül)",
+            "marginExcludingVat": "Margó (ÁFA nélkül)",
+            "resellers": "Viszonteladó"
+        },
+        "charts": {
+            "revenue": "Bevétel",
+            "employees": "Alkalmazottak",
+            "workedHours": "Ledolgozott órák",
+            "hirers": "Toborzók",
+            "employmentAgencies": "Munkaközvetítők",
+            "freelancers": "Szabadúszók",
+            "payroll": "Fizetési jegyzék",
+            "temporary": "Ideiglenes",
+            "overtime": "Túlóra",
+            "surchargeHours": "Pótdíjas órák",
+            "margin": "Árrés",
+            "freelancerCosts": "Szabadúszó költségek"
+        },
+        "functions": {
+            "timeRegistration": "Időregisztráció",
+            "imports": "Importálások",
+            "exports": "Exportálások",
+            "invoices": "Számlák",
+            "documents": "Dokumentumok",
+            "payslipsAndAnnualStatements": "Fizetési papír / éves bevallás"
+        },
+        "messageBox": {
+            "payOut": "Fizetés gyakorisága ({frequency})",
+            "birthdays": "Születésnapok",
+            "shouldSignDocuments": "Alá kell írnia a dokumentumokat",
+            "lockablePeriods": "Zárolható időszakok",
+            "missingDocuments": "Hiányzó dokumentumok",
+            "expiredContracts": "Lejárt szerződések",
+            "expiringContracts": "Lejáró szerződések",
+            "renewableContracts": "Megújítandó szerződések"
+        }
+    },
+    "documentTemplates": {
+        "static": {
+            "default": "Alapértelmezett",
+            "noTranslations": "Nincs fordítás",
+            "deleteVariableConfirmationText": "Biztosan törli ezt a dokumentumváltozót?",
+            "deleteSharedDocumentTemplate": "Biztosan befejezi ennek a dokumentumsablonnak a használatát?",
+            "deleteConfirmationText": "Biztosan törli ezt a dokumentumsablont?",
+            "kiwaDeclarationOfEmployment": "Kiwa Foglalkoztatási nyilatkozat"
+        },
+        "actions": {
+            "copyToCurrentEnterprise": "Másolás a jelenlegi vállalkozásba",
+            "addSharedDocumentTemplate": "Megosztott dokumentumsablon hozzáadása"
+        }
+    },
+    "emails": {
+        "editor": {
+            "invitationLink": "Meghívó link"
+        }
+    },
+    "language": {
+        "actions": {
+            "select": "Kiválaszt"
+        },
+        "static": {
+            "default": "Alapértelmezett"
+        }
+    },
+    "validation": {
+        "errors": {
+            "checkForm": "Kérjük, ellenőrizze az űrlapon a hibákat",
+            "addressInvalid": "Nem találtuk meg a címet.",
+            "alternativeAddress": "Nem találtuk meg a címet, erre {address} gondolt?"
+        },
+        "static": {
+            "required": "Kötelező mező",
+            "unableToDeleteItem": "Az elemet nem sikerült törölni"
+        }
+    },
+    "reservation": {
+        "static": {
+            "holidayHoursLegal": "Hivatalos ünnep órák",
+            "holidayHoursExtraLegal": "Hivatalos ünnep órák extra",
+            "holidayPay": "Szabadság fizetés",
+            "workTimeReductionHours": "Munkaidő-csökkentési órák",
+            "seniorDays": "Szenior napok",
+            "timeForTime": "Idő időért",
+            "holidayHours": "Ünnepi órák",
+            "holidays": "Szabadságok",
+            "shortAbsence": "Rövid távollét",
+            "time": "Idő",
+            "money": "Pénz",
+            "reservation": "Foglalás",
+            "updatedAt": "Frissítve ekkor",
+            "amount": "Mennyiség"
+        }
+    },
+    "stippPlanType": {
+        "static": {
+            "basic": "Alap",
+            "plus": "Plusz"
+        }
+    },
+    "enterprises": {
+        "static": {
+            "enterprise": "Vállalat",
+            "details": "Részletek",
+            "deleteStandardDocumentConfirmationText": "Biztosan törli ezt a szabványos dokumentumot?",
+            "standardDocuments": "Szabványos dokumentumok",
+            "standardDocumentUpdateSuccess": "Szabványos dokumentum sikeresen frissítve.",
+            "shouldNotifyCustomers": "Értesítenie kell az ügyfeleket",
+            "noFileUploaded": "Még nem töltöttek fel fájlt.",
+            "uploadNewFile": "Új fájl feltöltése",
+            "payOutEnterpriseInfo": "A kifizető vállalkozás felülbírálható a munkavállaló vagy a toborzó kifizető vállalkozásának kiválasztásával.",
+            "canHaveJobsInfo": "Ha ez az opció ki van kapcsolva, akkor nem hozhatók létre foglalkoztatások vagy szabadúszó állások olyan toborzók számára, akik ehhez a vállalkozáshoz kapcsolódnak.",
+            "canBeInvoicedInfo": "Ha ez az opció engedélyezve van, akkor ez a vállalkozás elérhető lesz, amikor új toborzót hoz létre munkaközvetítőként."
+        }
+    },
+    "documentStatus": {
+        "static": {
+            "created": "Létrehozva",
+            "pending": "Függőben van",
+            "declined": "Elutasítva",
+            "expired": "Lejárt",
+            "completed": "Befejezve"
+        }
+    },
+    "documentType": {
+        "static": {
+            "pdf": "PDF",
+            "template": "Minta",
+            "view": "Nézet",
+            "upload": "Feltöltés"
+        }
+    },
+    "document": {
+        "static": {
+            "selectSubjectsForSignRequestsText": "Jelölje ki az összes olyan tárgyat, amelyre aláírási kérvényt szeretne küldeni.",
+            "log": "Napló",
+            "selectSubjects": "Tárgyak kiválasztása",
+            "selectSubjectsForSignedFileText": "Jelölje ki az összes olyan tárgyat, amelyre az aláírt fájlt el szeretné küldeni.",
+            "sendSignRequestsConfirmationText": "A következők kapni fognak egy aláírási kévényt.",
+            "selectSubjectsForCompletedFileText": "Jelölje ki az összes olyan tárgyat, amelyre az aláírt fájlt el szeretné küldeni.",
+            "generatorSubjectShouldSignExplanation": "A következők kapni fognak egy aláírási kévényt.",
+            "generatorSubjectSendAfterCompletionExplanation": "Az alábbiak megkapják a dokumentumot, amint elkészültek.",
+            "subjectSaved": "A tárgy mentésre került.",
+            "subjectDeleted": "A tárgy törlésre került."
+        }
+    },
+    "employment": {
+        "actions": {
+            "addFunction": "Funkció hozzáadása",
+            "createNext": "Következő létrehozása",
+            "goToEmployment": "Ugrás a munkaviszonyra"
+        },
+        "messages": {
+            "wizardPreviousEmploymentExplanation": "Az előző alkalmazást használják az új alkalmazás alapjáként."
+        },
+        "static": {
+            "payOutPreferences": "Fizetési preferenciák",
+            "startDate": "Kezdési dátum",
+            "endDate": "Befejezés dátuma",
+            "function": "Funkció",
+            "scale": "Skála",
+            "factor": "Faktor",
+            "grossSalary": "Bruttó fizetés",
+            "salesRate": "Értékesítési ráta",
+            "includeExtraDays": "Az extra napok legyenek a fizetésben",
+            "workdaysAndTimes": "Munkanapok és idők",
+            "deleteConfirmationText": "Biztosan törli ezt a munkaviszonyt?",
+            "deleteSuccess": "A munkaviszony törölve.",
+            "deleteFailed": "A munkaviszony törlése sikertelen.",
+            "emptyFunctionSalesRateConfirmationText": "Minden függvénynek üres az értékesítési rátája.",
+            "missingRequiredAttributesConfirmText": "A munkaviszony még nem nyújtható be jóváhagyásra, mert néhány szükséges attribútum nincs kitöltve.",
+            "submitForApprovalConfirmText": "A munkaviszony be lesz nyújtva jóváhagyásra."
+        }
+    },
+    "imports": {
+        "static": {
+            "payments": "Fizetések",
+            "notStarted": "Nem kezdődött el",
+            "queued": "Várólistán",
+            "running": "Folyamatban",
+            "completed": "Befejezve",
+            "cancelled": "Elvétve",
+            "failed": "Sikertelen",
+            "payslips": "Bérpapírok",
+            "upload": "Feltöltés",
+            "imports": "Importálások",
+            "payslipsImported": "Bérpapírok importálva",
+            "log": "Napló",
+            "importedAt": "Importálva ekkor",
+            "payslipsImport": "Bérpapírok importálása",
+            "bankImport": "Bank importálása",
+            "imported": "Importálva",
+            "payslipsPayments": "Bérpapírok fizetése",
+            "employee": "Alkalmazott",
+            "total": "Összes",
+            "iban": "Számlaszám",
+            "reservations": "Foglalások",
+            "reservationsImported": "Foglalások importálva",
+            "reservationsImport": "Folgalások import",
+            "payslipPaymentsCreateCompensations": "Kompenzációk létrehozása",
+            "annualStatements": "Éves bevallás(ok)",
+            "annualStatementsImported": "Éves bevallás(ok) importálva",
+            "annualStatementsImport": "Éves bevallás(ok) importálva",
+            "dispatched": "Elküldött",
+            "sendAfterCompletion": "Elküldés befejezés után",
+            "timeRegistration": "Időrögzítés",
+            "desiredSalaryCheck": "Kívánatos bérellenőrzés",
+            "outstandingDesiredSalaryCheck": "Egyes kifizetések nem egyeznek meg a kívánt fizetéssel:",
+            "outstandingDesiredSalaryCompensationsCreated": "A kompenzációk létrehozása sikeres.",
+            "payslipsPaymentsPeriodText": "Ha egy időszakot és/vagy korrekciót választ ki, a PDF-ben szereplő összes fizetés importálásra kerül ebben az időszakban. Ha nem választ ki időszakot, a PDF-ben szereplő időszak szám kerül felhasználásra.",
+            "entity": "Entitás"
+        },
+        "pages": {
+            "payslips": "Bérpapírok",
+            "bankImport": "Bank importálása",
+            "payments": "Fizetések",
+            "reservations": "Foglalások",
+            "annualStatements": "Éves bevallás(ok)"
+        },
+        "actions": {
+            "upload": "Feltöltés",
+            "refresh": "Frissítés"
+        }
+    },
+    "freelancerJob": {
+        "static": {
+            "hourlyRate": "Órabér",
+            "activities": "Tevékenységek",
+            "startDate": "Kezdés dátuma",
+            "endDate": "Befejezés dátuma",
+            "salesRate": "Értékesítési ráta",
+            "margin": "Margó",
+            "hourType": "Óra típusa",
+            "deleteHourTypeConfirmationText": "Biztosan törli ezt az óratípust?",
+            "rate": "Árszabás",
+            "compensation": "Kompenzáció",
+            "name": "Név",
+            "travelType": "Utazás típusa",
+            "deleteConfirmationText": "Biztosan törli ezt a munkakört?",
+            "deleteFailed": "Nem sikerült törölni a munkakört.",
+            "deleteSuccess": "A munkakör törölve.",
+            "hourTypeMarginInfo": "Ennek az értéknek a kitöltésével a tarifatáblázat figyelmen kívül lesz hagyva.",
+            "notMinimumHourTypeMarginConfirmationText": "Néhány árrés kisebb, mint a számított árrés.",
+            "missingRequiredAttributesConfirmText": "Az állást még nem lehet jóváhagyásra benyújtani, mert néhány szükséges attribútum nincs kitöltve.",
+            "deviatingMargin": "Eltérő árrés",
+            "submitForApprovalConfirmText": "A munkát jóváhagyásra benyújtják."
+        },
+        "actions": {
+            "addHourType": "Óra típus hozzáadása",
+            "addCompensation": "Kompenzáció hozzáadása",
+            "addTravelType": "Utazás típus hozzáadása"
+        }
+    },
+    "company": {
+        "static": {
+            "notificationEmail": "Értesítés email",
+            "documentEmail": "Dokumentum email",
+            "documentEmailCc": "Dokumentum CC",
+            "notificationEmailCc": "Értesítés CC",
+            "reminderEmail": "Emlékeztető email",
+            "reminderEmailCc": "Emlékeztető CC",
+            "copies": "Másolatok",
+            "synchronizeInfo": "A kiválasztott értékek szinkronizálásra kerülnek a kiválasztott vállalattal.",
+            "copyInfo": "Egy új másolat jön létre, amely a kiválasztott vállalkozáshoz kapcsolódik. Minden vállalathoz csak egy példány hozható létre. Az eredetin végrehajtott módosítások szinkronizálhatók a másolattal.",
+            "freelancerMargins": "Szabadúszó árrések",
+            "copiesAreIdentical": "A másolatok egyformák.",
+            "synchronizationSuccessful": "A másolatok szinkronizálása sikeres.",
+            "original": "Eredeti",
+            "typeSlug": "Vállalat típusa",
+            "pensionPlanFactors": "Nyugdíjprogram-tényezők",
+            "email": "Céges e-mail",
+            "website": "Cég honlapja",
+            "phone": "Cég telefonszáma",
+            "legalFormSlug": "Jogi forma"
+        },
+        "actions": {
+            "synchronize": "Szinkronizálás",
+            "makeCopy": "Másolat készítése",
+            "newCopy": "Új másolat"
+        }
+    },
+    "contact": {
+        "static": {
+            "userNotLinkedMessage": "A felhasználó nincs aktiválva vagy hozzákapcsolva egy partnerhez.",
+            "uploadSuccess": "Fájl feltöltve.",
+            "detached": "A kapcsolat leválasztásra került.",
+            "detachFailed": "A kapcsolat leválasztása sikertelen volt.",
+            "detachConfirmationText": "Biztos, hogy le akarja választani a kapcsolatot?"
+        }
+    },
+    "permission": {
+        "action": {
+            "create": "Létrehozás",
+            "delete": "Törlés",
+            "view": "Nézet",
+            "update": "Frissítés"
+        }
+    },
+    "log": {
+        "static": {
+            "description": "Leírás",
+            "date": "Dátum",
+            "old": "Régi",
+            "new": "Új",
+            "properties": "Tulajdonságok",
+            "system": "Rendszer",
+            "causer": "Okozó",
+            "id": "Azonosító",
+            "subject": "Tárgy"
+        }
+    },
+    "freelancer": {
+        "static": {
+            "job": "Munka",
+            "jobs": "Munkák",
+            "jobCreationSuccess": "Az állás létrehozva",
+            "deleteConfirmationText": "Biztosan törli ezt a szabadúszót?",
+            "deleteSuccess": "A szabadúszó törlésre került.",
+            "deleteFailed": "A szabadúszót nem sikerült törölni.",
+            "inviteNewInfoText": "Meghívót küldünk egy új szabadúszó számára.",
+            "linkedThroughJob": "Munkán keresztül kapcsolódik",
+            "inviteExistingInfoText": "A meghívót {name} szabadúszónak küldjük el.",
+            "submitForApprovalConfirmText": "A szabadúszó be lesz nyújtva jóváhagyásra.",
+            "missingRequiredAttributesConfirmText": "A szabadúszót még nem lehet jóváhagyásra benyújtani, mert néhány szükséges attribútum nincs kitöltve.",
+            "submittedForApproval": "A szabadúszó be lett nyújtva jóváhagyásra",
+            "activeOnly": "Csak aktív",
+            "archiveConfirmationText": "Biztosan archiválja ezt a szabadúszót?",
+            "unarchiveConfirmationText": "Biztosan visszavonja a szabadúszó archiválását?",
+            "archivedText": "Ez a szabadúszó archiválva van."
+        }
+    },
+    "employee": {
+        "static": {
+            "employments": "Alkalmazások",
+            "employment": "Alkalmazás",
+            "wageAttachmentCreationSuccess": "A bérmelléklet létre lett hozva.",
+            "contractUpdateSuccess": "A szerződés frissítve lett.",
+            "wageAttachment": "Bérmelléklet",
+            "wageAttachmentUpdateSuccess": "A bérmelléklet frissítve lett.",
+            "wageAttachmentDeleteSuccess": "A bérmelléklet törlésre került.",
+            "wageAttachments": "Bérmellékletek",
+            "contracts": "Szerződések",
+            "contractDeleteSuccess": "A szerződés törlésre került.",
+            "contractDeleteFailed": "A szerződés törlése sikertelen volt.",
+            "contractCreateSuccess": "A szerződés létre lett hozva.",
+            "deleteContractConfirmationText": "Biztosan törli ezt a szerződést?",
+            "createContract": "Szerződés létrehozása",
+            "contract": "Szerződés",
+            "functions": "Funkciók",
+            "noRecentPayslips": "Nem található újabb fizetési bizonylat.",
+            "deleteConfirmationText": "Biztosan törli ezt a munkavállalót?",
+            "deleteSuccess": "A munkavállaló törölve.",
+            "deleteFailed": "A munkavállaló törlése sikertelen.",
+            "archivedText": "A munkavállaló archiválásra került.",
+            "archiveConfirmationText": "Biztosan archiválja ezt a munkavállalót?",
+            "unarchiveConfirmationText": "Biztosan törli ezt a munkavállalót az archívumból?",
+            "annualStatements": "Éves bevallás(ok)",
+            "annualStatement": "Éves bevallás",
+            "payslips": "Bérpapírok",
+            "noAnnualStatements": "Nincs éves bevallás.",
+            "pensionPlan": "Nyugdíjterv",
+            "markedAsNew": "Újként megjelölve",
+            "markedAsChanged": "Módosítottként jelölve",
+            "deleteValidationFailed": "Nem ellenőrizhető, hogy a munkavállaló törölhető-e.",
+            "canNotDeleteEmployeeText": "A munkavállaló nem törölhető a meglévő időbejegyzések miatt.",
+            "canNotDeleteEmploymentText": "A munkaviszony nem törölhető a meglévő időbejegyzések miatt.",
+            "inviteExistingInfoText": "A meghívót {name} munkavállalónak küldjük el.",
+            "inviteNewInfoText": "Meghívót küldünk egy új munkavállaló számára.",
+            "contractRequiredForEmploymentInfoText": "Figyelem. A szerződés megkötése nem kötelező, ha még nincs toborzója/munkaviszonya. Szerződés nélkül nem lehet munkaviszonyt létrehozni.",
+            "activeContract": "Aktív szerződés",
+            "wizardSkipContractConfirmationText": "Biztos abban, hogy nem akar szerződést kötni? Szerződés nélkül nem lehet munkaviszonyt létrehozni.",
+            "wizardSkipEmploymentConfirmationText": "Biztos abban, hogy nem akar munkahelyet létrehozni?",
+            "healthInsurances": "Egészségbiztosítások",
+            "submitForApprovalConfirmText": "A munkavállaló be lesz nyújtva jóváhagyásra.",
+            "missingRequiredAttributesConfirmText": "A munkavállaló még nem nyújtható be jóváhagyásra, mert néhány szükséges attribútum nincs kitöltve.",
+            "submittedForApproval": "A munkavállaló be lett nyújtva jóváhagyásra.",
+            "markToBeRenewedConfirmationText": "A szerződés lejárta után a szerződés megújítását jelölik meg.",
+            "markNotToBeRenewedConfirmationText": "A szerződést nem jelöljük meg megújítandónak, és eltávolítjuk az üzenetekből. A munkavállaló kap egy e-mailt, amelyben megerősítést kap arról, hogy a szerződés lejárta után nem kerül megújításra.",
+            "contractMarkedToBeRenewed": "A szerződést megújítandónak jelölték meg",
+            "contractMarkedNotToBeRenewed": "A szerződést úgy jelölték meg, hogy nem hosszabbítják meg",
+            "contractCreateWithDocumentInfo": "Egy új szerződés jön létre a megfelelő dokumentummal együtt. A dokumentumra vonatkozó aláírási kérelmet a létrehozás után 1 órával küldjük el. A jelenlegi szerződés lejárati dátuma egy nappal az új szerződés kezdeti dátuma előtt lesz beállítva.",
+            "subsidyCreateSuccess": "A támogatás létrehozva.",
+            "accountNotActivatedInfo": "A fiókot (még) nem aktiválták. Kattintson a meghívó gombra az aktiválási link elküldéséhez a munkavállalónak.",
+            "subsidyDeleteSuccess": "A támogatás törölve."
+        },
+        "actions": {
+            "newContract": "Új szerződés",
+            "markAsNew": "Megjelölés újként",
+            "markAsChanged": "Módosítottként jelölve",
+            "createContract": "Szerződést létrehozása",
+            "deleteContract": "Szerződés törlése",
+            "createEmployment": "Munkaviszony létrehozása",
+            "deleteSubsidyConfirmationText": "Biztos, hogy törölni akarja a támogatást?"
+        },
+        "messages": {
+            "identityBothSides": "Kérjük, töltse fel személyazonosságát igazoló dokumentumának elejét és hátulját is."
+        },
+        "outOfService": "Szolgálaton kívül"
+    },
+    "export": {
+        "actions": {
+            "toSepaAndMarkAsPaid": "A SEPA -nak & jelölés fizetettként",
+            "generate": "Generálás"
+        },
+        "static": {
+            "skipValidation": "Érvényesítés kihagyása"
+        }
+    },
+    "period": {
+        "actions": {
+            "select": "Kiválaszt"
+        }
+    },
+    "user": {
+        "actions": {
+            "sendResetPasswordLink": "Jelszó visszaállítási link küldése"
+        },
+        "static": {
+            "notActivated": "A felhasználó nem aktív.",
+            "deactivated": "Kikapcsolva"
+        }
+    },
+    "legalForm": {
+        "static": {
+            "soleProprietor": "Egyéni vállalkozó",
+            "soleProprietorMultipleOwners": "Egyéni vállalkozó több tulajdonossal",
+            "publicPartnership": "Közkapcsolat",
+            "limitedCompanyStartUpAForm": "N.V. (Kft.) /B.V. (zártkörűen működő részvénytársaság) induló vállalkozás az A nyomtatványon",
+            "privateLimitedCompany": "Zártkörűen működő részvénytársaság",
+            "privateLimitedCompanyTwoTier": "Kétszintű társaság alapszabálya szerint zártkörűen működő részvénytársaság",
+            "publicLimitedCompanyInvestmentVariableCapitalTwoTier": "Kétszintű társaság alapszabálya szerint változó tőkével működő részvénytársaság befektetési társaság",
+            "cooperativeLegalLiabilityStructuralCooperative": "Az egyesületi strukturális szövetkezet alapszabályzat szerinti Szövetkezet jogi felelősséggel",
+            "mutualInsuranceCompanyStructuralMutual": "Alapszabály szerinti kölcsönös biztosító társaság",
+            "mutualInsuranceCompanyLegalLiabilityStructuralMutual": "Az alapszabály szerint jogi felelősséggel rendelkező kölcsönös biztosító társaság",
+            "branchOfficeHeadOfficeAbroad": "Fióktelep külföldi székhellyel",
+            "europeanEconomicInterestGrouping": "Európai Gazdasági Érdekcsoport",
+            "foreignSimilarEcBusinessMainOfficeNetherlands": "Az EK-üzlethez hasonló külföldi cég, amelynek központi irodája Hollandiában található",
+            "commercialPartnership": "Közkereseti társaság",
+            "limitedPartnership": "Betéti társaság",
+            "shippingCompany": "Szállítmányozó",
+            "limitedCompanyStartUpBForm": "N.V. (Kft.) /B.V. (zártkörűen működő részvénytársaság) induló vállalkozás a B nyomtatványon",
+            "limitedCompanyStartUpDForm": "N.V. (Kft.) /B.V. (zártkörűen működő részvénytársaság) induló vállalkozás a D nyomtatványon",
+            "legalPersonStartUp": "Jogi személyiségű induló vállalkozás",
+            "privateLimitedCompanyRegular": "Zártkörűen működő részvénytársaság szabályos szerkezettel",
+            "publicLimitedCompany": "Részvénytársaság",
+            "publicLimitedCompanyRegular": "Rendes szerkezetű részvénytársaság",
+            "publicLimitedCompanyTwoTier": "Kétszintű társaság alapszabálya szerint működő részvénytársaság",
+            "publicLimitedCompanyInvestmentVariableCapital": "Változó tőkével működő részvénytársaság befektetési társaság",
+            "europeanPublicLimitedCompanyRegular": "Európai normál szerkezetű nyilvános részvénytársaság (SE)",
+            "europeanPublicLimitedCompanyRegularTwoTierCooperative": "Egyesületi szövetkezet alapszabály szerint működő európai részvénytársaság (SE)",
+            "cooperative": "Szövetkezet",
+            "cooperativeStructuralCooperative": "Az egyesületi strukturális szövetkezet alapszabályzat szerinti Szövetkezet",
+            "cooperativeLegalLiabilityRegular": "Jogi felelősséggel rendelkező rendes felépítésű szövetkezet",
+            "cooperativeLimitedLiabilityRegular": "Rendes felépítésű Korlátolt Felelősségű Szövetkezet",
+            "cooperativeLimitedLiabilityStructuralCooperative": "Az egyesületi strukturális szövetkezet alapszabályzat szerinti Szövetkezet korlátolt jogi felelősséggel",
+            "homeownersAssociation": "Lakástulajdonosok Egyesülete",
+            "associationFullLegalCapacity": "Teljes jogképességű társulás",
+            "associationLimitedLegalCapacity": "Korlátozottan cselekvőképes egyesület",
+            "religiousDenomination": "Vallási felekezet",
+            "foundation": "Alapítvány",
+            "mutualInsuranceCompany": "Kölcsönös biztosító társaság",
+            "mutualInsuranceCompanyLegalLiabilityRegular": "Rendes felépítésű kölcsönös biztosító társaság jogi felelősséggel",
+            "mutualInsuranceCompanyLimitedLiabilityRegular": "Rendes felépítésű kölcsönös biztosító társaság korlátolt jogi felelősséggel",
+            "mutualInsuranceCompanyLimitedLiabilityStructuralMutual": "Az alapszabály szerint korlátolt jogi felelősséggel rendelkező kölcsönös biztosító társaság",
+            "legalPersonPublicLaw": "Közjogi jogi személy",
+            "legalPersonPrivateLaw": "Magánjog hatálya alá tartozó jogi személy",
+            "foreignLegalFormHeadOfficeNetherlands": "Külföldi jogi forma Hollandiában található székhellyel",
+            "foreignEcBusinessCompanyNetherlands": "Külföldi EK-vállalkozás hollandiai céggel",
+            "foreignEcBusinessMainOfficeNetherlands": "Külföldi EK-vállalkozás hollandiai főirodával",
+            "foreignSimilarEcBusinessCompanyNetherlands": "Az EK-üzlethez hasonló külföldi cég hollandiai céggel"
+        }
+    },
+    "etRegulation": {
+        "static": {
+            "amountShouldBeBetween": "A teljes összegnek az alábbi tartományba kell esnie: {min} - {max}.",
+            "calculatedAmount": "Kiszámolt összeg: {amount}",
+            "totalAmount": "Az aktuális teljes összeg {amount}.",
+            "singleTrip": "Egyszeri út távolsága: {distance} km"
+        },
+        "validation": {
+            "totalNotAllowed": "Az et szabályozás összértéke nincs a megengedett értéktartományban.",
+            "distanceCalculationFailedText": "Nem tudtuk kiszámítani a tartózkodási cím távolságát. Ellenőrizze, hogy a címadatok érvényesek-e."
+        }
+    },
+    "job": {
+        "static": {
+            "employments": "Munkaviszonyok",
+            "employment": "Munkaviszony",
+            "freelancerJob": "Szabadúszó munka",
+            "freelancerJobs": "Szabadúszó munkák"
+        }
+    },
+    "users": {
+        "static": {
+            "sendPasswordResetConfirmationText": "A jelszó-visszaállítási linket tartalmazó e-mailt a(z) {email} címre küldjük.",
+            "deactivateConfirmationText": "A felhasználó inaktiválódik, és már nem tud bejelentkezni.",
+            "permissionsSaved": "Az engedélyek el lettek mentve.",
+            "reactivateConfirmationText": "A felhasználó újra aktív lesz és újra bejelentkezhet."
+        }
+    },
+    "outOfServiceReason": {
+        "static": {
+            "endOfEmployment": "A munkaviszony törvény általi befejezése a szerződés lejárata miatt",
+            "cancelledByEmployerWithinProbation": "A munkáltató próbaidőn belül törölte",
+            "cancelledByEmployerUwv": "A munkáltató törölte, az UWV jóváhagyta",
+            "cancelledByJudge": "A bíró törölte",
+            "cancelledByAgreement": "Megállapodott szerződésbontás",
+            "cancelledByEmployee": "A munkavállaló törölte",
+            "cancelledByEmployer": "A munkáltató törölte",
+            "endByLawOtherReason": "A munkaviszony törvény szerinti befejezése egyéb okból",
+            "deploymentEndByIllness": "A munkaviszony befejezése betegség miatt",
+            "deploymentEndByOtherReason": "A munkaviszony befejezése egyéb ok miatt",
+            "continuedWithoutIncome": "Bevétel nélkül folytatódott",
+            "otherReason": "Egyéb ok"
+        }
+    },
+    "cv": {
+        "certificate": {
+            "addEducation": "Képzettség / Kvalifikáció hozzáadása",
+            "certificates": "Bizonyítványok",
+            "description": "Leírás",
+            "addCertificate": "Bizonyítvány hozzáadása"
+        },
+        "language": {
+            "pickLanguage": "Nyelvek kiválasztása",
+            "languages": "Nyelvek",
+            "rating": "A nyelvek értékelése"
+        },
+        "profile": {
+            "profileSummary": "Írja ide a profil összefoglalót (min. 150 szó szükséges).",
+            "profile": "Profil"
+        },
+        "education": {
+            "educationsAndQualifications": "Képzettségek és kvalifikációk",
+            "educationsDescription": "Képzettség leírás"
+        },
+        "title": "Cím",
+        "from": "Feladó",
+        "till": "Eddig",
+        "interest": {
+            "interests": "Érdeklődési körök",
+            "pickInterests": "Érdeklődési körök kiválasztása"
+        },
+        "select": "Kiválasztás",
+        "reference": {
+            "references": "Referenciák",
+            "fullName": "Munkáltató teljes neve",
+            "company": "Vállalat",
+            "telephone": "Telefon",
+            "email": "E-mail",
+            "addReference": "Referencia hozzáadása"
+        },
+        "skill": {
+            "skills": "Készségek",
+            "pickSkills": "Készségek kiválasztása",
+            "rating": "Készségek értékelése"
+        },
+        "work": {
+            "workExperience": "Munkatapasztalat",
+            "function": "Funkció",
+            "jobDescription": "Munkaköri leírás",
+            "addWorkExperience": "Munkaköri leírás hozzáadása"
+        },
+        "dialog": {
+            "close": "Bezárás",
+            "generateCv": "CV generálása"
+        }
+    },
+    "wageAttachment": {
+        "static": {
+            "garnishee": "Garnishee",
+            "informationRequestSent": "A tájékoztatási kérelem el lett küldve",
+            "garnisheeContact": "Garnishee kapcsolat",
+            "garnisheeCity": "Garnishee város",
+            "reference": "Referencia",
+            "taxFreeSum": "Adómentes összeg",
+            "overallSum": "Teljes összeg",
+            "outstandingAmount": "Kintlévőség összege",
+            "paidAmount": "Fizetett összeg",
+            "outstanding": "Kintlévőség",
+            "paid": "Fizetett"
+        },
+        "actions": {
+            "informationRequest": "Tájékoztatási kérelem",
+            "sendInformationRequest": "Tájékoztatási kérelem küldése"
+        }
+    },
+    "invitation": {
+        "actions": {
+            "sendInvitation": "Meghívó küldése"
+        },
+        "static": {
+            "inviteSuccess": "Meghívás sikeres",
+            "tokenInvalid": "Érvénytelen token",
+            "tokenInvalidDescription": "A token érvénytelen."
+        }
+    },
+    "documentTemplate": {
+        "actions": {
+            "saveTranslation": "Fordítás mentése"
+        },
+        "static": {
+            "leadGenerationAgreement": "Lead generálás megállapodás",
+            "employmentConfirmation": "Munkaviszony megerősítése",
+            "guaranteeAgreement": "Garanciamegállapodás",
+            "intermediateAgreement": "Ügynökségi megállapodás",
+            "jobConfirmationFreelancer": "Szabadúszó munkaviszony visszaigazolás",
+            "deductionsAndAdvances": "Levonások és előlegek",
+            "collaborationAgreementFreelancer": "Szabadúszó együttműködési megállapodás",
+            "healthcareAgreement": "Egészségügyi megállapodás",
+            "contractPhase12": "Szerződés fázis 1/2",
+            "contractPhase3": "Szerződés fázis 3",
+            "contractPhase4": "Szerződés fázis 4",
+            "termsAndConditions": "Általános szerződési feltételek",
+            "frameworkAgreement": "Keretmegállapodás",
+            "hireAgreement": "Toborzási megállapodás",
+            "jobConfirmation": "Állás megerősítése",
+            "declarationAgreement": "Nyilatkozati megállapodás",
+            "employmentTerminationAgreement": "Munkaviszony megszűnéséről szóló megállapodás",
+            "etAddendum": "ET kiegészítés",
+            "antiDiscriminationPolicy": "Diszkriminációellenes politika",
+            "staffGuide": "Személyzeti útmutató",
+            "employersDeclaration": "Munkáltatói nyilatkozat",
+            "contractPayrollFixedTerm": "Határozott idejű bérszámfejtési szerződés",
+            "contractPayrollPermanent": "Határozatlan idejű bérszámfejtési szerződés",
+            "hireAgreementFreelancers": "Szabadúszó toborzási szerződés",
+            "idStatementForm": "Azonosítószám nyilatkozat",
+            "deliveryDeed": "Szállítólevél",
+            "wageAttachmentRequest": "Bérmelléklet kérvény",
+            "mediationAgreement": "Mediációs megállapodás",
+            "healthcareAuthorisationForm": "Egészségügyi engedély nyomtatvány",
+            "payrollConfirmation": "Bérszámfejtés megerősítése"
+        }
+    },
+    "employees": {
+        "static": {
+            "activeOnly": "Csak aktív",
+            "linkedThroughEmployment": "Munkaviszonyon keresztül kapcsolódik"
+        }
+    },
+    "contractType": {
+        "static": {
+            "phase1And2": "Fázis 1/2",
+            "phase3": "Fázis 3",
+            "phase4": "Fázis 4",
+            "payrollFixedTerm": "Bérszámfejtés (határozott idejű)",
+            "payrollPermanent": "Bérszámfejtés (állandó)"
+        }
+    },
+    "note": {
+        "actions": {
+            "deleteConfirmationText": "Biztosan törli ezt a jegyzetet?",
+            "delete": "Törlés",
+            "cancel": "Mégsem"
+        },
+        "success": {
+            "deleted": "A jegyzet törlése sikeres volt."
+        }
+    },
+    "riskGroup": {
+        "static": {
+            "administrative": "Adminisztratív",
+            "executive": "Vezető"
+        }
+    },
+    "hirer": {
+        "form": {
+            "remunerationSpecifics": "Részletek",
+            "otherCompensations": "Egyéb kompenzációk",
+            "companyOwnedScheme": "Vállalati tulajdonú terv",
+            "overtime": "Túlórák",
+            "shiftWork": "Műszakos munka",
+            "travelHours": "Utazási órák",
+            "travelCost": "Utazási költségek",
+            "holidays": "Szabadságok"
+        },
+        "static": {
+            "archivedText": "Ez a munkáltató archiválva van.",
+            "hirerRemuneration": "Munkáltatói díjazás",
+            "deleteSuccess": "Az alkalmazó törölve.",
+            "deleteConfirmationText": "Biztosan törli ezt az alkalmazót?",
+            "deleteFailed": "Nem sikerült törölni az alkalmazót.",
+            "saved": "Az alkalmazó mentésre került",
+            "projectDeleted": "A projektet törlésre került.",
+            "assignment": "Feladat",
+            "inviteExistingInfoText": "A meghívót elküldjük {companyName} toborzónak.",
+            "inviteNewInfoText": "Meghívót küldünk egy új toborzónak.",
+            "notMinimumCompanyFreelancerHourTypeMarginConfirmationText": "A szabadúszói óratípus alap árrése kisebb, mint a foglalkoztatási érték.",
+            "submittedForApproval": "A toborzó be lett nyújtva jóváhagyásra.",
+            "notMinimumCompanyFreelancerHourTypeMarginAdditionsConfirmationText": "Néhány árrés kiegészítő kisebb, mint a foglalkoztatási értékek.",
+            "missingRequiredAttributesConfirmText": "A toborzó még nem nyújtható be jóváhagyásra, mert néhány szükséges attribútum nincs kitöltve.",
+            "submitForApprovalConfirmText": "A toborzó be lesz nyújtva jóváhagyásra."
+        }
+    },
+    "import": {
+        "static": {
+            "reservationsImported": "Foglalások importálva"
+        }
+    },
+    "wizard": {
+        "static": {
+            "hirerNotApproved": "Ezt a munkáltatót még nem hagyták jóvá.",
+            "noDocumentsToGenerate": "Nincs létrehozandó dokumentum.",
+            "employmentAgencyNotApproved": "Ezt a munkaügyi ügynökséget még nem hagyták jóvá.",
+            "employeeNotApproved": "Ezt a munkavállalót még nem hagyták jóvá.",
+            "freelancerNotApproved": "Ezt a szabadúszót még nem hagyták jóvá.",
+            "resellerNotApproved": "Ezt a viszonteladót még nem hagyták jóvá."
+        },
+        "actions": {
+            "viewWizard": "Varázsló megtekintése"
+        }
+    },
+    "sickReport": {
+        "actions": {
+            "deleteConfirmationText": "Biztosan törli ezt a betegjelentést?",
+            "delete": "Törlés",
+            "cancel": "Elvetés"
+        },
+        "filter": {
+            "start": "Kezdés",
+            "currentSickOnly": "Csak a jelenleg betegek",
+            "end": "Befejezés"
+        },
+        "betterReport": {
+            "actions": {
+                "confirmationTextEmployee": "Biztos, hogy jobban szeretné gyógyultnak jelenteni ezt az alkalmazottat?",
+                "confirm": "Megerősítés",
+                "cancel": "Elvetés",
+                "confirmationText": "Biztosan szeretné gyógyultnak jelenteni?"
+            },
+            "confirmationQuestion": "Biztosan?",
+            "report": "Gyógyulás jelentése",
+            "success": "Az alkalmazott sikeresen gyógyúltnak lett jelentve."
+        },
+        "reportSick": "Betegjelentés",
+        "alreadySick": "A munkavállalót már betegnek jelentették.",
+        "success": {
+            "deleted": "A betegjelentést sikeresen törölték."
+        }
+    },
+    "outOfService": {
+        "processSuccess": "A szolgálaton kívüli értesítések feldolgozása sikeres.",
+        "search": "Keresés",
+        "process": "Folyamat",
+        "date": "Dátum",
+        "reason": "Ok",
+        "actions": {
+            "deleteConfirmationText": "Biztosan eltávolítja a szolgáltatáson kívüli értesítést?",
+            "delete": "Törlés",
+            "cancel": "Elvetés",
+            "processConfirmationText": "Biztosan feldolgozza a szolgáltatáson kívüli értesítést?",
+            "process": "Folyamat"
+        },
+        "onlyOutstanding": "Csak kiemelkedő"
+    },
+    "pensionPlan": {
+        "static": {
+            "basic": "Stipp alap",
+            "plus": "Stipp plusz",
+            "adequate": "Megfelelő",
+            "bpf": "BPF"
+        }
+    },
+    "creditLimit": {
+        "static": {
+            "finalAssessmentWillFollowLater": "A hitelkeret végleges értékelése később következik."
+        }
+    },
+    "deductions": {
+        "static": {
+            "amountIsLimited": "A levonás összege ezen időszak órái alapján korlátozott.",
+            "outstandingDeductions": "Kiemelkedő levonások",
+            "recurringDeductions": "Ismétlődő levonások",
+            "saved": "Levonások mentve.",
+            "amount": "Összeg",
+            "for": "Neki",
+            "remainingAmount": "Megmaradt összeg",
+            "files": "Fájlok",
+            "uploadFile": "Fájl feltöltése",
+            "deductFrom": "Levonás az alábbiból:",
+            "noDeductions": "Nincs levonás",
+            "remaining": "Fennmaradó",
+            "unexportedOnly": "Csak nem exportált"
+        }
+    },
+    "employmentAgency": {
+        "static": {
+            "archivedText": "Ez a munkaügyi ügynökség archiválva van.",
+            "deleteFailed": "A munkaközvetítő ügynökség törlése sikertelen.",
+            "deleteConfirmationText": "Biztosan törölni szeretné ezt a munkaközvetítő ügynökséget?",
+            "deleteSuccess": "A munkaközvetítő ügynökség törölve.",
+            "inviteExistingInfoText": "A meghívót elküldjük a(z) {companyName} munkaerő-közvetítő ügynökségnek.",
+            "inviteNewInfoText": "Meghívót küldünk egy új munkaerő-közvetítő irodának.",
+            "missingRequiredAttributesConfirmText": "A munkaközvetítő ügynökséget még nem lehet jóváhagyásra benyújtani, mert néhány szükséges attribútum nincs kitöltve.",
+            "submitForApprovalConfirmText": "A munkaügynökség be lesz nyújtva jóváhagyásra.",
+            "makeResellerConfirmationText": "Biztos, hogy viszonteladót hoz létre a munkaközvetítő számára?"
+        }
+    },
+    "filters": {
+        "static": {
+            "archivedOnly": "Csak archíváltak",
+            "withActiveEmploymentsOnly": "Csak aktív munkaviszonnyal",
+            "readyForApproval": "Készen áll jóváhagyásra",
+            "createdByAdmin": "Létrehozta az admin",
+            "selectedEnterpriseOnly": "Csak kiválasztott vállalkozás"
+        }
+    },
+    "timeRegistrationPeriodStatus": {
+        "static": {
+            "requiresAction": "Intézkedést igényel",
+            "completed": "Befejezve",
+            "open": "Nyitva",
+            "locking": "Zárolás",
+            "locked": "Zárolva"
+        }
+    },
+    "employeePayslip": {
+        "actions": {
+            "sendNow": "Küldés most"
+        },
+        "static": {
+            "sendEmailConfirmationText": "Biztos, hogy most el akarja küldeni a bérszámfejtési papírt?",
+            "sendEmailSuccess": "A bérszámfejtési papír el lett küldve.",
+            "sendEmailFailed": "A bérszámfejtési papírt nem lehetett elküldeni."
+        }
+    },
+    "invoiceGroup": {
+        "static": {
+            "custom": "Egyedi",
+            "timeRegistration": "Időrögzítés"
+        }
+    },
+    "error": {
+        "static": {
+            "description": "Hiba történt. Próbálja meg frissíteni, vagy lépjen vissza az előző oldalra.",
+            "pageNotFoundDescription": "Nem találtuk a keresett oldalt.",
+            "serverError": "Szerver hiba",
+            "pageNotFound": "Az oldal nem található"
+        },
+        "actions": {
+            "back": "Vissza az előző oldalra"
+        }
+    },
+    "reservations": {
+        "static": {
+            "deleted": "A foglalás törlésre került",
+            "editBuildupInfo": "Ezen értékek módosításakor a megfelelő időregisztráció frissül.\nÚj kérelem létrehozásakor, vagy ha a kérést már kifizették;\n- A foglalás állapota frissül.\n- A kérelem nem jelenik meg a kifizetési exportban.\nEgy még ki nem fizetett kérelem frissítésekor;\n- A foglalás állapota nem frissül.\n- A kérelem frissül a kifizetési exportban.",
+            "buildup": "Felépítés",
+            "paidOut": "Kifizetve",
+            "noBuildupFound": "Felépítés nem található",
+            "showEmptyPeriods": "Üres időszakok megjelenítése",
+            "request": "Kérelem",
+            "saved": "A foglalás mentésre került.",
+            "deleteReservationText": "A foglalás törlésre kerül az időregisztrációból.",
+            "reservationRequest": "Foglalási kérelmek",
+            "newRequest": "Új kérelem",
+            "canOnlyEditHistoricalBuildupInfo": "Csak történelmi értékek szerkeszthetők.",
+            "noReservations": "Nincs foglalás",
+            "requestReservations": "Foglalás kérése",
+            "calculationTool": "Kalkulációs eszköz"
+        },
+        "tooltip": {
+            "warningRequestNotYetExported": "Ez a kérelem még nem került kifizetésre."
+        },
+        "actions": {
+            "request": "Kérelem"
+        }
+    },
+    "project": {
+        "static": {
+            "projectManagers": "Projektmenedzserek",
+            "createProject": "Projekt létrehozása",
+            "projectCreationSuccess": "Projekt sikeresen létrehozva.",
+            "updateProject": "Projekt frissítése",
+            "deleteProjectConfirmationText": "Biztosan törli a projektet?"
+        }
+    },
+    "search": {
+        "static": {
+            "noMoreResults": "Nincs több eredmény.",
+            "ctrlShiftF": "Ctrl + Shift + F"
+        }
+    },
+    "holiday": {
+        "static": {
+            "newYear": "Újév",
+            "easterMonday": "Húsvéthétfő",
+            "ascensionDay": "Áldozócsütörtök",
+            "whitMonday": "Pünkösdhétfő",
+            "firstChristmasDay": "Karácsony 1. napja",
+            "secondChristmasDay": "Karácsony 2. napja",
+            "kingsDay": "Király napja",
+            "liberationDay": "Felszabadítás napja"
+        }
+    },
+    "factoringCompany": {
+        "static": {
+            "deleted": "A faktoring cég törlésre került."
+        }
+    },
+    "companyType": {
+        "static": {
+            "healthcare": "Egészségügy",
+            "default": "Alapértelmezett"
+        }
+    },
+    "workServiceType": {
+        "static": {
+            "night": "Éjszakai műszak",
+            "weekend": "Hétvégi műszak",
+            "reachability": "Elérhetőségi szolgáltatás",
+            "consignment": "Szállítási szolgáltatás"
+        }
+    },
+    "media": {
+        "static": {
+            "type": "Típus",
+            "other": "Egyéb",
+            "curriculumVitae": "Önéletrajz",
+            "motivationLetter": "Motivációs levél",
+            "diploma": "Oklevél",
+            "certificateOfConduct": "Erkölcsi bizonyítvány",
+            "pdfPagesCount": "A PDF-nek {amount} oldala van"
+        }
+    },
+    "entity": {
+        "static": {
+            "enterprise": "Vállalat",
+            "employmentAgency": "Munkaközvetítő",
+            "hirer": "Toborzó",
+            "employee": "Munkavállaló",
+            "freelancer": "Szabadúszó"
+        }
+    },
+    "healthInsurance": {
+        "static": {
+            "saved": "Az egészségbiztosítások mentésre kerültek."
+        }
+    },
+    "marginType": {
+        "static": {
+            "default": "Alapértelmezett",
+            "etRegulation": "ET szabályozás",
+            "overtime": "Túlóra",
+            "hourType": "Óra típusa",
+            "senior": "Felettes"
+        }
+    },
+    "freelancerHourTypeMarginAddition": {
+        "static": {
+            "hirerPaymentTermTableHeader": "Toborzó fizetési határidő",
+            "hourlyRateFreelancerTableHeader": "Órabér (-tól)"
+        }
+    },
+    "reseller": {
+        "static": {
+            "missingRequiredAttributesConfirmText": "A viszonteladót még nem lehet jóváhagyásra benyújtani, mert néhány szükséges attribútum nincs kitöltve.",
+            "deleteCustomerConfirmationText": "Biztos, hogy el akarja távolítani ezt az ügyfelet? Az ügyfélhez kapcsolódó összes árrés törlésre kerül.",
+            "submitForApprovalConfirmText": "A viszonteladó be lesz nyújtva jóváhagyásra.",
+            "archivedText": "Ez a viszonteladó archiválva van.",
+            "deleteConfirmationText": "Biztosan törli ezt a viszonteladót?",
+            "deleteSuccess": "A viszonteladó törlésre került.",
+            "deleteFailed": "A viszonteladót nem sikerült törölni.",
+            "employeeMargins": "Munkavállaló árrések",
+            "freelancerMargins": "Szabadúszó árrések",
+            "defaultMargin": "Alapértelmezett árrés",
+            "zeroMarginConfirmationText": "Egy vagy több margó értéke \"0\".",
+            "customerCanOnlyHaveOneResellerInfoMessage": "Ha a munkaközvetítő nem szerepel a listán, ellenőrizze, hogy nem kapcsolódik-e már egy másik viszonteladóhoz."
+        }
+    },
+    "personalAccessToken": {
+        "static": {
+            "personalAccessTokens": "Személyes hozzáférési tokenek",
+            "deletePersonalAccessTokenText": "A token törlődik, és a továbbiakban nem használható.",
+            "tokenCreatedInfo": "A token létrehozásra került. A token csak egyszer jelenik meg, ezért tárolja biztonságos helyen.",
+            "details": "Részletek",
+            "tokenPlaceholder": "A token itt jelenik meg.",
+            "tokenCopied": "Token a vágólapra másolva"
+        }
+    },
+    "teams": {
+        "static": {
+            "details": "Részletek",
+            "team": "Csapat",
+            "addTeam": "Csapat hozzáadása",
+            "teamOwner": "Csapat tulajdonos",
+            "roles": "Szerepek",
+            "deleteTeamText": "Biztosan törli ezt a csapatot?",
+            "deleteTeamPresetText": "Biztosan törli ezt a csapat előbeállítást?"
+        }
+    },
+    "roles": {
+        "static": {
+            "roleCreated": "Az szerep létrehozva.",
+            "permissionsSaved": "Az engedélyek el lettek mentve."
+        }
+    },
+    "teamType": {
+        "static": {
+            "freelancer": "Szabadúszó",
+            "employmentAgency": "Munkaközvetítő",
+            "employee": "Munkavállaló",
+            "hirer": "Toborzó",
+            "reseller": "Viszonteladó"
+        }
+    },
+    "messageBox": {
+        "static": {
+            "shouldSignDocument": {
+                "sendSignRequestConfirmationText": "A következő alanyok kapnak aláírási kérelmet",
+                "subject": "Tárgy",
+                "newSignTokenConfirmationText": "Egy új aláírási tokent kap.",
+                "newSignTokenSuccess": "Az aláírási token sikeresen megérkezett.",
+                "newSignTokenFailed": "Hiba történt az új aláírási token fogadásakor.",
+                "hideDocumentConfirmationText": "Biztos, hogy el akarja rejteni ezt a feladatot? Nem fog újra megjelenni."
+            },
+            "hideContractConfirmationText": "Biztos, hogy el akarja rejteni ezt a szerződést? Nem fog újra megjelenni."
+        }
+    },
+    "subsidyCompany": {
+        "static": {
+            "deleteSubsidyCompanyConfirmationText": "Biztos, hogy törölni akarja a támogatási társaságot?",
+            "deleted": "A támogatási vállalatot törölték."
+        }
+    },
+    "subsidy": {
+        "static": {
+            "clearToExcludeFromSubsidy": "Törölje ezt a mezőt, hogy kizárja ezt a tételt a támogatásból.",
+            "details": "Részletek",
+            "createSubsidy": "Támogatás létrehozása",
+            "updateSubsidy": "Támogatás frissítése",
+            "startDateInfo": "Ha a kezdőnap nem a hét eleje, a támogatást a következő hét elejétől kell figyelembe venni.",
+            "endDateInfo": "Ha az utolsó nap nem a hét vége, akkor a támogatás az előző hét végéig jár.",
+            "confirmation": "Támogatás megerősítése"
+        }
+    },
+    "proFormaPayslip": {
+        "static": {
+            "splitPayOutInfo": "Ha ez az opció be van kapcsolva, akkor a rendszeres órák a bérelszámolásban elkülönülnek a többi órától/pótdíjtól/kompenzációtól."
+        },
+        "actions": {
+            "previewCostPriceOverview": "Költség-ár áttekintés megtekintése",
+            "previewPayslip": "Fizetési jegyzék megtekintése"
+        }
+    }
+}
