@@ -79,8 +79,8 @@
                 showPassword: false,
 
                 credentials: {
-                    email: null,
-                    password: null,
+                    email: 'admin@weap.nl',
+                    password: 'admin',
                     device_name: 'webclient',
                 },
 
@@ -112,30 +112,37 @@
 
                 await api.request(`auth/token`)
                     .onSuccess(async (data) => {
-                        await this.$store.commit('page/team/setTeamId', data.default_team_id);
+                        // await this.$store.commit('page/team/setTeamId', data.default_team_id);
 
-                        await this.$store.dispatch('auth/validateToken', data.access_token);
+                        // await this.$store.dispatch('auth/validateToken', data.access_token);
 
-                        this.$emit('authenticated');
+                        // this.$emit('authenticated');
 
-                        this.loggingIn = false;
+                        // this.loggingIn = false;
+                        alert('logging in!')
                     })
                     .onValidationError((validation) => {
-                        this.validationErrors = validation?.errors ?? {};
+                        // this.validationErrors = validation?.errors ?? {};
 
-                        this.$emit('authentication-failed', this.validationErrors);
+                        alert('logging in!')
+
+
+                        // this.$emit('authentication-failed', this.validationErrors);
                     })
                     .onError((response) => {
-                        if (response.statusCode === 503) {
-                            this.isMaintenanceMode = true;
-                        }
 
-                        this.$emit('authentication-failed');
+                        alert('logging in!')
+                        // if (response.statusCode === 503) {
+                        //     this.isMaintenanceMode = true;
+                        // }
+
+                        // this.$emit('authentication-failed');
                     })
                     .post({
-                        locale: this.$store.state.localization.languageCode,
+                        locale: 'en',
                         ...this.credentials,
                     });
+
 
                 this.loggingIn = false;
             },

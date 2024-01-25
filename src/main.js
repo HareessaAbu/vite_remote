@@ -9,6 +9,7 @@ import * as components from 'vuetify/components';
 import * as directives from 'vuetify/directives';
 import { setupI18n } from './plugins/i18n';
 import('@/styles/overrides.scss');
+import '@/plugins/restapi';
 import lodash from 'lodash';
 
 const app = createApp(App);

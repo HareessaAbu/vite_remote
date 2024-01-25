@@ -22,7 +22,7 @@
         </v-row>
 
         <v-card-text>
-            <LoginForm @authenticated="authenticated" />
+            <LoginForm />
         </v-card-text>
     </v-card>
 </template>
@@ -37,9 +37,9 @@
         components: { LoginForm },
 
         methods: {
-            authenticated () {
-                this.$router.replace(this.$route.query.redirect || '/');
-            },
+            // authenticated () {
+            //     this.$router.replace(this.$route.query.redirect || '/');
+            // },
         },
     };
 </script>
