@@ -53,8 +53,8 @@
             We are currently down for maintenance. Please check back again later.
         </v-alert>
     </div>
-    <div>
-        Child component from remote:
+    <div style="margin-top: 50px">
+       <span>Child component from remote:</span>
         <Hello />
     </div>
 </template>
