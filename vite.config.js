@@ -45,9 +45,6 @@ export default defineConfig({
     federation({
         name: 'remote-app',
         filename: 'remoteFile.js',
-        optimizeDeps: {
-          include: ['vuetify','vue','@payoffice2.0/vuetify'],
-        },
         exposes: {
           './LoginForm': {
             name: 'LoginForm',
