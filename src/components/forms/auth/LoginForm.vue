@@ -53,7 +53,10 @@
             We are currently down for maintenance. Please check back again later.
         </v-alert>
     </div>
-    <Hello />
+    <div>
+        Child component from remote:
+        <Hello />
+    </div>
 </template>
 
 <script>
